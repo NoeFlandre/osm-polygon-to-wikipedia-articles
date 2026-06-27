@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# uv
+.venv/
+
+# Data (synced via HF bucket)
+data/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
