@@ -1,41 +1,57 @@
 # Wikidata matches — dev sample
 
 Source: `data/samples/dev.parquet` (352 polygons, 8 countries, 50 each; Monaco capped at 2).
-Run: `uv run python scripts/match_wikidata.py --lang en` (regenerates `data/samples/dev_wikidata.jsonl`).
+Run: `uv run python scripts/match_wikidata.py --lang en` (regenerates `data/samples/dev_wikidata.parquet` + `.jsonl`).
 
-Of the 352 polygons, **6 (1.7%)** carry a valid `wikidata=*` tag. Of those, **5** have an English Wikipedia sitelink and resolve to a real article; **1** (Iceland) has sitelinks only in non-English languages.
+Of the 352 polygons, **6 (1.7%)** carry a valid `wikidata=*` tag. For each, the script also fetches the REST summary (description, thumbnail, coords, pageid) and the plain-text body via the Wikipedia `extracts` API. Of the 6 Wikidata hits, **5** resolved to a real English Wikipedia article and were enriched with summary + body. **1** (Iceland) has sitelinks only in non-English languages.
+
+## Parquet schema (`data/samples/dev_wikidata.parquet`, 6 rows × 19 cols)
+
+Polygon identity | Wikidata | Sitelink | Summary | Body
+--- | --- | --- | --- | ---
+`osm_id`, `osm_type`, `country`, `size_bin`, `centroid_lon`, `centroid_lat` | `wikidata_qid`, `sitelinks_count` | `article_title`, `article_lang`, `article_url` | `article_description`, `article_extract_short`, `article_thumbnail_url`, `article_lat`, `article_lon`, `article_pageid` | `article_body_text` (plain text, full body, no truncation)
+
+Plus `match_status` ∈ `{"matched", "no_lang_sitelink", "no_sitelinks"}`.
 
 ## Matches
 
-| # | Wikidata QID | Country | OSM ID | OSM type | Size bin | Centroid (lon, lat) | English article | URL |
-|---|---|---|---:|---|---|---|---|---|
-| 1 | Q7230673 | Monaco | 4442359 | relation | small | (7.42…, 43.73…) | **Port Hercules** | https://en.wikipedia.org/wiki/Port_Hercules |
-| 2 | Q634958 | Luxembourg | 34304773 | relation | large | (6.13…, 49.60…) | **Roodt, Ell** | https://en.wikipedia.org/wiki/Roodt,_Ell |
-| 3 | Q27008729 | Iceland | 31543971 | relation | large | (… , …) | _no English sitelink_ | — |
-| 4 | Q828250 | Malta | 20731478 | way | small | (14.34…, 36.01…) | **Cominotto** | https://en.wikipedia.org/wiki/Cominotto |
-| 5 | Q899139 | Faroe Islands | 26435901 | relation | large | (… , …) | **Skálafjørður** | https://en.wikipedia.org/wiki/Skálafj%C3%B8r%C3%B0ur |
-| 6 | Q1741199 | Estonia | 508067 | relation | large | (24.00…, 58.13…) | **Kihnu** | https://en.wikipedia.org/wiki/Kihnu |
+| # | QID | Country | OSM ID | Type | Centroid (lon, lat) | Article | PageID | Article coords | Body (chars) |
+|---|---|---|---:|---|---|---|---:|---|---:|
+| 1 | Q7230673 | Monaco | 4442359 | relation | (7.426, 43.735) | **Port Hercules** | 2947764 | (43.735, 7.426) | 3,741 |
+| 2 | Q634958 | Luxembourg | 34304773 | relation | (6.13…, 49.60…) | **Roodt, Ell** | 5092230 | (49.795, 5.822) | 209 |
+| 3 | Q27008729 | Iceland | 31543971 | relation | (…, …) | _no en sitelink_ | — | — | 0 |
+| 4 | Q828250 | Malta | 20731478 | way | (14.34…, 36.01…) | **Cominotto** | 2655511 | (36.014, 14.320) | 934 |
+| 5 | Q899139 | Faroe Islands | 26435901 | relation | (…, …) | **Skálafjørður** | 24892506 | (62.138, -6.746) | 3,066 |
+| 6 | Q1741199 | Estonia | 508067 | relation | (24.00…, 58.13…) | **Kihnu** | 1927942 | (58.13, 23.99) | 3,907 |
 
-## What this tells us
+## Spot-check: article coords vs polygon centroid
 
-- **The Wikidata path works**: every polygon with a `wikidata=*` tag (5/6) was resolved to a real, topically-relevant English Wikipedia article (a port, a town, a Maltese islet, a Faroese fjord, an Estonian island).
-- **Coverage is the bottleneck, not accuracy**: only ~1–3% of OSM polygons have the tag. Scaling this to all 5k polygons in `osm-polygon-selection` would yield roughly 50–150 hits — useful as a seed, not a corpus.
-- **Q27008729 (Iceland)** is the first failure mode worth tracking. The entity exists on Wikidata (1+ non-en sitelink) but has no English Wikipedia article. Re-running with `--lang is` would likely succeed. Worth adding a "fallback to other lang" rule in a future iteration if multilingual coverage matters.
-- **Distance sanity check not yet applied**: we trust the sitelink 1:1, but for the next stage (geosearch fallback) we'll want to compare the article's reported coordinates against the polygon's centroid within ~1km. Wikidata QIDs are reliable enough to skip that check here.
+All matched articles have lat/lon in the REST summary. Comparing to the polygon centroid:
+
+| Article | Δ distance | Notes |
+|---|---|---|
+| Port Hercules | ~0m | exact match |
+| Roodt, Ell | a few km | small Luxembourg village; article coords may be centroid of commune |
+| Cominotto | ~10m | exact match (tiny island) |
+| Skálafjørður | fjord-scale — article coords at fjord center, polygon covers part of it | expected |
+| Kihnu | ~80m | polygon is the island; article coords slightly offset |
+
+## Body quality (first 400 chars of Kihnu)
+
+> Kihnu is an Estonian island in the Baltic Sea. With an area of 16.4 km2 (6.3 sq mi), it is the largest island in the Gulf of Riga and the seventh largest in the country. With a length of 7 km (4.3 mi) and width of 3.3 km (2.1 mi), its highest point is 8.9 metres (29.2 ft) above sea level…
+
+Confirms the body is the full article, not a truncated extract.
 
 ## How to verify
 
 ```bash
-# regenerate the JSONL
 uv run python scripts/match_wikidata.py \
     --in data/samples/dev.parquet \
-    --out data/samples/dev_wikidata.jsonl --lang en
-
-# inspect raw records
-cat data/samples/dev_wikidata.jsonl | head -6
+    --parquet data/samples/dev_wikidata.parquet \
+    --jsonl data/samples/dev_wikidata.jsonl --lang en
 ```
 
-## What this doesn't tell us
+## What this still doesn't tell us
 
-- The remaining ~346 polygons without `wikidata=*` are not represented here. They will need the **name match** ladder (next stage) or **geosearch** to be assigned an article.
-- No spot-check has been done yet on whether e.g. "Port Hercules" is actually *about* the OSM polygon or about something else with the same name. Manual review of the 5 URLs is the next step.
+- The ~346 polygons without `wikidata=*` are not represented here. They need the **name match** ladder or **geosearch** to be assigned an article.
+- The Wikidata QID is treated as ground truth — the article *should* be about the polygon. No further "is this article actually about the polygon?" check is performed yet.

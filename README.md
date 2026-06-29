@@ -9,7 +9,7 @@ Data synced via Hugging Face bucket: `hf://buckets/NoeFlandre/osm-polygon-to-wik
 | Stage | Status | Notes |
 |---|---|---|
 | 1. Load + sample polygons from HF dataset | done | `polygons/` package, 12 tests |
-| 2a. Wikidata golden path (QID -> article) | done | `wikipedia/wikidata.py`, `wikipedia/match.py`, 18 tests |
+| 2a. Wikidata golden path (QID -> article + summary + body) | done | `wikipedia/{wikidata,summary,extracts,match,types}.py`, 28 tests |
 | 2b. Name match (`name=*` -> article summary) | not started | next |
 | 2c. Geosearch by centroid fallback | not started | after 2b |
 
@@ -23,22 +23,26 @@ src/osm_polygon_to_wikipedia_articles/
 │   ├── load.py             # HF I/O: list_countries, load_country
 │   └── sample.py           # pure: sample_polygons, build_sample
 └── wikipedia/
-    ├── wikidata.py         # pure: extract_qid, filter, resolve
-    ├── match.py            # orchestrator: match_polygons (testable, fetch injected)
-    └── http_client.py      # urllib wrappers for Wikidata + Wikipedia APIs
+    ├── types.py            # dataclasses: WikidataArticle, ArticleSummary, MatchResult
+    ├── wikidata.py         # pure: extract_qid, filter, resolve (sitelinks)
+    ├── summary.py          # HTTP: REST /page/summary
+    ├── extracts.py         # HTTP: /w/api.php?prop=extracts&explaintext (full body)
+    ├── match.py            # orchestrator: match_polygons -> parquet/jsonl
+    └── http_client.py      # urllib wrapper for the Wikidata API
 
 scripts/
 ├── sample.py               # CLI: polygons -> parquet
-└── match_wikidata.py       # CLI: parquet -> jsonl via stage 2a
+└── match_wikidata.py       # CLI: parquet -> parquet+jsonl via stage 2a
 
 docs/
-└── wikidata_matches.md     # per-match inspection table for stage 2a
+└── wikidata_matches.md     # per-match inspection table + parquet schema for stage 2a
 
 data/samples/               # gitignored
 ├── dev.parquet             # 352 polygons, 8 countries
-└── dev_wikidata.jsonl      # 6 results from stage 2a (5 matched, 1 no en sitelink)
+├── dev_wikidata.parquet    # 6 polygons × 19 cols (Wikidata + summary + body)
+└── dev_wikidata.jsonl      # same data, JSONL form
 
-tests/                      # 30 tests, all green
+tests/                      # 40 tests, all green
 ```
 
 ## Wikidata coverage in the dev sample
@@ -64,10 +68,11 @@ uv run python scripts/sample.py \
     --countries liechtenstein,monaco,andorra,luxembourg,iceland,malta,faroe-islands,estonia \
     --n 50 --out data/samples/dev.parquet
 
-# 2. match Wikidata QIDs to Wikipedia articles
+# 2. match Wikidata QIDs, fetch summaries + bodies, write parquet
 uv run python scripts/match_wikidata.py \
     --in data/samples/dev.parquet \
-    --out data/samples/dev_wikidata.jsonl --lang en
+    --parquet data/samples/dev_wikidata.parquet \
+    --jsonl data/samples/dev_wikidata.jsonl --lang en
 ```
 
 ## Tests

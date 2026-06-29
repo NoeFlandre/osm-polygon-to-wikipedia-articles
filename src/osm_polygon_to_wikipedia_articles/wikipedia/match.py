@@ -1,12 +1,13 @@
-"""Orchestrator: walk a polygon sample, fetch Wikidata sitelinks, build MatchResult records.
+"""Orchestrator: walk a polygon sample, fetch Wikidata + Wikipedia article data.
 
-Pure composition over ``wikidata.py`` and ``http_client.py``. Network access is
-injected via ``fetch`` so tests can stub it.
+Pure composition over ``wikidata.py``, ``summary.py``, ``extracts.py``. Network
+access is injected via ``fetch_sitelinks``, ``fetch_summary``, ``fetch_extract``
+so tests can stub it.
 """
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from pathlib import Path
 from typing import Callable, Protocol
 
@@ -17,53 +18,50 @@ from .wikidata import (
     filter_polygons_with_wikidata,
     resolve_wikidata_to_article,
 )
+from .types import MatchResult, ArticleSummary
 
 
 class SitelinksFetcher(Protocol):
-    """Anything that turns a QID into a ``sitelinks`` dict (or None on miss)."""
-
     def __call__(self, qid: str) -> dict[str, dict[str, str]] | None: ...
 
 
-@dataclass(frozen=True)
-class MatchResult:
-    """A polygon's Wikidata match outcome."""
-    osm_id: int
-    osm_type: str
-    country: str
-    size_bin: str
-    centroid_lon: float
-    centroid_lat: float
-    wikidata_qid: str
-    article_title: str | None
-    article_lang: str | None
-    article_url: str | None
-    sitelinks_count: int
-    match_status: str  # "matched" | "no_sitelinks" | "no_lang_sitelink"
+class SummaryFetcher(Protocol):
+    def __call__(self, lang: str, title: str) -> ArticleSummary | None: ...
+
+
+class ExtractFetcher(Protocol):
+    def __call__(self, lang: str, title: str) -> str | None: ...
 
 
 def match_polygons(
     df: pl.DataFrame,
     lang: str = "en",
-    fetch: SitelinksFetcher | None = None,
-    out_path: Path | None = None,
+    *,
+    fetch_sitelinks: SitelinksFetcher | None = None,
+    fetch_summary: SummaryFetcher | None = None,
+    fetch_extract: ExtractFetcher | None = None,
+    out_parquet: Path | None = None,
+    out_jsonl: Path | None = None,
 ) -> list[MatchResult]:
-    """For every polygon with a valid ``wikidata=*`` tag, resolve to a Wikipedia article.
+    """For every polygon with a valid ``wikidata=*`` tag:
 
-    ``fetch`` must be provided in production — it is the HTTP layer (e.g.
-    :func:`http_client.fetch_wikidata_sitelinks`). When ``None``, the
-    in-memory :func:`_stub_fetch` is used (only useful for offline smoke tests).
+    1. resolve to the Wikipedia article title via Wikidata sitelinks
+    2. fetch the REST summary (extract, description, thumbnail, coords, pageid, url)
+    3. fetch the plain-text body of the article
     """
-    if fetch is None:
-        fetch = _stub_fetch
+    fetch_sitelinks = fetch_sitelinks or _stub_fetch_sitelinks
+    fetch_summary = fetch_summary or _stub_fetch_summary
+    fetch_extract = fetch_extract or _stub_fetch_extract
 
     wd_df = filter_polygons_with_wikidata(df)
     results: list[MatchResult] = []
+
     for row in wd_df.iter_rows(named=True):
         qid = extract_wikidata_qid(row["tags"])
         if qid is None:
             continue
-        sitelinks = fetch(qid) or {}
+
+        sitelinks = fetch_sitelinks(qid) or {}
         article = resolve_wikidata_to_article(qid, lang=lang, sitelinks=sitelinks)
 
         if not sitelinks:
@@ -72,6 +70,13 @@ def match_polygons(
             status = "no_lang_sitelink"
         else:
             status = "matched"
+
+        # summary + body (best-effort; None on failure)
+        summary_obj: ArticleSummary | None = None
+        body: str | None = None
+        if article is not None:
+            summary_obj = fetch_summary(lang, article.title)
+            body = fetch_extract(lang, article.title)
 
         results.append(MatchResult(
             osm_id=row["osm_id"],
@@ -83,21 +88,52 @@ def match_polygons(
             wikidata_qid=qid,
             article_title=article.title if article else None,
             article_lang=lang if article else None,
-            article_url=article.url if article else None,
+            article_url=(summary_obj.url if summary_obj and summary_obj.url else (article.url if article else None)),
             sitelinks_count=len(sitelinks),
             match_status=status,
+            article_description=summary_obj.description if summary_obj else None,
+            article_extract_short=summary_obj.extract if summary_obj else None,
+            article_thumbnail_url=summary_obj.thumbnail_url if summary_obj else None,
+            article_lat=summary_obj.lat if summary_obj else None,
+            article_lon=summary_obj.lon if summary_obj else None,
+            article_pageid=summary_obj.pageid if summary_obj else None,
+            article_body_text=body,
         ))
 
-    if out_path is not None:
-        out_path = Path(out_path)
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        with out_path.open("w") as f:
-            for r in results:
-                f.write(json.dumps(asdict(r)) + "\n")
+    if out_parquet is not None:
+        _write_parquet(results, out_parquet)
+    if out_jsonl is not None:
+        _write_jsonl(results, out_jsonl)
 
     return results
 
 
-def _stub_fetch(qid: str) -> dict[str, dict[str, str]]:
-    """Offline stub: useful only for tests/dev. Always returns empty."""
+# --- writers --------------------------------------------------------------
+
+def _write_parquet(results: list[MatchResult], path: Path) -> None:
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    df = pl.DataFrame([asdict(r) for r in results])
+    df.write_parquet(path)
+
+
+def _write_jsonl(results: list[MatchResult], path: Path) -> None:
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w") as f:
+        for r in results:
+            f.write(json.dumps(asdict(r)) + "\n")
+
+
+# --- stubs (offline / dev only) -------------------------------------------
+
+def _stub_fetch_sitelinks(qid: str) -> dict[str, dict[str, str]]:
     return {}
+
+
+def _stub_fetch_summary(lang: str, title: str) -> ArticleSummary | None:
+    return None
+
+
+def _stub_fetch_extract(lang: str, title: str) -> str | None:
+    return None

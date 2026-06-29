@@ -1,6 +1,6 @@
 """Tests for the Wikidata matching orchestrator.
 
-Network is fully stubbed via a ``fetch`` callable so the orchestrator stays
+Network is fully stubbed via injected fetchers so the orchestrator stays
 testable without HTTP.
 """
 from __future__ import annotations
@@ -10,10 +10,8 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.match import (
-    MatchResult,
-    match_polygons,
-)
+from osm_polygon_to_wikipedia_articles.wikipedia.match import match_polygons
+from osm_polygon_to_wikipedia_articles.wikipedia.types import ArticleSummary
 
 
 def _sample_df() -> pl.DataFrame:
@@ -39,16 +37,33 @@ SITELINKS_PORT_HERCULES = {
 }
 
 
+def _stub_sitelinks(payload: dict[str, dict] | None):
+    def fetch(qid: str):
+        return payload
+    return fetch
+
+
+def _stub_summary(payload: ArticleSummary | None):
+    def fetch(lang: str, title: str, **kwargs):
+        return payload
+    return fetch
+
+
+def _stub_extract(body: str | None):
+    def fetch(lang: str, title: str, **kwargs):
+        return body
+    return fetch
+
+
 def test_match_returns_records_for_polygons_with_wikidata() -> None:
     df = _sample_df()
 
-    def fetch(qid: str) -> dict | None:
-        assert qid == "Q7230673"
-        return SITELINKS_PORT_HERCULES
-
-    results = match_polygons(df, lang="en", fetch=fetch)
-
-    # Only one polygon has a valid wikidata= tag (id=1). The malformed one is filtered out by extract_wikidata_qid.
+    results = match_polygons(
+        df, lang="en",
+        fetch_sitelinks=_stub_sitelinks(SITELINKS_PORT_HERCULES),
+        fetch_summary=_stub_summary(None),
+        fetch_extract=_stub_extract(None),
+    )
     assert len(results) == 1
     r = results[0]
     assert r.osm_id == 1
@@ -61,10 +76,12 @@ def test_match_returns_records_for_polygons_with_wikidata() -> None:
 def test_match_records_no_qid_when_sitelinks_missing() -> None:
     df = _sample_df()
 
-    def fetch(qid: str) -> dict | None:
-        return None  # network / 404
-
-    results = match_polygons(df, lang="en", fetch=fetch)
+    results = match_polygons(
+        df, lang="en",
+        fetch_sitelinks=_stub_sitelinks(None),
+        fetch_summary=_stub_summary(None),
+        fetch_extract=_stub_extract(None),
+    )
     assert len(results) == 1
     assert results[0].match_status == "no_sitelinks"
     assert results[0].article_title is None
@@ -73,10 +90,12 @@ def test_match_records_no_qid_when_sitelinks_missing() -> None:
 def test_match_records_no_lang_when_lang_not_in_sitelinks() -> None:
     df = _sample_df()
 
-    def fetch(qid: str) -> dict:
-        return SITELINKS_PORT_HERCULES  # has en/fr but no de
-
-    results = match_polygons(df, lang="de", fetch=fetch)
+    results = match_polygons(
+        df, lang="de",
+        fetch_sitelinks=_stub_sitelinks(SITELINKS_PORT_HERCULES),
+        fetch_summary=_stub_summary(None),
+        fetch_extract=_stub_extract(None),
+    )
     assert len(results) == 1
     assert results[0].match_status == "no_lang_sitelink"
 
@@ -85,15 +104,17 @@ def test_match_writes_jsonl(tmp_path: Path) -> None:
     df = _sample_df()
     out = tmp_path / "matches.jsonl"
 
-    def fetch(qid: str) -> dict:
-        return SITELINKS_PORT_HERCULES
-
-    results = match_polygons(df, lang="en", fetch=fetch, out_path=out)
+    results = match_polygons(
+        df, lang="en",
+        fetch_sitelinks=_stub_sitelinks(SITELINKS_PORT_HERCULES),
+        fetch_summary=_stub_summary(None),
+        fetch_extract=_stub_extract(None),
+        out_jsonl=out,
+    )
 
     assert out.exists()
     lines = out.read_text().strip().split("\n")
     assert len(lines) == len(results)
-    # JSON must be valid
     import json
     for line in lines:
         record = json.loads(line)
@@ -112,8 +133,13 @@ def test_match_empty_when_no_polygons_have_wikidata() -> None:
         "size_bin": ["small", "small"],
     })
 
-    def fetch(qid: str) -> dict | None:
+    def fetch(qid: str):
         pytest.fail("fetch should not be called when no polygons have wikidata")
 
-    results = match_polygons(df, lang="en", fetch=fetch)
+    results = match_polygons(
+        df, lang="en",
+        fetch_sitelinks=fetch,
+        fetch_summary=_stub_summary(None),
+        fetch_extract=_stub_extract(None),
+    )
     assert results == []
