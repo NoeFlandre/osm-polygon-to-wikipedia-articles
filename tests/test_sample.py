@@ -2,7 +2,7 @@
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.sample import sample_polygons, build_sample
+from osm_polygon_to_wikipedia_articles.polygons import sample_polygons, build_sample
 
 
 def _make_df(n: int = 100, size_bins: tuple[str, ...] = ("small", "medium", "large"), country: str = "synthetic") -> pl.DataFrame:

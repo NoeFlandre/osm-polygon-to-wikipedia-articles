@@ -8,7 +8,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from osm_polygon_to_wikipedia_articles.sample import build_sample
+from osm_polygon_to_wikipedia_articles.polygons import build_sample
 
 DEFAULT_OUT = Path("data/sample.parquet")
 

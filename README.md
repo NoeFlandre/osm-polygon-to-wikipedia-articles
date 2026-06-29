@@ -6,15 +6,34 @@ Data synced via Hugging Face bucket: `hf://buckets/NoeFlandre/osm-polygon-to-wik
 
 ## Status
 
-Sampling layer only. Pipeline:
+Sampling layer only — next step is Wikipedia geosearch + article retrieval.
 
-1. `osm_polygon_to_wikipedia_articles.load` — `list_countries()`, `load_country(slug)` over the [`NoeFlandre/osm-polygon-selection`](https://huggingface.co/datasets/NoeFlandre/osm-polygon-selection) dataset.
-2. `osm_polygon_to_wikipedia_articles.sample` — `sample_polygons(df, n, seed, stratify_by)` and `build_sample(countries, n_per_country, seed, out_path)`.
+## Layout
+
+```
+src/osm_polygon_to_wikipedia_articles/
+├── polygons/           # Stage 1: load + sample OSM polygons
+│   ├── load.py         #   list_countries, load_country (HF I/O)
+│   └── sample.py       #   sample_polygons, build_sample (pure functions)
+└── wikipedia/          # Stage 2 (TODO): match polygons to Wikipedia articles
+
+scripts/
+└── sample.py           # CLI wrapper
+
+data/
+└── samples/            # gitignored, sampled parquet files
+    └── tiny.parquet    # 15 polygons from Liechtenstein for experimentation
+
+tests/
+└── fixtures/           # gitignored? tiny real-data fixtures
+```
 
 ## Usage
 
+Sample polygons:
+
 ```bash
-uv run python scripts/sample.py --countries liechtenstein,monaco --n 20 --out data/sample.parquet
+uv run python scripts/sample.py --countries liechtenstein --n 15 --out data/samples/tiny.parquet
 ```
 
 ## Tests

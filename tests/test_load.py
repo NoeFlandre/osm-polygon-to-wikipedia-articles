@@ -4,7 +4,12 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.load import list_countries, load_country
+from osm_polygon_to_wikipedia_articles.polygons import (
+    list_countries,
+    load_country,
+    sample_polygons,
+    build_sample,
+)
 
 FIXTURE_DIR = Path(__file__).parent / "fixtures"
 
