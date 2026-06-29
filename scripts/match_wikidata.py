@@ -101,9 +101,13 @@ def main() -> None:
     if args.map_path is not None:
         if matched:
             from dataclasses import asdict
+            from osm_polygon_to_wikipedia_articles.wikipedia.render import render_map_png
             map_df = pl.DataFrame([asdict(r) for r in matched])
             build_map(map_df, out_path=args.map_path)
             print(f"wrote map -> {args.map_path}")
+            png_path = args.map_path.with_suffix(".png")
+            render_map_png(args.map_path, png_path, width=1000, height=600)
+            print(f"wrote png -> {png_path}")
         else:
             print("(no matched polygons; skipping map)")
 

@@ -1,10 +1,7 @@
-"""Render the folium map HTML to a PNG via headless Chrome.
+"""Render a folium map HTML to a PNG via headless Chrome.
 
-Usage:
-    uv run python scripts/render_map_png.py \\
-        --in data/samples/dev_wikidata_map.html \\
-        --out data/samples/dev_wikidata_map.png \\
-        --width 1000 --height 600
+Library API: :func:`render_map_png`.
+CLI: ``uv run python scripts/render_map_png.py ...``
 """
 from __future__ import annotations
 
@@ -15,7 +12,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 
-def render_map_png(html_path: Path, png_path: Path, width: int, height: int) -> Path:
+def render_map_png(html_path: Path, png_path: Path, width: int = 1000, height: int = 600) -> Path:
+    """Open ``html_path`` in headless Chrome and save a ``width x height`` PNG."""
     html_path = Path(html_path).resolve()
     png_path = Path(png_path)
     png_path.parent.mkdir(parents=True, exist_ok=True)
