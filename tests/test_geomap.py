@@ -74,6 +74,26 @@ def test_build_polygon_map_includes_article_titles_in_html(tmp_path: Path) -> No
     assert "Kihnu" in html
 
 
+def test_build_polygon_map_renders_per_feature_popups(tmp_path: Path) -> None:
+    """Each polygon must have its own popup with the right article title.
+
+    folium's GeoJsonPopup registers a per-feature popup handler (via
+    ``onEachFeature`` + ``bindPopup``) so each polygon shows its own article
+    info when clicked. We verify the binding pattern + that each article
+    title appears in the HTML.
+    """
+    df = _matches_df()
+    out = tmp_path / "map.html"
+    build_polygon_map(df, out_path=out)
+    html = out.read_text()
+    # onEachFeature callback + bindPopup => per-feature popup
+    assert "onEachFeature" in html
+    assert "bindPopup" in html
+    # The two distinct article titles must each appear in the HTML
+    assert "Lake Engolasters" in html
+    assert "Kihnu" in html
+
+
 def test_build_polygon_map_renders_geojson_layer(tmp_path: Path) -> None:
     """Real polygons must be drawn, not just centroid markers."""
     df = _matches_df()

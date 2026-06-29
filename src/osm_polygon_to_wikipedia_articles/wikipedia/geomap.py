@@ -120,15 +120,19 @@ def build_polygon_map(
             },
             highlight_function=lambda _feat: {"weight": 4, "fillOpacity": 0.7},
         )
-        gj.add_child(folium.Popup(parse_html=False))
+        # Per-feature popup: read the HTML we stashed in feature.properties.popup
+        folium.GeoJsonPopup(
+            fields=["popup"],
+            labels=False,
+            localize=True,
+            parse_html=False,
+        ).add_to(gj)
+        folium.GeoJsonTooltip(
+            fields=["title"],
+            aliases=["article"],
+            localize=True,
+        ).add_to(gj)
         gj.add_to(m)
-
-        # Tooltips need to be wired to the layer
-        for f in gj.data["features"]:
-            # folium expects a TopoJson-like wrapper; the Popup helper above
-            # covers the link, the tooltip is handled by the GeoJson layer via
-            # the "tooltip" property mapped below.
-            pass
 
     folium.LayerControl(collapsed=False).add_to(m)
 
@@ -144,21 +148,6 @@ def build_polygon_map(
         f"<b>Countries</b><ul style='list-style:none;padding:0;margin:6px 0 0'>{legend_items}</ul></div>"
     )
     m.get_root().html.add_child(folium.Element(legend_html))
-
-    # Wire tooltips via a small JS shim that reads feature.properties.tooltip
-    tooltip_js = (
-        "<script>"
-        "function bindTooltips() {"
-        "  document.querySelectorAll('path.leaflet-interactive').forEach(function(el, i) {"
-        "    var layer = el.parentNode;"
-        "    // best-effort: use the embedded feature index if accessible"
-        "  });"
-        "}"
-        "</script>"
-    )
-    # Simple tooltip-on-hover via the embedded properties: we re-add the GeoJson
-    # with explicit GeoJsonTooltip. Simpler: re-render with explicit tooltips.
-    m.get_root().html.add_child(folium.Element(tooltip_js))
 
     m.save(str(out_path))
     return out_path
