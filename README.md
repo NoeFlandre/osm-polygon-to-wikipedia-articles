@@ -37,10 +37,20 @@ scripts/
 docs/
 └── wikidata_matches.md     # per-match inspection table + parquet schema for stage 2a
 
-data/samples/               # gitignored
-├── dev.parquet             # 352 polygons, 8 countries
-├── dev_wikidata.parquet    # 6 polygons × 19 cols (Wikidata + summary + body)
-└── dev_wikidata.jsonl      # same data, JSONL form
+data/samples/               # gitignored, lightweight outputs (matched parquets + maps)
+├── README.md                 # the dataset card shipped to HF
+├── andorra_wikidata.parquet  # 7 rows × 20 cols (incl. geometry_wkt)
+├── andorra_wikidata.jsonl
+├── andorra_wikidata_map.html
+├── andorra_wikidata_map.png
+├── all_wikidata.parquet      # union of all per-country JSONLs
+├── all_wikidata_map.html
+└── all_wikidata_map.png
+
+# Heavy intermediate files (raw sample parquets with geometry_wkt, large
+# intermediate outputs) live on the external Seagate HDD:
+#   /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/
+# Override the root with the OSM_DATA_ROOT env var (default: ./data).
 
 tests/                      # 40 tests, all green
 ```

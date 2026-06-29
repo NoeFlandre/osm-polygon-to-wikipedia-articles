@@ -58,3 +58,7 @@ class MatchResult:
 
     # full body (plain text)
     article_body_text: str | None
+
+    # OSM polygon geometry (WKT, optional; populated when the source dataset
+    # includes it). None when the polygon row didn't carry a geometry_wkt column.
+    geometry_wkt: str | None

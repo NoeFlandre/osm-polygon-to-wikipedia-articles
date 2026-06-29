@@ -54,6 +54,7 @@ def match_polygons(
     fetch_extract = fetch_extract or _stub_fetch_extract
 
     wd_df = filter_polygons_with_wikidata(df)
+    has_geom = "geometry_wkt" in df.columns
     results: list[MatchResult] = []
 
     for row in wd_df.iter_rows(named=True):
@@ -98,6 +99,7 @@ def match_polygons(
             article_lon=summary_obj.lon if summary_obj else None,
             article_pageid=summary_obj.pageid if summary_obj else None,
             article_body_text=body,
+            geometry_wkt=row.get("geometry_wkt") if has_geom else None,
         ))
 
     if out_parquet is not None:

@@ -143,3 +143,53 @@ def test_match_empty_when_no_polygons_have_wikidata() -> None:
         fetch_extract=_stub_extract(None),
     )
     assert results == []
+
+
+def test_match_passes_through_geometry_wkt() -> None:
+    """When the source df has geometry_wkt, it should flow into MatchResult."""
+    df = pl.DataFrame({
+        "osm_id": [1],
+        "osm_type": ["way"],
+        "centroid_lon": [1.5],
+        "centroid_lat": [42.5],
+        "tags": [["name=Foo", "wikidata=Q1"]],
+        "country": ["andorra"],
+        "size_bin": ["small"],
+        "geometry_wkt": ["POLYGON((1 42, 2 42, 2 43, 1 43, 1 42))"],
+    })
+
+    def fetch(qid: str):
+        return {"enwiki": {"title": "Foo"}}
+
+    results = match_polygons(
+        df, lang="en",
+        fetch_sitelinks=fetch,
+        fetch_summary=_stub_summary(None),
+        fetch_extract=_stub_extract(None),
+    )
+    assert len(results) == 1
+    assert results[0].geometry_wkt == "POLYGON((1 42, 2 42, 2 43, 1 43, 1 42))"
+
+
+def test_match_geometry_wkt_is_none_when_absent() -> None:
+    """Older source dfs without geometry_wkt should not crash the orchestrator."""
+    df = pl.DataFrame({
+        "osm_id": [1],
+        "osm_type": ["way"],
+        "centroid_lon": [1.5],
+        "centroid_lat": [42.5],
+        "tags": [["wikidata=Q1"]],
+        "country": ["andorra"],
+        "size_bin": ["small"],
+    })
+
+    def fetch(qid: str):
+        return {"enwiki": {"title": "Foo"}}
+
+    results = match_polygons(
+        df, lang="en",
+        fetch_sitelinks=fetch,
+        fetch_summary=_stub_summary(None),
+        fetch_extract=_stub_extract(None),
+    )
+    assert results[0].geometry_wkt is None
