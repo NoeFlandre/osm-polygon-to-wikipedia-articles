@@ -6,34 +6,44 @@ Data synced via Hugging Face bucket: `hf://buckets/NoeFlandre/osm-polygon-to-wik
 
 ## Status
 
-- **Stage 1 (polygons)**: load + sample from the [`NoeFlandre/osm-polygon-selection`](https://huggingface.co/datasets/NoeFlandre/osm-polygon-selection) dataset.
-- **Stage 2 (Wikipedia match — partial)**: Wikidata golden path implemented. Name match and geosearch not yet started.
+| Stage | Status | Notes |
+|---|---|---|
+| 1. Load + sample polygons from HF dataset | done | `polygons/` package, 12 tests |
+| 2a. Wikidata golden path (QID -> article) | done | `wikipedia/wikidata.py`, `wikipedia/match.py`, 18 tests |
+| 2b. Name match (`name=*` -> article summary) | not started | next |
+| 2c. Geosearch by centroid fallback | not started | after 2b |
+
+See `docs/wikidata_matches.md` for the inspection of stage 2a results.
 
 ## Layout
 
 ```
 src/osm_polygon_to_wikipedia_articles/
 ├── polygons/
-│   ├── load.py             # list_countries, load_country (HF I/O)
-│   └── sample.py           # sample_polygons, build_sample (pure)
+│   ├── load.py             # HF I/O: list_countries, load_country
+│   └── sample.py           # pure: sample_polygons, build_sample
 └── wikipedia/
-    ├── wikidata.py         # extract/resolve Wikidata QID -> Wikipedia article
-    └── http_client.py      # thin urllib wrappers for Wikidata + Wikipedia REST
+    ├── wikidata.py         # pure: extract_qid, filter, resolve
+    ├── match.py            # orchestrator: match_polygons (testable, fetch injected)
+    └── http_client.py      # urllib wrappers for Wikidata + Wikipedia APIs
 
 scripts/
-├── sample.py               # sample polygons -> parquet
-└── match_wikidata.py       # resolve Wikidata QIDs in a sample -> jsonl
+├── sample.py               # CLI: polygons -> parquet
+└── match_wikidata.py       # CLI: parquet -> jsonl via stage 2a
 
-data/samples/               # gitignored, local samples + match outputs
-├── dev.parquet             # 352 polygons across 8 countries (50 each, monaco=2)
-└── dev_wikidata.jsonl      # 6 matches: 5 matched + 1 no en sitelink
+docs/
+└── wikidata_matches.md     # per-match inspection table for stage 2a
+
+data/samples/               # gitignored
+├── dev.parquet             # 352 polygons, 8 countries
+└── dev_wikidata.jsonl      # 6 results from stage 2a (5 matched, 1 no en sitelink)
+
+tests/                      # 30 tests, all green
 ```
 
-## Wikidata coverage
+## Wikidata coverage in the dev sample
 
-Across 8 small countries in the dataset:
-
-| Country | Polygons | with `wikidata=*` | % |
+| Country | Polygons | `wikidata=*` | % |
 |---|---:|---:|---:|
 | monaco | 2 | 1 | 50.00% |
 | malta | 620 | 21 | 3.39% |
@@ -44,21 +54,17 @@ Across 8 small countries in the dataset:
 | iceland | 47,896 | 471 | 0.98% |
 | liechtenstein | 565 | 5 | 0.88% |
 
-When the tag is present it gives an exact, unambiguous match (e.g. `wikidata=Q1741199` → "Kihnu" Estonian island).
+The dev sample draws 50/country from these 8 small countries. Sample is representative of the `~1–3%` coverage observed upstream.
 
 ## Usage
 
-Sample polygons:
-
 ```bash
+# 1. sample polygons
 uv run python scripts/sample.py \
     --countries liechtenstein,monaco,andorra,luxembourg,iceland,malta,faroe-islands,estonia \
     --n 50 --out data/samples/dev.parquet
-```
 
-Resolve Wikidata QIDs to Wikipedia article titles:
-
-```bash
+# 2. match Wikidata QIDs to Wikipedia articles
 uv run python scripts/match_wikidata.py \
     --in data/samples/dev.parquet \
     --out data/samples/dev_wikidata.jsonl --lang en
