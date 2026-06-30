@@ -1,0 +1,8 @@
+monaco
+liechtenstein
+faroe-islands
+cyprus
+kosovo
+guernsey-jersey
+isle-of-man
+azores

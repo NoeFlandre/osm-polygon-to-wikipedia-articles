@@ -22,6 +22,7 @@ from pathlib import Path
 import polars as pl
 
 from osm_polygon_to_wikipedia_articles.wikipedia.match import match_polygons
+from osm_polygon_to_wikipedia_articles.wikipedia.wikidata import filter_polygons_with_wikidata
 from osm_polygon_to_wikipedia_articles.wikipedia.http_client import fetch_wikidata_sitelinks
 from osm_polygon_to_wikipedia_articles.wikipedia.summary import fetch_summary
 from osm_polygon_to_wikipedia_articles.wikipedia.extracts import fetch_extract
@@ -37,9 +38,16 @@ def main() -> None:
                         help="optional HTML map of matched polygons")
     parser.add_argument("--lang", default="en")
     parser.add_argument("--sleep", type=float, default=0.2, help="seconds between HTTP calls")
+    parser.add_argument("--only-wikidata", action="store_true",
+                        help="pre-filter the source df to only polygons with wikidata=* tags "
+                             "(avoids loading all rows for big countries)")
     args = parser.parse_args()
 
     df = pl.read_parquet(args.in_path)
+    if args.only_wikidata:
+        before = df.height
+        df = filter_polygons_with_wikidata(df)
+        print(f"pre-filter (--only-wikidata): {before} -> {df.height} rows")
 
     def _sitelinks(qid: str):
         result = fetch_wikidata_sitelinks(qid)
@@ -79,23 +87,28 @@ def main() -> None:
         body_chars = len(r.article_body_text) if r.article_body_text else 0
         print(f"  {r.wikidata_qid} ({r.country}/{r.osm_type}/{r.osm_id}) -> {r.match_status}: {title}  [body: {body_chars} chars]")
 
-    # Write ONLY the matched polygons to parquet (the public dataset)
-    if matched:
-        from dataclasses import asdict
-        matched_df = pl.DataFrame([asdict(r) for r in matched])
-        args.parquet.parent.mkdir(parents=True, exist_ok=True)
-        matched_df.write_parquet(args.parquet)
-        print(f"\nwrote {len(matched)} matched polygons -> {args.parquet}")
-    else:
-        print("\n(no matched polygons; nothing written)")
+    # Write the parquet (even if 0 rows — validators expect the file to exist)
+    from dataclasses import asdict
+    matched_df = pl.DataFrame([asdict(r) for r in matched]) if matched else pl.DataFrame(schema={
+        "osm_id": pl.Int64, "osm_type": pl.String, "country": pl.String,
+        "size_bin": pl.String, "centroid_lon": pl.Float64, "centroid_lat": pl.Float64,
+        "wikidata_qid": pl.String, "article_title": pl.String, "article_lang": pl.String,
+        "article_url": pl.String, "sitelinks_count": pl.Int64, "match_status": pl.String,
+        "article_description": pl.String, "article_extract_short": pl.String,
+        "article_thumbnail_url": pl.String, "article_lat": pl.Float64,
+        "article_lon": pl.Float64, "article_pageid": pl.Int64,
+        "article_body_text": pl.String, "geometry_wkt": pl.String,
+    })
+    args.parquet.parent.mkdir(parents=True, exist_ok=True)
+    matched_df.write_parquet(args.parquet)
+    print(f"\nwrote {len(matched)} matched polygons -> {args.parquet}")
 
     if args.jsonl is not None:
-        from dataclasses import asdict
-        import json
+        import json as _json
         args.jsonl.parent.mkdir(parents=True, exist_ok=True)
         with args.jsonl.open("w") as f:
             for r in matched:
-                f.write(json.dumps(asdict(r)) + "\n")
+                f.write(_json.dumps(asdict(r)) + "\n")
         print(f"wrote {len(matched)} matched records -> {args.jsonl}")
 
     if args.map_path is not None:
