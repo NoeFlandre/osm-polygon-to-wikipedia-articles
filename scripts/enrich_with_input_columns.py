@@ -18,13 +18,21 @@ JOIN_KEYS = ["osm_id", "country"]
 
 
 def load_country_input(slug: str) -> pl.DataFrame | None:
-    """Read the source country parquet and return only the enrichment columns."""
+    """Read the source country parquet and return only the enrichment columns.
+
+    Deduplicates by (osm_id, country) so the join is one-to-one (some source
+    parquets, e.g. france, contain duplicate osm_ids — likely OSM geometry
+    splits the same logical polygon across multiple records).
+    """
     src = ROOT / f"{slug}.parquet"
     if not src.exists():
         return None
-    df = pl.read_parquet(src, columns=JIN_KEYS + INPUT_COLS) if False else pl.read_parquet(src)
+    df = pl.read_parquet(src)
     keep = JOIN_KEYS + [c for c in INPUT_COLS if c in df.columns]
-    return df.select(keep)
+    df = df.select(keep)
+    # Keep the first occurrence of each (osm_id, country); the input columns
+    # don't usually differ between duplicates, so first-wins is fine.
+    return df.unique(subset=JOIN_KEYS, keep="first")
 
 
 def enrich_one(country: str) -> tuple[int, int]:
@@ -38,6 +46,10 @@ def enrich_one(country: str) -> tuple[int, int]:
     src = load_country_input(country)
     if src is None:
         return (matched.height, matched.height)
+    # Drop any pre-existing enrichment columns to avoid DuplicateError on re-enrichment
+    drop = [c for c in INPUT_COLS if c in matched.columns]
+    if drop:
+        matched = matched.drop(drop)
     before = matched.height
     enriched = matched.join(src, on=JOIN_KEYS, how="left")
     enriched.write_parquet(out)
@@ -62,6 +74,10 @@ def enrich_union() -> None:
     inputs = pl.concat(parts, how="vertical_relaxed")
     print(f"  inputs: {inputs.height} rows across {len(parts)} countries")
 
+    # Drop pre-existing enrichment columns to avoid DuplicateError on re-enrichment
+    drop = [c for c in INPUT_COLS if c in df.columns]
+    if drop:
+        df = df.drop(drop)
     enriched = df.join(inputs, on=JOIN_KEYS, how="left")
     # Sanity check: every row should have at least one input column populated
     print(f"  enriched: {enriched.height} rows, columns: {enriched.columns}")

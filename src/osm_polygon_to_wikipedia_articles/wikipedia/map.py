@@ -24,7 +24,12 @@ def build_map(
     *,
     tiles: str = "OpenStreetMap",
 ) -> Path:
-    """Write a folium HTML map to ``out_path`` and return it."""
+    """Write a folium HTML map to ``out_path`` and return it.
+
+    Markers are deliberately small + transparent so dense clusters stay
+    readable. A two-column legend fits ~40 country names without dominating
+    the map.
+    """
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -38,9 +43,9 @@ def build_map(
     countries = sorted(rows["country"].unique().to_list())
     color_by_country = {c: _PALETTE[i % len(_PALETTE)] for i, c in enumerate(countries)}
 
-    # Center the map on the mean of all centroids.
-    mean_lat = float(rows["centroid_lat"].mean())
-    mean_lon = float(rows["centroid_lon"].mean())
+    # Center the map on the median centroid (robust to outliers).
+    mean_lat = float(rows["centroid_lat"].median())
+    mean_lon = float(rows["centroid_lon"].median())
 
     m = folium.Map(location=[mean_lat, mean_lon], zoom_start=3, tiles=tiles)
 
@@ -57,24 +62,34 @@ def build_map(
         )
         folium.CircleMarker(
             location=[r["centroid_lat"], r["centroid_lon"]],
-            radius=8,
+            radius=3,
             color=color,
+            weight=0,
             fill=True,
             fill_color=color,
-            fill_opacity=0.8,
+            fill_opacity=0.55,
             popup=folium.Popup(popup_html, max_width=300),
             tooltip=r.get("article_title") or f"{r['country']}/{r['osm_id']}",
         ).add_to(m)
 
-    # Legend
-    legend_items = "".join(
-        f"<li><span style='display:inline-block;width:12px;height:12px;background:{c};margin-right:6px;border-radius:2px'></span>{name}</li>"
-        for name, c in color_by_country.items()
-    )
+    # Two-column legend so 40+ countries fit without covering the map.
+    legend_items = []
+    for i, (name, c) in enumerate(color_by_country.items()):
+        col = i % 2
+        legend_items.append(
+            f"<span style='display:inline-block;width:50%;box-sizing:border-box;"
+            f"padding:1px 4px 1px 0;vertical-align:top'>"
+            f"<span style='display:inline-block;width:10px;height:10px;background:{c};"
+            f"margin-right:5px;border-radius:50%;vertical-align:middle'></span>"
+            f"<span style='vertical-align:middle;font-size:11px'>{name}</span></span>"
+        )
     legend_html = (
-        f"<div style='position:fixed;bottom:20px;left:20px;z-index:9999;background:white;"
-        f"padding:10px;border:2px solid #444;border-radius:4px;font-family:sans-serif;font-size:12px'>"
-        f"<b>Countries</b><ul style='list-style:none;padding:0;margin:6px 0 0'>{legend_items}</ul></div>"
+        "<div style='position:fixed;bottom:14px;left:14px;z-index:9999;background:rgba(255,255,255,0.92);"
+        "padding:8px 10px;border:1px solid #888;border-radius:4px;"
+        f"font-family:sans-serif;max-width:280px'>"
+        f"<div style='font-weight:600;font-size:12px;margin-bottom:4px'>"
+        f"{len(countries)} countries &middot; {rows.height:,} polygons</div>"
+        "<div>" + "".join(legend_items) + "</div></div>"
     )
     m.get_root().html.add_child(folium.Element(legend_html))
 
