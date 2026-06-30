@@ -259,7 +259,7 @@ def process_all(
         subprocess.run(
             [
                 "uv", "run", "python", "scripts/sample.py",
-                "--countries", country, "--n", "999999",
+                "--countries", country, "--n", "10000000",
                 "--out", str(plan.source),
             ],
             check=True,

@@ -16,7 +16,7 @@ echo "[$(date +%H:%M:%S)] === $COUNTRY ===" | tee -a "$LOG"
 
 # 1. Process (sample + match + copy to samples/)
 uv run python scripts/process_countries.py "$COUNTRY" \
-    --per-step-timeout 3600 \
+    --per-step-timeout 14400 \
     --skip-hf \
     2>&1 | tee -a "$LOG"
 

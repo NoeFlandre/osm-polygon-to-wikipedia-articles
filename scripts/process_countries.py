@@ -56,13 +56,13 @@ def _hf_env() -> dict[str, str]:
 
 
 def sample_country(country: str, out_path: Path, timeout_s: int = 600) -> None:
-    """Sample a country parquet (full country, n=999999)."""
+    """Sample a country parquet (full country, n=10_000_000 to avoid the cap)."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     if out_path.exists():
         return
     cmd = [
         "uv", "run", "python", "scripts/sample.py",
-        "--countries", country, "--n", "999999",
+        "--countries", country, "--n", "10000000",
         "--out", str(out_path),
     ]
     proc = subprocess.Popen(cmd, start_new_session=True)
