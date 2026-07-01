@@ -146,85 +146,7 @@ def validate_country_outputs(plan: CountryPlan) -> ValidationReport:
     return r
 
 
-# --- per-country processing -----------------------------------------------
-
-def _sitelinks_with_sleep(sleep_s: float):
-    def fetch(qid: str):
-        import time
-        result = fetch_wikidata_sitelinks(qid)
-        time.sleep(sleep_s)
-        return result
-    return fetch
-
-
-def _summary_with_sleep(sleep_s: float):
-    def fetch(lang: str, title: str):
-        import time
-        s = fetch_summary(lang=lang, title=title)
-        time.sleep(sleep_s)
-        return s
-    return fetch
-
-
-def _extract_with_sleep(sleep_s: float):
-    def fetch(lang: str, title: str):
-        import time
-        e = fetch_extract(lang=lang, title=title)
-        time.sleep(sleep_s)
-        return e
-    return fetch
-
-
-def process_one_country(
-    plan: CountryPlan,
-    *,
-    lang: str = LANG,
-    sleep_s: float = SLEEP_S,
-) -> ValidationReport:
-    """Sample one country, run the match pipeline, copy slim outputs to samples/."""
-    # 1. Sample: write the country parquet under data_root
-    plan.source.parent.mkdir(parents=True, exist_ok=True)
-    if not plan.source.exists():
-        df = load_country(plan.country, repo_id=SOURCE_REPO)
-        df.write_parquet(plan.source)
-
-    # 2. Match pipeline (writes parquet + jsonl + map.html + map.png under data_root)
-    df = pl.read_parquet(plan.source)
-    match_polygons(
-        df,
-        lang=lang,
-        fetch_sitelinks=_sitelinks_with_sleep(sleep_s),
-        fetch_summary=_summary_with_sleep(sleep_s),
-        fetch_extract=_extract_with_sleep(sleep_s),
-    )
-
-    # The script writes the parquet/jsonl/map directly; for library use, write them here.
-    # (Kept simple — caller can also use scripts/match_wikidata.py.)
-    raise NotImplementedError(
-        "process_one_country from library: use scripts/match_wikidata.py for the actual "
-        "Wikidata HTTP pass, then call validate_country_outputs(plan). "
-        "The library function below only handles sample + copy."
-    )
-
-
-# --- CLI ------------------------------------------------------------------
-
-def _hf_token_env() -> dict[str, str]:
-    import os
-    env = os.environ.copy()
-    env.setdefault("HF_HOME", str(Path.home() / ".cache" / "huggingface"))
-    return env
-
-
-def hf_upload(local_dir: Path, repo_id: str, repo_type: str = "dataset") -> subprocess.CompletedProcess:
-    return subprocess.run(
-        ["hf", "upload", repo_id, str(local_dir), f"--repo-type={repo_type}"],
-        env=_hf_token_env(),
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-
+# --- batch processing -----------------------------------------------------
 
 def process_all(
     data_root: Path,
@@ -304,9 +226,7 @@ __all__ = [
     "CountryPlan",
     "ValidationReport",
     "discover_countries_with_wikidata",
-    "hf_upload",
     "plan_country_run",
     "process_all",
-    "process_one_country",
     "validate_country_outputs",
 ]

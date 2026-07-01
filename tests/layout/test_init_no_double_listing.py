@@ -136,7 +136,7 @@ def test_top_level_still_exposes_all_back_compat_symbols() -> None:
         # orchestration
         "CountryPlan", "ValidationReport",
         "discover_countries_with_wikidata", "plan_country_run",
-        "process_all", "process_one_country", "validate_country_outputs",
+        "process_all", "validate_country_outputs",
     }
     missing = expected - set(wp.__all__)
     assert not missing, f"missing from top-level __all__: {sorted(missing)}"
@@ -166,8 +166,8 @@ def test_subpackage_wildcard_imports_use_dunder_all() -> None:
                   "classify_hf_file"}),
         (pipeline, {"match_polygons", "union_jsonls",
                     "is_svg_url", "extract_wikidata_qid"}),
-        (orchestration, {"process_one_country", "process_all",
-                         "plan_country_run"}),
+        (orchestration, {"process_all", "plan_country_run",
+                         "validate_country_outputs"}),
         (visualization, {"build_map", "render_map_png"}),
     ]:
         missing = must_have - set(getattr(sub, "__all__", ()))

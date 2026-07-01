@@ -18,6 +18,7 @@ from ._paths import (
     preview_paths_for,
     sample_paths_for,
 )
+from ._readme_tables import headline_table, top_n_table
 from ._stats import aggregate_stats, slug_title
 
 
@@ -42,11 +43,7 @@ def write_per_country_readme(parquet_path: Path) -> Path:
         "",
         "## Headline numbers",
         "",
-        "| Metric | Value |",
-        "| ------ | ----- |",
-        f"| Matched polygons | {s['matched']:,} |",
-        f"| SVG thumbnails | {s['svg']:,} |",
-        f"| Wikipedia body words | {s['words']:,} |",
+        headline_table(s),
         "",
         "## Files in this folder",
         "",
@@ -63,15 +60,16 @@ def write_per_country_readme(parquet_path: Path) -> Path:
             .sort("len", descending=True)
             .head(10)
         )
+        rows = [(r["article_title"], int(r["len"]))
+                for r in top.iter_rows(named=True)]
         lines += [
-            "## Top articles by polygon count",
+            top_n_table(
+                title="Top articles by polygon count",
+                rows=rows,
+                headers=("Article", "Polygons"),
+            ),
             "",
-            "| Article | Polygons |",
-            "| ------- | -------- |",
         ]
-        for r in top.iter_rows(named=True):
-            lines.append(f"| {r['article_title']} | {r['len']} |")
-        lines.append("")
 
     paths.readme.write_text("\n".join(lines))
     return paths.readme
@@ -92,11 +90,7 @@ def write_combined_readme(samples_root: Path, df: pl.DataFrame) -> Path:
         "",
         "## Headline numbers",
         "",
-        "| Metric | Value |",
-        "| ------ | ----- |",
-        f"| Matched polygons | {s['matched']:,} |",
-        f"| SVG thumbnails | {s['svg']:,} |",
-        f"| Wikipedia body words | {s['words']:,} |",
+        headline_table(s),
         "",
     ]
     if "country" in df.columns and df.height > 0:
@@ -106,15 +100,16 @@ def write_combined_readme(samples_root: Path, df: pl.DataFrame) -> Path:
             .sort("len", descending=True)
             .head(15)
         )
+        rows = [(r["country"], int(r["len"]))
+                for r in top.iter_rows(named=True)]
         lines += [
-            "## Top contributors by matched polygons",
+            top_n_table(
+                title="Top contributors by matched polygons",
+                rows=rows,
+                headers=("Country", "Polygons"),
+            ),
             "",
-            "| Country | Polygons |",
-            "| ------- | -------- |",
         ]
-        for r in top.iter_rows(named=True):
-            lines.append(f"| {r['country']} | {r['len']:,} |")
-        lines.append("")
 
     paths.readme.parent.mkdir(parents=True, exist_ok=True)
     paths.readme.write_text("\n".join(lines))

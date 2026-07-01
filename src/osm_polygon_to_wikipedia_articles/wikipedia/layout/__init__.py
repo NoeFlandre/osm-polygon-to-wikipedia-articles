@@ -36,6 +36,7 @@ from __future__ import annotations
 from . import (
     _manifest,
     _paths,
+    _readme_tables,
     _slug_suffix,
     _stats,
     delete_hf_duplicates,
@@ -46,6 +47,7 @@ from . import (
 from .._init_helpers import union_all
 from ._manifest import *  # noqa: F401, F403
 from ._paths import *  # noqa: F401, F403
+from ._readme_tables import *  # noqa: F401, F403
 from ._slug_suffix import *  # noqa: F401, F403
 from ._stats import *  # noqa: F401, F403
 from .delete_hf_duplicates import *  # noqa: F401, F403
@@ -54,6 +56,6 @@ from .full_layout import *  # noqa: F401, F403
 from .migrate_full_layout import *  # noqa: F401, F403
 
 __all__ = union_all(
-    _manifest, _paths, _slug_suffix, _stats,
+    _manifest, _paths, _readme_tables, _slug_suffix, _stats,
     delete_hf_duplicates, delete_legacy, full_layout, migrate_full_layout,
 )
