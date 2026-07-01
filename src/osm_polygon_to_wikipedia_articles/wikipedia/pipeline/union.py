@@ -47,3 +47,6 @@ def discover_per_country_jsonls(samples_dir: Path = SAMPLES_DIR) -> list[Path]:
         p for p in samples_dir.glob("*_wikidata.jsonl")
         if not p.name.startswith("all_")
     )
+
+
+__all__ = ["discover_per_country_jsonls", "union_jsonls"]

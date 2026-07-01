@@ -62,3 +62,6 @@ class MatchResult:
     # OSM polygon geometry (WKT, optional; populated when the source dataset
     # includes it). None when the polygon row didn't carry a geometry_wkt column.
     geometry_wkt: str | None
+
+
+__all__ = ["ArticleSummary", "MatchResult", "WikidataArticle"]

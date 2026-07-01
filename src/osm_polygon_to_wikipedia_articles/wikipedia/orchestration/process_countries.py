@@ -298,3 +298,15 @@ def process_all(
         render_map_png(union_out_html, union_out_png, width=1000, height=600)
 
     return results
+
+
+__all__ = [
+    "CountryPlan",
+    "ValidationReport",
+    "discover_countries_with_wikidata",
+    "hf_upload",
+    "plan_country_run",
+    "process_all",
+    "process_one_country",
+    "validate_country_outputs",
+]

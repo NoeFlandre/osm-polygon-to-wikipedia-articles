@@ -242,3 +242,6 @@ def _stub_fetch_summary(lang: str, title: str) -> ArticleSummary | None:
 
 def _stub_fetch_extract(lang: str, title: str) -> str | None:
     return None
+
+
+__all__ = ["match_polygons"]

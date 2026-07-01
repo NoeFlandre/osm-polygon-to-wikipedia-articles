@@ -69,3 +69,10 @@ def resolve_wikidata_to_article(
         pageid=None,  # filled in later by summary fetch
         url=_sitelink_url(lang, title),
     )
+
+
+__all__ = [
+    "extract_wikidata_qid",
+    "filter_polygons_with_wikidata",
+    "resolve_wikidata_to_article",
+]

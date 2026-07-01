@@ -50,3 +50,6 @@ def add_thumbnail_columns(df: pl.DataFrame) -> pl.DataFrame:
     return df.with_columns(
         pl.Series(THUMBNAIL_IS_SVG, svg_flags, dtype=pl.Boolean)
     )
+
+
+__all__ = ["add_thumbnail_columns", "is_svg_url"]

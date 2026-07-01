@@ -13,8 +13,8 @@ process_countries
     the :func:`plan_country_run` / :func:`validate_country_outputs`
     helpers.
 
-Public API
-----------
+Public API (from each sub-module's own ``__all__``)
+---------------------------------------------------
 - :class:`CountryPlan`, :class:`ValidationReport`
 - :func:`discover_countries_with_wikidata`, :func:`plan_country_run`,
   :func:`validate_country_outputs`, :func:`process_one_country`,
@@ -22,22 +22,8 @@ Public API
 """
 from __future__ import annotations
 
-from .process_countries import (
-    CountryPlan,
-    ValidationReport,
-    discover_countries_with_wikidata,
-    plan_country_run,
-    process_all,
-    process_one_country,
-    validate_country_outputs,
-)
+from . import process_countries
+from .._init_helpers import union_all
+from .process_countries import *  # noqa: F401, F403
 
-__all__ = [
-    "CountryPlan",
-    "ValidationReport",
-    "discover_countries_with_wikidata",
-    "plan_country_run",
-    "process_all",
-    "process_one_country",
-    "validate_country_outputs",
-]
+__all__ = union_all(process_countries)

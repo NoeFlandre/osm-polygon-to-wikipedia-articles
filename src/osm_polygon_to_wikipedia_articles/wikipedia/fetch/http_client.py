@@ -59,3 +59,10 @@ def fetch_wikipedia_extract(lang: str, title: str) -> dict | None:
     }
     url = f"{WIKIPEDIA_API.format(lang=lang)}?{urllib.parse.urlencode(params)}"
     return get_json_with_retry(url, headers={"Accept": "application/json"})
+
+
+__all__ = [
+    "fetch_wikidata_sitelinks",
+    "fetch_wikipedia_extract",
+    "fetch_wikipedia_summary",
+]

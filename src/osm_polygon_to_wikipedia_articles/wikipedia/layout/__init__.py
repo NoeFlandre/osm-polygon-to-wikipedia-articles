@@ -20,8 +20,8 @@ This subpackage is split across several small files (one concern each):
 - :mod:`._slug_suffix`      — shared slug/suffix parser
 - :mod:`._stats`            — shared aggregate-stats helper
 
-Public API
-----------
+Public API (from each sub-module's own ``__all__``)
+---------------------------------------------------
 - Path dataclasses: :class:`RootPaths`, :class:`CountryPaths`,
   :class:`CombinedPaths`, :class:`SamplePaths`, :class:`PreviewPaths`.
 - Builders: :func:`build_all_europe`, :func:`build_sample_map`,
@@ -33,64 +33,27 @@ Public API
 """
 from __future__ import annotations
 
-from ._manifest import build_metadata_json, write_manifest_json, write_top_readme
-from ._paths import (
-    CombinedPaths,
-    CountryPaths,
-    PreviewPaths,
-    RootPaths,
-    SamplePaths,
-    combined_paths_for,
-    country_paths_for,
-    preview_paths_for,
-    root_paths_for,
-    sample_paths_for,
+from . import (
+    _manifest,
+    _paths,
+    _slug_suffix,
+    _stats,
+    delete_hf_duplicates,
+    delete_legacy,
+    full_layout,
+    migrate_full_layout,
 )
-from ._slug_suffix import parse_hf_root_filename, parse_legacy_stem
-from ._stats import aggregate_stats, slug_title
-from .delete_hf_duplicates import (
-    classify_hf_file,
-    is_safe_to_delete_hf_root_file,
-    survey_remotely_deleted_duplicates,
-)
-from .delete_legacy import safe_delete_audited
-from .full_layout import (
-    build_all_europe,
-    build_sample_map,
-    discover_country_parquets,
-)
-from .migrate_full_layout import migrate_to_full_layout
+from .._init_helpers import union_all
+from ._manifest import *  # noqa: F401, F403
+from ._paths import *  # noqa: F401, F403
+from ._slug_suffix import *  # noqa: F401, F403
+from ._stats import *  # noqa: F401, F403
+from .delete_hf_duplicates import *  # noqa: F401, F403
+from .delete_legacy import *  # noqa: F401, F403
+from .full_layout import *  # noqa: F401, F403
+from .migrate_full_layout import *  # noqa: F401, F403
 
-__all__ = [
-    # path dataclasses
-    "CombinedPaths",
-    "CountryPaths",
-    "PreviewPaths",
-    "RootPaths",
-    "SamplePaths",
-    # path factories
-    "combined_paths_for",
-    "country_paths_for",
-    "preview_paths_for",
-    "root_paths_for",
-    "sample_paths_for",
-    # builders
-    "build_all_europe",
-    "build_metadata_json",
-    "build_sample_map",
-    "discover_country_parquets",
-    "write_manifest_json",
-    "write_top_readme",
-    # migration
-    "migrate_to_full_layout",
-    # safe deletion
-    "classify_hf_file",
-    "is_safe_to_delete_hf_root_file",
-    "safe_delete_audited",
-    "survey_remotely_deleted_duplicates",
-    # shared helpers
-    "aggregate_stats",
-    "parse_hf_root_filename",
-    "parse_legacy_stem",
-    "slug_title",
-]
+__all__ = union_all(
+    _manifest, _paths, _slug_suffix, _stats,
+    delete_hf_duplicates, delete_legacy, full_layout, migrate_full_layout,
+)

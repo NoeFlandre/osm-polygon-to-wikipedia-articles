@@ -18,33 +18,27 @@ summary
     ``https://<lang>.wikipedia.org/api/rest_v1/page/summary/<title>``
 extracts
     ``https://<lang>.wikipedia.org/w/api.php?prop=extracts&explaintext`` (plain text body)
+_wrappers
+    Small utility wrappers (sleep, etc.).
 
-Public API
-----------
+Public API (from each sub-module's own ``__all__``)
+---------------------------------------------------
 - :func:`get_json_with_retry`
 - :func:`fetch_wikidata_sitelinks`
 - :func:`fetch_sitelinks_batched`
 - :func:`fetch_summary`
 - :func:`fetch_extract`
+- :func:`fetch_wikipedia_summary`
+- :func:`fetch_wikipedia_extract`
 """
 from __future__ import annotations
 
-from ._retry import get_json_with_retry
-from .batched_sitelinks import fetch_sitelinks_batched
-from .extracts import fetch_extract
-from .http_client import (
-    fetch_wikidata_sitelinks,
-    fetch_wikipedia_summary,
-    fetch_wikipedia_extract,
-)
-from .summary import fetch_summary
+from . import _retry, batched_sitelinks, extracts, http_client, summary
+from .._init_helpers import union_all
+from ._retry import *  # noqa: F401, F403
+from .batched_sitelinks import *  # noqa: F401, F403
+from .extracts import *  # noqa: F401, F403
+from .http_client import *  # noqa: F401, F403
+from .summary import *  # noqa: F401, F403
 
-__all__ = [
-    "fetch_extract",
-    "fetch_sitelinks_batched",
-    "fetch_summary",
-    "fetch_wikidata_sitelinks",
-    "fetch_wikipedia_extract",
-    "fetch_wikipedia_summary",
-    "get_json_with_retry",
-]
+__all__ = union_all(_retry, batched_sitelinks, extracts, http_client, summary)

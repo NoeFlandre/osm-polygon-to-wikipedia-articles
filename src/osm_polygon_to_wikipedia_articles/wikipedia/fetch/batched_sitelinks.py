@@ -70,3 +70,6 @@ def fetch_sitelinks_batched(
         # Polite spacing between batches so we don't hammer the API
         sleep(0.2)
     return out
+
+
+__all__ = ["fetch_sitelinks_batched"]

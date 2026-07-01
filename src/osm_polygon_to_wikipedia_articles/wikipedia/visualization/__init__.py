@@ -11,21 +11,19 @@ Three layers, increasing fidelity:
 - :mod:`render` — renders any of the above HTMLs to PNG via
   Playwright/Chromium.
 
-Public API
-----------
+Public API (from each sub-module's own ``__all__``)
+---------------------------------------------------
 - :func:`build_map`
 - :func:`build_polygon_map`
 - :func:`render_map_png`
+- :func:`parse_geometry_wkt`
 """
 from __future__ import annotations
 
-from .geomap import build_polygon_map, parse_geometry_wkt
-from .map import build_map
-from .render import render_map_png
+from . import geomap, map, render
+from .._init_helpers import union_all
+from .geomap import *  # noqa: F401, F403
+from .map import *  # noqa: F401, F403
+from .render import *  # noqa: F401, F403
 
-__all__ = [
-    "build_map",
-    "build_polygon_map",
-    "parse_geometry_wkt",
-    "render_map_png",
-]
+__all__ = union_all(geomap, map, render)
