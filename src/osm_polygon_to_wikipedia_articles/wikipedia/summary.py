@@ -2,24 +2,27 @@
 
 Endpoint: ``https://<lang>.wikipedia.org/api/rest_v1/page/summary/<title>``
 Returns structured JSON: title, extract, description, thumbnail, coordinates, urls.
+
+Uses ``wikipedia._retry`` for transient-error retries so brief rate-limits
+or network blips don't lose the article.
 """
 from __future__ import annotations
 
-import json
 import urllib.parse
-import urllib.request
 from typing import Callable
 
-from .http_client import USER_AGENT
+from ._retry import get_json_with_retry
 from .types import ArticleSummary
 
 GetJSON = Callable[[str, int], dict]
 
 
-def _default_get(url: str, timeout: int = 20) -> dict:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read())
+def _default_get(url: str, timeout: int = 20) -> dict | None:
+    return get_json_with_retry(
+        url,
+        headers={"Accept": "application/json"},
+        timeout=timeout,
+    )
 
 
 def fetch_summary(
@@ -28,11 +31,18 @@ def fetch_summary(
     *,
     _get: GetJSON = _default_get,
 ) -> ArticleSummary | None:
-    """Fetch and parse a Wikipedia article summary."""
+    """Fetch and parse a Wikipedia article summary.
+
+    ``_get`` is injectable for tests. The default implementation retries
+    transient errors (429/5xx/network blips) so a brief rate-limit doesn't
+    permanently lose the article.
+    """
     url = f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(title)}"
     try:
         payload = _get(url, 20)
     except Exception:
+        return None
+    if payload is None:
         return None
 
     thumb = payload.get("thumbnail") or {}
