@@ -3,7 +3,7 @@ license: mit
 task_categories:
   - text-retrieval
   - question-answering
-  - image-captioning
+  - other
 language:
   - en
 tags:
