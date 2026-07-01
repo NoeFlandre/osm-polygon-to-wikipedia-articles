@@ -132,26 +132,29 @@ def _move_legacy_country(samples_root: Path, slug: str) -> dict[str, int]:
 def _copy_legacy_aux_maps(samples_root: Path, slug: str) -> dict[str, int]:
     """Copy any auxiliary map files (with `_wikidata_map` or `_polygons_map`
     suffix) for a slug into its subfolder. Safe (skip if destination exists,
-    never delete at source)."""
+    never delete at source).
+
+    Destination filename preserves the original variant:
+    - ``<slug>_wikidata_map.{html,png}`` ← from `<slug>_wikidata_map.*`
+    - ``<slug>_polygons_map.{html,png}`` ← from `<slug>_polygons_map.*`
+    """
     moves = {"html": 0, "png": 0}
     targets = country_paths_for(samples_root, slug)
     targets.folder.mkdir(parents=True, exist_ok=True)
-    for src_name in (
-        f"{slug}_wikidata_map.html",
-        f"{slug}_wikidata_map.png",
-        f"{slug}_polygons_map.html",
-        f"{slug}_polygons_map.png",
-    ):
-        src = samples_root / src_name
-        if not src.exists():
-            continue
-        target_name = (
-            f"{slug}_wikidata_map.{src_name.rsplit('.', 1)[-1]}"
-        )
-        dst = targets.folder / target_name
-        if not dst.exists():
-            shutil.copy2(str(src), str(dst))
-            moves["html" if src_name.endswith(".html") else "png"] += 1
+    # (source-suffix, destination-suffix) — destination keeps the same suffix
+    pairs = (
+        ("_wikidata_map", "_wikidata_map"),
+        ("_polygons_map", "_polygons_map"),
+    )
+    for src_suffix, dst_suffix in pairs:
+        for ext in ("html", "png"):
+            src = samples_root / f"{slug}{src_suffix}.{ext}"
+            if not src.exists():
+                continue
+            dst = targets.folder / f"{slug}{dst_suffix}.{ext}"
+            if not dst.exists():
+                shutil.copy2(str(src), str(dst))
+                moves[ext] += 1
     return moves
 
 

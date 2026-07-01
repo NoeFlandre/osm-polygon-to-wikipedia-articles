@@ -31,18 +31,18 @@ intersected with full body text, summaries, thumbnails and geo-coordinates.
 
 | Metric | Value |
 |---|---:|
-| **Countries processed** | 46 |
+| **Countries processed** | 45 |
 | **Source polygons (after dedup)** | 7.2 M |
 | **Polygons with `wikidata=*` tag** | 191 K |
-| **Polygons with an `enwiki` article** | 31 479 |
-| **Wikipedia body words shipped** | 12 693 736 |
-| **SVG thumbnails** | 885 (2.8 % of matched) |
+| **Polygons with an `enwiki` article** | 32 124 |
+| **Wikipedia body words shipped** | 12 685 357 |
+| **SVG thumbnails** | 901 (2.8 % of matched) |
 
 ---
 
 ## Map
 
-![Europe map of every matched OSM polygon](./data/samples/preview/map_preview.png)
+![Europe map of every matched OSM polygon](https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/resolve/main/preview/map_preview.png)
 
 *A static snapshot of every matched polygon across the dataset. One marker
 per polygon. Smaller radius + opacity for "many small markers, still legible" -

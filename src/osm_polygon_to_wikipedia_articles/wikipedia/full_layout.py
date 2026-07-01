@@ -139,11 +139,12 @@ def write_manifest_json(
     a glance whether the snapshot matches their expectations.
     """
     paths = root_paths_for(samples_root)
+    countries_clean = sorted(c for c in countries if c != "all")
     payload = {
         "schema_version": "1",
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "countries": sorted(countries),
-        "country_count": len(list(countries)),
+        "countries": countries_clean,
+        "country_count": len(countries_clean),
         "combined_rows": combined_rows,
         "combined_total_words": combined_words,
         "sample_rows": sample_rows,
