@@ -1,0 +1,1589 @@
+[03:26:35] === slovenia ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== slovenia ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/slovenia.parquet
+wrote 41526 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/slovenia.parquet
+pre-filter (--only-wikidata): 41526 -> 229 rows
+
+229 polygons with wikidata=*
+  matched:           168
+  no en sitelink:    58
+  no sitelinks:      3
+  Q5842841 (slovenia/way/11329628) -> matched: Maribor Island  [body: 933 chars]
+  Q6425258 (slovenia/way/12287292) -> matched: Kodeljevo Sports Park  [body: 461 chars]
+  Q38251439 (slovenia/way/20757330) -> matched: Soboth Reservoir  [body: 1431 chars]
+  Q12798937 (slovenia/way/20946296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20523921 (slovenia/way/20946298) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18213477 (slovenia/way/21730510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18119923 (slovenia/way/21731188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19938123 (slovenia/way/22603158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26224786 (slovenia/way/45299178) -> matched: Lake Ormož  [body: 1511 chars]
+  Q12806065 (slovenia/way/49542190) -> matched: General Maister Barracks  [body: 462 chars]
+  Q38276803 (slovenia/way/49677812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3368576 (slovenia/way/51756916) -> matched: Lake Žovnek  [body: 91 chars]
+  Q26912046 (slovenia/way/51996880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109298669 (slovenia/way/53140654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6363223 (slovenia/way/64300538) -> matched: Kanin-Sella Nevea Ski Resort  [body: 803 chars]
+  Q12799556 (slovenia/way/68496318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57271582 (slovenia/way/68496788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19934331 (slovenia/way/68496924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3936761 (slovenia/way/108076122) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3936760 (slovenia/way/108215778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1976550 (slovenia/way/110249570) -> matched: Volčji Potok Arboretum  [body: 4799 chars]
+  Q1394710 (slovenia/way/114740860) -> matched: Lake Gradišče  [body: 153 chars]
+  Q86003380 (slovenia/way/178579520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432473 (slovenia/way/179451196) -> matched: Portorož Airport  [body: 6847 chars]
+  Q474478 (slovenia/way/179638490) -> matched: Krško Nuclear Power Plant  [body: 7310 chars]
+  Q1030725 (slovenia/way/211358324) -> matched: Maribor Edvard Rusjan Airport  [body: 5696 chars]
+  Q130717731 (slovenia/way/222920788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1998318 (slovenia/way/225692420) -> matched: Sveta Ana v Slovenskih Goricah  [body: 648 chars]
+  Q19389753 (slovenia/way/238479884) -> matched: Šoštanj Power Plant  [body: 3723 chars]
+  Q12794686 (slovenia/way/243564508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q678147 (slovenia/relation/3351245) -> matched: Municipality of Mežica  [body: 595 chars]
+  Q1569014 (slovenia/relation/3351355) -> matched: Municipality of Naklo  [body: 2034 chars]
+  Q1005185 (slovenia/relation/3351711) -> matched: Municipality of Horjul  [body: 486 chars]
+  Q963986 (slovenia/relation/3351719) -> matched: Municipality of Komenda  [body: 571 chars]
+  Q773160 (slovenia/relation/3351737) -> matched: Municipality of Trzin  [body: 470 chars]
+  Q15895 (slovenia/relation/3351735) -> matched: Municipality of Mengeš  [body: 669 chars]
+  Q13378058 (slovenia/relation/3351769) -> matched: Municipality of Rečica ob Savinji  [body: 640 chars]
+  Q954987 (slovenia/relation/3351777) -> matched: Municipality of Nazarje  [body: 882 chars]
+  Q999530 (slovenia/relation/3351793) -> matched: Municipality of Tabor  [body: 649 chars]
+  Q1016698 (slovenia/relation/3351791) -> matched: Municipality of Prebold  [body: 739 chars]
+  Q938443 (slovenia/relation/3351799) -> matched: Municipality of Polzela  [body: 548 chars]
+  Q392188 (slovenia/relation/3351805) -> matched: Municipality of Šmartno ob Paki  [body: 620 chars]
+  Q999579 (slovenia/relation/3352615) -> matched: Municipality of Dobrna  [body: 661 chars]
+  Q1587261 (slovenia/relation/3352625) -> matched: Municipality of Oplotnica  [body: 601 chars]
+  Q594852 (slovenia/relation/3352635) -> matched: Municipality of Poljčane  [body: 555 chars]
+  Q1808143 (slovenia/relation/3352633) -> matched: Municipality of Makole  [body: 1223 chars]
+  Q1016826 (slovenia/relation/3352649) -> matched: Municipality of Starše  [body: 612 chars]
+  Q1005165 (slovenia/relation/3352645) -> matched: Municipality of Miklavž na Dravskem Polju  [body: 1319 chars]
+  Q678147 (slovenia/relation/3351245) -> matched: Municipality of Mežica  [body: 595 chars]
+  Q1569014 (slovenia/relation/3351355) -> matched: Municipality of Naklo  [body: 2034 chars]
+  Q1005185 (slovenia/relation/3351711) -> matched: Municipality of Horjul  [body: 486 chars]
+  Q963986 (slovenia/relation/3351719) -> matched: Municipality of Komenda  [body: 571 chars]
+  Q773160 (slovenia/relation/3351737) -> matched: Municipality of Trzin  [body: 470 chars]
+  Q15895 (slovenia/relation/3351735) -> matched: Municipality of Mengeš  [body: 669 chars]
+  Q13378058 (slovenia/relation/3351769) -> matched: Municipality of Rečica ob Savinji  [body: 640 chars]
+  Q954987 (slovenia/relation/3351777) -> matched: Municipality of Nazarje  [body: 882 chars]
+  Q999530 (slovenia/relation/3351793) -> matched: Municipality of Tabor  [body: 649 chars]
+  Q1016698 (slovenia/relation/3351791) -> matched: Municipality of Prebold  [body: 739 chars]
+  Q938443 (slovenia/relation/3351799) -> matched: Municipality of Polzela  [body: 548 chars]
+  Q392188 (slovenia/relation/3351805) -> matched: Municipality of Šmartno ob Paki  [body: 620 chars]
+  Q999579 (slovenia/relation/3352615) -> matched: Municipality of Dobrna  [body: 661 chars]
+  Q1587261 (slovenia/relation/3352625) -> matched: Municipality of Oplotnica  [body: 601 chars]
+  Q594852 (slovenia/relation/3352635) -> matched: Municipality of Poljčane  [body: 555 chars]
+  Q1808143 (slovenia/relation/3352633) -> matched: Municipality of Makole  [body: 1223 chars]
+  Q1016826 (slovenia/relation/3352649) -> matched: Municipality of Starše  [body: 612 chars]
+  Q1005165 (slovenia/relation/3352645) -> matched: Municipality of Miklavž na Dravskem Polju  [body: 1319 chars]
+  Q338743 (slovenia/relation/3352671) -> matched: Municipality of Radenci  [body: 534 chars]
+  Q990063 (slovenia/relation/3352673) -> matched: Municipality of Sveta Ana  [body: 716 chars]
+  Q1008144 (slovenia/relation/3352691) -> matched: Municipality of Sveti Jurij v Slovenskih Goricah  [body: 1091 chars]
+  Q925149 (slovenia/relation/3352689) -> matched: Municipality of Sveti Andraž v Slovenskih Goricah  [body: 984 chars]
+  Q779018 (slovenia/relation/3352685) -> matched: Municipality of Benedikt  [body: 685 chars]
+  Q1016820 (slovenia/relation/3352687) -> matched: Municipality of Sveta Trojica v Slovenskih Goricah  [body: 891 chars]
+  Q999559 (slovenia/relation/3352703) -> matched: Municipality of Trnovska Vas  [body: 659 chars]
+  Q999589 (slovenia/relation/3352699) -> matched: Municipality of Duplek  [body: 717 chars]
+  Q570618 (slovenia/relation/3352697) -> matched: Municipality of Destrnik  [body: 655 chars]
+  Q995065 (slovenia/relation/3352705) -> matched: Municipality of Hajdina  [body: 832 chars]
+  Q1003969 (slovenia/relation/3352709) -> matched: Municipality of Dornava  [body: 721 chars]
+  Q1008095 (slovenia/relation/3352711) -> matched: Municipality of Markovci  [body: 548 chars]
+  Q1003984 (slovenia/relation/3352713) -> matched: Municipality of Juršinci  [body: 1362 chars]
+  Q1016831 (slovenia/relation/3352715) -> matched: Municipality of Sveti Tomaž  [body: 650 chars]
+  Q1252438 (slovenia/relation/3352717) -> matched: Municipality of Cerkvenjak  [body: 723 chars]
+  Q999563 (slovenia/relation/3352721) -> matched: Municipality of Križevci  [body: 663 chars]
+  Q1008086 (slovenia/relation/3352723) -> matched: Municipality of Veržej  [body: 716 chars]
+  Q1019067 (slovenia/relation/3352745) -> matched: Municipality of Grad  [body: 471 chars]
+  Q1276793 (slovenia/relation/3352753) -> matched: Municipality of Tišina  [body: 560 chars]
+  Q13365892 (slovenia/relation/3352789) -> matched: Municipality of Dobrovnik  [body: 875 chars]
+  Q927718 (slovenia/relation/3352791) -> matched: Municipality of Kobilje  [body: 431 chars]
+  Q1008179 (slovenia/relation/3362991) -> matched: Municipality of Dobje  [body: 591 chars]
+  Q392468 (slovenia/relation/3362995) -> matched: Municipality of Štore  [body: 2012 chars]
+  Q3509893 (slovenia/relation/3363013) -> matched: Municipality of Šmarješke Toplice  [body: 630 chars]
+  Q1515842 (slovenia/relation/3363043) -> matched: Municipality of Mirna  [body: 1528 chars]
+  Q1016805 (slovenia/relation/3363041) -> matched: Municipality of Mirna Peč  [body: 3585 chars]
+  Q1784972 (slovenia/relation/3363059) -> matched: Municipality of Straža  [body: 1181 chars]
+  Q13377747 (slovenia/relation/3363081) -> matched: Municipality of Borovnica  [body: 686 chars]
+  Q632998 (slovenia/relation/3371443) -> matched: Municipality of Gorišnica  [body: 664 chars]
+  Q1002247 (slovenia/relation/3371477) -> matched: Municipality of Podlehnik  [body: 702 chars]
+  Q7459696 (slovenia/way/250018204) -> matched: Sečovlje Saltpans Natural Park  [body: 478 chars]
+  Q12786592 (slovenia/way/254503824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14698052 (slovenia/way/317117812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20462151 (slovenia/way/317138668) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12805065 (slovenia/way/341758988) -> matched: Maribor University Medical Centre  [body: 621 chars]
+  Q12790976 (slovenia/way/341956798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55055327 (slovenia/way/341964980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12806542 (slovenia/relation/4546955) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q735558 (slovenia/way/342295772) -> matched: Ptuj Airport  [body: 201 chars]
+  Q12790963 (slovenia/way/342446906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11824616 (slovenia/way/344791694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19932508 (slovenia/way/389665074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2448461 (slovenia/way/391230602) -> matched: Laško Brewery  [body: 2861 chars]
+  Q20724856 (slovenia/way/420699338) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7583980 (slovenia/way/454423076) -> matched: Cerklje ob Krki Airport  [body: 4740 chars]
+  Q924698 (slovenia/relation/3352729) -> matched: Municipality of Odranci  [body: 857 chars]
+  Q12807278 (slovenia/way/463579208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233522 (slovenia/way/472866844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6958419 (slovenia/way/484576180) -> matched: Slovenj Gradec Airport  [body: 753 chars]
+  Q2082870 (slovenia/way/529775072) -> matched: Matenja Vas  [body: 481 chars]
+  Q7591710 (slovenia/way/541111346) -> matched: St. Stanislaus Institute (Slovenia)  [body: 2411 chars]
+  Q12787959 (slovenia/way/568382116) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11824281 (slovenia/way/574992986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3435779 (slovenia/way/583735638) -> matched: Sora (river)  [body: 1752 chars]
+  Q1779012 (slovenia/relation/8006665) -> matched: Leše, Prevalje  [body: 1325 chars]
+  Q2033619 (slovenia/way/628960894) -> matched: Drešinja Vas  [body: 541 chars]
+  Q12796983 (slovenia/way/661527734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2177165 (slovenia/way/699535722) -> matched: Zaklanec  [body: 616 chars]
+  Q13377751 (slovenia/relation/3352749) -> matched: Municipality of Cankova  [body: 792 chars]
+  Q29309054 (slovenia/relation/11874567) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19934365 (slovenia/relation/11913827) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q102522203 (slovenia/relation/11955245) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1354486 (slovenia/way/881725780) -> matched: Avče Pumped Storage Plant  [body: 1267 chars]
+  Q1109558 (slovenia/way/933410730) -> matched: Ljubljana Airport  [body: 6633 chars]
+  Q13440146 (slovenia/relation/13785411) -> matched: Royal Bled Golf Club  [body: 2208 chars]
+  Q3906252 (slovenia/relation/13980647) -> matched: Planica Nordic Centre  [body: 2529 chars]
+  Q105412348 (slovenia/relation/14005109) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6957984 (slovenia/way/953831930) -> matched: Zelenci  [body: 3958 chars]
+  Q104817239 (slovenia/relation/14026597) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6436096 (slovenia/way/955495300) -> matched: Kranjska Gora Ski Resort  [body: 3480 chars]
+  Q12791161 (slovenia/way/967245192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12806052 (slovenia/way/991833224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q995101 (slovenia/relation/3352733) -> matched: Municipality of Velika Polana  [body: 624 chars]
+  Q7909443 (slovenia/way/1041193974) -> matched: Valdoltra Orthopedic Hospital  [body: 330 chars]
+  Q201074 (slovenia/relation/3352731) -> matched: Municipality of Turnišče  [body: 448 chars]
+  Q1401302 (slovenia/way/1065632510) -> matched: Rak Škocjan  [body: 1690 chars]
+  Q19911743 (slovenia/way/1072331190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8082803 (slovenia/way/1072471170) -> matched: Škocjan Caves Regional Park  [body: 5029 chars]
+  Q6763838 (slovenia/way/1073063028) -> matched: Marina Izola  [body: 580 chars]
+  Q12798892 (slovenia/way/1078025818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2048582 (slovenia/way/1081715278) -> matched: Lake Palčje  [body: 2558 chars]
+  Q6762529 (slovenia/way/1177961740) -> matched: Maribor Pohorje Ski Resort  [body: 1000 chars]
+  Q7918958 (slovenia/way/1177964428) -> matched: Velika Planina Ski Resort  [body: 839 chars]
+  Q7939379 (slovenia/way/1202252958) -> matched: Vogel Ski Resort  [body: 2253 chars]
+  Q61245618 (slovenia/way/1202253122) -> matched: Krvavec Ski Resort  [body: 3601 chars]
+  Q5064508 (slovenia/way/1202257154) -> matched: Cerkno Ski Resort  [body: 1458 chars]
+  Q20522219 (slovenia/way/1211189592) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12794204 (slovenia/relation/23955627) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12804023 (slovenia/way/1833470386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57271582 (slovenia/relation/24942323) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3491225 (slovenia/way/1850383796) -> matched: Soriška Planina Ski Resort  [body: 1005 chars]
+  Q1027089 (slovenia/relation/3351713) -> matched: Municipality of Log-Dragomer  [body: 672 chars]
+  Q15241352 (slovenia/way/1933627288) -> matched: Lake Trboje  [body: 1180 chars]
+  Q91762028 (slovenia/way/1952969294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q90472407 (slovenia/way/1952969304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q630154 (slovenia/way/1952969354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12806014 (slovenia/relation/27553939) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21041008 (slovenia/way/2100955452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13365904 (slovenia/relation/3352783) -> matched: Municipality of Hodoš  [body: 1181 chars]
+  Q12800527 (slovenia/relation/28819965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q211046 (slovenia/relation/25896949) -> matched: Kupa  [body: 4507 chars]
+  Q12798910 (slovenia/relation/28333085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q394103 (slovenia/relation/3351219) -> matched: Municipality of Žirovnica  [body: 1891 chars]
+  Q13377731 (slovenia/relation/3371437) -> matched: Municipality of Bistrica ob Sotli  [body: 912 chars]
+  Q1027245 (slovenia/relation/3371483) -> matched: Municipality of Rogatec  [body: 842 chars]
+  Q393910 (slovenia/relation/3371501) -> matched: Municipality of Žetale  [body: 1726 chars]
+  Q4726307 (slovenia/way/2370550594) -> matched: Javor, Ljubljana  [body: 3523 chars]
+  Q1433716 (slovenia/way/2410380030) -> matched: Lesce-Bled Airport  [body: 4324 chars]
+  Q5341377 (slovenia/relation/32731695) -> matched: Edvard Peperko Barracks  [body: 1309 chars]
+  Q14957184 (slovenia/way/2429542476) -> matched: Spodnja Šiška  [body: 2333 chars]
+  Q12042075 (slovenia/relation/11009321) -> matched: Municipality of Ankaran  [body: 2172 chars]
+  Q12790474 (slovenia/relation/29805427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1601480 (slovenia/relation/33610615) -> matched: Ljubljana Power Station  [body: 1224 chars]
+  Q5308834 (slovenia/relation/33736245) -> matched: Posavje District, Ljubljana  [body: 719 chars]
+  Q12806957 (slovenia/relation/33736247) -> matched: Dravlje District  [body: 923 chars]
+  Q2469185 (slovenia/relation/33736833) -> matched: Bežigrad District  [body: 2174 chars]
+  Q2354591 (slovenia/relation/33736835) -> matched: Šiška District  [body: 1171 chars]
+  Q6961265 (slovenia/relation/33736837) -> matched: Rožnik District  [body: 937 chars]
+  Q7938065 (slovenia/relation/33736839) -> matched: Vič District  [body: 1600 chars]
+  Q4863552 (slovenia/relation/33736841) -> matched: Trnovo District  [body: 291 chars]
+  Q5101452 (slovenia/relation/33737029) -> matched: Rudnik District  [body: 749 chars]
+  Q392103 (slovenia/relation/3363071) -> matched: Municipality of Škofljica  [body: 626 chars]
+  Q19938007 (slovenia/relation/33737357) -> matched: Golovec District  [body: 437 chars]
+  Q6916919 (slovenia/relation/33737359) -> matched: Moste District  [body: 1114 chars]
+  Q2000244 (slovenia/relation/33736843) -> matched: Center District, Ljubljana  [body: 853 chars]
+  Q6961712 (slovenia/relation/33737361) -> matched: Jarše District  [body: 1160 chars]
+  Q998557 (slovenia/relation/3351743) -> matched: Municipality of Dol pri Ljubljani  [body: 662 chars]
+  Q5308710 (slovenia/relation/33737363) -> matched: Polje District  [body: 635 chars]
+  Q20521929 (slovenia/way/2497687476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3395306 (slovenia/relation/4607127) -> matched: Lake Ptuj  [body: 615 chars]
+  Q4836687 (slovenia/relation/31038947) -> matched: BTC City  [body: 3030 chars]
+  Q12792764 (slovenia/way/2552197406) -> matched: Jovsi  [body: 1254 chars]
+  Q3439003 (slovenia/way/2556423368) -> matched: Pugled pri Starem Logu  [body: 3393 chars]
+  Q12794244 (slovenia/way/2571255078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6743285 (slovenia/relation/29079715) -> matched: Mali Graben  [body: 830 chars]
+  Q663731 (slovenia/relation/6624093) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1539916 (slovenia/way/2645391250) -> matched: Rosandra Valley  [body: 2837 chars]
+  Q1539916 (slovenia/way/2645391252) -> matched: Rosandra Valley  [body: 2837 chars]
+  Q612216 (slovenia/relation/3351655) -> matched: Municipality of Renče–Vogrsko  [body: 647 chars]
+  Q391428 (slovenia/relation/3351575) -> matched: Municipality of Šempeter-Vrtojba  [body: 1003 chars]
+  Q778147 (slovenia/relation/3371473) -> matched: Municipality of Osilnica  [body: 528 chars]
+  Q13370246 (slovenia/relation/3371441) -> matched: Municipality of Cirkulane  [body: 687 chars]
+  Q167001 (slovenia/relation/3371491) -> matched: Municipality of Zavrč  [body: 665 chars]
+  Q3441796 (slovenia/relation/3371487) -> matched: Municipality of Središče ob Dravi  [body: 690 chars]
+  Q3435117 (slovenia/relation/3371481) -> matched: Municipality of Razkrižje  [body: 611 chars]
+  Q341658 (slovenia/relation/3371493) -> matched: Municipality of Črenšovci  [body: 562 chars]
+  Q13378292 (slovenia/relation/3351721) -> matched: Municipality of Vodice  [body: 538 chars]
+  Q12068719 (slovenia/relation/33736243) -> matched: Šentvid District  [body: 908 chars]
+  Q831903 (slovenia/relation/22630295) -> matched: Lake Bohinj  [body: 1419 chars]
+  Q108138093 (slovenia/way/2860596480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3936760 (slovenia/way/2893076898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20521929 (slovenia/way/2893310126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20521929 (slovenia/way/2893310128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12799347 (slovenia/way/2894321722) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7064523 (slovenia/relation/27061207) -> matched: Nove Stožice  [body: 986 chars]
+  Q12797139 (slovenia/way/2924360582) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2346638 (slovenia/relation/3351723) -> matched: Municipality of Šenčur  [body: 703 chars]
+  Q599480 (slovenia/relation/3352751) -> matched: Municipality of Rogašovci  [body: 589 chars]
+  Q906636 (slovenia/relation/3352785) -> matched: Municipality of Kuzma  [body: 588 chars]
+  Q2428528 (slovenia/relation/29917085) -> matched: Tivoli City Park  [body: 7147 chars]
+  Q648902 (slovenia/relation/1293) -> matched: Lake Bled  [body: 4117 chars]
+  Q6309297 (slovenia/relation/3352587) -> matched: Municipality of Muta  [body: 534 chars]
+  Q205836 (slovenia/relation/19247175) -> matched: Lake Cerknica  [body: 3957 chars]
+
+wrote 168 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/slovenia_wikidata.parquet
+wrote 168 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/slovenia_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/slovenia_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/slovenia_wikidata_map.png
+  rows=168 geometry_missing=0 bodies=168 jsonl=168 map_html=248768B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['slovenia']
+  failed:    0 -> []
+
+=== union ===
+unioned 37 countries -> 6245 rows
+[03:30:49] union
+unioned 37 countries -> 6245 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[03:30:57] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 152 files.
+Finished hashing 152 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../belarus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../belarus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 62 files]                : 100%|██████████| 26.2MB / 26.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (72 / 72)    :  54%|█████▍    | 28.0MB / 51.7MB, 35.0MB/s  
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  13%|█▎        | 3.41MB / 25.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (72 / 76)    :  57%|█████▋    | 29.5MB / 51.7MB, 21.1MB/s  
+New Data Upload               :   2%|▏         |  524kB / 22.7MB,  374kB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   7%|▋         | 1.51MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   2%|▏         | 3.65kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet:   2%|▏         | 14.5kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png:   2%|▏         | 3.22kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  11%|█         | 2.52MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   7%|▋         | 10.9kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet:   7%|▋         | 43.6kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png:   7%|▋         | 9.67kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (72 / 76)    :  59%|█████▉    | 30.6MB / 51.7MB, 17.0MB/s  
+New Data Upload               :   7%|▋         | 1.57MB / 22.7MB,  874kB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  24%|██▍       | 5.54MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  21%|██        | 32.8kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet:  21%|██        |  131kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png:  21%|██        | 29.0kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (72 / 76)    :  65%|██████▌   | 33.7MB / 51.7MB, 16.9MB/s  
+New Data Upload               :  21%|██        | 4.72MB / 22.7MB, 2.36MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  49%|████▊     | 11.1MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  46%|████▋     | 72.9kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet:  46%|████▋     |  290kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png:  46%|████▋     | 64.5kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (72 / 76)    :  76%|███████▋  | 39.5MB / 51.7MB, 17.9MB/s  
+New Data Upload               :  46%|████▋     | 10.5MB / 22.7MB, 4.77MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  84%|████████▍ | 19.1MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  83%|████████▎ |  131kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet:  83%|████████▎ |  523kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png:  83%|████████▎ |  116kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (72 / 76)    :  93%|█████████▎| 47.9MB / 51.7MB, 20.0MB/s  
+New Data Upload               :  83%|████████▎ | 18.9MB / 22.7MB, 7.87MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 22.6MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|█████████▉|  624kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|█████████▉|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (72 / 76)    : 100%|█████████▉| 51.6MB / 51.7MB, 19.8MB/s  
+New Data Upload               : 100%|█████████▉| 22.5MB / 22.7MB, 8.67MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 22.6MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|█████████▉|  624kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|█████████▉|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 22.6MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|█████████▉|  624kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|█████████▉|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 22.6MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|█████████▉|  624kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|█████████▉|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.7MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 76)    : 100%|██████████| 51.7MB / 51.7MB, 15.2MB/s  
+New Data Upload               : 100%|██████████| 22.7MB / 22.7MB, 6.66MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.7MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.7MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.7MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.7MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.7MB / 22.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 76)    : 100%|██████████| 51.7MB / 51.7MB, 12.3MB/s  
+New Data Upload               : 100%|██████████| 22.7MB / 22.7MB, 5.39MB/s  
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.7MB / 22.7MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+Removing 145 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/7e1a85c3ce74fc7147c09864314e07285be53c29
+[03:31:13] DONE slovenia

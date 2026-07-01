@@ -1,0 +1,2604 @@
+[03:31:13] === austria ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== austria ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/austria.parquet
+pre-filter (--only-wikidata): 133711 -> 1245 rows
+
+1245 polygons with wikidata=*
+  matched:           284
+  no en sitelink:    875
+  no sitelinks:      86
+  Q21879119 (austria/way/7737744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q665961 (austria/way/7737746) -> matched: Irrsee  [body: 354 chars]
+  Q2253893 (austria/way/7737750) -> matched: Schwarzensee (Salzkammergut)  [body: 41 chars]
+  Q877064 (austria/way/7737756) -> matched: Lake Fuschl  [body: 310 chars]
+  Q21863931 (austria/way/7737768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1819991 (austria/way/7737774) -> matched: Leopoldsteinersee  [body: 1006 chars]
+  Q21863672 (austria/way/7737780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1736793 (austria/way/7737782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863668 (austria/way/7737800) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q267943 (austria/way/7737804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21864146 (austria/way/7737806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1323680 (austria/way/7737814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879120 (austria/way/7737842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1355335 (austria/way/7737844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63247776 (austria/way/7737852) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1540769 (austria/way/7737854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21871698 (austria/way/7737856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q577250 (austria/way/7737860) -> matched: Mondsee (lake)  [body: 1520 chars]
+  Q21879113 (austria/way/7737866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q865774 (austria/way/7737868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21871696 (austria/way/7737882) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116764571 (austria/way/7737902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98219012 (austria/way/7737908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2092165 (austria/way/7741054) -> matched: Pichlinger See  [body: 42 chars]
+  Q1622728 (austria/way/7741124) -> matched: Oedter See  [body: 38 chars]
+  Q138589941 (austria/way/7741180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q351321 (austria/way/7741186) -> matched: Wienerwaldsee  [body: 1366 chars]
+  Q258863 (austria/way/7741232) -> matched: Rosenhofer Teiche  [body: 45 chars]
+  Q1614145 (austria/way/7741254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1655275 (austria/way/7741278) -> matched: Pleschinger See  [body: 494 chars]
+  Q2430106 (austria/way/7741288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879050 (austria/way/8109574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1798169 (austria/way/8473554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q900335 (austria/way/10382154) -> matched: Brewery Puntigam  [body: 3141 chars]
+  Q2334720 (austria/way/10426022) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2334734 (austria/way/10426032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21874862 (austria/way/10426538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1689473 (austria/way/10435072) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30224300 (austria/way/10435074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q811564 (austria/way/11561482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14546742 (austria/way/11802460) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14546742 (austria/way/11802464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q874662 (austria/way/15490878) -> matched: Hofgarten, Innsbruck  [body: 2336 chars]
+  Q25815134 (austria/way/15495560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q973859 (austria/way/16087838) -> matched: Weikerlsee  [body: 979 chars]
+  Q143265 (austria/way/16088132) -> matched: Augarten  [body: 10809 chars]
+  Q875751 (austria/way/16127536) -> matched: Volksgarten, Vienna  [body: 4835 chars]
+  Q64765007 (austria/way/16136062) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q185741 (austria/way/16157798) -> matched: Ernst-Happel-Stadion  [body: 7153 chars]
+  Q575489 (austria/way/16181236) -> matched: Plansee  [body: 1838 chars]
+  Q2256156 (austria/way/16184430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2595964 (austria/way/16212052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21877795 (austria/way/16212252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q877346 (austria/way/17194078) -> matched: Silvretta Reservoir  [body: 442 chars]
+  Q1315537 (austria/way/17306436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1241475 (austria/way/17306538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106043622 (austria/way/17333382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1495592 (austria/way/17348318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q666587 (austria/way/17463602) -> matched: Matzleinsdorf Protestant Cemetery  [body: 4266 chars]
+  Q2718154 (austria/way/17513672) -> matched: Hietzing Cemetery  [body: 2698 chars]
+  Q1270909 (austria/way/18128140) -> matched: Döbling Cemetery  [body: 5219 chars]
+  Q2037309 (austria/way/18334956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110742037 (austria/way/18335978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q672384 (austria/way/18342954) -> matched: Ottakringer  [body: 4428 chars]
+  Q1802323 (austria/way/18903458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27926335 (austria/way/19317186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1385407 (austria/way/19439178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q695321 (austria/way/19520108) -> matched: St. Marx Cemetery  [body: 2515 chars]
+  Q138606596 (austria/way/19630454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q336097 (austria/way/19631994) -> matched: Danube–Oder Canal  [body: 2287 chars]
+  Q336097 (austria/way/19634752) -> matched: Danube–Oder Canal  [body: 2287 chars]
+  Q2287236 (austria/way/19651950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20602717 (austria/way/19654136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20740205 (austria/way/19765482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q37947346 (austria/way/19772992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1686165 (austria/way/20080370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q873366 (austria/way/20091686) -> matched: Turracher See  [body: 1017 chars]
+  Q873917 (austria/way/20384144) -> matched: Kapuzinerberg  [body: 4485 chars]
+  Q1444316 (austria/relation/10633403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457371 (austria/way/20396130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1525601 (austria/way/20457788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38251439 (austria/way/20757330) -> matched: Soboth Reservoir  [body: 1431 chars]
+  Q876732 (austria/way/20856600) -> matched: Offensee  [body: 127 chars]
+  Q2509720 (austria/way/21189130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1566071 (austria/way/21354942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2329575 (austria/way/21478024) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23264 (austria/way/21862024) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875140 (austria/way/24328066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875142 (austria/way/24328240) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875145 (austria/way/24328372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16216415 (austria/way/27418778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q736650 (austria/way/27534748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q138606701 (austria/way/27539116) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q138590074 (austria/way/27539150) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q227848 (austria/way/28267342) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20183995 (austria/way/30015948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2311334 (austria/way/30906964) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1748480 (austria/way/31440266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16894162 (austria/way/31480700) -> matched: Linz-East Glider Field  [body: 276 chars]
+  Q1433869 (austria/way/31791162) -> matched: Spitzerberg Airport  [body: 389 chars]
+  Q2264576 (austria/way/35451098) -> matched: Seebensee  [body: 2028 chars]
+  Q876658 (austria/way/36107912) -> matched: Gösselsdorfer See  [body: 298 chars]
+  Q21875847 (austria/way/37527654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24846697 (austria/way/39680084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2133487 (austria/way/41153142) -> matched: Rauschelesee  [body: 173 chars]
+  Q1000868 (austria/way/41642448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1568116 (austria/way/45451590) -> matched: Hafnersee  [body: 71 chars]
+  Q1644057 (austria/way/45545970) -> matched: Höllerersee  [body: 209 chars]
+  Q1571451 (austria/way/45582716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1375496 (austria/way/45748046) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1261495 (austria/way/45833282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q94381334 (austria/way/45857748) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q450465 (austria/way/45964576) -> matched: Donau Zentrum  [body: 3542 chars]
+  Q667591 (austria/way/46174842) -> matched: Shopping City Süd  [body: 2781 chars]
+  Q449184 (austria/way/46299852) -> matched: Gepatschspeicher  [body: 548 chars]
+  Q1149072 (austria/way/46786176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6710857 (austria/way/46798758) -> matched: Längentalspeicher  [body: 46 chars]
+  Q1786255 (austria/way/46799342) -> matched: Finstertalspeicher  [body: 52 chars]
+  Q25767730 (austria/way/46799344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1255560 (austria/way/46850728) -> matched: Ferchensee  [body: 187 chars]
+  Q871854 (austria/way/47169800) -> matched: PlusCity  [body: 472 chars]
+  Q1551810 (austria/way/47272892) -> matched: Grünausee  [body: 38 chars]
+  Q29982430 (austria/way/47318160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98215790 (austria/way/47573086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2326154 (austria/way/48446658) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2478701 (austria/way/48506500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1516335 (austria/way/48575374) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863666 (austria/way/49328986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1607811 (austria/way/49352140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110490272 (austria/way/49462364) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107122734 (austria/way/49555364) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21874869 (austria/way/49622984) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115616371 (austria/way/49643268) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q37716603 (austria/way/49921258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21861704 (austria/way/49934896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21864053 (austria/way/50035252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2346141 (austria/way/50089196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q900422 (austria/way/50296574) -> matched: Zipf Brewery  [body: 5451 chars]
+  Q1330363 (austria/way/50410298) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2450125 (austria/way/50663958) -> matched: Traualpsee  [body: 264 chars]
+  Q104590784 (austria/way/50823994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q877303 (austria/way/50889892) -> matched: Langbathseen  [body: 268 chars]
+  Q2098323 (austria/way/50969780) -> matched: Plansee SE  [body: 9150 chars]
+  Q1397671 (austria/way/51118184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1981721 (austria/way/51153880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2329057 (austria/way/51259498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21104510 (austria/way/51304260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123196257 (austria/way/51465616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1494588 (austria/way/51471870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q277994 (austria/way/51882670) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q999211 (austria/way/51906498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q139886811 (austria/way/51946186) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1509558 (austria/way/51988864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2305900 (austria/way/52256300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1397524 (austria/way/52426646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26245992 (austria/way/52448036) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111709405 (austria/way/52476832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16832842 (austria/way/52555190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1017067 (austria/way/52564812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2334726 (austria/way/52610674) -> matched: Stausee Margaritze  [body: 100 chars]
+  Q59771407 (austria/way/52694272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879079 (austria/way/52740110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1799298 (austria/way/52781070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107652608 (austria/way/52797558) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2550738 (austria/way/52802184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61483621 (austria/way/52811988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111082984 (austria/way/52870408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1266722 (austria/way/52946920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2542762 (austria/way/53205814) -> matched: Wallersee  [body: 866 chars]
+  Q726700 (austria/way/53280966) -> matched: Donaupark  [body: 3706 chars]
+  Q877421 (austria/way/53283898) -> matched: University of Veterinary Medicine Vienna  [body: 935 chars]
+  Q28004658 (austria/way/53288032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863731 (austria/way/53326180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41473682 (austria/way/53493392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q336097 (austria/way/53549468) -> matched: Danube–Oder Canal  [body: 2287 chars]
+  Q909524 (austria/way/53638374) -> matched: Brennsee  [body: 1386 chars]
+  Q387919 (austria/way/53641058) -> matched: Afritzer See  [body: 706 chars]
+  Q21875133 (austria/way/53700880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q697492 (austria/way/53826736) -> matched: Palfinger  [body: 6788 chars]
+  Q61674412 (austria/way/54014818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23256 (austria/way/54115624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1598412 (austria/way/54177050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q82035889 (austria/way/54415768) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1799309 (austria/way/54424572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q702260 (austria/way/54892102) -> matched: Lake Ossiach  [body: 1733 chars]
+  Q119308532 (austria/way/54964988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q453664 (austria/way/55280116) -> matched: Maltschacher See  [body: 899 chars]
+  Q21863932 (austria/way/55289070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q459825 (austria/way/55305144) -> matched: Rosenbauer  [body: 3881 chars]
+  Q1748774 (austria/way/55423454) -> matched: Vassacher See  [body: 257 chars]
+  Q1484685 (austria/way/55465752) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1355337 (austria/way/55505628) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1158820 (austria/way/55515602) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q622683 (austria/way/55518024) -> matched: University of Graz  [body: 41600 chars]
+  Q2478707 (austria/way/55526958) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q998879 (austria/way/55591790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875141 (austria/relation/76959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1609665 (austria/way/55917736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1477256 (austria/relation/96155) -> matched: Rannasee  [body: 670 chars]
+  Q2265656 (austria/way/56200030) -> matched: Seestadt Aspern  [body: 4275 chars]
+  Q18857133 (austria/way/56868296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q103929410 (austria/way/57021218) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1883862 (austria/way/57072854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14638557 (austria/way/57239032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q611115 (austria/way/57436588) -> matched: Swarovski  [body: 15858 chars]
+  Q1484483 (austria/way/57837280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16899224 (austria/way/58137414) -> matched: Reutte-Höfen Airfield  [body: 237 chars]
+  Q16839367 (austria/way/58387648) -> matched: Gmunden Laakirchen Airfield  [body: 331 chars]
+  Q16899838 (austria/way/58387650) -> matched: Scharnstein Airport  [body: 313 chars]
+  Q877014 (austria/way/58388704) -> matched: Laudachsee  [body: 279 chars]
+  Q14523328 (austria/relation/121487) -> matched: Schloss Leopoldskron  [body: 6937 chars]
+  Q1191602 (austria/way/58541494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1802295 (austria/way/58603804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110804347 (austria/way/58606084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q37927090 (austria/way/58613238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1647675 (austria/way/58613364) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q694363 (austria/way/58727370) -> matched: Wels Airport  [body: 495 chars]
+  Q21875514 (austria/way/58872990) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875532 (austria/way/58873002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875507 (austria/way/58873012) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876731 (austria/way/58873336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876729 (austria/way/58873340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876728 (austria/way/58873344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876740 (austria/way/58873360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21861687 (austria/way/58878724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108143548 (austria/way/58878910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123353100 (austria/way/58879172) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q427860 (austria/way/58926710) -> matched: Nassfeld  [body: 1215 chars]
+  Q21881514 (austria/way/58950424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q700852 (austria/way/59132216) -> matched: Linz Airport  [body: 16118 chars]
+  Q2500790 (austria/way/59194590) -> matched: Urisee  [body: 35 chars]
+  Q21859950 (austria/way/59315100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433680 (austria/way/59474750) -> matched: Krems-Langenlois Airport  [body: 405 chars]
+  Q864967 (austria/way/59506292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433875 (austria/way/59568754) -> matched: Sankt Johann Airfield  [body: 311 chars]
+  Q689419 (austria/way/59747110) -> matched: Zell am See Airport  [body: 485 chars]
+  Q1530128 (austria/way/59759688) -> matched: Lake Turner  [body: 1010 chars]
+  Q528302 (austria/way/59760626) -> matched: Kleinsee  [body: 396 chars]
+  Q687150 (austria/way/59762166) -> matched: Lake Klopein  [body: 2954 chars]
+  Q871728 (austria/way/59897756) -> matched: Lake Pressegg  [body: 617 chars]
+  Q1774626 (austria/way/60188004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2155364 (austria/way/60263072) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1507502 (austria/way/60507354) -> matched: Urbansee  [body: 127 chars]
+  Q1534303 (austria/way/60507360) -> matched: Goggausee  [body: 1246 chars]
+  Q2317440 (austria/way/60530702) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q694404 (austria/way/60532008) -> matched: Klagenfurt Airport  [body: 5612 chars]
+  Q21874664 (austria/way/60533272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1585638 (austria/way/60592312) -> matched: Längsee (Tyrol)  [body: 78 chars]
+  Q1395407 (austria/way/60689222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106654080 (austria/way/60689428) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1688072 (austria/way/60701804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q871716 (austria/way/60702246) -> matched: Farchtensee  [body: 3145 chars]
+  Q107673203 (austria/way/60715118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107741723 (austria/way/60715756) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107673316 (austria/way/60716052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16891419 (austria/way/60737566) -> matched: Friesach/Hirt Airfield  [body: 236 chars]
+  Q1879227 (austria/way/60789920) -> matched: Längsee (Kärnten)  [body: 100 chars]
+  Q14638544 (austria/way/60789922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2253820 (austria/way/61024270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20882911 (austria/way/61025256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134932466 (austria/way/61026670) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q251538 (austria/way/61028540) -> matched: Salzburg Airport  [body: 4598 chars]
+  Q131742325 (austria/way/61028880) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q117021433 (austria/way/61030740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21862588 (austria/way/61041418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16319654 (austria/way/61042496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863920 (austria/way/61065932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876986 (austria/way/61065938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865479 (austria/way/61065980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863673 (austria/way/61066050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865142 (austria/way/61066144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21861208 (austria/way/61066158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21864645 (austria/way/61066162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21861113 (austria/way/61066168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21873851 (austria/way/61066220) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q889698 (austria/way/61066258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107296040 (austria/way/61066266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21862608 (austria/way/61066376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1468791 (austria/way/61066394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865636 (austria/way/61066438) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21871392 (austria/way/61066458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q293946 (austria/way/61066492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1273412 (austria/way/61066744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64765083 (austria/way/61103906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q675567 (austria/relation/4868525) -> matched: Piber Federal Stud  [body: 6213 chars]
+  Q21881512 (austria/way/61151982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14638567 (austria/relation/4349869) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q874025 (austria/way/61218850) -> matched: Brennersee  [body: 784 chars]
+  Q14531655 (austria/way/61798738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1589817 (austria/way/62510790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q477846 (austria/way/62579370) -> matched: Dürnrohr Power Station  [body: 1110 chars]
+  Q699533 (austria/way/62948868) -> matched: Villach Hauptbahnhof  [body: 1444 chars]
+  Q1484396 (austria/way/63704668) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21864747 (austria/way/64028948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q54634346 (austria/way/64030234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21874098 (austria/way/64030304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868341 (austria/way/64030306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19971244 (austria/way/64102384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q821228 (austria/way/65385888) -> matched: Triboldingerbohl  [body: 1816 chars]
+  Q1433926 (austria/way/65413322) -> matched: Völtendorf Airport  [body: 309 chars]
+  Q2117276 (austria/way/66921974) -> matched: Puckinger See  [body: 2160 chars]
+  Q1589507 (austria/way/68403924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1521834 (austria/way/68404048) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20170666 (austria/way/69138910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1436224 (austria/way/71337128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1714306 (austria/way/71966372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17578744 (austria/way/72656840) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879416 (austria/way/73975886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q682739 (austria/way/74163966) -> matched: Johannes Kepler University Linz  [body: 7825 chars]
+  Q1802031 (austria/way/74348388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16831856 (austria/way/75226928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1488291 (austria/way/76901524) -> matched: Gleinkersee  [body: 3151 chars]
+  Q130453723 (austria/way/78933622) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q659123 (austria/way/78946656) -> matched: Lünersee  [body: 425 chars]
+  Q139550294 (austria/way/82217322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876431 (austria/way/83697772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23929461 (austria/way/84459698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876350 (austria/way/84560836) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115166848 (austria/way/85430936) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21871438 (austria/way/86662992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2353398 (austria/way/87350098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q877556 (austria/way/87995076) -> matched: Stiegl Brewery  [body: 577 chars]
+  Q16837213 (austria/way/91565730) -> matched: Flugplatz Ottenschlag  [body: 356 chars]
+  Q106643926 (austria/way/92342906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q886230 (austria/way/93217922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q889436 (austria/way/93922872) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1521544 (austria/way/94003528) -> matched: Theiß power station  [body: 2061 chars]
+  Q21873079 (austria/way/94806558) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q688460 (austria/way/96073326) -> matched: Heiterwanger See  [body: 367 chars]
+  Q575489 (austria/way/96073330) -> matched: Plansee  [body: 1838 chars]
+  Q96150987 (austria/way/101781162) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96153215 (austria/way/101829654) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96152439 (austria/way/101829832) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96152492 (austria/way/101834120) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96161156 (austria/way/101844694) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96159072 (austria/way/102073522) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96158554 (austria/way/102091724) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96159457 (austria/way/102452064) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96151100 (austria/way/102452068) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96159647 (austria/way/102520198) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96159620 (austria/way/102527134) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12041437 (austria/way/102528494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96159654 (austria/way/102528498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96156921 (austria/way/102739720) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96158827 (austria/way/102739750) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96152150 (austria/way/103100190) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q877038 (austria/way/103648716) -> matched: Lake Obernberg  [body: 1144 chars]
+  Q26822192 (austria/way/106239190) -> matched: Kühtai  [body: 2102 chars]
+  Q21864147 (austria/relation/1091865) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q896510 (austria/way/109362102) -> matched: Höllentalferner  [body: 1177 chars]
+  Q2552735 (austria/way/110392944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q248804 (austria/way/110503842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2285898 (austria/relation/2210145) -> matched: Silbersee (Carinthia)  [body: 621 chars]
+  Q108143280 (austria/way/118019076) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21864668 (austria/way/118418246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1596537 (austria/way/119062142) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1475179 (austria/way/121548926) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868082 (austria/way/123722502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1988812 (austria/way/128990764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q286962 (austria/way/129680574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108059041 (austria/way/134306460) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66712916 (austria/way/142616758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2648976 (austria/way/144293416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2493172 (austria/way/144293418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1271513 (austria/way/144942286) -> matched: Dösener See  [body: 1201 chars]
+  Q860863 (austria/way/146598544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32999 (austria/way/151464186) -> matched: Vienna International Airport  [body: 10320 chars]
+  Q21871345 (austria/way/151587708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21874023 (austria/way/151795226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21864930 (austria/way/152474264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1714298 (austria/way/153376940) -> matched: Graz-Karlau Prison  [body: 2028 chars]
+  Q129066159 (austria/way/155816110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61670376 (austria/relation/11906181) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2568888 (austria/way/160070404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865732 (austria/way/161757876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860470 (austria/way/161786910) -> matched: Horný les  [body: 921 chars]
+  Q28037982 (austria/way/161787086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860533 (austria/way/162017450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860359 (austria/way/162018104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q172864 (austria/way/162056420) -> matched: Zeltweg Air Base  [body: 2589 chars]
+  Q160139 (austria/way/162356708) -> matched: Mauthausen concentration camp  [body: 36383 chars]
+  Q21861331 (austria/way/162382796) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21871391 (austria/way/163184168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q95988375 (austria/way/163184234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865670 (austria/way/163184302) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1156792 (austria/way/163371254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108783972 (austria/way/163865692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61771485 (austria/relation/2458729) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865801 (austria/way/163865820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108783972 (austria/way/163865912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21873320 (austria/way/163865934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2493157 (austria/way/167621424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1341799 (austria/way/167627304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2507264 (austria/way/168074124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96269291 (austria/relation/2526615) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q162831 (austria/way/169263342) -> matched: Strußnigteich  [body: 1703 chars]
+  Q125771324 (austria/way/169335524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1619684 (austria/way/169692856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1619684 (austria/way/169693164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115589859 (austria/way/169787516) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21869163 (austria/relation/2538739) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50616493 (austria/way/171229510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q95743363 (austria/relation/2556649) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64143313 (austria/relation/16055585) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1479663 (austria/way/172222124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863921 (austria/relation/2528207) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1569045 (austria/way/172806596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1435243 (austria/way/172999354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107724908 (austria/relation/2581639) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96776904 (austria/relation/2583133) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876355 (austria/way/176070490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21873362 (austria/way/176070496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q900389 (austria/way/176653582) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1557826 (austria/relation/2623779) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115640127 (austria/way/183696274) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104662357 (austria/way/184008878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16895114 (austria/way/184086864) -> matched: Military Airport Aigen im Ennstal  [body: 425 chars]
+  Q1906883 (austria/way/184751044) -> matched: Maschinenfabrik Liezen und Gießerei  [body: 5277 chars]
+  Q21873681 (austria/way/184753676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q94501432 (austria/way/184882126) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21879117 (austria/way/185469396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879119 (austria/way/185469398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879115 (austria/way/185469416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879118 (austria/way/185485572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1321632 (austria/relation/2706103) -> matched: Wangenitzsee  [body: 1022 chars]
+  Q21879125 (austria/way/186123142) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107673323 (austria/way/186183254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1166740 (austria/relation/2708857) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q102177132 (austria/way/186509512) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q98647881 (austria/way/186614216) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q98647835 (austria/way/186615272) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1433573 (austria/way/186713470) -> matched: Dobersberg Airport  [body: 349 chars]
+  Q21864206 (austria/way/187258854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1924056 (austria/way/187788236) -> matched: Messe Wien  [body: 260 chars]
+  Q115864204 (austria/way/187953082) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131579592 (austria/way/190135530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113528 (austria/way/191001902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q695845 (austria/way/191502884) -> matched: OlympiaWorld Innsbruck  [body: 1080 chars]
+  Q1417496 (austria/way/191569052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1127725 (austria/way/191716672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q593463 (austria/way/191721486) -> matched: Zwentendorf Nuclear Power Plant  [body: 3281 chars]
+  Q21879405 (austria/way/192146564) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879403 (austria/way/192146600) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2340131 (austria/way/192807250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21861696 (austria/way/193438540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879114 (austria/way/193527446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868781 (austria/way/193607436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29654667 (austria/way/194402920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q789620 (austria/way/194495842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3487269 (austria/way/195949508) -> matched: Wurstelprater  [body: 5626 chars]
+  Q20107596 (austria/way/195961008) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20107614 (austria/way/195967724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q278044 (austria/way/196825416) -> matched: Vienna University of Economics and Business  [body: 7646 chars]
+  Q178162 (austria/way/196892582) -> matched: Graz Airport  [body: 5619 chars]
+  Q992631 (austria/way/197596630) -> matched: Otto-Wagner-Spital  [body: 1392 chars]
+  Q96398439 (austria/way/200589228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59105156 (austria/way/200921626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16894111 (austria/way/202581490) -> matched: Leoben/Timmersdorf Airfield  [body: 318 chars]
+  Q21863773 (austria/way/204885080) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q873879 (austria/relation/2920179) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123998601 (austria/way/209060328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110816975 (austria/way/209576530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16891237 (austria/way/209775990) -> matched: Feldkirchen-Ossiacher See Airport  [body: 387 chars]
+  Q16891670 (austria/way/209809518) -> matched: Ferlach-Glainach Airport  [body: 361 chars]
+  Q1711005 (austria/way/209845532) -> matched: Lienz-Nikolsdorf Airport  [body: 358 chars]
+  Q2095067 (austria/way/209927290) -> matched: Pillersee  [body: 687 chars]
+  Q1496009 (austria/way/210516870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21864639 (austria/way/211522850) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21866106 (austria/way/211522852) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868335 (austria/way/211749984) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22694625 (austria/way/212164842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876288 (austria/way/212164860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q795889 (austria/way/218774904) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1388304 (austria/way/223085068) -> matched: University of Applied Sciences Campus Vienna  [body: 393 chars]
+  Q21871145 (austria/way/223293578) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59326540 (austria/way/229432818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1827176 (austria/way/233082710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q126487148 (austria/way/233900660) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100988966 (austria/way/235173664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2417244 (austria/way/236231994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2166840 (austria/way/236860666) -> matched: Sandberg (Celtic settlement)  [body: 4820 chars]
+  Q60330644 (austria/way/238281238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q99476585 (austria/way/238334950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1317804 (austria/way/238772712) -> matched: Eiskar  [body: 827 chars]
+  Q21875069 (austria/way/239754970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104876612 (austria/way/240427544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106641156 (austria/way/240654234) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21859021 (austria/way/243504534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859013 (austria/way/243504536) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859048 (austria/way/243504538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859018 (austria/way/243504540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115867837 (austria/way/243741372) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21875139 (austria/relation/3332527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q872819 (austria/way/245184362) -> matched: GK Dürnrohr  [body: 7971 chars]
+  Q678147 (austria/relation/3351245) -> matched: Municipality of Mežica  [body: 595 chars]
+  Q1549443 (austria/way/245735210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130570349 (austria/way/246009644) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q18844665 (austria/way/247051212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1394336 (austria/way/248127372) -> matched: Falkertsee  [body: 43 chars]
+  Q21864642 (austria/way/249445746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875827 (austria/way/250866538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57338062 (austria/way/251821868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1491344 (austria/way/252085914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863867 (austria/way/252086134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26159942 (austria/way/256440934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1406369 (austria/relation/3469357) -> matched: Ferlacher Badesee  [body: 50 chars]
+  Q21879278 (austria/relation/3482967) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1255849 (austria/way/260100400) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q871584 (austria/relation/3528161) -> matched: Lake Wolfgang  [body: 3100 chars]
+  Q15110392 (austria/way/264259030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q701533 (austria/relation/3510067) -> matched: Fernsteinsee  [body: 41 chars]
+  Q21864019 (austria/way/264535576) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1397524 (austria/way/268927966) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q571356 (austria/way/269898902) -> matched: Wiener Neustadt East Airport  [body: 2375 chars]
+  Q1619830 (austria/relation/34074007) -> matched: Hintersteiner See  [body: 2231 chars]
+  Q592327 (austria/way/271411072) -> matched: Anton Paar  [body: 1815 chars]
+  Q1714295 (austria/way/271581418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q873172 (austria/way/272024534) -> matched: Hechtsee  [body: 207 chars]
+  Q1318032 (austria/way/273700582) -> matched: Stockerau Airfield  [body: 322 chars]
+  Q1308107 (austria/way/274006616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22772376 (austria/way/276613544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786203 (austria/way/276813938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q99669388 (austria/relation/2850147) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q175404 (austria/way/282388714) -> matched: Alpsee  [body: 813 chars]
+  Q21863432 (austria/relation/3833125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104876727 (austria/way/283262824) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q871754 (austria/relation/3843991) -> matched: Thiersee Lake  [body: 683 chars]
+  Q1714296 (austria/way/284249060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21871331 (austria/way/287792178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1883860 (austria/way/290874718) -> matched: Magdalensee  [body: 330 chars]
+  Q120805277 (austria/relation/24183699) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q178327 (austria/way/293217422) -> matched: Petrinum Linz  [body: 1570 chars]
+  Q2419836 (austria/way/293654978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q495580 (austria/way/294178568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38051972 (austria/way/296883532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876578 (austria/way/298398450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q677602 (austria/way/299464722) -> matched: Botanical Garden of the University of Vienna  [body: 2999 chars]
+  Q251438 (austria/way/300846298) -> matched: Haldensee  [body: 227 chars]
+  Q1624636 (austria/way/300909148) -> matched: Rudolf-Tonn-Stadion  [body: 607 chars]
+  Q2256835 (austria/relation/3280501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52685510 (austria/way/301853820) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q61889539 (austria/way/302123654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122676823 (austria/way/302741642) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115197359 (austria/way/302932576) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q61656119 (austria/way/304667952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2204577 (austria/way/307160480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q394250 (austria/relation/4424591) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64765006 (austria/relation/4154337) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21037167 (austria/way/309872462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21034656 (austria/way/309921984) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108144013 (austria/way/312102242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130463101 (austria/way/312330428) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q877759 (austria/way/312348606) -> matched: Blindsee  [body: 56 chars]
+  Q21873798 (austria/way/312730560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1622961 (austria/way/312806422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q875098 (austria/relation/4199957) -> matched: Vilsalpsee  [body: 39 chars]
+  Q684169 (austria/way/318207730) -> matched: Pasterze Glacier  [body: 1880 chars]
+  Q21859080 (austria/way/318207732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2538310 (austria/way/319322138) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q897520 (austria/way/320901406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21873085 (austria/way/321681508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q78197790 (austria/way/323200496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15955587 (austria/way/323814446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19288821 (austria/way/326278598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21861688 (austria/way/329642308) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115639874 (austria/relation/4395171) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q106673211 (austria/relation/4395173) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q77003101 (austria/way/330760156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16899837 (austria/way/330974688) -> matched: Schärding-Suben Airport  [body: 314 chars]
+  Q8546434 (austria/relation/4432515) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28004651 (austria/relation/40379471) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64159769 (austria/way/334700452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110802677 (austria/way/336186198) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786533 (austria/way/336579520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1727088 (austria/way/339605826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q190484 (austria/relation/2504685) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859028 (austria/way/341861490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107358504 (austria/way/342947296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2210041 (austria/way/343215440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q738742 (austria/way/343249204) -> matched: Ingeringsee  [body: 162 chars]
+  Q1326835 (austria/relation/32256409) -> matched: Currier  [body: 657 chars]
+  Q28003881 (austria/relation/4627559) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q8549888 (austria/way/348584204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11158574 (austria/way/348590226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12056445 (austria/way/348596868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8549586 (austria/relation/4665511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12046842 (austria/relation/4663377) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8548672 (austria/relation/4664697) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8548386 (austria/relation/4664433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12046845 (austria/way/348661566) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12046845 (austria/way/348662158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11706612 (austria/relation/4654949) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27111 (austria/way/350448112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1980477 (austria/relation/4690891) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q81936512 (austria/way/355568128) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1658291 (austria/way/357976310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q165401 (austria/way/358485832) -> matched: Mainau  [body: 8358 chars]
+  Q115865095 (austria/way/361374452) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1300636 (austria/way/361374504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859087 (austria/way/361452528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1651024 (austria/way/361751602) -> matched: Hörzendorfer See  [body: 49 chars]
+  Q220241 (austria/way/362141420) -> matched: Millstätter See  [body: 3221 chars]
+  Q110174513 (austria/relation/864851) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110167168 (austria/relation/870745) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1492691 (austria/relation/4477085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q700121 (austria/way/366388452) -> matched: Salzburgring  [body: 4634 chars]
+  Q23249 (austria/way/367926382) -> matched: Donauinsel  [body: 4455 chars]
+  Q872003 (austria/relation/4930647) -> matched: Rifflsee  [body: 595 chars]
+  Q2003025 (austria/way/371962918) -> matched: Novomatic  [body: 5549 chars]
+  Q1877522 (austria/way/373551308) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108158081 (austria/way/373943892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133475936 (austria/way/375342934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106659080 (austria/relation/5089899) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q871535 (austria/relation/5114399) -> matched: Lautersee  [body: 207 chars]
+  Q32198585 (austria/relation/5114989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101135539 (austria/way/379436952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100700143 (austria/way/379440956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101002677 (austria/way/379487410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60687140 (austria/way/379489222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60677613 (austria/way/379498464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60713220 (austria/way/379498466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60717432 (austria/way/379498470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60890175 (austria/way/379498472) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61959238 (austria/way/379498486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60890175 (austria/way/379498494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100251450 (austria/way/379512422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100354066 (austria/way/379512470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1571451 (austria/way/379735228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134620356 (austria/way/383839672) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21876430 (austria/way/384488334) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66501540 (austria/way/384985754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q294469 (austria/way/394863462) -> matched: Theresianum  [body: 8593 chars]
+  Q82032598 (austria/relation/27513275) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21873667 (austria/way/395514094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q896753 (austria/way/400566584) -> matched: Schneeferner  [body: 7193 chars]
+  Q21879389 (austria/way/403978176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q900368 (austria/way/413231680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20901832 (austria/way/414972058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1536399 (austria/way/422061578) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q815480 (austria/way/428633434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1593526 (austria/way/430237804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22691212 (austria/way/439813992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21880532 (austria/way/441925120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115867835 (austria/way/443690792) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1946960 (austria/relation/5881051) -> matched: Moosburger Mitterteich  [body: 55 chars]
+  Q2237948 (austria/way/445890940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2251183 (austria/way/447959476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865628 (austria/relation/13388143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2069816 (austria/way/460724178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1564008 (austria/way/463363540) -> matched: HLFS Ursprung  [body: 10783 chars]
+  Q21879085 (austria/way/463685476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16899747 (austria/way/463774230) -> matched: Sankt Georgen Airport  [body: 325 chars]
+  Q21876324 (austria/way/465470188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q700635 (austria/relation/6288643) -> matched: Weissensee (Carinthia)  [body: 3236 chars]
+  Q115034044 (austria/way/467403546) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1651557 (austria/way/476560778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q398648 (austria/way/477516542) -> matched: Aguntum  [body: 6878 chars]
+  Q6883536 (austria/way/488815564) -> matched: Mittersill mine  [body: 1842 chars]
+  Q24010963 (austria/way/492350654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64145187 (austria/way/498889446) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16834734 (austria/way/499045598) -> matched: Eferding Airport  [body: 299 chars]
+  Q134300988 (austria/way/501392612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19635037 (austria/way/503108752) -> matched: Neulandschule Laaerberg  [body: 1985 chars]
+  Q77232306 (austria/way/506965644) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11292502 (austria/relation/852413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96575198 (austria/way/512671946) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63822737 (austria/way/517665040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114075 (austria/relation/6136529) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1625813 (austria/way/520153986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111029145 (austria/way/520938678) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q138016302 (austria/way/522916774) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38531810 (austria/way/523403864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786542 (austria/way/523843232) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q330615 (austria/relation/867083) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59419585 (austria/relation/7148495) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786193 (austria/way/534728370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1625764 (austria/way/540936320) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1150526 (austria/way/541586176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2282712 (austria/way/550112502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2517250 (austria/relation/2541503) -> matched: Vernagtferner  [body: 14251 chars]
+  Q2517250 (austria/relation/2541509) -> matched: Vernagtferner  [body: 14251 chars]
+  Q2456029 (austria/relation/2541511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q694434 (austria/way/564294276) -> matched: Innsbruck Airport  [body: 2412 chars]
+  Q544673 (austria/way/569653532) -> matched: Nova Rock Festival  [body: 3730 chars]
+  Q689775 (austria/relation/9152421) -> matched: Graz University of Technology  [body: 8737 chars]
+  Q21880607 (austria/relation/38834085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21880608 (austria/way/576875956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21880608 (austria/way/576875978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21880608 (austria/way/576875990) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859237 (austria/way/578650734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859266 (austria/way/578650738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859235 (austria/way/578650740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859195 (austria/way/578828734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859157 (austria/way/578828738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859153 (austria/way/578828744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859154 (austria/way/578828746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859094 (austria/way/578830026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879411 (austria/way/581120460) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24026883 (austria/way/581281954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1245615 (austria/way/584930880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46242 (austria/relation/7796351) -> matched: Hofburg  [body: 20255 chars]
+  Q116337235 (austria/way/590914852) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1780977 (austria/way/591243842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1434803 (austria/way/591669210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16294823 (austria/relation/14200443) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q187763 (austria/way/600698644) -> matched: Lake Zell  [body: 1098 chars]
+  Q1028006 (austria/way/603217126) -> matched: Vysoká pri Morave  [body: 1692 chars]
+  Q535517 (austria/way/610389708) -> matched: Wacker Chemie  [body: 8235 chars]
+  Q7095671 (austria/way/614143302) -> matched: Opel Wien  [body: 815 chars]
+  Q33388444 (austria/way/616741674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27139375 (austria/way/619396912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q650690 (austria/way/621579216) -> matched: Suchohrad  [body: 1355 chars]
+  Q874414 (austria/relation/22252229) -> matched: Schwarzsee (Kitzbühel)  [body: 56 chars]
+  Q21001128 (austria/way/635402004) -> matched: Rettenbach (ski slope)  [body: 1880 chars]
+  Q16899902 (austria/way/638205182) -> matched: Seitenstetten Airport  [body: 322 chars]
+  Q82033129 (austria/way/647181356) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96600360 (austria/way/651666562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q264752 (austria/relation/2812765) -> matched: Prater  [body: 10259 chars]
+  Q21859103 (austria/way/656812970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859133 (austria/way/656813000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859032 (austria/way/656822918) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859283 (austria/way/656831782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859223 (austria/way/656831788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859185 (austria/way/656831798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859219 (austria/way/656831806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859221 (austria/way/656831816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859254 (austria/way/656831828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859044 (austria/way/656860340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859068 (austria/way/656860348) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859145 (austria/way/656860352) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859042 (austria/way/656860368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859022 (austria/way/656862020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859023 (austria/way/656862026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22692705 (austria/way/656876084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876386 (austria/way/656877176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61515647 (austria/relation/10364195) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2588054 (austria/way/658712104) -> matched: Alterlaa  [body: 2694 chars]
+  Q106674169 (austria/way/659116562) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2005537 (austria/relation/9266989) -> matched: Nussensee  [body: 510 chars]
+  Q66501541 (austria/way/663667030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433678 (austria/way/664795860) -> matched: Kufstein-Langkampfen Airport  [body: 324 chars]
+  Q1270593 (austria/way/668435962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17321472 (austria/way/669372920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19842286 (austria/way/671246096) -> matched: Semmering (ski resort)  [body: 1865 chars]
+  Q21875125 (austria/relation/4430165) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1440010 (austria/way/675856748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q875914 (austria/way/680974612) -> matched: Kreischberg  [body: 3482 chars]
+  Q124299823 (austria/relation/9679963) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2292227 (austria/way/683786392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1279288 (austria/way/683814054) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q651684 (austria/way/683816566) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15111880 (austria/way/683817818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1970606 (austria/way/683956284) -> matched: Sandstein-Wienerwald natural park  [body: 912 chars]
+  Q1546875 (austria/way/684026064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q959819 (austria/way/688345306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868850 (austria/relation/3418411) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2179650 (austria/relation/9710175) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14638550 (austria/way/696693718) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11762704 (austria/way/697361476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1240960 (austria/relation/8011327) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107718548 (austria/way/720498276) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1802326 (austria/way/723974044) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60717435 (austria/relation/10777675) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101002710 (austria/relation/10802325) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60713213 (austria/relation/10802515) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21862245 (austria/relation/34073947) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60692140 (austria/relation/10844767) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433826 (austria/way/729403998) -> matched: Ried-Kirchheim Airport  [body: 318 chars]
+  Q1910897 (austria/way/732805904) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2651458 (austria/way/732914174) -> matched: Alservorstadt  [body: 3938 chars]
+  Q100605538 (austria/relation/10902993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1715258 (austria/way/738048184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1620018 (austria/way/738048186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2305892 (austria/way/739635262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55185319 (austria/way/740443470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111262988 (austria/way/742437220) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29857346 (austria/way/746801980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2141771 (austria/way/753880286) -> matched: Reintaler See  [body: 363 chars]
+  Q1802327 (austria/way/755406172) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1886262 (austria/way/756947118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1266722 (austria/way/770167156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125857513 (austria/relation/11459373) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q66459409 (austria/relation/11474171) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q875372 (austria/way/776696980) -> matched: Hohenems-Dornbirn Airfield  [body: 527 chars]
+  Q116944898 (austria/way/779408262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876443 (austria/way/780651972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1730177 (austria/way/782677720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1450584 (austria/relation/4106153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2447420 (austria/way/791019942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1549233 (austria/way/791490666) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110426721 (austria/relation/13277581) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30260799 (austria/way/794950336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q449184 (austria/way/795357438) -> matched: Gepatschspeicher  [body: 548 chars]
+  Q3094866 (austria/way/814602114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859813 (austria/relation/12113829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106655836 (austria/relation/23326639) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16901954 (austria/way/823015228) -> matched: Trausdorf Airport  [body: 3919 chars]
+  Q1019673 (austria/way/834773706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876394 (austria/relation/12414345) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3967176 (austria/way/844537582) -> matched: Sparkasse Horn Arena  [body: 811 chars]
+  Q100249985 (austria/way/858507398) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2637108 (austria/way/862290818) -> matched: Alatsee  [body: 393 chars]
+  Q1433596 (austria/way/864248248) -> matched: Fürstenfeld Airport  [body: 313 chars]
+  Q701705 (austria/relation/13006813) -> matched: Formarinsee  [body: 397 chars]
+  Q389566 (austria/relation/13065749) -> matched: Wildensee (Salzkammergut)  [body: 163 chars]
+  Q259730 (austria/relation/12638415) -> matched: Almsee  [body: 588 chars]
+  Q21863774 (austria/relation/13066893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2331539 (austria/way/885100856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96152961 (austria/way/885100864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1779621 (austria/relation/9486973) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q826436 (austria/relation/12995159) -> matched: Lake Bernhardsthal  [body: 407 chars]
+  Q1277028 (austria/way/893266922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q362654 (austria/way/913236858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20669666 (austria/relation/13506335) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1555046 (austria/way/923625176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19971521 (austria/way/929552232) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100995239 (austria/way/930582402) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60777364 (austria/relation/13755441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59419561 (austria/way/938833798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2287268 (austria/way/954661148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2464508 (austria/relation/7408921) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875662 (austria/relation/14494791) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1275938 (austria/relation/14677345) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1575543 (austria/relation/14677375) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1322586 (austria/relation/14677373) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2320445 (austria/relation/14677371) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q757928 (austria/relation/32104759) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q82033761 (austria/way/1019368186) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1260644 (austria/relation/13678357) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108128701 (austria/relation/24652335) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131743171 (austria/way/1048723602) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q81717327 (austria/way/1049448260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125053323 (austria/way/1055814698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865434 (austria/relation/4110323) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q694566 (austria/way/1075243436) -> matched: Villacher Alpenarena  [body: 304 chars]
+  Q203118 (austria/way/1078379530) -> matched: Zillertal Arena  [body: 1299 chars]
+  Q2292145 (austria/way/1078392992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q688964 (austria/way/1078398610) -> matched: Hintertux Glacier  [body: 7687 chars]
+  Q46995824 (austria/way/1078400464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61279053 (austria/way/1078411554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2239632 (austria/way/1078412970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q701945 (austria/relation/15536389) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123050708 (austria/way/1078429904) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1425512 (austria/way/1078441084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2292235 (austria/relation/15441083) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1655578 (austria/way/1078819512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1239826 (austria/way/1078848554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28054228 (austria/way/1078851826) -> matched: Laterns-Gapfohl  [body: 1168 chars]
+  Q1019630 (austria/way/1078867348) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97483798 (austria/way/1087739336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60668890 (austria/relation/10898347) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q211818 (austria/way/1092681080) -> matched: Belvedere, Vienna  [body: 15447 chars]
+  Q688588 (austria/way/1102062920) -> matched: Stadtpark, Vienna  [body: 4217 chars]
+  Q688588 (austria/way/1102062922) -> matched: Stadtpark, Vienna  [body: 4217 chars]
+  Q451505 (austria/way/1107252382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875140 (austria/way/1120434894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59389089 (austria/way/1126794096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2570885 (austria/relation/16094951) -> matched: Wildsee (Seefeld)  [body: 2125 chars]
+  Q21932305 (austria/way/1135745096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6436737 (austria/way/1136780054) -> matched: Kremsbrücke Pressingberg  [body: 572 chars]
+  Q68752772 (austria/relation/2904761) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64485342 (austria/relation/2905131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q90093458 (austria/relation/2905133) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q240744 (austria/relation/2900721) -> matched: Vienna Central Cemetery  [body: 9426 chars]
+  Q615711 (austria/relation/4786965) -> matched: Achen Lake  [body: 4611 chars]
+  Q21858145 (austria/relation/9619405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2322523 (austria/relation/4685055) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108143284 (austria/relation/20604601) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q104787692 (austria/relation/5795257) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26159942 (austria/way/1189207000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22693720 (austria/relation/16799875) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124480840 (austria/relation/16244773) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110769684 (austria/way/1218071266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1294963 (austria/relation/2538697) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1417413 (austria/relation/3489757) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26265570 (austria/relation/17437891) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1987910 (austria/way/1258073870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66709386 (austria/way/1283844580) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q758419 (austria/way/1286819744) -> matched: Aubad  [body: 458 chars]
+  Q2215970 (austria/way/1288596084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7513444 (austria/relation/2216723) -> matched: Sihoť  [body: 3559 chars]
+  Q30303466 (austria/way/1318332770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111876072 (austria/way/1319394556) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1970446 (austria/way/1332966854) -> matched: Blockheide  [body: 660 chars]
+  Q14369 (austria/relation/9242687) -> matched: Inn (river)  [body: 4835 chars]
+  Q2353391 (austria/way/1365455944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130595380 (austria/relation/18972449) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q17364143 (austria/way/1369264352) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111103901 (austria/relation/19197583) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875592 (austria/relation/6718731) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111528973 (austria/relation/299789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1489718 (austria/way/1406377980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21854976 (austria/relation/19632301) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q59360717 (austria/way/1412933496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1970485 (austria/way/1435498234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q830976 (austria/way/1445876658) -> matched: Devín Castle  [body: 7123 chars]
+  Q21861361 (austria/way/1450291662) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875526 (austria/relation/20123959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875513 (austria/relation/20124521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110741921 (austria/relation/3526051) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q75101985 (austria/way/1486358058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47035722 (austria/way/1490224822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q872543 (austria/way/1494244574) -> matched: Medical University of Graz  [body: 7044 chars]
+  Q2497454 (austria/relation/20712567) -> matched: Bavarian Lower Inn Valley  [body: 1085 chars]
+  Q128406604 (austria/way/1509734234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875212 (austria/relation/6478571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q797627 (austria/way/1519746804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1970531 (austria/relation/21082667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115611895 (austria/way/1534967788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1329815 (austria/way/1556096330) -> matched: Mönchsberg  [body: 6149 chars]
+  Q2139125 (austria/relation/39278477) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17321944 (austria/relation/39278481) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q477539 (austria/relation/39278479) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2107328 (austria/relation/38696367) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17404841 (austria/relation/38696361) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17404841 (austria/way/1556645876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2211803 (austria/relation/38696365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1664216 (austria/way/1556663528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1664216 (austria/way/1556663530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1722296 (austria/relation/39278475) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865391 (austria/relation/11352061) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1958323 (austria/relation/39278441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17578081 (austria/relation/39278437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1318478 (austria/relation/39278433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17578081 (austria/relation/39278439) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1637834 (austria/relation/39278435) -> matched: Hungerburg  [body: 319 chars]
+  Q18026333 (austria/relation/39278485) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2022842 (austria/relation/39278483) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16854811 (austria/way/1562738978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105337024 (austria/way/1585360578) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1406966 (austria/way/1585834466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879284 (austria/relation/4216977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q445642 (austria/relation/22128599) -> matched: Figl Air Base  [body: 7422 chars]
+  Q2220873 (austria/way/1600822136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21858072 (austria/relation/4217027) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11722971 (austria/relation/871067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1267464 (austria/relation/22305135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q612901 (austria/relation/4392647) -> matched: Thayatal National Park  [body: 4171 chars]
+  Q876691 (austria/way/1634680238) -> matched: Keutschacher See  [body: 3004 chars]
+  Q64555518 (austria/way/1638024620) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q171566 (austria/way/1645184792) -> matched: Red Bull Ring  [body: 15331 chars]
+  Q59385756 (austria/way/1653230344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863667 (austria/relation/3353285) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q718535 (austria/relation/39278443) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64559487 (austria/relation/12816263) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24232843 (austria/relation/3969493) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1970659 (austria/relation/2703321) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q79033262 (austria/way/1703110474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340841) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340843) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340845) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340847) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340851) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340853) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340855) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340857) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340859) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340861) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340865) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340867) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340869) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340871) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340873) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340875) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340877) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340879) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340883) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340885) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340889) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340891) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340895) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340897) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340899) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340901) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340903) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340905) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22678488 (austria/relation/23340907) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1615844 (austria/relation/23348427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q40808901 (austria/way/1709373414) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q668706 (austria/relation/23568349) -> matched: Rettenbach glacier  [body: 1056 chars]
+  Q1495007 (austria/way/1733641322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1752949 (austria/relation/24829015) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108143547 (austria/way/1743251724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111845434 (austria/relation/2846011) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1730147 (austria/way/1805958692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q701695 (austria/relation/131803) -> matched: Donaukanal  [body: 3607 chars]
+  Q21879285 (austria/way/1818851294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21869031 (austria/relation/24731395) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106614416 (austria/way/1831586994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131330 (austria/relation/10367143) -> matched: Schönbrunn Palace  [body: 9713 chars]
+  Q110791855 (austria/relation/6237177) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q686431 (austria/way/1870314236) -> matched: Vienna International Centre  [body: 4155 chars]
+  Q1595224 (austria/relation/25314027) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1824247 (austria/way/1884932222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15118954 (austria/way/1885006924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1430109 (austria/relation/10606223) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1665326 (austria/way/1923814814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117430568 (austria/relation/11146455) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107655595 (austria/way/1925636890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107673304 (austria/way/1926385398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2120202 (austria/relation/25957465) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q263252 (austria/relation/25963261) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q666705 (austria/relation/42971) -> matched: Hallstätter See  [body: 1177 chars]
+  Q14333297 (austria/way/1943255850) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q688659 (austria/way/1948596650) -> matched: Kremsmünster Abbey  [body: 9664 chars]
+  Q1323374 (austria/way/1949346180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q898089 (austria/relation/26278413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96600870 (austria/relation/26298993) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108143943 (austria/way/1958601686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108143944 (austria/way/1958601688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108144054 (austria/way/1958613018) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860915 (austria/relation/11017349) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106835333 (austria/way/1978484252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879087 (austria/way/1982840708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q872140 (austria/way/1985259300) -> matched: EVN Group  [body: 1599 chars]
+  Q1442105 (austria/way/1986135878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865410 (austria/relation/2538737) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q126541075 (austria/relation/15510719) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q473229 (austria/relation/13067105) -> matched: Lake Grundlsee  [body: 19640 chars]
+  Q38033282 (austria/way/1995981186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2588053 (austria/way/1995981188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q137942650 (austria/way/2004449354) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1917671 (austria/relation/24405809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19971537 (austria/way/2018465716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q697568 (austria/way/2022095468) -> matched: Vienna Arsenal  [body: 3549 chars]
+  Q37830440 (austria/way/2023076936) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1136683 (austria/way/2023737498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116476244 (austria/relation/27124965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6883536 (austria/way/2031815624) -> matched: Mittersill mine  [body: 1842 chars]
+  Q21859143 (austria/way/2043359502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859139 (austria/way/2043359504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q37746488 (austria/way/2043899366) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1240974 (austria/way/2049056132) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q690639 (austria/way/2060791646) -> matched: University of Klagenfurt  [body: 11433 chars]
+  Q128792355 (austria/way/2067259704) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21875215 (austria/relation/576379) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1354954 (austria/relation/2534617) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879086 (austria/way/2087306564) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21879088 (austria/way/2087329550) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868573 (austria/relation/20826327) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624155 (austria/relation/3557621) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868175 (austria/relation/17643193) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676048 (austria/relation/27830841) -> matched: Silvretta Glacier  [body: 308 chars]
+  Q686609 (austria/relation/28076967) -> matched: Lainzer Tiergarten  [body: 7300 chars]
+  Q2120228 (austria/way/2105299086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2454164 (austria/way/2105843086) -> matched: Tristacher See  [body: 43 chars]
+  Q21875848 (austria/relation/28121107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875367 (austria/relation/28194289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863986 (austria/relation/24334037) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1506758 (austria/way/2133980406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96184703 (austria/way/2141267128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q267159 (austria/way/2141274944) -> matched: Stadion Schnabelholz  [body: 320 chars]
+  Q631713 (austria/relation/3374307) -> matched: Ausee  [body: 117 chars]
+  Q21875857 (austria/way/2157095996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120334593 (austria/way/2162158686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2314445 (austria/relation/28782903) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q81920028 (austria/relation/28828975) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108144922 (austria/way/2172959398) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1512996 (austria/way/2172971440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109134030 (austria/relation/28954729) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859281 (austria/way/2181996552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14638579 (austria/relation/20785937) -> matched: Walchsee (lake)  [body: 629 chars]
+  Q82032373 (austria/way/2196859102) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1422879 (austria/relation/2541569) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135478120 (austria/way/2206870880) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q605796 (austria/relation/13067101) -> matched: Lake Toplitz  [body: 3051 chars]
+  Q21859101 (austria/relation/29477715) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859190 (austria/relation/29477999) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876317 (austria/relation/29532539) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6462126 (austria/relation/27695241) -> matched: La Cudera  [body: 267 chars]
+  Q1484805 (austria/relation/27683911) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56072875 (austria/way/2222102216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59361218 (austria/way/2223250954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56510551 (austria/way/2223250956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59419870 (austria/way/2224197310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59414157 (austria/way/2224197954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59416030 (austria/way/2224200794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32174515 (austria/relation/29862563) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859193 (austria/relation/29871891) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859194 (austria/relation/29871889) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876410 (austria/relation/29872253) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q258357 (austria/relation/29872269) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2238475 (austria/relation/9188003) -> matched: Schlatenkees  [body: 3204 chars]
+  Q21876390 (austria/relation/29872273) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1739819 (austria/way/2234665166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1354954 (austria/relation/11528143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60949425 (austria/way/2246191130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101002743 (austria/way/2246191880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q127785152 (austria/way/2246194680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128407642 (austria/way/2246194876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q261265 (austria/relation/2536249) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q875379 (austria/relation/9535713) -> matched: Vöslau Airfield  [body: 499 chars]
+  Q61889539 (austria/way/2255002734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61454068 (austria/way/2255944532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859150 (austria/way/2288182620) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1526557 (austria/relation/31034581) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q691134 (austria/relation/7269997) -> matched: Drusenfluh  [body: 1316 chars]
+  Q128407625 (austria/way/2325992332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98413562 (austria/way/2325992630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108145040 (austria/way/2325999134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100251471 (austria/way/2326000802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108144994 (austria/way/2326005942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21509251 (austria/way/2326010298) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108068987 (austria/relation/30186297) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q23252 (austria/relation/31594935) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786198 (austria/way/2336333778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q659729 (austria/way/2336358740) -> matched: Rätikon  [body: 4234 chars]
+  Q595522 (austria/relation/746583) -> matched: Lake Faak  [body: 1376 chars]
+  Q1257176 (austria/way/2346446292) -> matched: Drei Türme  [body: 387 chars]
+  Q1257176 (austria/way/2346473378) -> matched: Drei Türme  [body: 387 chars]
+  Q106835294 (austria/way/2354223052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106835352 (austria/way/2354623368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108144907 (austria/way/2354623370) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108144795 (austria/way/2356745634) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q128406675 (austria/way/2359620806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875224 (austria/relation/4003173) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1587322 (austria/relation/31573641) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106835021 (austria/relation/31958879) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31836005 (austria/relation/32032859) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31838643 (austria/relation/32032861) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123476256 (austria/way/2373084402) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108144636 (austria/way/2376286054) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108144635 (austria/way/2376286056) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q853923 (austria/way/2377251562) -> matched: Wiener Neustadt West Airport  [body: 311 chars]
+  Q21863394 (austria/relation/2526635) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116943625 (austria/way/2389695994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1201813 (austria/way/2390001416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875267 (austria/relation/40791773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108144057 (austria/way/2400312758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106834479 (austria/way/2404759160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116056872 (austria/way/2429567358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1283566 (austria/way/2434039106) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1621046 (austria/relation/32017869) -> matched: Historic Centre of the City of Salzburg  [body: 3741 chars]
+  Q28869636 (austria/way/2435227662) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110167127 (austria/relation/862045) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1128461 (austria/relation/33223055) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12024704 (austria/relation/4664595) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q546146 (austria/relation/603121) -> matched: Wörthersee  [body: 5205 chars]
+  Q12032137 (austria/relation/4664729) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2140385 (austria/relation/2693307) -> matched: Lipno Reservoir  [body: 1506 chars]
+  Q108144219 (austria/way/2461703538) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21874660 (austria/way/2469865978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12021217 (austria/relation/4662539) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12044682 (austria/relation/4663251) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27463452 (austria/relation/13514093) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12024257 (austria/relation/4662555) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21861713 (austria/relation/33890183) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1360983 (austria/relation/33271577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1673986 (austria/relation/34506315) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108144886 (austria/way/2509861126) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q106397387 (austria/way/2509861128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108143802 (austria/relation/34547051) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1438379 (austria/relation/34569375) -> matched: Forstsee  [body: 41 chars]
+  Q180080 (austria/relation/5528167) -> matched: Vienna General Hospital  [body: 7482 chars]
+  Q2253835 (austria/relation/6648295) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15109439 (austria/relation/12725939) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433759 (austria/relation/35173197) -> matched: Niederöblarn Airport  [body: 311 chars]
+  Q107233069 (austria/way/2574571126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q873612 (austria/way/2577548304) -> matched: Gaberl Pass  [body: 519 chars]
+  Q663731 (austria/relation/6624093) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27463238 (austria/relation/16627209) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q900409 (austria/relation/35656151) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q330861 (austria/relation/6717129) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2365104 (austria/relation/28970389) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15814994 (austria/relation/35839049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q200773 (austria/relation/2659967) -> matched: Rohrwald  [body: 3386 chars]
+  Q155878 (austria/relation/36285197) -> matched: Black grouse  [body: 10089 chars]
+  Q1397524 (austria/way/2631878450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q70454535 (austria/relation/44407) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1409030 (austria/way/2657219776) -> matched: Festungsberg  [body: 1120 chars]
+  Q1651678 (austria/way/2663808562) -> matched: Rainberg  [body: 197 chars]
+  Q1285078 (austria/way/2667392188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q873862 (austria/relation/36837657) -> matched: Hohe Wand Nature Park  [body: 2127 chars]
+  Q135478262 (austria/way/2710055266) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21876351 (austria/relation/29532537) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107650616 (austria/relation/37719243) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876411 (austria/relation/29872257) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133842859 (austria/way/2748264394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q250907 (austria/relation/134743) -> matched: Traunsee  [body: 1001 chars]
+  Q21864667 (austria/relation/6608879) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56654572 (austria/way/2769836940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1788212 (austria/way/2770603192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1793176 (austria/relation/7225085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18574918 (austria/relation/38354371) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q246760 (austria/relation/4413927) -> matched: Záhorská Ves  [body: 2062 chars]
+  Q677972 (austria/relation/4413919) -> matched: Malé Leváre  [body: 1816 chars]
+  Q110168213 (austria/relation/866067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96593822 (austria/relation/39492583) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18763361 (austria/relation/34080543) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134960110 (austria/way/2793552634) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1634894 (austria/relation/38554505) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107012647 (austria/relation/28820895) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1955465 (austria/way/2823629994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875828 (austria/relation/38643627) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865756 (austria/relation/11610611) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112072706 (austria/relation/24209911) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21862820 (austria/relation/27360945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15959181 (austria/relation/37816043) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2100647 (austria/relation/871073) -> matched: Pohoří na Šumavě  [body: 700 chars]
+  Q21859168 (austria/relation/38860137) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110174540 (austria/relation/858283) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110174547 (austria/relation/864905) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12019787 (austria/relation/870385) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1652549 (austria/way/2846057496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1518619 (austria/relation/12414319) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21863298 (austria/relation/11879405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1805424 (austria/relation/6733251) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120760556 (austria/relation/13684245) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21859047 (austria/relation/39187541) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2217043 (austria/way/2858477478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21865268 (austria/relation/3421773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1864095 (austria/relation/39278499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q872489 (austria/relation/39278501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1651922 (austria/relation/39278429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786464 (austria/relation/39278427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1522337 (austria/relation/39278431) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38173915 (austria/way/2873735332) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21858998 (austria/relation/38860153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876315 (austria/relation/39867943) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q81105357 (austria/relation/22071233) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107930454 (austria/relation/30145971) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q876520 (austria/relation/40248375) -> matched: University of Natural Resources and Life Sciences, Vienna  [body: 5787 chars]
+  Q21868455 (austria/relation/40400381) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110167277 (austria/relation/854559) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q341197 (austria/relation/874845) -> matched: České Velenice  [body: 2972 chars]
+  Q1571943 (austria/relation/2445853) -> matched: Hallstätter Glacier  [body: 1384 chars]
+  Q1347212 (austria/relation/38828633) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q434688 (austria/relation/40546833) -> matched: Lake Altaussee  [body: 22272 chars]
+  Q106650851 (austria/relation/18754699) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21871399 (austria/relation/5651429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21874656 (austria/relation/5792781) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21877844 (austria/relation/6515899) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875824 (austria/relation/11658447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q700232 (austria/relation/41396451) -> matched: Erzberg mine  [body: 3730 chars]
+  Q455694 (austria/way/3043589608) -> matched: Mexikoplatz  [body: 1364 chars]
+  Q43990595 (austria/relation/5215921) -> matched: Kaiserwald (Styria)  [body: 38273 chars]
+  Q138604064 (austria/relation/41563371) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q877785 (austria/relation/36889) -> matched: New Danube  [body: 3623 chars]
+  Q2358053 (austria/relation/41353039) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21875825 (austria/relation/42068187) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21874681 (austria/relation/4858211) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 284 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/austria_wikidata.parquet
+wrote 284 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/austria_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/austria_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/austria_wikidata_map.png
+  rows=284 geometry_missing=0 bodies=284 jsonl=284 map_html=411411B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['austria']
+  failed:    0 -> []
+
+=== union ===
+unioned 38 countries -> 6529 rows
+[03:40:10] union
+unioned 38 countries -> 6529 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[03:40:17] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 156 files.
+Finished hashing 156 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/italy_wikidata.parquet: 100%|██████████| 2.13kB / 2.13kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...e-of-man_wikidata.parquet: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/italy_wikidata.parquet: 100%|██████████| 2.13kB / 2.13kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...e-of-man_wikidata.parquet: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 64 files]                : 100%|██████████| 26.4MB / 26.4MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 74)    :  54%|█████▎    | 28.8MB / 53.7MB, 35.9MB/s  
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...slovenia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  15%|█▍        | 3.96MB / 26.8MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 78)    :  57%|█████▋    | 30.8MB / 53.7MB, 22.0MB/s  
+New Data Upload               :   2%|▏         |  524kB / 23.4MB,  375kB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   9%|▊         | 2.06MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   2%|▏         | 3.53kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:   2%|▏         | 20.9kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:   2%|▏         | 3.17kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  11%|█         | 2.55MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   4%|▍         | 7.07kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:   4%|▍         | 41.8kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:   4%|▍         | 6.33kB /  141kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 78)    :  58%|█████▊    | 31.4MB / 53.7MB, 17.4MB/s  
+New Data Upload               :   4%|▍         | 1.05MB / 23.4MB,  582kB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  19%|█▉        | 4.54MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  13%|█▎        | 21.2kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:  13%|█▎        |  125kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:  13%|█▎        | 19.0kB /  141kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 78)    :  62%|██████▏   | 33.5MB / 53.7MB, 16.7MB/s  
+New Data Upload               :  13%|█▎        | 3.15MB / 23.4MB, 1.57MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  40%|████      | 9.51MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  36%|███▌      | 56.5kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:  36%|███▌      |  335kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:  36%|███▌      | 50.7kB /  141kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 78)    :  72%|███████▏  | 38.7MB / 53.7MB, 17.6MB/s  
+New Data Upload               :  36%|███▌      | 8.39MB / 23.4MB, 3.81MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  69%|██████▉   | 16.5MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  67%|██████▋   |  106kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:  67%|██████▋   |  627kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:  67%|██████▋   | 95.0kB /  141kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 78)    :  86%|████████▌ | 46.1MB / 53.7MB, 19.2MB/s  
+New Data Upload               :  67%|██████▋   | 15.7MB / 23.4MB, 6.56MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 23.4MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  155kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:  99%|█████████▊|  920kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:  99%|█████████▊|  139kB /  141kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 78)    :  99%|█████████▉| 53.4MB / 53.7MB, 20.5MB/s  
+New Data Upload               :  99%|█████████▊| 23.1MB / 23.4MB, 8.87MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 23.4MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  155kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:  99%|█████████▊|  920kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:  99%|█████████▊|  139kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 23.4MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  155kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:  99%|█████████▊|  920kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:  99%|█████████▊|  139kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 23.4MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  155kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet:  99%|█████████▊|  920kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png:  99%|█████████▊|  139kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 23.7MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet: 100%|██████████|  932kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png: 100%|██████████|  141kB /  141kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (78 / 78)    : 100%|██████████| 53.7MB / 53.7MB, 15.8MB/s  
+New Data Upload               : 100%|██████████| 23.4MB / 23.4MB, 6.87MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 23.7MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet: 100%|██████████|  932kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png: 100%|██████████|  141kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 23.7MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet: 100%|██████████|  932kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png: 100%|██████████|  141kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 23.7MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet: 100%|██████████|  932kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png: 100%|██████████|  141kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 23.7MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet: 100%|██████████|  932kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png: 100%|██████████|  141kB /  141kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 23.7MB / 23.7MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata.parquet: 100%|██████████|  932kB /  932kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../austria_wikidata_map.png: 100%|██████████|  141kB /  141kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (78 / 78)    : 100%|██████████| 53.7MB / 53.7MB, 12.8MB/s  
+New Data Upload               : 100%|██████████| 23.4MB / 23.4MB, 5.56MB/s  
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 23.7MB / 23.7MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            
+  .../austria_wikidata.parquet: 100%|██████████|  932kB /  932kB            
+  .../austria_wikidata_map.png: 100%|██████████|  141kB /  141kB            
+Removing 149 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/bd0da3dadd4c3a4815db962776830b5cf5ac64d6
+[03:40:34] DONE austria

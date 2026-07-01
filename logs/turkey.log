@@ -1,0 +1,2910 @@
+[03:40:34] === turkey ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== turkey ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/turkey.parquet
+wrote 113609 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/turkey.parquet
+pre-filter (--only-wikidata): 113609 -> 1483 rows
+
+1483 polygons with wikidata=*
+  matched:           870
+  no en sitelink:    538
+  no sitelinks:      75
+  Q5214669 (turkey/way/9030222) -> matched: Dana Island  [body: 2268 chars]
+  Q272668 (turkey/way/9031236) -> matched: Çatalada  [body: 601 chars]
+  Q49640080 (turkey/way/9031406) -> matched: Görecek Island  [body: 462 chars]
+  Q677112 (turkey/way/9031464) -> matched: Sedef Island  [body: 1236 chars]
+  Q1014806 (turkey/way/9031472) -> matched: Burgazada  [body: 3796 chars]
+  Q30667936 (turkey/way/9031596) -> matched: Orak Island (Muğla)  [body: 430 chars]
+  Q49631530 (turkey/way/9032950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6977885 (turkey/way/9032992) -> matched: Yılancık Island  [body: 238 chars]
+  Q49640075 (turkey/way/9033950) -> matched: Göcek Island  [body: 674 chars]
+  Q6031817 (turkey/way/9034006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131361859 (turkey/way/9034238) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49640104 (turkey/way/9034258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30632378 (turkey/way/9034470) -> matched: Tersane Island  [body: 1088 chars]
+  Q30632333 (turkey/way/9037180) -> matched: Sıçan Island  [body: 650 chars]
+  Q49633824 (turkey/way/9037184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34787831 (turkey/way/9037248) -> matched: Yılan Island  [body: 656 chars]
+  Q2095047 (turkey/relation/1067455) -> matched: Ro, Greece  [body: 2149 chars]
+  Q6103275 (turkey/way/9037580) -> matched: Iç Ada, Antalya  [body: 978 chars]
+  Q30634601 (turkey/way/9038828) -> matched: Panayır Island  [body: 879 chars]
+  Q49637915 (turkey/way/9039230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6454222 (turkey/way/9039248) -> matched: Küçük Tavşan Adası  [body: 147 chars]
+  Q4822274 (turkey/way/9039404) -> matched: Salih Ada  [body: 1090 chars]
+  Q49634408 (turkey/way/9039428) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5998707 (turkey/way/9039632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49634413 (turkey/way/9039646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34789902 (turkey/way/9039972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30632435 (turkey/way/9040228) -> matched: Çelebi Island  [body: 570 chars]
+  Q6047559 (turkey/way/9042614) -> matched: Kefken Island  [body: 2704 chars]
+  Q211817 (turkey/relation/35646113) -> matched: Tenedos  [body: 52420 chars]
+  Q6030152 (turkey/way/9044570) -> matched: Büyük Maden Island  [body: 857 chars]
+  Q49669291 (turkey/way/9044936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30632493 (turkey/way/9045022) -> matched: Büyük Ilyosta Island  [body: 620 chars]
+  Q30632472 (turkey/way/9045138) -> matched: Çıplak Island  [body: 743 chars]
+  Q1494288 (turkey/relation/32323989) -> matched: Garip Island  [body: 1467 chars]
+  Q30632862 (turkey/way/9046404) -> matched: Kalem Island  [body: 871 chars]
+  Q2666727 (turkey/relation/25614397) -> matched: Kekova  [body: 2148 chars]
+  Q2666727 (turkey/way/9259312) -> matched: Kekova  [body: 2148 chars]
+  Q4810690 (turkey/way/9814690) -> matched: Büyük Ada  [body: 186 chars]
+  Q6977923 (turkey/way/9829966) -> matched: Incir Ada  [body: 312 chars]
+  Q4737090 (turkey/way/19558716) -> matched: Altınpark  [body: 1169 chars]
+  Q615404 (turkey/relation/30174561) -> matched: Anıtkabir  [body: 16852 chars]
+  Q61076266 (turkey/way/21299724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5533865 (turkey/way/21422586) -> matched: Gençlik Parkı  [body: 1173 chars]
+  Q538605 (turkey/way/27717774) -> matched: Kültepe  [body: 12412 chars]
+  Q20988477 (turkey/way/29292596) -> matched: Lake Nar  [body: 3149 chars]
+  Q1040082 (turkey/way/29679360) -> matched: Kuşaklı (Sarissa)  [body: 4813 chars]
+  Q34907046 (turkey/way/30513410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20470564 (turkey/way/30858220) -> matched: Lake Arin  [body: 515 chars]
+  Q25479388 (turkey/way/30867488) -> matched: Lake Aygır  [body: 999 chars]
+  Q34801507 (turkey/way/30871728) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14395861 (turkey/way/33137598) -> matched: Lake Gölcük  [body: 1711 chars]
+  Q6004690 (turkey/way/38038414) -> matched: Lake Karataş  [body: 687 chars]
+  Q18713516 (turkey/way/38650268) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6098641 (turkey/way/39435330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q305501 (turkey/way/39573142) -> matched: Lake Abant National Park  [body: 3480 chars]
+  Q1089330 (turkey/way/39573170) -> matched: Gölköy Dam  [body: 322 chars]
+  Q49316540 (turkey/way/40264754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q253317 (turkey/way/46009252) -> matched: Heybeliada  [body: 6485 chars]
+  Q6051934 (turkey/way/46584960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q136434418 (turkey/way/47224932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110908987 (turkey/way/47230630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q54165725 (turkey/way/47258972) -> matched: İzmir Coach Terminal  [body: 1477 chars]
+  Q1093258 (turkey/way/49067506) -> matched: Yıldız Technical University  [body: 6285 chars]
+  Q274141 (turkey/way/49653414) -> matched: Dolmabahçe Palace  [body: 12682 chars]
+  Q1560106 (turkey/way/51085236) -> matched: Gülhane Park  [body: 3251 chars]
+  Q130297167 (turkey/way/51854318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61071758 (turkey/way/51861598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35695576 (turkey/way/52056156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6040463 (turkey/way/52868282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6098591 (turkey/way/53940300) -> matched: Maçka Park  [body: 908 chars]
+  Q2506536 (turkey/way/55230664) -> matched: Kralkızı Dam  [body: 1264 chars]
+  Q20474791 (turkey/way/55405716) -> matched: Lake Poyrazlar Nature Park  [body: 1265 chars]
+  Q861904 (turkey/way/56459284) -> matched: Bilkent University  [body: 12132 chars]
+  Q1737672 (turkey/way/56863786) -> matched: Keban Dam  [body: 5468 chars]
+  Q61076554 (turkey/way/58376838) -> matched: Deniz Gölü  [body: 560 chars]
+  Q97320257 (turkey/way/62768660) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52460991 (turkey/way/62862392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116875315 (turkey/way/63998706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q169460 (turkey/way/64511654) -> matched: Miletus  [body: 31761 chars]
+  Q142819 (turkey/way/64511886) -> matched: Priene  [body: 17972 chars]
+  Q1090278 (turkey/way/66672582) -> matched: Çayboğazı Dam  [body: 6260 chars]
+  Q608095 (turkey/way/67504224) -> matched: Kaunos  [body: 17489 chars]
+  Q21523662 (turkey/way/68276956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15234036 (turkey/way/69305994) -> matched: Karşıyaka Cemetery  [body: 2312 chars]
+  Q6002600 (turkey/way/70783172) -> matched: Eyüp Cemetery  [body: 5174 chars]
+  Q34789921 (turkey/way/71913148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30254026 (turkey/way/74380942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1379299 (turkey/way/74582672) -> matched: Smyrna  [body: 17928 chars]
+  Q30287052 (turkey/way/74744386) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110909074 (turkey/way/74749362) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2016002 (turkey/way/75180448) -> matched: İztuzu Beach  [body: 6108 chars]
+  Q16850742 (turkey/way/77252358) -> matched: Ülkü Park  [body: 920 chars]
+  Q34924070 (turkey/way/81257974) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7134113 (turkey/way/82833040) -> matched: Paradeniz  [body: 1182 chars]
+  Q34797604 (turkey/way/82833100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17515431 (turkey/relation/3430057) -> matched: Lake Kuyucuk  [body: 6847 chars]
+  Q753776 (turkey/way/90366974) -> matched: Atatürk Dam  [body: 10111 chars]
+  Q19612605 (turkey/way/93979216) -> matched: Lake Sülüklü (Bolu)  [body: 330 chars]
+  Q114878408 (turkey/way/97481184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31193276 (turkey/way/97899450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1854061 (turkey/way/99689308) -> matched: Oyak-Renault  [body: 1565 chars]
+  Q12010956 (turkey/way/102949710) -> matched: Yatağan power station  [body: 1513 chars]
+  Q1430728 (turkey/way/103387178) -> matched: Adana Şakirpaşa Airport  [body: 3239 chars]
+  Q65219354 (turkey/way/103628238) -> matched: Göztepe 60. Year Park  [body: 625 chars]
+  Q7223434 (turkey/way/105059382) -> matched: AŞTİ  [body: 863 chars]
+  Q29635 (turkey/way/105744388) -> matched: Zincirlikuyu Cemetery  [body: 7954 chars]
+  Q130355232 (turkey/way/106518126) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q19612850 (turkey/way/107208636) -> matched: University of Health Sciences (Turkey)  [body: 6704 chars]
+  Q86473 (turkey/way/117556508) -> matched: Atatürk Airport  [body: 8765 chars]
+  Q599462 (turkey/way/118125086) -> matched: Termessos  [body: 17773 chars]
+  Q29644082 (turkey/way/119710374) -> matched: Lake Sünnet Nature Park  [body: 963 chars]
+  Q1089548 (turkey/relation/18693145) -> matched: Almus Dam  [body: 705 chars]
+  Q1089262 (turkey/way/124168152) -> matched: Damsa Dam  [body: 495 chars]
+  Q111429782 (turkey/way/125461618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19458352 (turkey/way/125486004) -> matched: Feriköy Cemetery  [body: 2260 chars]
+  Q1697376 (turkey/way/133818822) -> matched: Maltepe University  [body: 4489 chars]
+  Q32836727 (turkey/way/139963832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6100677 (turkey/way/142247058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6065437 (turkey/way/143815296) -> matched: Istanbul Faculty of Medicine  [body: 22010 chars]
+  Q2634744 (turkey/way/148742100) -> matched: Yeghegnavan  [body: 507 chars]
+  Q2371758 (turkey/way/148742102) -> matched: Lusarat  [body: 890 chars]
+  Q2577512 (turkey/way/151462984) -> matched: Yortanlı Dam  [body: 351 chars]
+  Q8053378 (turkey/way/156864080) -> matched: Yeşilova Höyük  [body: 1741 chars]
+  Q4946150 (turkey/way/156866976) -> matched: Bornova Anatolian High School  [body: 3689 chars]
+  Q111415934 (turkey/way/159642484) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6000752 (turkey/way/163650802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1090270 (turkey/way/164172990) -> matched: Çatalan Dam  [body: 354 chars]
+  Q516948 (turkey/way/164236296) -> matched: Sultansuyu Dam  [body: 1716 chars]
+  Q1432008 (turkey/way/164236352) -> matched: Malatya Erhaç Airport  [body: 875 chars]
+  Q62649368 (turkey/way/164738396) -> matched: 1st Main Jet Base Command  [body: 299 chars]
+  Q1431269 (turkey/way/164742182) -> matched: Hasan Polatkan Airport  [body: 2623 chars]
+  Q648039 (turkey/way/165072908) -> matched: Tahtaköprü Dam  [body: 291 chars]
+  Q32750617 (turkey/way/166068114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6043333 (turkey/way/166068294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1090536 (turkey/way/166150480) -> matched: İvriz Dam  [body: 287 chars]
+  Q2512389 (turkey/way/166194130) -> matched: Veliefendi Race Course  [body: 2777 chars]
+  Q250026 (turkey/way/166668944) -> matched: Yenişehir Airport  [body: 609 chars]
+  Q579117 (turkey/way/166961308) -> matched: Kınalıada  [body: 2558 chars]
+  Q35720717 (turkey/relation/36706913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6098844 (turkey/way/168386612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431199 (turkey/way/169443582) -> matched: Denizli Çardak Airport  [body: 586 chars]
+  Q35245747 (turkey/way/169443632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12700132 (turkey/way/169523288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1030285 (turkey/way/171206684) -> matched: Mardin Airport  [body: 510 chars]
+  Q4701753 (turkey/way/171387206) -> matched: Aksaz Naval Base  [body: 1306 chars]
+  Q1264524 (turkey/way/171747530) -> matched: Isparta Süleyman Demirel Airport  [body: 738 chars]
+  Q35700408 (turkey/way/172189828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432167 (turkey/way/172192370) -> matched: Nevşehir Kapadokya Airport  [body: 651 chars]
+  Q1431698 (turkey/way/172192382) -> matched: Erkilet International Airport  [body: 1222 chars]
+  Q10758268 (turkey/way/177059746) -> matched: Elifoğlu, Karkamış  [body: 213 chars]
+  Q1432103 (turkey/way/177386628) -> matched: Muş Airport  [body: 325 chars]
+  Q1430926 (turkey/way/178269616) -> matched: Bandırma Airport  [body: 555 chars]
+  Q1433143 (turkey/way/178452364) -> matched: Uşak Airport  [body: 170 chars]
+  Q1089619 (turkey/way/178700728) -> matched: Sevişler Dam  [body: 335 chars]
+  Q582306 (turkey/way/179334754) -> matched: Zonguldak Airport  [body: 344 chars]
+  Q25511426 (turkey/way/181635874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1090378 (turkey/way/182504850) -> matched: Aslantaş Dam  [body: 1593 chars]
+  Q119704322 (turkey/way/182620610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q85817252 (turkey/way/182728384) -> matched: İsken Sugözü power station  [body: 2183 chars]
+  Q2885200 (turkey/way/182748562) -> matched: Kılavuzlu Dam  [body: 513 chars]
+  Q67387346 (turkey/way/183261604) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133246685 (turkey/way/183508030) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1431357 (turkey/way/183524880) -> matched: Gaziantep Oğuzeli Airport  [body: 724 chars]
+  Q767968 (turkey/way/183666322) -> matched: Turbessel  [body: 4805 chars]
+  Q109388864 (turkey/way/183716934) -> matched: Güzelce, Oğuzeli  [body: 147 chars]
+  Q1431262 (turkey/way/185332152) -> matched: Erzincan Airport  [body: 441 chars]
+  Q71457454 (turkey/way/185837424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6013884 (turkey/way/186409844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q718048 (turkey/way/187243330) -> matched: Arycanda  [body: 5548 chars]
+  Q1164314 (turkey/way/188266432) -> matched: Siirt Airport  [body: 362 chars]
+  Q4819172 (turkey/way/188997546) -> matched: Tushhan  [body: 7393 chars]
+  Q3125423 (turkey/way/189998520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11936720 (turkey/way/192356410) -> matched: Midaeium  [body: 1179 chars]
+  Q917259 (turkey/way/192356644) -> matched: Cremna  [body: 2218 chars]
+  Q31386873 (turkey/way/192357206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q132182776 (turkey/way/192376404) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30634494 (turkey/relation/2775419) -> matched: Beymelek Lagoon  [body: 1680 chars]
+  Q8077429 (turkey/way/193137922) -> matched: Çakmakkaya mine  [body: 379 chars]
+  Q256099 (turkey/way/193138226) -> matched: Borçka Dam  [body: 319 chars]
+  Q7395882 (turkey/way/198283946) -> matched: Sabancı University  [body: 8119 chars]
+  Q1432849 (turkey/way/199738228) -> matched: Sinop Airport  [body: 557 chars]
+  Q85967587 (turkey/way/199878856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6101862 (turkey/way/199878862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432867 (turkey/way/201413992) -> matched: Sivas Airport  [body: 1496 chars]
+  Q1090485 (turkey/way/201605670) -> matched: 4 Eylül Dam  [body: 497 chars]
+  Q1431354 (turkey/way/206020624) -> matched: Gazipaşa–Alanya Airport  [body: 2067 chars]
+  Q1501628 (turkey/relation/2925439) -> matched: Strongyli Megistis  [body: 1075 chars]
+  Q2642800 (turkey/way/206643630) -> matched: Anipemza  [body: 4411 chars]
+  Q1991587 (turkey/way/206960808) -> matched: Tlik  [body: 275 chars]
+  Q2223191 (turkey/way/207172454) -> matched: Jrapi  [body: 358 chars]
+  Q118947516 (turkey/way/209575932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2223294 (turkey/way/210432156) -> matched: Haykadzor  [body: 290 chars]
+  Q85811080 (turkey/way/212806932) -> matched: Tunçbilek power station  [body: 800 chars]
+  Q6367585 (turkey/way/220643654) -> matched: Karaalioğlu Park  [body: 870 chars]
+  Q6060748 (turkey/way/223378756) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1164320 (turkey/way/227882560) -> matched: Balıkesir Airport  [body: 960 chars]
+  Q1431866 (turkey/way/228557702) -> matched: Syedra  [body: 2659 chars]
+  Q1090600 (turkey/way/228750746) -> matched: Hacıhıdır Dam  [body: 303 chars]
+  Q181007 (turkey/relation/3196419) -> matched: Hattusa  [body: 12908 chars]
+  Q1083424 (turkey/way/229431482) -> matched: Incirlik Air Base  [body: 19844 chars]
+  Q618495 (turkey/way/231103780) -> matched: Aphrodisias  [body: 18258 chars]
+  Q535982 (turkey/way/232687012) -> matched: Lystra  [body: 5058 chars]
+  Q4831092 (turkey/way/233236928) -> matched: Aydın Çıldır Airport  [body: 663 chars]
+  Q7428276 (turkey/way/233441420) -> matched: Hierapolis  [body: 35173 chars]
+  Q34936460 (turkey/way/233905916) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1090339 (turkey/way/233905964) -> matched: Yaylakavak Dam  [body: 336 chars]
+  Q778224 (turkey/way/233920680) -> matched: Alabanda  [body: 4775 chars]
+  Q126910540 (turkey/way/234410290) -> matched: Chatal Höyük (Amuq)  [body: 2697 chars]
+  Q1848789 (turkey/way/234661620) -> matched: Alinda  [body: 4235 chars]
+  Q1014206 (turkey/way/234702030) -> matched: Soufli  [body: 10236 chars]
+  Q1361187 (turkey/way/235037446) -> matched: Stratonicea (Caria)  [body: 10557 chars]
+  Q6022911 (turkey/way/235125834) -> matched: Yeniköy power station  [body: 2232 chars]
+  Q8080080 (turkey/way/235636050) -> matched: İkizdere Dam  [body: 339 chars]
+  Q4874396 (turkey/way/240584208) -> matched: Bayburt Dam  [body: 464 chars]
+  Q31790703 (turkey/way/241577726) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q221122 (turkey/way/242924624) -> matched: Atatürk Olympic Stadium  [body: 7490 chars]
+  Q35717973 (turkey/way/243049382) -> matched: Lake Kaz  [body: 297 chars]
+  Q49413427 (turkey/way/244713826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433288 (turkey/way/246127854) -> matched: Çanakkale Airport  [body: 755 chars]
+  Q49645825 (turkey/way/246205774) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20472757 (turkey/way/246629356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133246604 (turkey/way/247109854) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6023095 (turkey/way/247596022) -> matched: Ambarlı A power plant  [body: 295 chars]
+  Q585145 (turkey/way/248047908) -> matched: Dara (Mesopotamia)  [body: 8744 chars]
+  Q214944 (turkey/way/248662604) -> matched: Göbekli Tepe  [body: 31883 chars]
+  Q1250866 (turkey/way/248863824) -> matched: Dorylaeum  [body: 5440 chars]
+  Q6019963 (turkey/way/248863846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2248704 (turkey/way/249072092) -> matched: Çifteler  [body: 1166 chars]
+  Q1911759 (turkey/way/251212786) -> matched: Emirdağ  [body: 5284 chars]
+  Q6065286 (turkey/relation/544241) -> matched: Lake Meke  [body: 2215 chars]
+  Q6035990 (turkey/way/253097314) -> matched: Altındere Valley National Park  [body: 339 chars]
+  Q1529378 (turkey/way/253199084) -> matched: Lake Gövelek  [body: 295 chars]
+  Q6014498 (turkey/way/253242068) -> matched: Altınbeşik Cave National Park  [body: 552 chars]
+  Q6981621 (turkey/way/253261722) -> matched: Yedigöller National Park  [body: 2765 chars]
+  Q8059432 (turkey/way/253316866) -> matched: Yozgat Pine Grove National Park  [body: 1123 chars]
+  Q65220312 (turkey/way/253510480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6048583 (turkey/relation/3442705) -> matched: Lake Seyfe  [body: 196 chars]
+  Q1432694 (turkey/way/254143852) -> matched: Samsun-Çarşamba Airport  [body: 1434 chars]
+  Q1627814 (turkey/way/254315172) -> matched: Selçuk University  [body: 5146 chars]
+  Q1431754 (turkey/way/254316506) -> matched: Konya Airport  [body: 1010 chars]
+  Q56755056 (turkey/way/255972266) -> matched: Soma power station  [body: 1325 chars]
+  Q6048449 (turkey/way/256163828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107247851 (turkey/relation/16146515) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q25472342 (turkey/way/259387066) -> matched: Tüpraş Batman Oil Refinery  [body: 852 chars]
+  Q85817274 (turkey/way/259572724) -> matched: Şırnak Silopi power station  [body: 2613 chars]
+  Q1431293 (turkey/way/260016760) -> matched: Van Ferit Melen Airport  [body: 634 chars]
+  Q447212 (turkey/way/260376190) -> matched: Altıntepe  [body: 1474 chars]
+  Q11977769 (turkey/way/261153268) -> matched: İzmir gas power plant  [body: 318 chars]
+  Q7667104 (turkey/way/262774380) -> matched: Sırtköy, Manavgat  [body: 365 chars]
+  Q719815 (turkey/way/262938566) -> matched: Perga  [body: 10584 chars]
+  Q981506 (turkey/way/262938756) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q633757 (turkey/way/262938944) -> matched: Aspendos  [body: 8854 chars]
+  Q17781997 (turkey/way/263751348) -> matched: Hamitabat power station  [body: 586 chars]
+  Q106670546 (turkey/way/264044620) -> matched: Bursa gas power plant  [body: 311 chars]
+  Q10732076 (turkey/relation/3546847) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10748941 (turkey/relation/3546849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q746356 (turkey/way/264908180) -> matched: Hancağız Dam  [body: 289 chars]
+  Q49312867 (turkey/way/265074032) -> matched: Lake Süphan  [body: 404 chars]
+  Q1169859 (turkey/way/265856050) -> matched: Trabzon Airport  [body: 2439 chars]
+  Q4823749 (turkey/way/265870588) -> matched: Karadeniz Technical University  [body: 11229 chars]
+  Q6078473 (turkey/way/266035858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4822451 (turkey/way/266693572) -> matched: Cebeci Asri Cemetery  [body: 3053 chars]
+  Q20476974 (turkey/relation/3589379) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2825493 (turkey/way/269170934) -> matched: Adır Island  [body: 1245 chars]
+  Q116671649 (turkey/way/269843700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34787814 (turkey/way/269988554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49645362 (turkey/way/270042324) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5626664 (turkey/way/270810472) -> matched: Gördes Dam  [body: 457 chars]
+  Q3187042 (turkey/way/271128502) -> matched: Van Fortress  [body: 2401 chars]
+  Q1430726 (turkey/way/271251242) -> matched: Adıyaman Airport  [body: 272 chars]
+  Q3671573 (turkey/way/272061274) -> matched: Van Yüzüncü Yıl University  [body: 4348 chars]
+  Q1278023 (turkey/way/272636998) -> matched: Pamukkale University  [body: 5062 chars]
+  Q20470881 (turkey/way/273191164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1336601 (turkey/relation/8588481) -> matched: Kerkenes  [body: 3607 chars]
+  Q6042066 (turkey/way/276663354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q359735 (turkey/way/279771690) -> matched: Aydın Adnan Menderes University  [body: 2665 chars]
+  Q17153004 (turkey/way/286710284) -> matched: Boğsak Islet  [body: 1151 chars]
+  Q1972153 (turkey/way/288019820) -> matched: Sivriada  [body: 3028 chars]
+  Q1972163 (turkey/way/288019822) -> matched: Yassıada  [body: 3264 chars]
+  Q34954278 (turkey/way/288019864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49314098 (turkey/way/288150890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q575249 (turkey/way/288624798) -> matched: Alalakh  [body: 14701 chars]
+  Q907974 (turkey/way/288626266) -> matched: Tell Tayinat  [body: 10483 chars]
+  Q34914717 (turkey/way/289369504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34822561 (turkey/way/289713520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34878898 (turkey/way/289734720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q849709 (turkey/way/291166956) -> matched: Laodicea on the Lycus  [body: 13280 chars]
+  Q1431619 (turkey/way/292507882) -> matched: Kahramanmaraş Airport  [body: 1195 chars]
+  Q30279895 (turkey/way/296927684) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6090690 (turkey/way/296938746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30254226 (turkey/way/296939854) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30254024 (turkey/way/296943712) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3275365 (turkey/way/297101174) -> matched: Gökçeada Airport  [body: 768 chars]
+  Q85800540 (turkey/way/299992608) -> matched: Seyitömer power station  [body: 991 chars]
+  Q3707521 (turkey/way/301743166) -> matched: Nilüfer Dam  [body: 288 chars]
+  Q11824292 (turkey/way/301743504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1090436 (turkey/way/305471124) -> matched: Yarseli Dam  [body: 288 chars]
+  Q5994960 (turkey/way/305495822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6055960 (turkey/way/307307798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6077579 (turkey/way/307380222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q478948 (turkey/way/308413094) -> matched: Yeditepe University  [body: 4625 chars]
+  Q6101566 (turkey/way/313534364) -> matched: Istanbul Financial Center  [body: 1561 chars]
+  Q546010 (turkey/way/314883392) -> matched: Ani  [body: 34681 chars]
+  Q1200154 (turkey/way/315627434) -> matched: Dereçiftlik, Honaz  [body: 150 chars]
+  Q94578308 (turkey/relation/4250747) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6013148 (turkey/way/320801522) -> matched: Tüpraş İzmir Oil Refinery  [body: 1265 chars]
+  Q2414579 (turkey/relation/19897027) -> matched: Çamlıca Hill  [body: 1441 chars]
+  Q135671857 (turkey/way/328205228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34862267 (turkey/way/336654118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1090542 (turkey/way/337702630) -> matched: Kovalı Dam  [body: 298 chars]
+  Q6028430 (turkey/way/337735284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6045094 (turkey/way/337824678) -> matched: Yamula Dam and Hydroelectric Plant  [body: 861 chars]
+  Q6100799 (turkey/way/338327482) -> matched: Kardemir  [body: 1185 chars]
+  Q1090672 (turkey/way/338850268) -> matched: Boztepe Dam (Tokat)  [body: 288 chars]
+  Q35704565 (turkey/way/339130248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34813603 (turkey/way/339637640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56279770 (turkey/way/340484828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6098644 (turkey/way/340699802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q132182858 (turkey/way/340943370) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q85773487 (turkey/way/341310098) -> matched: Kangal power station  [body: 529 chars]
+  Q1091549 (turkey/way/342157438) -> matched: Polat Dam  [body: 286 chars]
+  Q2885173 (turkey/relation/2790063) -> matched: Kapulukaya Dam  [body: 363 chars]
+  Q1964403 (turkey/way/343346480) -> matched: Tekirdağ Namık Kemal University  [body: 800 chars]
+  Q1089643 (turkey/way/344044036) -> matched: Devegeçidi Dam  [body: 462 chars]
+  Q85973759 (turkey/way/344529098) -> matched: Orhaneli power station  [body: 575 chars]
+  Q1091478 (turkey/way/344949186) -> matched: Kuzgun Dam  [body: 475 chars]
+  Q10777103 (turkey/way/345049414) -> matched: Karakale, Karayazı  [body: 150 chars]
+  Q1090567 (turkey/way/345067178) -> matched: Tercan Dam  [body: 436 chars]
+  Q6432756 (turkey/way/345257490) -> matched: Koruluk Dam  [body: 6260 chars]
+  Q279191 (turkey/way/345593610) -> matched: Sagalassos  [body: 6841 chars]
+  Q6111551 (turkey/way/346083752) -> matched: Lake Suğla  [body: 464 chars]
+  Q579468 (turkey/way/346353378) -> matched: Antioch of Pisidia  [body: 59311 chars]
+  Q6077955 (turkey/way/346596100) -> matched: Çayırhan power station  [body: 3200 chars]
+  Q110422209 (turkey/way/346599680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30621654 (turkey/way/346696252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1091457 (turkey/way/347561824) -> matched: Karacaören-1 Dam  [body: 324 chars]
+  Q2271832 (turkey/way/349494910) -> matched: Kiğı Dam  [body: 827 chars]
+  Q1528589 (turkey/way/349743702) -> matched: Oylum, Kilis  [body: 1699 chars]
+  Q3674310 (turkey/way/349977810) -> matched: Erzincan Binali Yıldırım University  [body: 2275 chars]
+  Q2944193 (turkey/way/350551042) -> matched: Cementir Holding  [body: 2019 chars]
+  Q1090497 (turkey/way/351165422) -> matched: Gödet Dam  [body: 286 chars]
+  Q32183461 (turkey/way/351579742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1089288 (turkey/way/351735306) -> matched: Ayrancı Dam  [body: 213 chars]
+  Q17750010 (turkey/way/352018380) -> matched: Baymina Ankara power station  [body: 155 chars]
+  Q131412096 (turkey/way/352425024) -> matched: Florya Atatürk Forest  [body: 3220 chars]
+  Q34853557 (turkey/way/352882612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34852735 (turkey/way/353169550) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97211943 (turkey/way/353502648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1089508 (turkey/way/353534700) -> matched: Demirköprü Dam  [body: 6260 chars]
+  Q1089508 (turkey/relation/1895407) -> matched: Demirköprü Dam  [body: 6260 chars]
+  Q30280180 (turkey/way/354867544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106333372 (turkey/way/354872984) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11958366 (turkey/way/355023604) -> matched: Antalya gas power plant  [body: 295 chars]
+  Q3674402 (turkey/way/355363458) -> matched: Kahramanmaraş Sütçü İmam University  [body: 3122 chars]
+  Q1090431 (turkey/way/356259806) -> matched: Berdan Dam  [body: 324 chars]
+  Q4680616 (turkey/way/356396982) -> matched: Adana Yeşiloba Hippodrome  [body: 2011 chars]
+  Q30632393 (turkey/way/356617460) -> matched: Yassıca Island  [body: 1096 chars]
+  Q28222013 (turkey/way/356630690) -> matched: Hekim Island  [body: 1173 chars]
+  Q65219991 (turkey/way/358752276) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2885179 (turkey/way/358805704) -> matched: Kayalıköy Dam  [body: 301 chars]
+  Q35704578 (turkey/way/359569162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111292357 (turkey/way/359691698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6032054 (turkey/way/359691700) -> matched: Apollonia Salbaces  [body: 374 chars]
+  Q1011256 (turkey/way/360465898) -> matched: Saray, Tekirdağ  [body: 3357 chars]
+  Q19381100 (turkey/way/360466008) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34973125 (turkey/way/361625800) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8438175 (turkey/way/362080110) -> matched: Acemhöyük  [body: 10582 chars]
+  Q542854 (turkey/way/362777862) -> matched: Gordion  [body: 22809 chars]
+  Q1433329 (turkey/way/362789426) -> matched: Şanlıurfa GAP Airport  [body: 1297 chars]
+  Q7092215 (turkey/way/362985836) -> matched: Ondokuz Mayıs University  [body: 14910 chars]
+  Q86096623 (turkey/way/365302632) -> matched: Hasuni Caves  [body: 2592 chars]
+  Q49632276 (turkey/way/365716986) -> matched: Gez Island  [body: 2014 chars]
+  Q30632452 (turkey/way/365717424) -> matched: Çiçek Island  [body: 626 chars]
+  Q6030769 (turkey/relation/4873387) -> matched: Lake Haçlı  [body: 1041 chars]
+  Q9148422 (turkey/way/366106124) -> matched: Alişar Hüyük  [body: 5383 chars]
+  Q202974 (turkey/way/366245416) -> matched: Kanlıdivane  [body: 2110 chars]
+  Q1561662 (turkey/way/366372626) -> matched: Sirkeli Höyük  [body: 3154 chars]
+  Q536924 (turkey/way/366384842) -> matched: Cyrrhus  [body: 12286 chars]
+  Q1497156 (turkey/way/366551208) -> matched: Metropolis (Anatolia)  [body: 5391 chars]
+  Q119771 (turkey/way/366585176) -> matched: Notion (ancient city)  [body: 3227 chars]
+  Q132182417 (turkey/way/366636340) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q233121 (turkey/way/366642296) -> matched: Patara (Lycia)  [body: 9326 chars]
+  Q464936 (turkey/way/366642304) -> matched: Xanthos  [body: 8895 chars]
+  Q2148209 (turkey/way/366652710) -> matched: Rhodiapolis  [body: 5618 chars]
+  Q4081181 (turkey/way/366771952) -> matched: Beycesultan  [body: 7257 chars]
+  Q117411 (turkey/way/366773104) -> matched: Tripolis on the Meander  [body: 2870 chars]
+  Q601695 (turkey/relation/3522941) -> matched: Lake Marmara  [body: 1057 chars]
+  Q1583181 (turkey/way/366789612) -> matched: Sigeion  [body: 5749 chars]
+  Q336446 (turkey/way/367206472) -> matched: Abydos (Hellespont)  [body: 13400 chars]
+  Q7321268 (turkey/way/367209434) -> matched: Rhoiteion  [body: 7596 chars]
+  Q283680 (turkey/way/367382522) -> matched: Carchemish  [body: 18139 chars]
+  Q1164142 (turkey/way/367543666) -> matched: Amasya Merzifon Airport  [body: 858 chars]
+  Q305507 (turkey/way/367841644) -> matched: Bolu Abant İzzet Baysal University  [body: 1760 chars]
+  Q34929634 (turkey/way/368514486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12810075 (turkey/way/369260938) -> matched: Iğdır Airport  [body: 3639 chars]
+  Q893292 (turkey/way/369999176) -> matched: Lake Boraboy  [body: 1783 chars]
+  Q1785613 (turkey/way/370178254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2279679 (turkey/way/372228416) -> matched: Ladik  [body: 699 chars]
+  Q1091559 (turkey/way/372377438) -> matched: Yedikır Dam  [body: 334 chars]
+  Q6034755 (turkey/way/373064802) -> matched: Topçam Dam (Ordu)  [body: 440 chars]
+  Q420151 (turkey/way/373108466) -> matched: Akköprü Dam  [body: 355 chars]
+  Q379180 (turkey/way/374762472) -> matched: Tahtalı Dam  [body: 416 chars]
+  Q111534163 (turkey/way/375413198) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16958967 (turkey/way/376231600) -> matched: Kışlaköy coal mine  [body: 1082 chars]
+  Q56275008 (turkey/way/378060466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q647896 (turkey/way/378167948) -> matched: Sillyon  [body: 4573 chars]
+  Q529237 (turkey/way/378640784) -> matched: Anemurium  [body: 4557 chars]
+  Q1090465 (turkey/way/378745780) -> matched: Çamköy Dam  [body: 509 chars]
+  Q20472214 (turkey/way/379446286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q967210 (turkey/way/380010642) -> matched: Denizköy VLF transmitter  [body: 561 chars]
+  Q1961428 (turkey/way/382012180) -> matched: Cengiz Topel Naval Air Station  [body: 2813 chars]
+  Q32083 (turkey/way/383126964) -> matched: Akdamar Island  [body: 16039 chars]
+  Q766860 (turkey/way/384180148) -> matched: Milas–Bodrum Airport  [body: 690 chars]
+  Q192522 (turkey/way/384490382) -> matched: Çatalhöyük  [body: 21867 chars]
+  Q4300271 (turkey/way/385027912) -> matched: TEV İnanç Türkeş High School for Gifted Students  [body: 3616 chars]
+  Q16833789 (turkey/way/387746004) -> matched: Çöpler mine  [body: 4469 chars]
+  Q307943 (turkey/way/389357476) -> matched: Özlüce Dam  [body: 483 chars]
+  Q34789941 (turkey/way/390007354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1089587 (turkey/way/390333768) -> matched: Çamgazi Dam  [body: 396 chars]
+  Q49583509 (turkey/way/391153658) -> matched: Yazılı Canyon Nature Park  [body: 856 chars]
+  Q7666764 (turkey/way/391591408) -> matched: Süreyyabey Dam  [body: 330 chars]
+  Q20463995 (turkey/way/393708572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q447172 (turkey/way/399013306) -> matched: Altınkaya Dam  [body: 746 chars]
+  Q6051748 (turkey/way/410451190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52162261 (turkey/way/415782072) -> matched: Eskişehir Technical University  [body: 12327 chars]
+  Q20988546 (turkey/way/415805564) -> matched: Consulate General of the United States, Istanbul  [body: 943 chars]
+  Q5058819 (turkey/way/416540428) -> matched: Cendeve, Akseki  [body: 144 chars]
+  Q105491380 (turkey/relation/5609133) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49191799 (turkey/relation/32240825) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4727729 (turkey/way/418650530) -> matched: Alkumru Dam  [body: 582 chars]
+  Q15222413 (turkey/way/419465526) -> matched: Gümüşhane-Bayburt Airport  [body: 4240 chars]
+  Q1089321 (turkey/way/422164342) -> matched: Sürgü Dam  [body: 286 chars]
+  Q6367923 (turkey/relation/5667555) -> matched: Karagöl-Sahara National Park  [body: 594 chars]
+  Q34787841 (turkey/way/424764760) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2885343 (turkey/way/428301734) -> matched: Yenihayat Dam  [body: 335 chars]
+  Q1430806 (turkey/way/429258992) -> matched: Hatay Airport  [body: 794 chars]
+  Q1433025 (turkey/way/430112692) -> matched: Tekirdağ Çorlu Atatürk Airport  [body: 566 chars]
+  Q1718685 (turkey/way/432648010) -> matched: Sakarya University  [body: 12666 chars]
+  Q6065325 (turkey/way/437994672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8050653 (turkey/way/440237506) -> matched: Yazıcı Dam  [body: 333 chars]
+  Q3674354 (turkey/way/440255036) -> matched: Ağrı İbrahim Çeçen University  [body: 4617 chars]
+  Q31790693 (turkey/way/440617004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18986 (turkey/way/440962312) -> matched: Pergamon  [body: 52753 chars]
+  Q18986 (turkey/relation/8400789) -> matched: Pergamon  [body: 52753 chars]
+  Q6031409 (turkey/way/441652060) -> matched: Çakmak Dam (Edirne)  [body: 287 chars]
+  Q4952946 (turkey/way/441653166) -> matched: Boğazköy Dam  [body: 162 chars]
+  Q5646525 (turkey/way/441687488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1089443 (turkey/way/441769288) -> matched: Adatepe Dam  [body: 6260 chars]
+  Q4161647 (turkey/way/441779458) -> matched: Dim Dam  [body: 489 chars]
+  Q6368905 (turkey/way/441782746) -> matched: Karaçal Dam  [body: 299 chars]
+  Q2885336 (turkey/way/441826048) -> matched: Yapraklı Dam  [body: 669 chars]
+  Q34822549 (turkey/relation/5844597) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q123026909 (turkey/way/442214492) -> matched: Lake Hıdırmenteş  [body: 437 chars]
+  Q4899893 (turkey/way/442723660) -> matched: Beylikova Dam  [body: 167 chars]
+  Q2885106 (turkey/way/442725476) -> matched: Deliçay Dam  [body: 6260 chars]
+  Q1090448 (turkey/way/442727418) -> matched: Karaova Dam  [body: 264 chars]
+  Q1090491 (turkey/way/442853066) -> matched: Mursal Dam  [body: 345 chars]
+  Q5385756 (turkey/way/442927548) -> matched: Erfelek Dam  [body: 307 chars]
+  Q6453946 (turkey/way/443190916) -> matched: Köprübaşı Dam  [body: 332 chars]
+  Q8077837 (turkey/relation/4594985) -> matched: Çınarcık Dam  [body: 879 chars]
+  Q4831856 (turkey/way/443378636) -> matched: Ayvalı Dam  [body: 245 chars]
+  Q1548059 (turkey/way/443393766) -> matched: Menzelet Dam  [body: 293 chars]
+  Q1089311 (turkey/way/443550548) -> matched: Apa Dam  [body: 336 chars]
+  Q736734 (turkey/way/443697414) -> matched: Afşar Dam  [body: 222 chars]
+  Q1089555 (turkey/way/443736314) -> matched: Mehmetli Dam  [body: 246 chars]
+  Q935562 (turkey/way/443742812) -> matched: Karaidemir Dam  [body: 439 chars]
+  Q1090561 (turkey/way/443866818) -> matched: Bayramiç Dam  [body: 325 chars]
+  Q6014179 (turkey/relation/5903081) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49522465 (turkey/way/445282448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6083792 (turkey/way/445360412) -> matched: TÜBİTAK Defense Industries Research and Development Institute  [body: 11093 chars]
+  Q6038902 (turkey/way/446804946) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8080271 (turkey/way/452897922) -> matched: İzmit Körfez Circuit  [body: 1984 chars]
+  Q6067162 (turkey/relation/6061691) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6100374 (turkey/way/456084070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q169939 (turkey/way/456506096) -> matched: Akdeniz University  [body: 5127 chars]
+  Q12061025 (turkey/way/456515888) -> matched: Koç School  [body: 16625 chars]
+  Q61075566 (turkey/way/456756256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97221820 (turkey/way/457557746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1550686 (turkey/way/457743148) -> matched: Kocaeli University  [body: 2173 chars]
+  Q281155 (turkey/way/458824958) -> matched: Gebze Technical University  [body: 13573 chars]
+  Q106689096 (turkey/way/458925722) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2885070 (turkey/way/459419924) -> matched: Boztepe Dam (Malatya)  [body: 335 chars]
+  Q1090440 (turkey/way/459446006) -> matched: Çavdır Dam  [body: 300 chars]
+  Q106963778 (turkey/way/460102932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111243868 (turkey/way/460187056) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49310011 (turkey/way/460449740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2885309 (turkey/relation/6189941) -> matched: Süloğlu Dam  [body: 359 chars]
+  Q20466455 (turkey/way/461955192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20470414 (turkey/relation/8030065) -> matched: Lake Düden  [body: 2921 chars]
+  Q15979339 (turkey/way/462219076) -> matched: Behram, Ayvacık  [body: 166 chars]
+  Q1431180 (turkey/way/463432680) -> matched: Dalaman Airport  [body: 2276 chars]
+  Q14303983 (turkey/way/463992272) -> matched: Şırnak Şerafettin Elçi Airport  [body: 980 chars]
+  Q49318661 (turkey/way/464274746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1090460 (turkey/way/464291678) -> matched: Alaçatı Dam  [body: 263 chars]
+  Q30668135 (turkey/way/464609152) -> matched: Yılan Island (Urla)  [body: 516 chars]
+  Q4116402 (turkey/way/464670072) -> matched: Marmara Prison  [body: 9038 chars]
+  Q30535985 (turkey/way/465486444) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6059990 (turkey/way/467172182) -> matched: Nevşehir Hacı Bektaş Veli University  [body: 625 chars]
+  Q20988491 (turkey/way/467635958) -> matched: Nuh Naci Yazgan University  [body: 4214 chars]
+  Q6984286 (turkey/way/468600006) -> matched: Neandreia  [body: 6358 chars]
+  Q132182796 (turkey/way/469156814) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q132182765 (turkey/way/470537030) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6035259 (turkey/way/470784270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27058189 (turkey/way/471610480) -> matched: Eshab-ı Kehf Kulliye  [body: 1686 chars]
+  Q6099668 (turkey/way/471840698) -> matched: Çatalağzı power station  [body: 2314 chars]
+  Q116940304 (turkey/way/472512440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q598946 (turkey/way/478121792) -> matched: Çaygören Dam  [body: 305 chars]
+  Q123326509 (turkey/way/479037484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5995122 (turkey/way/479688970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6079089 (turkey/way/479839866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19610409 (turkey/way/480260138) -> matched: Tombstones of Ahlat  [body: 2014 chars]
+  Q3620 (turkey/way/484465524) -> matched: Sapinuwa  [body: 8050 chars]
+  Q31790697 (turkey/way/486524144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47611 (turkey/way/489164818) -> matched: Ephesus  [body: 32867 chars]
+  Q1380189 (turkey/way/489715384) -> matched: Olympus (Lycia)  [body: 10644 chars]
+  Q6669345 (turkey/way/491231336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6100694 (turkey/way/493193856) -> matched: Istanbul Okan University  [body: 1529 chars]
+  Q6859802 (turkey/way/493585704) -> matched: Batman University  [body: 1949 chars]
+  Q48769420 (turkey/way/495332772) -> matched: Etimesgut YHT Maintenance Facility  [body: 1127 chars]
+  Q52236553 (turkey/way/498724646) -> matched: Malatya Turgut Özal University  [body: 1611 chars]
+  Q1090477 (turkey/way/499613630) -> matched: Sultanköy Dam  [body: 290 chars]
+  Q5194072 (turkey/way/502683774) -> matched: Sivas Cumhuriyet University  [body: 7043 chars]
+  Q12694938 (turkey/way/505557964) -> matched: Selçuk–Efes Airport  [body: 603 chars]
+  Q31191365 (turkey/way/505818898) -> matched: Kemerköy power station  [body: 2363 chars]
+  Q4810943 (turkey/way/509133580) -> matched: Erciyes University  [body: 8319 chars]
+  Q1922090 (turkey/way/509986508) -> matched: Mersin University  [body: 1347 chars]
+  Q6613533 (turkey/way/510676436) -> matched: Kocadere, Eceabat  [body: 126 chars]
+  Q1496654 (turkey/way/511071044) -> matched: Gaziantep University  [body: 12757 chars]
+  Q60673567 (turkey/way/511332088) -> matched: Gaziantep Islam Science and Technology University  [body: 682 chars]
+  Q31190146 (turkey/way/517800206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4499143 (turkey/way/518046568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65088734 (turkey/way/518663772) -> matched: Bezabde  [body: 1339 chars]
+  Q6537786 (turkey/relation/6966789) -> matched: Yarımca, Eynesil  [body: 163 chars]
+  Q6595543 (turkey/relation/6966787) -> matched: Kösemen, Eynesil  [body: 124 chars]
+  Q6958783 (turkey/relation/6966779) -> matched: Adaköy, Eynesil  [body: 459 chars]
+  Q6620451 (turkey/relation/6966785) -> matched: Kemerli, Eynesil  [body: 197 chars]
+  Q344405 (turkey/way/521495916) -> matched: İzmir Institute of Technology  [body: 2071 chars]
+  Q133246527 (turkey/way/521548862) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q133246516 (turkey/way/522436560) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q5057509 (turkey/way/523613892) -> matched: Manisa Celal Bayar University  [body: 8501 chars]
+  Q6017977 (turkey/way/523668960) -> matched: Sazova Park  [body: 918 chars]
+  Q20475022 (turkey/relation/7070171) -> matched: Lake Yarışlı  [body: 628 chars]
+  Q2478029 (turkey/relation/7093255) -> matched: Lake Nazik  [body: 431 chars]
+  Q124175362 (turkey/way/529730654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q380454 (turkey/way/530410100) -> matched: Adıyaman University  [body: 689 chars]
+  Q21523789 (turkey/way/531136454) -> matched: Iskenderun Technical University  [body: 1716 chars]
+  Q483758 (turkey/way/538294048) -> matched: Anadolu University  [body: 5922 chars]
+  Q11971656 (turkey/way/543336506) -> matched: Adapazarı-Gebze power plant  [body: 399 chars]
+  Q12007279 (turkey/way/543339174) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106978970 (turkey/way/545496382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6028444 (turkey/way/547716470) -> matched: Kürecik Radar Station  [body: 4188 chars]
+  Q810848 (turkey/way/548591512) -> matched: Batman Dam  [body: 857 chars]
+  Q2581023 (turkey/way/550582804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1569719 (turkey/relation/2471771) -> matched: Manavgat Dam  [body: 287 chars]
+  Q966723 (turkey/relation/8030069) -> matched: Sille Dam  [body: 169 chars]
+  Q132182857 (turkey/way/559447122) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q595840 (turkey/way/560471900) -> matched: Kastamonu University  [body: 5506 chars]
+  Q6099391 (turkey/way/562535400) -> matched: Üçtepe Höyük  [body: 6446 chars]
+  Q4865812 (turkey/way/576027598) -> matched: Bartın Naval Base  [body: 492 chars]
+  Q6586561 (turkey/way/577486482) -> matched: Mardin Artuklu University  [body: 676 chars]
+  Q1659316 (turkey/way/577765336) -> matched: Ilısu Dam  [body: 10629 chars]
+  Q20988346 (turkey/way/579989806) -> matched: Elazığ Culture Park  [body: 1039 chars]
+  Q3916615 (turkey/way/580217690) -> matched: Zafer Airport  [body: 2405 chars]
+  Q1164133 (turkey/way/581652444) -> matched: Tokat Airport  [body: 1673 chars]
+  Q6094970 (turkey/way/581825520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6583307 (turkey/way/583104730) -> matched: Necatiye, Havsa  [body: 137 chars]
+  Q5531781 (turkey/way/584205042) -> matched: General Directorate of Mapping  [body: 4781 chars]
+  Q23755156 (turkey/way/585049046) -> matched: Çukuralan mine  [body: 305 chars]
+  Q97640270 (turkey/way/585352382) -> matched: Bekirli power station  [body: 576 chars]
+  Q6047733 (turkey/relation/23587067) -> matched: Koyun Island  [body: 476 chars]
+  Q2222119 (turkey/way/588246926) -> matched: Janfida  [body: 339 chars]
+  Q6016381 (turkey/way/589861282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108229025 (turkey/way/589943166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28222145 (turkey/way/594540352) -> matched: Orak Island (İzmir)  [body: 678 chars]
+  Q6097056 (turkey/way/600820332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111145288 (turkey/way/607536480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6583077 (turkey/way/609591350) -> matched: Ocaklı, Gelibolu  [body: 126 chars]
+  Q30260682 (turkey/way/610279466) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20514762 (turkey/way/610491070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19312065 (turkey/way/610751020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109394773 (turkey/way/611142600) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30271985 (turkey/way/611653560) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30281119 (turkey/way/611679750) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6620979 (turkey/relation/6966783) -> matched: Kemaliye, Eynesil  [body: 158 chars]
+  Q1163824 (turkey/way/615979826) -> matched: Batman Airport  [body: 279 chars]
+  Q3274227 (turkey/way/617106534) -> matched: Çiğli Air Base  [body: 625 chars]
+  Q8079161 (turkey/way/617430644) -> matched: Özyeğin University  [body: 1324 chars]
+  Q6088997 (turkey/way/620932866) -> matched: Kırşehir Ahi Evran University  [body: 178 chars]
+  Q924465 (turkey/way/622508490) -> matched: Burdur Mehmet Akif Ersoy University  [body: 4996 chars]
+  Q18639807 (turkey/way/628399256) -> matched: Öncüpınar Accommodation Facility  [body: 917 chars]
+  Q106692442 (turkey/way/628750862) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q579405 (turkey/way/631340316) -> matched: Antioch on the Maeander  [body: 2619 chars]
+  Q110008822 (turkey/way/631712074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116483861 (turkey/way/632749398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115707659 (turkey/way/632761998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30260515 (turkey/way/633333472) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6454207 (turkey/way/637975266) -> matched: Kütahya Dumlupınar University  [body: 7048 chars]
+  Q6085866 (turkey/way/640984554) -> matched: Yozgat Bozok University  [body: 326 chars]
+  Q5469363 (turkey/way/642471714) -> matched: Kütahya Air Base  [body: 538 chars]
+  Q30279759 (turkey/way/643608096) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7042323 (turkey/way/655713774) -> matched: Niğde Ömer Halisdemir University  [body: 1329 chars]
+  Q115472789 (turkey/way/660400936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q170495 (turkey/way/670831556) -> matched: Topkapı Palace  [body: 75426 chars]
+  Q3247377 (turkey/way/686812826) -> matched: Bursa Uludağ University  [body: 682 chars]
+  Q32826628 (turkey/relation/10296099) -> matched: Ayhanlar Dam  [body: 526 chars]
+  Q125459203 (turkey/way/691990556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3674409 (turkey/way/694083658) -> matched: Kafkas University  [body: 1891 chars]
+  Q15264265 (turkey/way/699043342) -> matched: Ordu–Giresun Airport  [body: 1721 chars]
+  Q131388724 (turkey/way/704231512) -> matched: Emaar Square Istanbul  [body: 1918 chars]
+  Q948243 (turkey/way/707099694) -> matched: Castabala (city)  [body: 1956 chars]
+  Q49636840 (turkey/way/712774632) -> matched: Domuz Island  [body: 1140 chars]
+  Q107012305 (turkey/way/714363008) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4701750 (turkey/way/715123704) -> matched: Aksaray University  [body: 864 chars]
+  Q111851081 (turkey/relation/10761307) -> matched: Doğubayazıt Reeds  [body: 694 chars]
+  Q6955176 (turkey/way/724209126) -> matched: Ahmetçe, Ayvacık  [body: 126 chars]
+  Q7916261 (turkey/way/726274998) -> matched: Varyap Meridian A Block  [body: 569 chars]
+  Q16827443 (turkey/way/726602306) -> matched: Bitlis Eren University  [body: 402 chars]
+  Q113987374 (turkey/way/727284306) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15188545 (turkey/way/728436674) -> matched: Arkun Dam  [body: 597 chars]
+  Q32827542 (turkey/relation/3912413) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q116940038 (turkey/way/733442216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1194217 (turkey/way/734410632) -> matched: Voice of Turkey  [body: 1059 chars]
+  Q1095336 (turkey/relation/10943719) -> matched: Uzungöl  [body: 1630 chars]
+  Q29831291 (turkey/way/736574128) -> matched: Kandilli Ski Resort  [body: 1009 chars]
+  Q30253916 (turkey/way/736809954) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6095550 (turkey/way/739059234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q863852 (turkey/way/741915264) -> matched: Bingöl University  [body: 1771 chars]
+  Q52236662 (turkey/way/743821336) -> matched: Samsun University  [body: 3196 chars]
+  Q105893254 (turkey/way/747412108) -> matched: Pamukkale  [body: 6615 chars]
+  Q6089196 (turkey/way/750442376) -> matched: Bartın University  [body: 1097 chars]
+  Q52162280 (turkey/way/752154764) -> matched: Tarsus University  [body: 1074 chars]
+  Q34937042 (turkey/relation/4665823) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q87432177 (turkey/way/754317544) -> matched: Arslanköy Pond  [body: 645 chars]
+  Q7513486 (turkey/way/762356884) -> matched: Siirt University  [body: 174 chars]
+  Q8082628 (turkey/way/762358060) -> matched: Şırnak University  [body: 830 chars]
+  Q1431265 (turkey/way/766453674) -> matched: Erzurum Airport  [body: 1678 chars]
+  Q20988350 (turkey/way/770107740) -> matched: Esertepe Park  [body: 846 chars]
+  Q12808843 (turkey/way/770227446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49522859 (turkey/way/770337508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6368296 (turkey/way/771997218) -> matched: Karamanoğlu Mehmetbey University  [body: 2976 chars]
+  Q2191408 (turkey/way/776243116) -> matched: Vestel  [body: 1196 chars]
+  Q10952014 (turkey/way/784095024) -> matched: Hatay Mustafa Kemal University  [body: 1267 chars]
+  Q4810216 (turkey/relation/4560555) -> matched: Lake Mogan  [body: 1779 chars]
+  Q20457677 (turkey/way/786949912) -> matched: Kaklıç Air Base  [body: 1208 chars]
+  Q1674132 (turkey/way/795334350) -> matched: Silvan Dam  [body: 1183 chars]
+  Q2797197 (turkey/way/795579946) -> matched: SantralIstanbul  [body: 12100 chars]
+  Q6096546 (turkey/way/798043462) -> matched: Bilecik Şeyh Edebali University  [body: 620 chars]
+  Q115450407 (turkey/way/802283666) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30280092 (turkey/way/802342964) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30254060 (turkey/way/802373602) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1891212 (turkey/way/802958706) -> matched: Karacalar, Emirdağ  [body: 1805 chars]
+  Q6097672 (turkey/way/803562292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30260429 (turkey/way/807305262) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6062110 (turkey/way/808320180) -> matched: Presidential Guard Regiment (Turkey)  [body: 2638 chars]
+  Q97666447 (turkey/way/826346104) -> matched: Tufanbeyli power station  [body: 439 chars]
+  Q4294695 (turkey/way/840520116) -> matched: Ministry of Agriculture and Forestry (Turkey)  [body: 424 chars]
+  Q123328289 (turkey/way/843506006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2548367 (turkey/way/845930632) -> matched: Roketsan  [body: 4672 chars]
+  Q5626511 (turkey/way/847205474) -> matched: Göksu Park  [body: 376 chars]
+  Q1963565 (turkey/way/849083794) -> matched: Nagidos  [body: 5564 chars]
+  Q118378334 (turkey/relation/30104547) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6944541 (turkey/way/872456070) -> matched: Muğla Sıtkı Koçman University  [body: 1178 chars]
+  Q1142874 (turkey/way/876538854) -> matched: Fırat University  [body: 1915 chars]
+  Q25477354 (turkey/way/880601214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28846425 (turkey/way/881140330) -> matched: National Defense University (Turkey)  [body: 3199 chars]
+  Q1627463 (turkey/way/881169320) -> matched: Selimiye Barracks  [body: 2320 chars]
+  Q504382 (turkey/way/881403096) -> matched: İzmir Adnan Menderes Airport  [body: 3393 chars]
+  Q20757715 (turkey/way/888768888) -> matched: Bandırma Onyedi Eylül University  [body: 2054 chars]
+  Q25338950 (turkey/way/903565300) -> matched: Osman Gazi Bridge  [body: 4927 chars]
+  Q16837359 (turkey/way/903644794) -> matched: Ankara Etlik City Hospital  [body: 1783 chars]
+  Q6092476 (turkey/way/913081912) -> matched: University of Turkish Aeronautical Association  [body: 1892 chars]
+  Q4702064 (turkey/way/915320696) -> matched: Akçakaya, Söke  [body: 142 chars]
+  Q1142488 (turkey/way/915807252) -> matched: Colophon (city)  [body: 5518 chars]
+  Q2902947 (turkey/way/915923182) -> matched: Samandıra Army Air Base  [body: 738 chars]
+  Q97285076 (turkey/way/933680960) -> matched: Yunus Emre power station  [body: 1722 chars]
+  Q6044299 (turkey/way/935176742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6578558 (turkey/way/935960430) -> matched: Sayfiye, Kestel  [body: 145 chars]
+  Q6578574 (turkey/way/937096832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q172743 (turkey/way/937147226) -> matched: Istanbul Park  [body: 9126 chars]
+  Q1342484 (turkey/way/947490182) -> matched: Robert College  [body: 34671 chars]
+  Q106697380 (turkey/way/950538108) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6059029 (turkey/way/955309158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q127867789 (turkey/way/969574426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6042254 (turkey/way/969574428) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116487024 (turkey/way/985126798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6020836 (turkey/way/985425456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2666527 (turkey/way/985515626) -> matched: Lake Acıgöl  [body: 1473 chars]
+  Q7447932 (turkey/way/986173820) -> matched: Seleucia Sidera  [body: 1810 chars]
+  Q20473685 (turkey/way/992535924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21523975 (turkey/way/993785316) -> matched: Alanya Alaaddin Keykubat University  [body: 1586 chars]
+  Q5626569 (turkey/way/998676720) -> matched: Gölcük Naval Base  [body: 3642 chars]
+  Q6020588 (turkey/way/999764268) -> matched: Metris Prison  [body: 2989 chars]
+  Q3886424 (turkey/way/1000892014) -> matched: Bodrum-Imsik Airport  [body: 221 chars]
+  Q753778 (turkey/way/1001524876) -> matched: Atatürk University  [body: 9400 chars]
+  Q692995 (turkey/way/1003286996) -> matched: Arneae  [body: 1017 chars]
+  Q57659677 (turkey/relation/14801825) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q5627192 (turkey/way/1019266552) -> matched: Güzelce Dam  [body: 338 chars]
+  Q132182767 (turkey/way/1019464236) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q115401253 (turkey/way/1019820156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24192239 (turkey/way/1033802092) -> matched: Atatürk Arboretum  [body: 1414 chars]
+  Q5997307 (turkey/way/1034033646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52162254 (turkey/way/1036612436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16895045 (turkey/way/1044256890) -> matched: Mersin Interfaith Cemetery  [body: 3667 chars]
+  Q6089124 (turkey/way/1051745902) -> matched: Necmettin Erbakan University  [body: 1790 chars]
+  Q4853224 (turkey/way/1064531026) -> matched: Balıkesir University  [body: 4380 chars]
+  Q1090309 (turkey/way/1076578198) -> matched: Ağcaşar Dam  [body: 304 chars]
+  Q30623231 (turkey/way/1084576656) -> matched: Uzunkum Nature Park  [body: 1281 chars]
+  Q344334 (turkey/way/1099435512) -> matched: Istanbul Technical University  [body: 16717 chars]
+  Q3384325 (turkey/way/1103958106) -> matched: Kubadabad Palace  [body: 3934 chars]
+  Q1434981 (turkey/way/1110931392) -> matched: Mor Gabriel Monastery  [body: 25769 chars]
+  Q106673460 (turkey/way/1111046960) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q11136363 (turkey/way/1111640374) -> matched: Karabük University  [body: 2626 chars]
+  Q6067386 (turkey/way/1111816582) -> matched: Kültürpark  [body: 3637 chars]
+  Q49646170 (turkey/way/1114259824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34788766 (turkey/way/1114271848) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49646083 (turkey/way/1114271854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6407000 (turkey/way/1122080768) -> matched: Kilis 7 Aralık University  [body: 10649 chars]
+  Q34907104 (turkey/relation/316345) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6030174 (turkey/way/1125355188) -> matched: Karaca Arboretum  [body: 206 chars]
+  Q19611498 (turkey/relation/16147983) -> matched: Hevsel Gardens  [body: 3370 chars]
+  Q22343320 (turkey/way/1132435700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1307034 (turkey/relation/16197115) -> matched: Ağrı Airport  [body: 693 chars]
+  Q5185642 (turkey/way/1138621702) -> matched: Emirgan Park  [body: 6073 chars]
+  Q97641013 (turkey/way/1146680512) -> matched: Cenal power station  [body: 662 chars]
+  Q17512881 (turkey/way/1160271380) -> matched: New Sakarya Atatürk Stadium  [body: 364 chars]
+  Q5477408 (turkey/way/1171502336) -> matched: Foça Naval Base  [body: 975 chars]
+  Q6052345 (turkey/relation/16585773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6716792 (turkey/way/1177600384) -> matched: MMK-Atakaş Metallurgy  [body: 3495 chars]
+  Q5182750 (turkey/relation/16621031) -> matched: Fethi Paşa Korusu  [body: 605 chars]
+  Q628719 (turkey/way/1179932254) -> matched: Larissa Phrikonis  [body: 1764 chars]
+  Q97666426 (turkey/way/1183802374) -> matched: Soma Kolin power station  [body: 799 chars]
+  Q24914998 (turkey/way/1193227230) -> matched: Karatepe-Aslantaş Open-Air Museum  [body: 4592 chars]
+  Q34891696 (turkey/relation/16797273) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97613544 (turkey/way/1216944932) -> matched: 18 Mart Çan power station  [body: 633 chars]
+  Q2032260 (turkey/way/1225325420) -> matched: Aghin  [body: 349 chars]
+  Q97641152 (turkey/way/1226366942) -> matched: Çan-2 power station  [body: 325 chars]
+  Q4765979 (turkey/way/1234501006) -> matched: Ankara Güvercinlik Army Air Base  [body: 5472 chars]
+  Q5992824 (turkey/way/1237158436) -> matched: SOCAR Star Oil Refinery  [body: 633 chars]
+  Q6100422 (turkey/way/1241733686) -> matched: Ordu University  [body: 356 chars]
+  Q19377221 (turkey/way/1247959608) -> matched: Kırklareli gas power plant  [body: 754 chars]
+  Q64434900 (turkey/way/1256477052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8052605 (turkey/way/1258320178) -> matched: Yerizak  [body: 410 chars]
+  Q125658379 (turkey/way/1258516766) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q430490 (turkey/way/1260641592) -> matched: Ankara Esenboğa Airport  [body: 5106 chars]
+  Q64412760 (turkey/way/1264921490) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6006164 (turkey/way/1269545068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6005428 (turkey/way/1269566520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105340772 (turkey/way/1271016730) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1315027 (turkey/relation/17943401) -> matched: Kars Harakani Airport  [body: 1049 chars]
+  Q60842230 (turkey/way/1298536102) -> matched: Burj Al Babas  [body: 4082 chars]
+  Q97214689 (turkey/way/1312999564) -> matched: Sivrihisar Aviation Center  [body: 2122 chars]
+  Q6053985 (turkey/way/1332163002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109384630 (turkey/relation/13182373) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31189889 (turkey/way/1346158036) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20988336 (turkey/way/1348859964) -> matched: Diyarbakır Stadium  [body: 224 chars]
+  Q1588084 (turkey/way/1351934526) -> matched: Hasan Uğurlu Dam  [body: 765 chars]
+  Q110008823 (turkey/way/1357414834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130499 (turkey/relation/4746549) -> matched: Dicle University  [body: 3156 chars]
+  Q989883 (turkey/relation/15181569) -> matched: Büyükada  [body: 10444 chars]
+  Q6050564 (turkey/relation/23641317) -> matched: Şirinyer Racecourse  [body: 544 chars]
+  Q134373564 (turkey/way/1369738084) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6015778 (turkey/way/1371948142) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23763131 (turkey/way/1375600610) -> matched: Bağıştaş 1 Dam  [body: 539 chars]
+  Q123327594 (turkey/way/1377589568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q272576 (turkey/relation/19163337) -> matched: Çanakkale Onsekiz Mart University  [body: 16662 chars]
+  Q6022539 (turkey/way/1387024374) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49314104 (turkey/way/1399987538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64434855 (turkey/way/1404849426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97613608 (turkey/way/1405103694) -> matched: Atlas power station  [body: 743 chars]
+  Q8077814 (turkey/way/1406918150) -> matched: Çukurova International Airport  [body: 3739 chars]
+  Q6528743 (turkey/way/1416100396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q780117 (turkey/relation/23782955) -> matched: Limyra  [body: 3008 chars]
+  Q845682 (turkey/way/1422319290) -> matched: Trakya University  [body: 17395 chars]
+  Q6028783 (turkey/relation/18908027) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25476853 (turkey/way/1454298062) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4810695 (turkey/way/1458486562) -> matched: Lake Eymir  [body: 2545 chars]
+  Q5262497 (turkey/way/1467104644) -> matched: Dereköy, Alanya  [body: 158 chars]
+  Q7092217 (turkey/way/1467882262) -> matched: Ondokuzmayıs Dam  [body: 344 chars]
+  Q49301350 (turkey/relation/19516491) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5968363 (turkey/relation/20332579) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q504382 (turkey/way/1479575606) -> matched: İzmir Adnan Menderes Airport  [body: 3393 chars]
+  Q770615 (turkey/way/1486383642) -> matched: Pshatavan  [body: 597 chars]
+  Q1089330 (turkey/way/1497970806) -> matched: Gölköy Dam  [body: 322 chars]
+  Q30635900 (turkey/relation/20701191) -> matched: Mardaliç Island  [body: 1405 chars]
+  Q49645373 (turkey/relation/20703457) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115450628 (turkey/way/1502263516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49384262 (turkey/relation/20761613) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115474326 (turkey/way/1510585230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65940726 (turkey/relation/20926963) -> matched: Aliağa Ship Breaking Yard  [body: 259 chars]
+  Q6021179 (turkey/relation/20636511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111415896 (turkey/way/1516985914) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10820326 (turkey/relation/21173701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2222580 (turkey/way/1528314472) -> matched: Vardanashen  [body: 375 chars]
+  Q108903957 (turkey/relation/21255901) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108806598 (turkey/relation/21043775) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6009493 (turkey/way/1538446688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2548367 (turkey/way/1538934132) -> matched: Roketsan  [body: 4672 chars]
+  Q186373 (turkey/way/1541391548) -> matched: Oenoanda  [body: 3709 chars]
+  Q107424046 (turkey/way/1552630282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30595343 (turkey/way/1555273942) -> matched: Karapınar solar power plant  [body: 1208 chars]
+  Q6027650 (turkey/relation/24924125) -> matched: Karantina Island  [body: 969 chars]
+  Q106671514 (turkey/way/1564937052) -> matched: Kırıkkale power station  [body: 420 chars]
+  Q15179528 (turkey/way/1565204110) -> matched: Alpaslan-2 Dam  [body: 1536 chars]
+  Q4734770 (turkey/way/1565223258) -> matched: Alpaslan-1 Dam  [body: 550 chars]
+  Q2634300 (turkey/way/1565246100) -> matched: Ranchpar  [body: 501 chars]
+  Q1142763 (turkey/way/1566005402) -> matched: Arazap  [body: 487 chars]
+  Q60313985 (turkey/relation/22577577) -> matched: ZETES power stations  [body: 1392 chars]
+  Q97709205 (turkey/way/1566062154) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28220562 (turkey/way/1567446098) -> matched: Lower Kaleköy Dam  [body: 512 chars]
+  Q106671564 (turkey/way/1571410216) -> matched: Erzin gas power plant  [body: 372 chars]
+  Q8077672 (turkey/way/1576560070) -> matched: Çetin Dam  [body: 2140 chars]
+  Q97640059 (turkey/way/1579932666) -> matched: Biga power station  [body: 489 chars]
+  Q111144942 (turkey/way/1580646104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25477770 (turkey/way/1582877580) -> matched: Ibn Haldun University  [body: 2120 chars]
+  Q101552225 (turkey/way/1584282272) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1090509 (turkey/way/1584504522) -> matched: Büyükçekmece Dam  [body: 1503 chars]
+  Q94997604 (turkey/way/1586007658) -> matched: Başakşehir Çam and Sakura City Hospital  [body: 3776 chars]
+  Q16850742 (turkey/way/1587876568) -> matched: Ülkü Park  [body: 920 chars]
+  Q96404912 (turkey/way/1608057842) -> matched: Sancaktepe Prof. Dr. Feriha Öz Emergency Hospital  [body: 2048 chars]
+  Q131201350 (turkey/way/1617596200) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6035672 (turkey/relation/22322107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3661908 (turkey/way/1625460124) -> matched: Istanbul Airport  [body: 14348 chars]
+  Q34828239 (turkey/way/1625579986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97235906 (turkey/way/1627216146) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5385213 (turkey/way/1631303042) -> matched: Erciyes Ski Resort  [body: 894 chars]
+  Q106695968 (turkey/way/1639633120) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q115920296 (turkey/relation/34390291) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10737480 (turkey/relation/6966781) -> matched: Balcılı, Eynesil  [body: 221 chars]
+  Q510000 (turkey/way/1645707326) -> matched: Andriake  [body: 1415 chars]
+  Q106692363 (turkey/way/1649451082) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q5626584 (turkey/way/1649661460) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106670839 (turkey/way/1649868984) -> matched: Bandırma power station  [body: 518 chars]
+  Q6032179 (turkey/way/1649879434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8080038 (turkey/way/1650231952) -> matched: İbrala Dam  [body: 169 chars]
+  Q97237152 (turkey/relation/22754769) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2271832 (turkey/relation/20858841) -> matched: Kiğı Dam  [body: 827 chars]
+  Q98767771 (turkey/way/1688040060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20988515 (turkey/way/1690000986) -> matched: Silicon Valley of Turkey  [body: 1548 chars]
+  Q109389737 (turkey/way/1693794862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3122010 (turkey/way/1694522704) -> matched: Çarpanak Island  [body: 541 chars]
+  Q116474567 (turkey/way/1694602154) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19611300 (turkey/relation/23372555) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3234128 (turkey/way/1705824362) -> matched: Lake Salda  [body: 3117 chars]
+  Q10763655 (turkey/way/1707242526) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19612208 (turkey/way/1713823898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431233 (turkey/relation/23518593) -> matched: Balıkesir Koca Seyit Airport  [body: 532 chars]
+  Q49325519 (turkey/way/1719072862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109388773 (turkey/relation/23538829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111144911 (turkey/way/1722604400) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1304582 (turkey/way/1725578432) -> matched: Turkish-German University  [body: 3033 chars]
+  Q6083428 (turkey/way/1737316728) -> matched: Abdullah Gül University  [body: 12789 chars]
+  Q1142800 (turkey/way/1741302458) -> matched: Araks, Armenia (Araks Municipality)  [body: 595 chars]
+  Q31191435 (turkey/way/1743203104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2270631 (turkey/way/1748335236) -> matched: Berkashat  [body: 452 chars]
+  Q1630042 (turkey/way/1761251854) -> matched: Akkuyu Nuclear Power Plant  [body: 8995 chars]
+  Q25008 (turkey/way/1767451066) -> matched: Esenler Coach Terminal  [body: 2604 chars]
+  Q24884410 (turkey/way/1767934738) -> matched: Mihrabat Nature Park  [body: 2903 chars]
+  Q16509436 (turkey/way/1768923300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5642498 (turkey/relation/33024017) -> matched: Haliç Bridge  [body: 701 chars]
+  Q49172047 (turkey/way/1788793588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6020639 (turkey/relation/24424647) -> matched: Gülbahçe, Urla  [body: 440 chars]
+  Q21681864 (turkey/way/1795281436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q40894456 (turkey/way/1797260460) -> matched: Presidential Complex (Turkey)  [body: 11670 chars]
+  Q97666406 (turkey/way/1804301750) -> matched: Polat power station  [body: 303 chars]
+  Q1164133 (turkey/way/1804459478) -> matched: Tokat Airport  [body: 1673 chars]
+  Q2630104 (turkey/way/1805462012) -> matched: Getap, Aragatsotn  [body: 301 chars]
+  Q6081675 (turkey/way/1829345142) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4830817 (turkey/relation/24542865) -> matched: Korucuk, Sinop  [body: 361 chars]
+  Q97640811 (turkey/way/1849806806) -> matched: Bolu Göynük power station  [body: 297 chars]
+  Q49632624 (turkey/relation/25084993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105085688 (turkey/way/1853767180) -> matched: Kisecik Radar Station  [body: 741 chars]
+  Q108227069 (turkey/way/1854313794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q90906385 (turkey/way/1859612586) -> matched: School of Army Aviation (Turkey)  [body: 1082 chars]
+  Q106675759 (turkey/way/1863205882) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6465712 (turkey/relation/37258399) -> matched: Çıplak, Çanakkale  [body: 134 chars]
+  Q106727591 (turkey/way/1878878356) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q52162244 (turkey/relation/25397313) -> matched: İzmir Tınaztepe University  [body: 972 chars]
+  Q35700181 (turkey/relation/25449597) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6039198 (turkey/way/1890552906) -> matched: Hamsilos Bay  [body: 1118 chars]
+  Q34789890 (turkey/relation/25596295) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49634384 (turkey/relation/25596299) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49374431 (turkey/relation/25596297) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3084314 (turkey/relation/4759765) -> matched: Uzunada  [body: 1922 chars]
+  Q30280347 (turkey/way/1914941038) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15199335 (turkey/relation/25903893) -> matched: Bingöl Airport  [body: 820 chars]
+  Q1090573 (turkey/way/1933178438) -> matched: Demirdöven Dam  [body: 297 chars]
+  Q6073295 (turkey/way/1934443512) -> matched: Istanbul Sabahattin Zaim University  [body: 3530 chars]
+  Q6074552 (turkey/way/1936589624) -> matched: Rami Barracks  [body: 4180 chars]
+  Q15222582 (turkey/relation/26126915) -> matched: Hakkari–Yüksekova Airport  [body: 1462 chars]
+  Q6025863 (turkey/relation/16719735) -> matched: Karatepe-Aslantaş National Park  [body: 3479 chars]
+  Q207917 (turkey/way/1949890592) -> matched: Mount Nemrut  [body: 5227 chars]
+  Q11036281 (turkey/way/1954823458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431667 (turkey/relation/25737097) -> matched: Kastamonu Airport  [body: 567 chars]
+  Q132182845 (turkey/way/1968346934) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q104000481 (turkey/way/1978252762) -> matched: Karahan Tepe  [body: 3885 chars]
+  Q6074699 (turkey/way/1978305208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109478689 (turkey/way/1978306196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q132182828 (turkey/way/1978327320) -> matched: Ayanlar Höyük  [body: 601 chars]
+  Q12810234 (turkey/relation/26722227) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3656332 (turkey/relation/26723337) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6556671 (turkey/relation/26730301) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6777064 (turkey/relation/26736281) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6895178 (turkey/relation/26741671) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7936993 (turkey/relation/8530061) -> matched: Vitanovo Reserve  [body: 1270 chars]
+  Q6857721 (turkey/relation/26749745) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6786581 (turkey/relation/26750049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6552785 (turkey/relation/26761091) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582050 (turkey/relation/26761469) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19931239 (turkey/relation/3431709) -> matched: İğneada Floodplain Forests National Park  [body: 3694 chars]
+  Q6584618 (turkey/relation/26767201) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6777015 (turkey/relation/26770099) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6581441 (turkey/relation/26770151) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6738755 (turkey/relation/26780539) -> matched: Makaracı, Amasra  [body: 260 chars]
+  Q4726790 (turkey/relation/26780843) -> matched: Aliobası, Amasra  [body: 276 chars]
+  Q4831084 (turkey/relation/26783041) -> matched: Aydoğmuş, Kurucaşile  [body: 123 chars]
+  Q5285083 (turkey/relation/26785489) -> matched: Dizlermezeci, Kurucaşile  [body: 127 chars]
+  Q5196031 (turkey/relation/26785513) -> matched: Curunlu, Kurucaşile  [body: 121 chars]
+  Q6826355 (turkey/relation/26785519) -> matched: Meydan, Kurucaşile  [body: 121 chars]
+  Q7905397 (turkey/relation/26785543) -> matched: Uğurlu, Kurucaşile  [body: 121 chars]
+  Q5219917 (turkey/relation/26785545) -> matched: Danişment, Kurucaşile  [body: 124 chars]
+  Q4829852 (turkey/relation/26787655) -> matched: Söğütlü, Bartın  [body: 118 chars]
+  Q4830222 (turkey/relation/26788361) -> matched: Kayadibikavlak, Bartın  [body: 125 chars]
+  Q4830019 (turkey/relation/26788891) -> matched: Kaşbaşı, Bartın  [body: 118 chars]
+  Q4830271 (turkey/relation/26789117) -> matched: Çamaltı, Bartın  [body: 120 chars]
+  Q98809513 (turkey/relation/26796455) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34755290 (turkey/relation/26976601) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109386444 (turkey/relation/26994141) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109384661 (turkey/relation/26999705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109384668 (turkey/relation/26999711) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109384667 (turkey/relation/26999707) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109384665 (turkey/relation/26999709) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109384663 (turkey/relation/26999713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109387909 (turkey/relation/27076905) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8077503 (turkey/way/2022625636) -> matched: 1915 Çanakkale Bridge  [body: 5329 chars]
+  Q7784788 (turkey/way/2022852970) -> matched: Yavuz Sultan Selim Bridge  [body: 7952 chars]
+  Q174270 (turkey/relation/27147389) -> matched: Amorium  [body: 7226 chars]
+  Q131904549 (turkey/relation/26723931) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q132182489 (turkey/way/2033551226) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q132182454 (turkey/way/2034654446) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q107540426 (turkey/way/2041312484) -> matched: New Hatay Stadium  [body: 499 chars]
+  Q38251268 (turkey/way/2046621048) -> matched: Harmankaya Canyon Nature Park  [body: 1174 chars]
+  Q110548972 (turkey/way/2050012144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104817080 (turkey/relation/27523407) -> matched: Garipçe, Karacabey  [body: 150 chars]
+  Q63656905 (turkey/way/2060883826) -> matched: Emba Hunutlu power station  [body: 6314 chars]
+  Q49460138 (turkey/way/2063110128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3657117 (turkey/relation/26741783) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110907730 (turkey/way/2066341124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2661366 (turkey/relation/2373147) -> matched: Lake Köyceğiz  [body: 3374 chars]
+  Q108319294 (turkey/relation/5748777) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1347187 (turkey/way/2075391126) -> matched: Epiphania (Cilicia)  [body: 1413 chars]
+  Q115865004 (turkey/way/2075607716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3672145 (turkey/relation/27838011) -> matched: Diktepe, Batman  [body: 232 chars]
+  Q32828956 (turkey/relation/2685441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30681483 (turkey/relation/28036693) -> matched: Lake Akdoğan  [body: 2645 chars]
+  Q111534555 (turkey/way/2100914998) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q97217841 (turkey/relation/4872611) -> matched: Lake Batmış  [body: 250 chars]
+  Q12811290 (turkey/relation/28096305) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111634764 (turkey/relation/28097921) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1740373 (turkey/relation/28158205) -> matched: Lake Turna  [body: 493 chars]
+  Q272951 (turkey/way/2129593586) -> matched: Çukurova University  [body: 8878 chars]
+  Q112186854 (turkey/way/2131339104) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49377936 (turkey/relation/25608485) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49373160 (turkey/relation/25596291) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125376855 (turkey/way/2134429384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6458460 (turkey/relation/26741725) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34888863 (turkey/way/2141444212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6920129 (turkey/way/2148303530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q179839 (turkey/relation/5583091) -> matched: Golden Horn  [body: 10776 chars]
+  Q1014726 (turkey/way/2162702496) -> matched: Afyonkarahisar Castle  [body: 873 chars]
+  Q65220544 (turkey/relation/28807435) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34857411 (turkey/relation/2278189) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q135639755 (turkey/relation/12981913) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q130324031 (turkey/way/2173557450) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6072831 (turkey/relation/29015391) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15183441 (turkey/way/2181516770) -> matched: Apollonia (Lycia)  [body: 2067 chars]
+  Q111224578 (turkey/relation/29124571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97709075 (turkey/way/2189322608) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q97708818 (turkey/way/2189322610) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q106727971 (turkey/way/2189322704) -> matched: Aliaga Habas power station  [body: 634 chars]
+  Q97642134 (turkey/way/2189322708) -> matched: İzdemir power station  [body: 445 chars]
+  Q6552441 (turkey/relation/29277261) -> matched: Munzur University  [body: 497 chars]
+  Q6367485 (turkey/relation/29334015) -> matched: Eşek Island  [body: 1753 chars]
+  Q49099415 (turkey/way/2210463356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106727732 (turkey/relation/29749537) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105274202 (turkey/relation/8041711) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q31190077 (turkey/way/2242971940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2642302 (turkey/way/2245460498) -> matched: Byurakn  [body: 592 chars]
+  Q15233251 (turkey/way/2245460546) -> matched: Kamkhut  [body: 478 chars]
+  Q2664908 (turkey/way/2245460550) -> matched: Voghji, Shirak  [body: 694 chars]
+  Q2223225 (turkey/way/2245460552) -> matched: Meghrashat  [body: 321 chars]
+  Q6094731 (turkey/relation/30095649) -> matched: Çatin, Ortaköy  [body: 2992 chars]
+  Q31191486 (turkey/relation/30198041) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3274927 (turkey/relation/30198039) -> matched: Gaziemir Air Base  [body: 775 chars]
+  Q5998215 (turkey/relation/30524417) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1202231 (turkey/relation/30524435) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4732579 (turkey/relation/30702523) -> matched: Allied Land Command  [body: 5633 chars]
+  Q1451843 (turkey/relation/25479793) -> matched: Suvla  [body: 1798 chars]
+  Q796295 (turkey/way/2271753968) -> matched: BMC Otomotiv  [body: 7275 chars]
+  Q388470 (turkey/way/2272770542) -> matched: Şanlıurfa 11 Nisan Stadium  [body: 692 chars]
+  Q17512849 (turkey/way/2272771812) -> matched: Gaziantep Stadium  [body: 536 chars]
+  Q1545897 (turkey/way/2275718750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49333036 (turkey/relation/30920257) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6624789 (turkey/way/2289986552) -> matched: Kayalıpınar, Oğuzeli  [body: 253 chars]
+  Q6034369 (turkey/relation/14649565) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6824342 (turkey/relation/31181945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135113153 (turkey/relation/31230695) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108227068 (turkey/way/2310442986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65079252 (turkey/way/2311463282) -> matched: Sürmene Naval Base  [body: 558 chars]
+  Q108228798 (turkey/way/2312140706) -> matched: Kadıralak Nature Park  [body: 140 chars]
+  Q59680404 (turkey/way/2318276472) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117472125 (turkey/way/2320279062) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96415799 (turkey/way/2321510988) -> matched: Yeşilköy Prof. Dr. Murat Dilmener Emergency Hospital  [body: 2066 chars]
+  Q118491381 (turkey/way/2322318362) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20470550 (turkey/way/2336551888) -> matched: Lake Simenit  [body: 419 chars]
+  Q3675845 (turkey/relation/5722605) -> matched: Lake Balık  [body: 1958 chars]
+  Q4083236 (turkey/relation/31741053) -> matched: Beldibi, Kemer  [body: 162 chars]
+  Q152405 (turkey/relation/31742021) -> matched: Side, Turkey  [body: 11112 chars]
+  Q1781149 (turkey/relation/31741589) -> matched: Konaklı, Antalya  [body: 1692 chars]
+  Q595329 (turkey/relation/19956691) -> matched: Phaselis  [body: 3866 chars]
+  Q130384910 (turkey/way/2350245214) -> matched: Basketball Development Center  [body: 3471 chars]
+  Q2866118 (turkey/way/2355446620) -> matched: Arzen  [body: 7079 chars]
+  Q48740720 (turkey/way/2357059026) -> matched: Kuyuluk Nature Park  [body: 502 chars]
+  Q108228169 (turkey/relation/32069547) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2988251 (turkey/relation/3622965) -> matched: Lake Nemrut  [body: 4699 chars]
+  Q109392743 (turkey/relation/24425145) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1676200 (turkey/relation/32245565) -> matched: Lake Işıklı  [body: 1392 chars]
+  Q1090380 (turkey/relation/1893899) -> matched: Adıgüzel Dam  [body: 272 chars]
+  Q518844 (turkey/relation/32426735) -> matched: Bagaran, Armavir  [body: 3644 chars]
+  Q8077521 (turkey/way/2399552060) -> matched: Çankaya Mansion  [body: 12321 chars]
+  Q16897699 (turkey/way/2401584442) -> matched: Yozgat Airport  [body: 531 chars]
+  Q6074850 (turkey/relation/32525921) -> matched: Acarlar Floodplain Forest  [body: 4528 chars]
+  Q49640199 (turkey/way/2408031886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34797610 (turkey/way/2408744960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q723622 (turkey/relation/16721735) -> matched: Sabiha Gökçen International Airport  [body: 5596 chars]
+  Q756018 (turkey/relation/23131113) -> matched: Great Zab  [body: 15912 chars]
+  Q124262132 (turkey/way/2427786578) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q111400481 (turkey/way/2430585796) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q123413103 (turkey/relation/33259463) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q112234782 (turkey/relation/32944707) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30632528 (turkey/relation/23288671) -> matched: Lale Island  [body: 757 chars]
+  Q579389 (turkey/way/2445803472) -> matched: Antiochia ad Cragum  [body: 2486 chars]
+  Q30680387 (turkey/relation/33400285) -> matched: Çukurbağ Peninsula  [body: 446 chars]
+  Q30680429 (turkey/relation/33400913) -> matched: Boztepe Peninsula  [body: 1140 chars]
+  Q3083368 (turkey/relation/25722931) -> matched: Paşalimanı  [body: 2543 chars]
+  Q5262539 (turkey/way/2451465300) -> matched: Deretürbelinas, Alanya  [body: 30064 chars]
+  Q4811611 (turkey/way/2453969980) -> matched: Atatürk Forest Farm and Zoo  [body: 2108 chars]
+  Q1934539 (turkey/relation/2471843) -> matched: Oymapinar Dam  [body: 1405 chars]
+  Q3486560 (turkey/relation/8023809) -> matched: Kartsakhi Lake  [body: 871 chars]
+  Q272614 (turkey/relation/33727759) -> matched: Çankaya University  [body: 4103 chars]
+  Q1021881 (turkey/relation/4593513) -> matched: Lake Büyükçekmece  [body: 1526 chars]
+  Q34922820 (turkey/relation/626703) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109384418 (turkey/relation/19070757) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124282690 (turkey/relation/34045673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1797436 (turkey/relation/34091109) -> matched: Lake Küçükçekmece  [body: 4279 chars]
+  Q2740733 (turkey/relation/23288673) -> matched: Cunda Island  [body: 4809 chars]
+  Q6022272 (turkey/relation/34112129) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30636395 (turkey/relation/34133865) -> matched: Lake Bolluk  [body: 784 chars]
+  Q6094921 (turkey/relation/34166575) -> matched: Lake Karamık  [body: 758 chars]
+  Q6580876 (turkey/relation/34378491) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6562197 (turkey/relation/34378129) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6526862 (turkey/relation/34378663) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6862583 (turkey/relation/34378661) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6832356 (turkey/relation/34378489) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6542943 (turkey/relation/34378493) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6954054 (turkey/relation/33214501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10782578 (turkey/relation/34378497) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10731405 (turkey/relation/34378495) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6581265 (turkey/relation/34380025) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6713584 (turkey/relation/34380435) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6544843 (turkey/relation/34380439) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6526735 (turkey/relation/34380797) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10837337 (turkey/relation/34380803) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6461991 (turkey/relation/34380021) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10757425 (turkey/relation/34380811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6817841 (turkey/relation/34380805) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6499796 (turkey/relation/34380023) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6570422 (turkey/relation/34380807) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21695023 (turkey/relation/34381185) -> matched: Lake Akgöl  [body: 315 chars]
+  Q6684247 (turkey/relation/34380799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6483286 (turkey/relation/34382807) -> matched: Çaycılar, Rize  [body: 325 chars]
+  Q6819209 (turkey/relation/34380441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10830159 (turkey/relation/34382811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6591978 (turkey/relation/34382813) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6514338 (turkey/relation/34380809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6092186 (turkey/relation/34383005) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6069486 (turkey/relation/34380795) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6596720 (turkey/relation/34382805) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582208 (turkey/relation/34383027) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6765746 (turkey/relation/34382809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6574494 (turkey/relation/34382803) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10780442 (turkey/relation/34383025) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10837697 (turkey/relation/34383029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6456562 (turkey/relation/34383031) -> matched: Üçkaya, Rize  [body: 325 chars]
+  Q6523990 (turkey/relation/34384427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6586100 (turkey/relation/34380793) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6563005 (turkey/relation/34384847) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6074681 (turkey/relation/34384849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6007895 (turkey/relation/34383007) -> matched: Salarha  [body: 411 chars]
+  Q6077039 (turkey/relation/34384839) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6903213 (turkey/relation/34383013) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10783470 (turkey/relation/34383009) -> matched: Kırklartepesi  [body: 329 chars]
+  Q6754439 (turkey/relation/34384853) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6681989 (turkey/relation/34384913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6473994 (turkey/relation/34384921) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6917653 (turkey/relation/34384917) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6483578 (turkey/relation/34384923) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6759815 (turkey/relation/34384851) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10777379 (turkey/relation/34384925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10777321 (turkey/relation/34384915) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6517840 (turkey/relation/34390945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6558547 (turkey/relation/34390941) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6772132 (turkey/relation/34390943) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6615209 (turkey/relation/34390949) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6537924 (turkey/relation/34390937) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6525639 (turkey/relation/34390953) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582350 (turkey/relation/34390951) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6793198 (turkey/relation/34380801) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6907037 (turkey/relation/34390963) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6520328 (turkey/relation/34390947) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12809801 (turkey/relation/34390961) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6590523 (turkey/relation/34390959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16398536 (turkey/relation/34384835) -> matched: Muradiye, Rize  [body: 122 chars]
+  Q6865396 (turkey/relation/34390965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6503692 (turkey/relation/34390969) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10838940 (turkey/relation/34390967) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10842661 (turkey/relation/34390957) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6696031 (turkey/relation/34390955) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6854273 (turkey/relation/34390977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6581455 (turkey/relation/34380813) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6561292 (turkey/relation/34380027) -> matched: Taşpınar, Rize  [body: 334 chars]
+  Q6528635 (turkey/relation/34390979) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6061234 (turkey/relation/34390981) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6571959 (turkey/relation/34378659) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6548880 (turkey/relation/34411307) -> matched: Limanköy, Çayeli  [body: 2236 chars]
+  Q6853596 (turkey/relation/34422447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6753708 (turkey/relation/34422501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6618715 (turkey/relation/34422507) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6828708 (turkey/relation/34390973) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6050958 (turkey/relation/34390975) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6527344 (turkey/relation/34378665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6618365 (turkey/relation/34378667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6947123 (turkey/relation/34378657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6697176 (turkey/relation/34380433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10789644 (turkey/relation/34422547) -> matched: Madenli, Çayeli  [body: 123 chars]
+  Q6792398 (turkey/relation/34422475) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10742992 (turkey/relation/34422457) -> matched: Büyükköy, Çayeli  [body: 124 chars]
+  Q10767112 (turkey/relation/34426593) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6578811 (turkey/relation/34422553) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6695281 (turkey/relation/34427373) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582648 (turkey/relation/34422445) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6527814 (turkey/relation/34422449) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6468592 (turkey/relation/34422443) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6688672 (turkey/relation/34422441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6486484 (turkey/relation/34422455) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6544988 (turkey/relation/31179861) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6534401 (turkey/relation/34433683) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6574640 (turkey/relation/34433983) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6781753 (turkey/relation/34434021) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6670708 (turkey/relation/34422573) -> matched: Haremtepe  [body: 334 chars]
+  Q6502067 (turkey/relation/34422483) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6475809 (turkey/relation/34422571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6644751 (turkey/relation/34422439) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10776758 (turkey/relation/34422481) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6518551 (turkey/relation/34422437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6826680 (turkey/relation/34422485) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6703524 (turkey/relation/34434611) -> matched: Güllüköy, Çamlıhemşin  [body: 376 chars]
+  Q6073073 (turkey/relation/34434675) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25472431 (turkey/relation/34435563) -> matched: Arıcılar, Ardeşen  [body: 365 chars]
+  Q6615596 (turkey/relation/34435579) -> matched: Kirazlık, Ardeşen  [body: 367 chars]
+  Q6842967 (turkey/relation/34422487) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6584812 (turkey/relation/34420407) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6441427 (turkey/relation/34422493) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6689768 (turkey/relation/34422569) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10761068 (turkey/relation/34420405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6526968 (turkey/relation/34422489) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582260 (turkey/relation/34422491) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10837542 (turkey/relation/34422479) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6796662 (turkey/relation/34411305) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10735291 (turkey/relation/34422477) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6586663 (turkey/relation/34422533) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6848112 (turkey/relation/34422531) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6523837 (turkey/relation/34422563) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6683341 (turkey/relation/34422579) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6536019 (turkey/relation/34422515) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6766004 (turkey/relation/34422525) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6596917 (turkey/relation/34422545) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6451497 (turkey/relation/34422529) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6587053 (turkey/relation/34422541) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6539092 (turkey/relation/34422527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10759038 (turkey/relation/34422517) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6622233 (turkey/relation/34422505) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6578253 (turkey/relation/34422509) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6877702 (turkey/relation/34422523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10730415 (turkey/relation/34422521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6539759 (turkey/relation/34422539) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6755487 (turkey/relation/34422537) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6516643 (turkey/relation/34422535) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10823228 (turkey/relation/34422543) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16393847 (turkey/relation/34415477) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6474376 (turkey/relation/34422511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6578102 (turkey/relation/34422519) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6451556 (turkey/relation/34422453) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6074896 (turkey/relation/34427393) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582243 (turkey/relation/34427395) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6789866 (turkey/relation/34427401) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6580543 (turkey/relation/34427385) -> matched: Rüzgarlı, İkizdere  [body: 451 chars]
+  Q6530935 (turkey/relation/34427397) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6856063 (turkey/relation/34427387) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6796353 (turkey/relation/34427383) -> matched: Demirkapı, İkizdere  [body: 264 chars]
+  Q6690405 (turkey/relation/34427359) -> matched: Gürdere, İkizdere  [body: 471 chars]
+  Q6813478 (turkey/relation/34427357) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6658967 (turkey/relation/34427367) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6441558 (turkey/relation/34427375) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6897144 (turkey/relation/34427371) -> matched: Ayvalık, İkizdere  [body: 281 chars]
+  Q6485931 (turkey/relation/34426965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6746812 (turkey/relation/34426967) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6782445 (turkey/relation/34427421) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6472581 (turkey/relation/34427417) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6475492 (turkey/relation/34427415) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6647192 (turkey/relation/34427419) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6585292 (turkey/relation/34427411) -> matched: Meşeköy, İkizdere  [body: 323 chars]
+  Q6864956 (turkey/relation/34426969) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6552702 (turkey/relation/34427413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6522598 (turkey/relation/34427403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6552507 (turkey/relation/34427399) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6490574 (turkey/relation/34427405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6620499 (turkey/relation/34415475) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6465729 (turkey/relation/34422503) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6501297 (turkey/relation/34422499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6578811 (turkey/relation/34422549) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6577851 (turkey/relation/34422561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6490366 (turkey/relation/34426591) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6583208 (turkey/relation/34426587) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6587029 (turkey/relation/34426577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6540730 (turkey/relation/34426575) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6667577 (turkey/relation/34425133) -> matched: Hasköy, Pazar  [body: 367 chars]
+  Q6944174 (turkey/relation/34426409) -> matched: Aktaş, Pazar  [body: 1451 chars]
+  Q10822106 (turkey/relation/34426403) -> matched: Sulak, Pazar  [body: 356 chars]
+  Q10732364 (turkey/relation/34425115) -> matched: Alçılı, Pazar  [body: 444 chars]
+  Q6559178 (turkey/relation/34425131) -> matched: Tektaş, Pazar  [body: 408 chars]
+  Q6071331 (turkey/relation/34425113) -> matched: Yavuzköy, Pazar  [body: 436 chars]
+  Q6519939 (turkey/relation/34426413) -> matched: Yeşilköy, Pazar  [body: 407 chars]
+  Q6576494 (turkey/relation/34426415) -> matched: Sivrikale, Pazar  [body: 363 chars]
+  Q6663322 (turkey/relation/34426417) -> matched: Hisarlı, Pazar  [body: 402 chars]
+  Q6574257 (turkey/relation/34425117) -> matched: Subaşı, Pazar  [body: 406 chars]
+  Q10764034 (turkey/relation/34425119) -> matched: Güneyköy, Pazar  [body: 408 chars]
+  Q6600094 (turkey/relation/34425121) -> matched: Kuzayca, Pazar  [body: 408 chars]
+  Q6862699 (turkey/relation/34425123) -> matched: Balıkçı, Pazar  [body: 316 chars]
+  Q6443125 (turkey/relation/34425129) -> matched: Şendere, Pazar  [body: 410 chars]
+  Q6462014 (turkey/relation/34425127) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6585716 (turkey/relation/34425125) -> matched: Merdivenli, Pazar  [body: 419 chars]
+  Q2364461 (turkey/relation/34425135) -> matched: Dağdibi, Pazar  [body: 384 chars]
+  Q6948331 (turkey/relation/34426405) -> matched: Akmescit, Pazar  [body: 387 chars]
+  Q6548425 (turkey/relation/34425111) -> matched: Tütüncüler, Pazar  [body: 363 chars]
+  Q10731416 (turkey/relation/34426411) -> matched: Aktepe, Pazar  [body: 398 chars]
+  Q6806815 (turkey/relation/34426407) -> matched: Darılı, Pazar  [body: 360 chars]
+  Q6672719 (turkey/relation/34426361) -> matched: Hamidiye, Pazar  [body: 515 chars]
+  Q6793244 (turkey/relation/34426365) -> matched: Derebaşı, Pazar  [body: 402 chars]
+  Q6580395 (turkey/relation/34426367) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6577832 (turkey/relation/34426391) -> matched: Sessizdere, Pazar  [body: 364 chars]
+  Q111914353 (turkey/relation/34426371) -> matched: Güzelyalı, Pazar  [body: 321 chars]
+  Q6583107 (turkey/relation/34426369) -> matched: Ocak, Pazar  [body: 447 chars]
+  Q10773141 (turkey/relation/34425149) -> matched: Irmakköy, Pazar  [body: 507 chars]
+  Q6582135 (turkey/relation/34425147) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6554259 (turkey/relation/34426397) -> matched: Topluca, Pazar  [body: 282 chars]
+  Q6576427 (turkey/relation/34425145) -> matched: Sivritepe, Pazar  [body: 365 chars]
+  Q10741071 (turkey/relation/34426395) -> matched: Boğazlı, Pazar  [body: 352 chars]
+  Q6529194 (turkey/relation/34426393) -> matched: Yemişli, Pazar  [body: 360 chars]
+  Q6581548 (turkey/relation/34425143) -> matched: Papatya, Pazar  [body: 388 chars]
+  Q6612970 (turkey/relation/34426399) -> matched: Kocaköprü, Pazar  [body: 275 chars]
+  Q6618976 (turkey/relation/34426401) -> matched: Kesikköprü, Pazar  [body: 362 chars]
+  Q6759595 (turkey/relation/34425137) -> matched: Elmalık, Pazar  [body: 138 chars]
+  Q6830809 (turkey/relation/34425165) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6671803 (turkey/relation/34425155) -> matched: Handağı, Pazar  [body: 393 chars]
+  Q6544041 (turkey/relation/34425169) -> matched: Uğrak, Pazar  [body: 393 chars]
+  Q6582168 (turkey/relation/34425157) -> matched: Ortayol, Pazar  [body: 397 chars]
+  Q6503962 (turkey/relation/34425139) -> matched: Yücehisar  [body: 361 chars]
+  Q6853678 (turkey/relation/34425163) -> matched: Başköy, Pazar  [body: 415 chars]
+  Q6442585 (turkey/relation/34425141) -> matched: Şentepe, Pazar  [body: 395 chars]
+  Q6787718 (turkey/relation/34425161) -> matched: Derinsu, Pazar  [body: 388 chars]
+  Q10822223 (turkey/relation/34425159) -> matched: Suçatı, Pazar  [body: 357 chars]
+  Q6521211 (turkey/relation/34384919) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6529128 (turkey/relation/34384855) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6578123 (turkey/relation/34383011) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6748840 (turkey/relation/34433443) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6620310 (turkey/relation/34384413) -> matched: Kendirli  [body: 122 chars]
+  Q6468639 (turkey/relation/34433439) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6842220 (turkey/relation/34384425) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6895836 (turkey/relation/34382801) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6554452 (turkey/relation/34380437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6649073 (turkey/relation/34433687) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10743042 (turkey/relation/34433677) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6794523 (turkey/relation/34433685) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6088088 (turkey/relation/34433679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6563617 (turkey/relation/34433675) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6594824 (turkey/relation/34433681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6497825 (turkey/relation/34433431) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6873739 (turkey/relation/34433429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6616180 (turkey/relation/34433445) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6586674 (turkey/relation/34433441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6073272 (turkey/relation/34433433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6520245 (turkey/relation/34434015) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6577461 (turkey/relation/34434013) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6480220 (turkey/relation/34434011) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6458973 (turkey/relation/34434017) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10842585 (turkey/relation/34434039) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6527124 (turkey/relation/34434041) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6726496 (turkey/relation/34434023) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10837668 (turkey/relation/34434019) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6506293 (turkey/relation/34434037) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582610 (turkey/relation/34434025) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10759068 (turkey/relation/34433989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6661841 (turkey/relation/34433987) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6750390 (turkey/relation/34433985) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6481079 (turkey/relation/34433993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6626677 (turkey/relation/34433991) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6734883 (turkey/relation/34433981) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6767277 (turkey/relation/34433997) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6515761 (turkey/relation/34433995) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6525434 (turkey/relation/34434005) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6451005 (turkey/relation/34434003) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10778375 (turkey/relation/34425153) -> matched: Kayağantaş, Pazar  [body: 361 chars]
+  Q6443808 (turkey/relation/34425151) -> matched: Şehitlik, Pazar  [body: 388 chars]
+  Q10754584 (turkey/relation/34426363) -> matched: Dernek, Pazar  [body: 395 chars]
+  Q6953195 (turkey/relation/34425167) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10776732 (turkey/relation/34437771) -> matched: Karaali, Fındıklı  [body: 405 chars]
+  Q6481384 (turkey/relation/34434619) -> matched: Çayırdüzü, Çamlıhemşin  [body: 378 chars]
+  Q10731422 (turkey/relation/34426581) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6841395 (turkey/relation/34426595) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6552465 (turkey/relation/34435533) -> matched: Tunca, Ardeşen  [body: 391 chars]
+  Q6831872 (turkey/relation/34434639) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6584883 (turkey/relation/34434627) -> matched: Komilo  [body: 517 chars]
+  Q6596939 (turkey/relation/34434617) -> matched: Köprübaşı, Çamlıhemşin  [body: 378 chars]
+  Q6075201 (turkey/relation/34434625) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6689142 (turkey/relation/34434657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6554236 (turkey/relation/34434623) -> matched: Topluca, Çamlıhemşin  [body: 490 chars]
+  Q6783150 (turkey/relation/34434615) -> matched: Dikkaya, Çamlıhemşin  [body: 411 chars]
+  Q6852639 (turkey/relation/34434613) -> matched: Behice, Çamlıhemşin  [body: 284 chars]
+  Q6649715 (turkey/relation/34434647) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582447 (turkey/relation/34434641) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6582180 (turkey/relation/34434643) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6569853 (turkey/relation/34434645) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6485572 (turkey/relation/34434669) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6532908 (turkey/relation/34434649) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6499971 (turkey/relation/34434673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6585373 (turkey/relation/34434671) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6074021 (turkey/relation/34434655) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6072441 (turkey/relation/34434659) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6582217 (turkey/relation/34434663) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6442330 (turkey/relation/34434677) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6514516 (turkey/relation/34434665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134584248 (turkey/relation/34435607) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6577932 (turkey/relation/34435639) -> matched: Serindere, Ardeşen  [body: 444 chars]
+  Q6442478 (turkey/relation/34435505) -> matched: Şenyurt, Ardeşen  [body: 355 chars]
+  Q6656616 (turkey/relation/34435509) -> matched: Işıklı, Ardeşen  [body: 483 chars]
+  Q6592048 (turkey/relation/34435537) -> matched: Küçükköy, Ardeşen  [body: 392 chars]
+  Q6523288 (turkey/relation/34435503) -> matched: Yeniyol, Ardeşen  [body: 365 chars]
+  Q6505761 (turkey/relation/34435535) -> matched: Yurtsever, Ardeşen  [body: 414 chars]
+  Q6582574 (turkey/relation/34435539) -> matched: Ortaalan, Ardeşen  [body: 346 chars]
+  Q6697793 (turkey/relation/34435637) -> matched: Gündoğan, Ardeşen  [body: 437 chars]
+  Q11839278 (turkey/relation/34435633) -> matched: Armağan, Ardeşen  [body: 412 chars]
+  Q6539706 (turkey/relation/34435623) -> matched: Yamaçdere  [body: 375 chars]
+  Q6465663 (turkey/relation/34435625) -> matched: Çıraklar, Ardeşen  [body: 363 chars]
+  Q6602909 (turkey/relation/34435631) -> matched: Kurtuluş, Ardeşen  [body: 383 chars]
+  Q6848194 (turkey/relation/34435621) -> matched: Beyazkaya  [body: 396 chars]
+  Q6581056 (turkey/relation/34435617) -> matched: Pirinçlik, Ardeşen  [body: 399 chars]
+  Q6500169 (turkey/relation/34435619) -> matched: Zeytinlik, Ardeşen  [body: 224 chars]
+  Q6443175 (turkey/relation/34435559) -> matched: Şendere, Ardeşen  [body: 366 chars]
+  Q10764026 (turkey/relation/34435557) -> matched: Güney, Ardeşen  [body: 381 chars]
+  Q6856268 (turkey/relation/34435581) -> matched: Bayırcık  [body: 365 chars]
+  Q6518824 (turkey/relation/34435641) -> matched: Yeşiltepe, Ardeşen  [body: 371 chars]
+  Q6777487 (turkey/relation/34435583) -> matched: Doğanay, Ardeşen  [body: 364 chars]
+  Q6577840 (turkey/relation/34435645) -> matched: Seslikaya, Ardeşen  [body: 385 chars]
+  Q6951921 (turkey/relation/34435643) -> matched: Akdere, Ardeşen  [body: 281 chars]
+  Q6950311 (turkey/relation/34435585) -> matched: Akkaya, Ardeşen  [body: 392 chars]
+  Q6536104 (turkey/relation/34435627) -> matched: Yavuz, Ardeşen  [body: 396 chars]
+  Q6442563 (turkey/relation/34435629) -> matched: Şenyamaç, Ardeşen  [body: 366 chars]
+  Q6460523 (turkey/relation/34435575) -> matched: Özgür, Ardeşen  [body: 363 chars]
+  Q6082760 (turkey/relation/34435571) -> matched: Önder, Ardeşen  [body: 391 chars]
+  Q10819872 (turkey/relation/34435573) -> matched: Sinanköy, Ardeşen  [body: 380 chars]
+  Q6769157 (turkey/relation/34435549) -> matched: Duygulu, Ardeşen  [body: 397 chars]
+  Q6662197 (turkey/relation/34435591) -> matched: Hoşdere, Ardeşen  [body: 388 chars]
+  Q6596823 (turkey/relation/34435589) -> matched: Köprüköy, Ardeşen  [body: 367 chars]
+  Q6443854 (turkey/relation/34435593) -> matched: Şehitlik, Ardeşen  [body: 409 chars]
+  Q6580813 (turkey/relation/34435595) -> matched: Pınarlı, Ardeşen  [body: 363 chars]
+  Q6586615 (turkey/relation/34435597) -> matched: Manganez, Ardeşen  [body: 394 chars]
+  Q6526310 (turkey/relation/34435587) -> matched: Yeniköy, Ardeşen  [body: 392 chars]
+  Q6886795 (turkey/relation/34435577) -> matched: Aşağıdurak  [body: 374 chars]
+  Q25472425 (turkey/relation/34437745) -> matched: Düzköy, Fındıklı  [body: 218 chars]
+  Q6585332 (turkey/relation/34437923) -> matched: Meyvalı, Fındıklı  [body: 436 chars]
+  Q6558378 (turkey/relation/34437741) -> matched: Tepecik, Fındıklı  [body: 368 chars]
+  Q6580524 (turkey/relation/34437751) -> matched: Saatköy  [body: 393 chars]
+  Q6793896 (turkey/relation/34437749) -> matched: Derbent, Fındıklı  [body: 379 chars]
+  Q6588167 (turkey/relation/34437779) -> matched: Kıyıcık, Fındıklı  [body: 466 chars]
+  Q6570950 (turkey/relation/34437781) -> matched: Sümer, Fındıklı  [body: 362 chars]
+  Q111914634 (turkey/relation/34437791) -> matched: Hürriyet, Fındıklı  [body: 323 chars]
+  Q111914674 (turkey/relation/34437785) -> matched: Aksu, Fındıklı  [body: 349 chars]
+  Q111914641 (turkey/relation/34437793) -> matched: Yenimahalle, Fındıklı  [body: 341 chars]
+  Q111914627 (turkey/relation/34437795) -> matched: Sahil, Fındıklı  [body: 326 chars]
+  Q6525856 (turkey/relation/34437797) -> matched: Yeniköy, Fındıklı  [body: 378 chars]
+  Q12809883 (turkey/relation/34437773) -> matched: Hara, Fındıklı  [body: 403 chars]
+  Q6465998 (turkey/relation/34437767) -> matched: Çınarlı, Fındıklı  [body: 368 chars]
+  Q6909527 (turkey/relation/34437769) -> matched: Arılı, Fındıklı  [body: 403 chars]
+  Q6573892 (turkey/relation/34437763) -> matched: Sulak, Fındıklı  [body: 386 chars]
+  Q10764153 (turkey/relation/34437747) -> matched: Gürsu, Fındıklı  [body: 421 chars]
+  Q6904513 (turkey/relation/34437777) -> matched: Avcılar, Fındıklı  [body: 372 chars]
+  Q10739515 (turkey/relation/34437757) -> matched: Beydere, Fındıklı  [body: 368 chars]
+  Q6522747 (turkey/relation/34437759) -> matched: Yenişehitlik  [body: 399 chars]
+  Q6815294 (turkey/relation/34437765) -> matched: Cennet, Fındıklı  [body: 393 chars]
+  Q6480402 (turkey/relation/34437755) -> matched: Çağlayan, Fındıklı  [body: 397 chars]
+  Q6658924 (turkey/relation/34437761) -> matched: Ihlamurlu  [body: 368 chars]
+  Q34876680 (turkey/relation/8030055) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19611734 (turkey/way/2526694620) -> matched: Konya Food and Agriculture University  [body: 1143 chars]
+  Q105439973 (turkey/relation/5248145) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101554260 (turkey/relation/794253) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6028091 (turkey/relation/19544615) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15179528 (turkey/relation/27998525) -> matched: Alpaslan-2 Dam  [body: 1536 chars]
+  Q30680477 (turkey/relation/35063131) -> matched: Lake Tuzla  [body: 806 chars]
+  Q30622293 (turkey/relation/27598623) -> matched: Lake Akyayan  [body: 639 chars]
+  Q6090377 (turkey/relation/35074465) -> matched: Lake Palas Tuzla  [body: 806 chars]
+  Q34929625 (turkey/relation/771373) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1630042 (turkey/relation/35081599) -> matched: Akkuyu Nuclear Power Plant  [body: 8995 chars]
+  Q49313576 (turkey/relation/20333009) -> matched: Tortum Gölü  [body: 596 chars]
+  Q20471086 (turkey/relation/35122113) -> matched: Lake Aygır (Kars)  [body: 256 chars]
+  Q3457705 (turkey/relation/25229731) -> matched: Akhurian Reservoir  [body: 1094 chars]
+  Q6587092 (turkey/relation/8030063) -> matched: Ladik Lake  [body: 756 chars]
+  Q272701 (turkey/relation/4704227) -> matched: Lake Çavuşçu  [body: 588 chars]
+  Q108228367 (turkey/relation/35192799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4171154 (turkey/relation/33830915) -> matched: Lake Durusu  [body: 1858 chars]
+  Q6732591 (turkey/way/2595397840) -> matched: Magydus  [body: 3940 chars]
+  Q5529157 (turkey/relation/35594075) -> matched: Tokat Gaziosmanpaşa University  [body: 1710 chars]
+  Q6074590 (turkey/relation/35603225) -> matched: Adana Alparslan Türkeş Science and Technology University  [body: 334 chars]
+  Q6038767 (turkey/way/2608260826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6692467 (turkey/way/2610125286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19612665 (turkey/relation/35895075) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q868012 (turkey/relation/25829371) -> matched: Lake Sapanca  [body: 8185 chars]
+  Q6089196 (turkey/way/2618477420) -> matched: Bartın University  [body: 1097 chars]
+  Q6098422 (turkey/way/2622428054) -> matched: Çankırı Karatekin University  [body: 688 chars]
+  Q1545893 (turkey/way/2624435086) -> matched: Kapıkule  [body: 2785 chars]
+  Q28221132 (turkey/way/2634845136) -> matched: Skyland İstanbul  [body: 2745 chars]
+  Q1318876 (turkey/way/2647126210) -> matched: Pinara  [body: 4981 chars]
+  Q33120196 (turkey/relation/32786755) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6098949 (turkey/relation/36518471) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133458363 (turkey/way/2676483548) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49313166 (turkey/relation/34138403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q525377 (turkey/relation/19071307) -> matched: Diyarbakır Airport  [body: 1462 chars]
+  Q6081936 (turkey/relation/36903591) -> matched: Osmaniye Korkut Ata University  [body: 291 chars]
+  Q6088135 (turkey/way/2703713666) -> matched: Bayburt University  [body: 2750 chars]
+  Q607977 (turkey/relation/36973509) -> matched: Little Khabur  [body: 1079 chars]
+  Q108227075 (turkey/way/2706277406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135677474 (turkey/way/2711853372) -> matched: Atatürk Airport National Garden  [body: 3165 chars]
+  Q4690863 (turkey/relation/38115507) -> matched: Afyon Kocatepe University  [body: 1549 chars]
+  Q105838485 (turkey/relation/35723071) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q153675 (turkey/relation/3674571) -> matched: Manavgat River  [body: 1694 chars]
+  Q2254939 (turkey/relation/38517069) -> matched: Kara Ada (Bodrum)  [body: 927 chars]
+  Q28159581 (turkey/way/2818527144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q40894456 (turkey/way/2824817638) -> matched: Presidential Complex (Turkey)  [body: 11670 chars]
+  Q85969772 (turkey/relation/28580725) -> matched: Dikmen Vadisi  [body: 1290 chars]
+  Q1039186 (turkey/way/2841445600) -> matched: Samʾal  [body: 17963 chars]
+  Q263669 (turkey/way/2844547944) -> matched: Blaundus  [body: 2414 chars]
+  Q131902734 (turkey/way/2846708034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10777291 (turkey/relation/3547121) -> matched: Karapınar, Acıgöl  [body: 129 chars]
+  Q6978175 (turkey/relation/39188309) -> matched: Patara Beach  [body: 171 chars]
+  Q827480 (turkey/relation/5724575) -> matched: Antalya Airport  [body: 2668 chars]
+  Q343987 (turkey/relation/39509687) -> matched: İnönü University  [body: 7788 chars]
+  Q18746827 (turkey/relation/39534851) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117716851 (turkey/relation/31973255) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q343902 (turkey/relation/27530671) -> matched: İmralı  [body: 3806 chars]
+  Q1297001 (turkey/relation/31182195) -> matched: Ege University  [body: 2355 chars]
+  Q1168408 (turkey/relation/36453069) -> matched: Kayaköy  [body: 8128 chars]
+  Q1089455 (turkey/relation/5871213) -> matched: Elmalı-2 Dam  [body: 375 chars]
+  Q1818005 (turkey/relation/13213553) -> matched: Yıldız Park  [body: 2360 chars]
+  Q1090263 (turkey/relation/2351719) -> matched: Ömerli Dam  [body: 1082 chars]
+  Q1193155 (turkey/way/2983942960) -> matched: Koç University  [body: 8547 chars]
+  Q2885011 (turkey/relation/5840691) -> matched: Alibey Dam  [body: 320 chars]
+  Q30588302 (turkey/relation/40897945) -> matched: Polonezköy Nature Park  [body: 2531 chars]
+  Q756126 (turkey/relation/13799393) -> matched: Middle East Technical University  [body: 44945 chars]
+  Q1431244 (turkey/relation/41001673) -> matched: Elazığ Airport  [body: 689 chars]
+  Q16850737 (turkey/relation/13809319) -> matched: İzmir Kâtip Çelebi University  [body: 2288 chars]
+  Q6015490 (turkey/relation/15312673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1089637 (turkey/way/3049089768) -> matched: Atikhisar Dam  [body: 527 chars]
+  Q1090471 (turkey/relation/4237241) -> matched: Kunduzlar Dam  [body: 247 chars]
+  Q24912044 (turkey/way/3053529560) -> matched: Altınordu Selçuk-Efes Football Complex  [body: 1103 chars]
+
+wrote 870 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/turkey_wikidata.parquet
+wrote 870 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/turkey_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/turkey_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/turkey_wikidata_map.png
+  rows=870 geometry_missing=0 bodies=870 jsonl=870 map_html=1259846B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['turkey']
+  failed:    0 -> []
+
+=== union ===
+unioned 39 countries -> 7399 rows
+[04:05:52] union
+unioned 39 countries -> 7399 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[04:06:01] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 160 files.
+Finished hashing 160 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../denmark_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../denmark_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 66 files]                : 100%|██████████| 27.7MB / 27.7MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 76)    :  36%|███▌      | 29.8MB / 83.1MB, 37.3MB/s  
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  14%|█▍        | 4.06MB / 29.1MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 77)    :  39%|███▊      | 32.0MB / 83.1MB, 22.9MB/s  
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 5 files]                 :   5%|▌         | 2.90MB / 53.3MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  39%|███▉      | 32.7MB / 83.1MB, 20.5MB/s  
+New Data Upload               :   1%|▏         |  722kB / 51.1MB,  451kB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  11%|█         | 2.89MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:   3%|▎         |  301kB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   3%|▎         | 4.43kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:   3%|▎         |  321kB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:   3%|▎         |  104kB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:   3%|▎         | 3.83kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  40%|████      | 33.5MB / 83.1MB, 18.6MB/s  
+New Data Upload               :   3%|▎         | 1.44MB / 51.1MB,  803kB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  15%|█▍        | 3.95MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:   7%|▋         |  753kB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   7%|▋         | 11.1kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:   7%|▋         |  804kB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:   7%|▋         |  260kB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:   7%|▋         | 9.58kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  43%|████▎     | 35.6MB / 83.1MB, 17.8MB/s  
+New Data Upload               :   7%|▋         | 3.61MB / 51.1MB, 1.80MB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  28%|██▊       | 7.50MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:  21%|██        | 2.26MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  21%|██        | 33.2kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:  21%|██        | 2.41MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:  21%|██        |  781kB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:  21%|██        | 28.7kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  52%|█████▏    | 42.8MB / 83.1MB, 19.5MB/s  
+New Data Upload               :  21%|██        | 10.8MB / 51.1MB, 4.92MB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  46%|████▌     | 12.5MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:  41%|████      | 4.37MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  41%|████      | 64.2kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:  41%|████      | 4.66MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:  41%|████      | 1.51MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:  41%|████      | 55.6kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  64%|██████▎   | 53.0MB / 83.1MB, 22.1MB/s  
+New Data Upload               :  41%|████      | 20.9MB / 51.1MB, 8.73MB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  65%|██████▌   | 17.8MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:  62%|██████▏   | 6.62MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  62%|██████▏   | 97.4kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:  62%|██████▏   | 7.07MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:  62%|██████▏   | 2.29MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:  62%|██████▏   | 84.3kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  77%|███████▋  | 63.8MB / 83.1MB, 24.5MB/s  
+New Data Upload               :  62%|██████▏   | 31.8MB / 51.1MB, 12.2MB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  86%|████████▌ | 23.4MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:  85%|████████▍ | 9.03MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  85%|████████▍ |  133kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:  85%|████████▍ | 9.64MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:  85%|████████▍ | 3.13MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:  85%|████████▍ |  115kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  91%|█████████ | 75.3MB / 83.1MB, 26.9MB/s  
+New Data Upload               :  85%|████████▍ | 43.3MB / 51.1MB, 15.5MB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 27.0MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:  99%|█████████▉| 10.5MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  155kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:  99%|█████████▉| 11.2MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:  99%|█████████▉| 3.65MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:  99%|█████████▉|  134kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (76 / 82)    :  99%|█████████▉| 82.5MB / 83.1MB, 27.5MB/s  
+New Data Upload               :  99%|█████████▉| 50.5MB / 51.1MB, 16.9MB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 27.0MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:  99%|█████████▉| 10.5MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  155kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:  99%|█████████▉| 11.2MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:  99%|█████████▉| 3.65MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:  99%|█████████▉|  134kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 27.0MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html:  99%|█████████▉| 10.5MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  155kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl:  99%|█████████▉| 11.2MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet:  99%|█████████▉| 3.65MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png:  99%|█████████▉|  134kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 27.3MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html: 100%|██████████| 10.7MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet: 100%|██████████| 3.69MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (82 / 82)    : 100%|██████████| 83.1MB / 83.1MB, 23.1MB/s  
+New Data Upload               : 100%|██████████| 51.1MB / 51.1MB, 14.2MB/s  [A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 27.3MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html: 100%|██████████| 10.7MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet: 100%|██████████| 3.69MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 27.3MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html: 100%|██████████| 10.7MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet: 100%|██████████| 3.69MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 27.3MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html: 100%|██████████| 10.7MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet: 100%|██████████| 3.69MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 27.3MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html: 100%|██████████| 10.7MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet: 100%|██████████| 3.69MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A
+
+
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 27.3MB / 27.3MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...les/all_wikidata_map.html: 100%|██████████| 10.7MB / 10.7MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...les/turkey_wikidata.jsonl: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata.parquet: 100%|██████████| 3.69MB / 3.69MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/turkey_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (82 / 82)    : 100%|██████████| 83.1MB / 83.1MB, 18.9MB/s  
+New Data Upload               : 100%|██████████| 51.1MB / 51.1MB, 11.6MB/s  
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+  ...slovenia_wikidata.parquet: 100%|██████████|  627kB /  627kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 27.3MB / 27.3MB            
+  ...les/all_wikidata_map.html: 100%|██████████| 10.7MB / 10.7MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+  ...les/turkey_wikidata.jsonl: 100%|██████████| 11.4MB / 11.4MB            
+  ...s/turkey_wikidata.parquet: 100%|██████████| 3.69MB / 3.69MB            
+  ...s/turkey_wikidata_map.png: 100%|██████████|  136kB /  136kB            
+Removing 153 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/3914029c8905ad199f1a1d02ff90eecefb7b6e4c
+[04:06:17] DONE turkey

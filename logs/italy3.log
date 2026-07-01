@@ -1,0 +1,43 @@
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 14400s
+
+=== italy ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/italy.parquet
+wrote 26 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/italy.parquet
+pre-filter (--only-wikidata): 26 -> 5 rows
+
+5 polygons with wikidata=*
+  matched:           0
+  no en sitelink:    4
+  no sitelinks:      1
+  Q3832081 (italy/way/8023734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122972291 (italy/way/9421316) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q33180551 (italy/way/9427476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112044634 (italy/way/9431836) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105044083 (italy/way/9702552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 0 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/italy_wikidata.parquet
+wrote 0 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/italy_wikidata.jsonl
+(no matched polygons; skipping map)
+  WARN: missing source /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/italy_wikidata_map.html, skipping copy to /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples/italy_wikidata_map.html
+  WARN: missing source /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/italy_wikidata_map.png, skipping copy to /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples/italy_wikidata_map.png
+  rows=0 geometry_missing=0 bodies=0 jsonl=0 map_html=0B
+  OK
+  (skipped: no matches for italy)
+
+=== summary ===
+  succeeded: 0 -> []
+  failed:    0 -> []
+
+=== union ===
+unioned 46 countries -> 31080 rows
+
+=== push to HF ===
+Found 188 files to upload
+Uploading... 0/188 files checked, 0/0 uploaded (0.00B transferred), 0 committed in 0 commit(s)
+[32m✓ Uploaded[0m
+  url: https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/d1a5f59eb463680d85ea14981cdc7547ac6239bd
+uploaded to https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles
+EXIT=0

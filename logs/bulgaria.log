@@ -1,0 +1,1514 @@
+[00:14:42] === bulgaria ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== bulgaria ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bulgaria.parquet
+wrote 74567 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bulgaria.parquet
+pre-filter (--only-wikidata): 74567 -> 480 rows
+
+480 polygons with wikidata=*
+  matched:           163
+  no en sitelink:    306
+  no sitelinks:      11
+  Q1636393 (bulgaria/way/9043268) -> matched: St. Ivan Island  [body: 4410 chars]
+  Q20497286 (bulgaria/way/34038222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98503098 (bulgaria/way/42794886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280284 (bulgaria/way/46403126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113130778 (bulgaria/way/50440994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113130851 (bulgaria/way/50441110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2334710 (bulgaria/way/50441158) -> matched: Dushantsi Reservoir  [body: 531 chars]
+  Q12273045 (bulgaria/way/50441170) -> matched: Beglika  [body: 1456 chars]
+  Q21778250 (bulgaria/way/50441434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104097758 (bulgaria/way/50444486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19705965 (bulgaria/way/50444588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19704581 (bulgaria/way/50444644) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12299281 (bulgaria/way/50444784) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12295731 (bulgaria/way/50473280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6395879 (bulgaria/relation/8013741) -> matched: Ogosta Reservoir  [body: 1644 chars]
+  Q2519392 (bulgaria/way/50476614) -> matched: Ognyanovo Reservoir  [body: 487 chars]
+  Q753441 (bulgaria/way/51633896) -> matched: Lake Atanasovsko  [body: 2009 chars]
+  Q1503623 (bulgaria/way/52248804) -> matched: Lake Pomorie  [body: 876 chars]
+  Q1324587 (bulgaria/way/52332824) -> matched: Burgas Airport  [body: 5247 chars]
+  Q1014783 (bulgaria/way/53079262) -> matched: Lake Burgas  [body: 940 chars]
+  Q1110806 (bulgaria/way/55616410) -> matched: Oescus  [body: 6742 chars]
+  Q3403546 (bulgaria/way/57695716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6395746 (bulgaria/way/59111848) -> matched: Koprinka Reservoir  [body: 2137 chars]
+  Q12280199 (bulgaria/way/59117438) -> matched: Zhrebchevo Reservoir  [body: 2885 chars]
+  Q19706146 (bulgaria/way/61943922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q512147 (bulgaria/way/72375768) -> matched: Tsarevets (fortress)  [body: 4973 chars]
+  Q19705359 (bulgaria/way/73779702) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7035695 (bulgaria/way/82530894) -> matched: Nikola Vaptsarov Naval Academy  [body: 14190 chars]
+  Q2399361 (bulgaria/way/82837500) -> matched: Technical University of Varna  [body: 9359 chars]
+  Q30329131 (bulgaria/way/135053024) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q119876396 (bulgaria/way/135053030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18639777 (bulgaria/way/136399104) -> matched: Stara Zagora Zoo  [body: 1511 chars]
+  Q37922231 (bulgaria/way/137183016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12298697 (bulgaria/way/138231372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12277340 (bulgaria/way/154185526) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6344558 (bulgaria/way/159845148) -> matched: Cabyle  [body: 2717 chars]
+  Q28726172 (bulgaria/way/176687222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737295 (bulgaria/way/176717386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q127951 (bulgaria/way/178176916) -> matched: Sofia Airport  [body: 21468 chars]
+  Q2875949 (bulgaria/way/179710338) -> matched: Stara Zagora Airport  [body: 739 chars]
+  Q139823060 (bulgaria/way/180962394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3914569 (bulgaria/way/182466564) -> matched: Graf Ignatievo Air Base  [body: 6843 chars]
+  Q67387346 (bulgaria/way/183261604) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11762750 (bulgaria/way/184227784) -> matched: Sliven Airfield  [body: 228 chars]
+  Q135678588 (bulgaria/way/184254000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2071213 (bulgaria/way/186645772) -> matched: Sofia Power Plant  [body: 188 chars]
+  Q2048727 (bulgaria/way/197017056) -> matched: Pamporovo  [body: 2623 chars]
+  Q1133271 (bulgaria/way/219741320) -> matched: Lake Shabla  [body: 325 chars]
+  Q12279545 (bulgaria/way/219744146) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3441524 (bulgaria/way/223134530) -> matched: Varna Power Plant  [body: 1209 chars]
+  Q7243633 (bulgaria/way/231203442) -> matched: Primorsko Airfield  [body: 253 chars]
+  Q12294182 (bulgaria/way/233126138) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1563774 (bulgaria/way/233204384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104806720 (bulgaria/way/238176100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1085733 (bulgaria/way/247401478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1086201 (bulgaria/relation/31761873) -> matched: Botevo, Yambol Province  [body: 242 chars]
+  Q4803605 (bulgaria/relation/2644591) -> matched: Asarel Medet  [body: 3002 chars]
+  Q124116281 (bulgaria/way/248210638) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30257336 (bulgaria/relation/14568513) -> matched: Agricultural University of Plovdiv  [body: 1245 chars]
+  Q3658386 (bulgaria/way/288221704) -> matched: Trakia University  [body: 1228 chars]
+  Q2902106 (bulgaria/way/290218348) -> matched: Balchik Airfield  [body: 8512 chars]
+  Q30644373 (bulgaria/way/290489374) -> matched: Nikola Shterev - Starika Sports Complex  [body: 1940 chars]
+  Q12272800 (bulgaria/relation/2687693) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12295921 (bulgaria/way/293283214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12293032 (bulgaria/way/293286456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q815393 (bulgaria/way/302418370) -> matched: Belene Island  [body: 1753 chars]
+  Q3622013 (bulgaria/way/302458118) -> matched: Vardim Island  [body: 2507 chars]
+  Q12294907 (bulgaria/way/303387060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20497991 (bulgaria/way/314029322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6367866 (bulgaria/way/314194312) -> matched: Karadzhalovo Solar Park  [body: 1084 chars]
+  Q1032792 (bulgaria/way/314942450) -> matched: Kozloduy Nuclear Power Plant  [body: 7526 chars]
+  Q133885711 (bulgaria/way/315023464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12279878 (bulgaria/way/315321588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20500519 (bulgaria/way/315426972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20500857 (bulgaria/way/315451524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1739357 (bulgaria/way/345362076) -> matched: Belene Nuclear Power Plant  [body: 16293 chars]
+  Q12282579 (bulgaria/way/345391936) -> matched: Karadere beach  [body: 2310 chars]
+  Q901440 (bulgaria/way/347561476) -> matched: Lukoil Neftohim Burgas  [body: 4785 chars]
+  Q1022281 (bulgaria/relation/9555997) -> matched: Chernomorets  [body: 1337 chars]
+  Q106413939 (bulgaria/way/352462412) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123685567 (bulgaria/way/356714502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135616987 (bulgaria/way/357420488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280325 (bulgaria/way/358291606) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12299810 (bulgaria/way/358646340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12295835 (bulgaria/way/358662866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12285754 (bulgaria/way/361263328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12279229 (bulgaria/relation/4826597) -> matched: Lake Durankulak  [body: 8220 chars]
+  Q12273102 (bulgaria/way/363192664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56668966 (bulgaria/way/370471608) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q56668960 (bulgaria/way/370471620) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3364168 (bulgaria/relation/2283149) -> matched: Popovo Lake  [body: 2816 chars]
+  Q57884304 (bulgaria/way/370812360) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4900372 (bulgaria/way/389148602) -> matched: Bezmer Air Base  [body: 3740 chars]
+  Q133864786 (bulgaria/way/396908832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30228551 (bulgaria/way/400355222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4868539 (bulgaria/relation/5528385) -> matched: Batak Reservoir  [body: 3746 chars]
+  Q12297083 (bulgaria/way/411652316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124423478 (bulgaria/way/414835348) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12294882 (bulgaria/relation/5708107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726676 (bulgaria/way/446901966) -> matched: Pyasachnik Reservoir  [body: 991 chars]
+  Q16847144 (bulgaria/way/456030730) -> matched: Ihtiman Airfield  [body: 303 chars]
+  Q136645229 (bulgaria/way/462778746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2990460 (bulgaria/way/476351198) -> matched: Getsovo  [body: 4307 chars]
+  Q2875909 (bulgaria/way/476664048) -> matched: Ruse Airport  [body: 4859 chars]
+  Q20465605 (bulgaria/way/483155018) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7329993 (bulgaria/relation/6546109) -> matched: Yovkovtsi  [body: 597 chars]
+  Q1431400 (bulgaria/way/488069858) -> matched: Gorna Oryahovitsa Airport  [body: 3607 chars]
+  Q3622831 (bulgaria/way/491326104) -> matched: Georgi Rakovski Military Academy  [body: 6583 chars]
+  Q135849785 (bulgaria/way/510848632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5001778 (bulgaria/way/512503196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124042718 (bulgaria/way/512608542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3428971 (bulgaria/way/521338508) -> matched: Ruse Iztok Power Plant  [body: 463 chars]
+  Q136440509 (bulgaria/way/522480306) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12294060 (bulgaria/way/523394828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101644975 (bulgaria/relation/20527843) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135876957 (bulgaria/way/537815624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131904259 (bulgaria/way/550607176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6395834 (bulgaria/way/554644668) -> matched: Pasarel Reservoir  [body: 2555 chars]
+  Q12298866 (bulgaria/relation/41180903) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1629255 (bulgaria/way/565764596) -> matched: Veliko Tarnovo University  [body: 1263 chars]
+  Q12281484 (bulgaria/way/571774816) -> matched: Teshel Reservoir  [body: 1403 chars]
+  Q6591963 (bulgaria/relation/39612607) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2496153 (bulgaria/way/589535554) -> matched: University of Ruse  [body: 2054 chars]
+  Q1213078 (bulgaria/way/591964418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12297238 (bulgaria/relation/32953481) -> matched: Lozenetz Hospital  [body: 2614 chars]
+  Q12279631 (bulgaria/relation/13393301) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14196367 (bulgaria/way/606442732) -> matched: Shumensko  [body: 1071 chars]
+  Q20499022 (bulgaria/way/617707184) -> matched: Trapezitsa (fortress)  [body: 4864 chars]
+  Q103851433 (bulgaria/way/627772040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134620644 (bulgaria/way/629261516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2303775 (bulgaria/way/630936820) -> matched: Technical University, Sofia  [body: 5033 chars]
+  Q11687453 (bulgaria/relation/8523847) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20498273 (bulgaria/relation/8529997) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12277190 (bulgaria/relation/8529949) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20497639 (bulgaria/relation/8529985) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20498074 (bulgaria/relation/8529987) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24629564 (bulgaria/relation/8529973) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12275662 (bulgaria/relation/8530063) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61415493 (bulgaria/relation/8547131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55101786 (bulgaria/relation/8547713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6380617 (bulgaria/relation/8547183) -> matched: Kaylaka  [body: 2127 chars]
+  Q108858875 (bulgaria/relation/8547493) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12283333 (bulgaria/way/634249310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96755159 (bulgaria/relation/8547083) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12282323 (bulgaria/way/634250114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107597112 (bulgaria/relation/8847695) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29646867 (bulgaria/relation/8847671) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q284426 (bulgaria/way/661901674) -> matched: Sea Garden (Burgas)  [body: 1869 chars]
+  Q132717302 (bulgaria/way/664309050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q136799142 (bulgaria/way/667725796) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12273994 (bulgaria/relation/8529927) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12273810 (bulgaria/way/710902664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8065301 (bulgaria/way/738208810) -> matched: Zaldapa  [body: 1989 chars]
+  Q131620158 (bulgaria/way/777664148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122082 (bulgaria/relation/8530033) -> matched: Srebarna Nature Reserve  [body: 3014 chars]
+  Q7825689 (bulgaria/relation/8530045) -> matched: Torfeno Branishte  [body: 2121 chars]
+  Q12293430 (bulgaria/relation/8530017) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12290096 (bulgaria/relation/8530005) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2904841 (bulgaria/relation/8529917) -> matched: Bistrishko Branishte  [body: 1534 chars]
+  Q12299072 (bulgaria/relation/8523797) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2097059 (bulgaria/way/824901966) -> matched: Pistiros  [body: 12357 chars]
+  Q3396489 (bulgaria/way/827846204) -> matched: Markeli  [body: 4304 chars]
+  Q20498160 (bulgaria/relation/12815575) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104720851 (bulgaria/way/862384168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12273406 (bulgaria/way/878984316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12274059 (bulgaria/way/878984318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12289183 (bulgaria/way/878984340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3441556 (bulgaria/way/879200278) -> matched: Bobov Dol Power Plant  [body: 605 chars]
+  Q12282379 (bulgaria/way/879200284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4884276 (bulgaria/way/879508958) -> matched: Belmeken Reservoir  [body: 3106 chars]
+  Q1370380 (bulgaria/way/881575200) -> matched: Plovdiv Airport  [body: 7177 chars]
+  Q26257717 (bulgaria/way/881575204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1370380 (bulgaria/way/881575200) -> matched: Plovdiv Airport  [body: 7177 chars]
+  Q26257717 (bulgaria/way/881575204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12289337 (bulgaria/relation/4823523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q127599325 (bulgaria/way/885463644) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1987323 (bulgaria/way/898088564) -> matched: Nicopolis ad Istrum  [body: 8885 chars]
+  Q12273436 (bulgaria/relation/8529921) -> matched: Bogdan Reserve  [body: 3532 chars]
+  Q126097729 (bulgaria/way/933381524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97924788 (bulgaria/way/934929052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7206193 (bulgaria/way/939310460) -> matched: Pobeda Solar Park  [body: 712 chars]
+  Q3656253 (bulgaria/way/949207490) -> matched: Palace of Omurtag  [body: 6089 chars]
+  Q57663633 (bulgaria/relation/14533185) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21778153 (bulgaria/relation/14549719) -> matched: Studen Kladenets  [body: 1902 chars]
+  Q3622400 (bulgaria/way/991399508) -> matched: Targovishte Airport  [body: 560 chars]
+  Q11824677 (bulgaria/way/992345898) -> matched: Dolna Mitropoliya Air Base  [body: 605 chars]
+  Q5062096 (bulgaria/relation/14579489) -> matched: Central district, Plovdiv  [body: 1100 chars]
+  Q12271570 (bulgaria/way/1003602846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12292731 (bulgaria/way/1010300560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117711398 (bulgaria/way/1011334708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12279550 (bulgaria/way/1012086730) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1131826 (bulgaria/way/1023320144) -> matched: Sofia Theological Seminary  [body: 1915 chars]
+  Q19945578 (bulgaria/way/1085010778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1782652 (bulgaria/way/1089035912) -> matched: Shumen University  [body: 2142 chars]
+  Q7296810 (bulgaria/way/1131752484) -> matched: Ravnets Air Base  [body: 3882 chars]
+  Q3441851 (bulgaria/way/1148267006) -> matched: Republika Power Plant  [body: 580 chars]
+  Q21786711 (bulgaria/way/1152800246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12292376 (bulgaria/way/1169965538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131700234 (bulgaria/way/1179307072) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56501580 (bulgaria/way/1184064290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21778226 (bulgaria/relation/16946231) -> matched: Toshkov Chark  [body: 1645 chars]
+  Q8073027 (bulgaria/relation/10983463) -> matched: Zlatnite Mostove  [body: 730 chars]
+  Q946052 (bulgaria/way/1313012042) -> matched: Varna Necropolis  [body: 16052 chars]
+  Q5581020 (bulgaria/relation/6210877) -> matched: Golyam Beglik  [body: 2527 chars]
+  Q5639817 (bulgaria/relation/8527971) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4699342 (bulgaria/way/1332328214) -> matched: Aytos Logistics Center  [body: 765 chars]
+  Q108169047 (bulgaria/way/1340279998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7137887 (bulgaria/way/1361513532) -> matched: Park Lavrov  [body: 1246 chars]
+  Q113130919 (bulgaria/relation/21251407) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5240741 (bulgaria/way/1570662156) -> matched: Haskovo Malevo Airport  [body: 1287 chars]
+  Q503387 (bulgaria/way/1637806830) -> matched: Rock-hewn Churches of Ivanovo  [body: 2640 chars]
+  Q133461937 (bulgaria/relation/37756185) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6098603 (bulgaria/relation/23898143) -> matched: Ivaylovgrad Reservoir  [body: 2897 chars]
+  Q12291777 (bulgaria/relation/24682527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116057181 (bulgaria/way/1837000776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12295920 (bulgaria/way/1837000778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6765913 (bulgaria/way/1837000780) -> matched: Maritsa 3 Power Plant  [body: 245 chars]
+  Q7498920 (bulgaria/relation/16880645) -> matched: Shiroka Polyana  [body: 3098 chars]
+  Q1423410 (bulgaria/relation/25396109) -> matched: Varna Airport  [body: 1577 chars]
+  Q12297268 (bulgaria/way/1953716488) -> matched: Urdini Lakes  [body: 2391 chars]
+  Q1789433 (bulgaria/relation/5127325) -> matched: Lake Mandrensko  [body: 4194 chars]
+  Q7205171 (bulgaria/way/1973153662) -> matched: Plovdiv University "Paisii Hilendarski"  [body: 3139 chars]
+  Q7936993 (bulgaria/relation/8530061) -> matched: Vitanovo Reserve  [body: 1270 chars]
+  Q3401296 (bulgaria/way/2002087276) -> matched: Aleksandrovska University Hospital  [body: 539 chars]
+  Q57163464 (bulgaria/relation/26960487) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q57161747 (bulgaria/way/2014172188) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24661407 (bulgaria/relation/26979493) -> matched: Shumen Plateau Nature Park  [body: 8491 chars]
+  Q192926 (bulgaria/relation/26979885) -> matched: Kazanlak  [body: 29173 chars]
+  Q30231908 (bulgaria/relation/26981353) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7988480 (bulgaria/relation/14579493) -> matched: Western district, Plovdiv  [body: 499 chars]
+  Q12280540 (bulgaria/relation/26983365) -> matched: Golden Sands Nature Park  [body: 3506 chars]
+  Q55111531 (bulgaria/way/2014669976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108859404 (bulgaria/relation/26983897) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108859024 (bulgaria/way/2014709458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1405192 (bulgaria/relation/26988559) -> matched: Melnik Earth Pyramids  [body: 8565 chars]
+  Q57166120 (bulgaria/relation/26989217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20497718 (bulgaria/relation/8530009) -> matched: Rila Monastery Forest  [body: 3094 chars]
+  Q57164118 (bulgaria/way/2016402384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20500809 (bulgaria/relation/27008355) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57162287 (bulgaria/way/2017396470) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20500840 (bulgaria/relation/8547199) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57164273 (bulgaria/way/2017771738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q76448658 (bulgaria/relation/27013775) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20497252 (bulgaria/relation/27014717) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55117584 (bulgaria/way/2017914848) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24451249 (bulgaria/relation/27015697) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52214663 (bulgaria/relation/27020261) -> matched: Urvich protected area  [body: 686 chars]
+  Q20498937 (bulgaria/way/2035636030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113125253 (bulgaria/relation/27764681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12299040 (bulgaria/relation/27862983) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16893215 (bulgaria/way/2098887960) -> matched: Kaynardzha Airfield  [body: 288 chars]
+  Q125748924 (bulgaria/relation/28058233) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11990991 (bulgaria/relation/8543913) -> matched: Rusenski Lom Nature Park  [body: 1173 chars]
+  Q108859378 (bulgaria/way/2158606486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55358497 (bulgaria/relation/28727243) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61415363 (bulgaria/relation/28727751) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20499580 (bulgaria/relation/28737433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61412670 (bulgaria/way/2159597768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57164076 (bulgaria/way/2159597772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20550043 (bulgaria/way/2159598246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61411647 (bulgaria/way/2159598692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61411166 (bulgaria/relation/28744429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q893826 (bulgaria/relation/28753967) -> matched: Borisova gradina  [body: 4852 chars]
+  Q76447503 (bulgaria/relation/28755613) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57163112 (bulgaria/way/2162005296) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q57165139 (bulgaria/relation/28772569) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24718069 (bulgaria/relation/28774941) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57266795 (bulgaria/way/2163754588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55102233 (bulgaria/relation/28785951) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55105615 (bulgaria/way/2163867006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q73157133 (bulgaria/relation/28786333) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55111304 (bulgaria/way/2163869040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3042478 (bulgaria/relation/28786339) -> matched: Belogradchik Rocks  [body: 8537 chars]
+  Q25476986 (bulgaria/way/2182388536) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7928092 (bulgaria/way/2195263728) -> matched: Vidin Airfield  [body: 4256 chars]
+  Q3405610 (bulgaria/relation/23886109) -> matched: Lake Pancharevo  [body: 1896 chars]
+  Q130394084 (bulgaria/way/2225592020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1545890 (bulgaria/way/2255958790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1545894 (bulgaria/way/2255971294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6395796 (bulgaria/relation/8146329) -> matched: Iskar Reservoir  [body: 2649 chars]
+  Q1545897 (bulgaria/way/2275718750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12299486 (bulgaria/relation/33736143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124005614 (bulgaria/relation/31578121) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20500412 (bulgaria/way/2343843902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123985230 (bulgaria/relation/33723189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7439899 (bulgaria/way/2354980416) -> matched: Sea Garden (Varna)  [body: 4327 chars]
+  Q186254 (bulgaria/relation/22005553) -> matched: Haskovo  [body: 11298 chars]
+  Q20498888 (bulgaria/relation/33117659) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12298062 (bulgaria/relation/33463847) -> matched: University of Chemical Technology and Metallurgy  [body: 544 chars]
+  Q123998248 (bulgaria/relation/33723649) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123991777 (bulgaria/relation/33723701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12284560 (bulgaria/relation/29160727) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12297712 (bulgaria/relation/31942765) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124005709 (bulgaria/relation/31578119) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124005587 (bulgaria/relation/31578115) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12275673 (bulgaria/relation/31578111) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12297002 (bulgaria/relation/33736777) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12287317 (bulgaria/relation/31578117) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123950949 (bulgaria/relation/33720227) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280580 (bulgaria/relation/32368833) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11834095 (bulgaria/relation/7518889) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6590617 (bulgaria/relation/33754121) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280767 (bulgaria/relation/29160513) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12278068 (bulgaria/relation/33716779) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124024381 (bulgaria/relation/33773443) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3400970 (bulgaria/relation/2782939) -> matched: Central Sofia Cemetery  [body: 2009 chars]
+  Q12281491 (bulgaria/relation/33717249) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124034024 (bulgaria/relation/33772111) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124041558 (bulgaria/relation/33729471) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124041588 (bulgaria/relation/33778325) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124024362 (bulgaria/relation/33781773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124041793 (bulgaria/relation/33782771) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124301177 (bulgaria/relation/33782825) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7780633 (bulgaria/relation/33781661) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6101953 (bulgaria/relation/7518857) -> matched: Izgrev, Sofia  [body: 1319 chars]
+  Q12299615 (bulgaria/relation/33711045) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124040418 (bulgaria/relation/33728787) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12290965 (bulgaria/relation/33796037) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124034788 (bulgaria/relation/33802361) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124042063 (bulgaria/relation/33803103) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124042075 (bulgaria/relation/33803161) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12293387 (bulgaria/relation/33742877) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124034624 (bulgaria/relation/33784251) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12279164 (bulgaria/relation/33802123) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124050790 (bulgaria/relation/33815775) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124050773 (bulgaria/relation/33816617) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124049846 (bulgaria/relation/33817125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12298233 (bulgaria/relation/33783249) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124099976 (bulgaria/relation/33855463) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124099985 (bulgaria/relation/31296825) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7600443 (bulgaria/relation/33870937) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100387 (bulgaria/relation/33870945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100397 (bulgaria/relation/33870959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100420 (bulgaria/relation/33871005) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100429 (bulgaria/relation/33871033) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q368259 (bulgaria/relation/33870995) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12299038 (bulgaria/relation/33871119) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100458 (bulgaria/relation/33871157) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3623442 (bulgaria/relation/25159609) -> matched: Gulf of Varna  [body: 452 chars]
+  Q1070423 (bulgaria/relation/25159607) -> matched: Lake Varna  [body: 2368 chars]
+  Q2654734 (bulgaria/way/2475709762) -> matched: Asparuhov Bridge  [body: 1844 chars]
+  Q124063134 (bulgaria/relation/33839927) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12293787 (bulgaria/relation/33817083) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280579 (bulgaria/relation/33725993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19610982 (bulgaria/relation/33743875) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280395 (bulgaria/relation/33736057) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12275676 (bulgaria/relation/31578113) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124049903 (bulgaria/relation/33816875) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12297627 (bulgaria/relation/33840359) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124080495 (bulgaria/relation/33840373) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12295683 (bulgaria/relation/29160497) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12270998 (bulgaria/relation/33784299) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12278496 (bulgaria/relation/33802067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123998236 (bulgaria/relation/33723651) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12296885 (bulgaria/relation/33772133) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20497966 (bulgaria/relation/34547131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12284687 (bulgaria/relation/34547129) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56811497 (bulgaria/relation/34547123) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12298073 (bulgaria/relation/29159823) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124797613 (bulgaria/relation/34648925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12275356 (bulgaria/relation/33723511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38713450 (bulgaria/relation/33723809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7059194 (bulgaria/relation/14579495) -> matched: Northern district, Plovdiv  [body: 1240 chars]
+  Q12297854 (bulgaria/relation/33781947) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124023228 (bulgaria/relation/33773441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12289030 (bulgaria/relation/31578033) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12297480 (bulgaria/relation/33746613) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12293655 (bulgaria/relation/33871091) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12273110 (bulgaria/relation/29159887) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10270041 (bulgaria/relation/33729159) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4952224 (bulgaria/relation/33815185) -> matched: Boyana  [body: 1642 chars]
+  Q173474 (bulgaria/relation/34805633) -> matched: Veliko Tarnovo  [body: 29008 chars]
+  Q12281546 (bulgaria/relation/31297373) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124050810 (bulgaria/relation/33742479) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7207186 (bulgaria/relation/7518881) -> matched: Poduyane  [body: 3212 chars]
+  Q12290927 (bulgaria/relation/33710895) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124063030 (bulgaria/relation/33830879) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3658292 (bulgaria/relation/7518867) -> matched: Lozenets, Sofia  [body: 2286 chars]
+  Q3658044 (bulgaria/relation/7518871) -> matched: Nadezhda, Sofia  [body: 1126 chars]
+  Q124063257 (bulgaria/relation/33839937) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12295787 (bulgaria/relation/33839989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7113283 (bulgaria/relation/7518877) -> matched: Ovcha kupel  [body: 1458 chars]
+  Q12295784 (bulgaria/relation/33781903) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12287267 (bulgaria/relation/28153915) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12276165 (bulgaria/relation/31297029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280326 (bulgaria/relation/31297217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6436209 (bulgaria/relation/7518859) -> matched: Krasna Polyana  [body: 744 chars]
+  Q1545893 (bulgaria/way/2624435086) -> matched: Kapıkule  [body: 2785 chars]
+  Q124041626 (bulgaria/relation/33778329) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124041597 (bulgaria/relation/33778327) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12293093 (bulgaria/relation/31910581) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8014589 (bulgaria/relation/7518883) -> matched: Serdika  [body: 837 chars]
+  Q5998266 (bulgaria/relation/7518853) -> matched: Ilinden, Sofia  [body: 273 chars]
+  Q160173 (bulgaria/relation/22481645) -> matched: Ruse, Bulgaria  [body: 23019 chars]
+  Q5304836 (bulgaria/relation/34113681) -> matched: Dragalevtsi  [body: 3173 chars]
+  Q12285799 (bulgaria/relation/33736131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123985400 (bulgaria/relation/33734719) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124054728 (bulgaria/relation/31578035) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57162941 (bulgaria/relation/28781925) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q193241 (bulgaria/relation/36750587) -> matched: Nesebar  [body: 8644 chars]
+  Q122375823 (bulgaria/relation/36767387) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57134653 (bulgaria/relation/27029197) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3623605 (bulgaria/relation/7870047) -> matched: Dospat Reservoir  [body: 2910 chars]
+  Q106240584 (bulgaria/relation/36786607) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q909248 (bulgaria/relation/7493705) -> matched: Vacha Reservoir  [body: 4938 chars]
+  Q12279631 (bulgaria/relation/36902459) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52503687 (bulgaria/relation/36904599) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43661410 (bulgaria/relation/27015605) -> matched: Dreneto  [body: 1590 chars]
+  Q5319674 (bulgaria/relation/8529943) -> matched: Dzhendema  [body: 2231 chars]
+  Q12276216 (bulgaria/relation/33775711) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7329986 (bulgaria/relation/4734765) -> matched: Tsonevo Reservoir  [body: 2755 chars]
+  Q12284068 (bulgaria/relation/29160563) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9079796 (bulgaria/relation/8530039) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12273811 (bulgaria/relation/29160033) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12289933 (bulgaria/relation/8530001) -> matched: Parangalitsa  [body: 3237 chars]
+  Q124032261 (bulgaria/relation/33783313) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135397446 (bulgaria/way/2757384228) -> matched: A1 Motor Park  [body: 1469 chars]
+  Q12277250 (bulgaria/relation/29160357) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q119875736 (bulgaria/relation/38118021) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134373647 (bulgaria/way/2768095398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12293631 (bulgaria/relation/32035419) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12280582 (bulgaria/relation/32035421) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6436239 (bulgaria/relation/7518861) -> matched: Krasno selo  [body: 2222 chars]
+  Q7917652 (bulgaria/relation/7518893) -> matched: Vazrazhdane  [body: 1122 chars]
+  Q134607852 (bulgaria/relation/38381391) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123998215 (bulgaria/relation/31297219) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12292065 (bulgaria/relation/31443271) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21786712 (bulgaria/way/2782014408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12284727 (bulgaria/relation/33774123) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124024350 (bulgaria/relation/33781697) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124054642 (bulgaria/relation/31578031) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12272930 (bulgaria/relation/21722157) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124034048 (bulgaria/relation/33783213) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124034718 (bulgaria/relation/33802401) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9305799 (bulgaria/relation/7518855) -> matched: Iskar, Sofia  [body: 576 chars]
+  Q7538927 (bulgaria/relation/7518885) -> matched: Slatina, Sofia  [body: 2808 chars]
+  Q124049877 (bulgaria/relation/33816933) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113125604 (bulgaria/relation/39245243) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q731531 (bulgaria/relation/33830769) -> matched: Gorna Banya  [body: 1848 chars]
+  Q124063639 (bulgaria/relation/33839629) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100019 (bulgaria/relation/33855977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124005818 (bulgaria/relation/33773139) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124005840 (bulgaria/relation/33754229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12292310 (bulgaria/relation/33840329) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124077736 (bulgaria/relation/33837749) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12282958 (bulgaria/relation/33815805) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q93448447 (bulgaria/relation/29160267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5003256 (bulgaria/relation/31309491) -> matched: Buxton, Sofia  [body: 1034 chars]
+  Q6369169 (bulgaria/relation/18066161) -> matched: Kardzhali Reservoir  [body: 3634 chars]
+  Q124063893 (bulgaria/relation/33839813) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q95951128 (bulgaria/relation/33839749) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15293395 (bulgaria/way/2896068904) -> matched: Dolna Bania Airfield  [body: 801 chars]
+  Q20462278 (bulgaria/way/2896069990) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124063426 (bulgaria/relation/3129123) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3658289 (bulgaria/relation/7518875) -> matched: Oborishte, Sofia  [body: 2129 chars]
+  Q7582432 (bulgaria/relation/7518887) -> matched: Sredets, Sofia  [body: 2166 chars]
+  Q3658300 (bulgaria/relation/7518891) -> matched: Triaditsa, Sofia  [body: 1689 chars]
+  Q12281451 (bulgaria/relation/33717235) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123965351 (bulgaria/relation/33717361) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12294231 (bulgaria/relation/33738527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100361 (bulgaria/relation/33870885) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124100443 (bulgaria/relation/33871193) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12284194 (bulgaria/relation/33716601) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12284701 (bulgaria/relation/31578123) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123984809 (bulgaria/relation/33719021) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12298100 (bulgaria/relation/33714413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124042891 (bulgaria/relation/33751777) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7353771 (bulgaria/relation/31415693) -> matched: Topolnitsa Reservoir  [body: 2252 chars]
+  Q6395899 (bulgaria/relation/4820465) -> matched: Ticha Reservoir  [body: 1627 chars]
+  Q12285735 (bulgaria/relation/33764989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2135833 (bulgaria/relation/33730003) -> matched: Studentski grad, Sofia  [body: 3547 chars]
+  Q8438422 (bulgaria/relation/33803047) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11834092 (bulgaria/relation/7518869) -> matched: Mladost, Sofia  [body: 3039 chars]
+  Q12273156 (bulgaria/relation/33772795) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7103222 (bulgaria/relation/33773247) -> matched: Orlandovtsi  [body: 909 chars]
+  Q6710571 (bulgaria/relation/7518865) -> matched: Lyulin, Sofia  [body: 549 chars]
+  Q8014749 (bulgaria/relation/7518897) -> matched: Vrabnitsa, Sofia  [body: 324 chars]
+  Q124050829 (bulgaria/relation/33719323) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1777224 (bulgaria/relation/33816025) -> matched: Knyazhevo, Sofia  [body: 3804 chars]
+  Q12285027 (bulgaria/relation/33727267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 163 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bulgaria_wikidata.parquet
+wrote 163 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bulgaria_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bulgaria_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bulgaria_wikidata_map.png
+  rows=163 geometry_missing=0 bodies=163 jsonl=163 map_html=238563B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['bulgaria']
+  failed:    0 -> []
+
+=== union ===
+unioned 27 countries -> 3372 rows
+[00:19:51] union
+unioned 27 countries -> 3372 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[00:19:57] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 112 files.
+Finished hashing 112 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...e-of-man_wikidata.parquet: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...e-of-man_wikidata.parquet: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 42 files]                : 100%|██████████| 15.3MB / 15.3MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 52)    :  54%|█████▎    | 16.9MB / 31.5MB, 21.1MB/s  
+
+  ...s/monaco_wikidata.parquet: 100%|██████████| 13.0kB / 13.0kB            [A[A
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/monaco_wikidata.parquet: 100%|██████████| 13.0kB / 13.0kB            [A[A
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  13%|█▎        | 1.82MB / 14.3MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 53)    :  56%|█████▋    | 17.8MB / 31.5MB, 14.8MB/s  
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :  10%|▉         | 1.41MB / 14.6MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 56)    :  58%|█████▊    | 18.3MB / 31.5MB, 13.1MB/s  
+New Data Upload               :   4%|▍         |  524kB / 13.7MB,  375kB/s  [A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  14%|█▎        | 1.84MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   8%|▊         | 11.9kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet:   8%|▊         | 72.6kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png:   8%|▊         | 10.4kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 56)    :  60%|█████▉    | 18.8MB / 31.5MB, 11.8MB/s  
+New Data Upload               :   8%|▊         | 1.05MB / 13.7MB,  656kB/s  [A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  24%|██▍       | 3.27MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  19%|█▉        | 29.8kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet:  19%|█▉        |  182kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png:  19%|█▉        | 26.0kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 56)    :  65%|██████▍   | 20.4MB / 31.5MB, 11.3MB/s  
+New Data Upload               :  19%|█▉        | 2.62MB / 13.7MB, 1.46MB/s  [A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  60%|██████    | 8.04MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  57%|█████▋    | 89.3kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet:  57%|█████▋    |  545kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png:  57%|█████▋    | 78.1kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 56)    :  81%|████████▏ | 25.6MB / 31.5MB, 12.8MB/s  
+New Data Upload               :  57%|█████▋    | 7.87MB / 13.7MB, 3.93MB/s  [A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 13.3MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  155kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet:  99%|█████████▉|  944kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png:  99%|█████████▉|  135kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 56)    : 100%|█████████▉| 31.4MB / 31.5MB, 14.3MB/s  
+New Data Upload               :  99%|█████████▉| 13.6MB / 13.7MB, 6.20MB/s  [A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 13.3MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  155kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet:  99%|█████████▉|  944kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png:  99%|█████████▉|  135kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 13.4MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet: 100%|██████████|  952kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 56)    : 100%|██████████| 31.5MB / 31.5MB, 12.1MB/s  
+New Data Upload               : 100%|██████████| 13.7MB / 13.7MB, 5.29MB/s  [A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 13.4MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet: 100%|██████████|  952kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 13.4MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet: 100%|██████████|  952kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 13.4MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet: 100%|██████████|  952kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 13.4MB / 13.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata.parquet: 100%|██████████|  952kB /  952kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 56)    : 100%|██████████| 31.5MB / 31.5MB, 9.85MB/s  
+New Data Upload               : 100%|██████████| 13.7MB / 13.7MB, 4.29MB/s  
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 13.4MB / 13.4MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            
+  ...bulgaria_wikidata.parquet: 100%|██████████|  952kB /  952kB            
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            
+Removing 105 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/911f9f2e8decbda82575b6ddb0a3260aba9b983a
+[00:20:10] DONE bulgaria

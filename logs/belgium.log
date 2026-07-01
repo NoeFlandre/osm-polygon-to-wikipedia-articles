@@ -1,0 +1,2169 @@
+[00:38:10] === belgium ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== belgium ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/belgium.parquet
+wrote 125108 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/belgium.parquet
+pre-filter (--only-wikidata): 125108 -> 1005 rows
+
+1005 polygons with wikidata=*
+  matched:           223
+  no en sitelink:    706
+  no sitelinks:      76
+  Q1892311 (belgium/way/7035156) -> matched: Brussels Park  [body: 11807 chars]
+  Q779367 (belgium/way/8613710) -> matched: Ixelles Cemetery  [body: 3060 chars]
+  Q122169379 (belgium/way/8636476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2542311 (belgium/way/8645590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2191742 (belgium/way/8645640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3338045 (belgium/way/8645680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3442422 (belgium/way/8652768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21771395 (belgium/way/8688626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33100208 (belgium/way/8716088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1880029 (belgium/way/8724568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43674154 (belgium/way/8726012) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2269640 (belgium/way/8746010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30281288 (belgium/way/8764566) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1940352 (belgium/way/8764698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2160843 (belgium/way/8805834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2685872 (belgium/way/8806248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2161316 (belgium/way/8818514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13467484 (belgium/way/9065674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2490786 (belgium/way/9066502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q220003 (belgium/way/10177426) -> matched: Antwerp Zoo  [body: 8498 chars]
+  Q3364134 (belgium/way/10902634) -> matched: Forest Park, Brussels  [body: 2856 chars]
+  Q2873904 (belgium/way/12627514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125413672 (belgium/way/12637204) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3214993 (belgium/way/12643482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1847866 (belgium/way/12643782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2203160 (belgium/way/12643906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2859930 (belgium/way/12644002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2171295 (belgium/way/12644250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134515771 (belgium/way/12644716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4754892 (belgium/way/16076598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2614740 (belgium/way/16104856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21771830 (belgium/way/16206868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2070988 (belgium/way/16206886) -> matched: Grand Large  [body: 436 chars]
+  Q2357022 (belgium/way/16207004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18785757 (belgium/way/16209034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2972559 (belgium/way/16210540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q764863 (belgium/way/16223756) -> matched: Lake Genval  [body: 528 chars]
+  Q3364189 (belgium/way/16226386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1739481 (belgium/way/17182300) -> matched: Tihange Nuclear Power Station  [body: 14133 chars]
+  Q3363959 (belgium/way/18031762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q579666 (belgium/way/18138442) -> matched: Brussels Cemetery  [body: 5495 chars]
+  Q2323334 (belgium/way/18997078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2805618 (belgium/way/18998144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17480 (belgium/way/19101604) -> matched: Antwerp International Airport  [body: 4502 chars]
+  Q833646 (belgium/way/19243156) -> matched: Bois de la Cambre  [body: 6119 chars]
+  Q56854583 (belgium/relation/8317) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3318200 (belgium/way/19288198) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2757693 (belgium/way/19403878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3230295 (belgium/way/19549502) -> matched: Astrid Park  [body: 1939 chars]
+  Q1630799 (belgium/way/19855292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1630799 (belgium/way/19856632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2116352 (belgium/way/20400320) -> matched: Watersportbaan  [body: 2181 chars]
+  Q2098074 (belgium/way/21321972) -> matched: Middelheim Open Air Sculpture Museum  [body: 13452 chars]
+  Q1892753 (belgium/way/21323622) -> matched: Nachtegalen Park  [body: 481 chars]
+  Q4951689 (belgium/way/21804702) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2380993 (belgium/way/24198296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63151935 (belgium/way/24198778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q62396396 (belgium/way/24200266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125983694 (belgium/way/24204648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107362276 (belgium/way/27239920) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2048762 (belgium/way/27774746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2795360 (belgium/way/28720670) -> matched: Duden Park  [body: 1424 chars]
+  Q3003985 (belgium/way/28753964) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21770088 (belgium/way/28754164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364358 (belgium/way/28768932) -> matched: Wolvendael Park  [body: 3880 chars]
+  Q21764795 (belgium/way/28784522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2423861 (belgium/way/29184244) -> matched: Leopold Park  [body: 4633 chars]
+  Q692411 (belgium/way/30108546) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1739399 (belgium/way/31834348) -> matched: Doel Nuclear Power Station  [body: 12729 chars]
+  Q642991 (belgium/way/31845636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18610993 (belgium/way/32139712) -> matched: Anderlecht Cemetery  [body: 2395 chars]
+  Q20127506 (belgium/way/32140296) -> matched: Molenbeek-Saint-Jean Cemetery  [body: 2904 chars]
+  Q2972538 (belgium/way/32140994) -> matched: Laeken Cemetery  [body: 2581 chars]
+  Q3364173 (belgium/way/32178704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20669821 (belgium/way/32606742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1993163 (belgium/way/34413864) -> matched: Hazewinkel  [body: 893 chars]
+  Q13571044 (belgium/way/35512902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33100645 (belgium/way/37898656) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q135406900 (belgium/way/38381286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2712355 (belgium/way/39572584) -> matched: Hoevenen Airfield  [body: 836 chars]
+  Q285074 (belgium/way/39763488) -> matched: Bosuilstadion  [body: 1446 chars]
+  Q2475871 (belgium/way/40890222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2248900 (belgium/way/42217852) -> matched: Schoonselhof cemetery  [body: 918 chars]
+  Q3052500 (belgium/way/43686566) -> matched: Meise Botanic Garden  [body: 5968 chars]
+  Q51782179 (belgium/way/45861830) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110121416 (belgium/way/45967716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363925 (belgium/way/45968056) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14375559 (belgium/way/46035570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2135684 (belgium/way/46035590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2116618 (belgium/way/46035616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55071439 (belgium/way/46272686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41535987 (belgium/way/46285124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52637888 (belgium/way/46303578) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q84718213 (belgium/way/46321192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23021247 (belgium/way/46321304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363878 (belgium/way/46321436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q263432 (belgium/way/46343388) -> matched: Schaerbeek Cemetery  [body: 1829 chars]
+  Q21619522 (belgium/way/46346314) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1830155 (belgium/way/46384474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2372472 (belgium/way/46598764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2460243 (belgium/way/46746312) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2629747 (belgium/way/46746572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1920549 (belgium/way/46758012) -> matched: Ghent University Hospital  [body: 658 chars]
+  Q932873 (belgium/way/46882734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29019683 (belgium/way/46956614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q75280802 (belgium/way/46978864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3121860 (belgium/way/46979236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2689526 (belgium/way/47054872) -> matched: Brasschaat Airfield  [body: 420 chars]
+  Q2347208 (belgium/way/47089676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42432018 (belgium/way/47214214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364328 (belgium/way/47214744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3162373 (belgium/way/47215188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363917 (belgium/way/47215372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2034179 (belgium/way/47219360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115786995 (belgium/way/47386740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q521496 (belgium/way/47555794) -> matched: Abattoirs of Anderlecht  [body: 10253 chars]
+  Q2243137 (belgium/way/47584454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131544524 (belgium/way/47745348) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2905240 (belgium/way/48050150) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2464471 (belgium/way/48306932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2317684 (belgium/way/48622308) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2322446 (belgium/way/48723600) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12000008 (belgium/way/48788122) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131702358 (belgium/way/49652306) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q13571155 (belgium/way/49696050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3398541 (belgium/way/49709150) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3145145 (belgium/way/49848470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114770313 (belgium/way/51150454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4358109 (belgium/way/51172470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23498423 (belgium/way/52455778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2241543 (belgium/way/52523846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2094247 (belgium/way/52888198) -> matched: Lake Nisramont  [body: 678 chars]
+  Q2136611 (belgium/way/54413654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2137188 (belgium/way/54620962) -> matched: ArcelorMittal Ghent  [body: 4706 chars]
+  Q2602922 (belgium/way/54832896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33100630 (belgium/way/55683446) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q5395397 (belgium/way/55778034) -> matched: Campo Santo, Ghent  [body: 2098 chars]
+  Q888402 (belgium/way/56118098) -> matched: Bobbejaanland  [body: 4473 chars]
+  Q749804 (belgium/way/56623848) -> matched: Lommel German war cemetery  [body: 6551 chars]
+  Q1849108 (belgium/way/57151172) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12800833 (belgium/way/58009218) -> matched: NATO headquarters  [body: 7330 chars]
+  Q3034447 (belgium/way/58412026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63379035 (belgium/way/58903412) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29584057 (belgium/way/59753498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1515214 (belgium/way/59996480) -> matched: Royal Military Academy (Belgium)  [body: 4493 chars]
+  Q681917 (belgium/way/60178704) -> matched: Collège Saint-Michel  [body: 2759 chars]
+  Q2234493 (belgium/way/60209546) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q522700 (belgium/way/60221522) -> matched: Saint-Josse-ten-Noode Cemetery  [body: 1199 chars]
+  Q4971004 (belgium/way/60288008) -> matched: British School of Brussels  [body: 4152 chars]
+  Q1864795 (belgium/way/60295998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q62065600 (belgium/way/60339946) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457458 (belgium/way/60496830) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117190862 (belgium/way/60501772) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21771919 (belgium/way/60717110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4382198 (belgium/way/60902122) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q36623094 (belgium/way/60998126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2632521 (belgium/way/61211900) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2236392 (belgium/way/61253396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q95153477 (belgium/way/61259738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109315597 (belgium/way/61259888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2262401 (belgium/way/61262802) -> matched: Saint-Gilles Prison  [body: 9081 chars]
+  Q3799688 (belgium/way/61294220) -> matched: International School of Brussels  [body: 4875 chars]
+  Q3364145 (belgium/way/61326712) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2371999 (belgium/way/61354176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2846622 (belgium/way/62531120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16687387 (belgium/way/62600008) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46655311 (belgium/way/62854066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1704088 (belgium/way/62930476) -> matched: Josaphat Park  [body: 14037 chars]
+  Q2401934 (belgium/way/63808512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2217534 (belgium/way/63954456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41536029 (belgium/way/63954558) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41536029 (belgium/way/63954590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21765964 (belgium/way/64074868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15978803 (belgium/way/64474466) -> matched: Enghien Gardens  [body: 8718 chars]
+  Q17494227 (belgium/way/64505608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60831886 (belgium/way/64532070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30742631 (belgium/way/64859830) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2492208 (belgium/way/64863230) -> matched: Royal Bercuit Golf Club  [body: 880 chars]
+  Q3593247 (belgium/way/65092264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2073959 (belgium/way/65095210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3593377 (belgium/way/65095644) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2111052 (belgium/relation/33221719) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1819975 (belgium/way/65132892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21771865 (belgium/way/65586538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3332508 (belgium/way/65822258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1768082 (belgium/way/66073820) -> matched: Novolipetsk Steel  [body: 3115 chars]
+  Q3363920 (belgium/way/66575360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3334193 (belgium/way/66664152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2650413 (belgium/way/67505758) -> matched: Leopoldsburg/Beverlo Airfield  [body: 771 chars]
+  Q6818056 (belgium/way/67671718) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q19398143 (belgium/way/67676224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16510005 (belgium/way/70073664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42432134 (belgium/way/70315342) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1830872 (belgium/way/71276600) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19828410 (belgium/way/71533320) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56527853 (belgium/way/71916798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21770505 (belgium/way/73657620) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15127141 (belgium/way/73657696) -> matched: Hippodrome de Wallonie  [body: 191 chars]
+  Q2678888 (belgium/way/76338524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107008555 (belgium/way/76565262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2523819 (belgium/way/76572716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1801127 (belgium/way/77581402) -> matched: Laeken Park  [body: 1310 chars]
+  Q3445974 (belgium/way/78242510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104217232 (belgium/way/78501238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1928558 (belgium/relation/23482835) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2238599 (belgium/way/83208158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3035208 (belgium/way/84035670) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2536144 (belgium/way/84038712) -> matched: Kortrijk-Wevelgem International Airport  [body: 1994 chars]
+  Q3016976 (belgium/way/84187856) -> matched: Ploegsteert Wood  [body: 1717 chars]
+  Q240119 (belgium/way/85884778) -> matched: Sint-Truiden / Brustem Airfield  [body: 6849 chars]
+  Q2365563 (belgium/way/88200206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66530374 (belgium/way/88262114) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7477129 (belgium/way/89609064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106466337 (belgium/way/90031016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59202325 (belgium/way/90095634) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59202346 (belgium/way/90096356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59202326 (belgium/way/90096958) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1818342 (belgium/way/90135322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2096728 (belgium/way/90711594) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1850065 (belgium/way/90711622) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57585520 (belgium/way/90721560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57585586 (belgium/way/90721616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786053 (belgium/way/91204646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56303044 (belgium/way/92387086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2054011 (belgium/way/92672652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875666 (belgium/way/94498722) -> matched: Verviers-Theux Airfield  [body: 357 chars]
+  Q42432476 (belgium/way/94706972) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q46009336 (belgium/way/94878698) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108139364 (belgium/way/95721308) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3011553 (belgium/way/95977392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13427644 (belgium/way/97494162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2681638 (belgium/way/98352850) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2488822 (belgium/way/100007116) -> matched: Zwartberg Airfield  [body: 401 chars]
+  Q2618912 (belgium/way/100007940) -> matched: Grimbergen Airfield  [body: 1436 chars]
+  Q2345535 (belgium/way/100008020) -> matched: Kiewit Airfield  [body: 1294 chars]
+  Q470432 (belgium/way/100172730) -> matched: Lake Bütgenbach  [body: 453 chars]
+  Q1716059 (belgium/way/102441326) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42309540 (belgium/way/102541248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432908 (belgium/way/105958462) -> matched: Supreme Headquarters Allied Powers Europe  [body: 27570 chars]
+  Q19952146 (belgium/way/107085442) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2820645 (belgium/way/108868614) -> matched: Brecht Abbey  [body: 3473 chars]
+  Q320702 (belgium/way/109499062) -> matched: Lake Robertville  [body: 420 chars]
+  Q2782682 (belgium/way/109855754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2390760 (belgium/way/110544624) -> matched: Lake Neufchâteau  [body: 159 chars]
+  Q2482604 (belgium/way/110769274) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1867247 (belgium/way/113697942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q91272206 (belgium/way/116265160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431012 (belgium/way/126446314) -> matched: Brussels South Charleroi Airport  [body: 8284 chars]
+  Q17386761 (belgium/way/132457972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21770595 (belgium/way/133174694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1369505 (belgium/relation/8869567) -> matched: Gileppe Dam  [body: 8505 chars]
+  Q17373262 (belgium/way/133670894) -> matched: Lake Gileppe  [body: 416 chars]
+  Q2460572 (belgium/way/134001434) -> matched: Groot Park  [body: 2284 chars]
+  Q24939822 (belgium/way/137705460) -> matched: European School, Brussels IV  [body: 1114 chars]
+  Q24088022 (belgium/way/139471924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363894 (belgium/relation/27994445) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19529136 (belgium/way/143721122) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22343251 (belgium/way/144006196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63333267 (belgium/way/144881488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2786449 (belgium/way/147647584) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24930746 (belgium/way/150092042) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106435401 (belgium/way/150272994) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q42344271 (belgium/way/157218642) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108309514 (belgium/way/160696580) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31837952 (belgium/relation/8970227) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21771863 (belgium/way/160884444) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46445889 (belgium/way/168772656) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q50209380 (belgium/way/172694384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2225558 (belgium/way/173145794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52637885 (belgium/way/175059102) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2367229 (belgium/way/175065072) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4305548 (belgium/way/175151060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2481117 (belgium/way/175185980) -> matched: Bruges–Ostend Canal  [body: 479 chars]
+  Q41992492 (belgium/way/175292362) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33525923 (belgium/way/175292364) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41989649 (belgium/way/175293692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38555231 (belgium/way/175293696) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33525743 (belgium/way/175294970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2054978 (belgium/way/175321174) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56234934 (belgium/way/175575662) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12693889 (belgium/way/175870202) -> matched: Maubray Airfield  [body: 303 chars]
+  Q1978259 (belgium/way/175903814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1857706 (belgium/way/175930060) -> matched: Kleine Brogel Air Base  [body: 5808 chars]
+  Q2007620 (belgium/way/175935204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11998171 (belgium/way/176090404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110410614 (belgium/relation/27268653) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q547627 (belgium/way/177383976) -> matched: Beauvechain Air Base  [body: 6399 chars]
+  Q2667385 (belgium/way/177446704) -> matched: Oostmalle Airfield  [body: 514 chars]
+  Q2335417 (belgium/way/177495900) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875370 (belgium/way/177694306) -> matched: Amougies Airfield  [body: 690 chars]
+  Q21768765 (belgium/way/178024906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5320762 (belgium/way/178948772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569586 (belgium/way/179376396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28045386 (belgium/way/179464918) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875439 (belgium/way/179603034) -> matched: Cerfontaine Airfield  [body: 340 chars]
+  Q2548715 (belgium/way/180072500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q374972 (belgium/relation/12127855) -> matched: Thorntonbank Wind Farm  [body: 1997 chars]
+  Q1581914 (belgium/way/182638562) -> matched: Florennes Air Base  [body: 3771 chars]
+  Q2874884 (belgium/way/183428952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59384139 (belgium/way/185404434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133626 (belgium/way/185833206) -> matched: Jehonville Air Base  [body: 2413 chars]
+  Q2481117 (belgium/way/186726310) -> matched: Bruges–Ostend Canal  [body: 479 chars]
+  Q2663876 (belgium/way/188186076) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59384128 (belgium/way/188435068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2481117 (belgium/way/190200656) -> matched: Bruges–Ostend Canal  [body: 479 chars]
+  Q1882852 (belgium/way/190221654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2457057 (belgium/way/190358782) -> matched: Goetsenhoven Airfield  [body: 4492 chars]
+  Q21770585 (belgium/way/191979184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q490586 (belgium/way/192191220) -> matched: RAEC Mons (1910)  [body: 5764 chars]
+  Q2233917 (belgium/way/195271824) -> matched: Raffinerie Tirlemontoise  [body: 16159 chars]
+  Q133955 (belgium/way/198491394) -> matched: Saint-Hubert Air Base  [body: 468 chars]
+  Q2096178 (belgium/relation/5194451) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108139487 (belgium/way/200924134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2153408 (belgium/way/202380484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1811536 (belgium/way/202652742) -> matched: 't Asbroek  [body: 1732 chars]
+  Q21770367 (belgium/way/203450616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3487650 (belgium/way/204692792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4584919 (belgium/way/206889876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19828413 (belgium/way/207397098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29576408 (belgium/way/210147578) -> matched: CHU UCLouvain Namur  [body: 5539 chars]
+  Q19760398 (belgium/way/210895078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569572 (belgium/way/211066294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1954522 (belgium/way/211066470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2258986 (belgium/way/211743068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q592178 (belgium/way/212609020) -> matched: Bonne-Espérance Abbey  [body: 3295 chars]
+  Q56086903 (belgium/way/213209732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13745500 (belgium/way/215730088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43363 (belgium/way/217626684) -> matched: Chièvres Air Base  [body: 9675 chars]
+  Q2751142 (belgium/way/220017614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21767822 (belgium/way/220982868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52160936 (belgium/way/223353634) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4464341 (belgium/way/223365570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33228828 (belgium/way/226151114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1526790 (belgium/way/227603032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13644834 (belgium/way/227633290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1736308 (belgium/way/229075684) -> matched: KU Leuven Kulak  [body: 5519 chars]
+  Q333832 (belgium/way/229963108) -> matched: Aulne Abbey  [body: 2958 chars]
+  Q21770245 (belgium/way/230133992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2805360 (belgium/way/232166350) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14517004 (belgium/way/232166366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2794385 (belgium/way/232166380) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2015725 (belgium/way/232166388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2517249 (belgium/way/232166396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2493337 (belgium/way/232668216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3145129 (belgium/way/235038004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q85307324 (belgium/way/235619788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20127595 (belgium/way/235902448) -> matched: Tour & Taxis Park  [body: 3458 chars]
+  Q63349265 (belgium/way/236078486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3497409 (belgium/way/237481226) -> matched: Redu Station  [body: 598 chars]
+  Q21767723 (belgium/way/238118562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2244547 (belgium/way/238360726) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2600730 (belgium/way/243258692) -> matched: Citadel of Namur  [body: 1391 chars]
+  Q14278933 (belgium/way/244156234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4624717 (belgium/way/244538694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5471827 (belgium/way/248112330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2801704 (belgium/way/250009942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2375693 (belgium/way/250009944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2118550 (belgium/relation/32842983) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4422563 (belgium/way/252528482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64684567 (belgium/way/252890464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47074347 (belgium/way/253961058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569586 (belgium/way/255365872) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2669351 (belgium/way/256166416) -> matched: Moorsele Airfield  [body: 459 chars]
+  Q30084652 (belgium/way/256786930) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875612 (belgium/way/261296920) -> matched: Saint-Hubert Airfield  [body: 941 chars]
+  Q21763541 (belgium/way/262676172) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101625423 (belgium/way/262696412) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113375701 (belgium/way/265479924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104521341 (belgium/way/270177360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2152837 (belgium/way/270531140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1377508 (belgium/way/274185656) -> matched: European School, Mol  [body: 1341 chars]
+  Q46994801 (belgium/way/274371356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q650340 (belgium/way/276529488) -> matched: St. Sixtus' Abbey  [body: 2522 chars]
+  Q41560699 (belgium/way/276809120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14520097 (belgium/way/277518874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3553360 (belgium/way/278498912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59384083 (belgium/way/278571166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2116618 (belgium/way/286156656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2786718 (belgium/relation/3884657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1976039 (belgium/way/290016818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2447893 (belgium/way/290806238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1929053 (belgium/way/290959854) -> matched: Kortrijk Xpo  [body: 1795 chars]
+  Q2443453 (belgium/way/291361822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48558565 (belgium/way/293791784) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19974089 (belgium/way/295827858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18412004 (belgium/way/295975340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21767777 (belgium/way/299448814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q126171312 (belgium/way/300249596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2945727 (belgium/way/300252938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19406890 (belgium/way/300465656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23782718 (belgium/way/300552010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21764477 (belgium/relation/14859867) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q165395 (belgium/way/301865530) -> matched: Lake Eupen  [body: 547 chars]
+  Q47011766 (belgium/way/304049040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569594 (belgium/way/306398534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569594 (belgium/way/306432266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59799268 (belgium/way/307046656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59799225 (belgium/way/308179252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15906572 (belgium/way/308986444) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2079831 (belgium/way/314873710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61051469 (belgium/way/317898780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61051463 (belgium/way/317902814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61051438 (belgium/way/317906244) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569580 (belgium/way/319174504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110836577 (belgium/relation/18866687) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28916453 (belgium/way/320562078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2345345 (belgium/relation/112863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2180589 (belgium/way/321675618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13571869 (belgium/way/323094832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569612 (belgium/way/324075230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15943256 (belgium/way/324760808) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61051454 (belgium/way/325393446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1186746 (belgium/way/326222604) -> matched: Den Dotter  [body: 1005 chars]
+  Q4699279 (belgium/way/326646516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66530347 (belgium/way/326834108) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1186746 (belgium/way/327202848) -> matched: Den Dotter  [body: 1005 chars]
+  Q1186746 (belgium/way/327211902) -> matched: Den Dotter  [body: 1005 chars]
+  Q2685088 (belgium/way/328315658) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2685088 (belgium/way/328315734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2918151 (belgium/way/328950488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2018750 (belgium/way/329235068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1919799 (belgium/relation/4412171) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66085790 (belgium/way/335256574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110944352 (belgium/way/338917152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61459900 (belgium/way/340500608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4584919 (belgium/way/343735152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4584919 (belgium/way/343735164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2277732 (belgium/way/343958706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2619156 (belgium/way/344830232) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q85307863 (belgium/way/347584830) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2820678 (belgium/way/347676268) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4994636 (belgium/way/347845046) -> matched: Ypres Town Cemetery and Extension  [body: 2016 chars]
+  Q48569586 (belgium/way/349184612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1305509 (belgium/way/349287142) -> matched: Fort de Battice  [body: 6161 chars]
+  Q48569586 (belgium/way/349800502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2930455 (belgium/way/352035972) -> matched: Ursel Air Base  [body: 2678 chars]
+  Q5289417 (belgium/relation/19870487) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2845029 (belgium/way/355051522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3021419 (belgium/way/356664882) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2123210 (belgium/way/357994076) -> matched: Nieuwpoort–Dunkirk Canal  [body: 1642 chars]
+  Q2479554 (belgium/way/361574928) -> matched: Major Seminary in Bruges  [body: 2040 chars]
+  Q46995935 (belgium/way/364394672) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q48569612 (belgium/way/366080982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363956 (belgium/way/366283854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q85306677 (belgium/way/366649954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41535983 (belgium/way/367738450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2773349 (belgium/way/369161072) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2447893 (belgium/way/370565646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47547315 (belgium/way/371988890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1547650 (belgium/way/373946374) -> matched: Rock Werchter  [body: 6925 chars]
+  Q4584919 (belgium/way/375872300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3110147 (belgium/way/375932436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2677239 (belgium/way/376680280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2601366 (belgium/way/376680454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4763319 (belgium/way/377738712) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5131676 (belgium/way/377825198) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2622383 (belgium/way/378397168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46616588 (belgium/way/378437176) -> matched: Breivelde Castle  [body: 1002 chars]
+  Q2677239 (belgium/way/379066606) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q70432976 (belgium/way/380140964) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3247966 (belgium/way/380819084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3247966 (belgium/way/380888912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26267356 (belgium/way/381586616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2076086 (belgium/way/382239062) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2116618 (belgium/way/383804740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47106010 (belgium/way/385975642) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2205297 (belgium/way/391972700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41536029 (belgium/way/395284414) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3247966 (belgium/way/397928828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3247966 (belgium/way/397928834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3247966 (belgium/way/397928898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41536029 (belgium/way/400050058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4467608 (belgium/way/402768758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1919972 (belgium/way/402970776) -> matched: Hippodrome Waregem  [body: 354 chars]
+  Q48569612 (belgium/way/405284152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569612 (belgium/way/405326646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47513759 (belgium/way/407146312) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30084647 (belgium/way/407760280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2350368 (belgium/way/410466520) -> matched: Our-Lady Ter Hooyen  [body: 2875 chars]
+  Q2121719 (belgium/way/411038942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2121719 (belgium/way/411039058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2098117 (belgium/way/414123874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1879778 (belgium/way/418191588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2702921 (belgium/relation/3171365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15880531 (belgium/way/428437778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109157629 (belgium/way/430918140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19850958 (belgium/way/437093984) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2509215 (belgium/way/440493286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2142097 (belgium/way/440905936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28149769 (belgium/way/444386096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2234130 (belgium/way/446857588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24116 (belgium/way/447610026) -> matched: Koksijde Air Base  [body: 1372 chars]
+  Q572882 (belgium/way/454336496) -> matched: Malem, Ghent  [body: 448 chars]
+  Q30287559 (belgium/way/457116774) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28498745 (belgium/way/463347128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15881991 (belgium/way/465315530) -> matched: Sint-Franciscusziekenhuis  [body: 3559 chars]
+  Q2901972 (belgium/way/467514692) -> matched: Balen-Keiheuvel Aerodrome  [body: 311 chars]
+  Q2158310 (belgium/relation/6326159) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3499845 (belgium/way/471578308) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2523485 (belgium/way/471913986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q539055 (belgium/relation/6363855) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16848972 (belgium/way/475445344) -> matched: Büllingen Airfield  [body: 410 chars]
+  Q101625372 (belgium/relation/6487143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46994818 (belgium/way/483841980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11997921 (belgium/way/483957502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2544471 (belgium/relation/6569557) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1836727 (belgium/relation/17537327) -> matched: Neigembos  [body: 2344 chars]
+  Q16025113 (belgium/way/489403552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2263710 (belgium/way/490259434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2524473 (belgium/way/491239414) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2350943 (belgium/way/502000536) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48564461 (belgium/way/504959462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48564461 (belgium/relation/41182039) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30281562 (belgium/way/505873902) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2162239 (belgium/way/506586454) -> matched: Yeunten Ling  [body: 483 chars]
+  Q7430912 (belgium/way/506626908) -> matched: Schaffen Air Base  [body: 3261 chars]
+  Q622671 (belgium/way/507750902) -> matched: King Baudouin Stadium  [body: 9250 chars]
+  Q1876567 (belgium/way/512165362) -> matched: Hogeschool VIVES  [body: 1170 chars]
+  Q1049301 (belgium/way/515210468) -> matched: Great Beguinage, Leuven  [body: 8678 chars]
+  Q1863863 (belgium/way/521987354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15076411 (belgium/relation/23325891) -> matched: Münsterbildchen  [body: 1604 chars]
+  Q2556513 (belgium/way/530694884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21767733 (belgium/way/533303248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17750993 (belgium/way/543675836) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110087359 (belgium/way/544651104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42414298 (belgium/way/544899072) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2510966 (belgium/way/546959704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q747353 (belgium/way/554280176) -> matched: FN Herstal  [body: 4238 chars]
+  Q21768599 (belgium/relation/14060629) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364119 (belgium/way/560733790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3151103 (belgium/way/563199326) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2802143 (belgium/relation/6268383) -> matched: Ledeberg  [body: 358 chars]
+  Q70317540 (belgium/way/568853420) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364761 (belgium/way/569024124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56234937 (belgium/way/569818874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56234938 (belgium/way/569818950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q383097 (belgium/way/575511516) -> matched: Volvo Car Gent  [body: 2101 chars]
+  Q28657328 (belgium/way/584556768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27984824 (belgium/way/588685058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3030540 (belgium/way/589197050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3030540 (belgium/way/589374844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2350100 (belgium/way/589376630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64682821 (belgium/way/596238500) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21767703 (belgium/relation/2225497) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2497176 (belgium/way/599066814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98141175 (belgium/way/601418816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233829 (belgium/way/609297524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28778472 (belgium/way/617443822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2217099 (belgium/relation/2625183) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21767715 (belgium/relation/14879041) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64682794 (belgium/way/622479116) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q32845670 (belgium/way/623769652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97060915 (belgium/way/629062836) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59384105 (belgium/way/630016520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2186263 (belgium/way/632840950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1809382 (belgium/way/638522544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2318995 (belgium/way/648428186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22443719 (belgium/relation/31311851) -> matched: Elisabeth Park  [body: 6221 chars]
+  Q20900481 (belgium/way/673630542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14231386 (belgium/relation/9526469) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52125037 (belgium/way/692135422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17517598 (belgium/way/717126214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2399689 (belgium/way/718668430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432260 (belgium/way/723634376) -> matched: Ostend–Bruges International Airport  [body: 4912 chars]
+  Q606067 (belgium/way/727638268) -> matched: Liège Airport  [body: 3687 chars]
+  Q2340358 (belgium/way/731007374) -> matched: Kieldrecht Lock  [body: 1876 chars]
+  Q2436128 (belgium/way/737007450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3120526 (belgium/relation/19010227) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2207562 (belgium/way/738187774) -> matched: Bourgoyen-Ossemeersen  [body: 2296 chars]
+  Q2491613 (belgium/way/738532678) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3130499 (belgium/relation/10993491) -> matched: Katoen Natie  [body: 5706 chars]
+  Q97011109 (belgium/way/739807034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28934 (belgium/way/741189870) -> matched: Brussels Airport  [body: 21740 chars]
+  Q3518419 (belgium/way/741864664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2619118 (belgium/relation/2894771) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59799293 (belgium/relation/19060989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108975593 (belgium/way/766405750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2481320 (belgium/relation/37151519) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18433271 (belgium/way/780894346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33100197 (belgium/way/783762884) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30091634 (belgium/way/784816492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2996331 (belgium/relation/11807039) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21767583 (belgium/way/787241864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3233078 (belgium/way/794250636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16070702 (belgium/relation/28199153) -> matched: Laerbeek Wood  [body: 6643 chars]
+  Q111673201 (belgium/way/802917490) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2599360 (belgium/way/816055678) -> matched: Fort Lillo  [body: 1055 chars]
+  Q2718863 (belgium/way/817813962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2718863 (belgium/way/817813966) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2135684 (belgium/way/817829376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2135684 (belgium/way/817829378) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14252595 (belgium/way/832170030) -> matched: Raspaillebos  [body: 8202 chars]
+  Q2362123 (belgium/relation/13397629) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2435498 (belgium/way/832836028) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14252595 (belgium/way/840461926) -> matched: Raspaillebos  [body: 8202 chars]
+  Q2228925 (belgium/relation/12607629) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3075326 (belgium/way/855549932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2945738 (belgium/way/874630838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2804407 (belgium/way/874812480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1025354 (belgium/way/881924756) -> matched: Grand-Hornu  [body: 559 chars]
+  Q2346607 (belgium/relation/13170873) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2420880 (belgium/way/888240088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16508601 (belgium/way/896377672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2387229 (belgium/relation/13311957) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1950990 (belgium/way/919716804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2021724 (belgium/way/925273712) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3271712 (belgium/way/925273720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3206095 (belgium/way/925273724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106399002 (belgium/way/927217180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57585377 (belgium/relation/20278685) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19839304 (belgium/way/939273488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2678893 (belgium/way/948100962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2438902 (belgium/way/948381226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28472160 (belgium/relation/14105421) -> matched: Royal Quarter  [body: 2452 chars]
+  Q2772297 (belgium/relation/14023209) -> matched: Freedom Quarter  [body: 4418 chars]
+  Q19776680 (belgium/relation/14105425) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19568045 (belgium/relation/14105433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19567949 (belgium/relation/14105435) -> matched: Quays Quarter  [body: 2362 chars]
+  Q2205297 (belgium/relation/34042173) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33100638 (belgium/way/976204774) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1893505 (belgium/way/982772366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24287417 (belgium/way/989540704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124885079 (belgium/way/998465330) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q125413668 (belgium/way/1004444138) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3034446 (belgium/way/1040035682) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2820545 (belgium/way/1059205396) -> matched: Boneffe Abbey  [body: 1438 chars]
+  Q41579491 (belgium/way/1059726096) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q18433515 (belgium/relation/11711199) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14469392 (belgium/way/1102527424) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2788911 (belgium/way/1105239482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56234939 (belgium/relation/15806315) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15874600 (belgium/way/1107291416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33100315 (belgium/way/1107667624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2380275 (belgium/way/1108724282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2457861 (belgium/way/1109136676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2146148 (belgium/relation/15856413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2354487 (belgium/way/1113201592) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2536212 (belgium/way/1114308188) -> matched: Sint-Jozef  [body: 209 chars]
+  Q28657278 (belgium/way/1121631980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657374 (belgium/way/1121646410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657280 (belgium/relation/22564313) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657368 (belgium/way/1122090820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28498739 (belgium/way/1122145752) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28398044 (belgium/way/1122153432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657323 (belgium/way/1123691720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657318 (belgium/way/1123691728) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657329 (belgium/way/1123691738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657326 (belgium/way/1123691746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21771864 (belgium/relation/14068455) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106938180 (belgium/way/1150258140) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21764598 (belgium/way/1153961668) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q512254 (belgium/relation/16509247) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3129393 (belgium/way/1172981546) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906583 (belgium/way/1179893216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21763369 (belgium/relation/16700227) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2879279 (belgium/way/1188329378) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4584919 (belgium/way/1195681806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2468071 (belgium/way/1200632710) -> matched: Namur-Suarlée Airfield  [body: 1485 chars]
+  Q3220860 (belgium/way/1205185354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18654928 (belgium/way/1222629962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13642803 (belgium/way/1222629964) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569604 (belgium/relation/16973203) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111728266 (belgium/way/1230654890) -> matched: Haren Prison  [body: 13866 chars]
+  Q3428538 (belgium/way/1238503424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2860145 (belgium/way/1255058986) -> matched: Buda, Kortrijk  [body: 3352 chars]
+  Q97366668 (belgium/way/1265779552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18088175 (belgium/way/1265999160) -> matched: Rentel Offshore Wind Farm  [body: 559 chars]
+  Q517712 (belgium/way/1272116804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11957696 (belgium/way/1297128164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33100428 (belgium/way/1307885958) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46994770 (belgium/way/1312737014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q69635422 (belgium/way/1329613590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48569586 (belgium/relation/16150439) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4036439 (belgium/way/1334670740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2086441 (belgium/relation/18564823) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1849827 (belgium/way/1340544078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106164522 (belgium/way/1353283230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2308342 (belgium/way/1363498870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2850337 (belgium/way/1364452368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56234819 (belgium/way/1364466738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q103821029 (belgium/relation/25159423) -> matched: Josaphat Brownfield  [body: 4223 chars]
+  Q109327476 (belgium/way/1373925758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2896459 (belgium/relation/18925297) -> matched: Polygon Wood, Zonnebeke  [body: 1386 chars]
+  Q46348486 (belgium/relation/19174115) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15162415 (belgium/relation/19282071) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2737686 (belgium/way/1389070112) -> matched: Roeselare–Leie Canal  [body: 2812 chars]
+  Q401122 (belgium/way/1389146552) -> matched: Lano  [body: 518 chars]
+  Q47105605 (belgium/relation/15771069) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q46005188 (belgium/way/1392142908) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2362388 (belgium/way/1397603596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2057183 (belgium/way/1397603598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q947912 (belgium/way/1401184492) -> matched: Fort Ében-Émael  [body: 7635 chars]
+  Q25667945 (belgium/way/1401714450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65116218 (belgium/relation/9235847) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97066466 (belgium/relation/19645303) -> matched: Sanctuary Wood  [body: 292 chars]
+  Q4542545 (belgium/way/1417350598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21770000 (belgium/relation/19720887) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59596727 (belgium/way/1431771042) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2155885 (belgium/way/1433386060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2350100 (belgium/way/1446179020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21767776 (belgium/relation/15749499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2190711 (belgium/relation/19010229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59819978 (belgium/relation/20096479) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657371 (belgium/way/1453937690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q206921 (belgium/way/1458268342) -> matched: Pfizer  [body: 49258 chars]
+  Q104611040 (belgium/way/1462058226) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q104631314 (belgium/relation/20217459) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q47062893 (belgium/relation/15749695) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28496343 (belgium/relation/20218129) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28496350 (belgium/relation/19201803) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46008486 (belgium/relation/19174101) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28496372 (belgium/relation/19174103) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47086735 (belgium/relation/20218131) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q47088893 (belgium/way/1466824512) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q46115525 (belgium/relation/19174117) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q46109754 (belgium/relation/19344029) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1969234 (belgium/way/1473141068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47092309 (belgium/relation/20362557) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1400091 (belgium/relation/20185371) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46006130 (belgium/relation/40396219) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q46449254 (belgium/relation/20127397) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q104611855 (belgium/relation/20531407) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q47092137 (belgium/relation/20276169) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28495927 (belgium/relation/13499389) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47092314 (belgium/relation/15767859) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28495959 (belgium/relation/19215163) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2297820 (belgium/relation/20600469) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2558664 (belgium/relation/20620169) -> matched: Hertogin Hedwigepolder  [body: 5329 chars]
+  Q2292373 (belgium/way/1495634806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2718827 (belgium/relation/28656893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2085761 (belgium/way/1503777406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42261068 (belgium/way/1508568402) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2856289 (belgium/way/1512026194) -> matched: Anglo Belgian Corporation  [body: 7026 chars]
+  Q115755706 (belgium/way/1514502762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60538019 (belgium/way/1517532914) -> matched: UCLouvain Brussels Woluwe  [body: 7922 chars]
+  Q3103395 (belgium/relation/21043487) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q172868 (belgium/way/1530314140) -> matched: Circuit Zolder  [body: 6509 chars]
+  Q2844908 (belgium/relation/21262367) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q997166 (belgium/way/1535033412) -> matched: North–South connection  [body: 6322 chars]
+  Q21767726 (belgium/relation/10957627) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1938609 (belgium/way/1557939690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2553113 (belgium/way/1565320368) -> matched: AZ Groeninge  [body: 6335 chars]
+  Q19952146 (belgium/way/1566063878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2435830 (belgium/way/1582278320) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1630789 (belgium/way/1586822728) -> matched: Soumagne Tunnel  [body: 1158 chars]
+  Q1228828 (belgium/way/1588371082) -> matched: Port of Liège  [body: 422 chars]
+  Q47548143 (belgium/way/1595883674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1841810 (belgium/relation/6456431) -> matched: Vinderhoute  [body: 2201 chars]
+  Q59799293 (belgium/way/1605908690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22669959 (belgium/relation/27636791) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107031454 (belgium/way/1617072438) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q104922830 (belgium/way/1617461680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107362266 (belgium/way/1643749486) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q33219836 (belgium/way/1643871566) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2555729 (belgium/relation/22552055) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1947230 (belgium/way/1654742210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21768816 (belgium/relation/23096395) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3152785 (belgium/way/1691532044) -> matched: Von Karman Institute for Fluid Dynamics  [body: 7200 chars]
+  Q14517021 (belgium/relation/2623459) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14517021 (belgium/relation/2623489) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2122179 (belgium/way/1699869636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48541925 (belgium/way/1699875954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2414240 (belgium/way/1699900802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2297684 (belgium/way/1699907140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q201337 (belgium/way/1709916606) -> matched: Craeybeckx Tunnel  [body: 465 chars]
+  Q2387468 (belgium/way/1715236780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56247065 (belgium/relation/18471681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31734757 (belgium/way/1739555270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13571439 (belgium/way/1743807700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15874344 (belgium/way/1759900096) -> matched: De Schorre  [body: 2269 chars]
+  Q724805 (belgium/relation/8286215) -> matched: Donkmeer  [body: 224 chars]
+  Q21760139 (belgium/way/1771966004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2433829 (belgium/way/1775822648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108786850 (belgium/way/1782718008) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2680740 (belgium/relation/24344975) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2336857 (belgium/relation/24344977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4434246 (belgium/relation/25829481) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111208917 (belgium/way/1792667690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110499338 (belgium/way/1800299108) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20859389 (belgium/relation/24500403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116284511 (belgium/way/1803596618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2522338 (belgium/relation/100249) -> matched: Peerdsbos  [body: 2655 chars]
+  Q26960636 (belgium/relation/6349037) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2167634 (belgium/relation/13428315) -> matched: Linkeroever  [body: 599 chars]
+  Q106621146 (belgium/way/1844572584) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106621135 (belgium/way/1844582982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q827080 (belgium/way/1849719044) -> matched: SCK CEN  [body: 14101 chars]
+  Q108139514 (belgium/relation/25128091) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q107307180 (belgium/relation/25345325) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2468403 (belgium/way/1882095884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2789816 (belgium/way/1883024264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2513106 (belgium/way/1883405246) -> matched: Fort of Stabroek  [body: 3508 chars]
+  Q18285999 (belgium/relation/25414907) -> matched: Kalmthout Heath  [body: 2101 chars]
+  Q2311442 (belgium/relation/25430881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106987190 (belgium/way/1894559716) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q64682820 (belgium/relation/27607327) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108139593 (belgium/way/1897685602) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q900749 (belgium/relation/11968533) -> matched: Matongé (Ixelles)  [body: 12594 chars]
+  Q5120930 (belgium/way/1912292602) -> matched: Fort of Merksem  [body: 713 chars]
+  Q837285 (belgium/way/1912602070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2677973 (belgium/way/1915774706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2350368 (belgium/way/1915819068) -> matched: Our-Lady Ter Hooyen  [body: 2875 chars]
+  Q3041140 (belgium/way/1915825320) -> matched: Great Beguinage, Sint-Amandsberg  [body: 2047 chars]
+  Q2341843 (belgium/way/1915832512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2319795 (belgium/way/1919125460) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2335954 (belgium/way/1926009922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3135885 (belgium/relation/25980729) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2049270 (belgium/relation/26709217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57913794 (belgium/way/1935560508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21765941 (belgium/relation/26095509) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q835090 (belgium/relation/2848059) -> matched: Albert Canal  [body: 4253 chars]
+  Q42414483 (belgium/way/1939726470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131577893 (belgium/way/1940276674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66312004 (belgium/relation/7430709) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q64682822 (belgium/way/1949957102) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q64682823 (belgium/way/1949957104) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1909333 (belgium/way/1951393168) -> matched: North–South Axis  [body: 2594 chars]
+  Q5254836 (belgium/relation/21232617) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2289197 (belgium/relation/17638613) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2171306 (belgium/way/1963550058) -> matched: Fort Knokke  [body: 9922 chars]
+  Q56196805 (belgium/relation/19362425) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20970389 (belgium/relation/11286255) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65594045 (belgium/relation/22326773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56395754 (belgium/relation/22326977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116258254 (belgium/way/1980316046) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2945074 (belgium/relation/26596077) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106520182 (belgium/way/1986725686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56395757 (belgium/relation/26548665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2945766 (belgium/way/1989791554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63371940 (belgium/relation/26732085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4422563 (belgium/way/1994851962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109350625 (belgium/way/1996434474) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3067626 (belgium/way/1998566848) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2202790 (belgium/relation/8418477) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18612703 (belgium/relation/11756961) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56234910 (belgium/way/2016461254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29320199 (belgium/way/2016830984) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66504801 (belgium/relation/27009863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2132597 (belgium/way/2017500156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2705974 (belgium/relation/27020377) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109936713 (belgium/way/2018759984) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q603384 (belgium/relation/27353185) -> matched: Boon Brewery  [body: 1231 chars]
+  Q110589679 (belgium/way/2043543414) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21771920 (belgium/relation/27398201) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29110199 (belgium/way/2049319470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1986430 (belgium/relation/14105015) -> matched: Marollen  [body: 8187 chars]
+  Q19567851 (belgium/relation/14105427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q949445 (belgium/relation/14105423) -> matched: Sablon, Brussels  [body: 12028 chars]
+  Q18435290 (belgium/relation/27458069) -> matched: Pentagon (Brussels)  [body: 1072 chars]
+  Q2960496 (belgium/relation/6406817) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21766111 (belgium/relation/8210405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2087505 (belgium/relation/3265457) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q630472 (belgium/way/2094292594) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1101790 (belgium/relation/1110461) -> matched: Cinquantenaire  [body: 13702 chars]
+  Q334099 (belgium/way/2101939626) -> matched: Orval Abbey  [body: 4358 chars]
+  Q60061452 (belgium/relation/28142879) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3437625 (belgium/relation/28157527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21770053 (belgium/relation/14924313) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2693797 (belgium/relation/25805737) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q92958797 (belgium/way/2161779994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q184383 (belgium/relation/4289183) -> matched: Zeebrugge  [body: 2628 chars]
+  Q16764428 (belgium/way/2185833392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19951058 (belgium/way/2193777050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114244284 (belgium/way/2196459436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3151801 (belgium/way/2209421530) -> matched: Institut Redouté-Peiffer  [body: 2314 chars]
+  Q18286791 (belgium/relation/21814641) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1852240 (belgium/way/2239938576) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66425426 (belgium/relation/24202707) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19567908 (belgium/relation/14105437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2219322 (belgium/way/2287710482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2778112 (belgium/way/2287710486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2190604 (belgium/way/2287710512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1974267 (belgium/way/2287710520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2633688 (belgium/way/2287710522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15122405 (belgium/relation/23325885) -> matched: Mützenich (Monschau)  [body: 4165 chars]
+  Q48564461 (belgium/relation/31341605) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3593599 (belgium/way/2318307936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15877421 (belgium/relation/31594655) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2154329 (belgium/way/2341730324) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1228828 (belgium/way/2341756198) -> matched: Port of Liège  [body: 422 chars]
+  Q56248799 (belgium/way/2341998976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657319 (belgium/way/2346147656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2584520 (belgium/relation/31730403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108141699 (belgium/way/2350097112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657330 (belgium/relation/31807961) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28657276 (belgium/relation/16032365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111325596 (belgium/way/2372525216) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2261058 (belgium/relation/32115257) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21770094 (belgium/relation/32513617) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19850225 (belgium/relation/26095237) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1965990 (belgium/relation/17735317) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3259080 (belgium/relation/10966857) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1604760 (belgium/way/2457361294) -> matched: Prinsenhof, Ghent  [body: 5289 chars]
+  Q2016251 (belgium/way/2457366834) -> matched: Great St. Elizabeth Beguinage, Ghent  [body: 5821 chars]
+  Q2103082 (belgium/way/2457503370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2653102 (belgium/way/2457503372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57585572 (belgium/way/2457698956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22343250 (belgium/relation/36541507) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110162746 (belgium/way/2466960490) -> matched: Princes Park, Retie  [body: 1160 chars]
+  Q4777485 (belgium/relation/33746443) -> matched: Antwerp diamond district  [body: 3661 chars]
+  Q114027440 (belgium/relation/33747059) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53843788 (belgium/relation/33747869) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2394100 (belgium/relation/33743347) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2238084 (belgium/relation/33760725) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2320889 (belgium/relation/33743925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2695475 (belgium/relation/33766495) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2015985 (belgium/relation/33743723) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3198910 (belgium/relation/33782761) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2632339 (belgium/relation/33786383) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2184035 (belgium/relation/33787691) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1863253 (belgium/relation/33772989) -> matched: Zurenborg  [body: 5470 chars]
+  Q2164884 (belgium/relation/33782893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13743261 (belgium/relation/33791437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2543761 (belgium/relation/124615) -> matched: Merksem  [body: 3891 chars]
+  Q10970087 (belgium/way/2472669246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2202037 (belgium/relation/33784269) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q739334 (belgium/relation/11286189) -> matched: Botanical Garden of Brussels  [body: 9864 chars]
+  Q542127 (belgium/way/2477816528) -> matched: Brothers of Charity  [body: 14925 chars]
+  Q42431578 (belgium/way/2480035370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42431584 (belgium/way/2480055922) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q111035385 (belgium/way/2481888242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33093697 (belgium/way/2482316862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q834850 (belgium/relation/119155) -> matched: Borgerhout  [body: 3157 chars]
+  Q724055 (belgium/relation/119003) -> matched: Borsbeek  [body: 1073 chars]
+  Q110709443 (belgium/relation/34299763) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2129480 (belgium/relation/34304521) -> matched: Rombach, Luxembourg  [body: 3622 chars]
+  Q2936219 (belgium/relation/34304525) -> matched: Perlé  [body: 463 chars]
+  Q2661239 (belgium/relation/34337519) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q589935 (belgium/relation/25464415) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2936941 (belgium/relation/6269695) -> matched: Sint-Amandsberg  [body: 943 chars]
+  Q111891175 (belgium/relation/34803925) -> matched: Dampoort, Ghent  [body: 791 chars]
+  Q57320646 (belgium/way/2535995832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2123187 (belgium/way/2544195574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2842554 (belgium/relation/35175329) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2257740 (belgium/way/2564868432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2667385 (belgium/way/2567344500) -> matched: Oostmalle Airfield  [body: 514 chars]
+  Q4422563 (belgium/way/2592012190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q127127114 (belgium/way/2598582960) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q111035324 (belgium/way/2598602698) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24995263 (belgium/way/2598770126) -> matched: Bogaerts International School  [body: 2292 chars]
+  Q42432491 (belgium/way/2599562636) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q127691605 (belgium/way/2606166226) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q97009782 (belgium/relation/33792993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21980969 (belgium/way/2641374738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125749966 (belgium/relation/37352945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2302878 (belgium/way/2654377630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2979314 (belgium/relation/11306601) -> matched: Cliniques universitaires Saint-Luc  [body: 1517 chars]
+  Q2936440 (belgium/way/2671842818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7390162 (belgium/way/2671907100) -> matched: SHAPE High School  [body: 4038 chars]
+  Q2662453 (belgium/way/2673124088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47011766 (belgium/relation/36882541) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104759018 (belgium/relation/36926363) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2687417 (belgium/relation/119039) -> matched: Wilrijk  [body: 14846 chars]
+  Q14345895 (belgium/relation/36934893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2546057 (belgium/relation/36934525) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20422139 (belgium/relation/36934713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1797837 (belgium/relation/124599) -> matched: Ekeren  [body: 3953 chars]
+  Q4393394 (belgium/relation/36936885) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q660847 (belgium/relation/37251573) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2548366 (belgium/relation/37327557) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2530144 (belgium/way/2717252392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215575 (belgium/relation/20695457) -> matched: Lake Virelles  [body: 220 chars]
+  Q21766068 (belgium/relation/20186529) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1228828 (belgium/relation/37866217) -> matched: Port of Liège  [body: 422 chars]
+  Q1228828 (belgium/way/2749685552) -> matched: Port of Liège  [body: 422 chars]
+  Q1228828 (belgium/way/2749685562) -> matched: Port of Liège  [body: 422 chars]
+  Q542127 (belgium/relation/37966373) -> matched: Brothers of Charity  [body: 14925 chars]
+  Q617270 (belgium/relation/7893853) -> matched: Eau d'Heure lakes  [body: 1692 chars]
+  Q1905086 (belgium/relation/38581927) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q943599 (belgium/way/2819585844) -> matched: Scourmont Abbey  [body: 3155 chars]
+  Q267663 (belgium/relation/119069) -> matched: Hoboken, Antwerp  [body: 4347 chars]
+  Q1228828 (belgium/way/2827825864) -> matched: Port of Liège  [body: 422 chars]
+  Q1228828 (belgium/relation/38683623) -> matched: Port of Liège  [body: 422 chars]
+  Q50473174 (belgium/way/2828235254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q136400382 (belgium/way/2840114014) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2543711 (belgium/relation/38869703) -> matched: Bornem Abbey  [body: 2629 chars]
+  Q24931952 (belgium/relation/20180669) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3257376 (belgium/way/2855490184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65950356 (belgium/way/2866798904) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q109043584 (belgium/way/2883100208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61377691 (belgium/relation/39633023) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1916939 (belgium/relation/6747319) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q818804 (belgium/relation/119031) -> matched: Berchem  [body: 3099 chars]
+  Q1201672 (belgium/relation/119153) -> matched: Deurne, Belgium  [body: 5251 chars]
+  Q117456327 (belgium/way/2932106228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2714121 (belgium/way/2937468040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4330940 (belgium/way/2943828054) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2109308 (belgium/way/2943985108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4336809 (belgium/way/2945451854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106449158 (belgium/way/2947678034) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1129678 (belgium/relation/40486985) -> matched: Lake Warfaaz  [body: 320 chars]
+  Q108141061 (belgium/relation/40553369) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2295848 (belgium/relation/7167091) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2566540 (belgium/relation/13371363) -> matched: Meerdaal  [body: 1822 chars]
+  Q2531000 (belgium/relation/26198183) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133249617 (belgium/relation/7361741) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104631435 (belgium/relation/19247889) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28495964 (belgium/relation/20313709) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4903561 (belgium/relation/24537131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2633572 (belgium/way/3011184260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1338732 (belgium/relation/17381) -> matched: Hallerbos  [body: 1294 chars]
+  Q19387375 (belgium/relation/41223221) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104632172 (belgium/relation/19322979) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q17153542 (belgium/relation/20087711) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28495959 (belgium/relation/19344053) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 223 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/belgium_wikidata.parquet
+wrote 223 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/belgium_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/belgium_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/belgium_wikidata_map.png
+  rows=223 geometry_missing=0 bodies=223 jsonl=223 map_html=324792B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['belgium']
+  failed:    0 -> []
+
+=== union ===
+unioned 29 countries -> 4000 rows
+[00:46:50] union
+unioned 29 countries -> 4000 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[00:46:56] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 120 files.
+Finished hashing 120 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A
+
+
+
+
+  .../denmark_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A
+
+
+
+
+  .../denmark_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 46 files]                : 100%|██████████| 17.2MB / 17.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 56)    :  54%|█████▍    | 19.4MB / 35.6MB, 24.1MB/s  
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  15%|█▍        | 2.62MB / 17.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 60)    :  58%|█████▊    | 20.7MB / 35.6MB, 14.8MB/s  
+New Data Upload               :   3%|▎         |  524kB / 15.4MB,  374kB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   9%|▉         | 1.34MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   3%|▎         | 5.28kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet:   3%|▎         | 22.9kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png:   3%|▎         | 4.96kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  15%|█▌        | 2.32MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  10%|█         | 15.8kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet:  10%|█         | 68.6kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png:  10%|█         | 14.9kB /  146kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 60)    :  61%|██████    | 21.8MB / 35.6MB, 12.1MB/s  
+New Data Upload               :  10%|█         | 1.57MB / 15.4MB,  874kB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  34%|███▍      | 5.27MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  31%|███       | 47.5kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet:  31%|███       |  206kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png:  31%|███       | 44.7kB /  146kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 60)    :  70%|██████▉   | 24.9MB / 35.6MB, 12.5MB/s  
+New Data Upload               :  31%|███       | 4.72MB / 15.4MB, 2.36MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  76%|███████▌  | 11.7MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  75%|███████▍  |  116kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet:  75%|███████▍  |  503kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png:  75%|███████▍  |  109kB /  146kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 60)    :  89%|████████▉ | 31.8MB / 35.6MB, 14.4MB/s  
+New Data Upload               :  75%|███████▍  | 11.5MB / 15.4MB, 5.24MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▊| 15.1MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  153kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet:  99%|█████████▊|  664kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png:  99%|█████████▊|  144kB /  146kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (56 / 60)    :  99%|█████████▉| 35.4MB / 35.6MB, 14.8MB/s  
+New Data Upload               :  99%|█████████▊| 15.2MB / 15.4MB, 6.34MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▊| 15.1MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  153kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet:  99%|█████████▊|  664kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png:  99%|█████████▊|  144kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 15.3MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  155kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 60)    : 100%|██████████| 35.6MB / 35.6MB, 12.7MB/s  
+New Data Upload               : 100%|██████████| 15.4MB / 15.4MB, 5.50MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 15.3MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  155kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 15.3MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  155kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 15.3MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  155kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 15.3MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  155kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 15.3MB / 15.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  155kB /  155kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 60)    : 100%|██████████| 35.6MB / 35.6MB, 9.90MB/s  
+New Data Upload               : 100%|██████████| 15.4MB / 15.4MB, 4.28MB/s  
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 15.3MB / 15.3MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  155kB /  155kB            
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+Removing 113 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/654913bb3d6032a75a4f2d2d0ad907d9555c566f
+[00:47:11] DONE belgium

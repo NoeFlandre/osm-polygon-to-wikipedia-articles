@@ -1,0 +1,2016 @@
+[02:16:22] === switzerland ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== switzerland ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/switzerland.parquet
+wrote 61156 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/switzerland.parquet
+pre-filter (--only-wikidata): 61156 -> 787 rows
+
+787 polygons with wikidata=*
+  matched:           470
+  no en sitelink:    272
+  no sitelinks:      45
+  Q458876 (switzerland/way/8490876) -> matched: Seeli (Seelisberg)  [body: 263 chars]
+  Q43176 (switzerland/way/8529076) -> matched: Göscheneralpsee  [body: 453 chars]
+  Q3363791 (switzerland/way/8545684) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5823820 (switzerland/way/8574318) -> matched: Seewlisee  [body: 400 chars]
+  Q5581051 (switzerland/way/8574322) -> matched: Golzerensee  [body: 499 chars]
+  Q382528 (switzerland/way/8578318) -> matched: Lai da Nalps  [body: 401 chars]
+  Q668452 (switzerland/way/8578322) -> matched: Lai da Sontga Maria  [body: 1260 chars]
+  Q680999 (switzerland/way/8578332) -> matched: Lago Ritom  [body: 1125 chars]
+  Q5567243 (switzerland/way/8578336) -> matched: Glattalpsee  [body: 1608 chars]
+  Q690359 (switzerland/way/8609512) -> matched: Lake Davos  [body: 649 chars]
+  Q684738 (switzerland/way/8609526) -> matched: Lützelau  [body: 3576 chars]
+  Q14514 (switzerland/way/9210084) -> matched: Pfäffikersee  [body: 1086 chars]
+  Q676682 (switzerland/way/9210166) -> matched: Türlersee  [body: 480 chars]
+  Q22949157 (switzerland/way/9421314) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q667508 (switzerland/way/9583636) -> matched: Gerzensee (lake)  [body: 208 chars]
+  Q672064 (switzerland/way/9613430) -> matched: Daubensee  [body: 337 chars]
+  Q14533 (switzerland/way/9613664) -> matched: Oeschinen Lake  [body: 3138 chars]
+  Q461864 (switzerland/way/9635910) -> matched: Uebeschisee  [body: 327 chars]
+  Q461904 (switzerland/way/9635912) -> matched: Amsoldingersee  [body: 381 chars]
+  Q2738959 (switzerland/way/9781946) -> matched: Lago di Muzzano  [body: 269 chars]
+  Q664441 (switzerland/way/9801688) -> matched: Klöntalersee  [body: 4139 chars]
+  Q676816 (switzerland/way/9807950) -> matched: Lützelsee  [body: 243 chars]
+  Q4903605 (switzerland/way/9868944) -> matched: Bichelsee (lake)  [body: 422 chars]
+  Q663078 (switzerland/way/9932872) -> matched: Oberblegisee  [body: 570 chars]
+  Q671751 (switzerland/way/9978066) -> matched: Obersee (Glarus)  [body: 442 chars]
+  Q681017 (switzerland/way/10013978) -> matched: Limmernsee  [body: 730 chars]
+  Q476249 (switzerland/way/10013980) -> matched: Muttsee  [body: 734 chars]
+  Q692097 (switzerland/way/10137454) -> matched: Rieterpark  [body: 1857 chars]
+  Q3364247 (switzerland/way/10146156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q816289 (switzerland/way/11880266) -> matched: Villa Belvoir  [body: 6790 chars]
+  Q671184 (switzerland/way/12009248) -> matched: Sufnersee  [body: 428 chars]
+  Q3215745 (switzerland/way/12132864) -> matched: Lago d'Isola  [body: 277 chars]
+  Q2900219 (switzerland/way/12223308) -> matched: Bettmersee  [body: 302 chars]
+  Q5834768 (switzerland/way/12535676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q458850 (switzerland/way/17631650) -> matched: Soppensee  [body: 193 chars]
+  Q1457464 (switzerland/way/17845970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5822624 (switzerland/way/19468386) -> matched: Lag da Pigniu  [body: 331 chars]
+  Q14932136 (switzerland/way/19469744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457366 (switzerland/way/19749190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457424 (switzerland/way/21268686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1714431 (switzerland/way/21393072) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20771113 (switzerland/way/22567960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457378 (switzerland/way/23976466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14482 (switzerland/way/26015634) -> matched: Lac Brenet  [body: 576 chars]
+  Q502389 (switzerland/way/26040952) -> matched: Iffigsee  [body: 250 chars]
+  Q908034 (switzerland/way/27993690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104897193 (switzerland/way/28714096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457318 (switzerland/way/28955532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108086565 (switzerland/way/29546212) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21036911 (switzerland/way/30436774) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457321 (switzerland/way/30439944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q196793 (switzerland/way/37656764) -> matched: Zervreilasee  [body: 1109 chars]
+  Q613254 (switzerland/way/39596348) -> matched: Pilatus Aircraft  [body: 15571 chars]
+  Q5408352 (switzerland/way/39609032) -> matched: Eugenisee  [body: 300 chars]
+  Q6471808 (switzerland/way/45381270) -> matched: Lag da Breil  [body: 371 chars]
+  Q29933466 (switzerland/way/45433214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q262760 (switzerland/way/46782506) -> matched: École Polytechnique Fédérale de Lausanne  [body: 22744 chars]
+  Q673053 (switzerland/way/46927746) -> matched: Lago del Sambuco  [body: 377 chars]
+  Q870247 (switzerland/way/46927764) -> matched: Tremorgio Lake  [body: 469 chars]
+  Q664761 (switzerland/way/47189150) -> matched: Voralpsee  [body: 147 chars]
+  Q5821369 (switzerland/way/47374530) -> matched: Lej Nair (Bernina)  [body: 492 chars]
+  Q5823927 (switzerland/way/47627060) -> matched: Lac de Sanetsch  [body: 389 chars]
+  Q6468023 (switzerland/way/47630506) -> matched: Lac des Audannes  [body: 119 chars]
+  Q677909 (switzerland/way/47705342) -> matched: Lac des Toules  [body: 375 chars]
+  Q23892375 (switzerland/way/47705348) -> matched: Lac d'Émosson  [body: 2167 chars]
+  Q2140971 (switzerland/way/49023394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1751312 (switzerland/way/49259758) -> matched: Obersee (Arosa)  [body: 503 chars]
+  Q2334678 (switzerland/way/49259762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364144 (switzerland/way/49691642) -> matched: Parc de Milan  [body: 307 chars]
+  Q2249115 (switzerland/way/51149382) -> matched: Schosshalden cemetery  [body: 2017 chars]
+  Q111417444 (switzerland/way/51582190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q658975 (switzerland/way/51689612) -> matched: University of Lausanne  [body: 12732 chars]
+  Q970497 (switzerland/way/51777546) -> matched: Lac Lioson  [body: 317 chars]
+  Q461874 (switzerland/way/52350950) -> matched: Dittligsee  [body: 461 chars]
+  Q675009 (switzerland/way/52613830) -> matched: Grande Dixence Dam  [body: 6997 chars]
+  Q668561 (switzerland/way/52821498) -> matched: Sämtisersee  [body: 368 chars]
+  Q870273 (switzerland/relation/58105) -> matched: Fälensee  [body: 371 chars]
+  Q1693413 (switzerland/way/53049542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q669889 (switzerland/way/53226710) -> matched: Lai da Marmorera  [body: 614 chars]
+  Q21634340 (switzerland/way/53239102) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q351857 (switzerland/way/53361642) -> matched: Paul Scherrer Institute  [body: 32571 chars]
+  Q366275 (switzerland/way/53889810) -> matched: Engstlensee  [body: 910 chars]
+  Q382479 (switzerland/way/53950604) -> matched: Lago di Lucendro  [body: 326 chars]
+  Q996890 (switzerland/way/54088760) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q673510 (switzerland/way/54200602) -> matched: Stausee Gibidum  [body: 434 chars]
+  Q12695298 (switzerland/way/54348810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q382519 (switzerland/way/54366102) -> matched: Griessee  [body: 439 chars]
+  Q5282929 (switzerland/way/54366308) -> matched: Distelsee  [body: 211 chars]
+  Q6468040 (switzerland/way/54713182) -> matched: Lac des Vaux  [body: 698 chars]
+  Q5822916 (switzerland/way/55089952) -> matched: Sägistalsee  [body: 1206 chars]
+  Q690976 (switzerland/relation/4385891) -> matched: Bachalpsee  [body: 480 chars]
+  Q1422902 (switzerland/way/55433266) -> matched: Spiez Laboratory  [body: 4171 chars]
+  Q666839 (switzerland/way/55544572) -> matched: Lai da Curnera  [body: 951 chars]
+  Q351857 (switzerland/way/56056818) -> matched: Paul Scherrer Institute  [body: 32571 chars]
+  Q3363788 (switzerland/way/56108326) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5822088 (switzerland/way/56314402) -> matched: Oberalpsee  [body: 226 chars]
+  Q11942 (switzerland/way/56734684) -> matched: ETH Zurich  [body: 19182 chars]
+  Q668465 (switzerland/way/56937410) -> matched: Gigerwaldsee  [body: 495 chars]
+  Q870267 (switzerland/way/57659672) -> matched: Seealpsee  [body: 883 chars]
+  Q5530253 (switzerland/way/57678110) -> matched: Geisspfadsee  [body: 700 chars]
+  Q458858 (switzerland/relation/119023) -> matched: Inkwilersee  [body: 298 chars]
+  Q22402586 (switzerland/way/58230858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64144086 (switzerland/way/59957596) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q674545 (switzerland/way/59962146) -> matched: Otemma Glacier  [body: 624 chars]
+  Q5270154 (switzerland/way/60056766) -> matched: Diablerets Glacier  [body: 318 chars]
+  Q121761771 (switzerland/way/60164168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17332476 (switzerland/way/60204336) -> matched: Stausee Solis  [body: 1241 chars]
+  Q1729273 (switzerland/way/60592404) -> matched: Park im Grüene  [body: 3105 chars]
+  Q375992 (switzerland/way/61162054) -> matched: Lago del Narèt  [body: 376 chars]
+  Q375961 (switzerland/way/61162234) -> matched: Lago dei Cavagnöö  [body: 277 chars]
+  Q666398 (switzerland/way/61162562) -> matched: Lago di Robièi  [body: 575 chars]
+  Q870252 (switzerland/way/61162770) -> matched: Lago del Zött  [body: 267 chars]
+  Q6472373 (switzerland/way/61165086) -> matched: Lago di Mognola  [body: 264 chars]
+  Q6472378 (switzerland/way/61165288) -> matched: Lago di Morghirolo  [body: 332 chars]
+  Q117765436 (switzerland/way/61528894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117764236 (switzerland/way/61528960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117763011 (switzerland/way/61528976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q674490 (switzerland/way/61528986) -> matched: Saleina Glacier  [body: 624 chars]
+  Q597363 (switzerland/way/61529016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q670540 (switzerland/way/61529204) -> matched: Trient Glacier  [body: 476 chars]
+  Q5824445 (switzerland/way/61944154) -> matched: Lej da la Tscheppa  [body: 519 chars]
+  Q35185263 (switzerland/way/61944206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q610805 (switzerland/way/61992002) -> matched: Unteraargletscher  [body: 1401 chars]
+  Q672509 (switzerland/way/61993318) -> matched: Oberaargletscher  [body: 727 chars]
+  Q3553892 (switzerland/way/62535626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15132540 (switzerland/way/63046534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18394091 (switzerland/way/63046568) -> matched: Theodul Glacier  [body: 3797 chars]
+  Q1609802 (switzerland/way/63511648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5402429 (switzerland/way/63551710) -> matched: Etang de la Moubra  [body: 236 chars]
+  Q16031368 (switzerland/way/63655832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676713 (switzerland/way/63930920) -> matched: Tsanfleuron Glacier  [body: 2235 chars]
+  Q64144547 (switzerland/way/63933488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q358367 (switzerland/way/64681922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1623416 (switzerland/way/64685010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64145010 (switzerland/way/64689344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2604627 (switzerland/way/64689358) -> matched: Zmutt Glacier  [body: 378 chars]
+  Q204258 (switzerland/way/64690042) -> matched: Zinal Glacier  [body: 450 chars]
+  Q667060 (switzerland/way/64855204) -> matched: RUAG  [body: 10760 chars]
+  Q866292 (switzerland/way/64924888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q869984 (switzerland/way/64924896) -> matched: Brunegg Glacier  [body: 374 chars]
+  Q1696522 (switzerland/way/64924920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64142722 (switzerland/way/64924940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q691040 (switzerland/relation/18860985) -> matched: Moming Glacier  [body: 307 chars]
+  Q109341780 (switzerland/way/64925000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64144903 (switzerland/way/64938468) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q666878 (switzerland/way/65330334) -> matched: Schwarzberg Glacier  [body: 417 chars]
+  Q64144541 (switzerland/way/65330336) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q765115 (switzerland/way/65336718) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25636 (switzerland/way/65347666) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117795525 (switzerland/way/65347688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18214370 (switzerland/way/65347694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3108341 (switzerland/way/65347764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q821228 (switzerland/way/65385888) -> matched: Triboldingerbohl  [body: 1816 chars]
+  Q5822805 (switzerland/way/66252960) -> matched: Lai da Rims  [body: 890 chars]
+  Q303215 (switzerland/way/66365872) -> matched: Porchabella Glacier  [body: 796 chars]
+  Q40498773 (switzerland/way/66366344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4940891 (switzerland/way/67057626) -> matched: Bommer Weiher  [body: 238 chars]
+  Q64142742 (switzerland/way/68419822) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110141138 (switzerland/way/68419890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110401970 (switzerland/way/68420150) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134601361 (switzerland/way/68420632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64145164 (switzerland/way/68475354) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2436978 (switzerland/way/68476792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1604671 (switzerland/way/68583756) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1476586 (switzerland/way/68583760) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55504063 (switzerland/way/68583768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q616773 (switzerland/way/69167238) -> matched: Mattenalpsee  [body: 347 chars]
+  Q88864024 (switzerland/way/69197166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64142754 (switzerland/way/69204040) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q666966 (switzerland/way/69204480) -> matched: Biferten Glacier  [body: 377 chars]
+  Q64144573 (switzerland/way/69204766) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1532608 (switzerland/way/69708200) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676730 (switzerland/way/69708298) -> matched: Vorab Glacier  [body: 568 chars]
+  Q64144572 (switzerland/way/69906522) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q670555 (switzerland/way/69988784) -> matched: Albigna Glacier  [body: 321 chars]
+  Q1433503 (switzerland/way/70006040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64145133 (switzerland/way/70340520) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q870347 (switzerland/relation/298565) -> matched: Roseg Glacier  [body: 355 chars]
+  Q676722 (switzerland/relation/298915) -> matched: Palü Glacier  [body: 636 chars]
+  Q674959 (switzerland/relation/29559763) -> matched: Fee Glacier  [body: 2757 chars]
+  Q64142730 (switzerland/way/70543616) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6710850 (switzerland/way/70549444) -> matched: Lämmerensee  [body: 251 chars]
+  Q131322541 (switzerland/way/70549446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q668490 (switzerland/way/70549448) -> matched: Wildstrubel Glacier  [body: 351 chars]
+  Q108582015 (switzerland/way/70549478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364136 (switzerland/way/70556910) -> matched: Parc La Grange  [body: 1778 chars]
+  Q164570 (switzerland/way/70796100) -> matched: Lago Sfundau  [body: 160 chars]
+  Q3825743 (switzerland/way/70797090) -> matched: Lago Nero (Ticino)  [body: 150 chars]
+  Q3363921 (switzerland/way/70811036) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q671611 (switzerland/way/70865920) -> matched: Lac des Taillères  [body: 339 chars]
+  Q134600277 (switzerland/way/71104782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q492714 (switzerland/way/71104948) -> matched: Stausee Ferden  [body: 256 chars]
+  Q6468065 (switzerland/way/71551012) -> matched: Lac du Grand Désert  [body: 196 chars]
+  Q1156734 (switzerland/way/71816170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1339621 (switzerland/way/71908702) -> matched: Ems-Chemie  [body: 9719 chars]
+  Q656674 (switzerland/way/72672374) -> matched: Lago di Lei  [body: 1526 chars]
+  Q30281821 (switzerland/way/73756268) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q220120 (switzerland/way/74017478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5824897 (switzerland/way/74260156) -> matched: Lago di Val Viola  [body: 216 chars]
+  Q10964876 (switzerland/way/74554042) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q206702 (switzerland/way/74691882) -> matched: University of Zurich  [body: 11014 chars]
+  Q288984 (switzerland/way/74696196) -> matched: Etang de la Gruère  [body: 414 chars]
+  Q4856863 (switzerland/way/74833506) -> matched: Bannalpsee  [body: 702 chars]
+  Q1446152 (switzerland/way/75747566) -> matched: Lago di Cama  [body: 196 chars]
+  Q64144546 (switzerland/way/76833232) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q51064147 (switzerland/way/77094608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1537143 (switzerland/way/77465264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2641176 (switzerland/way/77564470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1878385 (switzerland/way/78386988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q660909 (switzerland/way/78543062) -> matched: Sihl  [body: 5961 chars]
+  Q15255 (switzerland/way/79044786) -> matched: Dents du Midi  [body: 19474 chars]
+  Q4950520 (switzerland/relation/447289) -> matched: Boveire Glacier  [body: 299 chars]
+  Q900181 (switzerland/way/82231260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109767969 (switzerland/way/82718910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3108337 (switzerland/relation/262665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15809881 (switzerland/relation/16976679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1615564 (switzerland/way/85484826) -> matched: Konkordiaplatz  [body: 1545 chars]
+  Q204658 (switzerland/way/85484912) -> matched: Aletsch Glacier  [body: 11373 chars]
+  Q33121434 (switzerland/way/86607520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457311 (switzerland/relation/15020161) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66363478 (switzerland/way/90885684) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q121881950 (switzerland/way/91018350) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1728146 (switzerland/way/96918834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2972597 (switzerland/relation/780177) -> matched: Bois-de-Vaux Cemetery  [body: 2255 chars]
+  Q687493 (switzerland/way/98650058) -> matched: Les Eplatures Airport  [body: 1131 chars]
+  Q3145370 (switzerland/way/99422494) -> matched: Geneva University Hospitals  [body: 10215 chars]
+  Q687341 (switzerland/way/99667282) -> matched: Grenchen Airport  [body: 663 chars]
+  Q303431 (switzerland/way/119120988) -> matched: Ufenau  [body: 7129 chars]
+  Q2312588 (switzerland/way/119313548) -> matched: Lago di Tom  [body: 262 chars]
+  Q1555251 (switzerland/way/122220140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4838989 (switzerland/way/125854512) -> matched: Bacino di Val Malvaglia  [body: 375 chars]
+  Q29522278 (switzerland/way/134605454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q854410 (switzerland/way/138848842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108087548 (switzerland/way/142493448) -> matched: Boniswiler-Seenger Ried nature reserve  [body: 640 chars]
+  Q1297750 (switzerland/way/142782162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109647737 (switzerland/way/144479642) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21037200 (switzerland/way/144732982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3895562 (switzerland/way/145785280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29015629 (switzerland/way/146294298) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433625 (switzerland/way/147411904) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4463295 (switzerland/way/150734602) -> matched: Triftsee  [body: 2233 chars]
+  Q671636 (switzerland/way/152744714) -> matched: Lägh dal Lunghin  [body: 257 chars]
+  Q20452949 (switzerland/way/163018346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364265 (switzerland/way/164165986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5825066 (switzerland/way/170944832) -> matched: Waldisee  [body: 379 chars]
+  Q960186 (switzerland/way/175361638) -> matched: Irchelpark  [body: 4920 chars]
+  Q686324 (switzerland/way/178120846) -> matched: Botanical Garden of the University of Zurich  [body: 1086 chars]
+  Q686931 (switzerland/way/185866778) -> matched: Mühleberg Nuclear Power Plant  [body: 10330 chars]
+  Q65602 (switzerland/way/187554398) -> matched: Raperswilen  [body: 7512 chars]
+  Q22619005 (switzerland/way/192873500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2318294 (switzerland/way/193225294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59586381 (switzerland/way/195431430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q492711 (switzerland/way/206854484) -> matched: Illsee  [body: 185 chars]
+  Q68215445 (switzerland/way/207855738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1728109 (switzerland/way/208558050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q771441 (switzerland/way/210668228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3707488 (switzerland/way/211448272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q666423 (switzerland/way/211448658) -> matched: Lago della Sella  [body: 356 chars]
+  Q15057474 (switzerland/way/214762772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q92930833 (switzerland/way/220365910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4946740 (switzerland/way/226288776) -> matched: Bortelsee  [body: 273 chars]
+  Q1401469 (switzerland/way/235893816) -> matched: Basòdino Glacier  [body: 478 chars]
+  Q376008 (switzerland/relation/3284537) -> matched: Lac de Tseuzier  [body: 524 chars]
+  Q5823572 (switzerland/way/241568852) -> matched: Lac de Seedorf  [body: 145 chars]
+  Q677862 (switzerland/relation/3319803) -> matched: Gelmersee  [body: 690 chars]
+  Q492680 (switzerland/relation/3322899) -> matched: Hüttnersee  [body: 267 chars]
+  Q28311707 (switzerland/relation/3339369) -> matched: Centre sportif du Bout-du-Monde  [body: 980 chars]
+  Q16940 (switzerland/relation/3353513) -> matched: Rotsee  [body: 3614 chars]
+  Q1170117 (switzerland/relation/3353507) -> matched: Emmen Air Base  [body: 3633 chars]
+  Q14436 (switzerland/relation/1080689) -> matched: Lake Zug  [body: 2898 chars]
+  Q68447 (switzerland/relation/3364291) -> matched: Humlikon  [body: 2973 chars]
+  Q65789 (switzerland/relation/3364181) -> matched: Bertschikon bei Attikon  [body: 3890 chars]
+  Q67579 (switzerland/relation/3365133) -> matched: Mülchi  [body: 7669 chars]
+  Q67554 (switzerland/relation/3364815) -> matched: Büren zum Hof  [body: 7581 chars]
+  Q67585 (switzerland/relation/3365139) -> matched: Münchringen  [body: 8341 chars]
+  Q66261 (switzerland/relation/3364769) -> matched: Bleiken bei Oberdiessbach  [body: 7764 chars]
+  Q67814 (switzerland/relation/3365071) -> matched: Limpach, Switzerland  [body: 9245 chars]
+  Q66526 (switzerland/relation/3365015) -> matched: Kienersrüti  [body: 2332 chars]
+  Q67603 (switzerland/relation/3364873) -> matched: Etzelkofen  [body: 7942 chars]
+  Q67846 (switzerland/relation/3365303) -> matched: Scheunen  [body: 6119 chars]
+  Q65179 (switzerland/relation/3365481) -> matched: Zwieselberg  [body: 8857 chars]
+  Q65076 (switzerland/relation/3368261) -> matched: Pitasch  [body: 3524 chars]
+  Q69795 (switzerland/relation/3368259) -> matched: Pigniu  [body: 4285 chars]
+  Q64933 (switzerland/relation/3368139) -> matched: Degen, Switzerland  [body: 3356 chars]
+  Q66026 (switzerland/relation/3368133) -> matched: Cumbel  [body: 3089 chars]
+  Q64213 (switzerland/relation/3368183) -> matched: Ilanz  [body: 7272 chars]
+  Q65703 (switzerland/relation/3368333) -> matched: Sevgein  [body: 3024 chars]
+  Q66171 (switzerland/relation/3368375) -> matched: Thusis  [body: 5108 chars]
+  Q65694 (switzerland/relation/3368323) -> matched: Schnaus  [body: 2821 chars]
+  Q65669 (switzerland/relation/3368147) -> matched: Duvin  [body: 2964 chars]
+  Q350960 (switzerland/relation/41936375) -> matched: St. Luzisteig Pass  [body: 1213 chars]
+  Q65716 (switzerland/relation/3368335) -> matched: Siat  [body: 3648 chars]
+  Q66006 (switzerland/relation/3368289) -> matched: Ruschein  [body: 3047 chars]
+  Q65656 (switzerland/relation/3368119) -> matched: Castrisch  [body: 3041 chars]
+  Q65652 (switzerland/relation/3368273) -> matched: Riein  [body: 3122 chars]
+  Q65172 (switzerland/relation/3368109) -> matched: Calfreisen  [body: 2749 chars]
+  Q64443 (switzerland/relation/3368123) -> matched: Cazis  [body: 4354 chars]
+  Q64743 (switzerland/relation/3368197) -> matched: Ladir  [body: 3666 chars]
+  Q66003 (switzerland/relation/3368287) -> matched: Rueun  [body: 3065 chars]
+  Q65674 (switzerland/relation/3368117) -> matched: Castiel, Switzerland  [body: 3085 chars]
+  Q66991 (switzerland/relation/3368835) -> matched: Schinznach-Dorf  [body: 4914 chars]
+  Q67338 (switzerland/relation/3368655) -> matched: Herznach  [body: 7768 chars]
+  Q1478260 (switzerland/relation/41986185) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66492 (switzerland/relation/3368883) -> matched: Ueken  [body: 4903 chars]
+  Q68867 (switzerland/relation/3369929) -> matched: Essertes  [body: 7490 chars]
+  Q68733 (switzerland/relation/3369879) -> matched: Curtilles  [body: 9091 chars]
+  Q70345 (switzerland/relation/3370669) -> matched: Martisberg  [body: 3913 chars]
+  Q68474 (switzerland/relation/3370549) -> matched: Betten  [body: 7357 chars]
+  Q692511 (switzerland/relation/3386191) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q691367 (switzerland/relation/3386431) -> matched: Leimbach (Zürich)  [body: 504 chars]
+  Q433012 (switzerland/relation/3388215) -> matched: Alt-Wiedikon  [body: 266 chars]
+  Q693357 (switzerland/relation/3388217) -> matched: Friesenberg  [body: 2156 chars]
+  Q677133 (switzerland/relation/3388369) -> matched: Aussersihl  [body: 1957 chars]
+  Q870084 (switzerland/relation/3388537) -> matched: Hard (Zurich)  [body: 664 chars]
+  Q693413 (switzerland/relation/3390847) -> matched: Gewerbeschule (Zurich)  [body: 448 chars]
+  Q68515 (switzerland/relation/3371243) -> matched: Pleigne  [body: 7085 chars]
+  Q35155373 (switzerland/way/249766828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q392079 (switzerland/relation/3402943) -> matched: Witikon  [body: 433 chars]
+  Q675017 (switzerland/relation/3388021) -> matched: Wiedikon  [body: 869 chars]
+  Q370104 (switzerland/relation/3388219) -> matched: Sihlfeld  [body: 313 chars]
+  Q80797 (switzerland/relation/3403113) -> matched: Albisrieden  [body: 915 chars]
+  Q456159 (switzerland/relation/3403117) -> matched: District 9 (Zurich)  [body: 236 chars]
+  Q445711 (switzerland/relation/3403115) -> matched: Altstetten (Zurich)  [body: 3449 chars]
+  Q678030 (switzerland/relation/3403163) -> matched: Wipkingen  [body: 734 chars]
+  Q455496 (switzerland/relation/3403161) -> matched: Höngg  [body: 782 chars]
+  Q687052 (switzerland/relation/3390845) -> matched: Escher Wyss (Zürich)  [body: 1152 chars]
+  Q460885 (switzerland/relation/3390849) -> matched: Industriequartier (Zurich)  [body: 836 chars]
+  Q456175 (switzerland/relation/3403165) -> matched: District 10 (Zurich)  [body: 252 chars]
+  Q382903 (switzerland/relation/3404529) -> matched: Affoltern (Zürich)  [body: 1364 chars]
+  Q276792 (switzerland/relation/3404533) -> matched: Seebach (Zürich)  [body: 1393 chars]
+  Q167179 (switzerland/relation/3404531) -> matched: Oerlikon (Zurich)  [body: 5784 chars]
+  Q870098 (switzerland/relation/3403243) -> matched: District 11 (Zurich)  [body: 282 chars]
+  Q1728153 (switzerland/way/250464728) -> matched: Kantonsspital St. Gallen  [body: 677 chars]
+  Q5820044 (switzerland/way/254663540) -> matched: Lac de Lessoc  [body: 294 chars]
+  Q118435738 (switzerland/way/254837686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q693397 (switzerland/relation/3403071) -> matched: Mühlebach (Zürich)  [body: 267 chars]
+  Q14830615 (switzerland/way/262453014) -> matched: Hospital of Cery  [body: 3401 chars]
+  Q2945783 (switzerland/relation/18916235) -> matched: Lausanne University Hospital  [body: 3401 chars]
+  Q680346 (switzerland/relation/233383) -> matched: Mauensee  [body: 349 chars]
+  Q15241262 (switzerland/way/264556220) -> matched: Lago di Chironico  [body: 316 chars]
+  Q14505 (switzerland/way/273294904) -> matched: Lake Sarnen  [body: 757 chars]
+  Q664269 (switzerland/way/273294914) -> matched: Wichelsee  [body: 270 chars]
+  Q5822306 (switzerland/way/274840638) -> matched: Oberstockensee  [body: 5035 chars]
+  Q664496 (switzerland/way/281098572) -> matched: Lake St. Moritz  [body: 2470 chars]
+  Q5824159 (switzerland/way/282066798) -> matched: Steinsee  [body: 214 chars]
+  Q21036902 (switzerland/way/288269284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124464377 (switzerland/way/293259624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q680976 (switzerland/way/296182154) -> matched: Mattmarksee  [body: 2455 chars]
+  Q47144421 (switzerland/way/296182186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364261 (switzerland/way/296790304) -> matched: Parc des Eaux Vives  [body: 2510 chars]
+  Q3247922 (switzerland/way/302183200) -> matched: Garichtisee  [body: 398 chars]
+  Q14465 (switzerland/way/303577978) -> matched: Lake Hallwil  [body: 908 chars]
+  Q1555998 (switzerland/way/310636534) -> matched: Isola Madre  [body: 2167 chars]
+  Q22644953 (switzerland/relation/19747785) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66087939 (switzerland/way/321097268) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29930883 (switzerland/way/322669764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q677934 (switzerland/relation/4385895) -> matched: Räterichsbodensee  [body: 410 chars]
+  Q1728154 (switzerland/way/331571552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q692728 (switzerland/relation/3404655) -> matched: Schwamendingen Mitte  [body: 563 chars]
+  Q693374 (switzerland/relation/3404651) -> matched: Hirzenbach  [body: 357 chars]
+  Q456170 (switzerland/relation/3391319) -> matched: District 6 (Zurich)  [body: 239 chars]
+  Q693483 (switzerland/relation/3391361) -> matched: Oberstrass  [body: 555 chars]
+  Q693269 (switzerland/relation/3401173) -> matched: Fluntern  [body: 465 chars]
+  Q648218 (switzerland/relation/3386429) -> matched: Enge (Zurich)  [body: 1836 chars]
+  Q1093831 (switzerland/relation/3386185) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10987378 (switzerland/relation/3386189) -> matched: Lindenhof  [body: 1761 chars]
+  Q531899 (switzerland/relation/3388541) -> matched: Werd (Zürich)  [body: 804 chars]
+  Q1805410 (switzerland/relation/3388539) -> matched: Langstrasse  [body: 2209 chars]
+  Q67824 (switzerland/relation/3365295) -> matched: Schalunen  [body: 7892 chars]
+  Q67773 (switzerland/relation/3364911) -> matched: Grafenried, Switzerland  [body: 9153 chars]
+  Q67424 (switzerland/relation/3365471) -> matched: Zauggenried  [body: 7231 chars]
+  Q5818835 (switzerland/way/343450420) -> matched: Burgseeli  [body: 315 chars]
+  Q372407 (switzerland/way/345312078) -> matched: Lago di Luzzone  [body: 1643 chars]
+  Q4036405 (switzerland/way/345417556) -> matched: Collège du Léman  [body: 2964 chars]
+  Q14531 (switzerland/way/351293338) -> matched: Lago di Poschiavo  [body: 2948 chars]
+  Q165401 (switzerland/way/358485832) -> matched: Mainau  [body: 8358 chars]
+  Q1934964 (switzerland/way/361718826) -> matched: Dübendorf Air Base  [body: 6945 chars]
+  Q671624 (switzerland/way/362265554) -> matched: Lac des Brenets  [body: 742 chars]
+  Q101135539 (switzerland/way/379436952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q200793 (switzerland/relation/5180511) -> matched: Argentière Glacier  [body: 939 chars]
+  Q137944030 (switzerland/way/396294770) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15836054 (switzerland/way/398546980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16642757 (switzerland/way/401161162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29787004 (switzerland/way/401493918) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64145135 (switzerland/way/402571978) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q76617722 (switzerland/relation/5461139) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q390449 (switzerland/relation/5617601) -> matched: Arnensee  [body: 436 chars]
+  Q676816 (switzerland/way/417853266) -> matched: Lützelsee  [body: 243 chars]
+  Q664253 (switzerland/way/418007520) -> matched: Lej da Vadret  [body: 175 chars]
+  Q2587913 (switzerland/way/418509956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117765380 (switzerland/way/420256632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117763563 (switzerland/way/420256634) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3276905 (switzerland/way/423874474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15110799 (switzerland/way/433703260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1800366 (switzerland/relation/5747759) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65069 (switzerland/relation/3368337) -> matched: Sils im Domleschg  [body: 5475 chars]
+  Q1384428 (switzerland/relation/5636541) -> matched: Zürich Wilderness Park  [body: 2847 chars]
+  Q21880532 (switzerland/way/441925120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5767594 (switzerland/relation/5850339) -> matched: Hinterstockensee  [body: 1756 chars]
+  Q5014887 (switzerland/relation/2555181) -> matched: Lac de Fully  [body: 255 chars]
+  Q861658 (switzerland/way/443972976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20754341 (switzerland/way/444276810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q870046 (switzerland/way/445484364) -> matched: Lac de Moiry  [body: 396 chars]
+  Q15809883 (switzerland/relation/5565639) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5823328 (switzerland/way/453081380) -> matched: Seebergsee  [body: 148 chars]
+  Q18411709 (switzerland/relation/12024827) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5824551 (switzerland/way/453949910) -> matched: Tschingelsee  [body: 190 chars]
+  Q14507 (switzerland/relation/3353747) -> matched: Ägerisee  [body: 654 chars]
+  Q487809 (switzerland/way/460688962) -> matched: Lauenensee  [body: 536 chars]
+  Q14459 (switzerland/relation/5251817) -> matched: Lake Sempach  [body: 800 chars]
+  Q3825766 (switzerland/way/466859420) -> matched: Lago Retico  [body: 115 chars]
+  Q2197933 (switzerland/relation/22074881) -> matched: Paradies Glacier  [body: 309 chars]
+  Q695596 (switzerland/way/478078780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120974195 (switzerland/way/495846624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120974059 (switzerland/way/495846652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120974135 (switzerland/way/495846660) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120974170 (switzerland/way/495846686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2979294 (switzerland/way/509204718) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2352752 (switzerland/way/522738340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2309428 (switzerland/relation/7028855) -> matched: Nussbaumersee  [body: 582 chars]
+  Q7291451 (switzerland/way/524530596) -> matched: Randa rockslides  [body: 11750 chars]
+  Q59406 (switzerland/way/535512338) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64141564 (switzerland/relation/7245983) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q29000962 (switzerland/relation/7245985) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106405518 (switzerland/way/547784810) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q14379182 (switzerland/way/554895584) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433868 (switzerland/way/554898646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15824999 (switzerland/relation/22074879) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6462166 (switzerland/way/576710870) -> matched: La Côte Airfield  [body: 244 chars]
+  Q680375 (switzerland/relation/314803) -> matched: Lac de Salanfe  [body: 634 chars]
+  Q667880 (switzerland/way/579771108) -> matched: Engelberg Abbey  [body: 4587 chars]
+  Q669587 (switzerland/way/580008692) -> matched: Oberaarsee  [body: 541 chars]
+  Q664751 (switzerland/way/580008704) -> matched: Trübtensee  [body: 260 chars]
+  Q476940 (switzerland/relation/3402941) -> matched: Hirslanden  [body: 321 chars]
+  Q693321 (switzerland/relation/3403075) -> matched: Weinegg  [body: 1316 chars]
+  Q57540287 (switzerland/way/587928696) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3936746 (switzerland/way/597099078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64142735 (switzerland/way/599964692) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q97362460 (switzerland/relation/3904689) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q670173 (switzerland/relation/8153871) -> matched: Trübsee  [body: 975 chars]
+  Q26258079 (switzerland/way/619244134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q67891 (switzerland/relation/3367095) -> matched: Lüterswil-Gächliwil  [body: 8313 chars]
+  Q381639 (switzerland/way/627972152) -> matched: Locarno Airport  [body: 3283 chars]
+  Q23021448 (switzerland/way/628072614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q678369 (switzerland/way/635600312) -> matched: Inselspital  [body: 1291 chars]
+  Q5821829 (switzerland/relation/3342993) -> matched: Niederriedsee  [body: 261 chars]
+  Q869868 (switzerland/relation/9140519) -> matched: Trift Glacier  [body: 2121 chars]
+  Q64142753 (switzerland/way/656133504) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3108364 (switzerland/relation/343407) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125807714 (switzerland/way/657095158) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q870058 (switzerland/way/660457474) -> matched: Lac de Bret  [body: 515 chars]
+  Q627122 (switzerland/way/661517770) -> matched: Institut Le Rosey  [body: 15908 chars]
+  Q667539 (switzerland/relation/9276581) -> matched: Damma Glacier  [body: 493 chars]
+  Q669682 (switzerland/relation/4385897) -> matched: Totesee  [body: 1044 chars]
+  Q6472297 (switzerland/way/666272284) -> matched: Lago d'Alzasca  [body: 1443 chars]
+  Q17321472 (switzerland/way/669372920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q664238 (switzerland/relation/9469589) -> matched: Moossee  [body: 407 chars]
+  Q7352122 (switzerland/way/680531946) -> matched: Tschawinersee  [body: 606 chars]
+  Q2728344 (switzerland/relation/10673501) -> matched: Lac de Géronde  [body: 573 chars]
+  Q3108369 (switzerland/relation/10789725) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q681738 (switzerland/way/726359646) -> matched: Lago di Palagnedra  [body: 422 chars]
+  Q64145146 (switzerland/relation/10833623) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q289972 (switzerland/way/728856060) -> matched: Geneva Airport  [body: 14078 chars]
+  Q60692140 (switzerland/relation/10844767) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64142732 (switzerland/relation/10922913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q674503 (switzerland/relation/206977) -> matched: Corbassière Glacier  [body: 902 chars]
+  Q1265072 (switzerland/way/745249448) -> matched: Lauchernalp  [body: 791 chars]
+  Q56876733 (switzerland/way/753135932) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108086384 (switzerland/way/761138128) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q5822456 (switzerland/relation/32382821) -> matched: Lai da Ova Spin  [body: 376 chars]
+  Q1433815 (switzerland/way/769805332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15918296 (switzerland/way/769810596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110654738 (switzerland/way/769816178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q619845 (switzerland/way/769817948) -> matched: Bern Airport  [body: 5483 chars]
+  Q18228298 (switzerland/way/769820808) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q692270 (switzerland/relation/11652015) -> matched: Caumasee  [body: 3250 chars]
+  Q672769 (switzerland/relation/4283517) -> matched: Flachsee  [body: 471 chars]
+  Q120973614 (switzerland/way/789780580) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1707823 (switzerland/way/809941022) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20449689 (switzerland/way/822041164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1257186 (switzerland/way/849486374) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14527 (switzerland/relation/3353167) -> matched: Lake Lungern  [body: 781 chars]
+  Q20452195 (switzerland/way/893885296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433679 (switzerland/way/893921152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5821123 (switzerland/relation/13385273) -> matched: Oberer Murgsee  [body: 384 chars]
+  Q976078 (switzerland/way/909351948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2265740 (switzerland/way/916728130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q689836 (switzerland/way/925757752) -> matched: St. Gallen–Altenrhein Airport  [body: 2811 chars]
+  Q15114 (switzerland/relation/26736059) -> matched: Zurich Airport  [body: 40211 chars]
+  Q664613 (switzerland/relation/13978967) -> matched: Hasensee  [body: 427 chars]
+  Q689321 (switzerland/relation/13978963) -> matched: Hüttwilersee  [body: 367 chars]
+  Q675610 (switzerland/relation/14083499) -> matched: Wägitalersee  [body: 1546 chars]
+  Q672290 (switzerland/way/965370910) -> matched: Katzensee  [body: 294 chars]
+  Q55527146 (switzerland/relation/12819895) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2542677 (switzerland/relation/41601105) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1621359 (switzerland/way/976641266) -> matched: Lag digl Oberst  [body: 141 chars]
+  Q6467964 (switzerland/relation/13483273) -> matched: Lac de Louvie  [body: 395 chars]
+  Q680252 (switzerland/relation/14706049) -> matched: Albigna lake  [body: 614 chars]
+  Q1515399 (switzerland/way/1040511482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124153441 (switzerland/relation/9558311) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1111354 (switzerland/relation/8435175) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64144549 (switzerland/relation/15797683) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q600873 (switzerland/relation/15131089) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q46994580 (switzerland/relation/15867033) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1535635 (switzerland/way/1111890280) -> matched: Triemli Hospital  [body: 1334 chars]
+  Q686800 (switzerland/relation/16176901) -> matched: Beznau Nuclear Power Plant  [body: 13512 chars]
+  Q687422 (switzerland/way/1134854804) -> matched: Gösgen Nuclear Power Plant  [body: 9312 chars]
+  Q281837 (switzerland/relation/16188281) -> matched: Leibstadt Nuclear Power Plant  [body: 2507 chars]
+  Q1651337 (switzerland/way/1194784052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29034861 (switzerland/way/1198004840) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19407210 (switzerland/way/1202260676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122900595 (switzerland/way/1202265780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q257350 (switzerland/way/1202272948) -> matched: Hoch-Ybrig  [body: 1568 chars]
+  Q2438761 (switzerland/way/1202594444) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1688797 (switzerland/way/1202598792) -> matched: Parsenn  [body: 452 chars]
+  Q59945375 (switzerland/way/1202599556) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1728137 (switzerland/way/1203661736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3553403 (switzerland/way/1214750426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1519815 (switzerland/way/1219074284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q450139 (switzerland/way/1224576308) -> matched: University Hospital of Zurich  [body: 2040 chars]
+  Q675554 (switzerland/way/1238086838) -> matched: Königsfelden Monastery  [body: 3196 chars]
+  Q389212 (switzerland/relation/5807101) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105839527 (switzerland/way/1284949936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106211696 (switzerland/way/1284955542) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2404630 (switzerland/relation/17826499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59948635 (switzerland/way/1294935442) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2909004 (switzerland/relation/728077) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108086685 (switzerland/way/1296985704) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1728149 (switzerland/way/1302459506) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63965868 (switzerland/way/1306247708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q688542 (switzerland/relation/18423851) -> matched: St. Peter's Island  [body: 3451 chars]
+  Q577131 (switzerland/way/1343571316) -> matched: Burghölzli  [body: 4008 chars]
+  Q30260556 (switzerland/way/1344237054) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q22409066 (switzerland/way/1344902240) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30260511 (switzerland/way/1345889168) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1728147 (switzerland/way/1345890726) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30260513 (switzerland/way/1347666180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30270433 (switzerland/way/1350383894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1689257 (switzerland/way/1350843892) -> matched: University Hospital of Basel  [body: 1974 chars]
+  Q33121165 (switzerland/way/1350892078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23013010 (switzerland/way/1350981316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12694771 (switzerland/way/1351023524) -> matched: Saanen Airport  [body: 4045 chars]
+  Q30279631 (switzerland/way/1351187658) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q60607340 (switzerland/way/1353015208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23783916 (switzerland/way/1362100312) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16854951 (switzerland/way/1362127940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30254073 (switzerland/way/1363108310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5073159 (switzerland/relation/13385263) -> matched: Chapfensee  [body: 374 chars]
+  Q282014 (switzerland/relation/19412591) -> matched: Veltheim (Winterthur)  [body: 290 chars]
+  Q1699150 (switzerland/relation/19200063) -> matched: Töss  [body: 896 chars]
+  Q2596602 (switzerland/relation/19200065) -> matched: Wülflingen  [body: 484 chars]
+  Q1909327 (switzerland/relation/19426117) -> matched: Mattenbach  [body: 206 chars]
+  Q689876 (switzerland/relation/9243303) -> matched: Burgäschisee  [body: 423 chars]
+  Q18624137 (switzerland/way/1415022936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26831085 (switzerland/relation/313895) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3761688 (switzerland/relation/10788843) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15809880 (switzerland/way/1476678942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56598562 (switzerland/way/1477783050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3571133 (switzerland/way/1501405074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q693610 (switzerland/way/1508532310) -> matched: Flumserberg  [body: 1425 chars]
+  Q16665845 (switzerland/way/1516674290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66881 (switzerland/relation/3368213) -> matched: Luven  [body: 3239 chars]
+  Q667423 (switzerland/way/1522065130) -> matched: Kinderdorf Pestalozzi  [body: 5783 chars]
+  Q693454 (switzerland/relation/3402899) -> matched: Hottingen (Zurich)  [body: 745 chars]
+  Q39240 (switzerland/relation/3386187) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q445559 (switzerland/relation/3386193) -> matched: Altstadt (Zurich)  [body: 12375 chars]
+  Q456149 (switzerland/relation/3400815) -> matched: District 7 (Zurich)  [body: 350 chars]
+  Q14509 (switzerland/relation/21136751) -> matched: Lake Baldegg  [body: 420 chars]
+  Q661389 (switzerland/way/1532740434) -> matched: Lugano Airport  [body: 4319 chars]
+  Q673354 (switzerland/relation/21972951) -> matched: University of St. Gallen  [body: 13319 chars]
+  Q1019638 (switzerland/relation/2548001) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676804 (switzerland/way/1604631856) -> matched: Lac de Cleuson  [body: 666 chars]
+  Q29525726 (switzerland/way/1621246598) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q96621332 (switzerland/way/1643759178) -> matched: Orbe penitentiary complex  [body: 15316 chars]
+  Q668659 (switzerland/relation/23252659) -> matched: Lago di Vogorno  [body: 324 chars]
+  Q20963089 (switzerland/relation/23327969) -> matched: Schweizerhalle  [body: 2348 chars]
+  Q672495 (switzerland/relation/2569335) -> matched: Lago di Livigno  [body: 842 chars]
+  Q14512 (switzerland/relation/8224753) -> matched: Lake Sils  [body: 1846 chars]
+  Q104698649 (switzerland/relation/24332993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15853809 (switzerland/way/1807138206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q758345 (switzerland/way/1822932970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48756885 (switzerland/relation/24766209) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q376077 (switzerland/way/1873043156) -> matched: Lac du Vieux Émosson  [body: 1064 chars]
+  Q676659 (switzerland/relation/3444331) -> matched: Lake Wohlen  [body: 370 chars]
+  Q1618704 (switzerland/way/1889368556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108086415 (switzerland/way/1895181712) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3363816 (switzerland/relation/25821815) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364177 (switzerland/relation/23647563) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47482357 (switzerland/way/1930179330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47488420 (switzerland/way/1931500188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q688624 (switzerland/relation/298561) -> matched: Morteratsch Glacier  [body: 3319 chars]
+  Q676703 (switzerland/relation/298573) -> matched: Tschierva Glacier  [body: 336 chars]
+  Q677751 (switzerland/relation/298913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18195863 (switzerland/way/1933503398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1367065 (switzerland/relation/26103455) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q898089 (switzerland/relation/26278413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2497207 (switzerland/way/1955083188) -> matched: Meiringen Air Base  [body: 3280 chars]
+  Q383633 (switzerland/relation/330829) -> matched: Heidsee  [body: 331 chars]
+  Q108086397 (switzerland/way/1980592164) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q18508926 (switzerland/relation/64735) -> matched: Obersee (Lake Zurich)  [body: 23677 chars]
+  Q682092 (switzerland/way/1994293648) -> matched: Lyceum Alpinum Zuoz  [body: 3496 chars]
+  Q869695 (switzerland/relation/26883759) -> matched: Lago Bianco  [body: 2771 chars]
+  Q108090037 (switzerland/relation/26993787) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q670886 (switzerland/relation/8520619) -> matched: Lorze  [body: 324 chars]
+  Q283171 (switzerland/way/2082218230) -> matched: Centre Sportif de la Charrière  [body: 461 chars]
+  Q21868573 (switzerland/relation/20826327) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21868175 (switzerland/relation/17643193) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676048 (switzerland/relation/27830841) -> matched: Silvretta Glacier  [body: 308 chars]
+  Q762071 (switzerland/relation/28037681) -> matched: Verstancla Glacier  [body: 537 chars]
+  Q110559361 (switzerland/way/2105633300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676605 (switzerland/relation/27780067) -> matched: Forno Glacier  [body: 351 chars]
+  Q2931081 (switzerland/way/2129035636) -> matched: Sportplatz Rheinau  [body: 5926 chars]
+  Q2311218 (switzerland/relation/19277293) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108204340 (switzerland/relation/28839961) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3398300 (switzerland/way/2169303230) -> matched: Port-Noir  [body: 538 chars]
+  Q5818910 (switzerland/relation/26281267) -> matched: Lägh da Cavloc  [body: 725 chars]
+  Q670041 (switzerland/relation/32781291) -> matched: Tsijiore Nouve Glacier  [body: 333 chars]
+  Q222022 (switzerland/relation/4385893) -> matched: Grimselsee  [body: 658 chars]
+  Q1187469 (switzerland/relation/3294907) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64141566 (switzerland/relation/13559855) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3122632 (switzerland/way/2190438968) -> matched: Gymnase intercantonal de la Broye  [body: 877 chars]
+  Q820482 (switzerland/way/2190909228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q687436 (switzerland/way/2202819566) -> matched: Samedan Airport  [body: 2420 chars]
+  Q64142016 (switzerland/relation/262669) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64142736 (switzerland/relation/305869) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7800984 (switzerland/relation/9276585) -> matched: Tiefen Glacier  [body: 292 chars]
+  Q689730 (switzerland/relation/9175875) -> matched: Stein Glacier  [body: 1187 chars]
+  Q64142728 (switzerland/relation/32753053) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q64141563 (switzerland/relation/300393) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12345856 (switzerland/relation/29431517) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q691695 (switzerland/relation/33701189) -> matched: Hüfi Glacier  [body: 353 chars]
+  Q582543 (switzerland/relation/542347) -> matched: Eiger Glacier  [body: 1911 chars]
+  Q108736348 (switzerland/relation/262673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110219730 (switzerland/relation/836127) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q675092 (switzerland/relation/840563) -> matched: Lang Glacier  [body: 362 chars]
+  Q668490 (switzerland/way/2211945580) -> matched: Wildstrubel Glacier  [body: 351 chars]
+  Q64143308 (switzerland/relation/22401351) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q64143916 (switzerland/relation/29453925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6462126 (switzerland/relation/27695241) -> matched: La Cudera  [body: 267 chars]
+  Q1484805 (switzerland/relation/27683911) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6789746 (switzerland/relation/29559659) -> matched: Matterhorn Glacier  [body: 638 chars]
+  Q674665 (switzerland/relation/154501) -> matched: Allalin Glacier  [body: 2730 chars]
+  Q678528 (switzerland/relation/29571307) -> matched: Turtmann Glacier  [body: 608 chars]
+  Q82359 (switzerland/relation/6266925) -> matched: Moiry Glacier  [body: 295 chars]
+  Q382712 (switzerland/relation/29571469) -> matched: Ferpècle Glacier  [body: 371 chars]
+  Q3108379 (switzerland/relation/29571623) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q870017 (switzerland/relation/32786613) -> matched: Giétro Glacier  [body: 3935 chars]
+  Q672259 (switzerland/relation/414561) -> matched: Mont Durand Glacier  [body: 293 chars]
+  Q117790879 (switzerland/relation/29595813) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64142721 (switzerland/relation/383815) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2312361 (switzerland/way/2234310742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q672583 (switzerland/relation/13379707) -> matched: Bettenauer Weiher  [body: 573 chars]
+  Q117792760 (switzerland/relation/6023227) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64142002 (switzerland/relation/29559387) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q664777 (switzerland/relation/3292873) -> matched: Rosenlaui Glacier  [body: 296 chars]
+  Q1615155 (switzerland/way/2251718148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10853529 (switzerland/relation/30140305) -> matched: Neuchâtel Airport  [body: 900 chars]
+  Q12693708 (switzerland/way/2252855574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q206702 (switzerland/relation/21576699) -> matched: University of Zurich  [body: 11014 chars]
+  Q18473 (switzerland/relation/3381517) -> matched: Zuchwil  [body: 10674 chars]
+  Q691134 (switzerland/relation/7269997) -> matched: Drusenfluh  [body: 1316 chars]
+  Q2319576 (switzerland/way/2302207254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q570220 (switzerland/relation/10709873) -> matched: Justizvollzugsanstalt Witzwil  [body: 2856 chars]
+  Q14497 (switzerland/relation/3356693) -> matched: Greifensee (lake)  [body: 2101 chars]
+  Q61355694 (switzerland/way/2336413594) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1257176 (switzerland/way/2346446292) -> matched: Drei Türme  [body: 387 chars]
+  Q1257176 (switzerland/way/2346473378) -> matched: Drei Türme  [body: 387 chars]
+  Q26898690 (switzerland/relation/3339545) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108204279 (switzerland/relation/32582029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q670622 (switzerland/relation/3074413) -> matched: Schiffenensee  [body: 282 chars]
+  Q82923522 (switzerland/relation/33065669) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q738365 (switzerland/relation/5245855) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q870030 (switzerland/relation/36007319) -> matched: Plaine Morte Glacier  [body: 1021 chars]
+  Q14547435 (switzerland/way/2452036880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q680864 (switzerland/relation/5354707) -> matched: Klingnauer Stausee  [body: 441 chars]
+  Q44112476 (switzerland/relation/32798161) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20012468 (switzerland/way/2484512806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1934947 (switzerland/way/2491609400) -> matched: Alpnach Air Base  [body: 3101 chars]
+  Q1728130 (switzerland/relation/4568549) -> matched: Kantonsschule Solothurn  [body: 2238 chars]
+  Q354663 (switzerland/relation/11372767) -> matched: Au Peninsula  [body: 5733 chars]
+  Q2311339 (switzerland/relation/31157073) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q390468 (switzerland/relation/35382751) -> matched: Lac de Pérolles  [body: 481 chars]
+  Q3301689 (switzerland/relation/2134985) -> matched: Lac de Champex  [body: 191 chars]
+  Q672939 (switzerland/relation/19260759) -> matched: Arolla Glacier  [body: 1809 chars]
+  Q14472 (switzerland/relation/780643) -> matched: Lac de Joux  [body: 570 chars]
+  Q1499910 (switzerland/relation/4793541) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25388448 (switzerland/relation/4793549) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1604793 (switzerland/relation/35813983) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27863883 (switzerland/relation/6298235) -> matched: Nayes (Vouvry, Switzerland)  [body: 107 chars]
+  Q1729821 (switzerland/way/2618970682) -> matched: Swiss National Stud Farm  [body: 8574 chars]
+  Q668852 (switzerland/relation/6218643) -> matched: Hinterrhein (river)  [body: 2700 chars]
+  Q386202 (switzerland/relation/183523) -> matched: Ried Glacier  [body: 398 chars]
+  Q1114844 (switzerland/relation/29724365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1367574 (switzerland/relation/300277) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q127600765 (switzerland/relation/29748397) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4940891 (switzerland/way/2646253828) -> matched: Bommer Weiher  [body: 238 chars]
+  Q691040 (switzerland/relation/36453805) -> matched: Moming Glacier  [body: 307 chars]
+  Q64142722 (switzerland/way/2660244858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15849287 (switzerland/relation/36705387) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q667249 (switzerland/relation/2563937) -> matched: Lac de Montsalvens  [body: 921 chars]
+  Q676671 (switzerland/relation/3427809) -> matched: Sense (river)  [body: 944 chars]
+  Q68573 (switzerland/relation/3366651) -> matched: Gletterens  [body: 9531 chars]
+  Q42944 (switzerland/relation/54011) -> matched: CERN  [body: 35837 chars]
+  Q109717639 (switzerland/way/2720139068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1302497 (switzerland/way/2723461670) -> matched: Swiss Federal Institute for Forest, Snow and Landscape Research  [body: 8087 chars]
+  Q108089161 (switzerland/relation/840559) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q668583 (switzerland/relation/305865) -> matched: Tschingel Glacier  [body: 294 chars]
+  Q70248 (switzerland/relation/3370187) -> matched: Paudex  [body: 9907 chars]
+  Q69697 (switzerland/relation/3370079) -> matched: Lutry  [body: 21333 chars]
+  Q492704 (switzerland/relation/12870277) -> matched: Tannensee  [body: 454 chars]
+  Q675997 (switzerland/relation/29557165) -> matched: Melchsee  [body: 357 chars]
+  Q14444 (switzerland/relation/5233005) -> matched: Walensee  [body: 3688 chars]
+  Q687392 (switzerland/way/2751709682) -> matched: Lausanne Airfield  [body: 2069 chars]
+  Q1341754 (switzerland/relation/18474685) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5819787 (switzerland/relation/96573) -> matched: Husemersee  [body: 430 chars]
+  Q134599536 (switzerland/way/2780950808) -> matched: 2025 Blatten glacier collapse  [body: 19996 chars]
+  Q134599536 (switzerland/way/2782043374) -> matched: 2025 Blatten glacier collapse  [body: 19996 chars]
+  Q1675 (switzerland/relation/121249) -> matched: Aare  [body: 8298 chars]
+  Q64145130 (switzerland/relation/38433675) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q112157702 (switzerland/relation/29571625) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q618666 (switzerland/relation/414937) -> matched: Valsorey Glacier  [body: 303 chars]
+  Q1521404 (switzerland/relation/262677) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q674490 (switzerland/way/2786258478) -> matched: Saleina Glacier  [body: 624 chars]
+  Q676064 (switzerland/relation/3292875) -> matched: Gauli Glacier  [body: 694 chars]
+  Q18402586 (switzerland/relation/3294913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q691681 (switzerland/relation/2248515) -> matched: Upper Grindelwald Glacier  [body: 732 chars]
+  Q122794428 (switzerland/relation/836131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q691780 (switzerland/relation/29571471) -> matched: Mont Miné Glacier  [body: 363 chars]
+  Q674545 (switzerland/way/2789581574) -> matched: Otemma Glacier  [body: 624 chars]
+  Q691749 (switzerland/relation/36080729) -> matched: Findel Glacier  [body: 1229 chars]
+  Q665077 (switzerland/relation/29559497) -> matched: Gorner Glacier  [body: 3904 chars]
+  Q2321467 (switzerland/relation/213463) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q670568 (switzerland/relation/38519267) -> matched: Brenay Glacier  [body: 348 chars]
+  Q108577039 (switzerland/relation/262663) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q589143 (switzerland/relation/570141) -> matched: Fiescher Glacier  [body: 1441 chars]
+  Q691650 (switzerland/relation/2203063) -> matched: Oberaletsch Glacier  [body: 1358 chars]
+  Q674782 (switzerland/relation/2171693) -> matched: Mittelaletsch Glacier  [body: 309 chars]
+  Q5594527 (switzerland/relation/38643533) -> matched: Grand Désert  [body: 322 chars]
+  Q135236711 (switzerland/relation/6096583) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q667461 (switzerland/relation/38752455) -> matched: Gries Glacier  [body: 3111 chars]
+  Q1354296 (switzerland/relation/26828821) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q659044 (switzerland/relation/9276583) -> matched: Rhône Glacier  [body: 2978 chars]
+  Q688846 (switzerland/relation/10022333) -> matched: Sihlsee  [body: 1617 chars]
+  Q11942 (switzerland/relation/18758355) -> matched: ETH Zurich  [body: 19182 chars]
+  Q22565335 (switzerland/relation/17376389) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q869868 (switzerland/relation/9140517) -> matched: Trift Glacier  [body: 2121 chars]
+  Q492680 (switzerland/way/2869765078) -> matched: Hüttnersee  [body: 267 chars]
+  Q1728138 (switzerland/way/2871020812) -> matched: Kantonsschule Zürcher Unterland  [body: 207 chars]
+  Q3215563 (switzerland/relation/6211855) -> matched: Lac de Taney  [body: 551 chars]
+  Q113904789 (switzerland/relation/18673431) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676671 (switzerland/relation/21541673) -> matched: Sense (river)  [body: 944 chars]
+  Q652455 (switzerland/relation/3404653) -> matched: Saatlen  [body: 4577 chars]
+  Q657525 (switzerland/relation/3403245) -> matched: Schwamendingen  [body: 1843 chars]
+  Q104640365 (switzerland/way/2905128364) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21512634 (switzerland/relation/40162153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32290503 (switzerland/way/2937232428) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q677516 (switzerland/relation/16448553) -> matched: Geneva Botanical Garden  [body: 7055 chars]
+  Q110896084 (switzerland/relation/39701949) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14518 (switzerland/relation/40111) -> matched: Lake Lauerz  [body: 3165 chars]
+  Q642353 (switzerland/relation/3386433) -> matched: Wollishofen  [body: 2062 chars]
+  Q456153 (switzerland/relation/3386291) -> matched: District 2 (Zurich)  [body: 175 chars]
+  Q677710 (switzerland/relation/3402951) -> matched: Riesbach  [body: 2225 chars]
+  Q692773 (switzerland/relation/3403073) -> matched: Seefeld (Zürich)  [body: 2707 chars]
+  Q319431 (switzerland/relation/20607935) -> matched: Tägermoos  [body: 15251 chars]
+  Q29000958 (switzerland/relation/840555) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29000965 (switzerland/relation/8108829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676628 (switzerland/relation/305867) -> matched: Kander Neve  [body: 720 chars]
+  Q21871399 (switzerland/relation/5651429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q680900 (switzerland/relation/7216283) -> matched: Lac de l'Hongrin  [body: 759 chars]
+  Q682189 (switzerland/relation/2565513) -> matched: Lake of Gruyère  [body: 1060 chars]
+  Q671274 (switzerland/relation/22375647) -> matched: Lac de Moron  [body: 510 chars]
+  Q14448 (switzerland/relation/797661) -> matched: Lake Morat  [body: 1211 chars]
+  Q14429 (switzerland/relation/3721921) -> matched: Lake Biel  [body: 2716 chars]
+  Q595629 (switzerland/relation/26179409) -> matched: Lac de Mauvoisin  [body: 790 chars]
+  Q675238 (switzerland/relation/4265905) -> matched: Schwarzsee  [body: 799 chars]
+  Q3895441 (switzerland/relation/2717537) -> matched: Parco Spina Verde di Como  [body: 14371 chars]
+  Q3128583 (switzerland/relation/29270857) -> matched: School of Business and Engineering Vaud  [body: 2596 chars]
+  Q65897 (switzerland/relation/3368891) -> matched: Unterendingen  [body: 5277 chars]
+  Q666439 (switzerland/relation/28053965) -> matched: Lake Cadagno  [body: 2764 chars]
+  Q14515 (switzerland/relation/11896987) -> matched: Lake Silvaplana  [body: 1523 chars]
+  Q14442 (switzerland/relation/3343235) -> matched: Lake Brienz  [body: 2723 chars]
+  Q67493 (switzerland/relation/3365789) -> matched: Marbach, Lucerne  [body: 4611 chars]
+  Q1520233 (switzerland/relation/6650745) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q687463 (switzerland/way/3058667370) -> matched: Sion Airport  [body: 2523 chars]
+  Q3034609 (switzerland/relation/41963313) -> matched: Lac du Vernex  [body: 327 chars]
+  Q2098347 (switzerland/way/3062354102) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14338 (switzerland/relation/3197199) -> matched: Limmat  [body: 3350 chars]
+
+wrote 470 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/switzerland_wikidata.parquet
+wrote 470 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/switzerland_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/switzerland_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/switzerland_wikidata_map.png
+  rows=470 geometry_missing=0 bodies=470 jsonl=470 map_html=677777B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['switzerland']
+  failed:    0 -> []
+
+=== union ===
+unioned 33 countries -> 4946 rows
+[02:28:16] union
+unioned 33 countries -> 4946 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[02:28:23] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 136 files.
+Finished hashing 136 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 54 files]                : 100%|██████████| 20.6MB / 20.6MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 64)    :  51%|█████▏    | 22.2MB / 43.1MB, 27.7MB/s  
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...herlands_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...herlands_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...herlands_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  10%|█         | 2.22MB / 21.4MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 68)    :  56%|█████▌    | 24.0MB / 43.1MB, 17.1MB/s  
+New Data Upload               :   3%|▎         |  524kB / 19.7MB,  374kB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   9%|▉         | 1.76MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   3%|▎         | 4.19kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet:   3%|▎         | 49.9kB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png:   3%|▎         | 3.83kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  14%|█▍        | 2.69MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   8%|▊         | 12.6kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet:   8%|▊         |  150kB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png:   8%|▊         | 11.5kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 68)    :  58%|█████▊    | 25.0MB / 43.1MB, 13.9MB/s  
+New Data Upload               :   8%|▊         | 1.57MB / 19.7MB,  874kB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  34%|███▍      | 6.42MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  29%|██▉       | 46.1kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet:  29%|██▉       |  549kB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png:  29%|██▉       | 42.2kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 68)    :  68%|██████▊   | 29.2MB / 43.1MB, 14.6MB/s  
+New Data Upload               :  29%|██▉       | 5.77MB / 19.7MB, 2.88MB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  64%|██████▍   | 12.0MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  61%|██████▏   | 96.4kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet:  61%|██████▏   | 1.15MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png:  61%|██████▏   | 88.2kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 68)    :  82%|████████▏ | 35.5MB / 43.1MB, 16.1MB/s  
+New Data Upload               :  61%|██████▏   | 12.1MB / 19.7MB, 5.49MB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▊| 18.5MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  155kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet:  99%|█████████▊| 1.85MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png:  99%|█████████▊|  142kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 68)    :  99%|█████████▉| 42.8MB / 43.1MB, 17.9MB/s  
+New Data Upload               :  99%|█████████▊| 19.4MB / 19.7MB, 8.09MB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▊| 18.5MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  155kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet:  99%|█████████▊| 1.85MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png:  99%|█████████▊|  142kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▊| 18.5MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▊|  155kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet:  99%|█████████▊| 1.85MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png:  99%|█████████▊|  142kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 18.8MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (68 / 68)    : 100%|██████████| 43.1MB / 43.1MB, 14.4MB/s  
+New Data Upload               : 100%|██████████| 19.7MB / 19.7MB, 6.56MB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 18.8MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 18.8MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 18.8MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 18.8MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 18.8MB / 18.8MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (68 / 68)    : 100%|██████████| 43.1MB / 43.1MB, 11.3MB/s  
+New Data Upload               : 100%|██████████| 19.7MB / 19.7MB, 5.18MB/s  
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+  ...herlands_wikidata.parquet: 100%|██████████|  661kB /  661kB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 18.8MB / 18.8MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            
+Removing 129 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/36baf70eeeeb84d2c3070ffb28407c7147b22b61
+[02:28:38] DONE switzerland

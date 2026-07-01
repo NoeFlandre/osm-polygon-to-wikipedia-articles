@@ -1,0 +1,80 @@
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 14400s
+
+=== poland ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/poland.parquet
+pre-filter (--only-wikidata): 133 -> 45 rows
+
+45 polygons with wikidata=*
+  matched:           2
+  no en sitelink:    43
+  no sitelinks:      0
+  Q10970331 (poland/way/8384562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11734616 (poland/way/8385270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726783 (poland/way/8386572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726681 (poland/way/8386574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726367 (poland/way/8386598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9395788 (poland/way/8389398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9373355 (poland/way/8389402) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9397164 (poland/way/8389406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9347030 (poland/way/8390824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726471 (poland/way/8390872) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1409002 (poland/way/8637216) -> matched: Wisłoujście Fortress  [body: 4093 chars]
+  Q11726103 (poland/way/8698916) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9394009 (poland/way/8698922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11721160 (poland/way/8698924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726875 (poland/way/9520422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726563 (poland/way/9520466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726565 (poland/way/9520468) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9373381 (poland/way/9627078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726272 (poland/way/9627080) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11800875 (poland/way/9627082) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11763175 (poland/way/9627086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726405 (poland/way/9627088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726816 (poland/way/9627092) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9208286 (poland/way/9627094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726281 (poland/way/9627098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11780348 (poland/way/9627106) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726305 (poland/way/9627110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9325895 (poland/way/9627118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q148026 (poland/way/9641876) -> matched: Lake Żarnowiec  [body: 346 chars]
+  Q11726701 (poland/way/9641884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9181908 (poland/way/9641890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11689101 (poland/way/9641898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9170396 (poland/way/9641900) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11772176 (poland/way/9641922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11740434 (poland/way/9641924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726364 (poland/way/9641934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726133 (poland/way/9641940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11727016 (poland/way/9641944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9388476 (poland/way/9641956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1688789 (poland/way/9641970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11734600 (poland/way/9641974) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726663 (poland/way/9641980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726406 (poland/way/9641982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726557 (poland/way/9641992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11752122 (poland/way/9641994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 2 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/poland_wikidata.parquet
+wrote 2 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/poland_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/poland_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/poland_wikidata_map.png
+  rows=2 geometry_missing=0 bodies=2 jsonl=2 map_html=6877B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['poland']
+  failed:    0 -> []
+
+=== union ===
+unioned 46 countries -> 31080 rows
+
+=== push to HF ===
+Found 188 files to upload
+Uploading... 188/188 files checked, 0/0 uploaded (0.00B transferred), 0 committed in 0 commit(s)
+[32m✓ Uploaded[0m
+  url: https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/7f4c4fe4fe3907ec335f60693e9f9f64775b1281
+uploaded to https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles
+EXIT=0

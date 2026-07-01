@@ -1,0 +1,15 @@
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 27
+per-step timeout: 600s
+
+=== moldova ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/moldova.parquet
+pre-filter (--only-wikidata): 35690 -> 816 rows
+  timeout after 600s, killing process group 24350
+  !! match timed out after 600s, skipping moldova
+  (skipped: no matches for moldova)
+
+=== estonia ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/estonia.parquet
+pre-filter (--only-wikidata): 47160 -> 1125 rows

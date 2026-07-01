@@ -1,0 +1,1910 @@
+[02:28:38] === portugal ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== portugal ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/portugal.parquet
+wrote 66287 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/portugal.parquet
+pre-filter (--only-wikidata): 66287 -> 747 rows
+
+747 polygons with wikidata=*
+  matched:           205
+  no en sitelink:    424
+  no sitelinks:      118
+  Q10352616 (portugal/way/16272068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49641969 (portugal/way/22552954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3325030 (portugal/way/22552996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332742 (portugal/way/22576440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49641998 (portugal/way/22622216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1053347 (portugal/way/27062520) -> matched: Agramonte Cemetery  [body: 2626 chars]
+  Q10345496 (portugal/way/27242898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q943743 (portugal/way/27605738) -> matched: Porto Airport  [body: 4919 chars]
+  Q30592901 (portugal/way/28654912) -> matched: Cemetery of Prado do Repouso  [body: 3535 chars]
+  Q99534449 (portugal/way/39282862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66942450 (portugal/way/45931818) -> matched: Botanical Garden of the University of Coimbra  [body: 4625 chars]
+  Q10376492 (portugal/relation/19959249) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1584266 (portugal/relation/19956067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378568 (portugal/relation/14774449) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7455252 (portugal/relation/9657875) -> matched: Serra do Açor Protected Landscape  [body: 170 chars]
+  Q5171884 (portugal/relation/19624327) -> matched: Corno do Bico Protected Landscape  [body: 574 chars]
+  Q105708687 (portugal/way/49392094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1658454 (portugal/way/49592308) -> matched: Cal Islet  [body: 1920 chars]
+  Q2273637 (portugal/way/53557252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1800480 (portugal/way/53588084) -> matched: Lagoa do Fogo  [body: 6219 chars]
+  Q1475035 (portugal/way/53588148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2303252 (portugal/way/53893852) -> matched: Porto Santo Golfe  [body: 972 chars]
+  Q1425158 (portugal/way/54062568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7684407 (portugal/way/54532574) -> matched: Tapada Nacional de Mafra  [body: 1303 chars]
+  Q54950305 (portugal/way/54533088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7401585 (portugal/way/59838518) -> matched: St. Julian's School  [body: 4397 chars]
+  Q70103694 (portugal/way/65002126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10356386 (portugal/way/71081928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10298549 (portugal/way/72724664) -> matched: University Hospital of São João  [body: 5060 chars]
+  Q1053349 (portugal/way/72756388) -> matched: Alto de São João Cemetery  [body: 1758 chars]
+  Q5428834 (portugal/way/73958454) -> matched: Faculdade de Engenharia da Universidade do Porto  [body: 8707 chars]
+  Q5428828 (portugal/way/73958458) -> matched: Faculdade de Desporto da Universidade do Porto  [body: 8707 chars]
+  Q10279431 (portugal/way/73958862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134544657 (portugal/way/80432034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345387 (portugal/way/81302720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1054260 (portugal/way/85291592) -> matched: Colombo Centre  [body: 2479 chars]
+  Q16485646 (portugal/way/93663856) -> matched: Maia Airport  [body: 315 chars]
+  Q43562577 (portugal/way/95832432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104977820 (portugal/way/98577932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104832616 (portugal/way/98585284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18708184 (portugal/way/102363396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q70103428 (portugal/way/104580690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13428010 (portugal/way/104860282) -> matched: NOVA School of Science and Technology  [body: 1049 chars]
+  Q10345378 (portugal/way/106162464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43563904 (portugal/way/106308944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332130 (portugal/way/108296434) -> matched: Aire Range Dinosaur Tracks Natural Monument  [body: 2097 chars]
+  Q10298450 (portugal/way/109329390) -> matched: Hospital Pulido Valente  [body: 4057 chars]
+  Q112287222 (portugal/way/109450492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2645332 (portugal/way/109509442) -> matched: Lisbon University Stadium  [body: 2787 chars]
+  Q10356349 (portugal/relation/33072023) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30265221 (portugal/way/111007756) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7237792 (portugal/way/111410996) -> matched: Praia de Monte Clérigo  [body: 3465 chars]
+  Q10279390 (portugal/relation/9325619) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5141518 (portugal/way/115743236) -> matched: Coimbra University Stadium  [body: 875 chars]
+  Q49324000 (portugal/way/124151770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10298545 (portugal/way/143143968) -> matched: Hospital de Santa Maria  [body: 750 chars]
+  Q10305780 (portugal/way/147106808) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96901148 (portugal/way/153287546) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2627029 (portugal/way/154689114) -> matched: Sanctuary of Fátima  [body: 13432 chars]
+  Q10352674 (portugal/way/156864858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1728528 (portugal/way/159007970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352627 (portugal/way/159008374) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49323888 (portugal/way/159019802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16496934 (portugal/way/186509278) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1636837 (portugal/way/187527550) -> matched: Instituto Superior Técnico  [body: 21360 chars]
+  Q3246881 (portugal/way/191889218) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q724325 (portugal/way/193851386) -> matched: Choupal National Forest  [body: 2226 chars]
+  Q1752037 (portugal/way/197375594) -> matched: Praia da Rocha  [body: 1312 chars]
+  Q2054026 (portugal/relation/14234965) -> matched: Bela Vista Park  [body: 1132 chars]
+  Q9626783 (portugal/way/208212880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q570236 (portugal/way/209322236) -> matched: Circuito Vasco Sameiro  [body: 870 chars]
+  Q381428 (portugal/way/210085818) -> matched: Portimão Airport  [body: 1351 chars]
+  Q474928 (portugal/way/213762074) -> matched: Citânia de Sanfins  [body: 2413 chars]
+  Q6954477 (portugal/way/216081924) -> matched: NKT A/S  [body: 3762 chars]
+  Q10353229 (portugal/way/220309884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1453603 (portugal/way/220461118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49330746 (portugal/way/224225906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7695247 (portugal/way/229698478) -> matched: Tejo Energia  [body: 378 chars]
+  Q17372973 (portugal/way/230113982) -> matched: St. John de Britto College  [body: 777 chars]
+  Q10302634 (portugal/way/236895210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1144599 (portugal/way/243436636) -> matched: Ilhéu de Cima (Porto Santo)  [body: 874 chars]
+  Q66942507 (portugal/way/244156440) -> matched: Conímbriga  [body: 12793 chars]
+  Q10344933 (portugal/way/244927246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1566473 (portugal/relation/2893179) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q284107 (portugal/way/253526420) -> matched: Monte Real Air Base  [body: 5611 chars]
+  Q1162245 (portugal/way/258771192) -> matched: Terra Nostra Park  [body: 1899 chars]
+  Q1461089 (portugal/way/260171754) -> matched: University of the Azores  [body: 7096 chars]
+  Q223450 (portugal/way/266321394) -> matched: Vitória S.C.  [body: 15805 chars]
+  Q1354682 (portugal/way/266487258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1800454 (portugal/way/266487262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q639161 (portugal/way/267581576) -> matched: Madeira Airport  [body: 9530 chars]
+  Q10358596 (portugal/way/268558260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3552612 (portugal/way/268727088) -> matched: Stellantis Mangualde Plant  [body: 3822 chars]
+  Q10345492 (portugal/way/273239086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1630433 (portugal/way/276516370) -> matched: Hospital Curry Cabral  [body: 3954 chars]
+  Q9720561 (portugal/way/276716026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9643896 (portugal/way/282393858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16496200 (portugal/way/282663164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345445 (portugal/way/283407994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20059202 (portugal/way/285559130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5150411 (portugal/way/285893774) -> matched: Colégio Militar  [body: 4049 chars]
+  Q10274444 (portugal/way/286419680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19391970 (portugal/way/289426656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134310898 (portugal/way/289805764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106547286 (portugal/way/290240556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12396921 (portugal/way/290417754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34918735 (portugal/relation/3369207) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10358603 (portugal/way/293178128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114210266 (portugal/way/293520334) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q76461052 (portugal/way/293614446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65275437 (portugal/way/293766168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2107562 (portugal/way/295454892) -> matched: Praia do Guincho  [body: 2569 chars]
+  Q12692602 (portugal/way/303457818) -> matched: Espinho Airfield  [body: 768 chars]
+  Q10358584 (portugal/way/303457868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q381808 (portugal/way/305915874) -> matched: Coimbra Airfield  [body: 829 chars]
+  Q18479143 (portugal/way/306722360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345167 (portugal/way/307208162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10327250 (portugal/way/307211196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10313929 (portugal/way/308680682) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1509127 (portugal/way/308737770) -> matched: Miróbriga  [body: 8664 chars]
+  Q49215387 (portugal/relation/4158485) -> matched: Boquilobo Bog Natural Reserve  [body: 1660 chars]
+  Q93887787 (portugal/way/309371576) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345389 (portugal/way/309498820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q39676063 (portugal/way/310418774) -> matched: Cascais Marina  [body: 2719 chars]
+  Q10298390 (portugal/way/312899470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352764 (portugal/way/314928876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4206742 (portugal/relation/19766111) -> matched: Cabras Islets  [body: 6530 chars]
+  Q4206742 (portugal/relation/19856459) -> matched: Cabras Islets  [body: 6530 chars]
+  Q789427 (portugal/way/315701150) -> matched: Algarve International Circuit  [body: 8885 chars]
+  Q4738326 (portugal/way/315777134) -> matched: Alvito Dam  [body: 330 chars]
+  Q63378415 (portugal/relation/19850141) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4376512 (portugal/way/320920252) -> matched: Praia Islet  [body: 3816 chars]
+  Q4075791 (portugal/way/320920254) -> matched: Baixo Islet  [body: 3135 chars]
+  Q10318915 (portugal/way/320979278) -> matched: Lisnave  [body: 599 chars]
+  Q18473818 (portugal/way/322634338) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10358587 (portugal/way/324653914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433295 (portugal/way/325025628) -> matched: Évora Airport  [body: 1297 chars]
+  Q17512353 (portugal/way/325099114) -> matched: Montargil Airfield  [body: 591 chars]
+  Q970789 (portugal/way/325383968) -> matched: Ilhéu Chão  [body: 1181 chars]
+  Q2131688 (portugal/relation/19801039) -> matched: Deserta Grande Island  [body: 1613 chars]
+  Q2274604 (portugal/relation/19801033) -> matched: Bugio Island  [body: 680 chars]
+  Q9630884 (portugal/way/329888074) -> matched: Arsenal do Alfeite  [body: 2668 chars]
+  Q29673 (portugal/way/331127962) -> matched: University of Minho  [body: 1982 chars]
+  Q10352554 (portugal/way/337481908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345119 (portugal/way/339125238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12693964 (portugal/way/339799542) -> matched: Mirandela Aerodrome  [body: 619 chars]
+  Q18470009 (portugal/relation/4540653) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1800473 (portugal/way/347546966) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345523 (portugal/relation/32328537) -> matched: Pope Francis Park  [body: 1005 chars]
+  Q10306238 (portugal/way/350347948) -> matched: Gulbenkian Park  [body: 3160 chars]
+  Q35724693 (portugal/way/351929738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q392754 (portugal/way/358838410) -> matched: Nova School of Business and Economics  [body: 2266 chars]
+  Q2448665 (portugal/way/361274282) -> matched: Landscape of the Pico Island Vineyard Culture  [body: 2291 chars]
+  Q8778882 (portugal/way/361379880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10292766 (portugal/way/362466510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q972271 (portugal/way/362839882) -> matched: São Jacinto Airfield  [body: 2669 chars]
+  Q113323902 (portugal/way/362883104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29673 (portugal/way/364182876) -> matched: University of Minho  [body: 1982 chars]
+  Q10356373 (portugal/way/365039848) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345220 (portugal/way/365874490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q667001 (portugal/way/366153228) -> matched: Faro Airport  [body: 5043 chars]
+  Q2948568 (portugal/relation/10732069) -> matched: Field Firing Range of Alcochete  [body: 8940 chars]
+  Q1431074 (portugal/way/366728998) -> matched: Chaves Airfield  [body: 273 chars]
+  Q6041456 (portugal/way/366828006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1369698 (portugal/way/367500558) -> matched: ENVC Shipyard  [body: 3989 chars]
+  Q1430976 (portugal/way/368318138) -> matched: Bragança Airport  [body: 724 chars]
+  Q107337220 (portugal/way/368549940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18695714 (portugal/way/369017020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1094262 (portugal/way/369638966) -> matched: Citânia de Briteiros  [body: 11105 chars]
+  Q32751286 (portugal/way/370412986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43551868 (portugal/way/376933208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6906023 (portugal/way/379539656) -> matched: Montijo Air Base  [body: 3100 chars]
+  Q17117544 (portugal/way/387797880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109414618 (portugal/way/388757056) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30257097 (portugal/way/389211738) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q14202152 (portugal/way/391958990) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19423980 (portugal/way/391989614) -> matched: Military and Technical Training Center of the Air Force  [body: 3790 chars]
+  Q49324189 (portugal/way/395062824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2945331 (portugal/way/401371666) -> matched: Academia Cristiano Ronaldo  [body: 2468 chars]
+  Q76005198 (portugal/way/404429772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49324027 (portugal/way/406056190) -> matched: Praia de Vale Furado  [body: 552 chars]
+  Q10274375 (portugal/way/408471906) -> matched: Escola Superior Náutica Infante Dom Henrique  [body: 9127 chars]
+  Q20055490 (portugal/way/415047282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352531 (portugal/way/416209600) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20059448 (portugal/way/416224886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49323850 (portugal/way/416229504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q445864 (portugal/way/416252580) -> matched: Vista Alegre (company)  [body: 3802 chars]
+  Q5248579 (portugal/way/416523458) -> matched: Vila Real Airport  [body: 526 chars]
+  Q97164427 (portugal/relation/29358927) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9686167 (portugal/way/418587100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10302638 (portugal/way/429513894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10283308 (portugal/way/445356956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q304257 (portugal/way/455915204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11855078 (portugal/way/462781170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25420286 (portugal/way/465311272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7232604 (portugal/way/473523098) -> matched: Portuguese Air Force Academy  [body: 5487 chars]
+  Q16900252 (portugal/way/473523100) -> matched: Sintra Air Base  [body: 3324 chars]
+  Q2388241 (portugal/way/477502460) -> matched: Taguspark  [body: 2356 chars]
+  Q29671 (portugal/way/481030376) -> matched: University of Aveiro  [body: 10360 chars]
+  Q133296199 (portugal/way/482194016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q693243 (portugal/way/489110724) -> matched: Machico, Madeira  [body: 9366 chars]
+  Q10306385 (portugal/way/489199294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431046 (portugal/way/517525920) -> matched: Cascais Municipal Aerodrome  [body: 2374 chars]
+  Q10356408 (portugal/way/537973162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24002402 (portugal/way/551716922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8771527 (portugal/way/558038322) -> matched: Eburobrittium  [body: 647 chars]
+  Q63378401 (portugal/relation/19840057) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q92206051 (portugal/way/571651148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34763275 (portugal/way/578119896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49323960 (portugal/way/578404872) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345419 (portugal/way/593263844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34757146 (portugal/way/593548288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345507 (portugal/way/600148732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10356319 (portugal/way/602213776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3695282 (portugal/way/603705928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10298528 (portugal/way/619211764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1655080 (portugal/way/629198720) -> matched: Beja Airport  [body: 2947 chars]
+  Q5014565 (portugal/way/645919776) -> matched: CTFD PortoGaia  [body: 1170 chars]
+  Q3064721 (portugal/way/661184888) -> matched: Brejoeira Palace  [body: 300 chars]
+  Q17390126 (portugal/way/664557190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130565896 (portugal/relation/9347063) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135485724 (portugal/way/668457756) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12693996 (portugal/way/670609908) -> matched: Monfortinho Airport  [body: 358 chars]
+  Q403671 (portugal/way/672225482) -> matched: Lisbon Airport  [body: 14302 chars]
+  Q9586742 (portugal/way/672293614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49323934 (portugal/way/677270804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378573 (portugal/relation/14695761) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49323866 (portugal/relation/9660349) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9643846 (portugal/way/685116950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q136651289 (portugal/relation/11122019) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4694520 (portugal/way/698338470) -> matched: Praia da Aguda  [body: 2044 chars]
+  Q1800473 (portugal/relation/10611639) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10278739 (portugal/way/711681618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3309132 (portugal/way/718353286) -> matched: University of Trás-os-Montes and Alto Douro  [body: 7745 chars]
+  Q9649135 (portugal/way/732092368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2103673 (portugal/way/747486696) -> matched: Ponta da Piedade  [body: 454 chars]
+  Q98940269 (portugal/way/755245654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9586748 (portugal/relation/11269147) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10383912 (portugal/relation/11269149) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49323900 (portugal/way/755868704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q73767324 (portugal/way/758920854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q368643 (portugal/relation/9723699) -> matched: University of Coimbra  [body: 35196 chars]
+  Q1936175 (portugal/way/778875082) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31249479 (portugal/way/783879764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q804032 (portugal/way/789262418) -> matched: Lisbon Baixa  [body: 2054 chars]
+  Q1867212 (portugal/relation/12044241) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12262831 (portugal/way/802924186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16497003 (portugal/relation/12130989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131762236 (portugal/way/813986604) -> matched: Cidade do Futebol  [body: 2220 chars]
+  Q2897238 (portugal/relation/10023391) -> matched: Berlenga Grande Island  [body: 12956 chars]
+  Q10353058 (portugal/relation/12300537) -> matched: Praia do Norte (Nazaré)  [body: 2555 chars]
+  Q10352632 (portugal/relation/12287527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9736189 (portugal/relation/34782149) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3332363 (portugal/relation/12392023) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49324381 (portugal/relation/12392069) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9659865 (portugal/way/834687736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3480562 (portugal/way/840366608) -> matched: Serviço de Informações de Segurança  [body: 769 chars]
+  Q10391492 (portugal/way/843281674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q729136 (portugal/way/843284212) -> matched: Limestone pavement  [body: 1882 chars]
+  Q10332131 (portugal/relation/19579949) -> matched: Carenque Natural Monument  [body: 2076 chars]
+  Q10332135 (portugal/relation/19579981) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10359748 (portugal/relation/9293837) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10359754 (portugal/relation/19504909) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4944223 (portugal/relation/19511633) -> matched: Boquilobo Bog Natural Reserve  [body: 1660 chars]
+  Q9674862 (portugal/way/848028998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10376499 (portugal/relation/19654259) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9054996 (portugal/way/861986856) -> matched: Panasqueira  [body: 38621 chars]
+  Q10327235 (portugal/way/863763476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4793669 (portugal/relation/28729929) -> matched: Armona Island  [body: 786 chars]
+  Q49324013 (portugal/way/880245360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432755 (portugal/way/881357634) -> matched: Santa Maria Airport (Azores)  [body: 12896 chars]
+  Q9643878 (portugal/way/883622966) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10327237 (portugal/relation/20041359) -> matched: Buçaco Forest  [body: 10329 chars]
+  Q73771842 (portugal/way/911367136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432485 (portugal/relation/13570485) -> matched: Porto Santo Airport  [body: 1941 chars]
+  Q5050789 (portugal/relation/19551281) -> matched: Castro Marim and Vila Real de Santo António Marsh Natural Reserve  [body: 556 chars]
+  Q10359649 (portugal/relation/19718359) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55080946 (portugal/relation/19729827) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15653 (portugal/relation/19730283) -> matched: Vouga River  [body: 710 chars]
+  Q10360793 (portugal/relation/19732133) -> matched: Quarteira River  [body: 1168 chars]
+  Q1122926 (portugal/way/921998118) -> matched: University of Lisbon  [body: 8836 chars]
+  Q63378503 (portugal/relation/19732129) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378504 (portugal/relation/19732125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378463 (portugal/relation/19732123) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378828 (portugal/relation/19732119) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9736189 (portugal/relation/19737033) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10376498 (portugal/way/922397416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10370452 (portugal/relation/13629177) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345511 (portugal/way/923283778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q71018717 (portugal/way/923415614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10333272 (portugal/way/923757920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9561342 (portugal/relation/13658873) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345437 (portugal/way/936527254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10278297 (portugal/way/937881326) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20059690 (portugal/way/947345170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98669358 (portugal/relation/13976267) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q721152 (portugal/way/970430206) -> matched: 25 de Abril Bridge  [body: 10387 chars]
+  Q5049796 (portugal/way/977461930) -> matched: Castle of Montemor-o-Novo  [body: 655 chars]
+  Q10353027 (portugal/way/981758196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352748 (portugal/relation/14425907) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378635 (portugal/relation/14449699) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q67495846 (portugal/way/985034190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/987007906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1369105 (portugal/relation/14555463) -> matched: Lagoa da Fajã de Santo Cristo  [body: 356 chars]
+  Q18752721 (portugal/relation/39315181) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18483250 (portugal/way/1008036294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378541 (portugal/relation/14741813) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q9674299 (portugal/relation/14741873) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378534 (portugal/relation/14741729) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1872316 (portugal/way/1010147084) -> matched: Lousal mine  [body: 415 chars]
+  Q63378532 (portugal/relation/14750969) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378616 (portugal/relation/14750981) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4723949 (portugal/relation/14800671) -> matched: Algar do Carvão  [body: 4121 chars]
+  Q3243422 (portugal/relation/16910455) -> matched: Moura Photovoltaic Power Station  [body: 1858 chars]
+  Q10298349 (portugal/way/1020854052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10299310 (portugal/relation/14937849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332127 (portugal/relation/14937861) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10395269 (portugal/relation/14937833) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378610 (portugal/relation/14937835) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10292122 (portugal/relation/14937859) -> matched: Gruta do Carvão  [body: 2526 chars]
+  Q63378587 (portugal/relation/14950585) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378634 (portugal/relation/14950577) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378384 (portugal/relation/19856957) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2757601 (portugal/way/1031734778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10359725 (portugal/relation/15038921) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122818315 (portugal/way/1049358888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10359728 (portugal/relation/20031933) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352581 (portugal/way/1060691334) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66815235 (portugal/way/1065616638) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/1077726090) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/1078885232) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/1078885236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/1078897690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48879414 (portugal/way/1087802304) -> matched: Área Marinha Protegida das Avencas  [body: 6687 chars]
+  Q18695584 (portugal/way/1088478068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33794624 (portugal/way/1090612264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133822974 (portugal/way/1090982492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17294104 (portugal/way/1090990608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10356314 (portugal/relation/15635867) -> matched: Quinta da Beloura  [body: 2290 chars]
+  Q271454 (portugal/way/1095414384) -> matched: Estádio do Dragão  [body: 6282 chars]
+  Q10274401 (portugal/way/1103487892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10356398 (portugal/way/1103550060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10356364 (portugal/way/1104348434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q39059233 (portugal/way/1105821026) -> matched: Cresmina Dune  [body: 3165 chars]
+  Q10345481 (portugal/way/1107693304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98669361 (portugal/relation/13976269) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378677 (portugal/relation/14707475) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q5050388 (portugal/way/1113971826) -> matched: Castle of Faria  [body: 7351 chars]
+  Q63378426 (portugal/way/1117454144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378427 (portugal/way/1117462754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345423 (portugal/way/1119220792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378582 (portugal/relation/14580685) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378559 (portugal/relation/14750917) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378676 (portugal/relation/16026491) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378553 (portugal/relation/14800971) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378571 (portugal/relation/16026493) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378554 (portugal/relation/16026495) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378631 (portugal/relation/16026497) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10351243 (portugal/relation/14278747) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378675 (portugal/relation/16026801) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q5245984 (portugal/relation/14460211) -> matched: Gruta das Torres  [body: 8647 chars]
+  Q928681 (portugal/relation/14439543) -> matched: Mount Pico  [body: 5653 chars]
+  Q16493402 (portugal/relation/14950571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378632 (portugal/relation/14950583) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378629 (portugal/relation/14950565) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7309113 (portugal/relation/14950587) -> matched: Regional Natural Monument of Pedreira do Campo  [body: 4098 chars]
+  Q63378627 (portugal/relation/14950567) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10302640 (portugal/way/1130019986) -> matched: Polytechnic Institute of Cávado and Ave  [body: 694 chars]
+  Q63378561 (portugal/relation/14950581) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q135875287 (portugal/relation/22468653) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10346308 (portugal/relation/16231489) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q132180832 (portugal/relation/19245037) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/1172844874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/1172859268) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97932885 (portugal/way/1173946184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378661 (portugal/relation/14518397) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10352829 (portugal/way/1175847968) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352923 (portugal/relation/10896191) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378595 (portugal/relation/14490381) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378660 (portugal/relation/14518245) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378609 (portugal/relation/14461015) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10395264 (portugal/relation/14461249) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9068215 (portugal/relation/14675533) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378680 (portugal/relation/14675555) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10363539 (portugal/relation/16731981) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378569 (portugal/relation/14538521) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4281657 (portugal/way/1191039866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378590 (portugal/relation/16731985) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378607 (portugal/relation/14540461) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378650 (portugal/relation/14747727) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q17390120 (portugal/way/1222294404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7935906 (portugal/way/1227852372) -> matched: Viseu Airport  [body: 319 chars]
+  Q63378665 (portugal/relation/14937823) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378593 (portugal/relation/14937841) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378603 (portugal/relation/14937843) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378597 (portugal/relation/14937845) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378577 (portugal/relation/14937829) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378636 (portugal/relation/14937839) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378545 (portugal/relation/14937847) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378625 (portugal/relation/14937825) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378669 (portugal/relation/14937827) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q17294149 (portugal/relation/14439899) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33110235 (portugal/way/1276411710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7171427 (portugal/relation/17786027) -> matched: Thermal Spa of Peso  [body: 17841 chars]
+  Q63378608 (portugal/relation/14490265) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10327238 (portugal/relation/16122305) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48892240 (portugal/way/1348136020) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3574108 (portugal/way/1350863858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10301330 (portugal/way/1355306314) -> matched: Ilhéu do Farol  [body: 536 chars]
+  Q63378674 (portugal/relation/14741595) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378536 (portugal/relation/14526419) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q17318795 (portugal/way/1377975654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49330751 (portugal/way/1385121398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49642003 (portugal/relation/19321771) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107428786 (portugal/relation/19427813) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q107429548 (portugal/relation/19427811) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49660201 (portugal/relation/19440395) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49660175 (portugal/relation/19440391) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6558635 (portugal/relation/19470309) -> matched: Lisbon Naval Base  [body: 2451 chars]
+  Q10359752 (portugal/relation/12638081) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332134 (portugal/relation/19576987) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332132 (portugal/relation/19577159) -> matched: Portas de Ródão Natural Monument  [body: 718 chars]
+  Q10332128 (portugal/relation/19245031) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4832565 (portugal/relation/19621519) -> matched: Azibo Reservoir Protected Landscape  [body: 999 chars]
+  Q4895599 (portugal/relation/19636719) -> matched: Bertiandos and São Pedro de Arcos Lagoons Protected Landscape  [body: 2744 chars]
+  Q52855310 (portugal/relation/19645101) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10343652 (portugal/relation/19645455) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35724477 (portugal/relation/7895413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332130 (portugal/relation/19579739) -> matched: Aire Range Dinosaur Tracks Natural Monument  [body: 2097 chars]
+  Q16497003 (portugal/relation/19718355) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378827 (portugal/relation/13607199) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14554 (portugal/relation/19718357) -> matched: Minho (river)  [body: 5330 chars]
+  Q63378482 (portugal/relation/19730275) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378484 (portugal/relation/19732127) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378520 (portugal/relation/19732131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10370394 (portugal/relation/13601585) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378522 (portugal/relation/19732135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10315752 (portugal/relation/19737031) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332055 (portugal/relation/19742067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378589 (portugal/relation/14675521) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q9068215 (portugal/relation/19746889) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378542 (portugal/relation/16731979) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10359749 (portugal/relation/16731983) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378506 (portugal/relation/19747673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378613 (portugal/relation/14743275) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378615 (portugal/relation/14741603) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378570 (portugal/relation/14543753) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378620 (portugal/relation/14741623) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4460903 (portugal/way/1420523930) -> matched: Topo Islet  [body: 2497 chars]
+  Q63378508 (portugal/relation/19754709) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378446 (portugal/relation/19754703) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378468 (portugal/relation/19754705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378490 (portugal/relation/19754713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378512 (portugal/relation/19756425) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378449 (portugal/relation/19756237) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378556 (portugal/relation/14937865) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378605 (portugal/relation/14937853) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378512 (portugal/relation/19756235) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378448 (portugal/relation/19756317) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378466 (portugal/relation/19756315) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378495 (portugal/relation/19756423) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378519 (portugal/relation/19756421) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10359723 (portugal/relation/14937863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378667 (portugal/relation/14741553) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10351277 (portugal/relation/14518761) -> matched: Ponta dos Rosais  [body: 2992 chars]
+  Q856866 (portugal/relation/18651731) -> matched: Cabo Girão  [body: 1746 chars]
+  Q1296587 (portugal/relation/19760803) -> matched: Ponta de São Lourenço  [body: 1563 chars]
+  Q10359756 (portugal/relation/18642245) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10359756 (portugal/relation/19800831) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378470 (portugal/relation/19800803) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1658452 (portugal/relation/19800805) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378457 (portugal/relation/19800811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378456 (portugal/relation/19800813) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378455 (portugal/relation/19800815) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378473 (portugal/relation/19800817) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378454 (portugal/relation/19800819) -> matched: Cabo Girão  [body: 1746 chars]
+  Q63378453 (portugal/relation/19800821) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378452 (portugal/relation/19800823) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378469 (portugal/relation/19800825) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378472 (portugal/relation/19800827) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378510 (portugal/relation/19800829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378825 (portugal/relation/19800833) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378418 (portugal/relation/19800797) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378435 (portugal/relation/19800799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55071386 (portugal/relation/19800837) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378437 (portugal/relation/19822615) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130217649 (portugal/way/1426926722) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378815 (portugal/relation/19840035) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378438 (portugal/relation/19840043) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378423 (portugal/relation/19840045) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378422 (portugal/relation/19840047) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378421 (portugal/relation/19840053) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378842 (portugal/relation/19711475) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378816 (portugal/relation/19840059) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378604 (portugal/relation/11329225) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378395 (portugal/relation/19847667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378397 (portugal/relation/19849061) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378824 (portugal/relation/19754701) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378663 (portugal/relation/14460839) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378837 (portugal/relation/19754707) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10395275 (portugal/relation/14460409) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378396 (portugal/relation/19849067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378414 (portugal/relation/19849283) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378493 (portugal/relation/19747679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378434 (portugal/relation/19856435) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378534 (portugal/relation/14950589) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378513 (portugal/relation/19756667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378645 (portugal/relation/14937831) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378588 (portugal/relation/14937851) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10395273 (portugal/relation/19856959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378393 (portugal/relation/19969701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q67203157 (portugal/relation/20040271) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378539 (portugal/relation/14445059) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3322520 (portugal/relation/20077157) -> matched: Monte Brasil  [body: 8746 chars]
+  Q10359729 (portugal/relation/20077159) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345116 (portugal/relation/20077999) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345118 (portugal/relation/20078001) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q67515856 (portugal/relation/20078003) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7303074 (portugal/relation/20078121) -> matched: Recreational Forest Reserve of Valverde  [body: 2578 chars]
+  Q10359731 (portugal/relation/20078123) -> matched: Recreational Forest Reserve of Fontinhas  [body: 3395 chars]
+  Q67533517 (portugal/relation/15833591) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q67529290 (portugal/relation/20079701) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q67528494 (portugal/relation/20079703) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7303071 (portugal/relation/20079705) -> matched: Recreational Forest Reserve of Pinhal da Paz  [body: 5104 chars]
+  Q3514858 (portugal/way/1454662236) -> matched: Estádio de São Miguel (Ponta Delgada)  [body: 1827 chars]
+  Q51882881 (portugal/relation/20161835) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65040654 (portugal/way/1458842068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10351839 (portugal/way/1459962926) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66815091 (portugal/relation/20127513) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10378125 (portugal/relation/18434399) -> matched: Tapada da Ajuda  [body: 981 chars]
+  Q9649105 (portugal/relation/5263187) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7419394 (portugal/way/1480848624) -> matched: Santa Cruz Airfield (Portugal)  [body: 299 chars]
+  Q18718603 (portugal/way/1500037358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25431528 (portugal/way/1507912818) -> matched: Villa of Torre de Palma  [body: 5658 chars]
+  Q916876 (portugal/way/1509434618) -> matched: Neves-Corvo mine  [body: 1549 chars]
+  Q76957888 (portugal/relation/33852657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34868710 (portugal/way/1526265078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378639 (portugal/relation/14526133) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10274553 (portugal/way/1532268694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q86738549 (portugal/relation/21409099) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16496950 (portugal/relation/21735611) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q533782 (portugal/way/1567860790) -> matched: Serra da Estrela Ski Resort  [body: 1884 chars]
+  Q11682297 (portugal/way/1586951630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378483 (portugal/relation/13605347) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10292597 (portugal/way/1603354802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49330754 (portugal/relation/27453057) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8775414 (portugal/relation/2799379) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5049802 (portugal/way/1629261242) -> matched: Castle of Mourão  [body: 2139 chars]
+  Q97164427 (portugal/way/1637241992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35724493 (portugal/relation/22498001) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31797994 (portugal/relation/20038661) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107610318 (portugal/way/1643282926) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378598 (portugal/relation/14527391) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10358876 (portugal/way/1685640256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49660171 (portugal/relation/24622085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49331596 (portugal/relation/30970807) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49324010 (portugal/relation/12342645) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31797031 (portugal/way/1768863980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9643658 (portugal/way/1774110532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7126273 (portugal/relation/14255981) -> matched: Palace of Correio-Mor  [body: 13038 chars]
+  Q105491965 (portugal/way/1816482874) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q233737 (portugal/way/1834314064) -> matched: Vasco da Gama Bridge  [body: 3725 chars]
+  Q15133762 (portugal/way/1850750904) -> matched: Vila Real Bridge  [body: 694 chars]
+  Q9019924 (portugal/relation/33643849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378606 (portugal/relation/14543527) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q652613 (portugal/way/1890145358) -> matched: Bairro Alto  [body: 16088 chars]
+  Q4165054 (portugal/way/1916438768) -> matched: Dollabarat  [body: 3171 chars]
+  Q63378572 (portugal/relation/14527785) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378619 (portugal/relation/14741499) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30294654 (portugal/way/1924641216) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28226032 (portugal/relation/14950575) -> matched: Protected Landscape of Barreiro da Faneca  [body: 4373 chars]
+  Q2448665 (portugal/way/1934479962) -> matched: Landscape of the Pico Island Vineyard Culture  [body: 2291 chars]
+  Q108202164 (portugal/relation/18944311) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3364572 (portugal/relation/6018113) -> matched: Marismas de Isla Cristina  [body: 14088 chars]
+  Q2034183 (portugal/relation/26274723) -> matched: Edward VII Park  [body: 2249 chars]
+  Q63378578 (portugal/relation/14707431) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10302645 (portugal/relation/26390681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31798029 (portugal/way/1971950476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66813515 (portugal/way/1980612652) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q533782 (portugal/relation/19699087) -> matched: Serra da Estrela Ski Resort  [body: 1884 chars]
+  Q117030333 (portugal/relation/19722745) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9652021 (portugal/way/2017960342) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14040866 (portugal/relation/25767429) -> matched: Monsanto Forest Park  [body: 2440 chars]
+  Q63378831 (portugal/relation/19741837) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10343657 (portugal/relation/14753093) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9649005 (portugal/relation/3955143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1008156 (portugal/relation/18634253) -> matched: Garajau  [body: 778 chars]
+  Q54793533 (portugal/relation/18983701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10343655 (portugal/relation/12534343) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66815385 (portugal/relation/21934789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10378127 (portugal/relation/25977687) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10327236 (portugal/relation/38072825) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49330758 (portugal/relation/19400689) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34797775 (portugal/relation/3322935) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15229957 (portugal/way/2108205962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15229957 (portugal/relation/28135213) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15229957 (portugal/way/2108205964) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10395226 (portugal/relation/19746323) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10360443 (portugal/relation/19737027) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2427281 (portugal/relation/12860285) -> matched: Santa Bárbara de Nexe  [body: 3950 chars]
+  Q750578 (portugal/relation/10808451) -> matched: Vila Real de Santo António  [body: 10657 chars]
+  Q87348915 (portugal/relation/24600263) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10395223 (portugal/relation/14283789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378612 (portugal/relation/16027261) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378651 (portugal/relation/16026485) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378558 (portugal/relation/14708227) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378839 (portugal/relation/19007925) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378684 (portugal/relation/19651465) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3033869 (portugal/relation/29957967) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16487435 (portugal/way/2240501966) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10326415 (portugal/way/2242183292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10286654 (portugal/relation/36951839) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2249320 (portugal/relation/17595353) -> matched: Lisbon Tropical Botanical Garden  [body: 5185 chars]
+  Q49660204 (portugal/way/2299237372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10356383 (portugal/relation/36615575) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10348816 (portugal/relation/31295171) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29050181 (portugal/way/2318863400) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19720256 (portugal/way/2324286092) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18695606 (portugal/relation/34072155) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35724376 (portugal/relation/31855669) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1800558 (portugal/relation/30820515) -> matched: Lagoa de Óbidos  [body: 2035 chars]
+  Q1591291 (portugal/relation/25735593) -> matched: Mário Soares Garden  [body: 3909 chars]
+  Q18480099 (portugal/relation/32048363) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59243332 (portugal/relation/32125649) -> matched: Faia Brava  [body: 2200 chars]
+  Q976850 (portugal/relation/18690541) -> matched: Prazeres Cemetery  [body: 1833 chars]
+  Q10350404 (portugal/way/2389206978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431519 (portugal/way/2404854046) -> matched: Horta Airport  [body: 4783 chars]
+  Q836110 (portugal/relation/18955935) -> matched: Serpa solar power plant  [body: 710 chars]
+  Q34965012 (portugal/relation/16531175) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10356354 (portugal/relation/35349355) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135734858 (portugal/way/2446307398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9643799 (portugal/relation/33483783) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16496239 (portugal/relation/33483785) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97067155 (portugal/way/2466530454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352935 (portugal/way/2479997112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35724446 (portugal/relation/3381991) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352568 (portugal/way/2483238472) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7237779 (portugal/way/2485980432) -> matched: Praia de Odeceixe Mar  [body: 1072 chars]
+  Q20059078 (portugal/way/2490782898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34868684 (portugal/relation/6603255) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378492 (portugal/relation/19747481) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378622 (portugal/relation/16731987) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q9720561 (portugal/way/2518056700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18475999 (portugal/way/2541475868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31797009 (portugal/way/2551434670) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10272685 (portugal/relation/29491839) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378535 (portugal/relation/18761799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14206042 (portugal/relation/3430079) -> matched: Porto Santo  [body: 8928 chars]
+  Q107523853 (portugal/relation/35302333) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63234577 (portugal/relation/35469535) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111870990 (portugal/relation/35501523) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4863401 (portugal/relation/28729933) -> matched: Barreta Island  [body: 618 chars]
+  Q1134767 (portugal/relation/28729931) -> matched: Culatra Island  [body: 1074 chars]
+  Q10352613 (portugal/relation/28729927) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10301136 (portugal/relation/14425909) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432424 (portugal/relation/27120223) -> matched: John Paul II Ponta Delgada Airport  [body: 3411 chars]
+  Q1800787 (portugal/relation/35666915) -> matched: Lajes Field  [body: 24060 chars]
+  Q3571734 (portugal/relation/35666913) -> matched: Lajes Airport  [body: 938 chars]
+  Q176634 (portugal/relation/35670485) -> matched: Graciosa Airport  [body: 833 chars]
+  Q1432951 (portugal/relation/35672531) -> matched: São Jorge Airport  [body: 618 chars]
+  Q1432366 (portugal/relation/35705301) -> matched: Pico Airport  [body: 3221 chars]
+  Q1431319 (portugal/relation/35760695) -> matched: Flores Airport  [body: 2310 chars]
+  Q172890 (portugal/relation/32124515) -> matched: Circuito do Estoril  [body: 6769 chars]
+  Q130299006 (portugal/relation/18899193) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3897611 (portugal/relation/35928383) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109400917 (portugal/way/2623691544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332629 (portugal/way/2632028902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378389 (portugal/relation/19849063) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378560 (portugal/relation/14483889) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10351233 (portugal/relation/14460963) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378433 (portugal/relation/19849065) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378652 (portugal/relation/14490629) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q136651327 (portugal/relation/36190687) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378574 (portugal/relation/16026487) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378581 (portugal/relation/14767275) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10370436 (portugal/relation/36225915) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10298553 (portugal/relation/36267807) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16496268 (portugal/way/2649892950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10332126 (portugal/relation/14937857) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378626 (portugal/relation/14937821) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q17318807 (portugal/relation/20089289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q90334715 (portugal/way/2669345908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q379557 (portugal/relation/8016481) -> matched: Ria de Aveiro  [body: 1434 chars]
+  Q37175985 (portugal/way/2680043280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q790492 (portugal/way/2681315372) -> matched: Avenida da Liberdade  [body: 4347 chars]
+  Q10352601 (portugal/way/2682736616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378432 (portugal/relation/19849069) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378653 (portugal/relation/9642595) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q821015 (portugal/relation/19711473) -> matched: Berlengas  [body: 12956 chars]
+  Q1422903 (portugal/relation/23293389) -> matched: University of Porto  [body: 8707 chars]
+  Q59182998 (portugal/way/2700889040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97378144 (portugal/relation/37100721) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9097845 (portugal/relation/34026641) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31899018 (portugal/relation/19773759) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378388 (portugal/relation/19847665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378628 (portugal/relation/14418881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378637 (portugal/relation/9639843) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q135989523 (portugal/way/2733537784) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30338723 (portugal/way/2734708618) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q112078872 (portugal/way/2736022360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10350906 (portugal/way/2736450630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113106094 (portugal/relation/29491837) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133499083 (portugal/way/2741595052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10355736 (portugal/way/2744969212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2530225 (portugal/way/2758758068) -> matched: Battle of Atoleiros  [body: 2339 chars]
+  Q63378398 (portugal/relation/19850143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378672 (portugal/relation/14747717) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10320490 (portugal/way/2767700474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10343656 (portugal/relation/19576681) -> matched: Costa da Caparica Fossil Cliff Protected Landscape  [body: 168 chars]
+  Q63378823 (portugal/relation/19747479) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378543 (portugal/relation/10565247) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q117273362 (portugal/relation/38504413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10351891 (portugal/relation/38504481) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1482884 (portugal/relation/23255693) -> matched: Tróia Peninsula  [body: 2319 chars]
+  Q111870991 (portugal/way/2791870436) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q61002019 (portugal/relation/38587935) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18500087 (portugal/relation/19457029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1430974 (portugal/relation/38709711) -> matched: Braga Airport  [body: 201 chars]
+  Q570236 (portugal/relation/15407795) -> matched: Circuito Vasco Sameiro  [body: 870 chars]
+  Q3848197 (portugal/relation/38853137) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3848197 (portugal/relation/38869963) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378640 (portugal/relation/14418619) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q63378819 (portugal/relation/19740987) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q954488 (portugal/relation/9646069) -> matched: Corvo Island  [body: 12980 chars]
+  Q63378413 (portugal/relation/19847669) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63378656 (portugal/relation/14518525) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3848157 (portugal/relation/19490127) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9705209 (portugal/relation/39011483) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110280758 (portugal/way/2848858058) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q34919282 (portugal/relation/20767353) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43563251 (portugal/relation/5040791) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115357822 (portugal/way/2874080770) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q67102694 (portugal/way/2894567952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35720841 (portugal/relation/39922429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q133838511 (portugal/relation/23711795) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10351934 (portugal/relation/38504577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4874191 (portugal/relation/38504581) -> matched: Bay of Angra  [body: 6584 chars]
+  Q448572 (portugal/relation/40522405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q491888 (portugal/relation/11512643) -> matched: Melgaço, Portugal  [body: 3645 chars]
+  Q43560800 (portugal/relation/40538169) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10352381 (portugal/relation/19427815) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107429898 (portugal/relation/19428293) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3360991 (portugal/way/2992670516) -> matched: Ramalhão Palace  [body: 663 chars]
+  Q66814761 (portugal/relation/40837225) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42755142 (portugal/relation/36297797) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10345279 (portugal/relation/40850145) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19429422 (portugal/relation/7020433) -> no_sitelinks: (no article)  [body: 0 chars]
+
+wrote 205 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/portugal_wikidata.parquet
+wrote 205 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/portugal_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/portugal_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/portugal_wikidata_map.png
+  rows=205 geometry_missing=0 bodies=205 jsonl=205 map_html=301893B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['portugal']
+  failed:    0 -> []
+
+=== union ===
+unioned 34 countries -> 5151 rows
+[02:35:48] union
+unioned 34 countries -> 5151 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[02:35:55] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 140 files.
+Finished hashing 140 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 56 files]                : 100%|██████████| 21.6MB / 21.6MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (66 / 66)    :  54%|█████▎    | 24.2MB / 45.0MB, 30.2MB/s  
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  60%|█████▉    | 13.0MB / 21.7MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (66 / 70)    :  81%|████████  | 36.2MB / 45.0MB, 25.9MB/s  
+New Data Upload               :   6%|▌         |  525kB / 9.26MB,  375kB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  61%|██████    | 12.0MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   6%|▌         | 8.92kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet:   6%|▌         | 49.1kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png:   6%|▌         | 8.44kB /  149kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  66%|██████▌   | 12.9MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  17%|█▋        | 26.8kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet:  17%|█▋        |  147kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png:  17%|█▋        | 25.3kB /  149kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (66 / 70)    :  83%|████████▎ | 37.3MB / 45.0MB, 20.7MB/s  
+New Data Upload               :  17%|█▋        | 1.57MB / 9.26MB,  874kB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  80%|███████▉  | 15.7MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  51%|█████     | 80.3kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet:  51%|█████     |  442kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png:  51%|█████     | 75.9kB /  149kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (66 / 70)    :  90%|████████▉ | 40.4MB / 45.0MB, 20.2MB/s  
+New Data Upload               :  51%|█████     | 4.72MB / 9.26MB, 2.36MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  98%|█████████▊| 19.3MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  96%|█████████▋|  152kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet:  96%|█████████▋|  834kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png:  96%|█████████▋|  143kB /  149kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (66 / 70)    :  99%|█████████▉| 44.6MB / 45.0MB, 20.3MB/s  
+New Data Upload               :  96%|█████████▋| 8.92MB / 9.26MB, 4.05MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  98%|█████████▊| 19.3MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  96%|█████████▋|  152kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet:  96%|█████████▋|  834kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png:  96%|█████████▋|  143kB /  149kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  98%|█████████▊| 19.3MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  96%|█████████▋|  152kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet:  96%|█████████▋|  834kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png:  96%|█████████▋|  143kB /  149kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 19.6MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 70)    : 100%|██████████| 45.0MB / 45.0MB, 16.1MB/s  
+New Data Upload               : 100%|██████████| 9.26MB / 9.26MB, 3.31MB/s  [A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 19.6MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 19.6MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 19.6MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 19.6MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 19.6MB / 19.6MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 70)    : 100%|██████████| 45.0MB / 45.0MB, 12.5MB/s  
+New Data Upload               : 100%|██████████| 9.26MB / 9.26MB, 2.57MB/s  
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 19.6MB / 19.6MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            
+Removing 133 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/b9a98d0c882e9b17feba8ad0321abb29ae754204
+[02:36:10] DONE portugal

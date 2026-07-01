@@ -1,0 +1,8 @@
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 14400s
+
+=== slovakia ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/slovakia.parquet
+pre-filter (--only-wikidata): 54888 -> 4825 rows

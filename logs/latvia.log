@@ -1,0 +1,1715 @@
+[23:22:04] === latvia ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== latvia ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/latvia.parquet
+pre-filter (--only-wikidata): 47133 -> 748 rows
+
+748 polygons with wikidata=*
+  matched:           70
+  no en sitelink:    628
+  no sitelinks:      50
+  Q4404484 (latvia/way/8788464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4345233 (latvia/way/8788466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2984677 (latvia/way/8938126) -> matched: Riga Zoo  [body: 5108 chars]
+  Q21481192 (latvia/way/10019258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218712 (latvia/way/10019260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49312146 (latvia/way/10019276) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49310210 (latvia/way/10111630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49312159 (latvia/relation/3186405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219224 (latvia/way/10111680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219684 (latvia/way/15964162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219534 (latvia/way/15977494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219253 (latvia/way/21146796) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35703613 (latvia/way/21146956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218994 (latvia/way/21147456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12340290 (latvia/way/23378916) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16357239 (latvia/way/25989920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20399395 (latvia/way/33898678) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220140 (latvia/way/33906194) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219834 (latvia/way/34891008) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20803848 (latvia/way/34891052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24013743 (latvia/way/35363358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24013747 (latvia/way/35363628) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49312271 (latvia/way/38488116) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218586 (latvia/way/39656558) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219573 (latvia/way/43264886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219929 (latvia/way/43264890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400618 (latvia/way/43266620) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20406115 (latvia/relation/10244691) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19326799 (latvia/relation/2864557) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218891 (latvia/way/44929528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21002130 (latvia/way/44933786) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219733 (latvia/way/45400018) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218478 (latvia/way/45543568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218621 (latvia/way/45543574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49304108 (latvia/way/45561978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219111 (latvia/way/45562158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305658 (latvia/way/45562162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49308847 (latvia/way/45562164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49309462 (latvia/way/45562434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316424 (latvia/way/45581496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23996303 (latvia/way/45971350) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305437 (latvia/way/45990166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27021637 (latvia/way/45991450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219292 (latvia/way/46018434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220046 (latvia/way/46018568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220168 (latvia/way/46115934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100235069 (latvia/way/46116046) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2637796 (latvia/way/46678886) -> matched: Ventspils Olimpiskais Stadions  [body: 431 chars]
+  Q20400584 (latvia/way/47474828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20803996 (latvia/way/47474896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400064 (latvia/way/47475034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400491 (latvia/way/47475414) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21481160 (latvia/way/47498548) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218925 (latvia/way/47498626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4345252 (latvia/way/47807948) -> matched: Victory Park (Riga)  [body: 2322 chars]
+  Q3069077 (latvia/way/48017026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220021 (latvia/way/48765190) -> matched: Lake Viešūrs  [body: 1575 chars]
+  Q35717986 (latvia/way/48766424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219711 (latvia/way/48772398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219674 (latvia/way/48772588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219241 (latvia/way/48772590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219856 (latvia/way/48772646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219456 (latvia/way/48951430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24451350 (latvia/way/48982394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20403496 (latvia/way/49007776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49302011 (latvia/way/49103960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4102723 (latvia/way/49326930) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5765299 (latvia/way/49351692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49315338 (latvia/way/49352530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218751 (latvia/way/49461426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24275057 (latvia/way/49461826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24275084 (latvia/way/49461908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316957 (latvia/way/49611340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219328 (latvia/way/49643230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826406 (latvia/way/50081064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16363257 (latvia/way/50081080) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19754304 (latvia/way/50373090) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19754347 (latvia/way/50375466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19754333 (latvia/way/50376870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19754372 (latvia/way/50379200) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19772412 (latvia/way/50381534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19754317 (latvia/way/50387094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19754336 (latvia/way/50388904) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21866589 (latvia/way/50393790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21866587 (latvia/way/50394676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219215 (latvia/way/50586820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219718 (latvia/way/50586986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220135 (latvia/way/50693522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61121404 (latvia/way/51734900) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218970 (latvia/way/52028616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4505873 (latvia/way/53256136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16359971 (latvia/way/53494338) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4169673 (latvia/way/54157382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q86674548 (latvia/way/54158052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219199 (latvia/relation/38326849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219896 (latvia/way/54857162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49315140 (latvia/relation/60195) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63790070 (latvia/way/56322680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16363184 (latvia/way/56593142) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16450324 (latvia/way/57369150) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219596 (latvia/way/58571356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219396 (latvia/way/61290278) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49310940 (latvia/way/61290438) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20401498 (latvia/way/61290440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20404759 (latvia/relation/2863749) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21086534 (latvia/way/63643154) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400767 (latvia/way/63643170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219429 (latvia/way/63643230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218998 (latvia/way/65106508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49300575 (latvia/way/68121490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3271618 (latvia/way/70186034) -> matched: Lielvārde Air Base  [body: 2357 chars]
+  Q20577476 (latvia/way/71155768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219246 (latvia/way/73546626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61387629 (latvia/way/73741930) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26472944 (latvia/way/74569988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400824 (latvia/way/75230524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101008877 (latvia/way/75709946) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101009690 (latvia/way/75709948) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q100977403 (latvia/way/75709950) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q100977417 (latvia/way/75709952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100235329 (latvia/way/75730730) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q100235731 (latvia/way/75792864) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q112263345 (latvia/way/75792866) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q22917659 (latvia/way/75792874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21481120 (latvia/way/75792878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100975186 (latvia/way/75793522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101064584 (latvia/way/75793524) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q100965714 (latvia/way/75793530) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20404180 (latvia/way/75793546) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101079492 (latvia/way/75793558) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20400795 (latvia/way/75793568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20399906 (latvia/way/75794624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219587 (latvia/way/75794640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101230491 (latvia/way/75794644) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101075028 (latvia/way/75794682) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20402120 (latvia/way/75794686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20405153 (latvia/way/75794688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101080568 (latvia/way/75794700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101090763 (latvia/way/75794726) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q19754309 (latvia/way/75801044) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400854 (latvia/way/75801074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20402267 (latvia/way/75801076) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218450 (latvia/way/75801084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400313 (latvia/way/75801088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400124 (latvia/way/75801100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14917209 (latvia/way/75801148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11233066 (latvia/way/75801158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24067676 (latvia/way/75816582) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21974465 (latvia/way/75906224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3036898 (latvia/way/76135590) -> matched: Great Cemetery  [body: 7818 chars]
+  Q17047336 (latvia/way/76275566) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100997429 (latvia/way/76275576) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20405312 (latvia/way/76277472) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219066 (latvia/way/76277476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100235101 (latvia/way/76277484) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q13029236 (latvia/way/76277486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100320962 (latvia/way/76277498) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q35711394 (latvia/way/76277500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20803995 (latvia/way/76277506) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13029098 (latvia/way/76277512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219250 (latvia/way/76277520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218460 (latvia/way/76285252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49317069 (latvia/way/76285272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100158007 (latvia/way/76285278) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21086535 (latvia/way/76285284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219154 (latvia/way/76285286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10949624 (latvia/way/76285288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100157873 (latvia/way/76285290) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q10969569 (latvia/way/76285748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4096719 (latvia/way/76285756) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107075278 (latvia/way/76480210) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15220080 (latvia/way/76689714) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49312532 (latvia/way/76689718) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20402704 (latvia/way/76867240) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826376 (latvia/way/76889772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4073653 (latvia/way/77552224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35717627 (latvia/way/77616222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25915439 (latvia/way/78262086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25931628 (latvia/way/78262088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25931621 (latvia/way/78262094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49308344 (latvia/way/78601572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25999194 (latvia/way/78654846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25931626 (latvia/way/78655104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25931631 (latvia/way/78655516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25931633 (latvia/way/78655518) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4450593 (latvia/way/80125924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19360697 (latvia/way/80125934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20402027 (latvia/way/81468930) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219408 (latvia/way/82426254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826397 (latvia/way/82857168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10970477 (latvia/way/82953634) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26879471 (latvia/way/84990500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27089541 (latvia/way/90152354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32198381 (latvia/way/91152738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12377621 (latvia/way/91152838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49317041 (latvia/way/99799472) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16468001 (latvia/way/101466894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889817 (latvia/way/103678900) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21814423 (latvia/way/107611892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218663 (latvia/way/122534382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220033 (latvia/way/122584874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219099 (latvia/way/122588762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219237 (latvia/way/122646010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219508 (latvia/way/123879078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21481207 (latvia/way/127941722) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305473 (latvia/way/128897060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4849013 (latvia/way/130823868) -> matched: Bakans  [body: 298 chars]
+  Q15220155 (latvia/relation/2060157) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218758 (latvia/way/135997962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49314716 (latvia/way/137413336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305058 (latvia/relation/27117701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220041 (latvia/relation/2165599) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23924696 (latvia/way/140060940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400709 (latvia/relation/5760371) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23924695 (latvia/way/140066256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23924704 (latvia/way/140066272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21663867 (latvia/way/140077026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23419048 (latvia/way/140883432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23419050 (latvia/way/140883874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20876430 (latvia/way/142249188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20405404 (latvia/way/145218204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219897 (latvia/way/163245122) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218746 (latvia/way/169829188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218914 (latvia/way/169831418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219408 (latvia/way/169831614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q344625 (latvia/way/169836054) -> matched: Ķīpsala  [body: 832 chars]
+  Q4191801 (latvia/way/169836682) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2595448 (latvia/way/169945800) -> matched: Zaķusala  [body: 1621 chars]
+  Q15219954 (latvia/way/175143618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65260733 (latvia/way/177480344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20404632 (latvia/way/177480356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20403657 (latvia/way/177589578) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4156696 (latvia/way/177728888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q190670 (latvia/way/184108798) -> matched: Riga Central Market  [body: 8668 chars]
+  Q24175158 (latvia/way/194706834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24170185 (latvia/way/194706836) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24170175 (latvia/way/194706842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16351399 (latvia/way/195060242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3738144 (latvia/relation/2807709) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114598376 (latvia/way/196217300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16355384 (latvia/way/219450970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27487194 (latvia/way/221055636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23935730 (latvia/way/222560396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35717465 (latvia/relation/3154069) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21002162 (latvia/way/224618924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49304048 (latvia/way/224618996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305481 (latvia/way/224619114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21069414 (latvia/way/228976522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826366 (latvia/way/231636140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12676235 (latvia/way/234167026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12375528 (latvia/way/234981786) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400460 (latvia/way/236091272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21663570 (latvia/way/236144984) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19830038 (latvia/way/237913662) -> matched: University of Latvia Botanical Garden  [body: 2765 chars]
+  Q15219344 (latvia/way/238628826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218736 (latvia/way/238632382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826400 (latvia/way/238632384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21011141 (latvia/relation/3374425) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220133 (latvia/relation/3374561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49307266 (latvia/way/246437440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219980 (latvia/way/247666486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1240598 (latvia/relation/379763) -> matched: Ruhnu  [body: 7605 chars]
+  Q15219826 (latvia/way/249758462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49309067 (latvia/way/251284884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219234 (latvia/way/251374156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16449982 (latvia/way/254106586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20403286 (latvia/way/254106590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16455164 (latvia/way/254689996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65261083 (latvia/way/254690000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1926523 (latvia/relation/3455533) -> matched: Mežaparks  [body: 2545 chars]
+  Q15219252 (latvia/way/256137352) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27021620 (latvia/way/256927662) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27089542 (latvia/way/257364016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16451903 (latvia/way/257455924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21086520 (latvia/way/264108206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826399 (latvia/way/264108310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218787 (latvia/relation/4193537) -> matched: Lake Ciecere  [body: 1216 chars]
+  Q28363212 (latvia/way/264108358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28363209 (latvia/way/264108366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29447782 (latvia/way/264108368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28363213 (latvia/way/264108410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4149650 (latvia/way/264108470) -> matched: Grīņu Nature Reserve  [body: 19175 chars]
+  Q28055896 (latvia/way/264108528) -> matched: Istra rolling hills  [body: 1668 chars]
+  Q29425576 (latvia/relation/18746175) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29424843 (latvia/way/264108592) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16360397 (latvia/way/264108596) -> matched: Krustkalni Nature Reserve  [body: 29157 chars]
+  Q28055894 (latvia/way/264108608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29424502 (latvia/way/264108766) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29424502 (latvia/relation/18750335) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29421867 (latvia/way/264108884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29421744 (latvia/way/264108944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10998128 (latvia/way/264109008) -> matched: Moricsala Nature Reserve  [body: 680 chars]
+  Q29421293 (latvia/way/264109060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29167123 (latvia/way/264109088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29421091 (latvia/way/264109204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29420977 (latvia/way/264109352) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29420979 (latvia/way/264109356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28811009 (latvia/way/264109420) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29420870 (latvia/way/264109446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23641264 (latvia/way/264109452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29419188 (latvia/way/264109706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29419235 (latvia/way/264109994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100996685 (latvia/relation/23617245) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q29419145 (latvia/relation/17722813) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29843534 (latvia/way/264110016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29418678 (latvia/way/264110058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29418619 (latvia/way/264110074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29418622 (latvia/way/264110108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29167130 (latvia/way/264110132) -> matched: Užava lowland  [body: 977 chars]
+  Q29189448 (latvia/way/264110212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29189378 (latvia/way/264110238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10963691 (latvia/way/265356034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219323 (latvia/way/265863650) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219345 (latvia/way/265864500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27486299 (latvia/relation/3818101) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29421742 (latvia/way/282053018) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27487262 (latvia/way/282152370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219631 (latvia/way/282283074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219615 (latvia/way/284875016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219614 (latvia/way/284875178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16355241 (latvia/way/286939296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11219959 (latvia/way/290686968) -> matched: Ventspils University of Applied Sciences  [body: 4522 chars]
+  Q22967611 (latvia/way/293623246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22967605 (latvia/way/293623394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100157293 (latvia/way/293638994) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q22980878 (latvia/way/293669576) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100157332 (latvia/way/293671714) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15219482 (latvia/way/295143256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25553912 (latvia/way/297426002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27486347 (latvia/way/300136492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220004 (latvia/way/300984458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219278 (latvia/way/302781006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98104161 (latvia/way/304613514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27487267 (latvia/way/305133152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5120120 (latvia/relation/13298181) -> matched: Cimdenieki  [body: 262 chars]
+  Q58465410 (latvia/way/305537094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219707 (latvia/way/306038768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24033816 (latvia/relation/4133075) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218841 (latvia/way/306566694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219774 (latvia/way/307883346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q58465390 (latvia/way/308512458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219881 (latvia/way/313991220) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21150284 (latvia/way/316611508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20401099 (latvia/way/316611510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305477 (latvia/way/316611512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219406 (latvia/way/326529090) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4332093 (latvia/way/328120926) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24083281 (latvia/way/334605264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35717992 (latvia/way/336104272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219977 (latvia/way/340896892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26472954 (latvia/way/341013016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35717699 (latvia/way/358354598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4269916 (latvia/way/362956640) -> matched: Lucavsala  [body: 2279 chars]
+  Q20405119 (latvia/way/364308288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26879453 (latvia/way/366098520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26879466 (latvia/way/367065412) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3243402 (latvia/way/373012982) -> matched: Ventspils International Airport  [body: 3215 chars]
+  Q12369104 (latvia/relation/5132865) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61386303 (latvia/way/381402572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14942095 (latvia/relation/13298183) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24083284 (latvia/relation/13298209) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26905872 (latvia/way/393297178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29846028 (latvia/way/398419994) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15218656 (latvia/way/412775640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218778 (latvia/way/412775664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218640 (latvia/way/412775686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219320 (latvia/way/420495390) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24170168 (latvia/way/431075170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24170172 (latvia/relation/18838085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24083274 (latvia/way/431099742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49311691 (latvia/way/433948496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26879459 (latvia/way/435329350) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q411895 (latvia/way/443270572) -> matched: Riga Technical University  [body: 11215 chars]
+  Q115925768 (latvia/way/443770478) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q27089545 (latvia/way/445114450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7654244 (latvia/way/452872792) -> matched: Kandavas Kartodroms  [body: 1369 chars]
+  Q15219056 (latvia/way/461976322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49308648 (latvia/way/463684482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2077659 (latvia/way/465142544) -> matched: Pokrov Cemetery  [body: 3777 chars]
+  Q12659469 (latvia/relation/6272271) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219781 (latvia/way/474389498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16360419 (latvia/way/475898398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16360474 (latvia/way/477636030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219167 (latvia/way/493220712) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272946 (latvia/way/496058746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28966947 (latvia/way/503952468) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27487211 (latvia/way/506279570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23054958 (latvia/way/508539650) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29853155 (latvia/way/513232674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q451098 (latvia/relation/386279) -> matched: Lake Alūksne  [body: 654 chars]
+  Q65260825 (latvia/relation/6272267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24170178 (latvia/way/524283708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4363827 (latvia/way/531808100) -> matched: Pitelis  [body: 131 chars]
+  Q4420201 (latvia/way/531808108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20399484 (latvia/way/532861978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27089546 (latvia/way/540851448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26921708 (latvia/way/548194856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26970811 (latvia/way/548195226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26921711 (latvia/way/548220116) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49308628 (latvia/way/555085554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12677162 (latvia/way/601449778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219431 (latvia/way/604727316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35699690 (latvia/way/622108632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23419052 (latvia/way/625114486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218645 (latvia/way/625127942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59157228 (latvia/way/638426216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13459372 (latvia/relation/8926757) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6406304 (latvia/relation/8926755) -> matched: Kikkajärv  [body: 679 chars]
+  Q11046848 (latvia/relation/8930307) -> matched: Little Lake Palkna  [body: 721 chars]
+  Q15219742 (latvia/way/642557916) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21150279 (latvia/way/642593816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23900672 (latvia/way/658496904) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23900682 (latvia/relation/9489375) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23900672 (latvia/way/676552236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23900690 (latvia/relation/9567071) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218877 (latvia/relation/72413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23059141 (latvia/way/696203200) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19772414 (latvia/relation/10448247) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232754 (latvia/way/711509164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3739170 (latvia/relation/10925209) -> matched: Doles sala  [body: 1092 chars]
+  Q12672245 (latvia/relation/3474939) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24040531 (latvia/way/736263002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219634 (latvia/way/751759928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35717656 (latvia/relation/11195713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219752 (latvia/relation/11195709) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2914008 (latvia/way/770236540) -> matched: Turība University  [body: 3952 chars]
+  Q15219601 (latvia/way/773267162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26921709 (latvia/way/776104396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26970822 (latvia/way/776104398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400949 (latvia/way/785881442) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21185515 (latvia/relation/37321447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12649037 (latvia/relation/6151663) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24083272 (latvia/relation/34125677) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219985 (latvia/relation/2538761) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23829735 (latvia/way/843710024) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q58465381 (latvia/way/847346598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56707342 (latvia/way/847349748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16445764 (latvia/relation/13118331) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20404429 (latvia/relation/10929441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16470219 (latvia/relation/13499189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97536587 (latvia/way/917395874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1133726 (latvia/way/953852934) -> matched: Daugava Stadium (Riga)  [body: 7596 chars]
+  Q7467352 (latvia/way/959496414) -> matched: Latvian Academy of Sport Education  [body: 1735 chars]
+  Q15219466 (latvia/relation/14221615) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4191796 (latvia/way/986082222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219251 (latvia/relation/6957301) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18778897 (latvia/way/990944806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218711 (latvia/way/991368382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34802383 (latvia/way/1016031878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25997943 (latvia/way/1023096354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25997941 (latvia/way/1023096358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24232571 (latvia/way/1032112112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24232560 (latvia/way/1032130932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220036 (latvia/way/1041783786) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23924706 (latvia/way/1042192512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47005633 (latvia/way/1043843706) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3018073 (latvia/relation/11314811) -> matched: Freeport of Riga  [body: 2416 chars]
+  Q11690890 (latvia/way/1058085822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4222826 (latvia/way/1058085824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19687719 (latvia/way/1069670290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25175997 (latvia/way/1073885286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220024 (latvia/relation/31103503) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25553910 (latvia/way/1093160946) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25553934 (latvia/way/1093559666) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288743 (latvia/way/1094079382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219283 (latvia/relation/15808501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400284 (latvia/relation/15898243) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11726295 (latvia/relation/16002973) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49308017 (latvia/way/1124958954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6112816 (latvia/relation/16125405) -> matched: Alauksts  [body: 1340 chars]
+  Q11824191 (latvia/way/1161878824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q517037 (latvia/way/1169763106) -> matched: Liepāja International Airport  [body: 4038 chars]
+  Q19558718 (latvia/relation/25746841) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19558526 (latvia/way/1174630834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61385817 (latvia/way/1208453932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11036002 (latvia/relation/6151409) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4394573 (latvia/relation/10925211) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20402857 (latvia/way/1242968352) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219884 (latvia/relation/17353321) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2371274 (latvia/way/1251500722) -> matched: Daugavpils International Airport  [body: 1711 chars]
+  Q16351365 (latvia/way/1253795226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21481225 (latvia/way/1270080034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4037736 (latvia/relation/17719829) -> matched: Dzintars (company)  [body: 4656 chars]
+  Q61121552 (latvia/way/1286422682) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29343842 (latvia/relation/9204297) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3743271 (latvia/way/1296454090) -> matched: Āraiši lake fortress  [body: 1157 chars]
+  Q14917185 (latvia/relation/18263105) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20403749 (latvia/way/1331712828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29419151 (latvia/way/1334873942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232751 (latvia/way/1340404158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232765 (latvia/way/1340404164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q58465378 (latvia/way/1341889492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24040525 (latvia/way/1342997560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1854781 (latvia/relation/3180867) -> matched: Vērmane Garden  [body: 2597 chars]
+  Q24255463 (latvia/way/1349023464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24255463 (latvia/way/1349023466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218919 (latvia/way/1351929918) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232759 (latvia/way/1354583458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20403258 (latvia/relation/6272269) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20830902 (latvia/relation/18944995) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3738617 (latvia/relation/8926761) -> matched: Lake Murati  [body: 1038 chars]
+  Q100149447 (latvia/way/1371155104) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q29845919 (latvia/way/1389068624) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20399212 (latvia/way/1433388646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q51286217 (latvia/relation/20029005) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21663560 (latvia/way/1448027804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1368285 (latvia/way/1454664010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101090284 (latvia/way/1486641182) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101089497 (latvia/way/1486641184) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101077557 (latvia/way/1502146858) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101075063 (latvia/way/1502146862) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q61385052 (latvia/relation/20810973) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13029075 (latvia/relation/21411845) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17094493 (latvia/relation/2563821) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50378578 (latvia/relation/17645961) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25498391 (latvia/relation/2596673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26472943 (latvia/way/1565278706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26472923 (latvia/way/1565278708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105826065 (latvia/way/1580548920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105775120 (latvia/way/1580548922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26757884 (latvia/relation/22008787) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20400186 (latvia/relation/15548125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26945218 (latvia/way/1595677910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20402209 (latvia/relation/27504213) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826415 (latvia/way/1605980904) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219343 (latvia/relation/4334337) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6103379 (latvia/relation/5349137) -> matched: Iļķene  [body: 137 chars]
+  Q49317040 (latvia/way/1626667130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49317040 (latvia/way/1626667130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16459435 (latvia/relation/3449263) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1089278 (latvia/way/1661264416) -> matched: Rīgas vagonbūves rūpnīca  [body: 2763 chars]
+  Q21481083 (latvia/way/1676487860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101087540 (latvia/relation/23071667) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q25384938 (latvia/way/1686908462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18804416 (latvia/way/1702569324) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218606 (latvia/way/1712563538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4125048 (latvia/way/1712563540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100150009 (latvia/relation/36218079) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15219783 (latvia/relation/24528389) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1258906 (latvia/relation/23472927) -> matched: Lake Drīdzis  [body: 431 chars]
+  Q7240002 (latvia/relation/10411147) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100296108 (latvia/relation/36218075) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q35711065 (latvia/relation/23602793) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20401755 (latvia/relation/23602799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21481238 (latvia/relation/23607577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q100991777 (latvia/way/1730075376) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q35711322 (latvia/relation/23616573) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101008733 (latvia/way/1730789566) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101088409 (latvia/way/1732545406) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101090698 (latvia/way/1732641402) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101091607 (latvia/way/1732655820) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101091726 (latvia/way/1732658072) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q29420244 (latvia/relation/23671693) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1630539 (latvia/relation/23648059) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220113 (latvia/relation/23672003) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101229423 (latvia/relation/23687257) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20401252 (latvia/way/1735485868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21086567 (latvia/relation/23824979) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20402485 (latvia/way/1761489044) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219458 (latvia/way/1761489046) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35699684 (latvia/way/1792219972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20404962 (latvia/relation/24406217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19838264 (latvia/relation/36197401) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219232 (latvia/way/1811629418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56051937 (latvia/way/1812670562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23826385 (latvia/way/1813678240) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20405026 (latvia/way/1828281314) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14917189 (latvia/relation/25119573) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11238139 (latvia/relation/15358741) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12680293 (latvia/relation/25139821) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4165843 (latvia/way/1859401334) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4056854 (latvia/relation/37380437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218491 (latvia/relation/25238409) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4155236 (latvia/way/1895699252) -> matched: Daugavpils Locomotive Repair Plant  [body: 4671 chars]
+  Q61386302 (latvia/relation/16538611) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61385126 (latvia/relation/16297503) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219271 (latvia/relation/3154067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219648 (latvia/relation/13298203) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218657 (latvia/relation/21914033) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16452228 (latvia/relation/26129795) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16454973 (latvia/relation/10929439) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12650171 (latvia/relation/3468107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12679094 (latvia/relation/26141211) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20504262 (latvia/relation/6995913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28164945 (latvia/relation/26203699) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61121451 (latvia/relation/26338633) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20403716 (latvia/relation/26568109) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28854898 (latvia/relation/26657101) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22760616 (latvia/relation/26665465) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22760572 (latvia/relation/26665851) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21481151 (latvia/relation/26760621) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2340235 (latvia/relation/18533749) -> matched: Lake Pape  [body: 1581 chars]
+  Q115925747 (latvia/way/1995961126) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21150285 (latvia/relation/26793417) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47509941 (latvia/relation/26872409) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219776 (latvia/relation/3274143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4074385 (latvia/relation/26359013) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6112194 (latvia/relation/29284471) -> matched: Skaistkalne  [body: 2225 chars]
+  Q7779566 (latvia/relation/26984111) -> matched: Alderi  [body: 183 chars]
+  Q15219558 (latvia/relation/27005705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219369 (latvia/relation/27010107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219560 (latvia/relation/27012437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21086551 (latvia/relation/27012499) -> matched: Eimuri, Carnikava Parish  [body: 405 chars]
+  Q15219841 (latvia/relation/27022477) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q58465386 (latvia/way/2021483224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14917184 (latvia/relation/3468109) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22954407 (latvia/way/2025702358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101080614 (latvia/relation/27255065) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20401621 (latvia/relation/27255067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25649489 (latvia/way/2035806372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21002133 (latvia/relation/15277913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21663522 (latvia/relation/3818093) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27048526 (latvia/relation/28766877) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q51283771 (latvia/way/2057483054) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q32198300 (latvia/way/2073749750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219042 (latvia/relation/36267305) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529569 (latvia/way/2148482034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122668 (latvia/way/2161385444) -> matched: Ruhnu Airfield  [body: 925 chars]
+  Q23902320 (latvia/relation/28759829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q919425 (latvia/relation/2864555) -> matched: Lake Sivers  [body: 257 chars]
+  Q15220165 (latvia/relation/29105769) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114497668 (latvia/relation/29341641) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114496838 (latvia/relation/29341661) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497665 (latvia/relation/29341655) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21002193 (latvia/relation/29393039) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q996777 (latvia/relation/4060487) -> matched: Brothers' Cemetery  [body: 8313 chars]
+  Q47510008 (latvia/relation/26204013) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21086566 (latvia/relation/29796253) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21150307 (latvia/relation/29796237) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64907514 (latvia/relation/29796251) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2564167 (latvia/relation/29799941) -> matched: Forest Cemetery, Riga  [body: 1874 chars]
+  Q23892337 (latvia/relation/29846945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23935746 (latvia/relation/29846963) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3801480 (latvia/relation/29851925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218690 (latvia/relation/36084741) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16359894 (latvia/way/2237764124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30219360 (latvia/relation/294311) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q505421 (latvia/relation/294309) -> matched: Riga International Airport  [body: 6785 chars]
+  Q15219900 (latvia/relation/26779883) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218789 (latvia/relation/2864623) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21086533 (latvia/way/2252325832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3801493 (latvia/way/2264535574) -> matched: Rēzekne Academy of Technology  [body: 890 chars]
+  Q15220039 (latvia/way/2267859478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29032391 (latvia/way/2268153058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23011582 (latvia/relation/30833231) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219909 (latvia/relation/30833235) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22117554 (latvia/relation/30833261) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22082966 (latvia/relation/30833265) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22082971 (latvia/relation/30833241) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22074436 (latvia/relation/30833239) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23011580 (latvia/relation/30833245) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22076135 (latvia/relation/30833243) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219868 (latvia/relation/30833237) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22074438 (latvia/relation/30833249) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22945593 (latvia/relation/30833287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1576080 (latvia/relation/2538947) -> matched: Ķīšezers, Riga  [body: 239 chars]
+  Q4098948 (latvia/relation/10597387) -> matched: Buļļu sala  [body: 199 chars]
+  Q24049942 (latvia/way/2299063206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16356979 (latvia/relation/31175657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12326868 (latvia/way/2325684482) -> matched: Mežaparks Great Bandstand  [body: 3546 chars]
+  Q16353451 (latvia/relation/31486093) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21086532 (latvia/way/2328244456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20399997 (latvia/relation/3211633) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3909275 (latvia/way/2351487226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219195 (latvia/relation/31804289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24275074 (latvia/relation/32110547) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24275083 (latvia/relation/73117) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35711940 (latvia/relation/15082465) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24275052 (latvia/relation/32155547) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3801722 (latvia/relation/60203) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4362681 (latvia/relation/3373811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14917197 (latvia/relation/60191) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218878 (latvia/relation/32280569) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219357 (latvia/relation/28498441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16353601 (latvia/relation/2753093) -> matched: Bērnu Klīniskā Universitātes Slimnīca  [body: 1483 chars]
+  Q16350356 (latvia/relation/3184663) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4151417 (latvia/relation/13730889) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56025454 (latvia/way/2457302256) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15220175 (latvia/relation/33666157) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20401878 (latvia/relation/36108125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219270 (latvia/relation/34466959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218796 (latvia/relation/3374319) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20406342 (latvia/relation/34919255) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11001278 (latvia/relation/11314809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2034327 (latvia/relation/35177997) -> matched: Pauls Stradiņš Clinical University Hospital  [body: 2506 chars]
+  Q4278278 (latvia/way/2568348376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16473343 (latvia/relation/3449261) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219249 (latvia/relation/2539003) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20405433 (latvia/relation/35466959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55285949 (latvia/relation/35499067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2662439 (latvia/relation/2811003) -> matched: Lake Rychy  [body: 295 chars]
+  Q27089543 (latvia/relation/35606637) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20401067 (latvia/way/2599664062) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219371 (latvia/way/2599836160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20505013 (latvia/relation/14953089) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26757893 (latvia/way/2607361408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q570564 (latvia/relation/15048109) -> matched: Lake Engure  [body: 2703 chars]
+  Q56707335 (latvia/relation/22628421) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219799 (latvia/way/2655006930) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1579595 (latvia/relation/23649033) -> matched: Lake Liepāja  [body: 1935 chars]
+  Q11690888 (latvia/way/2677489116) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q490189 (latvia/relation/36993437) -> matched: Jūrmala Airport  [body: 1888 chars]
+  Q15219220 (latvia/relation/37021197) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22054958 (latvia/relation/37022065) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218477 (latvia/relation/37024729) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220204 (latvia/relation/37075031) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q101010764 (latvia/relation/37182521) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15219226 (latvia/relation/37320383) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218673 (latvia/relation/37320385) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219939 (latvia/relation/27021447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2082531 (latvia/relation/37322677) -> matched: Skulte, Skulte Parish  [body: 1184 chars]
+  Q2637736 (latvia/relation/2538927) -> matched: Jugla Lake  [body: 405 chars]
+  Q14917177 (latvia/relation/3488769) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218671 (latvia/relation/27019631) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16354405 (latvia/relation/37479029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16356061 (latvia/relation/37479023) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16356888 (latvia/relation/37479031) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16358624 (latvia/relation/37479021) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16353768 (latvia/relation/37479025) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16363037 (latvia/relation/37479019) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130245985 (latvia/way/2730652724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28871177 (latvia/way/2753323860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5248686 (latvia/relation/4101103) -> matched: Lake Kaņieris  [body: 2081 chars]
+  Q27486357 (latvia/way/2775659192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4405712 (latvia/way/2783131174) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24170174 (latvia/relation/35386713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65297793 (latvia/way/2847037808) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219746 (latvia/relation/39302917) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21185486 (latvia/way/2908409888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65260860 (latvia/relation/2625433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4092455 (latvia/way/2972521514) -> matched: Lake Stropu  [body: 118 chars]
+  Q16353836 (latvia/relation/4140581) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219583 (latvia/way/2978182474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61385858 (latvia/relation/15263825) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16456656 (latvia/relation/18620793) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10985551 (latvia/relation/2628045) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20404090 (latvia/way/2982323730) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218550 (latvia/relation/5754351) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14917176 (latvia/way/2986103354) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219914 (latvia/way/2987275866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15218610 (latvia/way/2987790522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219854 (latvia/relation/6240087) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219296 (latvia/way/2987790602) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11835853 (latvia/way/2988757534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20405280 (latvia/relation/40855449) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63790100 (latvia/relation/4061443) -> matched: Mežaparks (park)  [body: 13333 chars]
+  Q114497681 (latvia/relation/29341653) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28871182 (latvia/way/3061979104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 70 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/latvia_wikidata.parquet
+wrote 70 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/latvia_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/latvia_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/latvia_wikidata_map.png
+  rows=70 geometry_missing=0 bodies=70 jsonl=70 map_html=104845B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['latvia']
+  failed:    0 -> []
+
+=== union ===
+unioned 20 countries -> 1708 rows
+[23:27:14] union
+unioned 20 countries -> 1708 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:27:19] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 84 files.
+Finished hashing 84 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tenstein_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tenstein_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 28 files]                : 100%|██████████| 6.63MB / 6.63MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 38)    :  57%|█████▋    | 8.76MB / 15.5MB, 11.0MB/s  
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/monaco_wikidata.parquet: 100%|██████████| 13.0kB / 13.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/monaco_wikidata.parquet: 100%|██████████| 13.0kB / 13.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/monaco_wikidata.parquet: 100%|██████████| 13.0kB / 13.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  35%|███▌      | 2.88MB / 8.16MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 42)    :  66%|██████▌   | 10.2MB / 15.5MB, 7.26MB/s  
+New Data Upload               :   9%|▉         |  525kB / 5.81MB,  375kB/s  [A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  23%|██▎       | 1.35MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   9%|▉         | 14.3kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet:   9%|▉         | 46.0kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png:   9%|▉         | 11.8kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  38%|███▊      | 2.25MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  27%|██▋       | 43.0kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet:  27%|██▋       |  138kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png:  27%|██▋       | 35.5kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 42)    :  73%|███████▎  | 11.2MB / 15.5MB, 6.23MB/s  
+New Data Upload               :  27%|██▋       | 1.57MB / 5.81MB,  874kB/s  [A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  84%|████████▍ | 4.97MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  81%|████████  |  129kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet:  81%|████████  |  414kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png:  81%|████████  |  106kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 42)    :  93%|█████████▎| 14.4MB / 15.5MB, 7.18MB/s  
+New Data Upload               :  81%|████████  | 4.72MB / 5.81MB, 2.36MB/s  [A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 5.87MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  158kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet:  99%|█████████▉|  506kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png:  99%|█████████▉|  130kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 42)    : 100%|█████████▉| 15.4MB / 15.5MB, 7.01MB/s  
+New Data Upload               :  99%|█████████▉| 5.77MB / 5.81MB, 2.62MB/s  [A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.91MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  159kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (42 / 42)    : 100%|██████████| 15.5MB / 15.5MB, 6.44MB/s  
+New Data Upload               : 100%|██████████| 5.81MB / 5.81MB, 2.42MB/s  [A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.91MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  159kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.91MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  159kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.91MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  159kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.91MB / 5.91MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  159kB /  159kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (42 / 42)    : 100%|██████████| 15.5MB / 15.5MB, 5.15MB/s  
+New Data Upload               : 100%|██████████| 5.81MB / 5.81MB, 1.94MB/s  
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.91MB / 5.91MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  159kB /  159kB            
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            
+Removing 77 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/9b3e17399ad9d29f78dddd26711a66df3bac6b2c
+[23:27:30] DONE latvia

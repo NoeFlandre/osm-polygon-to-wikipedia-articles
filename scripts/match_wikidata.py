@@ -41,6 +41,8 @@ def main() -> None:
     parser.add_argument("--only-wikidata", action="store_true",
                         help="pre-filter the source df to only polygons with wikidata=* tags "
                              "(avoids loading all rows for big countries)")
+    parser.add_argument("--max-workers", type=int, default=8,
+                        help="number of concurrent polygons to process (default: 8)")
     args = parser.parse_args()
 
     df = pl.read_parquet(args.in_path)
@@ -72,6 +74,7 @@ def main() -> None:
         fetch_extract=_extract,
         out_parquet=None,  # we write the filtered parquet ourselves below
         out_jsonl=None,
+        max_workers=args.max_workers,
     )
 
     matched = [r for r in results if r.match_status == "matched"]

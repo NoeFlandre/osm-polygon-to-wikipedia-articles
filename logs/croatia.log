@@ -1,0 +1,1789 @@
+[00:08:23] === croatia ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== croatia ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/croatia.parquet
+wrote 47140 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/croatia.parquet
+pre-filter (--only-wikidata): 47140 -> 625 rows
+
+625 polygons with wikidata=*
+  matched:           188
+  no en sitelink:    427
+  no sitelinks:      10
+  Q2027672 (croatia/way/10621332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643085 (croatia/way/10622994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19707416 (croatia/way/10624744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6960315 (croatia/way/12348754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508587 (croatia/way/12349406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6594064 (croatia/way/12349410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12641457 (croatia/way/12364886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3511014 (croatia/way/12364888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1564144 (croatia/way/12367408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6168035 (croatia/way/12372118) -> matched: Jaz (island)  [body: 414 chars]
+  Q12803070 (croatia/way/12372124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3513090 (croatia/way/12372126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12636440 (croatia/way/12374134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12631828 (croatia/way/12374160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q277389 (croatia/way/12387332) -> matched: Lokrum  [body: 6790 chars]
+  Q2976152 (croatia/way/12481136) -> matched: Ruda (island)  [body: 303 chars]
+  Q3514022 (croatia/way/12546898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14701407 (croatia/way/15642566) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509539 (croatia/way/15667854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12794312 (croatia/way/15667898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1141375 (croatia/way/15667908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506853 (croatia/way/15667912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506533 (croatia/way/15667914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507706 (croatia/way/16076474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3444352 (croatia/way/16076476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510638 (croatia/way/16076480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2451527 (croatia/way/16190092) -> matched: Lake Vrana (Cres)  [body: 2759 chars]
+  Q3509450 (croatia/way/17675368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506811 (croatia/way/17675380) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509265 (croatia/way/17675414) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12805996 (croatia/way/17675452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506648 (croatia/way/17675454) -> matched: Klobučar (island)  [body: 254 chars]
+  Q12798870 (croatia/way/17675456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8270955 (croatia/way/17675468) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10661632 (croatia/way/17675480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3514060 (croatia/way/17675488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644492 (croatia/way/17675490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14701417 (croatia/way/17675524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508318 (croatia/way/17675532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507546 (croatia/way/17675536) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12805767 (croatia/way/17675540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507000 (croatia/way/17675542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509502 (croatia/way/17675552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3443662 (croatia/way/17675596) -> matched: Vele Orjule  [body: 280 chars]
+  Q3442287 (croatia/way/17675604) -> matched: Smokvica Vela (Kornat)  [body: 325 chars]
+  Q12642326 (croatia/way/17675606) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12795575 (croatia/way/17675612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506933 (croatia/way/17675636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12797148 (croatia/way/17675692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506965 (croatia/way/17675698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3435321 (croatia/way/17675722) -> matched: Piškera  [body: 673 chars]
+  Q3507052 (croatia/way/17675726) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509531 (croatia/way/17675734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12640456 (croatia/way/17675764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506757 (croatia/way/17675772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509491 (croatia/way/17675782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12755818 (croatia/way/17675792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508636 (croatia/way/17675798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507662 (croatia/way/17675824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12786564 (croatia/way/17675826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12795363 (croatia/way/17675832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507620 (croatia/way/17675840) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506686 (croatia/way/17675846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12638743 (croatia/way/17675860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506630 (croatia/way/17675868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12786613 (croatia/way/17675940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509508 (croatia/way/17675944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3444053 (croatia/way/17675956) -> matched: Zeča  [body: 301 chars]
+  Q12805534 (croatia/way/17675976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510744 (croatia/way/17676020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507158 (croatia/way/17676024) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12795076 (croatia/way/17676028) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12804351 (croatia/way/17676066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12639027 (croatia/way/17676068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12636441 (croatia/way/17676088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506831 (croatia/way/17676096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506804 (croatia/way/17676102) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508426 (croatia/way/17676108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507137 (croatia/way/17676158) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506675 (croatia/way/17676172) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12637436 (croatia/way/17676182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6959600 (croatia/way/17676184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506765 (croatia/way/17676194) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12631277 (croatia/way/17676206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506647 (croatia/way/17676222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644495 (croatia/way/17676258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14701408 (croatia/way/17676288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506636 (croatia/way/17676306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507604 (croatia/way/17676318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12645782 (croatia/way/17676326) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644687 (croatia/way/17676330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508364 (croatia/way/17676338) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509372 (croatia/way/17676342) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12628362 (croatia/way/17676346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507075 (croatia/way/17676366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509484 (croatia/way/17676376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506797 (croatia/way/17676390) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12631510 (croatia/way/17676394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507062 (croatia/way/17676438) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2123434 (croatia/way/17676440) -> matched: Galešnjak  [body: 1500 chars]
+  Q892508 (croatia/way/17676480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12805500 (croatia/way/17676486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14698882 (croatia/way/17676492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509512 (croatia/way/17676500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643404 (croatia/way/17676508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1435248 (croatia/way/17676514) -> matched: Lavsa  [body: 292 chars]
+  Q3509381 (croatia/way/17676516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12803278 (croatia/way/17676522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12803707 (croatia/way/17676530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508352 (croatia/way/17676532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643929 (croatia/way/17676536) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12806882 (croatia/way/17676544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508397 (croatia/way/17676550) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509475 (croatia/way/17676570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507085 (croatia/way/17676604) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1809606 (croatia/way/17676610) -> matched: Vrgada  [body: 1187 chars]
+  Q12644242 (croatia/way/17676640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506862 (croatia/way/17676642) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509393 (croatia/way/17676652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507010 (croatia/way/17676654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7851227 (croatia/way/17676708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507043 (croatia/way/17676710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506730 (croatia/way/17676716) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507575 (croatia/way/17676722) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508452 (croatia/way/17676726) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509436 (croatia/way/17676780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507119 (croatia/way/17676790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3435313 (croatia/way/17676808) -> matched: Arta Velika  [body: 1062 chars]
+  Q4251410 (croatia/way/17676854) -> matched: Ošljak (island)  [body: 637 chars]
+  Q16110975 (croatia/way/17676860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12786553 (croatia/way/17676882) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506605 (croatia/way/17676922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644494 (croatia/way/17676936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508508 (croatia/way/17979772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510651 (croatia/way/17979846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644989 (croatia/way/17979848) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644486 (croatia/way/17979876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12635455 (croatia/way/17979894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6963825 (croatia/way/17979906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509497 (croatia/way/17979910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643082 (croatia/way/17979924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510393 (croatia/way/17979986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643072 (croatia/way/17979994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643089 (croatia/way/17980044) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3435873 (croatia/relation/13542775) -> matched: Crveni Otok  [body: 838 chars]
+  Q19707209 (croatia/way/17980048) -> matched: Sveti Andrija (Rovinj)  [body: 838 chars]
+  Q3507693 (croatia/way/17980058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12634813 (croatia/way/17980066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643064 (croatia/way/17980096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12631407 (croatia/way/17980104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12805594 (croatia/way/17980114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508609 (croatia/way/20870664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508554 (croatia/way/20870672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12806184 (croatia/way/20870684) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506696 (croatia/way/20870688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508412 (croatia/way/20870698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506544 (croatia/way/20870720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509401 (croatia/way/20870728) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12798711 (croatia/way/20870768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510686 (croatia/way/20870784) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10567000 (croatia/way/20870786) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509260 (croatia/way/20870810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643928 (croatia/way/20870834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507033 (croatia/way/20870838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506783 (croatia/way/20870908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506660 (croatia/way/20870910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506877 (croatia/way/20870930) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12639150 (croatia/way/20870938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2590581 (croatia/way/20875608) -> matched: Crkvina (island)  [body: 195 chars]
+  Q2585371 (croatia/way/20875702) -> matched: Tajan (Jakljan)  [body: 252 chars]
+  Q12627580 (croatia/way/30474812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432242 (croatia/way/32268424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25503263 (croatia/way/33600710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12628171 (croatia/way/34089202) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6476572 (croatia/way/34090570) -> matched: Lake Lapovac  [body: 195 chars]
+  Q112121022 (croatia/way/36160558) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26224786 (croatia/way/45299178) -> matched: Lake Ormož  [body: 1511 chars]
+  Q2567635 (croatia/way/48020238) -> matched: Košljun (island)  [body: 2748 chars]
+  Q124312982 (croatia/way/56316346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20526540 (croatia/way/57951238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12635443 (croatia/way/57951826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3825969 (croatia/way/57951828) -> matched: Lake Lokve  [body: 517 chars]
+  Q16115512 (croatia/way/57954816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4997513 (croatia/way/58046320) -> matched: Bundek  [body: 908 chars]
+  Q3504844 (croatia/way/58516656) -> matched: University Hospital Centre Zagreb  [body: 3895 chars]
+  Q56393862 (croatia/way/58857092) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q926884 (croatia/way/60276492) -> matched: Daksa (island)  [body: 1330 chars]
+  Q7210399 (croatia/way/60763954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3541891 (croatia/way/60763956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12803748 (croatia/way/61603148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122353012 (croatia/way/61634826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1988669 (croatia/way/63527766) -> matched: Mrkan  [body: 1997 chars]
+  Q134622381 (croatia/way/63751176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q603772 (croatia/way/65080336) -> matched: Zagreb Fair  [body: 2268 chars]
+  Q12643203 (croatia/way/67697708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56160042 (croatia/way/70939732) -> matched: Zagreb Hippodrome  [body: 1957 chars]
+  Q113872639 (croatia/way/71220174) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12642906 (croatia/way/71851562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122225668 (croatia/way/76566104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31200685 (croatia/way/77179012) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432835 (croatia/way/78414770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25295427 (croatia/relation/567501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7178471 (croatia/way/84570694) -> matched: Petnja  [body: 892 chars]
+  Q97237335 (croatia/way/85524376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18227895 (croatia/way/86393858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12645494 (croatia/way/86412936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113367711 (croatia/way/87126752) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125058406 (croatia/way/105278132) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4075033 (croatia/way/106713996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1623907 (croatia/way/119671968) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q640410 (croatia/way/142758560) -> matched: Željava Air Base  [body: 6840 chars]
+  Q11098732 (croatia/way/154398570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114708568 (croatia/way/154763318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30280455 (croatia/way/154970680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5133765 (croatia/way/156653992) -> matched: Clinical Hospital Dubrava  [body: 1732 chars]
+  Q155032 (croatia/way/158989576) -> matched: Jasenovac concentration camp  [body: 87556 chars]
+  Q7531321 (croatia/way/160402742) -> matched: Sisters of Charity Hospital (Zagreb)  [body: 3484 chars]
+  Q3442471 (croatia/way/169027918) -> matched: Gradski Stadion (Koprivnica)  [body: 656 chars]
+  Q12641281 (croatia/way/174598262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12637257 (croatia/way/177781852) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432473 (croatia/way/179451196) -> matched: Portorož Airport  [body: 6847 chars]
+  Q1141414 (croatia/way/186842238) -> matched: Rijeka Airport  [body: 3327 chars]
+  Q138528328 (croatia/way/187134180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q440838 (croatia/way/187222954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431001 (croatia/way/189961416) -> matched: Brač Airport  [body: 2136 chars]
+  Q109335045 (croatia/way/191401586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16110607 (croatia/way/193458060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26224736 (croatia/way/200538382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17457199 (croatia/way/201808526) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97230654 (croatia/way/202234946) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114358998 (croatia/way/204019370) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q227174 (croatia/way/205331942) -> matched: Zrinski Park  [body: 464 chars]
+  Q121355816 (croatia/way/208552872) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122466044 (croatia/way/210141860) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q112121007 (croatia/way/213661556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q139254860 (croatia/way/219707368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q614212 (croatia/relation/6623217) -> matched: Stari Grad Plain  [body: 2218 chars]
+  Q20526704 (croatia/way/240797432) -> matched: Kolansko blato  [body: 1444 chars]
+  Q122158828 (croatia/way/245370154) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1002247 (croatia/relation/3371477) -> matched: Municipality of Podlehnik  [body: 702 chars]
+  Q7459696 (croatia/way/250018204) -> matched: Sečovlje Saltpans Natural Park  [body: 478 chars]
+  Q16113966 (croatia/way/258517610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2297404 (croatia/way/259602908) -> matched: 3. Maj  [body: 1671 chars]
+  Q3655753 (croatia/way/259603126) -> matched: Kraljevica Shipyard  [body: 830 chars]
+  Q11107618 (croatia/way/262941672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12632262 (croatia/way/268128598) -> matched: Čakovec Hydroelectric Power Plant  [body: 1358 chars]
+  Q3451690 (croatia/way/273429162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65151285 (croatia/way/274780270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353240 (croatia/way/274789434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128016 (croatia/way/284326674) -> matched: Zagreb Airport  [body: 8275 chars]
+  Q1668261 (croatia/way/284344188) -> matched: Peruća Lake  [body: 5181 chars]
+  Q16111182 (croatia/way/285147270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q924701 (croatia/way/285351356) -> matched: Brodosplit  [body: 4200 chars]
+  Q12644890 (croatia/way/285351358) -> matched: Lora (Split)  [body: 783 chars]
+  Q97237366 (croatia/way/285438852) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15700015 (croatia/way/285910180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1125392 (croatia/way/290526346) -> matched: Split Airport  [body: 6837 chars]
+  Q135155103 (croatia/way/294833516) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7231229 (croatia/way/295511266) -> matched: Port of Ploče  [body: 11736 chars]
+  Q12639275 (croatia/way/297741094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25342385 (croatia/way/298769068) -> matched: Lake Trakošćan  [body: 604 chars]
+  Q123738416 (croatia/way/300101232) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q14701409 (croatia/way/300361252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3127324 (croatia/way/301074852) -> matched: Gavrilović (company)  [body: 3422 chars]
+  Q389327 (croatia/way/316098220) -> matched: Pula Airport  [body: 3009 chars]
+  Q1319721 (croatia/way/318492038) -> matched: Vrsar Crljenka Airport  [body: 2022 chars]
+  Q3443178 (croatia/way/319045758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q392842 (croatia/way/319071404) -> matched: Šćedro  [body: 7875 chars]
+  Q2189631 (croatia/way/325171030) -> matched: Karlovačka pivovara  [body: 2694 chars]
+  Q630449 (croatia/way/326024160) -> matched: Opeka Arboretum  [body: 935 chars]
+  Q3507682 (croatia/way/336118300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506553 (croatia/way/336118302) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14701402 (croatia/way/336357422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507677 (croatia/way/336357428) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643482 (croatia/way/336357430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12634168 (croatia/way/336357432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19706935 (croatia/way/336357434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12634169 (croatia/way/336357436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508308 (croatia/way/336357438) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507699 (croatia/way/336360404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508342 (croatia/way/336633160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508641 (croatia/way/336648054) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14701439 (croatia/way/336648058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3445201 (croatia/way/336648060) -> matched: Kurba Vela  [body: 400 chars]
+  Q123398041 (croatia/way/340534538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30092669 (croatia/way/340732390) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506886 (croatia/way/341556364) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66759061 (croatia/way/344179590) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q116952845 (croatia/relation/4299705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25291755 (croatia/way/345821164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114297321 (croatia/way/347561480) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16113985 (croatia/way/352485710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3513168 (croatia/way/355152570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25503258 (croatia/way/356751610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25502060 (croatia/way/361255052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2384103 (croatia/way/363341218) -> matched: Rijeka Thermal Power Station  [body: 2009 chars]
+  Q28531737 (croatia/way/363341960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112812655 (croatia/way/365459272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25312354 (croatia/way/365868132) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q618044 (croatia/way/374321180) -> matched: Apatin Brewery  [body: 3903 chars]
+  Q25555173 (croatia/way/378112000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114851364 (croatia/relation/8997789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31034213 (croatia/way/408098754) -> matched: Aquacolors  [body: 382 chars]
+  Q865428 (croatia/way/416153000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12645699 (croatia/way/416659126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1147000 (croatia/way/419992148) -> matched: Dubrovnik Airport  [body: 4428 chars]
+  Q656885 (croatia/way/421490384) -> matched: Plomin Power Station  [body: 10193 chars]
+  Q3506945 (croatia/way/422030206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12637122 (croatia/way/422030212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12645948 (croatia/way/423971278) -> matched: Lake Čepić  [body: 3357 chars]
+  Q11824499 (croatia/way/447804590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122271609 (croatia/way/449969426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1362476 (croatia/way/456424026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q764518 (croatia/way/457482714) -> matched: Grobničko Polje Airfield  [body: 219 chars]
+  Q1259289 (croatia/relation/28863815) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507629 (croatia/way/464514872) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6763889 (croatia/relation/6248159) -> matched: Marina Punat  [body: 678 chars]
+  Q108108239 (croatia/way/473090520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12642595 (croatia/way/473090526) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3505138 (croatia/way/473492446) -> matched: Planik  [body: 545 chars]
+  Q3508628 (croatia/way/473763686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3377621 (croatia/way/476483876) -> matched: Petrokemija  [body: 2089 chars]
+  Q1433260 (croatia/way/478406236) -> matched: Lučko Airfield  [body: 5707 chars]
+  Q1431960 (croatia/way/489352146) -> matched: Lošinj Airport  [body: 1118 chars]
+  Q1423278 (croatia/way/489353352) -> matched: Osijek Airport  [body: 4230 chars]
+  Q12695406 (croatia/way/489357798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13567368 (croatia/way/504674512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507673 (croatia/way/512909860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18227895 (croatia/way/518440694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353244 (croatia/way/538103580) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12627523 (croatia/way/546993424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50037141 (croatia/way/555604374) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12627252 (croatia/way/561649140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3134259 (croatia/way/570007736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353237 (croatia/relation/7731715) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12636510 (croatia/way/594307596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16116840 (croatia/way/626930474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16110760 (croatia/way/634014864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12634481 (croatia/way/641594356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3513808 (croatia/way/645449434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16116893 (croatia/relation/9173077) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4103545 (croatia/relation/9213549) -> matched: Lake Varaždin  [body: 1350 chars]
+  Q134472932 (croatia/way/662693280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12631723 (croatia/way/706496328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18165028 (croatia/way/710597548) -> matched: Istralandia  [body: 1124 chars]
+  Q11024050 (croatia/way/710981282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q155359 (croatia/way/745656544) -> matched: Zadar Airport  [body: 1729 chars]
+  Q1276499 (croatia/way/760102216) -> matched: Brod Fortress  [body: 7502 chars]
+  Q1272399 (croatia/way/842622126) -> matched: Kavran  [body: 183 chars]
+  Q114851279 (croatia/way/847161386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63790050 (croatia/way/856673404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20526247 (croatia/way/856895228) -> matched: Grabovača  [body: 2780 chars]
+  Q525105 (croatia/relation/20095377) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26799668 (croatia/way/872292290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64148011 (croatia/relation/13251881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108339782 (croatia/relation/13280801) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1815788 (croatia/way/949764084) -> matched: Tvrđa  [body: 14346 chars]
+  Q859868 (croatia/way/984633254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12646043 (croatia/way/999459088) -> matched: Sands of Đurđevac  [body: 1535 chars]
+  Q240079 (croatia/way/1000865648) -> matched: Sveti Rok Tunnel  [body: 3085 chars]
+  Q30345734 (croatia/relation/14690619) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108860404 (croatia/way/1004132806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108860594 (croatia/relation/36107295) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3134376 (croatia/way/1008914122) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30263647 (croatia/way/1039861906) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q11192163 (croatia/way/1044401358) -> matched: Sveti Ilija Tunnel  [body: 1981 chars]
+  Q97215762 (croatia/way/1044911952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20527361 (croatia/way/1050618186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12628497 (croatia/relation/9171661) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97221895 (croatia/way/1110592134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q560385 (croatia/way/1174939640) -> matched: Island of Vukovar  [body: 2358 chars]
+  Q30281275 (croatia/way/1177599778) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12638948 (croatia/way/1215963050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12635870 (croatia/way/1225482552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109859694 (croatia/way/1241418386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353241 (croatia/way/1241418388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353248 (croatia/way/1241447642) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97237346 (croatia/way/1241463650) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97237377 (croatia/relation/17228457) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353239 (croatia/relation/17307625) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12634812 (croatia/relation/3461079) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644491 (croatia/way/1334068366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14701240 (croatia/way/1334068370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12789987 (croatia/way/1334068372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12634611 (croatia/way/1334068518) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506971 (croatia/way/1336278612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509547 (croatia/way/1336278614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643816 (croatia/way/1336278616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12631894 (croatia/relation/18589345) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508534 (croatia/way/1336653212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508620 (croatia/way/1336653228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510731 (croatia/way/1336653232) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12646146 (croatia/way/1336662424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2109394 (croatia/relation/18613745) -> matched: Prevlaka  [body: 7877 chars]
+  Q25312362 (croatia/relation/18691325) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q879332 (croatia/relation/18808755) -> matched: Biševo  [body: 4389 chars]
+  Q98097548 (croatia/way/1361205834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12642526 (croatia/relation/2708177) -> matched: Dotrščina  [body: 4670 chars]
+  Q97237380 (croatia/way/1366216112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353242 (croatia/relation/17220971) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111472100 (croatia/relation/8889275) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q994174 (croatia/relation/19709999) -> matched: Susak  [body: 17217 chars]
+  Q19901186 (croatia/relation/20104631) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288532 (croatia/relation/20235835) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25291653 (croatia/relation/20261597) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12793897 (croatia/relation/20282015) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3512364 (croatia/relation/20049209) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25291717 (croatia/relation/20304779) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25295499 (croatia/relation/20379417) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506624 (croatia/relation/20412125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25301368 (croatia/relation/20412127) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508329 (croatia/relation/20412129) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288613 (croatia/relation/20457583) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12636135 (croatia/relation/20492237) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288397 (croatia/relation/20508771) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12637225 (croatia/relation/20542805) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26224806 (croatia/relation/20542809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288561 (croatia/relation/20589265) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25301066 (croatia/relation/20617239) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3091344 (croatia/relation/20688593) -> matched: Katina (island)  [body: 493 chars]
+  Q25286864 (croatia/relation/20688595) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25287172 (croatia/relation/20726465) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26224110 (croatia/way/1520140426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288363 (croatia/relation/21173307) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q85413120 (croatia/way/1546397384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1262136 (croatia/way/1560394728) -> matched: Mirogoj Cemetery  [body: 5670 chars]
+  Q7383690 (croatia/way/1561964896) -> matched: Ruđer Bošković Institute  [body: 2235 chars]
+  Q16115267 (croatia/way/1562379754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12628455 (croatia/relation/21786533) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12631593 (croatia/relation/21786531) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q892514 (croatia/relation/21806779) -> matched: Levrnaka  [body: 294 chars]
+  Q3507128 (croatia/relation/21806781) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q754795 (croatia/relation/18596251) -> matched: Vir (island)  [body: 4165 chars]
+  Q2576288 (croatia/relation/13513303) -> matched: Maun (island)  [body: 1789 chars]
+  Q634530 (croatia/relation/6370819) -> matched: Olib  [body: 4823 chars]
+  Q942466 (croatia/relation/18588917) -> matched: Ist (island)  [body: 3076 chars]
+  Q988673 (croatia/relation/18589351) -> matched: Premuda  [body: 4242 chars]
+  Q12635899 (croatia/relation/18589347) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3444733 (croatia/relation/21956637) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2659395 (croatia/relation/21956087) -> matched: Škrda  [body: 324 chars]
+  Q995061 (croatia/relation/8042703) -> matched: Ilovik  [body: 8983 chars]
+  Q3443623 (croatia/relation/21956639) -> matched: Sveti Petar (island)  [body: 633 chars]
+  Q3508439 (croatia/relation/22309645) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3435344 (croatia/relation/13227033) -> matched: Prežba  [body: 630 chars]
+  Q3435331 (croatia/relation/21991315) -> matched: Mrčara  [body: 666 chars]
+  Q3507634 (croatia/relation/21991505) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12642588 (croatia/relation/21991513) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12749624 (croatia/relation/21991515) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288669 (croatia/relation/21992261) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1077500 (croatia/relation/22007303) -> matched: Plavnik  [body: 1246 chars]
+  Q6593644 (croatia/relation/22178943) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510681 (croatia/relation/21043283) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1165734 (croatia/relation/12233389) -> matched: Drvenik Veli  [body: 2150 chars]
+  Q612209 (croatia/relation/21043285) -> matched: Drvenik Mali  [body: 1091 chars]
+  Q12644481 (croatia/relation/20457673) -> matched: Vela Luka Bay  [body: 3590 chars]
+  Q1077832 (croatia/relation/22186975) -> matched: Sveti Grgur  [body: 651 chars]
+  Q541157 (croatia/relation/22186973) -> matched: Goli Otok  [body: 9227 chars]
+  Q1812034 (croatia/relation/22186971) -> matched: Prvić (Krk)  [body: 4776 chars]
+  Q1235590 (croatia/relation/21974071) -> matched: Dolin (island)  [body: 271 chars]
+  Q4277585 (croatia/relation/19717537) -> matched: Male Srakane  [body: 1472 chars]
+  Q1756105 (croatia/relation/19718149) -> matched: Vele Srakane  [body: 1338 chars]
+  Q599986 (croatia/relation/37967531) -> matched: Unije  [body: 2908 chars]
+  Q3443146 (croatia/relation/22191103) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3442666 (croatia/relation/22191105) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3443444 (croatia/relation/11008561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3242951 (croatia/relation/22191099) -> matched: Sveti Klement  [body: 899 chars]
+  Q6591833 (croatia/relation/22191101) -> matched: Jerolim (island)  [body: 370 chars]
+  Q3443500 (croatia/relation/22191159) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25295286 (croatia/relation/21948287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2976155 (croatia/relation/20379103) -> matched: Jakljan  [body: 758 chars]
+  Q1323805 (croatia/relation/20379099) -> matched: Koločep  [body: 3552 chars]
+  Q1124698 (croatia/relation/20362033) -> matched: Lopud  [body: 5990 chars]
+  Q231329 (croatia/relation/22228803) -> matched: Zverinac  [body: 520 chars]
+  Q1776363 (croatia/relation/18554375) -> matched: Rava (island)  [body: 1257 chars]
+  Q12646234 (croatia/relation/22229573) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3509468 (croatia/relation/22229575) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3507093 (croatia/relation/22229609) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q650296 (croatia/relation/21991507) -> matched: Rivanj  [body: 781 chars]
+  Q1343941 (croatia/relation/21991509) -> matched: Sestrunj  [body: 1694 chars]
+  Q1808863 (croatia/relation/22229915) -> matched: Lavdara  [body: 341 chars]
+  Q3506893 (croatia/relation/22235281) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1419113 (croatia/relation/13043911) -> matched: Kornat  [body: 1408 chars]
+  Q394321 (croatia/relation/20726467) -> matched: Žut  [body: 2246 chars]
+  Q3442246 (croatia/relation/22229571) -> matched: Sit (island)  [body: 899 chars]
+  Q2706296 (croatia/relation/22269749) -> matched: Badija  [body: 348 chars]
+  Q3445114 (croatia/relation/22273655) -> matched: Male Orjule  [body: 148 chars]
+  Q12804505 (croatia/relation/21786535) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3514031 (croatia/relation/18588897) -> matched: Tun Veli  [body: 144 chars]
+  Q3436267 (croatia/relation/22277427) -> matched: Kakan (island)  [body: 108 chars]
+  Q3508480 (croatia/relation/22277509) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3510626 (croatia/relation/22277507) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506667 (croatia/relation/22277511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q388024 (croatia/relation/22236493) -> matched: Žirje, Croatia  [body: 1988 chars]
+  Q3509247 (croatia/relation/22277547) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1343928 (croatia/relation/22236273) -> matched: Kaprije  [body: 1387 chars]
+  Q12641988 (croatia/relation/22277659) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12641989 (croatia/relation/22277661) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3443672 (croatia/relation/19120573) -> matched: Zmajan  [body: 166 chars]
+  Q6591861 (croatia/relation/22277549) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3443652 (croatia/relation/19120569) -> matched: Tijat  [body: 379 chars]
+  Q3506844 (croatia/relation/19120577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26224733 (croatia/relation/22277665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q119868 (croatia/relation/22232261) -> matched: Zlarin  [body: 9608 chars]
+  Q769901 (croatia/relation/19120575) -> matched: Prvić  [body: 3573 chars]
+  Q2090024 (croatia/relation/22294667) -> matched: Mali Brijun  [body: 339 chars]
+  Q2572091 (croatia/relation/22294669) -> matched: Veli Brijun  [body: 8305 chars]
+  Q25288370 (croatia/relation/20266089) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2515944 (croatia/relation/22306571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12760059 (croatia/way/1630862534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1817824 (croatia/relation/30035099) -> matched: Uljanik  [body: 3501 chars]
+  Q106777575 (croatia/way/1637016470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288358 (croatia/relation/22574755) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25300552 (croatia/relation/22648863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2590617 (croatia/relation/22653349) -> matched: Olipa  [body: 655 chars]
+  Q391205 (croatia/relation/23183765) -> matched: Island of Šarengrad  [body: 2469 chars]
+  Q12692872 (croatia/way/1695587854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20526534 (croatia/way/1751489276) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1155248 (croatia/way/1752444658) -> matched: Pelješac Bridge  [body: 19219 chars]
+  Q341554 (croatia/relation/6917047) -> matched: Čiovo  [body: 3610 chars]
+  Q3509439 (croatia/relation/24309379) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1789113 (croatia/relation/18685773) -> matched: Marjan, Split  [body: 10731 chars]
+  Q12626603 (croatia/relation/24571423) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7231268 (croatia/relation/24598717) -> matched: Port of Split  [body: 9519 chars]
+  Q25288586 (croatia/relation/20264899) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1131774 (croatia/relation/13512685) -> matched: Ugljan  [body: 2892 chars]
+  Q12638607 (croatia/way/1881354984) -> matched: Novi Dvori  [body: 5699 chars]
+  Q13294 (croatia/relation/16601859) -> matched: Silba  [body: 10755 chars]
+  Q128500504 (croatia/way/1888026174) -> matched: Veliko Rujno  [body: 1421 chars]
+  Q26224722 (croatia/way/1900197168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15233658 (croatia/way/1940187892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25301398 (croatia/relation/26301251) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25291583 (croatia/relation/13159497) -> matched: Morinje  [body: 1211 chars]
+  Q289266 (croatia/relation/26729271) -> matched: Sušac  [body: 815 chars]
+  Q16110697 (croatia/relation/26835775) -> matched: Sinjsko Polje  [body: 1795 chars]
+  Q1263995 (croatia/relation/26894283) -> matched: Svetac  [body: 3881 chars]
+  Q3510674 (croatia/relation/39257261) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122603113 (croatia/way/2071986300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643092 (croatia/relation/27804599) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12641060 (croatia/relation/27808619) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16115608 (croatia/relation/27830817) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97353235 (croatia/relation/11752545) -> matched: Grmoščica  [body: 7209 chars]
+  Q132655899 (croatia/way/2085312638) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21041008 (croatia/way/2100955452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12642858 (croatia/way/2114729730) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3508641 (croatia/relation/28627633) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q121635999 (croatia/way/2158013650) -> matched: ŠRC Jarun  [body: 1308 chars]
+  Q211046 (croatia/relation/25896949) -> matched: Kupa  [body: 4507 chars]
+  Q1625342 (croatia/relation/14961895) -> matched: Lake Vrana (Dalmatia)  [body: 1361 chars]
+  Q1342075 (croatia/relation/22285897) -> matched: Krapanj  [body: 6973 chars]
+  Q820542 (croatia/relation/3407835) -> matched: Lake Dubrava  [body: 1573 chars]
+  Q10950022 (croatia/relation/29381205) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q391779 (croatia/relation/18588923) -> matched: Škarda  [body: 2203 chars]
+  Q12633537 (croatia/way/2239927884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12632074 (croatia/way/2298806348) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1132307 (croatia/relation/18554355) -> matched: Iž  [body: 10246 chars]
+  Q25288371 (croatia/relation/20432105) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6438971 (croatia/way/2328980150) -> matched: Kronospan  [body: 5984 chars]
+  Q25288625 (croatia/relation/22196707) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61634919 (croatia/relation/18613701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25286909 (croatia/relation/21948717) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25291503 (croatia/relation/21837273) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q216878 (croatia/relation/20624809) -> matched: Lastovo  [body: 22486 chars]
+  Q12636126 (croatia/relation/20412117) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12644525 (croatia/relation/20412119) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16113714 (croatia/relation/20615683) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25300609 (croatia/relation/20615395) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q695074 (croatia/relation/20616103) -> matched: Bay of Mali Ston  [body: 3784 chars]
+  Q25291494 (croatia/relation/21082821) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25287000 (croatia/relation/20542811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25299082 (croatia/relation/20266403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25288618 (croatia/relation/20266411) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25300997 (croatia/relation/20340829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12640761 (croatia/relation/20211497) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16117307 (croatia/relation/20211275) -> matched: Soline Bay  [body: 643 chars]
+  Q25286960 (croatia/relation/20488295) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25287040 (croatia/relation/20882161) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65136965 (croatia/relation/20438059) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25295318 (croatia/relation/20492179) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q926981 (croatia/relation/18877283) -> matched: Lim (Croatia)  [body: 2282 chars]
+  Q12692066 (croatia/way/2365039444) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26223072 (croatia/relation/28863817) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25291557 (croatia/relation/20815577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123142614 (croatia/relation/32330543) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q348076 (croatia/relation/2295557) -> matched: Maksimir Park  [body: 12989 chars]
+  Q3436984 (croatia/relation/6098985) -> matched: Lake Krušćica  [body: 400 chars]
+  Q12635866 (croatia/relation/20848083) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3445975 (croatia/relation/20555749) -> matched: Rijeka Dubrovačka  [body: 263 chars]
+  Q12644894 (croatia/way/2461135874) -> matched: Gašinci Military Training Grounds  [body: 1517 chars]
+  Q3515165 (croatia/relation/18583187) -> matched: Lapad  [body: 47092 chars]
+  Q16111419 (croatia/relation/21936285) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8082839 (croatia/relation/19361023) -> matched: Šoderica  [body: 150 chars]
+  Q97353249 (croatia/relation/17220363) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31199817 (croatia/way/2527508794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16108660 (croatia/way/2533529114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12792764 (croatia/way/2552197406) -> matched: Jovsi  [body: 1254 chars]
+  Q73330139 (croatia/relation/38957635) -> matched: Verdis  [body: 16479 chars]
+  Q108146921 (croatia/way/2572169356) -> matched: Bardača  [body: 602 chars]
+  Q16116764 (croatia/way/2602595184) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2794276 (croatia/way/2615801140) -> matched: Bratuš  [body: 539 chars]
+  Q97353245 (croatia/relation/3006681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25291534 (croatia/relation/20866387) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1419141 (croatia/relation/506471) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433302 (croatia/relation/36181817) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q928983 (croatia/relation/19039233) -> matched: Murter  [body: 3194 chars]
+  Q12635421 (croatia/way/2680786116) -> matched: Lenuci Horseshoe  [body: 4874 chars]
+  Q5311111 (croatia/way/2721740520) -> matched: Dubrava Hydroelectric Power Plant  [body: 538 chars]
+  Q97237328 (croatia/relation/37523869) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123683659 (croatia/relation/37550171) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q998910 (croatia/relation/19963725) -> matched: Bay of Bakar  [body: 927 chars]
+  Q167001 (croatia/relation/3371491) -> matched: Municipality of Zavrč  [body: 665 chars]
+  Q3441796 (croatia/relation/3371487) -> matched: Municipality of Središče ob Dravi  [body: 690 chars]
+  Q3435117 (croatia/relation/3371481) -> matched: Municipality of Razkrižje  [body: 611 chars]
+  Q694089 (croatia/relation/13279829) -> matched: Lake Prokljan  [body: 1633 chars]
+  Q17461629 (croatia/relation/4409279) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3240980 (croatia/relation/17787487) -> matched: Karin Sea  [body: 2097 chars]
+  Q3241044 (croatia/relation/17787283) -> matched: Novigrad Sea  [body: 3285 chars]
+  Q16109090 (croatia/way/2781835238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1457435 (croatia/relation/38832967) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q391699 (croatia/relation/20379101) -> matched: Šipan  [body: 8207 chars]
+  Q102285156 (croatia/relation/32763455) -> matched: Gornja Siga  [body: 11296 chars]
+  Q108138093 (croatia/way/2860596480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1362186 (croatia/relation/6206773) -> matched: Molat  [body: 7351 chars]
+  Q12799347 (croatia/way/2894321722) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17132483 (croatia/relation/26522477) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97237359 (croatia/relation/24188261) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 188 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/croatia_wikidata.parquet
+wrote 188 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/croatia_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/croatia_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/croatia_wikidata_map.png
+  rows=188 geometry_missing=0 bodies=188 jsonl=188 map_html=272228B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['croatia']
+  failed:    0 -> []
+
+=== union ===
+unioned 26 countries -> 3209 rows
+[00:14:23] union
+unioned 26 countries -> 3209 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[00:14:29] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 108 files.
+Finished hashing 108 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 40 files]                : 100%|██████████| 13.7MB / 13.7MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 50)    :  53%|█████▎    | 15.7MB / 29.6MB, 19.7MB/s  
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :   4%|▍         |  507kB / 12.7MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 51)    :  54%|█████▍    | 16.1MB / 29.6MB, 13.4MB/s  
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :   6%|▌         |  863kB / 13.8MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 54)    :  56%|█████▌    | 16.6MB / 29.6MB, 11.8MB/s  
+New Data Upload               :   4%|▍         |  524kB / 13.5MB,  375kB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   6%|▋         |  812kB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   4%|▍         | 6.08kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet:   4%|▍         | 40.2kB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png:   4%|▍         | 5.43kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  14%|█▍        | 1.76MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  12%|█▏        | 18.2kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet:  12%|█▏        |  121kB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png:  12%|█▏        | 16.3kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 54)    :  60%|█████▉    | 17.6MB / 29.6MB, 9.79MB/s  
+New Data Upload               :  12%|█▏        | 1.57MB / 13.5MB,  874kB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  33%|███▎      | 4.12MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  31%|███       | 48.6kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet:  31%|███       |  322kB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png:  31%|███       | 43.4kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 54)    :  69%|██████▊   | 20.3MB / 29.6MB, 10.1MB/s  
+New Data Upload               :  31%|███       | 4.20MB / 13.5MB, 2.10MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  82%|████████▏ | 10.3MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  82%|████████▏ |  128kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet:  82%|████████▏ |  844kB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png:  82%|████████▏ |  114kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 54)    :  92%|█████████▏| 27.1MB / 29.6MB, 12.3MB/s  
+New Data Upload               :  82%|████████▏ | 11.0MB / 13.5MB, 5.01MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  97%|█████████▋| 12.2MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  97%|█████████▋|  152kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet:  97%|█████████▋| 1.01MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png:  97%|█████████▋|  136kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 54)    :  99%|█████████▊| 29.2MB / 29.6MB, 12.2MB/s  
+New Data Upload               :  97%|█████████▋| 13.1MB / 13.5MB, 5.46MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  97%|█████████▋| 12.2MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  97%|█████████▋|  152kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet:  97%|█████████▋| 1.01MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png:  97%|█████████▋|  136kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 12.5MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet: 100%|██████████| 1.04MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (54 / 54)    : 100%|██████████| 29.6MB / 29.6MB, 10.6MB/s  
+New Data Upload               : 100%|██████████| 13.5MB / 13.5MB, 4.82MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 12.5MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet: 100%|██████████| 1.04MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 12.5MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet: 100%|██████████| 1.04MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 12.5MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet: 100%|██████████| 1.04MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 12.5MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet: 100%|██████████| 1.04MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 12.5MB / 12.5MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata.parquet: 100%|██████████| 1.04MB / 1.04MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (54 / 54)    : 100%|██████████| 29.6MB / 29.6MB, 8.21MB/s  
+New Data Upload               : 100%|██████████| 13.5MB / 13.5MB, 3.75MB/s  
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 12.5MB / 12.5MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            
+  .../croatia_wikidata.parquet: 100%|██████████| 1.04MB / 1.04MB            
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            
+Removing 101 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/75366526cad85e84e66ecdb1acba258555f82870
+[00:14:42] DONE croatia

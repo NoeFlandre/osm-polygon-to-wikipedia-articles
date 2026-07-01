@@ -1,0 +1,2280 @@
+[23:55:17] === france ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== france ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/france.parquet
+wrote 63019 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/france.parquet
+pre-filter (--only-wikidata): 63019 -> 919 rows
+
+919 polygons with wikidata=*
+  matched:           356
+  no en sitelink:    407
+  no sitelinks:      156
+  Q110360663 (france/way/31368802) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1799604 (france/way/38774284) -> matched: Lac Noir (Vosges)  [body: 100 chars]
+  Q2972449 (france/way/39580610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364199 (france/way/39595540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110341796 (france/way/45401174) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110331051 (france/way/46003490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18745376 (france/way/46474488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15725039 (france/way/49494632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364151 (france/way/50320188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215264 (france/way/51794652) -> matched: Lac Vert (Vosges)  [body: 98 chars]
+  Q676411 (france/way/51798506) -> matched: Fessenheim Nuclear Power Plant  [body: 13651 chars]
+  Q3135922 (france/way/52541300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q799100 (france/way/53394890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18745374 (france/way/54091710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457559 (france/way/55389704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1535831 (france/relation/97071) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q159144 (france/way/66153434) -> matched: Europa-Park  [body: 27811 chars]
+  Q220064 (france/way/67269518) -> matched: Mulhouse Zoological and Botanical Park  [body: 3512 chars]
+  Q1301370 (france/way/70152258) -> matched: Fort Rapp  [body: 873 chars]
+  Q3145261 (france/way/81334328) -> matched: Hôpital civil, Strasbourg  [body: 4083 chars]
+  Q1996444 (france/way/81806642) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q22691936 (france/way/82836292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433757 (france/way/84038886) -> matched: Mulhouse–Habsheim Airfield  [body: 772 chars]
+  Q49330157 (france/way/87690464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1165367 (france/way/87693060) -> matched: Strasbourg Airport  [body: 2782 chars]
+  Q2875491 (france/way/88344138) -> matched: Haguenau Airport  [body: 5917 chars]
+  Q3552617 (france/way/92782068) -> matched: Stellantis Mulhouse Plant  [body: 3068 chars]
+  Q120322102 (france/way/92868216) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21351 (france/relation/736107) -> matched: Ringeldorf  [body: 292 chars]
+  Q3215613 (france/way/94061102) -> matched: Lac de la Lauch  [body: 648 chars]
+  Q21349 (france/relation/171755) -> matched: Wingersheim  [body: 362 chars]
+  Q112921246 (france/relation/755421) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3162543 (france/way/96494442) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2945746 (france/way/97318216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875644 (france/way/98377918) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431102 (france/way/102678486) -> matched: Colmar Airport  [body: 940 chars]
+  Q110330389 (france/way/107481742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120322446 (france/way/110903260) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2647567 (france/way/112168508) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q639319 (france/way/118283696) -> matched: Natzweiler-Struthof concentration camp  [body: 24594 chars]
+  Q22426 (france/relation/1867085) -> matched: Uberach  [body: 463 chars]
+  Q21358 (france/relation/1892327) -> matched: Salenthal  [body: 289 chars]
+  Q21225 (france/relation/1891985) -> matched: Allenwiller  [body: 8410 chars]
+  Q21221 (france/relation/1893689) -> matched: Birkenwald  [body: 1189 chars]
+  Q3457389 (france/way/131417474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078782 (france/way/131418280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078768 (france/way/131423242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15460411 (france/way/131423586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457516 (france/way/131424594) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457390 (france/way/131427152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3021921 (france/relation/2133877) -> matched: Delta de la Sauer National Nature Reserve  [body: 2035 chars]
+  Q3215300 (france/way/144737724) -> matched: Lac d'Alfeld  [body: 99 chars]
+  Q21314 (france/relation/2272161) -> matched: Singrist  [body: 252 chars]
+  Q21411 (france/relation/2305673) -> matched: Geiswiller  [body: 325 chars]
+  Q21796 (france/relation/2306723) -> matched: Zœbersdorf  [body: 483 chars]
+  Q21598 (france/relation/1867511) -> matched: La Walck  [body: 287 chars]
+  Q21257 (france/relation/2317427) -> matched: Auenheim  [body: 4578 chars]
+  Q21457 (france/relation/2317399) -> matched: Rountzenheim  [body: 323 chars]
+  Q21301 (france/relation/2327283) -> matched: Pfaffenhoffen  [body: 382 chars]
+  Q21979620 (france/relation/11631397) -> matched: Val-de-Moder  [body: 537 chars]
+  Q18629233 (france/way/152050494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q780715 (france/relation/4060169) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q62026871 (france/way/154091560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65953528 (france/way/155204398) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953819 (france/way/155204892) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953765 (france/relation/2356211) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953774 (france/relation/2356225) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953789 (france/relation/2356239) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953740 (france/way/155205208) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953568 (france/way/155205296) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953769 (france/relation/2356133) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953733 (france/relation/2356229) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953784 (france/relation/2356127) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953775 (france/relation/2356103) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953530 (france/relation/2356115) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28041400 (france/way/9089016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3398551 (france/way/9091148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3162623 (france/way/42050958) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3135984 (france/way/45955130) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432335 (france/way/46002836) -> matched: Pau Pyrénées Airport  [body: 1660 chars]
+  Q2972581 (france/way/47213400) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363954 (france/relation/1811317) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316594 (france/way/50846340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364141 (france/way/51521336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120224100 (france/way/51712416) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2945756 (france/way/51747526) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110341201 (france/way/51747542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13344 (france/way/51747658) -> matched: University of Bordeaux  [body: 9699 chars]
+  Q91339901 (france/way/51893014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120222534 (france/way/55160126) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110341231 (france/way/55479320) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2785072 (france/way/56178478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q974519 (france/way/56677370) -> matched: Nive  [body: 1088 chars]
+  Q717211 (france/relation/149129) -> matched: Castillon-de-Castets  [body: 336 chars]
+  Q3591636 (france/way/61658266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591692 (france/way/61658318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2528970 (france/relation/222281) -> matched: Boos, Landes  [body: 276 chars]
+  Q16510059 (france/way/68477330) -> matched: Pau Golf Club  [body: 4904 chars]
+  Q3135905 (france/way/68621374) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50036402 (france/way/68853658) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q180869 (france/relation/290829) -> matched: Les Graulges  [body: 554 chars]
+  Q377561 (france/relation/292013) -> matched: Puyrenier  [body: 391 chars]
+  Q201644 (france/relation/292029) -> matched: Saint-Crépin-de-Richemont  [body: 364 chars]
+  Q177215 (france/relation/290339) -> matched: Cantillac  [body: 301 chars]
+  Q191473 (france/relation/292695) -> matched: Vieux-Mareuil  [body: 314 chars]
+  Q471987 (france/relation/290841) -> matched: Mareuil, Dordogne  [body: 457 chars]
+  Q1061055 (france/relation/290785) -> matched: La Tour-Blanche  [body: 323 chars]
+  Q2529765 (france/relation/151833) -> matched: Garrosse  [body: 294 chars]
+  Q3215864 (france/way/74741124) -> matched: Lacs d'Arrémoulit  [body: 155 chars]
+  Q3214742 (france/way/74741134) -> matched: Lac Bersau  [body: 193 chars]
+  Q2985821 (france/way/74741138) -> matched: Lac Gentau  [body: 142 chars]
+  Q2946045 (france/way/77509596) -> matched: CSTJF  [body: 8657 chars]
+  Q2886451 (france/way/81683762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110341172 (france/way/83104764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120237260 (france/way/83718398) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2935272 (france/way/84027988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16668828 (france/way/84028974) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875379 (france/way/84038380) -> matched: Arcachon – La Teste-de-Buch Airport  [body: 246 chars]
+  Q2875353 (france/way/84038382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432520 (france/way/84038392) -> matched: Périgueux Bassillac Airport  [body: 1043 chars]
+  Q2875501 (france/way/84038412) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q620101 (france/way/84038436) -> matched: Biarritz Pays Basque Airport  [body: 1630 chars]
+  Q619977 (france/way/84038464) -> matched: Bergerac Dordogne Périgord Airport  [body: 1081 chars]
+  Q2875672 (france/way/84038466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363833 (france/way/84331402) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457492 (france/way/84496752) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3287379 (france/way/84496804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21888017 (france/way/84496808) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591661 (france/way/84496838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215398 (france/way/84500524) -> matched: Lac de Castet  [body: 121 chars]
+  Q1517048 (france/way/84502536) -> matched: Ibón de Estanés  [body: 223 chars]
+  Q3427764 (france/way/84843504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215319 (france/way/84843516) -> matched: Lac d'Artouste  [body: 1922 chars]
+  Q3215372 (france/way/84845612) -> matched: Lac de Bious-Artigues  [body: 740 chars]
+  Q3215438 (france/way/84845614) -> matched: Lac de Fabrèges  [body: 134 chars]
+  Q34736993 (france/way/84851750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875425 (france/way/85372376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3077955 (france/way/87166852) -> matched: Fort Médoc  [body: 647 chars]
+  Q13344 (france/way/88256090) -> matched: University of Bordeaux  [body: 9699 chars]
+  Q13344 (france/way/88256210) -> matched: University of Bordeaux  [body: 9699 chars]
+  Q2945998 (france/way/90065262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1934997 (france/way/90237652) -> matched: Mont-de-Marsan Air Base  [body: 1296 chars]
+  Q116681224 (france/way/90369124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3152678 (france/way/96343876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875427 (france/way/97222978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13342 (france/way/100585600) -> matched: Bordeaux Montaigne University  [body: 5463 chars]
+  Q2875545 (france/way/104497366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875367 (france/way/110761172) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125840844 (france/way/115768760) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q17347111 (france/way/116851514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19544263 (france/way/117316372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13344 (france/way/121390442) -> matched: University of Bordeaux  [body: 9699 chars]
+  Q120218586 (france/relation/1929007) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120191381 (france/relation/606825) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15427798 (france/way/131417900) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19786955 (france/way/131418922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457495 (france/way/131423828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19786957 (france/way/131424744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457501 (france/relation/2091713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15427795 (france/relation/2133305) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15427792 (france/way/131427214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19760262 (france/way/131428518) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15409909 (france/way/131428776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875393 (france/way/142284906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2423605 (france/way/145761802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24278995 (france/way/149139786) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2945699 (france/way/151103550) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q63148190 (france/way/151103562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120218162 (france/way/155783888) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q720277 (france/relation/2681021) -> matched: Prignac-en-Médoc  [body: 366 chars]
+  Q645922 (france/relation/2558819) -> matched: Blaignan  [body: 312 chars]
+  Q380290 (france/relation/2746365) -> matched: Arjuzanx  [body: 295 chars]
+  Q2875625 (france/way/204008642) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2974390 (france/way/216315212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q952020 (france/relation/3095929) -> matched: Saint-Genis-du-Bois  [body: 306 chars]
+  Q120219193 (france/way/227904920) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875663 (france/way/236364324) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875643 (france/way/236364340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2913991 (france/way/244213464) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1077033 (france/relation/3402683) -> matched: Saint-Privat-des-Prés  [body: 467 chars]
+  Q1078183 (france/relation/3408523) -> matched: Ponteyraud  [body: 325 chars]
+  Q3287379 (france/way/251538134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215609 (france/way/251538236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24261968 (france/way/262679326) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875590 (france/way/271687868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32112631 (france/way/272326640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120240772 (france/way/273432232) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2967858 (france/way/285943658) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120238456 (france/way/287880990) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120238255 (france/way/287880992) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q862020 (france/relation/2752515) -> matched: Cantois  [body: 292 chars]
+  Q30728886 (france/way/289383802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22248966 (france/way/291810534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120235674 (france/way/292914920) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875464 (france/way/295334288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215544 (france/relation/104173) -> matched: Lac de Saint-Pée-sur-Nivelle  [body: 218 chars]
+  Q120215970 (france/way/310534700) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215342 (france/way/311726360) -> matched: Lac d'Isabe  [body: 180 chars]
+  Q1975585 (france/way/314113322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2876676 (france/way/314480144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3152389 (france/way/316378572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56229476 (france/way/319033176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2935257 (france/way/325127508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120218094 (france/way/328608764) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120216861 (france/relation/38422433) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120225386 (france/way/337644536) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120216306 (france/way/345521748) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120218997 (france/way/345786800) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3364121 (france/way/348376260) -> matched: Parc de Bourran  [body: 2852 chars]
+  Q120215458 (france/way/352613852) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110365066 (france/way/367086750) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q371062 (france/way/369525478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110336796 (france/way/373793364) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1432736 (france/way/405952202) -> matched: San Sebastián Airport  [body: 1281 chars]
+  Q112659933 (france/way/411318856) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875512 (france/way/412025032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124823540 (france/way/412900052) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q175189 (france/relation/5571223) -> matched: Mouzens, Dordogne  [body: 250 chars]
+  Q2875626 (france/way/438070256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120217130 (france/way/444695726) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2893412 (france/relation/4330671) -> matched: Bec d'Ambès  [body: 617 chars]
+  Q625622 (france/relation/290825) -> matched: Léguillac-de-Cercles  [body: 366 chars]
+  Q1012287 (france/relation/290345) -> matched: Cercles  [body: 411 chars]
+  Q626928 (france/relation/290771) -> matched: La Gonterie-Boulouneix  [body: 4197 chars]
+  Q1076805 (france/relation/5985801) -> matched: Valeuil  [body: 295 chars]
+  Q177352 (france/relation/3061737) -> matched: Brantôme, Dordogne  [body: 2395 chars]
+  Q175550 (france/relation/797449) -> matched: Bassillac  [body: 326 chars]
+  Q1058558 (france/relation/4940333) -> matched: Atur, Dordogne  [body: 290 chars]
+  Q3413216 (france/way/460767838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1739363 (france/way/470720084) -> matched: Blayais Nuclear Power Plant  [body: 2420 chars]
+  Q120236569 (france/way/471995624) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2945234 (france/way/476238178) -> matched: CEA Cesta  [body: 802 chars]
+  Q92938114 (france/way/476803200) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1076582 (france/relation/152715) -> matched: Notre-Dame-de-Sanilhac  [body: 351 chars]
+  Q120157680 (france/way/477696946) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1012280 (france/relation/6465985) -> matched: Cazoulès  [body: 304 chars]
+  Q1080707 (france/relation/6467991) -> matched: Coux-et-Bigaroque  [body: 427 chars]
+  Q1076904 (france/relation/6465987) -> matched: Peyrillac-et-Millac  [body: 334 chars]
+  Q1011437 (france/relation/3470977) -> matched: Sainte-Alvère  [body: 473 chars]
+  Q787878 (france/way/480459622) -> matched: Hippodrome des fleurs  [body: 21776 chars]
+  Q956987 (france/relation/6480841) -> matched: Manaurie  [body: 291 chars]
+  Q2875514 (france/way/480804702) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q652236 (france/way/480815414) -> matched: Marmande – Virazeil Airport  [body: 151 chars]
+  Q1077026 (france/relation/6488821) -> matched: Sainte-Sabine-Born  [body: 405 chars]
+  Q1078429 (france/relation/6501165) -> matched: Saint-Amand-de-Belvès  [body: 318 chars]
+  Q174895 (france/relation/6502669) -> matched: Ligueux, Dordogne  [body: 284 chars]
+  Q1076712 (france/relation/5788603) -> matched: Sencenac-Puy-de-Fourches  [body: 345 chars]
+  Q979740 (france/relation/6509893) -> matched: Eyliac  [body: 338 chars]
+  Q194668 (france/relation/290809) -> matched: Le Change  [body: 324 chars]
+  Q521479 (france/relation/6510749) -> matched: Blis-et-Born  [body: 290 chars]
+  Q609448 (france/way/506390590) -> matched: Circuit Pau-Arnos  [body: 1085 chars]
+  Q588136 (france/relation/6956261) -> matched: Candanchú  [body: 2097 chars]
+  Q110364275 (france/way/522544628) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q11957680 (france/way/530109886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18015236 (france/way/534478252) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3364660 (france/way/559581150) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120217974 (france/way/581442076) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q105164247 (france/relation/39555723) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3593067 (france/way/9068582) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q71028 (france/way/9068658) -> matched: Hœdic  [body: 2514 chars]
+  Q21008214 (france/way/9072066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48757250 (france/way/9072612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3593282 (france/way/9074624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3028305 (france/way/9075036) -> matched: Île Milliau  [body: 2048 chars]
+  Q291908 (france/way/9075172) -> matched: Île-Grande  [body: 1098 chars]
+  Q1847734 (france/way/9075388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q292275 (france/way/9076274) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15696502 (france/way/9076336) -> matched: Île Vierge  [body: 2803 chars]
+  Q21027235 (france/way/9076478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21027233 (france/way/9076486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21027236 (france/way/9076500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20584770 (france/way/9076528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q292025 (france/way/9076534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3593246 (france/way/9077550) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3593463 (france/way/9077552) -> matched: Île des Morts  [body: 1955 chars]
+  Q3593420 (france/way/9077686) -> matched: Île de Térénez  [body: 543 chars]
+  Q3010567 (france/way/9079196) -> matched: Cézembre  [body: 3473 chars]
+  Q131442627 (france/way/9079514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3268768 (france/way/9960958) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364143 (france/way/9961562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q102416561 (france/way/10048792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q119796813 (france/way/10150076) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457714 (france/way/10230254) -> matched: Réservoir Saint-Michel  [body: 142 chars]
+  Q3078846 (france/relation/36105221) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875779 (france/way/10358890) -> matched: Ushant Airport  [body: 443 chars]
+  Q47542518 (france/way/10366070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q70456478 (france/way/10368300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1191525 (france/way/10738546) -> matched: Brest Bretagne Airport  [body: 980 chars]
+  Q2972602 (france/way/15971938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2972573 (france/way/15989678) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2935636 (france/way/19040832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875975 (france/way/19854916) -> matched: Vannes Airport  [body: 2863 chars]
+  Q3364270 (france/way/34099708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112979009 (france/way/34938120) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3552619 (france/way/37281434) -> matched: Stellantis Rennes Plant  [body: 9855 chars]
+  Q20971955 (france/way/42255996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078223 (france/way/45454856) -> matched: Fort de Portzic  [body: 574 chars]
+  Q2998855 (france/way/45739724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364126 (france/way/45886342) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364266 (france/way/46510096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q726595 (france/way/47600978) -> matched: University of Rennes 1  [body: 5586 chars]
+  Q3145328 (france/way/48646452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27962533 (france/way/50568402) -> matched: IMT Atlantique  [body: 15061 chars]
+  Q15875815 (france/way/53348410) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2935631 (france/way/54155608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105622589 (france/way/55504112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30269795 (france/way/55523418) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16508756 (france/way/56611688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591690 (france/way/61558316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1934614 (france/way/61856076) -> matched: Institut national des sciences appliquées de Rennes  [body: 5820 chars]
+  Q112964542 (france/way/62908638) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3127284 (france/way/67153498) -> matched: Haras National de Lamballe  [body: 22927 chars]
+  Q69486 (france/relation/249719) -> matched: Croixanvec  [body: 507 chars]
+  Q1070884 (france/relation/291983) -> matched: Saint-M'Hervon  [body: 457 chars]
+  Q196564 (france/relation/216863) -> matched: Chancé  [body: 345 chars]
+  Q1070844 (france/relation/290181) -> matched: Saint-Aubin-du-Pavail  [body: 2190 chars]
+  Q213587 (france/relation/246753) -> matched: La Selle-en-Coglès  [body: 546 chars]
+  Q219663 (france/relation/268435) -> matched: Lanhélin  [body: 362 chars]
+  Q71738 (france/relation/292371) -> matched: Monterrein  [body: 462 chars]
+  Q3011211 (france/way/71203074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591707 (france/way/71653952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q865444 (france/relation/354581) -> matched: Plessix-Balisson  [body: 521 chars]
+  Q1431220 (france/way/76576724) -> matched: Dinard–Pleurtuit–Saint-Malo Airport  [body: 1337 chars]
+  Q2875578 (france/way/76987344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30270270 (france/way/76993992) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q115137082 (france/way/77416852) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q129262760 (france/way/77417680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q54744678 (france/way/78018658) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q133888812 (france/way/81221544) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120207728 (france/way/81342388) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q131300431 (france/way/83411460) -> matched: Glomel andalusite mine  [body: 2265 chars]
+  Q475859 (france/relation/557613) -> matched: Locmaria-Berrien  [body: 425 chars]
+  Q3577856 (france/way/84029424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112659972 (france/way/84029448) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875870 (france/way/84038490) -> matched: Morlaix–Ploujean Airport  [body: 653 chars]
+  Q264643 (france/way/84038500) -> matched: Saint-Brieuc–Armor Airport  [body: 1079 chars]
+  Q1432556 (france/way/84038514) -> matched: Quimper–Bretagne Airport  [body: 1090 chars]
+  Q2875581 (france/way/84038540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875411 (france/way/84038542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q924045 (france/way/84354412) -> matched: Paimpont forest  [body: 15161 chars]
+  Q28041631 (france/way/84506570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215380 (france/way/84506992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q119941532 (france/way/84507166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591647 (france/way/84507230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591760 (france/way/84507324) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316633 (france/way/84507330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591763 (france/way/84507342) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591765 (france/way/84507420) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507862 (france/way/84508614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3287390 (france/way/84546852) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2886654 (france/way/85154148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q217600 (france/relation/580239) -> matched: Le Ponthou  [body: 357 chars]
+  Q120214391 (france/way/88337010) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q225207 (france/relation/716611) -> matched: Coëtlogon, Côtes-d'Armor  [body: 488 chars]
+  Q226634 (france/relation/727405) -> matched: Pluduno  [body: 550 chars]
+  Q30270135 (france/way/94113466) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3433878 (france/relation/4808965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q658532 (france/relation/292045) -> matched: Saint-Pierre-de-Plesguen  [body: 627 chars]
+  Q1014723 (france/relation/800425) -> matched: Pommerit-Jaudy  [body: 1096 chars]
+  Q1013973 (france/relation/717545) -> matched: Saint-Guen  [body: 496 chars]
+  Q1070380 (france/relation/292119) -> matched: Tressé  [body: 463 chars]
+  Q120212679 (france/way/121840786) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q217709 (france/relation/1918453) -> matched: Pouldouran  [body: 479 chars]
+  Q224063 (france/relation/1918455) -> matched: Hengoat  [body: 470 chars]
+  Q15427805 (france/relation/2093905) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457519 (france/way/131429998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316568 (france/way/134079524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1010990 (france/relation/2167607) -> matched: Campel  [body: 416 chars]
+  Q26257939 (france/way/147723134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106713346 (france/way/149633840) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34790869 (france/way/154903152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65953513 (france/way/155204856) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120209531 (france/way/160556446) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3593461 (france/way/171844898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1934993 (france/way/177479942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507859 (france/way/181603486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11651712 (france/way/185938378) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q838454 (france/way/189413902) -> matched: ENSTA Paris  [body: 6023 chars]
+  Q3480442 (france/way/189636096) -> matched: Naval Hydrographic and Oceanographic Service  [body: 2920 chars]
+  Q49322773 (france/way/193410886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56849094 (france/way/193410890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3152599 (france/way/194769090) -> matched: Institut Agro Rennes-Angers  [body: 2468 chars]
+  Q64351489 (france/way/210899726) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120209433 (france/way/213678062) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3078232 (france/way/216308800) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q459026 (france/way/220541528) -> matched: Rennes 2 University  [body: 7312 chars]
+  Q120213315 (france/way/230217916) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120215350 (france/way/237881710) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49322696 (france/way/243351564) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120207816 (france/way/246292932) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3135862 (france/way/250712952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3090839 (france/way/254171366) -> matched: Tristan Island  [body: 4108 chars]
+  Q120213256 (france/way/256278256) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120804915 (france/way/260671094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3578616 (france/way/261068948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116254993 (france/way/283349412) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49322615 (france/way/284598626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65550270 (france/way/284603812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56849089 (france/way/284980192) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120179103 (france/way/289226866) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120209929 (france/way/301042738) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3113691 (france/way/307316650) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875467 (france/way/307340466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50036734 (france/way/313604532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120214379 (france/relation/5665885) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3162572 (france/way/21052518) -> matched: Jardin des Plantes, Toulouse  [body: 2653 chars]
+  Q2972562 (france/way/32599586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3032233 (france/way/45609524) -> matched: Toulouse Space Centre  [body: 852 chars]
+  Q2945298 (france/way/45781320) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q174335 (france/way/45787868) -> matched: École nationale de l'aviation civile  [body: 28135 chars]
+  Q3575791 (france/way/45894482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2885327 (france/way/45903772) -> matched: Lac de Villefranche-de-Panat  [body: 1664 chars]
+  Q3364155 (france/way/46055304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875822 (france/way/46055714) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q929191 (france/way/46205276) -> matched: Bassin de Saint-Ferréol  [body: 2416 chars]
+  Q20127575 (france/way/46458604) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q92062521 (france/way/46790210) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q105164633 (france/way/47013732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1954430 (france/way/49471976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316549 (france/way/50830654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16508277 (france/way/51069274) -> matched: Hôpital de Purpan  [body: 647 chars]
+  Q1933558 (france/way/53688668) -> matched: University of Toulouse-Jean Jaurès  [body: 5775 chars]
+  Q2404666 (france/way/54234952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591740 (france/way/54234982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591723 (france/way/54245798) -> matched: Étang de Soulcem  [body: 556 chars]
+  Q3591662 (france/way/54245936) -> matched: Lac d'Izourt  [body: 98 chars]
+  Q110342372 (france/way/54453254) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215190 (france/way/55068726) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215337 (france/way/63485522) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q858979 (france/way/65199438) -> matched: Institut national des sciences appliquées de Toulouse  [body: 14064 chars]
+  Q1366565 (france/relation/228355) -> matched: Lavernhe  [body: 242 chars]
+  Q3591653 (france/way/66499438) -> matched: Étang d'Araing  [body: 122 chars]
+  Q1329071 (france/relation/246947) -> matched: Valroufié  [body: 309 chars]
+  Q1430882 (france/relation/246959) -> matched: Saint-Géry, Lot  [body: 242 chars]
+  Q1429661 (france/relation/247047) -> matched: Saint-Pantaléon, Lot  [body: 456 chars]
+  Q1322332 (france/relation/247049) -> matched: Lascabanes  [body: 1279 chars]
+  Q615692 (france/relation/247051) -> matched: Sainte-Alauzie  [body: 434 chars]
+  Q1096195 (france/relation/248031) -> matched: Le Boulvé  [body: 590 chars]
+  Q776182 (france/relation/248089) -> matched: Lhospitalet  [body: 357 chars]
+  Q387253 (france/relation/248097) -> matched: Pern, Lot  [body: 324 chars]
+  Q17603074 (france/way/67836356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1157705 (france/relation/248675) -> matched: Les Quatre-Routes-du-Lot  [body: 298 chars]
+  Q186562 (france/relation/244951) -> matched: Cazillac  [body: 275 chars]
+  Q60032414 (france/relation/18271867) -> matched: Le Vignon-en-Quercy  [body: 438 chars]
+  Q924998 (france/relation/250589) -> matched: Monbardon  [body: 286 chars]
+  Q1622952 (france/relation/271259) -> matched: Labastide-Dénat  [body: 282 chars]
+  Q3215681 (france/way/69093730) -> matched: Lac des Salhiens  [body: 203 chars]
+  Q1361987 (france/relation/233141) -> matched: Sévérac-l'Église  [body: 332 chars]
+  Q1082281 (france/relation/246521) -> matched: Coussergues  [body: 281 chars]
+  Q2935299 (france/way/69535944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1361098 (france/relation/247071) -> matched: Saint-Laurent-Lolmie  [body: 581 chars]
+  Q110363924 (france/way/69842670) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215488 (france/relation/304457) -> matched: Lac de Montbel  [body: 1080 chars]
+  Q3162337 (france/way/71647212) -> matched: Jardin Massey  [body: 746 chars]
+  Q2875665 (france/way/71670432) -> matched: Toulouse–Lasbordes Airport  [body: 963 chars]
+  Q22975749 (france/way/71789336) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1702964 (france/way/71789920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3135889 (france/relation/315605) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120230108 (france/way/71990282) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q60848280 (france/way/71992892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110344845 (france/way/72250920) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215353 (france/way/72401898) -> matched: Lac de Bage  [body: 97 chars]
+  Q48749187 (france/way/73124202) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30740869 (france/way/73482610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215517 (france/way/74072500) -> matched: Lac de Pont-de-Salars  [body: 126 chars]
+  Q120253954 (france/way/79007896) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3591712 (france/way/79086176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2818644 (france/relation/24858449) -> matched: 8th Marine Infantry Parachute Regiment  [body: 7711 chars]
+  Q106311322 (france/way/79390698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41319183 (france/way/81420864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q247165 (france/way/83401142) -> matched: Brive–Souillac Airport  [body: 3539 chars]
+  Q194862 (france/way/83569570) -> matched: 1st Parachute Chasseur Regiment  [body: 21388 chars]
+  Q2875469 (france/way/83676322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120234777 (france/way/83905046) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1465285 (france/way/84026838) -> matched: Golfech Nuclear Power Plant  [body: 2362 chars]
+  Q2875353 (france/way/84038382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875437 (france/way/84038420) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875541 (france/way/84038424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875480 (france/way/84038432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875382 (france/way/84038434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1338842 (france/way/84038438) -> matched: Castres–Mazamet Airport  [body: 773 chars]
+  Q2875563 (france/way/84038446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875610 (france/way/84038448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432617 (france/way/84038468) -> matched: Rodez–Aveyron Airport  [body: 1394 chars]
+  Q2875533 (france/way/84038632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215485 (france/way/84501032) -> matched: Lac de Mondély  [body: 175 chars]
+  Q3215737 (france/way/84501674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38298729 (france/way/84504444) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215738 (france/way/84506010) -> matched: Lac du Tolerme  [body: 204 chars]
+  Q62603013 (france/way/84506192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215717 (france/relation/892381) -> matched: Lac du Laouzas  [body: 97 chars]
+  Q3215399 (france/way/84837732) -> matched: Lac de Cap-de-Long  [body: 112 chars]
+  Q3215347 (france/way/84837734) -> matched: Lac d'Orédon  [body: 576 chars]
+  Q3215593 (france/way/84837736) -> matched: Lac de l'Oule  [body: 124 chars]
+  Q3427764 (france/way/84843504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215475 (france/way/84850390) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215352 (france/way/85015966) -> matched: Lac d'Oô  [body: 264 chars]
+  Q3215731 (france/way/85017826) -> matched: Lac du Portillon  [body: 158 chars]
+  Q110330075 (france/way/90852592) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q111130773 (france/way/99021792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50039525 (france/way/107435708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q67324288 (france/way/108586270) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2945995 (france/way/110407246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1273188 (france/way/119882830) -> matched: Toulouse III - Paul Sabatier University  [body: 6111 chars]
+  Q27942016 (france/relation/2032645) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215718 (france/way/132809980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3578275 (france/way/149600864) -> matched: École nationale vétérinaire de Toulouse  [body: 2372 chars]
+  Q111794079 (france/way/151603702) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215381 (france/way/152337802) -> matched: Lake Born  [body: 347 chars]
+  Q65953861 (france/way/155204422) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953779 (france/way/155204466) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953762 (france/way/155204618) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953721 (france/way/155204898) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953876 (france/relation/2356201) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953756 (france/way/155204990) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953531 (france/relation/2356213) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953856 (france/relation/2356223) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1385645 (france/relation/248653) -> matched: Sarrazac, Lot  [body: 275 chars]
+  Q1596876 (france/relation/245157) -> matched: Cressensac  [body: 282 chars]
+  Q3113711 (france/way/168738422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875436 (france/way/171694902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65574360 (france/way/172329524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1141326 (france/relation/285561) -> matched: Sainte-Geneviève-sur-Argence  [body: 339 chars]
+  Q17602984 (france/way/179993384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215354 (france/way/182652966) -> matched: Lac de Bareilles  [body: 156 chars]
+  Q3215262 (france/way/182653064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215694 (france/way/187902410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215104 (france/way/187902676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q867548 (france/way/191597266) -> matched: Circuit Paul Armagnac  [body: 4002 chars]
+  Q37873475 (france/way/191634982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215336 (france/way/193410544) -> matched: Lac d'Espingo  [body: 371 chars]
+  Q3215508 (france/way/194149772) -> matched: Lac de Payolle  [body: 1104 chars]
+  Q3215360 (france/way/195088426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59387588 (france/relation/2815037) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q953149 (france/relation/2948397) -> matched: Ronel  [body: 283 chars]
+  Q21330259 (france/way/208661078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591711 (france/way/208661178) -> matched: Étang de Peyregrand  [body: 48 chars]
+  Q21329949 (france/way/208661224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21330259 (france/relation/2954359) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875596 (france/way/213404092) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1621325 (france/relation/2948533) -> matched: Saint-Lieux-Lafenasse  [body: 515 chars]
+  Q110361152 (france/relation/30919061) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q104713662 (france/way/217337554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1620008 (france/relation/2948499) -> matched: Roumégoux, Tarn  [body: 301 chars]
+  Q1620017 (france/relation/3114919) -> matched: Saint-Antonin-de-Lacalm  [body: 349 chars]
+  Q3215263 (france/way/220902996) -> matched: Lac Vert (Lot)  [body: 114 chars]
+  Q3591788 (france/way/226331520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215481 (france/way/226395590) -> matched: Lac de Maury  [body: 111 chars]
+  Q18745239 (france/way/235503642) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24082921 (france/way/241846680) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24082919 (france/way/241846682) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215509 (france/way/242848410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q384353 (france/way/242852008) -> matched: Réservoir des Laquets  [body: 69 chars]
+  Q3363943 (france/way/245183006) -> matched: Pyrénées Animal Park  [body: 1676 chars]
+  Q18745237 (france/way/246207098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43379611 (france/way/247186142) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24262308 (france/way/254136328) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875658 (france/way/255212422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120149652 (france/way/255356724) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875438 (france/way/255476108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110362500 (france/way/256024234) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24262268 (france/way/262685146) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24262271 (france/way/262685582) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24262287 (france/relation/14590005) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24262272 (france/way/264055008) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3577767 (france/relation/3619697) -> matched: École d'ingénieurs de Purpan  [body: 1057 chars]
+  Q24174973 (france/way/270311224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215627 (france/relation/2499719) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215345 (france/way/272423770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65953731 (france/relation/3540943) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1368206 (france/relation/3680401) -> matched: Sinsat  [body: 267 chars]
+  Q120251398 (france/way/273429390) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1363370 (france/relation/3694517) -> matched: Sem, Ariège  [body: 616 chars]
+  Q65953793 (france/relation/3804915) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3162311 (france/way/284106636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q155446 (france/way/285988496) -> matched: Institut supérieur de l'aéronautique et de l'espace  [body: 13367 chars]
+  Q2690463 (france/way/286939782) -> matched: Muret – Lherm Aerodrome  [body: 492 chars]
+  Q537683 (france/relation/2754587) -> matched: Saint-Salvadou  [body: 290 chars]
+  Q1092178 (france/relation/4034341) -> matched: Saint-Amans, Ariège  [body: 323 chars]
+  Q1368098 (france/relation/4153137) -> matched: Senconac  [body: 298 chars]
+  Q1082313 (france/relation/4153817) -> matched: Caychax  [body: 240 chars]
+  Q1111116 (france/relation/4157681) -> matched: Aulos, Ariège  [body: 1317 chars]
+  Q2875538 (france/way/310053318) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q59843513 (france/relation/2731209) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1368309 (france/relation/4200755) -> matched: Uchentein  [body: 220 chars]
+  Q1087730 (france/relation/3693615) -> matched: Vicdessos  [body: 711 chars]
+  Q60848279 (france/way/319120468) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q671104 (france/relation/2904117) -> matched: Saint-Béat  [body: 1603 chars]
+  Q2935257 (france/way/325127508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1471334 (france/relation/271267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28041318 (france/way/328851776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875608 (france/way/335844546) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875356 (france/way/335973854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q958947 (france/relation/4665841) -> matched: Vizos  [body: 269 chars]
+  Q969488 (france/relation/4665885) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3108328 (france/way/359291524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q58365356 (france/way/359569960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3214756 (france/relation/4822799) -> matched: Lac Bleu de Lesponne  [body: 115 chars]
+  Q3215702 (france/way/372893476) -> matched: Lac du Campana  [body: 109 chars]
+  Q3215457 (france/relation/5018341) -> matched: Lac de Gréziolles  [body: 264 chars]
+  Q1153264 (france/relation/4870321) -> matched: Grand-Vabre  [body: 282 chars]
+  Q317349 (france/relation/5130463) -> matched: Conques  [body: 3659 chars]
+  Q120228981 (france/way/384302838) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215339 (france/relation/5206079) -> matched: Lac d'Estaing  [body: 109 chars]
+  Q3215734 (france/relation/5206883) -> matched: Lac du Pourtet  [body: 148 chars]
+  Q936388 (france/relation/246569) -> matched: Cruéjouls  [body: 246 chars]
+  Q2404678 (france/way/399059650) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109037291 (france/way/400444000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20971055 (france/way/401849912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215322 (france/way/404529590) -> matched: Lac d'Aumar  [body: 106 chars]
+  Q3215320 (france/relation/14383671) -> matched: Lac d'Aubert  [body: 104 chars]
+  Q3233489 (france/way/404557220) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120245267 (france/way/405786534) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120239444 (france/way/411317938) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875404 (france/way/415403236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875560 (france/way/417735518) -> matched: Nogaro Aerodrome  [body: 1180 chars]
+  Q3538665 (france/way/421021608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215536 (france/way/422268142) -> matched: Lac de Saint-Andéol  [body: 308 chars]
+  Q65129490 (france/relation/5664531) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3214754 (france/way/426249456) -> matched: Lac Bleu d'Ilhéou  [body: 113 chars]
+  Q2875593 (france/way/427093982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q633293 (france/way/433375022) -> matched: Gaube Lake  [body: 1612 chars]
+  Q2875434 (france/way/437990846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24932741 (france/way/8617406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q41795344 (france/way/48663328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q67080155 (france/way/48677052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2972588 (france/way/55219696) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215664 (france/way/62196054) -> matched: Lac des Hermines  [body: 156 chars]
+  Q3214796 (france/way/63475754) -> matched: Lac Chauvet  [body: 207 chars]
+  Q3215489 (france/way/63475760) -> matched: Lac de Montcineyre  [body: 199 chars]
+  Q3215383 (france/way/63475808) -> matched: Lac de Bourdouze  [body: 195 chars]
+  Q3215552 (france/way/63475820) -> matched: Lac de Servière  [body: 107 chars]
+  Q3364147 (france/way/66073358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q54913298 (france/way/67803814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q646289 (france/relation/254105) -> matched: Dallet  [body: 274 chars]
+  Q608101 (france/relation/252867) -> matched: Mezel  [body: 263 chars]
+  Q172879 (france/way/68811536) -> matched: Circuit de Charade  [body: 6363 chars]
+  Q109515103 (france/way/69041324) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215681 (france/way/69093730) -> matched: Lac des Salhiens  [body: 203 chars]
+  Q106167946 (france/way/69893492) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875359 (france/way/75804982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10369016 (france/way/76083414) -> matched: Pierre-sur-Haute military radio station  [body: 5940 chars]
+  Q2875607 (france/way/76386570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875390 (france/way/76392864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q105164719 (france/way/80567768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120275208 (france/way/83962302) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1430905 (france/way/84038462) -> matched: Aurillac–Tronquières Airport  [body: 623 chars]
+  Q2234469 (france/way/84038650) -> matched: Moulins–Montbeugny Airport  [body: 822 chars]
+  Q2875994 (france/way/84038654) -> matched: Vichy — Charmeil Airport  [body: 466 chars]
+  Q3111685 (france/way/84505886) -> matched: Gour de Tazenat  [body: 2688 chars]
+  Q49316664 (france/way/84507576) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35721157 (france/way/84508190) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48749211 (france/way/89497442) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q109473045 (france/way/89550452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q649106 (france/relation/722033) -> matched: Chaméane  [body: 346 chars]
+  Q1047944 (france/relation/720197) -> matched: Vernet-la-Varenne  [body: 336 chars]
+  Q42555935 (france/way/95029454) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3135832 (france/way/99922490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22934079 (france/relation/6378175) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457479 (france/way/131428316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457434 (france/relation/2093875) -> matched: Sagnes de la Godivelle National Nature Reserve  [body: 187 chars]
+  Q3127276 (france/way/136335244) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110363783 (france/way/144881500) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110326396 (france/way/146134786) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3215381 (france/way/152337802) -> matched: Lake Born  [body: 347 chars]
+  Q3364200 (france/way/10457874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3076985 (france/way/46560474) -> matched: Jardin botanique de l'Arquebuse  [body: 1724 chars]
+  Q62029988 (france/way/47219924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364227 (france/way/48545272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113482373 (france/way/49844974) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3363895 (france/way/60669188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16328 (france/relation/262027) -> matched: Vauchignon  [body: 276 chars]
+  Q16305 (france/relation/262055) -> matched: Ivry-en-Montagne  [body: 280 chars]
+  Q52879 (france/relation/276589) -> matched: Quemigny-Poisot  [body: 277 chars]
+  Q52837 (france/relation/276601) -> matched: Clémencey  [body: 308 chars]
+  Q2817407 (france/relation/14726703) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20327 (france/relation/307491) -> matched: Neuilly-lès-Dijon  [body: 321 chars]
+  Q20442 (france/relation/307487) -> matched: Crimolois  [body: 278 chars]
+  Q47706 (france/relation/307963) -> matched: Longeault  [body: 255 chars]
+  Q46992 (france/relation/308595) -> matched: Collonges-lès-Premières  [body: 423 chars]
+  Q47834 (france/relation/310741) -> matched: Pluvault  [body: 254 chars]
+  Q47847 (france/relation/310737) -> matched: Tart-le-Haut  [body: 266 chars]
+  Q47827 (france/relation/310891) -> matched: Tart-l'Abbaye  [body: 249 chars]
+  Q3214325 (france/relation/34105007) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134875975 (france/way/76491726) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28740116 (france/way/78371388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28873018 (france/way/84034016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875460 (france/way/84038578) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2718975 (france/way/84038652) -> matched: Saint-Yan Airport  [body: 881 chars]
+  Q2875570 (france/way/84038672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875765 (france/way/84038674) -> matched: Auxerre–Branches Aerodrome  [body: 724 chars]
+  Q2875873 (france/way/84038676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875410 (france/way/84038732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15990702 (france/way/84038930) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875638 (france/way/84038950) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1287821 (france/way/84038952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2908994 (france/way/84407208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215709 (france/way/84477426) -> matched: Lac du Crescent  [body: 119 chars]
+  Q49316676 (france/way/84508720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316635 (france/way/84508722) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316713 (france/way/84517654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215408 (france/way/84524002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316625 (france/way/84524096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316582 (france/way/84524114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3364205 (france/way/84544948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14918234 (france/way/94671316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66847230 (france/way/100975676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66846761 (france/way/101123468) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q66847051 (france/way/101126428) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3213164 (france/way/116240366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28740113 (france/way/117582954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135940028 (france/way/117582956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1139895 (france/relation/1879549) -> matched: Clermain  [body: 390 chars]
+  Q129945 (france/relation/1893175) -> matched: Vignes, Yonne  [body: 277 chars]
+  Q530774 (france/relation/1912199) -> matched: Champvallon  [body: 295 chars]
+  Q104875167 (france/way/123379778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q226111 (france/relation/1912197) -> matched: Volgré  [body: 288 chars]
+  Q2875657 (france/way/126352346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875602 (france/way/127743182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316567 (france/way/130042418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15427746 (france/way/131425080) -> matched: Bois du Parc National Nature Reserve  [body: 2894 chars]
+  Q15427802 (france/way/131428866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1172981 (france/relation/1895491) -> matched: Trévilly  [body: 283 chars]
+  Q1463067 (france/relation/2238259) -> matched: Massy, Saône-et-Loire  [body: 614 chars]
+  Q1454325 (france/relation/2238629) -> matched: La Vineuse  [body: 280 chars]
+  Q1625078 (france/relation/1821065) -> matched: Vitry-lès-Cluny  [body: 285 chars]
+  Q2875488 (france/way/152564674) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215413 (france/relation/2344059) -> matched: Lac de Chaumeçon  [body: 187 chars]
+  Q65953706 (france/way/155204332) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953726 (france/way/155204510) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953741 (france/way/155204638) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953853 (france/way/155204866) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953755 (france/relation/2356233) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2875383 (france/way/160448982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1151180 (france/relation/1891085) -> matched: Cisery  [body: 279 chars]
+  Q962052 (france/relation/1822493) -> matched: Brandon, Saône-et-Loire  [body: 435 chars]
+  Q84592670 (france/relation/34045221) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q835966 (france/way/191613140) -> matched: Alesia (city)  [body: 5627 chars]
+  Q27960064 (france/way/192789440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97501776 (france/way/196781068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24206041 (france/way/236279190) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49316544 (france/way/238076124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120297707 (france/way/243441276) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3593447 (france/way/49936198) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29892321 (france/way/50360068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3110204 (france/way/52695476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2509175 (france/way/54238542) -> matched: Lac de Bettaniella  [body: 394 chars]
+  Q1799627 (france/way/54238812) -> matched: Lac de Melu  [body: 379 chars]
+  Q3215418 (france/way/57780038) -> matched: Codole Reservoir  [body: 3867 chars]
+  Q3215392 (france/way/57780040) -> matched: Lac de Calacuccia  [body: 3432 chars]
+  Q685410 (france/way/57780042) -> matched: Lac de Nino  [body: 372 chars]
+  Q18745275 (france/way/57780312) -> matched: Alesani Reservoir  [body: 3223 chars]
+  Q3591709 (france/way/57780324) -> matched: Étang de Palo  [body: 3644 chars]
+  Q3591665 (france/way/57780342) -> matched: Étang de Balistra  [body: 1614 chars]
+  Q3591717 (france/way/57780350) -> matched: Étang de Santa Giulia  [body: 935 chars]
+  Q2886476 (france/way/61932876) -> matched: Solenzara Air Base  [body: 2231 chars]
+  Q123339329 (france/way/62513538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49322555 (france/way/67669230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113754502 (france/way/68786414) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q123173375 (france/way/71119012) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2886557 (france/way/71193098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1430951 (france/way/84038696) -> matched: Bastia–Poretta Airport  [body: 2102 chars]
+  Q1431045 (france/way/84038698) -> matched: Calvi–Sainte-Catherine Airport  [body: 651 chars]
+  Q2392167 (france/way/84038700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875482 (france/way/84038702) -> matched: Ghisonaccia Alzitone Airport  [body: 1921 chars]
+  Q2875574 (france/way/84038704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431300 (france/way/84038710) -> matched: Figari–Sud Corse Airport  [body: 1150 chars]
+  Q3078961 (france/way/84082616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49328546 (france/way/84085282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507909 (france/way/84324652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507910 (france/way/84324954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49322789 (france/way/85287742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457431 (france/way/131420246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1426466 (france/relation/2047559) -> matched: Scandola Nature Reserve  [body: 2470 chars]
+  Q292271 (france/way/131429328) -> matched: Cavallo (island)  [body: 1734 chars]
+  Q21834526 (france/relation/2240701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65953547 (france/way/155204674) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953865 (france/way/155204860) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953535 (france/way/155205234) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953836 (france/way/155205252) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953520 (france/way/155205364) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q56311899 (france/way/161000052) -> matched: Ortolo Reservoir  [body: 2323 chars]
+  Q110334804 (france/way/188901780) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3361665 (france/way/217186344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591687 (france/relation/153569) -> matched: Étang de Diane  [body: 6008 chars]
+  Q34790552 (france/way/259648782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215566 (france/way/346183818) -> matched: Lac de Tolla  [body: 1920 chars]
+  Q49322654 (france/way/416707430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49322652 (france/way/423807250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3107573 (france/way/478265124) -> matched: Giraglia  [body: 2231 chars]
+  Q49322693 (france/way/565887846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q583453 (france/way/573575328) -> matched: Ajaccio Napoleon Bonaparte Airport  [body: 3054 chars]
+  Q3215499 (france/relation/11087311) -> matched: Lac de Padula  [body: 2511 chars]
+  Q120326254 (france/way/752227976) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q82300133 (france/way/798279564) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16942837 (france/way/970323418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2935226 (france/way/1073017828) -> matched: Camp Raffalli  [body: 296 chars]
+  Q48755831 (france/way/1159188568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078968 (france/relation/567499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q546358 (france/relation/5501045) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110334885 (france/way/1332567260) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q124733580 (france/relation/18751399) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1724708 (france/relation/5412573) -> matched: Canton of Calvi  [body: 281 chars]
+  Q1527084 (france/relation/18753631) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1890653 (france/relation/18753633) -> matched: Gulf of Porto  [body: 4141 chars]
+  Q1034744 (france/relation/18753635) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1540139 (france/relation/5465867) -> matched: Canton of L'Île-Rousse  [body: 281 chars]
+  Q3078973 (france/relation/19255539) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078973 (france/relation/13273169) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65930148 (france/relation/22194103) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q34953565 (france/relation/22958099) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49329529 (france/way/1687865230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34836235 (france/relation/22266229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078818 (france/relation/19041115) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507335 (france/way/1995633330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112127825 (france/way/2000131914) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120325994 (france/way/2128941186) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q48755831 (france/relation/28612183) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457433 (france/relation/28612653) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34953711 (france/way/2178019396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120326040 (france/way/2487444566) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108076779 (france/relation/9360375) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q543659 (france/relation/8176687) -> matched: Canton of Bastia-1  [body: 264 chars]
+  Q1724400 (france/relation/8176681) -> matched: Canton of Bastia-2  [body: 243 chars]
+  Q1724407 (france/relation/8176685) -> matched: Canton of Bastia-4  [body: 251 chars]
+  Q1724399 (france/relation/8176683) -> matched: Canton of Bastia-3  [body: 243 chars]
+  Q49329529 (france/relation/17697505) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2935226 (france/way/2913368698) -> matched: Camp Raffalli  [body: 296 chars]
+  Q3457386 (france/relation/28615623) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1120837 (france/relation/9352585) -> matched: Étang d'Urbino  [body: 4783 chars]
+  Q3591671 (france/relation/9471221) -> matched: Étang de Biguglia  [body: 4013 chars]
+  Q3593447 (france/way/49936198) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29892321 (france/way/50360068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3110204 (france/way/52695476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2509175 (france/way/54238542) -> matched: Lac de Bettaniella  [body: 394 chars]
+  Q1799627 (france/way/54238812) -> matched: Lac de Melu  [body: 379 chars]
+  Q3215418 (france/way/57780038) -> matched: Codole Reservoir  [body: 3867 chars]
+  Q3215392 (france/way/57780040) -> matched: Lac de Calacuccia  [body: 3432 chars]
+  Q685410 (france/way/57780042) -> matched: Lac de Nino  [body: 372 chars]
+  Q18745275 (france/way/57780312) -> matched: Alesani Reservoir  [body: 3223 chars]
+  Q3591709 (france/way/57780324) -> matched: Étang de Palo  [body: 3644 chars]
+  Q3591665 (france/way/57780342) -> matched: Étang de Balistra  [body: 1614 chars]
+  Q3591717 (france/way/57780350) -> matched: Étang de Santa Giulia  [body: 935 chars]
+  Q2886476 (france/way/61932876) -> matched: Solenzara Air Base  [body: 2231 chars]
+  Q123339329 (france/way/62513538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49322555 (france/way/67669230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113754502 (france/way/68786414) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q123173375 (france/way/71119012) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2886557 (france/way/71193098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1430951 (france/way/84038696) -> matched: Bastia–Poretta Airport  [body: 2102 chars]
+  Q1431045 (france/way/84038698) -> matched: Calvi–Sainte-Catherine Airport  [body: 651 chars]
+  Q2392167 (france/way/84038700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875482 (france/way/84038702) -> matched: Ghisonaccia Alzitone Airport  [body: 1921 chars]
+  Q2875574 (france/way/84038704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431300 (france/way/84038710) -> matched: Figari–Sud Corse Airport  [body: 1150 chars]
+  Q3078961 (france/way/84082616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49328546 (france/way/84085282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507909 (france/way/84324652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507910 (france/way/84324954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49322789 (france/way/85287742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457431 (france/way/131420246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1426466 (france/relation/2047559) -> matched: Scandola Nature Reserve  [body: 2470 chars]
+  Q292271 (france/way/131429328) -> matched: Cavallo (island)  [body: 1734 chars]
+  Q21834526 (france/relation/2240701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65953547 (france/way/155204674) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953865 (france/way/155204860) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953535 (france/way/155205234) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953836 (france/way/155205252) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65953520 (france/way/155205364) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q56311899 (france/way/161000052) -> matched: Ortolo Reservoir  [body: 2323 chars]
+  Q110334804 (france/way/188901780) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3361665 (france/way/217186344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3591687 (france/relation/153569) -> matched: Étang de Diane  [body: 6008 chars]
+  Q34790552 (france/way/259648782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215566 (france/way/346183818) -> matched: Lac de Tolla  [body: 1920 chars]
+  Q49322654 (france/way/416707430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49322652 (france/way/423807250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3107573 (france/way/478265124) -> matched: Giraglia  [body: 2231 chars]
+  Q49322693 (france/way/565887846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q583453 (france/way/573575328) -> matched: Ajaccio Napoleon Bonaparte Airport  [body: 3054 chars]
+  Q3215499 (france/relation/11087311) -> matched: Lac de Padula  [body: 2511 chars]
+  Q120326254 (france/way/752227976) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q82300133 (france/way/798279564) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16942837 (france/way/970323418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2935226 (france/way/1073017828) -> matched: Camp Raffalli  [body: 296 chars]
+  Q48755831 (france/way/1159188568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078968 (france/relation/567499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q546358 (france/relation/5501045) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110334885 (france/way/1332567260) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q124733580 (france/relation/18751399) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1724708 (france/relation/5412573) -> matched: Canton of Calvi  [body: 281 chars]
+  Q1527084 (france/relation/18753631) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1890653 (france/relation/18753633) -> matched: Gulf of Porto  [body: 4141 chars]
+  Q1034744 (france/relation/18753635) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1540139 (france/relation/5465867) -> matched: Canton of L'Île-Rousse  [body: 281 chars]
+  Q3078973 (france/relation/19255539) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078973 (france/relation/13273169) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65930148 (france/relation/22194103) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q34953565 (france/relation/22958099) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49329529 (france/way/1687865230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34836235 (france/relation/22266229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078818 (france/relation/19041115) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507335 (france/way/1995633330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112127825 (france/way/2000131914) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q120325994 (france/way/2128941186) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q48755831 (france/relation/28612183) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3457433 (france/relation/28612653) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34953711 (france/way/2178019396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120326040 (france/way/2487444566) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q108076779 (france/relation/9360375) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q543659 (france/relation/8176687) -> matched: Canton of Bastia-1  [body: 264 chars]
+  Q1724400 (france/relation/8176681) -> matched: Canton of Bastia-2  [body: 243 chars]
+  Q1724407 (france/relation/8176685) -> matched: Canton of Bastia-4  [body: 251 chars]
+  Q1724399 (france/relation/8176683) -> matched: Canton of Bastia-3  [body: 243 chars]
+  Q49329529 (france/relation/17697505) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2935226 (france/way/2913368698) -> matched: Camp Raffalli  [body: 296 chars]
+  Q3457386 (france/relation/28615623) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1120837 (france/relation/9352585) -> matched: Étang d'Urbino  [body: 4783 chars]
+  Q3591671 (france/relation/9471221) -> matched: Étang de Biguglia  [body: 4013 chars]
+
+wrote 356 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/france_wikidata.parquet
+wrote 356 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/france_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/france_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/france_wikidata_map.png
+  rows=356 geometry_missing=0 bodies=356 jsonl=356 map_html=516363B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['france']
+  failed:    0 -> []
+
+=== union ===
+unioned 25 countries -> 3021 rows
+[00:06:50] union
+unioned 25 countries -> 3021 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[00:06:56] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 104 files.
+Finished hashing 104 files.
+HTTP Error 502 thrown while requesting POST https://huggingface.co/api/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/preupload/main
+Retrying in 1s [Retry 1/5].
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 38 files]                : 100%|██████████| 12.4MB / 12.4MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 48)    :  53%|█████▎    | 14.4MB / 27.3MB, 18.0MB/s  
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  24%|██▎       | 3.27MB / 13.9MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 49)    :  56%|█████▌    | 15.2MB / 27.3MB, 10.9MB/s  
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :  10%|█         | 1.33MB / 12.9MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 52)    :  58%|█████▊    | 15.7MB / 27.3MB, 9.83MB/s  
+New Data Upload               :   4%|▍         |  524kB / 12.1MB,  328kB/s  [A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  15%|█▌        | 1.72MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   9%|▊         | 13.6kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet:   9%|▊         |  101kB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png:   9%|▊         | 12.5kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 52)    :  60%|█████▉    | 16.3MB / 27.3MB, 9.04MB/s  
+New Data Upload               :   9%|▊         | 1.05MB / 12.1MB,  583kB/s  [A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  27%|██▋       | 3.11MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  22%|██▏       | 33.9kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet:  22%|██▏       |  253kB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png:  22%|██▏       | 31.3kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 52)    :  65%|██████▌   | 17.8MB / 27.3MB, 8.92MB/s  
+New Data Upload               :  22%|██▏       | 2.62MB / 12.1MB, 1.31MB/s  [A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  68%|██████▊   | 7.71MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  65%|██████▌   |  102kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet:  65%|██████▌   |  760kB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png:  65%|██████▌   | 93.9kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 52)    :  85%|████████▍ | 23.1MB / 27.3MB, 10.5MB/s  
+New Data Upload               :  65%|██████▌   | 7.87MB / 12.1MB, 3.58MB/s  [A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|█████████▉| 1.16MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|█████████▉|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 52)    : 100%|█████████▉| 27.3MB / 27.3MB, 11.4MB/s  
+New Data Upload               : 100%|█████████▉| 12.1MB / 12.1MB, 5.03MB/s  [A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|█████████▉| 1.16MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|█████████▉|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|█████████▉| 1.16MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|█████████▉|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|█████████▉| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|█████████▉|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|█████████▉| 1.16MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|█████████▉|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 52)    : 100%|██████████| 27.3MB / 27.3MB, 8.53MB/s  
+New Data Upload               : 100%|██████████| 12.1MB / 12.1MB, 3.78MB/s  [A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (52 / 52)    : 100%|██████████| 27.3MB / 27.3MB, 6.50MB/s  
+New Data Upload               : 100%|██████████| 12.1MB / 12.1MB, 2.88MB/s  
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 11.4MB / 11.4MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            
+  ...s/france_wikidata.parquet: 100%|██████████| 1.17MB / 1.17MB            
+  ...s/france_wikidata_map.png: 100%|██████████|  144kB /  144kB            
+Removing 97 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/15ca16516d4a55f4e146e843b55f82dd451e72bf
+[00:08:23] DONE france

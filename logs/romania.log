@@ -1,0 +1,2080 @@
+[03:13:41] === romania ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== romania ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/romania.parquet
+wrote 115401 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/romania.parquet
+pre-filter (--only-wikidata): 115401 -> 785 rows
+
+785 polygons with wikidata=*
+  matched:           522
+  no en sitelink:    250
+  no sitelinks:      13
+  Q12737520 (romania/way/9951868) -> matched: Anton Scudier Central Park  [body: 4457 chars]
+  Q22693423 (romania/way/9951896) -> matched: Cathedral Park, Timișoara  [body: 1707 chars]
+  Q23827026 (romania/way/24385112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12731850 (romania/way/24422724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130743753 (romania/way/25003672) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q18540624 (romania/way/25007836) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1148231 (romania/way/25014634) -> matched: Lacul Morii  [body: 2220 chars]
+  Q4687001 (romania/way/26834422) -> matched: Galați steel works  [body: 4549 chars]
+  Q592204 (romania/way/27680804) -> matched: Bellu Cemetery  [body: 9775 chars]
+  Q2052075 (romania/way/27707080) -> matched: Carol Park  [body: 8432 chars]
+  Q12737529 (romania/way/28524648) -> matched: Izvor Park  [body: 1518 chars]
+  Q2340319 (romania/way/28721790) -> matched: Tineretului Park  [body: 1426 chars]
+  Q959632 (romania/way/32583738) -> matched: Cișmigiu Gardens  [body: 7871 chars]
+  Q20497286 (romania/way/34038222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23827023 (romania/relation/2423789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23827023 (romania/relation/26424201) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737518 (romania/way/43604326) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2616933 (romania/way/47114398) -> matched: Bucharest Botanical Garden  [body: 1720 chars]
+  Q30293473 (romania/way/47149236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42758778 (romania/way/47162210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18548495 (romania/way/47166440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1465448 (romania/way/47216804) -> matched: Politehnica University of Bucharest  [body: 11598 chars]
+  Q18541888 (romania/way/47220202) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737534 (romania/way/47222282) -> matched: Kiseleff Park  [body: 2047 chars]
+  Q18539021 (romania/way/47224452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4355583 (romania/way/47342584) -> matched: Ghencea Cemetery  [body: 2992 chars]
+  Q12737517 (romania/way/47385124) -> matched: Bazilescu Park  [body: 756 chars]
+  Q528377 (romania/way/47390642) -> matched: University of Agricultural Sciences and Veterinary Medicine of Cluj-Napoca  [body: 6942 chars]
+  Q4982654 (romania/way/47415862) -> matched: Bucharest South Power Station  [body: 355 chars]
+  Q12730478 (romania/way/47474742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97195048 (romania/way/47502062) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q596723 (romania/way/47785888) -> matched: Cluj-Napoca Botanical Garden  [body: 9691 chars]
+  Q715958 (romania/way/47786662) -> matched: Cluj-Napoca Central Park  [body: 664 chars]
+  Q714902 (romania/way/47786822) -> matched: Hajongard cemetery  [body: 1989 chars]
+  Q4685108 (romania/way/48084970) -> matched: Iulius Town Timișoara  [body: 3487 chars]
+  Q137829595 (romania/way/48085206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18549837 (romania/way/48733652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1540631 (romania/way/48733674) -> matched: Berca Mud Volcanoes  [body: 2697 chars]
+  Q1158963 (romania/way/48967390) -> matched: Dan Păltinișanu Stadium (1963)  [body: 2590 chars]
+  Q59536357 (romania/way/49131004) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12741375 (romania/way/50509792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3107107 (romania/relation/7196021) -> matched: Lake Snagov  [body: 1031 chars]
+  Q873977 (romania/way/53125254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12731833 (romania/way/53226612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18539789 (romania/way/53227044) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q806117 (romania/way/55088942) -> matched: Banat Village Museum  [body: 4049 chars]
+  Q12074177 (romania/way/55402732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q924912 (romania/way/55484964) -> matched: Lake Sfânta Ana  [body: 1802 chars]
+  Q2284372 (romania/way/56264062) -> matched: Nicolae Romanescu Park  [body: 3274 chars]
+  Q1289417 (romania/way/56541072) -> matched: Iron Gate I Hydroelectric Power Station  [body: 2321 chars]
+  Q6976708 (romania/way/57452962) -> matched: Sacalin Island  [body: 597 chars]
+  Q1956214 (romania/way/59403956) -> matched: Dimitrie Gusti National Village Museum  [body: 1618 chars]
+  Q4982661 (romania/way/61237758) -> matched: Bucharest West Power Station  [body: 324 chars]
+  Q791847 (romania/relation/7613899) -> matched: Bedevlia  [body: 914 chars]
+  Q791847 (romania/way/61392762) -> matched: Bedevlia  [body: 914 chars]
+  Q3850601 (romania/relation/16266131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3850892 (romania/relation/7613901) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3850892 (romania/way/61397654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q388701 (romania/relation/16266135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18548272 (romania/way/63140614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12738809 (romania/way/69126198) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3373059 (romania/way/70838220) -> matched: Noviodunum ad Istrum  [body: 2933 chars]
+  Q981143 (romania/way/74220916) -> matched: Bod Transmitter  [body: 1564 chars]
+  Q1938900 (romania/way/77516650) -> matched: Silver Lake (Serbia)  [body: 4897 chars]
+  Q131727540 (romania/way/81179790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q617624 (romania/way/83334380) -> matched: Râmnicu Sărat  [body: 2389 chars]
+  Q458666 (romania/way/87240994) -> matched: Gheorghe Asachi Technical University of Iași  [body: 9130 chars]
+  Q4118460 (romania/relation/2502499) -> matched: Iași Botanical Garden  [body: 5746 chars]
+  Q3501078 (romania/way/90064054) -> matched: Buftea Studios  [body: 48589 chars]
+  Q12737762 (romania/way/94698192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q571052 (romania/way/97921822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12729485 (romania/way/100995490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1029508 (romania/way/106091814) -> matched: Red Lake (Romania)  [body: 3205 chars]
+  Q18547203 (romania/way/117743110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4118458 (romania/way/123500102) -> matched: Copou Park  [body: 3148 chars]
+  Q636034 (romania/way/132902750) -> matched: Military Technical Academy  [body: 104 chars]
+  Q12137507 (romania/way/148680328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q202351 (romania/way/148680396) -> matched: Giurgiu  [body: 4752 chars]
+  Q212561 (romania/way/148951980) -> matched: Călărași  [body: 3916 chars]
+  Q12147565 (romania/way/148985990) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898204 (romania/way/148986076) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898339 (romania/way/148989706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12722899 (romania/way/148990010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2719501 (romania/way/149003286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2605230 (romania/way/149004066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2719217 (romania/way/149023800) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q750243 (romania/way/149025206) -> matched: Orșova  [body: 3557 chars]
+  Q12114951 (romania/way/149324126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12142864 (romania/way/149324458) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q685811 (romania/way/149324568) -> matched: Moreni  [body: 1466 chars]
+  Q12093607 (romania/way/149324590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q756583 (romania/way/149326936) -> matched: Câmpina  [body: 3149 chars]
+  Q16898613 (romania/way/149402254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q248018 (romania/way/149402450) -> matched: Isaccea  [body: 24846 chars]
+  Q16898607 (romania/way/149402582) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q652838 (romania/way/149456620) -> matched: Curtea de Argeș  [body: 8123 chars]
+  Q12134488 (romania/way/149457034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12152170 (romania/way/150429094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898266 (romania/way/150442126) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16898264 (romania/way/150442234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12168774 (romania/way/150442454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12136012 (romania/way/150501542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q192269 (romania/way/150511742) -> matched: Vaslui  [body: 5428 chars]
+  Q12172228 (romania/way/150800384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12171992 (romania/way/150800394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12085457 (romania/way/150800428) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12170417 (romania/way/150800494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12147294 (romania/way/150800502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12118822 (romania/way/150800510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898352 (romania/way/150800554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12082888 (romania/way/150800598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898355 (romania/way/150800694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12136675 (romania/way/150800700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12147343 (romania/way/150800818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898360 (romania/way/150800822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12122218 (romania/way/150800826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12123983 (romania/way/150800854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12089401 (romania/way/150800948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12147345 (romania/way/150800978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898358 (romania/way/150801016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898137 (romania/way/151077276) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2715903 (romania/way/151077344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q756587 (romania/way/151077348) -> matched: Dorohoi  [body: 4638 chars]
+  Q276146 (romania/way/151077354) -> matched: Bucecea  [body: 178 chars]
+  Q12102313 (romania/way/151077746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q899467 (romania/way/151077772) -> matched: Darabani  [body: 3304 chars]
+  Q6272651 (romania/way/164826652) -> matched: Lake Siriu  [body: 338 chars]
+  Q12728681 (romania/way/165956000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18542245 (romania/way/167981740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12131291 (romania/way/169052290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12170846 (romania/way/169052834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2719181 (romania/way/169059100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12158816 (romania/way/169127470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12114608 (romania/way/169139832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431146 (romania/way/169150492) -> matched: Craiova International Airport  [body: 2489 chars]
+  Q843229 (romania/way/169150508) -> matched: Bucharest Băneasa Aurel Vlaicu International Airport  [body: 5706 chars]
+  Q257631 (romania/way/169150744) -> matched: Bucharest Henri Coandă International Airport  [body: 10440 chars]
+  Q5754946 (romania/way/169150748) -> matched: RoAF 86th Air Base  [body: 8124 chars]
+  Q382546 (romania/way/169150798) -> matched: Mihail Kogălniceanu International Airport  [body: 4361 chars]
+  Q4982627 (romania/way/169150800) -> matched: Alexeni Airfield  [body: 4454 chars]
+  Q3536557 (romania/way/169150814) -> matched: Caransebeș Airport  [body: 1056 chars]
+  Q1424725 (romania/way/169150888) -> matched: Arad International Airport  [body: 5453 chars]
+  Q645100 (romania/way/169150918) -> matched: Târgu Mureș International Airport  [body: 1800 chars]
+  Q1068685 (romania/way/169150922) -> matched: Cluj International Airport  [body: 9476 chars]
+  Q2102332 (romania/way/169150972) -> matched: Oradea International Airport  [body: 4322 chars]
+  Q1147758 (romania/way/169151004) -> matched: George Enescu International Airport  [body: 2755 chars]
+  Q2234608 (romania/way/169151016) -> matched: Satu Mare International Airport  [body: 1028 chars]
+  Q1430921 (romania/way/169151024) -> matched: Maramureș Airport  [body: 701 chars]
+  Q1303153 (romania/way/169151098) -> matched: Suceava Ștefan cel Mare International Airport  [body: 2087 chars]
+  Q12133118 (romania/way/169516512) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1187750 (romania/way/169525182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12139008 (romania/way/169617408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12096908 (romania/way/169628416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6272206 (romania/way/169647248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4958603 (romania/way/169808756) -> matched: Brazi Power Station  [body: 586 chars]
+  Q741056 (romania/way/169861500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q265496 (romania/way/169938688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1303752 (romania/way/169938998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64930 (romania/way/169939846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27061 (romania/way/169955182) -> matched: ARO (company)  [body: 4652 chars]
+  Q12698652 (romania/way/170142182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q716407 (romania/way/170263612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q730086 (romania/way/170277784) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2535326 (romania/way/170726962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12738832 (romania/way/170847686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18547166 (romania/way/170932550) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18547166 (romania/way/170948600) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18547166 (romania/way/170975394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42929100 (romania/way/171549596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18547214 (romania/way/171904812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18547198 (romania/way/172267056) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15204449 (romania/way/172817512) -> matched: Breite Oak Tree Reserve  [body: 3418 chars]
+  Q131577830 (romania/way/173509396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12723372 (romania/way/174110476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12723372 (romania/way/174135944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6588663 (romania/way/174738910) -> matched: Tulcea Airport  [body: 1281 chars]
+  Q1110761 (romania/way/175234312) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12731895 (romania/way/176211560) -> matched: Văcărești Nature Park  [body: 1875 chars]
+  Q16897601 (romania/way/176232664) -> matched: Viperești oil field  [body: 389 chars]
+  Q339409 (romania/way/176323042) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12275101 (romania/way/176343132) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2944717 (romania/way/176344006) -> matched: Turceni Power Station  [body: 5544 chars]
+  Q12730186 (romania/way/176344120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12730187 (romania/way/176344712) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4787546 (romania/way/176345022) -> matched: Arctic S.A.  [body: 456 chars]
+  Q4795740 (romania/way/176345356) -> matched: Arpechim Refinery  [body: 1973 chars]
+  Q7179010 (romania/relation/2614619) -> matched: Petromidia Refinery  [body: 3820 chars]
+  Q7178884 (romania/way/176347024) -> matched: Petrobrazi Refinery  [body: 3252 chars]
+  Q12742914 (romania/way/176347788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4783611 (romania/way/176349224) -> matched: Arad Power Station  [body: 405 chars]
+  Q18545297 (romania/way/176351026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12738901 (romania/way/176351152) -> matched: RAFO Onești  [body: 1674 chars]
+  Q18547291 (romania/way/176351336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7311548 (romania/way/176351380) -> matched: Remarul 16 Februarie  [body: 2900 chars]
+  Q31179930 (romania/way/176353062) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12726923 (romania/way/176355494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2074133 (romania/way/176674024) -> matched: King Michael I Park  [body: 4457 chars]
+  Q8083867 (romania/way/176687164) -> matched: Șimian (island)  [body: 748 chars]
+  Q28726172 (romania/way/176687222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737295 (romania/way/176717386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35721835 (romania/way/176717864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7635229 (romania/way/176717912) -> matched: Suhat (Olt)  [body: 184 chars]
+  Q12731832 (romania/way/176727034) -> matched: Lake Amara  [body: 1480 chars]
+  Q599713 (romania/way/176729354) -> matched: Vidra Lake  [body: 785 chars]
+  Q18537674 (romania/relation/2617263) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q855254 (romania/way/176741560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6478343 (romania/way/176745764) -> matched: Lake Vârșolț  [body: 961 chars]
+  Q854060 (romania/way/176746616) -> matched: Lake Izvorul Muntelui  [body: 3474 chars]
+  Q12731855 (romania/way/176747268) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7226059 (romania/way/180272216) -> matched: VIVO! Cluj-Napoca  [body: 1219 chars]
+  Q3214777 (romania/way/183576646) -> matched: Lake Băneasa  [body: 510 chars]
+  Q2747597 (romania/relation/2261657) -> matched: Lake Herăstrău  [body: 1888 chars]
+  Q18548046 (romania/way/183705136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q824493 (romania/way/195623640) -> matched: King Michael I University of Life Sciences  [body: 4176 chars]
+  Q5983519 (romania/way/207349694) -> matched: Iași Exhibition Park  [body: 322 chars]
+  Q1475126 (romania/way/208714504) -> matched: Politehnica University of Timișoara  [body: 9269 chars]
+  Q50036410 (romania/way/216272396) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q28726167 (romania/way/223115638) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12731889 (romania/way/234281394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5402751 (romania/way/250011888) -> matched: Eternitatea cemetery  [body: 2464 chars]
+  Q6533204 (romania/way/259637782) -> matched: Letea Forest  [body: 1972 chars]
+  Q1164460 (romania/way/264133600) -> matched: Histria (ancient city)  [body: 15392 chars]
+  Q5124784 (romania/way/264636622) -> matched: Civitas Tropaensium  [body: 3661 chars]
+  Q1248956 (romania/way/265022534) -> matched: Cernavodă Nuclear Power Plant  [body: 6921 chars]
+  Q106413906 (romania/way/300549446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q815393 (romania/way/302418370) -> matched: Belene Island  [body: 1753 chars]
+  Q3622013 (romania/way/302458118) -> matched: Vardim Island  [body: 2507 chars]
+  Q12294907 (romania/way/303387060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20081112 (romania/way/319054142) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18545418 (romania/relation/4393217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q568264 (romania/relation/18452981) -> matched: Buila-Vânturarița National Park  [body: 3618 chars]
+  Q851764 (romania/way/339722028) -> matched: Bucura Lake  [body: 510 chars]
+  Q12730522 (romania/way/348253560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5611794 (romania/way/376205790) -> matched: Grozăvești Power Station  [body: 277 chars]
+  Q12723866 (romania/way/381307998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22692562 (romania/way/390619740) -> matched: Ion Creangă Children's Park  [body: 2567 chars]
+  Q1417736 (romania/way/394505854) -> matched: Timișoara Traian Vuia International Airport  [body: 15344 chars]
+  Q12724064 (romania/way/397537374) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12297083 (romania/way/411652316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q542391 (romania/way/412611644) -> matched: Porolissum  [body: 7453 chars]
+  Q251681 (romania/way/420275998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12736102 (romania/way/421941640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12085182 (romania/way/427124792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12294882 (romania/relation/5708107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30285167 (romania/way/435374430) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q857829 (romania/way/438310568) -> matched: Timișoreana Brewery  [body: 3782 chars]
+  Q7234612 (romania/way/439485034) -> matched: Potaissa (castra)  [body: 3588 chars]
+  Q12721121 (romania/way/445366502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57659103 (romania/way/448486450) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2065207 (romania/way/460852480) -> matched: Drumul Taberei  [body: 7596 chars]
+  Q2807579 (romania/way/460855056) -> matched: 13 Septembrie  [body: 890 chars]
+  Q2554754 (romania/way/460858468) -> matched: Cotroceni  [body: 1289 chars]
+  Q2033425 (romania/way/460865948) -> matched: Militari  [body: 11386 chars]
+  Q2162119 (romania/way/460872800) -> matched: Colentina, Bucharest  [body: 4502 chars]
+  Q31180907 (romania/way/460876556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2724265 (romania/way/460886156) -> matched: Pantelimon, Bucharest  [body: 2669 chars]
+  Q85980424 (romania/way/460887004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12743277 (romania/way/460888514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2197532 (romania/way/460889402) -> matched: Dristor  [body: 763 chars]
+  Q636973 (romania/way/460893038) -> matched: Titan, Bucharest  [body: 2335 chars]
+  Q2700690 (romania/way/460893040) -> matched: Vitan, Bucharest  [body: 1500 chars]
+  Q946418 (romania/way/463409460) -> matched: Sibiu International Airport  [body: 4299 chars]
+  Q12723820 (romania/way/464682352) -> matched: Bucharest Old Town  [body: 651 chars]
+  Q12132188 (romania/way/465292410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12143132 (romania/way/465593560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737764 (romania/way/479815466) -> matched: Jilava Prison  [body: 4854 chars]
+  Q167036 (romania/way/481072344) -> matched: Aviației  [body: 1028 chars]
+  Q2612157 (romania/way/481116760) -> matched: Berceni, Bucharest  [body: 4302 chars]
+  Q28726486 (romania/way/481120528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4682798 (romania/way/481131088) -> matched: Dorobanți  [body: 1878 chars]
+  Q61086723 (romania/way/481131090) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5460512 (romania/way/481132032) -> matched: Floreasca  [body: 1112 chars]
+  Q15725522 (romania/way/481133126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4688281 (romania/way/481133128) -> matched: Grivița  [body: 63713 chars]
+  Q16268929 (romania/way/481134434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7243714 (romania/way/481135588) -> matched: Primăverii  [body: 2075 chars]
+  Q4686931 (romania/way/481141550) -> matched: Bucureștii Noi  [body: 2322 chars]
+  Q12737385 (romania/way/481143210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2315216 (romania/way/481145058) -> matched: Centrul Civic  [body: 4998 chars]
+  Q1909438 (romania/way/481146116) -> matched: Crângași  [body: 2537 chars]
+  Q4897083 (romania/way/481148964) -> matched: Ferentari  [body: 4457 chars]
+  Q12728821 (romania/way/481148966) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5556215 (romania/way/481149240) -> matched: Ghencea  [body: 1220 chars]
+  Q6274949 (romania/way/481150070) -> matched: Rahova  [body: 5591 chars]
+  Q7308358 (romania/way/481150866) -> matched: Regie, Bucharest  [body: 2013 chars]
+  Q1656367 (romania/way/481152148) -> matched: Giulești  [body: 1380 chars]
+  Q5565313 (romania/way/481152892) -> matched: Giurgiului  [body: 4781 chars]
+  Q18538864 (romania/way/481222560) -> matched: Cernica Monastery  [body: 2656 chars]
+  Q5050761 (romania/way/481624980) -> matched: Acmonia fort  [body: 542 chars]
+  Q774266 (romania/way/483835060) -> matched: Apulum (castra)  [body: 917 chars]
+  Q30280101 (romania/way/484958956) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12159464 (romania/way/487602814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4651504 (romania/way/488067394) -> matched: AFI Cotroceni  [body: 592 chars]
+  Q739802 (romania/way/517378486) -> matched: Sarmizegetusa Regia  [body: 11422 chars]
+  Q1309590 (romania/way/518677070) -> matched: Micia  [body: 1330 chars]
+  Q12736264 (romania/way/534346528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3638972 (romania/way/558914782) -> matched: Bersobis  [body: 1487 chars]
+  Q28726082 (romania/way/570038990) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18538982 (romania/way/576580846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12114848 (romania/way/580918470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30296144 (romania/way/585427068) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15107077 (romania/way/602551648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12736100 (romania/way/603549352) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6192061 (romania/way/605120116) -> matched: Jibou Botanical Garden  [body: 1404 chars]
+  Q12207333 (romania/relation/16642627) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5207628 (romania/way/614713070) -> matched: Dacian fortress of Covasna  [body: 1567 chars]
+  Q12737748 (romania/way/618199462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12172418 (romania/way/619556162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12087618 (romania/way/624852542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18544190 (romania/way/667773176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q794973 (romania/way/672151512) -> matched: Bâlea Lake  [body: 1093 chars]
+  Q2558747 (romania/way/690105516) -> matched: Romanian Land Forces  [body: 26357 chars]
+  Q4596396 (romania/way/690120460) -> matched: 1st Infantry Division (Romania)  [body: 4101 chars]
+  Q12727760 (romania/way/710815614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4216138 (romania/way/730536672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737747 (romania/way/738468818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131620158 (romania/way/777664148) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122082 (romania/relation/8530033) -> matched: Srebarna Nature Reserve  [body: 3014 chars]
+  Q1538077 (romania/way/781847606) -> matched: Deveselu Military Base  [body: 7122 chars]
+  Q12145537 (romania/way/782100250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130856704 (romania/way/790030276) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24970903 (romania/way/815178226) -> matched: Shopping City Timișoara  [body: 1775 chars]
+  Q12726470 (romania/way/819052118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7726861 (romania/way/828911774) -> matched: Colosseum Mall  [body: 280 chars]
+  Q7371723 (romania/way/843859742) -> matched: Rovinari Power Station  [body: 1313 chars]
+  Q3813650 (romania/way/865476524) -> matched: Brașov-Ghimbav International Airport  [body: 5253 chars]
+  Q12729330 (romania/way/869745066) -> matched: Girocului  [body: 635 chars]
+  Q1330589 (romania/way/869753678) -> matched: Elisabetin  [body: 3623 chars]
+  Q178855 (romania/relation/13323483) -> matched: Botoșani  [body: 12424 chars]
+  Q609044 (romania/way/914333920) -> matched: Caracal, Romania  [body: 2565 chars]
+  Q12721523 (romania/way/934885168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4783606 (romania/way/944568296) -> matched: Arad County Clinical Hospital  [body: 3155 chars]
+  Q1668781 (romania/way/991595674) -> matched: Sfântu Gheorghe branch  [body: 486 chars]
+  Q511976 (romania/way/1038454194) -> matched: Lake Vidraru  [body: 2273 chars]
+  Q132526736 (romania/way/1049539134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q390162 (romania/way/1068293242) -> matched: Huși  [body: 5648 chars]
+  Q275904 (romania/way/1077161086) -> matched: Flămânzi  [body: 647 chars]
+  Q98140196 (romania/relation/15457537) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1303156 (romania/relation/23832545) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15266078 (romania/way/1115999976) -> matched: Petrom Brazi Power Station  [body: 471 chars]
+  Q2658156 (romania/way/1126936846) -> matched: Obor  [body: 2266 chars]
+  Q12120666 (romania/way/1157251738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2562757 (romania/relation/16435319) -> matched: Maican Island  [body: 1476 chars]
+  Q137861636 (romania/relation/16438293) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49666557 (romania/relation/16440065) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737515 (romania/way/1172715774) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12723186 (romania/way/1185769594) -> matched: Iernut Power Station  [body: 720 chars]
+  Q207074 (romania/way/1187017816) -> matched: Slatina, Romania  [body: 2068 chars]
+  Q5320487 (romania/way/1193056594) -> matched: Dămăroaia  [body: 947 chars]
+  Q4093496 (romania/relation/26441007) -> matched: Bordei Park  [body: 2368 chars]
+  Q793992 (romania/relation/23905519) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4355583 (romania/way/1251498360) -> matched: Ghencea Cemetery  [body: 2992 chars]
+  Q12736240 (romania/way/1263209698) -> matched: Maglavit Monastery  [body: 914 chars]
+  Q12092800 (romania/way/1282877880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16902251 (romania/way/1306952712) -> matched: Ucea de Sus Solar Park  [body: 766 chars]
+  Q16653023 (romania/relation/18238259) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20432610 (romania/relation/18463169) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12730252 (romania/way/1330089874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18547220 (romania/way/1330513848) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12738826 (romania/way/1330838484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q302552 (romania/way/1330997648) -> matched: Mount Stogu  [body: 1777 chars]
+  Q18547213 (romania/way/1331028864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12738817 (romania/way/1331370306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18549684 (romania/way/1331575176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12739350 (romania/way/1331575180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12739346 (romania/way/1331575182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12739352 (romania/way/1331592736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737924 (romania/way/1331641908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18545394 (romania/way/1331743212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898605 (romania/way/1334072078) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q590050 (romania/way/1339098920) -> matched: Gheorgheni, Cluj-Napoca  [body: 4180 chars]
+  Q3118185 (romania/relation/37873981) -> matched: Gruia, Cluj-Napoca  [body: 7064 chars]
+  Q3118185 (romania/way/1339110880) -> matched: Gruia, Cluj-Napoca  [body: 7064 chars]
+  Q7629892 (romania/way/1348295040) -> matched: Stânca–Costești Dam  [body: 1206 chars]
+  Q12723287 (romania/way/1363398084) -> matched: Aradului  [body: 913 chars]
+  Q12730485 (romania/way/1372595648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38908874 (romania/way/1372595652) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q213296 (romania/way/1375691236) -> matched: Sinaia  [body: 5446 chars]
+  Q30973990 (romania/way/1378752214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12724697 (romania/relation/19250119) -> matched: Cârcea  [body: 221 chars]
+  Q12724918 (romania/relation/19257315) -> matched: Malu Mare  [body: 899 chars]
+  Q12724884 (romania/relation/19257309) -> matched: Ișalnița  [body: 154 chars]
+  Q3304891 (romania/relation/19285589) -> matched: Coșoveni  [body: 309 chars]
+  Q253872 (romania/relation/19329507) -> matched: Bechet  [body: 658 chars]
+  Q12724814 (romania/relation/19371549) -> matched: Grecești  [body: 199 chars]
+  Q16426403 (romania/relation/19371555) -> matched: Braloștița  [body: 421 chars]
+  Q12724791 (romania/relation/19371565) -> matched: Fărcaș  [body: 289 chars]
+  Q16426427 (romania/relation/19390203) -> matched: Cerăt  [body: 156 chars]
+  Q2539161 (romania/relation/19390207) -> matched: Siliștea Crucii  [body: 179 chars]
+  Q16426471 (romania/relation/19390205) -> matched: Lipovu  [body: 165 chars]
+  Q16426493 (romania/relation/19390201) -> matched: Negoi  [body: 259 chars]
+  Q16426422 (romania/relation/19390213) -> matched: Catane  [body: 234 chars]
+  Q12724968 (romania/relation/19390225) -> matched: Măceșu de Sus  [body: 175 chars]
+  Q3725731 (romania/relation/19390263) -> matched: Dobrotești, Dolj  [body: 249 chars]
+  Q3725712 (romania/relation/19390251) -> matched: Rojiște  [body: 240 chars]
+  Q12724801 (romania/relation/19390245) -> matched: Ghindeni  [body: 215 chars]
+  Q12725200 (romania/relation/19390243) -> matched: Teasc  [body: 154 chars]
+  Q16439614 (romania/relation/19390237) -> matched: Țuglui  [body: 155 chars]
+  Q12725242 (romania/relation/19371541) -> matched: Unirea, Dolj  [body: 150 chars]
+  Q16426514 (romania/relation/19390499) -> matched: Seaca de Câmp  [body: 185 chars]
+  Q16439581 (romania/relation/19390477) -> matched: Caraula  [body: 152 chars]
+  Q12725077 (romania/relation/19390481) -> matched: Radovan, Dolj  [body: 277 chars]
+  Q16426451 (romania/relation/19390501) -> matched: Ghidici  [body: 215 chars]
+  Q2420043 (romania/relation/19390489) -> matched: Galiciuica  [body: 217 chars]
+  Q12725288 (romania/relation/19390491) -> matched: Întorsura  [body: 215 chars]
+  Q12170632 (romania/relation/19390493) -> matched: Cioroiași  [body: 192 chars]
+  Q12724808 (romania/relation/19371539) -> matched: Gogoșu, Dolj  [body: 292 chars]
+  Q16426407 (romania/relation/19285427) -> matched: Breasta  [body: 209 chars]
+  Q16426543 (romania/relation/19390475) -> matched: Vârtop  [body: 150 chars]
+  Q2538633 (romania/relation/19395573) -> matched: Pleșoi  [body: 252 chars]
+  Q3726308 (romania/relation/19395561) -> matched: Coțofenii din Față  [body: 358 chars]
+  Q12725058 (romania/relation/19395567) -> matched: Predești  [body: 267 chars]
+  Q587728 (romania/relation/19395559) -> matched: Almăj  [body: 419 chars]
+  Q12725132 (romania/relation/19395563) -> matched: Scăești  [body: 179 chars]
+  Q3304770 (romania/relation/19395565) -> matched: Coțofenii din Dos  [body: 192 chars]
+  Q16426517 (romania/relation/19371551) -> matched: Secu  [body: 202 chars]
+  Q16426399 (romania/relation/19371547) -> matched: Botoșești-Paia  [body: 175 chars]
+  Q2465740 (romania/relation/19371545) -> matched: Verbița  [body: 247 chars]
+  Q16426655 (romania/relation/19432875) -> matched: Samarinești  [body: 246 chars]
+  Q238696 (romania/relation/19432877) -> matched: Motru  [body: 4009 chars]
+  Q12724713 (romania/relation/19432873) -> matched: Cătunele  [body: 216 chars]
+  Q2717435 (romania/relation/19434601) -> matched: Glogova, Gorj  [body: 183 chars]
+  Q16426635 (romania/relation/19434629) -> matched: Lelești  [body: 203 chars]
+  Q12725202 (romania/relation/19434607) -> matched: Telești  [body: 195 chars]
+  Q12724512 (romania/relation/19434631) -> matched: Arcani, Gorj  [body: 187 chars]
+  Q12725219 (romania/relation/19434625) -> matched: Turcinești  [body: 147 chars]
+  Q4787546 (romania/way/1399219462) -> matched: Arctic S.A.  [body: 456 chars]
+  Q12725235 (romania/relation/19371567) -> matched: Tălpaș  [body: 257 chars]
+  Q12724984 (romania/relation/19459427) -> matched: Mătăsari  [body: 156 chars]
+  Q16426668 (romania/relation/19459417) -> matched: Văgiulești  [body: 509 chars]
+  Q12724876 (romania/relation/19459405) -> matched: Ionești, Gorj  [body: 186 chars]
+  Q16426615 (romania/relation/19459377) -> matched: Bărbătești, Gorj  [body: 153 chars]
+  Q12725157 (romania/relation/19459387) -> matched: Stoina  [body: 283 chars]
+  Q4815833 (romania/relation/19459403) -> matched: Țânțăreni, Gorj  [body: 192 chars]
+  Q12724747 (romania/relation/19459421) -> matched: Drăgotești, Gorj  [body: 188 chars]
+  Q12724558 (romania/relation/19459409) -> matched: Bolboși  [body: 209 chars]
+  Q12724858 (romania/relation/19459393) -> matched: Hurezani  [body: 372 chars]
+  Q16426664 (romania/relation/19459411) -> matched: Urdari  [body: 231 chars]
+  Q12724585 (romania/relation/19459401) -> matched: Brănești, Gorj  [body: 209 chars]
+  Q12724499 (romania/relation/19459557) -> matched: Alimpești  [body: 548 chars]
+  Q4746529 (romania/relation/19459563) -> matched: Albeni  [body: 273 chars]
+  Q16426649 (romania/relation/19459559) -> matched: Roșia de Amaradia  [body: 239 chars]
+  Q12724598 (romania/relation/19459599) -> matched: Bumbești-Pițic  [body: 154 chars]
+  Q12725185 (romania/relation/19459605) -> matched: Săcelu  [body: 196 chars]
+  Q269188 (romania/relation/19390261) -> matched: Amărăștii de Sus  [body: 304 chars]
+  Q16426448 (romania/relation/19257313) -> matched: Ghercești  [body: 313 chars]
+  Q754726 (romania/relation/19488499) -> matched: Drăgășani  [body: 1295 chars]
+  Q207074 (romania/relation/19488505) -> matched: Slatina, Romania  [body: 2068 chars]
+  Q16427075 (romania/relation/19488421) -> matched: Bălteni, Olt  [body: 118 chars]
+  Q275890 (romania/relation/19666639) -> matched: Băbeni  [body: 834 chars]
+  Q727421 (romania/relation/19698917) -> matched: Otopeni  [body: 2499 chars]
+  Q5114679 (romania/relation/19868243) -> matched: Stăuceni, Botoșani  [body: 238 chars]
+  Q5113424 (romania/relation/19929353) -> matched: Valea Lupului  [body: 394 chars]
+  Q12725209 (romania/relation/19929373) -> matched: Tomești, Iași  [body: 231 chars]
+  Q5113908 (romania/relation/19929371) -> matched: Bârnova  [body: 382 chars]
+  Q5069585 (romania/relation/19929355) -> matched: Aroneanu  [body: 198 chars]
+  Q5091611 (romania/relation/20727243) -> matched: Carcaliu  [body: 277 chars]
+  Q12724869 (romania/relation/20727249) -> matched: I. C. Brătianu, Tulcea  [body: 322 chars]
+  Q5069698 (romania/relation/20727235) -> matched: Turcoaia  [body: 253 chars]
+  Q16427779 (romania/relation/20727223) -> matched: Horia, Tulcea  [body: 1201 chars]
+  Q5070958 (romania/relation/20733851) -> matched: Stejaru, Tulcea  [body: 818 chars]
+  Q685869 (romania/relation/20734885) -> matched: Făgăraș  [body: 9330 chars]
+  Q249637 (romania/relation/20735355) -> matched: Cristian, Brașov  [body: 1062 chars]
+  Q262472 (romania/relation/20988553) -> matched: Orăștie  [body: 14593 chars]
+  Q587746 (romania/relation/20991583) -> matched: Siret  [body: 7517 chars]
+  Q431347 (romania/relation/20991585) -> matched: Rădăuți  [body: 7622 chars]
+  Q303015 (romania/relation/20991591) -> matched: Fălticeni  [body: 7404 chars]
+  Q5058418 (romania/relation/21028861) -> matched: Dârlos  [body: 720 chars]
+  Q12113675 (romania/relation/21040651) -> matched: Costinești  [body: 3693 chars]
+  Q5065650 (romania/relation/21040679) -> matched: Tuzla, Constanța  [body: 641 chars]
+  Q912224 (romania/relation/21040675) -> matched: Techirghiol  [body: 3724 chars]
+  Q586387 (romania/relation/21040677) -> matched: Eforie  [body: 1512 chars]
+  Q516748 (romania/relation/21040775) -> matched: Agigea  [body: 1023 chars]
+  Q5066192 (romania/relation/21040773) -> matched: Cumpăna  [body: 1730 chars]
+  Q4143671 (romania/way/1523460572) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12172958 (romania/relation/22192883) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16508662 (romania/relation/609605) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q946893 (romania/relation/21262111) -> matched: Teiuș  [body: 1245 chars]
+  Q331577 (romania/relation/21262137) -> matched: Abrud  [body: 3698 chars]
+  Q458422 (romania/relation/21262311) -> matched: Câmpia Turzii  [body: 2122 chars]
+  Q496557 (romania/relation/21262383) -> matched: Gherla  [body: 6484 chars]
+  Q16898590 (romania/relation/21286625) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q187938 (romania/relation/21328349) -> matched: Pitești  [body: 18998 chars]
+  Q736296 (romania/relation/21328361) -> matched: Câmpulung  [body: 8091 chars]
+  Q736276 (romania/relation/21395703) -> matched: Cernavodă  [body: 2510 chars]
+  Q5065390 (romania/relation/21395995) -> matched: Ghindărești  [body: 442 chars]
+  Q2722232 (romania/relation/21430897) -> matched: Câmpineanca  [body: 418 chars]
+  Q192265 (romania/relation/21430899) -> matched: Focșani  [body: 5617 chars]
+  Q3726515 (romania/relation/21431031) -> matched: Cosmești, Galați  [body: 719 chars]
+  Q771191 (romania/relation/21431189) -> matched: Berești  [body: 617 chars]
+  Q10737004 (romania/relation/21431453) -> matched: Bacău  [body: 16241 chars]
+  Q476226 (romania/relation/21431645) -> matched: Moinești  [body: 5437 chars]
+  Q646065 (romania/relation/21437803) -> matched: Beiuș  [body: 6153 chars]
+  Q623099 (romania/relation/21497061) -> matched: Odorheiu Secuiesc  [body: 10145 chars]
+  Q202458 (romania/relation/21522423) -> matched: Roman, Romania  [body: 6606 chars]
+  Q756578 (romania/relation/21522581) -> matched: Târgu Frumos  [body: 1580 chars]
+  Q275981 (romania/relation/21522585) -> matched: Podu Iloaiei  [body: 762 chars]
+  Q275810 (romania/relation/20991581) -> matched: Cajvana  [body: 1332 chars]
+  Q851042 (romania/relation/21544967) -> matched: Hârlău  [body: 1642 chars]
+  Q132449 (romania/relation/2500869) -> matched: Roses Park, Timișoara  [body: 3769 chars]
+  Q16426006 (romania/relation/22638441) -> matched: Coronini  [body: 15307 chars]
+  Q1087069 (romania/relation/22638429) -> matched: Gârnic  [body: 321 chars]
+  Q4930913 (romania/relation/22642145) -> matched: Țuțora  [body: 234 chars]
+  Q5112696 (romania/relation/22642143) -> matched: Scânteia, Iași  [body: 489 chars]
+  Q5068258 (romania/relation/22642157) -> matched: Grajduri  [body: 201 chars]
+  Q16426820 (romania/relation/22642159) -> matched: Șcheia, Iași  [body: 481 chars]
+  Q813656 (romania/relation/22644143) -> matched: Becicherecu Mic  [body: 4316 chars]
+  Q510532 (romania/relation/22698515) -> matched: Câlnic, Alba  [body: 1345 chars]
+  Q16425245 (romania/relation/22698513) -> matched: Cut, Alba  [body: 1032 chars]
+  Q16425234 (romania/relation/22698501) -> matched: Ciugud  [body: 1360 chars]
+  Q16425250 (romania/relation/22698509) -> matched: Daia Română  [body: 700 chars]
+  Q16425254 (romania/relation/22698507) -> matched: Doștat  [body: 2332 chars]
+  Q16425324 (romania/relation/22698499) -> matched: Ohaba  [body: 706 chars]
+  Q16425223 (romania/relation/22698539) -> matched: Cenade  [body: 292 chars]
+  Q957862 (romania/relation/22698537) -> matched: Cergău  [body: 2865 chars]
+  Q16425227 (romania/relation/22698655) -> matched: Ceru-Băcăinți  [body: 811 chars]
+  Q396988 (romania/relation/22698659) -> matched: Șibot  [body: 1063 chars]
+  Q16425356 (romania/relation/22698753) -> matched: Sântimbru, Alba  [body: 1647 chars]
+  Q12148992 (romania/relation/22698951) -> matched: Roșia Montană  [body: 8792 chars]
+  Q12147304 (romania/relation/22698983) -> matched: Rădești, Alba  [body: 739 chars]
+  Q13583662 (romania/relation/22698985) -> matched: Bucerdea Grânoasă  [body: 998 chars]
+  Q16425241 (romania/relation/22698987) -> matched: Crăciunelu de Jos  [body: 881 chars]
+  Q20092330 (romania/relation/15457497) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4176473 (romania/relation/16435327) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737522 (romania/relation/28370853) -> matched: Bazoș Dendrological Park  [body: 3239 chars]
+  Q5110221 (romania/relation/23586695) -> matched: Saligny, Constanța  [body: 777 chars]
+  Q5052200 (romania/relation/23586335) -> matched: Cuza Vodă, Constanța  [body: 396 chars]
+  Q5054376 (romania/relation/23586329) -> matched: Lumina, Constanța  [body: 922 chars]
+  Q7139610 (romania/way/1730767086) -> matched: Paroșeni Power Station  [body: 602 chars]
+  Q5062666 (romania/relation/23345289) -> matched: Sarasău  [body: 652 chars]
+  Q6869635 (romania/relation/23865405) -> matched: Mintia-Deva Power Station  [body: 1256 chars]
+  Q7248889 (romania/way/1765780834) -> matched: Progresu Power Station  [body: 334 chars]
+  Q28725872 (romania/way/1767666092) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q469553 (romania/way/1767666094) -> matched: Timken Company  [body: 5367 chars]
+  Q12723372 (romania/way/1773528944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12723372 (romania/way/1773531192) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12723372 (romania/way/1773531194) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12723372 (romania/way/1773536296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5063206 (romania/relation/23345291) -> matched: Câmpulung la Tisa  [body: 1327 chars]
+  Q12121322 (romania/way/1782175494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q632261 (romania/relation/11767471) -> matched: Hoia-Baciu Forest  [body: 2546 chars]
+  Q12738823 (romania/way/1805875482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3850608 (romania/relation/24599965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3849719 (romania/way/1814285840) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3849546 (romania/way/1814298406) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16426866 (romania/relation/23345545) -> matched: Bocicoiu Mare  [body: 2621 chars]
+  Q1093435 (romania/relation/24211197) -> matched: Teresva  [body: 655 chars]
+  Q600388 (romania/relation/2927157) -> matched: Dilove  [body: 1249 chars]
+  Q714639 (romania/way/1818690482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q831404 (romania/way/1818690484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q428344 (romania/relation/24423773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q567949 (romania/relation/24690731) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5071370 (romania/relation/21153397) -> matched: Porumbești, Satu Mare  [body: 839 chars]
+  Q556166 (romania/relation/24709365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q714296 (romania/relation/24709367) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q556159 (romania/relation/24732297) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q556152 (romania/relation/24732299) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q722488 (romania/relation/24732301) -> matched: Nevetlenfolu  [body: 1464 chars]
+  Q167161 (romania/relation/24035253) -> matched: Băneasa  [body: 1639 chars]
+  Q276145 (romania/relation/20991573) -> matched: Vicovu de Sus  [body: 1225 chars]
+  Q12724545 (romania/relation/23537613) -> matched: Bilca  [body: 880 chars]
+  Q7179121 (romania/way/1843793064) -> matched: Petrotel Lukoil Refinery  [body: 2625 chars]
+  Q5243549 (romania/relation/19147467) -> matched: Lower Prut  [body: 1065 chars]
+  Q3786795 (romania/relation/25090619) -> matched: Vânători, Galați  [body: 190 chars]
+  Q5056911 (romania/relation/25115251) -> matched: Bichiș  [body: 962 chars]
+  Q5056596 (romania/relation/25156223) -> matched: Valea Largă  [body: 621 chars]
+  Q12724514 (romania/relation/25187353) -> matched: Arsura  [body: 376 chars]
+  Q5114265 (romania/relation/25187487) -> matched: Cozmești, Iași  [body: 811 chars]
+  Q16426819 (romania/relation/25187485) -> matched: Moșna, Iași  [body: 123 chars]
+  Q5112967 (romania/relation/25187907) -> matched: Roșcani, Iași  [body: 134 chars]
+  Q3653294 (romania/relation/25188215) -> matched: Adășeni  [body: 180 chars]
+  Q12724937 (romania/relation/25188365) -> matched: Mihăileni, Botoșani  [body: 729 chars]
+  Q13542186 (romania/relation/25188363) -> matched: Dersca  [body: 234 chars]
+  Q12724656 (romania/relation/25188349) -> matched: Concești  [body: 1143 chars]
+  Q4946929 (romania/way/1881204986) -> matched: Borzești Power Station  [body: 349 chars]
+  Q12087549 (romania/way/1881809010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130493404 (romania/way/1904762456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130631991 (romania/relation/25655345) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q750349 (romania/relation/2927155) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5643811 (romania/way/1946341320) -> matched: Halânga Power Station  [body: 453 chars]
+  Q16425440 (romania/relation/26274857) -> matched: Băbana  [body: 183 chars]
+  Q3396053 (romania/relation/26281123) -> matched: Dobrești, Argeș  [body: 130 chars]
+  Q3396080 (romania/relation/26281125) -> matched: Boțești, Argeș  [body: 345 chars]
+  Q16426000 (romania/relation/26289719) -> matched: Cornea, Caraș-Severin  [body: 248 chars]
+  Q5053690 (romania/relation/26289871) -> matched: Brebu Nou  [body: 568 chars]
+  Q12731880 (romania/relation/716027) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3214894 (romania/relation/26433269) -> matched: Lake Fundeni  [body: 485 chars]
+  Q3214882 (romania/way/1967807906) -> matched: Lake Floreasca  [body: 339 chars]
+  Q18547166 (romania/way/1990669910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16898202 (romania/relation/26808775) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1475400 (romania/way/2013629436) -> matched: Transilvania University of Brașov  [body: 21973 chars]
+  Q296709 (romania/relation/26987543) -> matched: Petroleum-Gas University of Ploiești  [body: 819 chars]
+  Q16426765 (romania/relation/27668537) -> matched: Colelia  [body: 166 chars]
+  Q685811 (romania/relation/21388731) -> matched: Moreni  [body: 1466 chars]
+  Q12724823 (romania/relation/27763319) -> matched: Grădinari, Caraș-Severin  [body: 462 chars]
+  Q18537218 (romania/way/2147082904) -> matched: National Intelligence Academy  [body: 2086 chars]
+  Q4903532 (romania/way/2154921850) -> matched: Bic Monastery  [body: 373 chars]
+  Q7231147 (romania/relation/24655669) -> matched: Port of Giurgiulești  [body: 2173 chars]
+  Q4981972 (romania/way/2170761132) -> matched: Brăila Power Station  [body: 439 chars]
+  Q12724709 (romania/relation/29307661) -> matched: Călărași, Cluj  [body: 1306 chars]
+  Q16425329 (romania/relation/29318209) -> matched: Poiana Vadului  [body: 749 chars]
+  Q12087211 (romania/relation/29317803) -> matched: Vadu Moților  [body: 969 chars]
+  Q5753943 (romania/relation/29342397) -> matched: RoAF 57th Air Base  [body: 19014 chars]
+  Q16900278 (romania/relation/38495263) -> matched: Slobozia Solar Park  [body: 690 chars]
+  Q2722797 (romania/relation/29463919) -> matched: Homocea  [body: 140 chars]
+  Q937108 (romania/relation/29463917) -> matched: Ploscuțeni  [body: 475 chars]
+  Q3726432 (romania/relation/29463947) -> matched: Poiana, Galați  [body: 243 chars]
+  Q16427834 (romania/relation/29463923) -> matched: Pogonești  [body: 260 chars]
+  Q2721653 (romania/relation/29463915) -> matched: Tănăsoaia  [body: 233 chars]
+  Q3725367 (romania/relation/29463935) -> matched: Rădești, Galați  [body: 343 chars]
+  Q3725434 (romania/relation/29463945) -> matched: Buciumeni, Galați  [body: 340 chars]
+  Q12724989 (romania/relation/29463951) -> matched: Negrilești, Galați  [body: 308 chars]
+  Q3726557 (romania/relation/29463943) -> matched: Brăhășești  [body: 594 chars]
+  Q8272585 (romania/relation/29463941) -> matched: Țepu  [body: 199 chars]
+  Q12725042 (romania/relation/29463927) -> matched: Pochidia  [body: 267 chars]
+  Q5091667 (romania/relation/29463981) -> matched: Movileni, Galați  [body: 253 chars]
+  Q12725171 (romania/relation/29463997) -> matched: Suhurlui  [body: 342 chars]
+  Q3726190 (romania/relation/29464015) -> matched: Cuza Vodă, Galați  [body: 271 chars]
+  Q5086716 (romania/relation/29464001) -> matched: Cuca, Galați  [body: 216 chars]
+  Q2604538 (romania/relation/29463975) -> matched: Nănești  [body: 152 chars]
+  Q12724816 (romania/relation/29463991) -> matched: Grivița, Galați  [body: 172 chars]
+  Q5112591 (romania/relation/29464003) -> matched: Costache Negri, Galați  [body: 733 chars]
+  Q3725426 (romania/relation/29463999) -> matched: Rediu, Galați  [body: 243 chars]
+  Q12725290 (romania/relation/29464029) -> matched: Șendreni  [body: 524 chars]
+  Q3725445 (romania/relation/29464007) -> matched: Fundeni, Galați  [body: 384 chars]
+  Q16426575 (romania/relation/29464021) -> matched: Schela, Galați  [body: 168 chars]
+  Q3915648 (romania/relation/29730481) -> matched: Biliești  [body: 214 chars]
+  Q2722219 (romania/relation/29470863) -> matched: Slobozia Bradului  [body: 945 chars]
+  Q3915587 (romania/relation/29470865) -> matched: Obrejița  [body: 217 chars]
+  Q2549162 (romania/relation/29470861) -> matched: Tâmboești  [body: 698 chars]
+  Q1047633 (romania/relation/29470849) -> matched: Milcovul  [body: 1442 chars]
+  Q2722188 (romania/relation/29470845) -> matched: Golești, Vrancea  [body: 138 chars]
+  Q2722279 (romania/relation/29470835) -> matched: Jitia  [body: 159 chars]
+  Q16427965 (romania/relation/29470847) -> matched: Răstoaca  [body: 1114 chars]
+  Q16427954 (romania/relation/29470853) -> matched: Gologanu  [body: 1536 chars]
+  Q2722258 (romania/relation/29470857) -> matched: Gugești  [body: 166 chars]
+  Q3915463 (romania/relation/29470825) -> matched: Popești, Vrancea  [body: 205 chars]
+  Q2722817 (romania/relation/29470859) -> matched: Dumbrăveni, Vrancea  [body: 927 chars]
+  Q925507 (romania/relation/29470843) -> matched: Bordești  [body: 139 chars]
+  Q2300583 (romania/relation/29470811) -> matched: Broșteni, Vrancea  [body: 150 chars]
+  Q1038526 (romania/relation/29470779) -> matched: Năruja  [body: 178 chars]
+  Q1974755 (romania/relation/29470785) -> matched: Bârsești  [body: 483 chars]
+  Q2721361 (romania/relation/29470809) -> matched: Jariștea  [body: 193 chars]
+  Q2722270 (romania/relation/29470819) -> matched: Cârligele  [body: 871 chars]
+  Q2568684 (romania/relation/29470789) -> matched: Negrilești, Vrancea  [body: 175 chars]
+  Q16427943 (romania/relation/29470869) -> matched: Bălești, Vrancea  [body: 130 chars]
+  Q12725149 (romania/relation/29470829) -> matched: Spulber  [body: 754 chars]
+  Q932046 (romania/relation/29470815) -> matched: Vârteșcoiu  [body: 558 chars]
+  Q12725018 (romania/relation/29470777) -> matched: Paltin  [body: 247 chars]
+  Q3915396 (romania/relation/29470823) -> matched: Urechești, Vrancea  [body: 383 chars]
+  Q16426303 (romania/relation/29471489) -> matched: Comandău  [body: 669 chars]
+  Q1097245 (romania/relation/29471435) -> matched: Moacșa  [body: 1652 chars]
+  Q1096961 (romania/relation/29471481) -> matched: Brateș  [body: 2469 chars]
+  Q16426323 (romania/relation/29471445) -> matched: Micfalău  [body: 1868 chars]
+  Q16426341 (romania/relation/29471483) -> matched: Valea Mare, Covasna  [body: 1348 chars]
+  Q12685050 (romania/relation/29471477) -> matched: Chichiș  [body: 669 chars]
+  Q24710 (romania/relation/29471443) -> matched: Malnaș  [body: 1657 chars]
+  Q16426315 (romania/relation/29471597) -> matched: Hăghig  [body: 1085 chars]
+  Q12682832 (romania/relation/29471601) -> matched: Arcuș  [body: 1106 chars]
+  Q254871 (romania/relation/29478111) -> matched: Faraoani  [body: 1262 chars]
+  Q13542616 (romania/relation/29478713) -> matched: Ivești, Vaslui  [body: 264 chars]
+  Q3712496 (romania/relation/29478689) -> matched: Dodești  [body: 244 chars]
+  Q12724640 (romania/relation/29478711) -> matched: Ciocani  [body: 268 chars]
+  Q12724775 (romania/relation/29478717) -> matched: Fruntișeni  [body: 180 chars]
+  Q335868 (romania/relation/21431223) -> matched: Bârlad  [body: 3871 chars]
+  Q12724719 (romania/relation/29478663) -> matched: Deleni, Vaslui  [body: 297 chars]
+  Q12724866 (romania/relation/29478703) -> matched: Iana, Vaslui  [body: 199 chars]
+  Q12724871 (romania/relation/29478701) -> matched: Ibănești, Vaslui  [body: 1665 chars]
+  Q16427794 (romania/relation/29478669) -> matched: Alexandru Vlahuță, Vaslui  [body: 494 chars]
+  Q12724931 (romania/relation/29479135) -> matched: Miclești, Vaslui  [body: 194 chars]
+  Q5116436 (romania/relation/29486131) -> matched: Drăgușeni, Iași  [body: 269 chars]
+  Q16427850 (romania/relation/29486129) -> matched: Todirești, Vaslui  [body: 355 chars]
+  Q12724959 (romania/relation/29486155) -> matched: Muntenii de Sus  [body: 277 chars]
+  Q13570100 (romania/relation/29486153) -> matched: Văleni, Vaslui  [body: 280 chars]
+  Q12165614 (romania/relation/29486143) -> matched: Ferești  [body: 229 chars]
+  Q12724617 (romania/relation/29486157) -> matched: Bălteni, Vaslui  [body: 196 chars]
+  Q13542495 (romania/relation/29486123) -> matched: Rafaila  [body: 199 chars]
+  Q12725065 (romania/relation/29486173) -> matched: Pușcași  [body: 275 chars]
+  Q12724894 (romania/relation/29486171) -> matched: Laza, Vaslui  [body: 246 chars]
+  Q16427808 (romania/relation/29486159) -> matched: Delești  [body: 330 chars]
+  Q16427858 (romania/relation/29486147) -> matched: Vulturești, Vaslui  [body: 165 chars]
+  Q12724672 (romania/relation/29486161) -> matched: Cozmești, Vaslui  [body: 311 chars]
+  Q5112869 (romania/relation/29486437) -> matched: Tansa, Iași  [body: 187 chars]
+  Q2719260 (romania/relation/29486415) -> matched: Gâdinți  [body: 194 chars]
+  Q12099357 (romania/relation/29486435) -> matched: Dagâța  [body: 1011 chars]
+  Q5114423 (romania/relation/29486721) -> matched: Butea, Iași  [body: 326 chars]
+  Q5052832 (romania/relation/29486717) -> matched: Mircești  [body: 348 chars]
+  Q5069898 (romania/relation/29486719) -> matched: Răchiteni  [body: 254 chars]
+  Q5066579 (romania/relation/29486699) -> matched: Moțca  [body: 581 chars]
+  Q5066535 (romania/relation/29486711) -> matched: Mogoșești-Siret  [body: 586 chars]
+  Q5114372 (romania/relation/29486697) -> matched: Heleșteni  [body: 164 chars]
+  Q5068832 (romania/relation/29486723) -> matched: Oțeleni  [body: 297 chars]
+  Q5114287 (romania/relation/29487143) -> matched: Costești, Iași  [body: 240 chars]
+  Q5060209 (romania/relation/29487141) -> matched: Cucuteni  [body: 1687 chars]
+  Q5114039 (romania/relation/29487137) -> matched: Ceplenița  [body: 266 chars]
+  Q5074463 (romania/relation/29487129) -> matched: Fântânele, Iași  [body: 131 chars]
+  Q5113877 (romania/relation/29487145) -> matched: Balș, Iași  [body: 248 chars]
+  Q5113960 (romania/relation/29487153) -> matched: Coarnele Caprei  [body: 272 chars]
+  Q5113846 (romania/relation/29487265) -> matched: Todirești, Iași  [body: 255 chars]
+  Q2718480 (romania/relation/29487267) -> matched: Hărmănești  [body: 264 chars]
+  Q5113042 (romania/relation/29487375) -> matched: Valea Seacă, Iași  [body: 154 chars]
+  Q120036476 (romania/relation/28618201) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12724666 (romania/relation/29538803) -> matched: Cordăreni  [body: 177 chars]
+  Q12724553 (romania/relation/29539115) -> matched: Bogdănești, Suceava  [body: 257 chars]
+  Q16427457 (romania/relation/29556531) -> matched: Bunești, Suceava  [body: 240 chars]
+  Q658226 (romania/way/2221542700) -> matched: Lisky, Izmail Raion, Odesa Oblast  [body: 421 chars]
+  Q12724611 (romania/relation/29556913) -> matched: Bălcăuți, Suceava  [body: 1949 chars]
+  Q506706 (romania/relation/29556929) -> matched: Adâncata, Suceava  [body: 500 chars]
+  Q16427463 (romania/relation/29556911) -> matched: Calafindești  [body: 338 chars]
+  Q1044072 (romania/relation/29557089) -> matched: Baia  [body: 4512 chars]
+  Q12724567 (romania/relation/29557053) -> matched: Botoșana  [body: 339 chars]
+  Q2720042 (romania/relation/29557067) -> matched: Moara, Suceava  [body: 689 chars]
+  Q12724616 (romania/relation/29557059) -> matched: Bălăceana  [body: 417 chars]
+  Q5113520 (romania/relation/29557055) -> matched: Comănești, Suceava  [body: 547 chars]
+  Q12724533 (romania/relation/29557073) -> matched: Berchișești  [body: 389 chars]
+  Q15975175 (romania/relation/29557065) -> matched: Ciprian Porumbescu, Suceava  [body: 485 chars]
+  Q16427460 (romania/relation/29557273) -> matched: Burla, Suceava  [body: 175 chars]
+  Q15614927 (romania/relation/29572403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97276581 (romania/relation/29478461) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16427394 (romania/relation/29742277) -> matched: Treznea  [body: 1821 chars]
+  Q16427273 (romania/relation/29742279) -> matched: Agrij  [body: 394 chars]
+  Q12712947 (romania/relation/29742413) -> matched: Șimișna  [body: 244 chars]
+  Q16426188 (romania/relation/29754411) -> matched: Cuzdrioara  [body: 587 chars]
+  Q12084586 (romania/relation/29754395) -> matched: Braniștea, Bistrița-Năsăud  [body: 1367 chars]
+  Q5067124 (romania/relation/29754409) -> matched: Ciceu-Mihăiești  [body: 903 chars]
+  Q12118816 (romania/relation/29308203) -> matched: Lunca Mureșului  [body: 1283 chars]
+  Q276137 (romania/relation/21544539) -> matched: Milișăuți  [body: 1721 chars]
+  Q5113303 (romania/relation/29487149) -> matched: Românești, Iași  [body: 149 chars]
+  Q65207014 (romania/relation/31177029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12109863 (romania/relation/31458217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123560569 (romania/way/2328043824) -> matched: Rătești Solar Park  [body: 620 chars]
+  Q6271904 (romania/way/2329793760) -> matched: Orașul de Floci  [body: 1594 chars]
+  Q18547210 (romania/way/2345382488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q733069 (romania/way/2349195942) -> matched: Horezu Monastery  [body: 1034 chars]
+  Q822981 (romania/way/2403474258) -> matched: Port of Constanța  [body: 14213 chars]
+  Q12742974 (romania/way/2425657204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3782700 (romania/relation/33425513) -> matched: Tei, Bucharest  [body: 1218 chars]
+  Q12738378 (romania/relation/27558137) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1541429 (romania/relation/33735481) -> matched: Lake Techirghiol  [body: 1658 chars]
+  Q12207333 (romania/relation/16642585) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4522980 (romania/relation/14347933) -> matched: Shepit, Chernivtsi Oblast  [body: 3628 chars]
+  Q12093609 (romania/way/2564444306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12734415 (romania/way/2568358816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12735405 (romania/relation/35260365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12135301 (romania/way/2574942432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q188478 (romania/relation/15019911) -> matched: Brăila  [body: 8972 chars]
+  Q16426067 (romania/relation/22970043) -> matched: Vrani  [body: 676 chars]
+  Q28726148 (romania/relation/32480229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3560923 (romania/way/2602348136) -> matched: Fetislam  [body: 1572 chars]
+  Q914303 (romania/way/2612282070) -> matched: Fortress of Arad  [body: 5682 chars]
+  Q12085713 (romania/relation/35940225) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12742317 (romania/way/2628804750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4098346 (romania/way/2632614344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4326610 (romania/way/2643171708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2453726 (romania/way/2649245934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12730526 (romania/relation/16438291) -> matched: K Island  [body: 888 chars]
+  Q1994412 (romania/way/2649900686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16427536 (romania/relation/23537605) -> matched: Mușenița  [body: 1269 chars]
+  Q18547431 (romania/way/2694107648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28726165 (romania/relation/38436881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18549686 (romania/relation/37388719) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18539619 (romania/relation/37464559) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1431529 (romania/relation/37582543) -> matched: Iași International Airport  [body: 5045 chars]
+  Q15242525 (romania/way/2743780168) -> matched: Livada Solar Park  [body: 834 chars]
+  Q495258 (romania/relation/38132995) -> matched: Vasile Alecsandri University of Bacău  [body: 1850 chars]
+  Q5114527 (romania/relation/25187479) -> matched: Grozești, Iași  [body: 303 chars]
+  Q18547204 (romania/relation/38495007) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18548248 (romania/relation/38495085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16901262 (romania/way/2789631306) -> matched: Târgu Cărbunești Solar Park  [body: 782 chars]
+  Q16892766 (romania/way/2789638230) -> matched: Izvoarele Solar Park  [body: 771 chars]
+  Q16899918 (romania/way/2791359902) -> matched: Sebiș Solar Park  [body: 700 chars]
+  Q990580 (romania/way/2830838710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4170579 (romania/way/2854976720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2309211 (romania/way/2854976722) -> matched: Kostychany  [body: 1194 chars]
+  Q4324056 (romania/way/2854976724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q67200143 (romania/way/2885405980) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q722248 (romania/way/2904074028) -> matched: Electroputere VFU  [body: 1452 chars]
+  Q950735 (romania/way/2915353958) -> matched: Piața Unirii  [body: 2942 chars]
+  Q18547878 (romania/way/2947978234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128597829 (romania/way/2947983180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12741373 (romania/way/2953659728) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106546091 (romania/relation/40454767) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15725195 (romania/relation/4816947) -> matched: Lake Tineretului  [body: 554 chars]
+  Q18541225 (romania/relation/41465613) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7808097 (romania/relation/41563751) -> matched: Tineretului  [body: 3473 chars]
+
+wrote 522 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/romania_wikidata.parquet
+wrote 522 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/romania_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/romania_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/romania_wikidata_map.png
+  rows=522 geometry_missing=0 bodies=522 jsonl=522 map_html=753967B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['romania']
+  failed:    0 -> []
+
+=== union ===
+unioned 36 countries -> 6077 rows
+[03:26:12] union
+unioned 36 countries -> 6077 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[03:26:19] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 148 files.
+Finished hashing 148 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../belarus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  .../belgium_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../belarus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 60 files]                : 100%|██████████| 24.2MB / 24.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 70)    :  52%|█████▏    | 26.3MB / 50.3MB, 32.8MB/s  
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  12%|█▏        | 2.90MB / 24.0MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 71)    :  54%|█████▍    | 27.3MB / 50.3MB, 19.5MB/s  
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :   6%|▋         | 1.55MB / 24.0MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 74)    :  55%|█████▌    | 27.8MB / 50.3MB, 17.4MB/s  
+New Data Upload               :   2%|▏         |  524kB / 23.0MB,  328kB/s  [A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   7%|▋         | 1.50MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   2%|▏         | 3.59kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet:   2%|▏         | 36.2kB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png:   2%|▏         | 3.12kB /  137kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  13%|█▎        | 2.95MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   9%|▉         | 14.4kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet:   9%|▉         |  145kB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png:   9%|▉         | 12.5kB /  137kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 74)    :  58%|█████▊    | 29.4MB / 50.3MB, 14.7MB/s  
+New Data Upload               :   9%|▉         | 2.10MB / 23.0MB, 1.05MB/s  [A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  33%|███▎      | 7.28MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  30%|██▉       | 46.7kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet:  30%|██▉       |  471kB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png:  30%|██▉       | 40.5kB /  137kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 74)    :  68%|██████▊   | 34.1MB / 50.3MB, 15.5MB/s  
+New Data Upload               :  30%|██▉       | 6.82MB / 23.0MB, 3.10MB/s  [A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  61%|██████    | 13.5MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  59%|█████▉    | 93.4kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet:  59%|█████▉    |  942kB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png:  59%|█████▉    | 81.0kB /  137kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 74)    :  81%|████████▏ | 40.9MB / 50.3MB, 17.1MB/s  
+New Data Upload               :  59%|█████▉    | 13.6MB / 23.0MB, 5.69MB/s  [A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  96%|█████████▌| 21.2MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  96%|█████████▌|  151kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet:  96%|█████████▌| 1.52MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png:  96%|█████████▌|  131kB /  137kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 74)    :  98%|█████████▊| 49.3MB / 50.3MB, 19.0MB/s  
+New Data Upload               :  96%|█████████▌| 22.0MB / 23.0MB, 8.48MB/s  [A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  98%|█████████▊| 21.7MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  98%|█████████▊|  154kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet:  98%|█████████▊| 1.56MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png:  98%|█████████▊|  134kB /  137kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (70 / 74)    :  99%|█████████▉| 49.8MB / 50.3MB, 17.8MB/s  
+New Data Upload               :  98%|█████████▊| 22.5MB / 23.0MB, 8.05MB/s  [A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  98%|█████████▊| 21.7MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  98%|█████████▊|  154kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet:  98%|█████████▊| 1.56MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png:  98%|█████████▊|  134kB /  137kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.1MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 74)    : 100%|██████████| 50.3MB / 50.3MB, 15.7MB/s  
+New Data Upload               : 100%|██████████| 23.0MB / 23.0MB, 7.19MB/s  [A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.1MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.1MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.1MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.1MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A
+
+
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.1MB / 22.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../romania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (74 / 74)    : 100%|██████████| 50.3MB / 50.3MB, 12.6MB/s  
+New Data Upload               : 100%|██████████| 23.0MB / 23.0MB, 5.75MB/s  
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            
+  ...tzerland_wikidata_map.png: 100%|██████████|  144kB /  144kB            
+  ...portugal_wikidata_map.png: 100%|██████████|  149kB /  149kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...portugal_wikidata.parquet: 100%|██████████|  867kB /  867kB            
+  ...tzerland_wikidata.parquet: 100%|██████████| 1.87MB / 1.87MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 22.1MB / 22.1MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            
+  .../romania_wikidata.parquet: 100%|██████████| 1.59MB / 1.59MB            
+  .../romania_wikidata_map.png: 100%|██████████|  137kB /  137kB            
+Removing 141 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/8af927ed5fb3ce09fb97b6b9fe53845fe79644a8
+[03:26:35] DONE romania

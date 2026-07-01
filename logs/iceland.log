@@ -1,0 +1,1569 @@
+[23:33:09] === iceland ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== iceland ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/iceland.parquet
+wrote 47896 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/iceland.parquet
+pre-filter (--only-wikidata): 47896 -> 471 rows
+
+471 polygons with wikidata=*
+  matched:           166
+  no en sitelink:    302
+  no sitelinks:      3
+  Q16428829 (iceland/way/10341160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1813844 (iceland/relation/16796263) -> matched: Lundey, Faxaflói  [body: 670 chars]
+  Q1427332 (iceland/way/15972174) -> matched: Flatey, Skjálfandi  [body: 2080 chars]
+  Q1427341 (iceland/way/15983740) -> matched: Flatey, Breiðafjörður  [body: 2943 chars]
+  Q27016513 (iceland/relation/38398735) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27011096 (iceland/way/15983786) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1266828 (iceland/relation/18218721) -> matched: Vigur  [body: 1657 chars]
+  Q27012310 (iceland/relation/38398291) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1957037 (iceland/relation/32264717) -> matched: Málmey  [body: 1073 chars]
+  Q2347299 (iceland/relation/19996557) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27011976 (iceland/way/15985254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q272311 (iceland/relation/18218723) -> matched: Æðey  [body: 2940 chars]
+  Q27012322 (iceland/relation/22511339) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16428935 (iceland/way/15986074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16427618 (iceland/way/15986194) -> matched: Hergilsey  [body: 284 chars]
+  Q16422261 (iceland/way/15986200) -> matched: Melrakkaey  [body: 1424 chars]
+  Q30005350 (iceland/way/17234896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27016265 (iceland/way/26506586) -> matched: Klambratún  [body: 428 chars]
+  Q65337089 (iceland/way/44961118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14453 (iceland/way/45058714) -> matched: Egilsstaðir  [body: 6104 chars]
+  Q29042 (iceland/way/45078984) -> matched: Akureyri  [body: 19530 chars]
+  Q16428259 (iceland/way/47398810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14544633 (iceland/way/47399728) -> matched: Vesturhópsvatn  [body: 213 chars]
+  Q784999 (iceland/way/47400802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49310222 (iceland/way/51196014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3115506 (iceland/way/51444244) -> matched: Suðurey  [body: 142 chars]
+  Q178124 (iceland/way/51444258) -> matched: Surtsey  [body: 18278 chars]
+  Q97502874 (iceland/way/51490982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108082058 (iceland/way/51812020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35706519 (iceland/way/52029292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49307374 (iceland/way/52199004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5348031 (iceland/way/54173150) -> matched: Egilshöll  [body: 640 chars]
+  Q20573766 (iceland/way/54173598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30005348 (iceland/way/54232706) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q976620 (iceland/relation/36371369) -> matched: Álsey  [body: 162 chars]
+  Q2923804 (iceland/way/54235074) -> matched: Brandur  [body: 140 chars]
+  Q1602885 (iceland/relation/19207707) -> matched: Hellisey  [body: 723 chars]
+  Q3126771 (iceland/relation/18994405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35703116 (iceland/way/54287064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16424189 (iceland/way/54343152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35695483 (iceland/way/54709392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35705770 (iceland/way/55389294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49301745 (iceland/way/55441040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35699564 (iceland/way/55441058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35705863 (iceland/way/55821310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35695407 (iceland/way/56164686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49314694 (iceland/way/56167734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35705778 (iceland/way/56170132) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27009722 (iceland/relation/19925289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30005355 (iceland/way/56678612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115652561 (iceland/way/56754386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1877416 (iceland/relation/20230315) -> matched: Lundey, Skagafjörður  [body: 1329 chars]
+  Q1255787 (iceland/way/57281410) -> matched: Drangey  [body: 2467 chars]
+  Q49310949 (iceland/way/57281412) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35736876 (iceland/way/57282394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35736869 (iceland/way/57285026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49308918 (iceland/way/57285774) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34802062 (iceland/way/57302528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49311566 (iceland/way/57305854) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49310030 (iceland/way/57577622) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35718032 (iceland/way/57577626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5612081 (iceland/way/58071704) -> matched: Grundaskóli  [body: 186 chars]
+  Q1542418 (iceland/way/58782110) -> matched: Reykjavík University  [body: 5458 chars]
+  Q49309887 (iceland/way/60264398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16421812 (iceland/way/60624902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49315099 (iceland/way/60625120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3506395 (iceland/way/60636160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34798331 (iceland/way/60954294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115651961 (iceland/way/61273024) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49306194 (iceland/way/61273042) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25066751 (iceland/way/75836802) -> matched: Westman Islands Golf Club  [body: 1178 chars]
+  Q35706681 (iceland/way/77270250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35719250 (iceland/way/86243888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35707820 (iceland/way/86243932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35735688 (iceland/way/86244066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30005357 (iceland/way/86251236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316952 (iceland/way/86251422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35719603 (iceland/way/86362998) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305985 (iceland/way/86675896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7071261 (iceland/way/89562216) -> matched: Nyrðra-Vatnalautavatn  [body: 278 chars]
+  Q35700187 (iceland/way/89562448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49310814 (iceland/way/89566710) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305987 (iceland/way/89611860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35698875 (iceland/way/90166602) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18449859 (iceland/way/90166840) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35704479 (iceland/way/90169330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1165723 (iceland/way/91354902) -> matched: Kringlan  [body: 1154 chars]
+  Q2295690 (iceland/way/91410772) -> matched: Smáralind  [body: 1001 chars]
+  Q65336440 (iceland/way/91411060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49308630 (iceland/way/96795230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16427983 (iceland/way/104550554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16902561 (iceland/way/104552446) -> matched: Vatnsmýrin Nature Reserve  [body: 2910 chars]
+  Q843204 (iceland/way/104556790) -> matched: Reykjavík Airport  [body: 16896 chars]
+  Q6817215 (iceland/way/110900784) -> matched: Menntaskólinn við Sund  [body: 160 chars]
+  Q3556395 (iceland/relation/1812797) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6485215 (iceland/way/128095534) -> matched: Landspítali  [body: 2107 chars]
+  Q653324 (iceland/way/136382960) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16420392 (iceland/relation/2726583) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q597331 (iceland/way/239866836) -> matched: Bíldudalur Airport  [body: 766 chars]
+  Q27012275 (iceland/relation/38400007) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17510148 (iceland/way/328484646) -> matched: Fáskrúðsfjörður Airport  [body: 303 chars]
+  Q16425048 (iceland/way/330908158) -> matched: Gelgjutangi  [body: 247 chars]
+  Q49300134 (iceland/way/335263128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49311060 (iceland/way/335264876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35703100 (iceland/way/335266220) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18005466 (iceland/way/335270806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35696166 (iceland/way/335271688) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16424057 (iceland/way/342119992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33639445 (iceland/way/343875306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30005373 (iceland/way/343882982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35717361 (iceland/way/344454220) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16430612 (iceland/way/344603028) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2796402 (iceland/way/345737882) -> matched: Kópavogsvöllur  [body: 955 chars]
+  Q16423689 (iceland/relation/20665413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1332485 (iceland/way/353448034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3482494 (iceland/way/360230868) -> matched: Kópavogur College  [body: 367 chars]
+  Q13642812 (iceland/relation/5166163) -> matched: Laugarnes  [body: 790 chars]
+  Q3481229 (iceland/relation/5166185) -> matched: Norðurmýri  [body: 248 chars]
+  Q16426291 (iceland/relation/5166195) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35718613 (iceland/way/390207330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875922 (iceland/way/391617842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11824275 (iceland/way/394546458) -> matched: Blönduós Airport  [body: 570 chars]
+  Q16419701 (iceland/way/421274054) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1728656 (iceland/way/422416846) -> matched: Kaplakriki  [body: 1469 chars]
+  Q27016265 (iceland/relation/5166157) -> matched: Klambratún  [body: 428 chars]
+  Q49306973 (iceland/relation/5750807) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875885 (iceland/way/459227242) -> matched: Patreksfjörður Airport  [body: 533 chars]
+  Q1494458 (iceland/way/472575296) -> matched: Krafla Power Station  [body: 3310 chars]
+  Q16428816 (iceland/relation/5166151) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11652325 (iceland/way/498191328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7427650 (iceland/way/540495456) -> matched: Sauðárkróksvöllur  [body: 778 chars]
+  Q16430464 (iceland/way/581964722) -> matched: Kleppur  [body: 2482 chars]
+  Q2508514 (iceland/way/593820704) -> matched: Hellisheiði Power Station  [body: 2532 chars]
+  Q3480343 (iceland/way/613244602) -> matched: Sauðárkrókur Airport  [body: 730 chars]
+  Q3115501 (iceland/relation/28110273) -> matched: Súlnasker  [body: 127 chars]
+  Q3100273 (iceland/relation/19207717) -> matched: Geldungur  [body: 144 chars]
+  Q16422308 (iceland/way/639449894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16423209 (iceland/way/731947486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16038770 (iceland/relation/10888131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1134292 (iceland/way/744811292) -> matched: Iceland University of the Arts  [body: 2757 chars]
+  Q945753 (iceland/relation/11640243) -> matched: Tjörnin  [body: 4333 chars]
+  Q945753 (iceland/relation/11640241) -> matched: Tjörnin  [body: 4333 chars]
+  Q1036708 (iceland/way/782784044) -> matched: Verzló  [body: 4047 chars]
+  Q35709858 (iceland/way/791193876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17512580 (iceland/way/792123502) -> matched: Mývatn Airport  [body: 400 chars]
+  Q16421584 (iceland/way/822393768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2930167 (iceland/way/822393796) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3041840 (iceland/way/822393802) -> matched: Dverghamrar  [body: 1671 chars]
+  Q108199889 (iceland/way/822393834) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q27016242 (iceland/way/826222942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4701979 (iceland/way/840651862) -> matched: Akureyri Junior College  [body: 2466 chars]
+  Q139921 (iceland/way/841557240) -> matched: Keflavík International Airport  [body: 10320 chars]
+  Q1474799 (iceland/way/843366050) -> matched: Torfajökull  [body: 8437 chars]
+  Q1463356 (iceland/way/850353318) -> matched: University of Akureyri  [body: 8060 chars]
+  Q35703092 (iceland/way/850384692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49312133 (iceland/relation/14957705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316749 (iceland/relation/14957701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2765758 (iceland/relation/35024675) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q335712 (iceland/way/947997530) -> matched: Þrándarjökull  [body: 487 chars]
+  Q111357016 (iceland/way/1021128710) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49309917 (iceland/way/1028706022) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35705754 (iceland/relation/14953739) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35706512 (iceland/relation/14960287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10852724 (iceland/way/1033739502) -> matched: SuperDARN  [body: 7919 chars]
+  Q10852724 (iceland/way/1033742872) -> matched: SuperDARN  [body: 7919 chars]
+  Q568034 (iceland/way/1034084418) -> matched: Blanda Power Station  [body: 538 chars]
+  Q49305163 (iceland/relation/604431) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35709637 (iceland/way/1083504610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49306727 (iceland/way/1084790616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2925992 (iceland/relation/15520499) -> matched: Brokey  [body: 477 chars]
+  Q35710615 (iceland/relation/15744751) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433313 (iceland/way/1127480152) -> matched: Ísafjörður Airport  [body: 2644 chars]
+  Q11824851 (iceland/way/1128049160) -> matched: Þingeyri Airport  [body: 411 chars]
+  Q27016229 (iceland/way/1128054630) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17511382 (iceland/way/1128079560) -> matched: Stykkishólmur Airport  [body: 545 chars]
+  Q17511968 (iceland/way/1128080758) -> matched: Grundarfjörður Airport  [body: 369 chars]
+  Q12694700 (iceland/way/1128083006) -> matched: Rif Airport  [body: 600 chars]
+  Q3472057 (iceland/way/1128086160) -> matched: Sandskeið  [body: 1556 chars]
+  Q2875913 (iceland/way/1128088464) -> matched: Selfoss Airport  [body: 461 chars]
+  Q2235522 (iceland/way/1128094684) -> matched: Vestmannaeyjar Airport  [body: 3616 chars]
+  Q17509913 (iceland/way/1128103406) -> matched: Fagurhólsmýri Airport  [body: 401 chars]
+  Q974363 (iceland/way/1128124490) -> matched: Egilsstaðir Airport  [body: 3117 chars]
+  Q2875989 (iceland/way/1128125802) -> matched: Vopnafjörður Airport  [body: 452 chars]
+  Q12693418 (iceland/way/1128131874) -> matched: Kópasker Airport  [body: 290 chars]
+  Q1430749 (iceland/way/1128133800) -> matched: Akureyri Airport  [body: 6320 chars]
+  Q2875830 (iceland/way/1128134952) -> matched: Grímsey Airport  [body: 487 chars]
+  Q3275842 (iceland/way/1128139428) -> matched: Gjögur Airport  [body: 1266 chars]
+  Q12693056 (iceland/way/1128140404) -> matched: Hólmavík Airport  [body: 362 chars]
+  Q34798775 (iceland/relation/16119385) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49309913 (iceland/relation/16130277) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27013193 (iceland/way/1166593494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16420323 (iceland/way/1166598734) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35710630 (iceland/relation/16492105) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33645050 (iceland/relation/16577723) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1357485 (iceland/way/1182173776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16420956 (iceland/relation/16721447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27012288 (iceland/relation/5166229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27014578 (iceland/relation/16775739) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1616047 (iceland/relation/24151991) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27008701 (iceland/relation/16827523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97258201 (iceland/relation/16771121) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35704653 (iceland/relation/16830775) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97260195 (iceland/way/1227011200) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q423817 (iceland/relation/16790583) -> matched: Akurey  [body: 403 chars]
+  Q1145793 (iceland/relation/17200869) -> matched: Rauðhólar (Reykjavík)  [body: 4141 chars]
+  Q16425159 (iceland/relation/17653267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3118633 (iceland/relation/17670303) -> matched: Grótta  [body: 934 chars]
+  Q2944551 (iceland/relation/18182827) -> matched: Svartsengi power station  [body: 5796 chars]
+  Q893527 (iceland/relation/18218715) -> matched: Borgarey  [body: 841 chars]
+  Q30005361 (iceland/relation/18509839) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38110900 (iceland/relation/18724795) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97259443 (iceland/relation/18768475) -> matched: Reynisvatn  [body: 224 chars]
+  Q16419319 (iceland/relation/18778939) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97258621 (iceland/relation/18763049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11824639 (iceland/way/1380988626) -> matched: Norðfjörður Airport  [body: 467 chars]
+  Q11824702 (iceland/way/1380993584) -> matched: Raufarhöfn Airport  [body: 447 chars]
+  Q49309918 (iceland/way/1408699048) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6981898 (iceland/way/1410207362) -> matched: Naval Radio Transmitter Facility Grindavik  [body: 4946 chars]
+  Q27009757 (iceland/relation/19685269) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1422518 (iceland/relation/20652297) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27000553 (iceland/relation/19875033) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27003786 (iceland/relation/19876313) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20575666 (iceland/relation/19930747) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27000581 (iceland/way/1453974100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316951 (iceland/relation/20321279) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97259890 (iceland/relation/17213061) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64145427 (iceland/relation/10888133) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16426778 (iceland/relation/5166135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5962968 (iceland/relation/20597101) -> matched: Háaleiti og Bústaðir  [body: 344 chars]
+  Q772859 (iceland/way/1493424668) -> matched: Bakki Airport  [body: 360 chars]
+  Q35735695 (iceland/relation/20724291) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q693330 (iceland/way/1511691060) -> matched: Nesjavellir Geothermal Power Station  [body: 1327 chars]
+  Q27002111 (iceland/relation/21067035) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305708 (iceland/relation/17669225) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q335859 (iceland/relation/21933787) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27012263 (iceland/relation/20199115) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27013354 (iceland/relation/20199113) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1405353 (iceland/relation/22315477) -> matched: Sólheimajökull  [body: 762 chars]
+  Q1124790 (iceland/relation/138079) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106107081 (iceland/relation/22466545) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106107342 (iceland/relation/22498657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16428275 (iceland/relation/22511303) -> matched: Hrappsey  [body: 145 chars]
+  Q536424 (iceland/relation/138137) -> matched: Hreðavatn  [body: 598 chars]
+  Q913889 (iceland/relation/22549189) -> matched: Hjörsey  [body: 416 chars]
+  Q35702811 (iceland/relation/22687283) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27011116 (iceland/relation/17659595) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q151212 (iceland/relation/23460209) -> matched: Laugardalsvöllur  [body: 5417 chars]
+  Q894659 (iceland/relation/9327431) -> matched: Reykjavík Botanic Garden  [body: 741 chars]
+  Q16423173 (iceland/relation/7982047) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1515779 (iceland/relation/23522059) -> matched: Papey  [body: 1537 chars]
+  Q14915741 (iceland/relation/20697681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16421015 (iceland/relation/20697675) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16419988 (iceland/relation/20697677) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35718162 (iceland/relation/23580471) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q631719 (iceland/relation/23584333) -> matched: Hrísey  [body: 1937 chars]
+  Q1474041 (iceland/relation/14941723) -> matched: Vaglaskógur  [body: 336 chars]
+  Q1019521 (iceland/relation/16695593) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1439415 (iceland/relation/16695595) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2147154 (iceland/relation/16695597) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2455730 (iceland/relation/16695601) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16422415 (iceland/relation/23915815) -> matched: Miklavatn (Fljót)  [body: 933 chars]
+  Q16421900 (iceland/relation/18704735) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16420408 (iceland/relation/23968239) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16424472 (iceland/relation/24062077) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49301746 (iceland/relation/24062079) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16421066 (iceland/relation/18106893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2147159 (iceland/relation/18161917) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16423607 (iceland/relation/18106875) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20574275 (iceland/relation/24151975) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1278493 (iceland/relation/24151993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1632353 (iceland/relation/24151997) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1879558 (iceland/relation/24151999) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1145380 (iceland/relation/17208101) -> matched: Heiðmörk  [body: 5534 chars]
+  Q1616073 (iceland/relation/4544239) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q828714 (iceland/relation/16698475) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35710623 (iceland/relation/24266043) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1722105 (iceland/relation/18983983) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27000065 (iceland/relation/24365393) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8079537 (iceland/relation/18106971) -> matched: Þaralátursfjörður  [body: 226 chars]
+  Q1475198 (iceland/relation/18106975) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1815687 (iceland/relation/24151995) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q221954 (iceland/relation/24151985) -> matched: Fljótavík  [body: 838 chars]
+  Q7622313 (iceland/way/1791436592) -> matched: Straumnes Air Station  [body: 3686 chars]
+  Q1568141 (iceland/relation/18662221) -> matched: Hafravatn  [body: 539 chars]
+  Q30005346 (iceland/relation/21933789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35709875 (iceland/relation/24658999) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1332555 (iceland/relation/75287) -> matched: Elliðavatn  [body: 504 chars]
+  Q1616053 (iceland/relation/16806205) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1641039 (iceland/relation/16806203) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35695215 (iceland/relation/24832503) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6520217 (iceland/relation/24289487) -> matched: Leirvogsvatn  [body: 507 chars]
+  Q1413838 (iceland/relation/19839535) -> matched: Laugarvatn  [body: 949 chars]
+  Q35703432 (iceland/relation/22632235) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16425726 (iceland/relation/16693893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2144963 (iceland/relation/25027735) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3577035 (iceland/relation/25061083) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16422417 (iceland/relation/15483533) -> matched: Miklavatn (Skagafjörður)  [body: 664 chars]
+  Q2875836 (iceland/relation/25077591) -> matched: Húsavík Airport  [body: 1364 chars]
+  Q34802361 (iceland/relation/25080219) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q787618 (iceland/relation/4754747) -> matched: Hallormsstaðaskógur  [body: 6707 chars]
+  Q2930167 (iceland/relation/25326933) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5285420 (iceland/relation/17801045) -> matched: Djúpalónssandur  [body: 3010 chars]
+  Q16422087 (iceland/relation/25387073) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1315012 (iceland/relation/10887293) -> matched: Snæfellsjökull  [body: 5153 chars]
+  Q4960471 (iceland/relation/5169347) -> matched: Breiðholt  [body: 2498 chars]
+  Q886946 (iceland/relation/12805015) -> matched: Blue Lagoon (geothermal spa)  [body: 5587 chars]
+  Q1722566 (iceland/relation/16698723) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30005347 (iceland/relation/22521433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3107095 (iceland/relation/25709235) -> matched: Bifröst University  [body: 3284 chars]
+  Q104849627 (iceland/relation/25828625) -> matched: Víkingavatn  [body: 439 chars]
+  Q35698151 (iceland/relation/25849661) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30005345 (iceland/relation/15687711) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35719979 (iceland/relation/25870267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2001538 (iceland/relation/25912471) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6497990 (iceland/relation/5169353) -> matched: Laugardalur  [body: 743 chars]
+  Q16429116 (iceland/relation/20697679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16426469 (iceland/relation/20697735) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5873595 (iceland/relation/5169351) -> matched: Hlíðar  [body: 402 chars]
+  Q1419802 (iceland/relation/26015217) -> matched: Ingólfshöfði  [body: 406 chars]
+  Q35710406 (iceland/relation/22687285) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27008668 (iceland/relation/26120253) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35702789 (iceland/relation/26134745) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30005343 (iceland/relation/26134689) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49305433 (iceland/relation/26134765) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97259894 (iceland/relation/26148437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16430403 (iceland/relation/24078509) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35719988 (iceland/relation/59205) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34798293 (iceland/relation/26597049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35735712 (iceland/relation/26610423) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35709866 (iceland/relation/26649527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316747 (iceland/relation/14786969) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35696306 (iceland/relation/16109289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q214057 (iceland/relation/5161213) -> matched: Seltjarnarnes  [body: 1840 chars]
+  Q49309914 (iceland/relation/27002769) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16428080 (iceland/relation/16498787) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q612810 (iceland/relation/27020457) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1521372 (iceland/relation/27010087) -> matched: Hvalvatn  [body: 513 chars]
+  Q33639846 (iceland/relation/27053019) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16424343 (iceland/relation/27057421) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q652328 (iceland/relation/20551829) -> matched: Fjallsárlón  [body: 738 chars]
+  Q907085 (iceland/relation/20551831) -> matched: Breiðárlón  [body: 550 chars]
+  Q2105447 (iceland/relation/20549671) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27008687 (iceland/relation/27167445) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27013148 (iceland/relation/16706637) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2876005 (iceland/relation/27188117) -> matched: Þórshöfn Airport  [body: 1698 chars]
+  Q49302095 (iceland/relation/27474523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34801189 (iceland/relation/27503977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35735703 (iceland/relation/27506601) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35720688 (iceland/relation/27513813) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27002068 (iceland/relation/18168615) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27005228 (iceland/relation/21257393) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26999588 (iceland/relation/27887413) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q115474765 (iceland/relation/27978443) -> matched: Reynisfjara  [body: 2917 chars]
+  Q26999955 (iceland/relation/24365391) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33645085 (iceland/relation/28020219) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16423509 (iceland/relation/22489097) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316950 (iceland/relation/28083809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49310482 (iceland/relation/25077769) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1568248 (iceland/relation/4538773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1416444 (iceland/relation/23203801) -> matched: Skorradalsvatn  [body: 758 chars]
+  Q131689131 (iceland/relation/28218981) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1632380 (iceland/relation/25541143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1342321 (iceland/relation/16771123) -> matched: Engey  [body: 2519 chars]
+  Q1332540 (iceland/relation/28726289) -> matched: Elliðaey  [body: 1506 chars]
+  Q575607 (iceland/relation/28866327) -> matched: Bjarnarey  [body: 268 chars]
+  Q49305033 (iceland/relation/29085935) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1503138 (iceland/relation/4594195) -> matched: Sigöldulón  [body: 633 chars]
+  Q1123643 (iceland/relation/29086065) -> matched: Frostastaðavatn  [body: 671 chars]
+  Q27009842 (iceland/relation/16698585) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2875833 (iceland/way/2194978790) -> matched: Hornafjörður Airport  [body: 1325 chars]
+  Q26999518 (iceland/relation/18203499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432927 (iceland/relation/17606563) -> matched: Tindfjallajökull  [body: 3393 chars]
+  Q16423350 (iceland/relation/75273) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31749440 (iceland/relation/29555813) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27016246 (iceland/way/2247407828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49312493 (iceland/relation/27502323) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15220031 (iceland/relation/19740845) -> matched: Arnarhóll  [body: 1402 chars]
+  Q945753 (iceland/relation/5166187) -> matched: Tjörnin  [body: 4333 chars]
+  Q49309915 (iceland/relation/27502987) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16423055 (iceland/relation/31479393) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q427371 (iceland/relation/16826833) -> matched: Borgarfjörður eystri  [body: 1221 chars]
+  Q213707 (iceland/relation/24368949) -> matched: Grímsey  [body: 5155 chars]
+  Q27007455 (iceland/relation/31543927) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27008729 (iceland/relation/31543971) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q75071 (iceland/relation/386301) -> matched: Öskjuvatn  [body: 2768 chars]
+  Q35710607 (iceland/relation/107843) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1643007 (iceland/relation/16768739) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q211182 (iceland/relation/10975235) -> matched: Heimaey  [body: 5308 chars]
+  Q27005191 (iceland/relation/28673443) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16425536 (iceland/relation/23461947) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16424802 (iceland/relation/5166215) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6884933 (iceland/relation/5166177) -> matched: Reykjavík City Center  [body: 1193 chars]
+  Q195599 (iceland/relation/5169355) -> matched: Vesturbær  [body: 1322 chars]
+  Q16419454 (iceland/relation/31253293) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16430600 (iceland/relation/16759217) -> matched: Álftafjörður  [body: 759 chars]
+  Q97258507 (iceland/relation/24251387) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1499081 (iceland/relation/27468201) -> matched: Geitlandsjökull  [body: 829 chars]
+  Q27006440 (iceland/relation/20118389) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26997194 (iceland/relation/20118385) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26997239 (iceland/relation/20543523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9174390 (iceland/relation/20780057) -> matched: Höfðavatn  [body: 470 chars]
+  Q49309919 (iceland/relation/32212347) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q330216 (iceland/relation/104129) -> matched: Úlfljótsvatn (lake)  [body: 1301 chars]
+  Q49316455 (iceland/relation/104131) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q388709 (iceland/relation/19154903) -> matched: Apavatn  [body: 534 chars]
+  Q27468402 (iceland/relation/17261695) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35710669 (iceland/relation/32675079) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49309916 (iceland/relation/798305) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1000285 (iceland/relation/14981797) -> matched: Dimmuborgir  [body: 2274 chars]
+  Q574165 (iceland/relation/24759521) -> matched: Kleifarvatn  [body: 1854 chars]
+  Q1232304 (iceland/relation/16693895) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49314678 (iceland/relation/20696119) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34798338 (iceland/relation/31910741) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49309012 (iceland/relation/33270309) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16419729 (iceland/relation/24060811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2511368 (iceland/relation/16806233) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49316748 (iceland/relation/33385427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34801627 (iceland/relation/8291147) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1877415 (iceland/relation/33473553) -> matched: Lundey, Skjálfandi  [body: 1413 chars]
+  Q16425454 (iceland/relation/19427333) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18380244 (iceland/relation/18163665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15974302 (iceland/relation/15439103) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q196559 (iceland/relation/18122473) -> matched: University of Iceland  [body: 13577 chars]
+  Q2944543 (iceland/way/2512649308) -> matched: Reykjanes power station  [body: 1412 chars]
+  Q16420563 (iceland/relation/22388923) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1360555 (iceland/relation/138207) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10962798 (iceland/relation/19385467) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16423083 (iceland/relation/16771119) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3481200 (iceland/relation/5169349) -> matched: Grafarvogur  [body: 1322 chars]
+  Q116492 (iceland/relation/16771105) -> matched: Viðey  [body: 4018 chars]
+  Q49310220 (iceland/relation/26014133) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35709849 (iceland/relation/22388925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q827242 (iceland/relation/22007085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20575540 (iceland/relation/35022031) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16428224 (iceland/relation/24151983) -> matched: Hornvík  [body: 223 chars]
+  Q1621458 (iceland/relation/35022099) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20574468 (iceland/relation/35022101) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20575560 (iceland/relation/35022173) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13635534 (iceland/relation/35022233) -> matched: Grunnavík  [body: 273 chars]
+  Q16419518 (iceland/relation/35023211) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16425429 (iceland/relation/35023275) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16426505 (iceland/relation/35023311) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16902561 (iceland/relation/5166213) -> matched: Vatnsmýrin Nature Reserve  [body: 2910 chars]
+  Q16424194 (iceland/relation/16775805) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6884933 (iceland/relation/20597283) -> matched: Reykjavík City Center  [body: 1193 chars]
+  Q30005358 (iceland/relation/53375) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16424168 (iceland/relation/18693171) -> matched: Rauðavatn  [body: 372 chars]
+  Q9181128 (iceland/relation/35113777) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16420829 (iceland/relation/35117731) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16421757 (iceland/relation/35117755) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27016422 (iceland/relation/35117757) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27013122 (iceland/relation/24867451) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8079036 (iceland/relation/5166231) -> matched: Öskjuhlíð  [body: 578 chars]
+  Q5873595 (iceland/relation/5166141) -> matched: Hlíðar  [body: 402 chars]
+  Q49312134 (iceland/relation/35464577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35704486 (iceland/way/2598651724) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1947432 (iceland/relation/19893577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3481748 (iceland/way/2607150890) -> matched: Naval Air Station Keflavik  [body: 23777 chars]
+  Q35710637 (iceland/relation/16150417) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97260271 (iceland/relation/35793873) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7921966 (iceland/relation/35990651) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16421400 (iceland/relation/16934003) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16419539 (iceland/relation/17627635) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1801976 (iceland/relation/16775809) -> matched: Skerjafjörður  [body: 445 chars]
+  Q597827 (iceland/relation/16806175) -> matched: Skutulsfjörður  [body: 1509 chars]
+  Q49306014 (iceland/relation/101153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15270904 (iceland/relation/39530933) -> matched: RAF Kaldadarnes  [body: 2307 chars]
+  Q113816132 (iceland/relation/19009277) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27014484 (iceland/relation/16706631) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q250639 (iceland/relation/16698583) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35708612 (iceland/relation/42016511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 166 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/iceland_wikidata.parquet
+wrote 166 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/iceland_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/iceland_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/iceland_wikidata_map.png
+  rows=166 geometry_missing=0 bodies=166 jsonl=166 map_html=242584B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['iceland']
+  failed:    0 -> []
+
+=== union ===
+unioned 22 countries -> 2061 rows
+[23:38:01] union
+unioned 22 countries -> 2061 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:38:06] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 92 files.
+Finished hashing 92 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/latvia_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 32 files]                : 100%|██████████| 8.45MB / 8.45MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (42 / 42)    :  56%|█████▌    | 10.5MB / 18.7MB, 13.1MB/s  
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  13%|█▎        | 1.10MB / 8.39MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (42 / 46)    :  61%|██████    | 11.4MB / 18.7MB, 8.16MB/s  
+New Data Upload               :   7%|▋         |  525kB / 7.82MB,  375kB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  12%|█▏        |  896kB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   7%|▋         | 10.6kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet:   7%|▋         | 37.7kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png:   7%|▋         | 10.5kB /  157kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  25%|██▍       | 1.83MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  20%|██        | 31.8kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet:  20%|██        |  113kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png:  20%|██        | 31.6kB /  157kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (42 / 46)    :  67%|██████▋   | 12.5MB / 18.7MB, 6.93MB/s  
+New Data Upload               :  20%|██        | 1.57MB / 7.82MB,  874kB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  63%|██████▎   | 4.62MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  60%|██████    | 95.4kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet:  60%|██████    |  339kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png:  60%|██████    | 94.7kB /  157kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (42 / 46)    :  83%|████████▎ | 15.6MB / 18.7MB, 7.81MB/s  
+New Data Upload               :  60%|██████    | 4.72MB / 7.82MB, 2.36MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  94%|█████████▍| 6.95MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  94%|█████████▍|  148kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet:  94%|█████████▍|  527kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png:  94%|█████████▍|  147kB /  157kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (42 / 46)    :  97%|█████████▋| 18.2MB / 18.7MB, 8.29MB/s  
+New Data Upload               :  94%|█████████▍| 7.34MB / 7.82MB, 3.34MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  94%|█████████▍| 6.95MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  94%|█████████▍|  148kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet:  94%|█████████▍|  527kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png:  94%|█████████▍|  147kB /  157kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 7.37MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 46)    : 100%|██████████| 18.7MB / 18.7MB, 7.20MB/s  
+New Data Upload               : 100%|██████████| 7.82MB / 7.82MB, 3.01MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 7.37MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 7.37MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 7.37MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 7.37MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 7.37MB / 7.37MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 46)    : 100%|██████████| 18.7MB / 18.7MB, 5.51MB/s  
+New Data Upload               : 100%|██████████| 7.82MB / 7.82MB, 2.30MB/s  
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 7.37MB / 7.37MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            
+  .../iceland_wikidata.parquet: 100%|██████████|  561kB /  561kB            
+  .../iceland_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+Removing 85 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/e2f40e2f66279e09b6ba1cf174940ec6848bb48e
+[23:38:19] DONE iceland

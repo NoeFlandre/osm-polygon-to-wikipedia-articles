@@ -1,0 +1,2070 @@
+[23:38:19] === greece ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== greece ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/greece.parquet
+wrote 45142 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/greece.parquet
+pre-filter (--only-wikidata): 45142 -> 971 rows
+
+971 polygons with wikidata=*
+  matched:           463
+  no en sitelink:    440
+  no sitelinks:      68
+  Q12884897 (greece/relation/1061295) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693386 (greece/relation/1061415) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21695338 (greece/relation/1083255) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1611026 (greece/relation/1083253) -> matched: Nimos  [body: 481 chars]
+  Q966918 (greece/relation/1061413) -> matched: Gyali  [body: 2371 chars]
+  Q25117041 (greece/relation/1083235) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25117040 (greece/relation/1083275) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1566092 (greece/relation/1061419) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2274481 (greece/relation/35646117) -> matched: Seskli  [body: 709 chars]
+  Q21695319 (greece/relation/35802201) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5516997 (greece/relation/1083293) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1491205 (greece/relation/35802203) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q179574 (greece/relation/1083295) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880628 (greece/relation/35802217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1227657 (greece/relation/1085159) -> matched: Alimia  [body: 2566 chars]
+  Q25016170 (greece/relation/35802205) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2095047 (greece/relation/1067455) -> matched: Ro, Greece  [body: 2149 chars]
+  Q951667 (greece/relation/1062885) -> matched: Farmakonisi  [body: 2447 chars]
+  Q21645851 (greece/relation/1917043) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21645848 (greece/relation/1917041) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21645829 (greece/relation/35801845) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q915899 (greece/relation/35801869) -> matched: Megalonisi  [body: 390 chars]
+  Q25006152 (greece/relation/35801849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2273218 (greece/relation/1917037) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21662143 (greece/relation/35801943) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16332874 (greece/relation/1064517) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1263515 (greece/relation/1064523) -> matched: Thymaina  [body: 719 chars]
+  Q393963 (greece/relation/1064549) -> matched: Agios Minas Island  [body: 702 chars]
+  Q16330407 (greece/relation/1064529) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1479149 (greece/relation/1064571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q673553 (greece/relation/1063297) -> matched: Arkoi  [body: 2644 chars]
+  Q21683510 (greece/relation/35801967) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25105722 (greece/relation/35801969) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683513 (greece/relation/35801979) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683525 (greece/relation/1063291) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12885473 (greece/relation/1067447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12886100 (greece/relation/1067427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683519 (greece/relation/1067439) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21672658 (greece/relation/1084067) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q959932 (greece/relation/1084057) -> matched: Pasas, Oinousses  [body: 1363 chars]
+  Q21682849 (greece/relation/1066049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25118379 (greece/relation/1066023) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6427475 (greece/relation/1073195) -> matched: Kolokytha  [body: 338 chars]
+  Q12139387 (greece/relation/1931799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16332280 (greece/relation/1931785) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12143775 (greece/relation/1931789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q598563 (greece/relation/1067805) -> matched: Therasia  [body: 944 chars]
+  Q7126578 (greece/relation/1811635) -> matched: Palaiosouda  [body: 264 chars]
+  Q1170178 (greece/relation/1724573) -> matched: Gavdopoula  [body: 1026 chars]
+  Q12885469 (greece/relation/1062261) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1419053 (greece/relation/1067809) -> matched: Palea Kameni  [body: 3098 chars]
+  Q473606 (greece/relation/1708981) -> matched: Pseira  [body: 5864 chars]
+  Q5428659 (greece/relation/1082951) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25018853 (greece/relation/1085175) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683477 (greece/relation/1067827) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16330733 (greece/relation/1062633) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25118269 (greece/relation/3091561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683471 (greece/relation/3091515) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25118267 (greece/relation/3091563) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683479 (greece/way/17347166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16330941 (greece/relation/1062695) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683482 (greece/relation/1062675) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15078054 (greece/relation/1061421) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12883634 (greece/relation/1062693) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12883507 (greece/relation/1067829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880813 (greece/way/17347256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16523327 (greece/relation/1062685) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683475 (greece/relation/1067831) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q829499 (greece/relation/1062703) -> matched: Syrna (island)  [body: 1635 chars]
+  Q12874115 (greece/relation/1067817) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25118263 (greece/way/17356504) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683078 (greece/way/17356508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18810479 (greece/relation/35646119) -> matched: Pachia (Anafi)  [body: 212 chars]
+  Q1741684 (greece/relation/1062861) -> matched: Kinaros  [body: 921 chars]
+  Q12881748 (greece/relation/1061589) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693440 (greece/relation/1062855) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21693360 (greece/relation/1061597) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693356 (greece/relation/1061601) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683500 (greece/relation/1062863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25024333 (greece/relation/35646121) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12872532 (greece/relation/1074049) -> matched: Imeri Gramvousa  [body: 5325 chars]
+  Q15149289 (greece/relation/1075189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25125764 (greece/relation/3453951) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21080095 (greece/relation/35646115) -> matched: Kafkanas  [body: 566 chars]
+  Q21080023 (greece/relation/3453929) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21080382 (greece/relation/35801695) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21079964 (greece/relation/35801677) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25154873 (greece/relation/3453921) -> matched: Ammouliani  [body: 1120 chars]
+  Q5271808 (greece/relation/35801687) -> matched: Diaporos Island  [body: 1261 chars]
+  Q1738413 (greece/relation/3453939) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97204838 (greece/relation/7218753) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65807529 (greece/relation/35801693) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65683861 (greece/relation/35801679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q640366 (greece/way/17636076) -> matched: Haliacmon  [body: 6698 chars]
+  Q520124 (greece/relation/1096475) -> matched: Skantzoura  [body: 488 chars]
+  Q12883564 (greece/relation/1931893) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12076775 (greece/relation/1931863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12117802 (greece/relation/1931811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25023095 (greece/relation/35796309) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2728339 (greece/relation/1096467) -> matched: Peristera  [body: 710 chars]
+  Q16327285 (greece/relation/1096433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16332259 (greece/relation/1931909) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12873351 (greece/relation/35796305) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16326967 (greece/relation/1096441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1169674 (greece/relation/1073033) -> matched: Gioura  [body: 827 chars]
+  Q12881031 (greece/relation/1096437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12873031 (greece/relation/1931869) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12883673 (greece/relation/1931897) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3555818 (greece/relation/1073029) -> matched: Psathoura  [body: 563 chars]
+  Q25023183 (greece/relation/3452765) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21540675 (greece/relation/35796327) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12879760 (greece/relation/1931901) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25020690 (greece/relation/1930957) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25069779 (greece/relation/35796325) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3561917 (greece/relation/1930933) -> matched: Valaxa  [body: 389 chars]
+  Q21533956 (greece/relation/35796313) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12884509 (greece/relation/1931899) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q370485 (greece/relation/35796321) -> matched: Atalanti Island  [body: 1530 chars]
+  Q12886086 (greece/relation/1926365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20921262 (greece/relation/1926357) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24990356 (greece/relation/35646105) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25117422 (greece/relation/35796359) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880644 (greece/relation/3452789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25006525 (greece/relation/35796365) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25018858 (greece/relation/35793913) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24997497 (greece/relation/35795527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q33633067 (greece/relation/35795529) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110359638 (greece/relation/35793915) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12881395 (greece/relation/35795547) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12872148 (greece/relation/35795523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16331935 (greece/relation/35795507) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q587421 (greece/relation/1086411) -> matched: Spetsopoula  [body: 1290 chars]
+  Q16330167 (greece/relation/1086423) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25023310 (greece/relation/25215705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16523372 (greece/relation/1086417) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12882506 (greece/relation/1086429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25024279 (greece/relation/25215731) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16327349 (greece/relation/35795521) -> matched: Agios Thomas Diaporion  [body: 399 chars]
+  Q12884825 (greece/relation/1086425) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21540873 (greece/relation/35793887) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3321501 (greece/relation/1624741) -> matched: Drakonera  [body: 440 chars]
+  Q1814390 (greece/relation/1624715) -> matched: Vromonas  [body: 166 chars]
+  Q16523324 (greece/relation/1624711) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6372545 (greece/relation/1624735) -> matched: Karlonisi  [body: 335 chars]
+  Q7554437 (greece/relation/1624749) -> matched: Sofía (Echinades)  [body: 364 chars]
+  Q3438238 (greece/relation/1624745) -> matched: Pistros  [body: 161 chars]
+  Q7849320 (greece/relation/1624739) -> matched: Tsakalonisi  [body: 391 chars]
+  Q6482521 (greece/relation/1624743) -> matched: Lamprinos  [body: 185 chars]
+  Q1814361 (greece/relation/1624731) -> matched: Pontikos  [body: 161 chars]
+  Q3044679 (greece/relation/1624717) -> matched: Petalas  [body: 833 chars]
+  Q6354182 (greece/relation/1624755) -> matched: Kalogiros (Echinades)  [body: 190 chars]
+  Q3438553 (greece/relation/1624733) -> matched: Prováti  [body: 159 chars]
+  Q3325738 (greece/relation/1624713) -> matched: Makri (island)  [body: 960 chars]
+  Q21556059 (greece/relation/1624721) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1303524 (greece/relation/1918387) -> matched: Sphacteria  [body: 499 chars]
+  Q2512852 (greece/relation/1918423) -> matched: Venetiko  [body: 590 chars]
+  Q187039 (greece/relation/1918389) -> matched: Sapientza  [body: 2044 chars]
+  Q2236603 (greece/relation/1918421) -> matched: Schiza  [body: 609 chars]
+  Q15119080 (greece/relation/1918419) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q838558 (greece/relation/1918379) -> matched: Proti Island  [body: 717 chars]
+  Q1695903 (greece/relation/1094089) -> matched: Velopoula  [body: 224 chars]
+  Q25018854 (greece/relation/35794551) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q473026 (greece/relation/1728515) -> matched: Pondikonisi  [body: 326 chars]
+  Q2292879 (greece/relation/1625549) -> matched: Skorpidi Lefkada  [body: 320 chars]
+  Q16327814 (greece/relation/1625561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12883690 (greece/relation/32476679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16332581 (greece/relation/1087701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21555407 (greece/relation/1087753) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12884592 (greece/relation/1625563) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25069692 (greece/relation/35793849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25117293 (greece/relation/35793043) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1209126 (greece/relation/1624811) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q492133 (greece/relation/1625525) -> matched: Antipaxos  [body: 799 chars]
+  Q250229 (greece/relation/1138673) -> matched: Lazaretto Island  [body: 1116 chars]
+  Q25017942 (greece/relation/2738335) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25094158 (greece/relation/22537755) -> matched: Nisída Ágios Nikólaos  [body: 415 chars]
+  Q492087 (greece/relation/1063941) -> matched: Antimilos  [body: 1320 chars]
+  Q12719479 (greece/relation/1094161) -> matched: Vous Island  [body: 450 chars]
+  Q1540206 (greece/relation/1063945) -> matched: Polyaigos  [body: 1271 chars]
+  Q1394410 (greece/relation/1094093) -> matched: Falkonera  [body: 2099 chars]
+  Q25024340 (greece/relation/1063977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q672343 (greece/way/20429548) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25118305 (greece/way/20432392) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693634 (greece/way/20432414) -> matched: Tsimintiri  [body: 517 chars]
+  Q16332258 (greece/way/20432430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693614 (greece/way/20432486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693596 (greece/way/20432500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q386863 (greece/relation/1061485) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q776776 (greece/relation/1061567) -> matched: Schoinoussa  [body: 1882 chars]
+  Q1259038 (greece/relation/1061563) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16332780 (greece/relation/1094185) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3561894 (greece/relation/1094147) -> matched: Serifopoula  [body: 436 chars]
+  Q86601963 (greece/way/20439196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1475379 (greece/relation/1062265) -> matched: Rineia  [body: 1262 chars]
+  Q25018014 (greece/relation/35796289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21682921 (greece/relation/4602189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25023257 (greece/relation/35801759) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1711018 (greece/relation/35801763) -> matched: Koukonesi  [body: 628 chars]
+  Q2458126 (greece/way/28343014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25133869 (greece/way/28699586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25122897 (greece/way/28699608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12878198 (greece/way/28699648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2987510 (greece/way/28703818) -> matched: Ozeros  [body: 535 chars]
+  Q4751832 (greece/way/28749334) -> matched: Anastaseos tou Kyriou  [body: 381 chars]
+  Q667568 (greece/way/28759212) -> matched: Aristotle University of Thessaloniki  [body: 43381 chars]
+  Q25094300 (greece/way/29272922) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1990279 (greece/way/30441934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56237104 (greece/way/30443990) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q954726 (greece/way/31283898) -> matched: Agios Dimitrios Power Plant  [body: 5446 chars]
+  Q19376943 (greece/way/31284046) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2134209 (greece/way/33136590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16965801 (greece/way/34063742) -> matched: Olympias mine  [body: 1698 chars]
+  Q25105988 (greece/relation/1625531) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3052315 (greece/way/40774960) -> matched: Zeitenlik  [body: 5445 chars]
+  Q19392366 (greece/way/46682032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880047 (greece/way/47077162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q75091187 (greece/way/48441298) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q916136 (greece/relation/1706533) -> matched: Spinalonga  [body: 18963 chars]
+  Q22812249 (greece/way/49994064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q868952 (greece/relation/1702235) -> matched: Dia (island)  [body: 2345 chars]
+  Q4208570 (greece/way/52266656) -> matched: Kaiafas Lake  [body: 419 chars]
+  Q15613333 (greece/way/52317034) -> matched: Stratos Dam  [body: 583 chars]
+  Q12880049 (greece/way/52332410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12721514 (greece/way/52347422) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1553955 (greece/way/52352638) -> matched: Lake Lysimachia  [body: 532 chars]
+  Q2826859 (greece/relation/1710435) -> matched: Agioi Pantes (island)  [body: 267 chars]
+  Q127060047 (greece/way/54181320) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q94642809 (greece/relation/4737313) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2382846 (greece/way/54830804) -> matched: Tripoli Airport (Greece)  [body: 371 chars]
+  Q65952973 (greece/way/54889756) -> matched: Panepirotan National Athletic Center  [body: 1220 chars]
+  Q25163836 (greece/way/54909616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24993041 (greece/way/55148612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14752068 (greece/way/55263892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24992955 (greece/way/55570182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122233575 (greece/way/55570188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q932606 (greece/way/55580148) -> matched: Pedion tou Areos  [body: 4580 chars]
+  Q4720925 (greece/way/55791368) -> matched: Alexandreia Airport  [body: 666 chars]
+  Q12875281 (greece/relation/1711183) -> matched: Gianysada  [body: 6317 chars]
+  Q5305338 (greece/relation/1711843) -> matched: Dragonada  [body: 6317 chars]
+  Q53633220 (greece/way/57498410) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q132564 (greece/way/60219132) -> matched: Mycenae  [body: 41626 chars]
+  Q7698713 (greece/way/60220692) -> matched: Sanctuary of Asclepius, Epidaurus  [body: 18434 chars]
+  Q6992134 (greece/way/60818622) -> matched: Neochori, Arta  [body: 408 chars]
+  Q25122836 (greece/relation/1925593) -> matched: Thasopoula  [body: 1087 chars]
+  Q1251026 (greece/relation/149829) -> matched: Lake Stymphalia  [body: 1336 chars]
+  Q6469801 (greece/way/63075762) -> matched: Ladon Lake  [body: 520 chars]
+  Q24896501 (greece/way/63089410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q996497 (greece/way/63109196) -> matched: Patras Araxos Airport  [body: 1671 chars]
+  Q15057223 (greece/relation/4737303) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4754715 (greece/way/63110218) -> matched: Andravida Air Base  [body: 2266 chars]
+  Q25113950 (greece/way/63146566) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21626608 (greece/way/63317886) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4694132 (greece/way/63329298) -> matched: Agrinion Airport  [body: 420 chars]
+  Q6489500 (greece/way/63691738) -> matched: Larissa National Airport  [body: 1321 chars]
+  Q25054084 (greece/way/63776440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20456361 (greece/way/63910024) -> matched: Elefsina Air Base  [body: 1405 chars]
+  Q127869355 (greece/way/64079336) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1785564 (greece/way/64158698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12872823 (greece/way/64172216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1428233 (greece/relation/35795479) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110276814 (greece/way/64450418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1524794 (greece/way/64609982) -> matched: General University Hospital of Patras  [body: 2720 chars]
+  Q3551766 (greece/way/64612242) -> matched: University of Peloponnese  [body: 9485 chars]
+  Q25018016 (greece/way/64713552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30973255 (greece/way/64714396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30973255 (greece/way/64714542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15057273 (greece/way/64714868) -> matched: Lake Dystos  [body: 464 chars]
+  Q3566083 (greece/way/65150640) -> matched: Pyrkal  [body: 6934 chars]
+  Q6432822 (greece/way/67301378) -> matched: Korydallos Prison  [body: 4967 chars]
+  Q80650724 (greece/way/70956736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15072272 (greece/relation/35646123) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693629 (greece/way/72144758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q841207 (greece/way/74902078) -> matched: Heraion of Samos  [body: 22857 chars]
+  Q16331697 (greece/relation/1073427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880742 (greece/relation/1073429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12874022 (greece/relation/1073433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12874127 (greece/relation/1073431) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1735552 (greece/way/76012814) -> matched: Katakolo  [body: 2457 chars]
+  Q38888 (greece/way/79968006) -> matched: Olympia, Greece  [body: 22657 chars]
+  Q3561295 (greece/relation/1714237) -> matched: Elasa  [body: 694 chars]
+  Q1142384 (greece/way/82924226) -> matched: Heraklion International Airport "Nikos Kazantzakis"  [body: 3839 chars]
+  Q25162359 (greece/relation/906241) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25016538 (greece/relation/35794525) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64209898 (greece/way/90529586) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12883988 (greece/way/104947832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q614741 (greece/relation/1061475) -> matched: Despotiko  [body: 7416 chars]
+  Q16523348 (greece/relation/1087691) -> matched: Marathonisi  [body: 335 chars]
+  Q6434401 (greece/relation/3956669) -> matched: Kotychi  [body: 453 chars]
+  Q1479262 (greece/relation/1734657) -> matched: Agioi Theodoroi (islands)  [body: 1685 chars]
+  Q2532466 (greece/relation/1735753) -> matched: Souda (island)  [body: 1540 chars]
+  Q204905 (greece/way/120190458) -> matched: Elefsina  [body: 16812 chars]
+  Q6046820 (greece/way/120710856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53631604 (greece/way/123838436) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12872355 (greece/relation/2033805) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12884818 (greece/relation/2033807) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880130 (greece/relation/35795517) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12876187 (greece/relation/1918637) -> matched: Diapori chain  [body: 370 chars]
+  Q16331593 (greece/relation/35795519) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2104425 (greece/relation/35794549) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q68605 (greece/relation/1138667) -> matched: Vido  [body: 2988 chars]
+  Q5595382 (greece/relation/1715867) -> matched: Grandes (islands)  [body: 393 chars]
+  Q21705797 (greece/relation/1720329) -> matched: Mikronisi (Lasithi)  [body: 260 chars]
+  Q21684529 (greece/relation/2225701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25016883 (greece/relation/1082991) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1132928 (greece/relation/1062705) -> matched: Zaforas  [body: 238 chars]
+  Q1272038 (greece/relation/1063303) -> matched: Marathos Island  [body: 348 chars]
+  Q21683520 (greece/relation/1067441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25105719 (greece/relation/1062673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24899362 (greece/relation/1064573) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683320 (greece/relation/1064581) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683324 (greece/relation/1064579) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683321 (greece/relation/1064585) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53631038 (greece/way/158440096) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q25164156 (greece/way/159488006) -> matched: Lake Agia  [body: 3995 chars]
+  Q5072189 (greece/way/159533732) -> matched: Chania Power Station  [body: 897 chars]
+  Q1324824 (greece/relation/1726831) -> matched: Elafonisi  [body: 2080 chars]
+  Q7530891 (greece/way/169505298) -> matched: Sismanogleio General Hospital  [body: 550 chars]
+  Q55885891 (greece/way/171702492) -> matched: Gianiskari beach  [body: 1331 chars]
+  Q3559333 (greece/way/179886516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123555903 (greece/way/182071022) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1317636 (greece/way/184875962) -> matched: Pleuron (Aetolia)  [body: 5989 chars]
+  Q11996445 (greece/way/186344914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2910024 (greece/way/191620016) -> matched: Lesvos Petrified Forest  [body: 2594 chars]
+  Q15895035 (greece/way/193661342) -> matched: Third Cemetery of Athens  [body: 1250 chars]
+  Q5105247 (greece/way/204503786) -> matched: Chortarolimni  [body: 509 chars]
+  Q1501628 (greece/relation/2925439) -> matched: Strongyli Megistis  [body: 1075 chars]
+  Q775517 (greece/relation/905245) -> matched: Saria Island  [body: 1070 chars]
+  Q5184727 (greece/way/208464592) -> matched: Crete Golf Club  [body: 314 chars]
+  Q21540751 (greece/way/211477762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24886355 (greece/way/211917776) -> matched: Kasteli Airport  [body: 9170 chars]
+  Q12872120 (greece/way/215472830) -> matched: Agios Georgios, Lasithi  [body: 1221 chars]
+  Q21695371 (greece/relation/1085165) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21695367 (greece/relation/35802207) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12872139 (greece/relation/1085153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24888266 (greece/way/224803338) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1364927 (greece/way/226481766) -> matched: Kefalonia International Airport  [body: 2135 chars]
+  Q3086468 (greece/way/229154122) -> matched: Ikaria Island National Airport  [body: 509 chars]
+  Q12879409 (greece/way/231227484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1479231 (greece/relation/2703913) -> matched: Stratos (lake)  [body: 354 chars]
+  Q15234208 (greece/way/231518386) -> matched: Kastraki Dam  [body: 845 chars]
+  Q25067 (greece/way/233544052) -> matched: Technological Educational Institute of Western Macedonia  [body: 2265 chars]
+  Q1014206 (greece/way/234702030) -> matched: Soufli  [body: 10236 chars]
+  Q21405287 (greece/way/235391506) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2466272 (greece/way/235391564) -> matched: Sostis  [body: 375 chars]
+  Q11981556 (greece/way/237802394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3564659 (greece/way/243614940) -> matched: Hellenic Military Academy  [body: 6232 chars]
+  Q97202572 (greece/relation/4737319) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4064062 (greece/way/247480016) -> matched: Lake Amvrakia  [body: 1751 chars]
+  Q3606076 (greece/way/249065300) -> matched: Maleme Airport  [body: 765 chars]
+  Q173148 (greece/way/251222082) -> matched: Delos  [body: 11269 chars]
+  Q21626795 (greece/way/251382994) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q41818752 (greece/way/252771182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880039 (greece/way/254024516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3287785 (greece/relation/1931071) -> matched: Erinia  [body: 294 chars]
+  Q21540562 (greece/relation/1926331) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21080008 (greece/relation/7218751) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24896731 (greece/way/257812936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1768553 (greece/way/260090448) -> matched: Rhamnous  [body: 11760 chars]
+  Q48802540 (greece/way/260090492) -> matched: Marathon tumuli  [body: 3186 chars]
+  Q3565135 (greece/way/260328112) -> matched: Lake Doxa  [body: 679 chars]
+  Q15813898 (greece/way/267803102) -> matched: Moustos wetland  [body: 2076 chars]
+  Q846127 (greece/way/268246858) -> matched: Stagira (ancient city)  [body: 2741 chars]
+  Q21626627 (greece/way/271184730) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21501175 (greece/way/271745748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21533923 (greece/relation/35646107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16330474 (greece/way/273058698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3396823 (greece/way/273404980) -> matched: Kato Vermio  [body: 1918 chars]
+  Q80307184 (greece/way/273869152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21626614 (greece/way/274023108) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q26046204 (greece/way/274650648) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12873478 (greece/way/275146362) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13569522 (greece/way/275360090) -> matched: Egremni  [body: 761 chars]
+  Q53672682 (greece/way/276527508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53672705 (greece/way/276539328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53672679 (greece/way/276540792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53672770 (greece/way/276541462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q117301158 (greece/way/276702934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53672733 (greece/way/276702982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15260036 (greece/way/277117302) -> matched: Pateras (mountain)  [body: 785 chars]
+  Q2071883 (greece/way/277117572) -> matched: Santorini caldera  [body: 8437 chars]
+  Q3498211 (greece/way/278270654) -> matched: Steni Dirfyos  [body: 1651 chars]
+  Q53672672 (greece/way/279466646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53672661 (greece/way/279484134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q492130 (greece/relation/1066121) -> matched: Antipsara  [body: 944 chars]
+  Q3443962 (greece/relation/24999495) -> matched: Megalopoli Power Plant  [body: 2114 chars]
+  Q21683511 (greece/relation/1062857) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15057262 (greece/way/286485448) -> matched: Lake Paralimni  [body: 7880 chars]
+  Q533410 (greece/relation/1085173) -> matched: Kasos  [body: 12588 chars]
+  Q917162 (greece/relation/1085137) -> matched: Halki (Greece)  [body: 2693 chars]
+  Q75459 (greece/way/291380088) -> matched: Delphi  [body: 46880 chars]
+  Q19602775 (greece/way/293541724) -> matched: Hippodrome of Olympia  [body: 1872 chars]
+  Q420810 (greece/way/293726288) -> matched: Acrocorinth  [body: 2488 chars]
+  Q24910881 (greece/way/293936536) -> matched: Gialova Lagoon  [body: 2533 chars]
+  Q24910881 (greece/way/293936558) -> matched: Gialova Lagoon  [body: 2533 chars]
+  Q30973322 (greece/way/295833968) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15057232 (greece/way/295907924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53629165 (greece/way/296237762) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21626643 (greece/way/296636300) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2510591 (greece/relation/1915665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15935681 (greece/way/301869108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3401386 (greece/way/301878056) -> matched: Prastos  [body: 1172 chars]
+  Q21589920 (greece/way/301881118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21589915 (greece/way/301885132) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7235563 (greece/way/301898306) -> matched: Poulithra  [body: 1026 chars]
+  Q21589925 (greece/way/301902430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19597907 (greece/way/302793124) -> matched: Amfitriti  [body: 147 chars]
+  Q1462246 (greece/way/303126682) -> matched: University of Patras  [body: 8208 chars]
+  Q16127083 (greece/way/303126928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12879312 (greece/way/307240474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18629933 (greece/way/315047264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50359480 (greece/way/320615812) -> matched: University of West Attica  [body: 9004 chars]
+  Q21626630 (greece/way/321687742) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q111400770 (greece/way/323000926) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q38281995 (greece/way/323082034) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7445211 (greece/way/323774788) -> matched: Sedes Air Base  [body: 578 chars]
+  Q16327148 (greece/way/323811418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q111154846 (greece/way/324552492) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6807044 (greece/way/324754474) -> matched: Mediterranean Cosmos  [body: 1233 chars]
+  Q5263281 (greece/way/325109468) -> matched: Derveni, Thessaloniki  [body: 384 chars]
+  Q15732480 (greece/way/325200080) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21405328 (greece/way/330471598) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6393862 (greece/way/330877634) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25162341 (greece/way/330904486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q204127 (greece/way/331075932) -> matched: Struma (river)  [body: 4665 chars]
+  Q16965005 (greece/way/331965354) -> matched: Stratoni mine  [body: 368 chars]
+  Q16965801 (greece/way/331965372) -> matched: Olympias mine  [body: 1698 chars]
+  Q16965801 (greece/way/331969936) -> matched: Olympias mine  [body: 1698 chars]
+  Q53630280 (greece/way/332179242) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q133860914 (greece/way/332758778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25134587 (greece/way/332929168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q972444 (greece/relation/1096473) -> matched: Kyra Panagia  [body: 1091 chars]
+  Q25162355 (greece/way/337348732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21626560 (greece/way/341160956) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3438365 (greece/way/343012934) -> matched: Amyntaio Power Plant  [body: 4623 chars]
+  Q5309772 (greece/way/343341184) -> matched: Dryopida  [body: 2966 chars]
+  Q1144233 (greece/way/345727228) -> matched: Corfu International Airport  [body: 4040 chars]
+  Q2317895 (greece/way/345883264) -> matched: Milos Island National Airport  [body: 1458 chars]
+  Q21518915 (greece/way/351963050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26695934 (greece/way/352580470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q168548 (greece/way/354448054) -> matched: Vai (Crete)  [body: 24507 chars]
+  Q65233607 (greece/relation/4737309) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4720202 (greece/way/358623330) -> matched: Alexander Technological Educational Institute of Thessaloniki  [body: 3694 chars]
+  Q4267127 (greece/way/363822986) -> matched: Technological Educational Institute of Central Macedonia  [body: 2707 chars]
+  Q21683469 (greece/relation/1062679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21079900 (greece/way/366734652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q630703 (greece/way/367376760) -> matched: Sitia Public Airport  [body: 2169 chars]
+  Q72187481 (greece/way/368177596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53631575 (greece/way/371002996) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1419902 (greece/way/373166220) -> matched: Lake Orestiada  [body: 4905 chars]
+  Q21540756 (greece/way/373311238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q370992 (greece/relation/3790069) -> matched: Small Prespa Lake  [body: 2490 chars]
+  Q12293115 (greece/relation/5077287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5707194 (greece/way/388294206) -> matched: Hellenic Cosmos  [body: 307 chars]
+  Q787032 (greece/way/398083878) -> matched: Golem Grad  [body: 1590 chars]
+  Q1027238 (greece/relation/14536035) -> matched: Goudi  [body: 2143 chars]
+  Q16327674 (greece/way/399605608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20379397 (greece/way/400042324) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15057367 (greece/way/406927118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786096 (greece/way/416317660) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30279850 (greece/way/417957028) -> matched: Athens General State Hospital "Georgios Gennimatas"  [body: 819 chars]
+  Q25535826 (greece/way/420455242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1804771 (greece/relation/5758711) -> matched: Agricultural University of Athens  [body: 6431 chars]
+  Q841748 (greece/way/435271358) -> matched: Rhodes Air Base  [body: 2107 chars]
+  Q2983711 (greece/way/438264480) -> matched: American College of Greece  [body: 4345 chars]
+  Q3559155 (greece/way/438312412) -> matched: National Centre of Scientific Research "Demokritos"  [body: 4850 chars]
+  Q11995818 (greece/way/439950238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1611026 (greece/way/439960062) -> matched: Nimos  [body: 481 chars]
+  Q426309 (greece/relation/5821263) -> matched: Spercheios  [body: 2101 chars]
+  Q21501013 (greece/way/440411160) -> matched: Alexandrini  [body: 485 chars]
+  Q12272300 (greece/way/442620444) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2302473 (greece/way/443021614) -> matched: University of Crete  [body: 5533 chars]
+  Q15137638 (greece/way/444835876) -> matched: Lake Taka  [body: 3616 chars]
+  Q1363688 (greece/way/449419412) -> matched: Ancient Corinth  [body: 39114 chars]
+  Q7432540 (greece/way/449938398) -> matched: School of Pedagogical and Technological Education  [body: 5181 chars]
+  Q12881206 (greece/relation/5995465) -> matched: Monolithi  [body: 3115 chars]
+  Q16329596 (greece/relation/21214117) -> matched: Seih Sou  [body: 3617 chars]
+  Q73743 (greece/way/456267256) -> matched: Maligrad  [body: 528 chars]
+  Q1430762 (greece/way/456481372) -> matched: Alexandroupoli Airport  [body: 2041 chars]
+  Q2876106 (greece/way/456871502) -> matched: Naxos Island National Airport  [body: 2529 chars]
+  Q3504030 (greece/way/457576686) -> matched: Skyros Island National Airport  [body: 713 chars]
+  Q12909458 (greece/way/457729778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15110375 (greece/way/458346962) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134968440 (greece/way/459203772) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q20456171 (greece/way/460290342) -> matched: Tanagra Air Base  [body: 1364 chars]
+  Q25018021 (greece/relation/26201737) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2827860 (greece/way/462086614) -> matched: Aigosthena  [body: 4191 chars]
+  Q12884929 (greece/relation/3452731) -> matched: Stouronisi  [body: 1462 chars]
+  Q107099160 (greece/way/465164080) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1360757 (greece/way/466047052) -> matched: Karpathos Island National Airport  [body: 825 chars]
+  Q25016868 (greece/way/467480260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112290307 (greece/way/471016376) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q25163841 (greece/relation/6344713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q140345 (greece/way/485573656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9890371 (greece/way/486330288) -> matched: Category:Democritus University of Thrace  [body: 0 chars]
+  Q21626632 (greece/way/486665886) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21626610 (greece/way/486964764) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1432699 (greece/way/489164846) -> matched: Samos International Airport  [body: 3897 chars]
+  Q2106785 (greece/relation/5927723) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q379652 (greece/way/490891166) -> matched: Philippi  [body: 11955 chars]
+  Q1528995 (greece/way/491099682) -> matched: Mytilene International Airport  [body: 2695 chars]
+  Q1232348 (greece/way/492908562) -> matched: Chania International Airport  [body: 3925 chars]
+  Q38251447 (greece/way/498353308) -> matched: Archaeological Park of Dion  [body: 32702 chars]
+  Q25123019 (greece/relation/6703789) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12873437 (greece/relation/6699521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30973294 (greece/relation/6751177) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21645935 (greece/way/503675386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30973232 (greece/way/503814480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q368628 (greece/way/508422308) -> matched: Sicyon  [body: 15626 chars]
+  Q17371472 (greece/way/509607914) -> matched: Castle of Mytilene  [body: 6677 chars]
+  Q1147663 (greece/relation/1063979) -> matched: Gyaros  [body: 4728 chars]
+  Q105000745 (greece/way/513713404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42177947 (greece/way/523253246) -> matched: Pachies Ammoudies of Lemnos  [body: 895 chars]
+  Q3304294 (greece/relation/1926369) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q547867 (greece/relation/7136135) -> matched: National and Kapodistrian University of Athens  [body: 16606 chars]
+  Q17511186 (greece/way/531467492) -> matched: Stavros Niarchos Foundation Cultural Center  [body: 3766 chars]
+  Q393937 (greece/relation/1917039) -> matched: Agios Efstratios  [body: 5324 chars]
+  Q539983 (greece/relation/1086977) -> matched: Agistri  [body: 2684 chars]
+  Q53632992 (greece/way/543737982) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16801754 (greece/way/543989180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1990257 (greece/way/547356436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20456934 (greece/way/549193284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24924215 (greece/way/551263614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122310180 (greece/way/551263616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21661831 (greece/relation/1064531) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1022117 (greece/way/561237450) -> matched: Messene  [body: 11018 chars]
+  Q464923 (greece/way/561787244) -> matched: Bassae  [body: 10053 chars]
+  Q747935 (greece/relation/1063955) -> matched: Sikinos  [body: 2867 chars]
+  Q53630525 (greece/way/565413794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21079886 (greece/way/569650434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26860294 (greece/way/573430314) -> matched: KAT Hospital  [body: 919 chars]
+  Q53632747 (greece/way/574440746) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q101084550 (greece/way/575788574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q278449 (greece/way/583659124) -> matched: Skiathos International Airport  [body: 3420 chars]
+  Q21554987 (greece/way/583736212) -> matched: Agios Gordios  [body: 361 chars]
+  Q50036462 (greece/way/590271832) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24092044 (greece/way/595136570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q733326 (greece/way/599289356) -> matched: Zakynthos International Airport  [body: 2316 chars]
+  Q53631595 (greece/way/599476150) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15057378 (greece/way/602552604) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6587878 (greece/way/607608742) -> matched: Tatoi Airport  [body: 1019 chars]
+  Q5095467 (greece/way/609205266) -> matched: Gitanae  [body: 859 chars]
+  Q3395562 (greece/relation/1930907) -> matched: Sarakino  [body: 140 chars]
+  Q12883525 (greece/relation/1930963) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16327430 (greece/relation/1066025) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25166644 (greece/way/610366618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21693390 (greece/relation/1067785) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q750313 (greece/way/611307908) -> matched: Calydon  [body: 5445 chars]
+  Q30253936 (greece/way/613403846) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q38281346 (greece/way/615447440) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12102318 (greece/way/617094888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7161470 (greece/way/621543484) -> matched: Pelinna  [body: 1924 chars]
+  Q5690 (greece/relation/10697371) -> matched: Sparta  [body: 55004 chars]
+  Q1977462 (greece/way/628180322) -> matched: Neochori, Magnesia  [body: 2104 chars]
+  Q104882553 (greece/way/633146606) -> matched: Vlochos (archaeological site)  [body: 11628 chars]
+  Q21626598 (greece/way/633464500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7663518 (greece/way/636023778) -> matched: Syros Island National Airport  [body: 1034 chars]
+  Q38281398 (greece/way/636623122) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q380844 (greece/way/636643044) -> matched: Cassope  [body: 1830 chars]
+  Q1328318 (greece/way/638548496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30973210 (greece/relation/8954089) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2258298 (greece/way/643599958) -> matched: Kithira Island National Airport  [body: 937 chars]
+  Q1229924 (greece/way/647957466) -> matched: University of Ioannina  [body: 7487 chars]
+  Q158077 (greece/relation/9114579) -> matched: Doiran Lake  [body: 1857 chars]
+  Q1430743 (greece/way/653457256) -> matched: Aktion National Airport  [body: 1720 chars]
+  Q396561 (greece/relation/1731017) -> matched: Agria Gramvousa  [body: 5325 chars]
+  Q1226893 (greece/relation/6433357) -> matched: Prasonisi  [body: 3044 chars]
+  Q1140015 (greece/relation/1086427) -> matched: Dokos  [body: 1158 chars]
+  Q6174143 (greece/way/669370806) -> matched: Atrax (Thessaly)  [body: 2391 chars]
+  Q12873706 (greece/relation/1064565) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25116985 (greece/relation/1064561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5361100 (greece/relation/10458553) -> matched: Elina (Epirus)  [body: 1641 chars]
+  Q12876854 (greece/relation/10458561) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12877422 (greece/relation/10458565) -> matched: Cichyrus  [body: 4896 chars]
+  Q3180048 (greece/relation/10458673) -> matched: Pandosia (Epirus)  [body: 1870 chars]
+  Q213916 (greece/relation/10458839) -> matched: Vergina  [body: 17908 chars]
+  Q38278619 (greece/relation/10458841) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q738068 (greece/relation/1067811) -> matched: Aspronisi  [body: 1777 chars]
+  Q1547142 (greece/relation/1067807) -> matched: Nea Kameni  [body: 1836 chars]
+  Q21591345 (greece/way/702421436) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1328347 (greece/way/703433422) -> matched: Eleutherna  [body: 15911 chars]
+  Q1325264 (greece/relation/1625545) -> matched: Skorpios  [body: 2893 chars]
+  Q56188927 (greece/way/706866862) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q217667 (greece/way/707133418) -> matched: Elis (city)  [body: 10797 chars]
+  Q16562724 (greece/relation/10560961) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25408797 (greece/way/707272058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2016870 (greece/relation/20845315) -> matched: Oeniadae  [body: 3371 chars]
+  Q21626612 (greece/way/710333714) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21591337 (greece/way/710744788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21591310 (greece/way/710810334) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1807000 (greece/way/711113922) -> matched: Lato  [body: 2594 chars]
+  Q864878 (greece/way/713347656) -> matched: Lake Kournas  [body: 840 chars]
+  Q21591333 (greece/way/713581528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24882373 (greece/relation/35793161) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25162390 (greece/way/725194874) -> matched: Kalogria beach  [body: 1458 chars]
+  Q25162353 (greece/way/727033046) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1088543 (greece/relation/22617933) -> matched: Chrysi (island)  [body: 2242 chars]
+  Q25094186 (greece/way/732640268) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1432110 (greece/relation/10909671) -> matched: Mykonos Airport  [body: 3019 chars]
+  Q7692468 (greece/way/739130872) -> matched: Technological Educational Institute of Athens  [body: 3955 chars]
+  Q1974562 (greece/way/747951790) -> matched: Technical University of Crete  [body: 4368 chars]
+  Q53629465 (greece/way/753961496) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15057213 (greece/way/759809152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21626547 (greece/relation/6961749) -> matched: 401 General Military Hospital of Athens  [body: 1087 chars]
+  Q110359196 (greece/relation/1625575) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2031588 (greece/relation/1919687) -> matched: Psyttaleia  [body: 3092 chars]
+  Q12872119 (greece/relation/1919665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25107800 (greece/relation/3452719) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25000595 (greece/relation/3452729) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q652910 (greece/relation/1862651) -> matched: Argyronisos  [body: 386 chars]
+  Q1145107 (greece/relation/35646109) -> matched: Patroklos (Attica)  [body: 1172 chars]
+  Q393940 (greece/relation/1919565) -> matched: Agios Georgios (island)  [body: 1199 chars]
+  Q12878605 (greece/relation/3452753) -> matched: Kavalliani  [body: 734 chars]
+  Q12880627 (greece/relation/1919715) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12884135 (greece/relation/1919713) -> matched: Revythousa  [body: 1715 chars]
+  Q16327018 (greece/relation/1919597) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25069797 (greece/relation/1625577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16523350 (greece/relation/1919657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1668419 (greece/relation/1137977) -> matched: Paleo Trikeri  [body: 3338 chars]
+  Q1640726 (greece/relation/7441601) -> matched: National Technical University of Athens  [body: 30399 chars]
+  Q12881930 (greece/way/763046424) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38279507 (greece/way/764731662) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12885741 (greece/way/766702132) -> matched: Pheneus  [body: 7510 chars]
+  Q190053 (greece/relation/1067429) -> matched: Patmos  [body: 8656 chars]
+  Q7573946 (greece/way/788876080) -> matched: Sparta Air Base  [body: 693 chars]
+  Q6434247 (greece/way/788881932) -> matched: Kotroni Airport  [body: 1392 chars]
+  Q15110989 (greece/relation/1067815) -> matched: Christiana Island  [body: 1166 chars]
+  Q122260722 (greece/relation/12314045) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134968504 (greece/way/805744520) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12881153 (greece/relation/1086979) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21601250 (greece/way/809800112) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1142304 (greece/relation/1084055) -> matched: Oinousses  [body: 2520 chars]
+  Q173148 (greece/relation/1062263) -> matched: Delos  [body: 11269 chars]
+  Q2917115 (greece/way/824271616) -> matched: Attica Zoological Park  [body: 13674 chars]
+  Q898718 (greece/relation/1061305) -> matched: Tilos  [body: 11114 chars]
+  Q3367290 (greece/relation/1930905) -> matched: Skyropoula  [body: 708 chars]
+  Q23302630 (greece/relation/12575519) -> matched: Crete Naval Base  [body: 4535 chars]
+  Q1113002 (greece/way/847896646) -> matched: Panathinaikos F.C. New Stadium  [body: 1716 chars]
+  Q7593961 (greece/way/889248980) -> matched: St Lawrence College, Athens  [body: 1914 chars]
+  Q3161418 (greece/way/896783312) -> matched: Agios Georgios Nileias  [body: 1970 chars]
+  Q61959441 (greece/way/905725472) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1415028 (greece/way/905870214) -> matched: Agios Kosmas Olympic Sailing Centre  [body: 596 chars]
+  Q1420601 (greece/way/906076678) -> matched: Kos International Airport  [body: 3160 chars]
+  Q112280564 (greece/way/915397474) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2726122 (greece/way/920393068) -> matched: Astypalaia Island National Airport  [body: 613 chars]
+  Q3135288 (greece/relation/13765083) -> matched: Sretenovo  [body: 603 chars]
+  Q491984 (greece/relation/1061561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q991283 (greece/relation/1061493) -> matched: Donousa  [body: 2020 chars]
+  Q16328556 (greece/relation/1061571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38280738 (greece/way/965078438) -> matched: Mycenaean cemetery of Voudeni  [body: 3117 chars]
+  Q1007550 (greece/relation/1061581) -> matched: Irakleia (Cyclades)  [body: 2763 chars]
+  Q137711142 (greece/way/972944300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1736684 (greece/relation/1061501) -> matched: Kato Koufonisi  [body: 6853 chars]
+  Q213730 (greece/relation/1915459) -> matched: Antikythera  [body: 4903 chars]
+  Q21626781 (greece/way/1005741982) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q767528 (greece/relation/1061403) -> matched: Nisyros  [body: 8447 chars]
+  Q213895 (greece/relation/1723561) -> matched: Gavdos  [body: 9148 chars]
+  Q21672661 (greece/relation/1084065) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q916145 (greece/relation/1063953) -> matched: Kardiotissa  [body: 411 chars]
+  Q25163854 (greece/way/1034513954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3499509 (greece/way/1035191936) -> matched: Kozani National Airport  [body: 546 chars]
+  Q185804 (greece/relation/1082897) -> matched: Armathia  [body: 873 chars]
+  Q2488429 (greece/way/1036914504) -> matched: Vertiskos  [body: 1748 chars]
+  Q21570483 (greece/way/1043213736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q62996869 (greece/way/1048231688) -> matched: Anastasiopolis-Peritheorion  [body: 9193 chars]
+  Q112034093 (greece/way/1075512414) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12876760 (greece/way/1084880302) -> matched: Olympus National Park  [body: 3838 chars]
+  Q2005625 (greece/way/1085002550) -> matched: Satres  [body: 548 chars]
+  Q5358613 (greece/way/1089152348) -> matched: Elefsis Shipyards  [body: 1724 chars]
+  Q7692470 (greece/way/1090345010) -> matched: Technological Educational Institute of Eastern Macedonia and Thrace  [body: 17006 chars]
+  Q12880042 (greece/relation/15628311) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25023395 (greece/way/1097917408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25019613 (greece/way/1097924070) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24888407 (greece/way/1098057890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25105640 (greece/way/1098664054) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25018010 (greece/way/1098685862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24921266 (greece/way/1098823272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25006314 (greece/way/1098856896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24992993 (greece/way/1098861948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16830288 (greece/way/1106401462) -> matched: Serres Racing Circuit  [body: 1276 chars]
+  Q1247000 (greece/relation/1061499) -> matched: Ano Koufonisi  [body: 6853 chars]
+  Q919194 (greece/relation/1063943) -> matched: Kimolos  [body: 5267 chars]
+  Q26453 (greece/way/1111914276) -> matched: Nea Anchialos National Airport  [body: 1691 chars]
+  Q966038 (greece/way/1118541512) -> matched: Pavlopetri  [body: 9305 chars]
+  Q429430 (greece/relation/1083221) -> matched: Symi  [body: 7001 chars]
+  Q24882362 (greece/way/1120993074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25027771 (greece/way/1121098782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25024351 (greece/way/1124491824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25107605 (greece/way/1124502672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110653478 (greece/way/1141374646) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q21786711 (greece/way/1152800246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2614301 (greece/way/1167035918) -> matched: Mets, Athens  [body: 429 chars]
+  Q25163899 (greece/relation/13921779) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q757785 (greece/relation/41594557) -> matched: Atsipopoulo  [body: 572 chars]
+  Q25035113 (greece/way/1181155256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25053653 (greece/way/1181160768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3558596 (greece/way/1181670882) -> matched: Anydros  [body: 980 chars]
+  Q53631725 (greece/relation/16660567) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134455315 (greece/way/1182860760) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1908809 (greece/relation/1624805) -> matched: Mathraki  [body: 1613 chars]
+  Q53632584 (greece/way/1188370144) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7403596 (greece/way/1191322016) -> matched: Salamis Naval Base  [body: 4058 chars]
+  Q7231282 (greece/relation/16736235) -> matched: Port of Thessaloniki  [body: 6153 chars]
+  Q687104 (greece/relation/35793901) -> matched: Trizonia island  [body: 1979 chars]
+  Q16332295 (greece/relation/5922367) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1455063 (greece/way/1210666832) -> matched: Ioannina Island  [body: 4440 chars]
+  Q28229923 (greece/way/1213691344) -> matched: New Paros Airport  [body: 2096 chars]
+  Q2756463 (greece/way/1215401666) -> matched: Kastellorizo Airport  [body: 1229 chars]
+  Q849914 (greece/way/1215960176) -> matched: Hilandar  [body: 17019 chars]
+  Q54239 (greece/relation/1624795) -> matched: Othonoi  [body: 11636 chars]
+  Q1021781 (greece/relation/1624777) -> matched: Ereikoussa  [body: 963 chars]
+  Q12876746 (greece/relation/16976481) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25018941 (greece/relation/16747135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q93587122 (greece/way/1240626728) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60668509 (greece/relation/29863541) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18692276 (greece/way/1246189996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q606185 (greece/way/1248551808) -> matched: Old Fortress, Corfu  [body: 9370 chars]
+  Q890802 (greece/relation/1088839) -> matched: Voidokilia beach  [body: 4088 chars]
+  Q25109303 (greece/relation/35793835) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15057228 (greece/relation/4487155) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131823883 (greece/way/1270871926) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q217253 (greece/relation/1062131) -> matched: Anafi  [body: 8930 chars]
+  Q25069852 (greece/relation/18298291) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25171540 (greece/way/1323365310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12886103 (greece/way/1329335750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7139293 (greece/way/1329349838) -> matched: Parnassos Ski Centre  [body: 899 chars]
+  Q17640406 (greece/way/1334584108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12872164 (greece/way/1336259336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15057381 (greece/relation/15584495) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2617402 (greece/relation/18787609) -> matched: Ampelokipoi, Athens  [body: 3476 chars]
+  Q12884489 (greece/way/1353505772) -> matched: Skouries mine  [body: 3239 chars]
+  Q12884489 (greece/way/1353705134) -> matched: Skouries mine  [body: 3239 chars]
+  Q12884489 (greece/way/1353742586) -> matched: Skouries mine  [body: 3239 chars]
+  Q53633364 (greece/way/1375177988) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q53633373 (greece/way/1375181068) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q38281285 (greece/way/1380036546) -> matched: Minoa (Amorgos)  [body: 413 chars]
+  Q6435203 (greece/way/1383658306) -> matched: Kozani Stadium  [body: 2869 chars]
+  Q53633770 (greece/relation/1084025) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q25053141 (greece/relation/19421321) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12878512 (greece/relation/10370895) -> matched: Methoni Castle  [body: 5583 chars]
+  Q25018905 (greece/relation/19547245) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3563966 (greece/way/1412482770) -> matched: Goumero  [body: 588 chars]
+  Q3562133 (greece/relation/19647837) -> matched: Volos Municipal Stadium  [body: 705 chars]
+  Q60791476 (greece/relation/19709883) -> matched: Sphaeria  [body: 1458 chars]
+  Q1956584 (greece/way/1422035920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25106026 (greece/relation/1061541) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1069728 (greece/way/1453090060) -> matched: Afetes  [body: 981 chars]
+  Q21626652 (greece/way/1463863080) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q49301350 (greece/relation/19516491) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1166181 (greece/relation/3425967) -> matched: Lake Marathon  [body: 2035 chars]
+  Q485810 (greece/relation/1796177) -> matched: Ananes  [body: 891 chars]
+  Q53672852 (greece/way/1504618398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15240470 (greece/relation/21049191) -> matched: Kremasta Dam  [body: 636 chars]
+  Q65231567 (greece/relation/2956359) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110781485 (greece/relation/21202295) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q6528872 (greece/way/1531713096) -> matched: Leros Municipal Airport  [body: 763 chars]
+  Q12880038 (greece/relation/4653187) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60497099 (greece/way/1552139744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4699333 (greece/relation/3956671) -> matched: Aitoliko Lagoon  [body: 665 chars]
+  Q3405888 (greece/way/1567365560) -> matched: Voreino  [body: 531 chars]
+  Q42177947 (greece/way/1576618778) -> matched: Pachies Ammoudies of Lemnos  [body: 895 chars]
+  Q24915178 (greece/relation/13323385) -> matched: Daktylios  [body: 2210 chars]
+  Q110689314 (greece/way/1605385400) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110689284 (greece/way/1605450102) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110443995 (greece/way/1608823378) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110444019 (greece/way/1610266058) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24255302 (greece/way/1610594696) -> matched: Charilaou  [body: 541 chars]
+  Q2584350 (greece/way/1646116214) -> matched: Kastoria National Airport  [body: 378 chars]
+  Q676516 (greece/way/1647146246) -> matched: Kavala International Airport  [body: 4017 chars]
+  Q3016766 (greece/way/1647567662) -> matched: Ioannina National Airport  [body: 1327 chars]
+  Q109330548 (greece/way/1647988988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q776956 (greece/relation/68959) -> matched: Lake Pamvotida  [body: 2617 chars]
+  Q368275 (greece/relation/1086407) -> matched: Spetses  [body: 14002 chars]
+  Q24913718 (greece/relation/17797215) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12881012 (greece/way/1698411462) -> matched: Hellinikon Metropolitan Park  [body: 5323 chars]
+  Q915933 (greece/relation/1625551) -> matched: Madouri  [body: 602 chars]
+  Q25016895 (greece/relation/19614021) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16330649 (greece/relation/35795575) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q134968350 (greece/way/1716638664) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q182873 (greece/relation/11820787) -> matched: Corinth Canal  [body: 11175 chars]
+  Q14623266 (greece/relation/35793899) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112292703 (greece/way/1730319672) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q213902 (greece/relation/1063949) -> matched: Folegandros  [body: 2761 chars]
+  Q12873490 (greece/way/1735977622) -> matched: Amphilochian Argos  [body: 7196 chars]
+  Q6806982 (greece/way/1737991094) -> matched: Medeon (Acarnania)  [body: 1296 chars]
+  Q212096 (greece/relation/910029) -> matched: Kastellorizo  [body: 24578 chars]
+  Q12883511 (greece/relation/1086393) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12886299 (greece/relation/1086403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25069922 (greece/relation/23926773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24997485 (greece/relation/23926807) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25020873 (greece/relation/23927337) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12885051 (greece/relation/23927557) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16327444 (greece/relation/23927561) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25016610 (greece/relation/23927643) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113749734 (greece/way/1764066864) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q110929193 (greece/way/1765336020) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q15711305 (greece/relation/1918635) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1337313 (greece/way/1773772572) -> matched: Gomphi  [body: 2364 chars]
+  Q833555 (greece/way/1778802356) -> matched: Rhodes International Airport  [body: 3960 chars]
+  Q4479719 (greece/way/1783915594) -> matched: Mesona Gorge  [body: 860 chars]
+  Q6572449 (greece/way/1794379952) -> matched: List of Greek military bases  [body: 1148 chars]
+  Q3555617 (greece/relation/7470839) -> matched: Acronauplia  [body: 525 chars]
+  Q1475796 (greece/relation/3761321) -> matched: Lake Plastiras  [body: 1898 chars]
+  Q387989 (greece/relation/14477099) -> matched: Athens Olympic Sports Complex  [body: 2893 chars]
+  Q6476415 (greece/relation/24603563) -> matched: Lake Karla  [body: 4354 chars]
+  Q12880042 (greece/way/1815304838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15057367 (greece/relation/4737311) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17766633 (greece/way/1830278464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1889962 (greece/relation/22462221) -> matched: Rouf, Athens  [body: 536 chars]
+  Q2336869 (greece/relation/18792971) -> matched: Kolokynthou  [body: 336 chars]
+  Q124974671 (greece/way/1833261664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q805498 (greece/relation/22684911) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25461819 (greece/relation/22689339) -> matched: Gramvousa Peninsula  [body: 1143 chars]
+  Q2310706 (greece/relation/1073193) -> matched: Spinalonga Peninsula  [body: 1249 chars]
+  Q11931948 (greece/way/1838780272) -> matched: Limnaea (Acarnania)  [body: 1153 chars]
+  Q1441847 (greece/relation/24903769) -> matched: NATO Missile Firing Installation  [body: 959 chars]
+  Q1422238 (greece/relation/25095573) -> matched: Lake Vistonida  [body: 1253 chars]
+  Q6076774 (greece/way/1855673030) -> matched: Pyrrha (Lesbos)  [body: 774 chars]
+  Q15616538 (greece/relation/25158141) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16327442 (greece/relation/23927419) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q391543 (greece/relation/1064569) -> matched: Agathonisi  [body: 2598 chars]
+  Q137708076 (greece/relation/25329705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q618600 (greece/relation/1063997) -> matched: Makronisos  [body: 3225 chars]
+  Q2670580 (greece/way/1883442942) -> matched: Lemnos International Airport  [body: 698 chars]
+  Q208319 (greece/relation/1086933) -> matched: Hydra (island)  [body: 22446 chars]
+  Q924954 (greece/way/1886349812) -> matched: Kalamata International Airport  [body: 3130 chars]
+  Q127958 (greece/way/1889056908) -> matched: Thessaloniki Airport  [body: 11689 chars]
+  Q3561938 (greece/relation/23607105) -> matched: Piperi (island)  [body: 1405 chars]
+  Q1928668 (greece/relation/3253637) -> matched: Pankritio Stadium  [body: 5244 chars]
+  Q1625898 (greece/relation/1624709) -> matched: Oxeia  [body: 599 chars]
+  Q1432775 (greece/way/1932644472) -> matched: Santorini International Airport  [body: 2135 chars]
+  Q3307142 (greece/way/1936104878) -> matched: Kasos Island Public Airport  [body: 309 chars]
+  Q19053 (greece/way/1938802194) -> matched: Mystras  [body: 11118 chars]
+  Q1529077 (greece/relation/3202039) -> matched: Lake Yliki  [body: 1048 chars]
+  Q25168424 (greece/way/1941886134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q211734 (greece/relation/26211127) -> matched: Athens International Airport  [body: 13594 chars]
+  Q2569363 (greece/relation/19766415) -> matched: Neos Kosmos, Athens  [body: 1338 chars]
+  Q25133868 (greece/way/1952148418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25069935 (greece/relation/19345483) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q395367 (greece/relation/26279885) -> matched: Ancient Agora of Athens  [body: 17723 chars]
+  Q21540880 (greece/way/1956953910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16523376 (greece/relation/1064547) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2869365 (greece/relation/23787655) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24913692 (greece/relation/18674977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21626638 (greece/way/1977012296) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2614005 (greece/relation/18802785) -> matched: Profitis Ilias, Athens  [body: 51 chars]
+  Q1786468 (greece/way/1986594012) -> matched: Cranii  [body: 2272 chars]
+  Q1362125 (greece/relation/26785247) -> matched: First Cemetery of Athens  [body: 4562 chars]
+  Q1443132 (greece/relation/26847383) -> matched: Kalaureia  [body: 9008 chars]
+  Q724394 (greece/relation/1086973) -> matched: Poros  [body: 12430 chars]
+  Q43851061 (greece/way/2012433806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15137647 (greece/way/2017413014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12885360 (greece/way/2023502554) -> matched: Tithronium  [body: 750 chars]
+  Q109301707 (greece/relation/24183901) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1534902 (greece/way/2023679534) -> matched: Hyampolis  [body: 5192 chars]
+  Q2336775 (greece/relation/19106481) -> matched: Pangrati  [body: 6221 chars]
+  Q110445686 (greece/way/2037733132) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12880233 (greece/relation/3956667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21591287 (greece/way/2054666958) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53633190 (greece/way/2074957204) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q53629229 (greece/way/2074957214) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3212151 (greece/way/2102783808) -> matched: Old Paros National Airport  [body: 1380 chars]
+  Q12872917 (greece/relation/5920771) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q646284 (greece/relation/23010275) -> matched: National Garden, Athens  [body: 5397 chars]
+  Q53672664 (greece/relation/33889985) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q719518 (greece/relation/1625521) -> matched: Paxos  [body: 6063 chars]
+  Q25016540 (greece/relation/1625535) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12879778 (greece/relation/1625559) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114370096 (greece/way/2186534154) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7180290 (greece/relation/18399533) -> matched: Phaleron Bay  [body: 1811 chars]
+  Q6983927 (greece/way/2186675804) -> matched: Nea Aretsou  [body: 450 chars]
+  Q38280975 (greece/way/2190184442) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114037045 (greece/way/2191469368) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2308046 (greece/way/2209023374) -> matched: Sparta (modern city)  [body: 6122 chars]
+  Q1689422 (greece/way/2209029270) -> matched: Nea Moudania  [body: 1283 chars]
+  Q15057313 (greece/relation/29470051) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12883700 (greece/relation/23927555) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31190077 (greece/way/2242971940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q107452683 (greece/way/2253133168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1545894 (greece/way/2255971294) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31666106 (greece/relation/31067239) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433916 (greece/way/2306505766) -> matched: Tympaki Airport  [body: 869 chars]
+  Q25054192 (greece/way/2310786482) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12884220 (greece/relation/1086385) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q546109 (greece/relation/1061503) -> matched: Keros  [body: 5373 chars]
+  Q48965819 (greece/way/2327368206) -> matched: Methone (Macedonia)  [body: 12274 chars]
+  Q8427831 (greece/relation/29556753) -> matched: Pikrolimni (lake)  [body: 8674 chars]
+  Q25171539 (greece/way/2334635364) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q456784 (greece/relation/16647397) -> matched: Ampelokipoi, Thessaloniki  [body: 1100 chars]
+  Q1235440 (greece/way/2349178084) -> matched: Monastiraki  [body: 881 chars]
+  Q25019621 (greece/relation/7089611) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53632172 (greece/relation/31872119) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q2917457 (greece/relation/1073425) -> matched: Tsoungria  [body: 495 chars]
+  Q515085 (greece/relation/1073415) -> matched: Skiathos  [body: 7830 chars]
+  Q25081685 (greece/way/2391063538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25535205 (greece/way/2391126410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q304986 (greece/relation/1625557) -> matched: Arkoudi  [body: 309 chars]
+  Q539628 (greece/relation/1625547) -> matched: Meganisi  [body: 1141 chars]
+  Q991274 (greece/relation/1625543) -> matched: Kalamos (island)  [body: 2628 chars]
+  Q614919 (greece/relation/1625555) -> matched: Atokos  [body: 2323 chars]
+  Q1026387 (greece/relation/1625541) -> matched: Kastos  [body: 1943 chars]
+  Q12881687 (greece/relation/1082219) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7831331 (greece/relation/1719193) -> matched: Trachilos (islet)  [body: 326 chars]
+  Q745477 (greece/relation/1716293) -> matched: Koufonisi (Crete)  [body: 2286 chars]
+  Q6740094 (greece/relation/1719207) -> matched: Makroulo  [body: 283 chars]
+  Q7624719 (greece/relation/1719203) -> matched: Strongyli (Crete)  [body: 827 chars]
+  Q21588464 (greece/way/2436354708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q644254 (greece/relation/1064595) -> matched: Pserimos  [body: 798 chars]
+  Q25105720 (greece/relation/1082243) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3112569 (greece/relation/1082211) -> matched: Kalolimnos  [body: 1145 chars]
+  Q21683490 (greece/relation/33536989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683499 (greece/relation/33537255) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15078173 (greece/relation/1082233) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1934034 (greece/relation/1082169) -> matched: Telendos  [body: 725 chars]
+  Q3498238 (greece/relation/33686025) -> matched: Kalymnos Island National Airport  [body: 618 chars]
+  Q15057364 (greece/relation/33709787) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21626616 (greece/way/2476055262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64737877 (greece/way/2481000780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1365911 (greece/relation/15556009) -> matched: Kastraki (lake)  [body: 474 chars]
+  Q5707269 (greece/way/2500842934) -> matched: Hellenic Naval Academy  [body: 8082 chars]
+  Q17496804 (greece/relation/6718633) -> matched: Ioannina Castle  [body: 9266 chars]
+  Q2614266 (greece/relation/19741283) -> matched: Rizoupoli  [body: 1044 chars]
+  Q96212481 (greece/relation/34842797) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6377750 (greece/relation/21201979) -> matched: Kato Petralona  [body: 1330 chars]
+  Q4769819 (greece/relation/21186483) -> matched: Ano Petralona  [body: 1330 chars]
+  Q24915572 (greece/relation/34879043) -> matched: Lake Antiniotissa  [body: 1737 chars]
+  Q60668509 (greece/relation/16647573) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1739269 (greece/relation/32261525) -> matched: Lake Kerkini  [body: 2749 chars]
+  Q16363506 (greece/relation/35135189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1915216 (greece/way/2560838986) -> matched: Pythagoreion  [body: 1744 chars]
+  Q76936655 (greece/relation/35146345) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12880041 (greece/relation/5613153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2827304 (greece/way/2562370744) -> matched: Agridi, Achaea  [body: 277 chars]
+  Q1472501 (greece/relation/11390707) -> matched: Lake Koroneia  [body: 1843 chars]
+  Q126594295 (greece/way/2582691806) -> matched: Papoura Hill Circular Structure  [body: 3375 chars]
+  Q51531563 (greece/way/2589410118) -> matched: American Farm School  [body: 3272 chars]
+  Q25120218 (greece/relation/35639513) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1545893 (greece/way/2624435086) -> matched: Kapıkule  [body: 2785 chars]
+  Q48353 (greece/way/2626239960) -> matched: Rio–Antirrio Bridge  [body: 8297 chars]
+  Q12884327 (greece/way/2626368356) -> matched: Saranta Ekklisies  [body: 607 chars]
+  Q21080037 (greece/way/2626370910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q38280948 (greece/relation/36277179) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96408 (greece/relation/7505693) -> matched: Elafonisos  [body: 1985 chars]
+  Q25118364 (greece/relation/36949041) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25018022 (greece/relation/33576315) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25018862 (greece/relation/1063229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24992974 (greece/relation/35801977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15078028 (greece/relation/35801987) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21683514 (greece/relation/1062721) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q548524 (greece/relation/1063079) -> matched: Leipsoi  [body: 3986 chars]
+  Q25053337 (greece/relation/38374965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q53672684 (greece/way/2789165096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q189596 (greece/relation/5815055) -> matched: Vardar  [body: 4681 chars]
+  Q2455220 (greece/relation/22525133) -> matched: Chios Island National Airport  [body: 971 chars]
+  Q1330873 (greece/relation/1066119) -> matched: Psara  [body: 6190 chars]
+  Q1779602 (greece/relation/19100577) -> matched: Kolonaki  [body: 1224 chars]
+  Q12880043 (greece/relation/4737317) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25163821 (greece/relation/3482177) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2291550 (greece/way/2925146772) -> matched: Elos  [body: 1052 chars]
+  Q21500636 (greece/way/2926104418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17574890 (greece/relation/3645773) -> matched: Skiritida forest  [body: 978 chars]
+  Q4752135 (greece/relation/40225433) -> matched: Anatolia College  [body: 13744 chars]
+  Q21601248 (greece/way/2952125156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14213239 (greece/relation/18156247) -> matched: Korission Lagoon  [body: 2234 chars]
+  Q38283757 (greece/relation/40734755) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25159992 (greece/relation/7091663) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113653896 (greece/way/2985158172) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3557443 (greece/relation/40877171) -> matched: Acropolis of Rhodes  [body: 7669 chars]
+  Q2613998 (greece/way/3013795166) -> matched: Koukaki  [body: 2296 chars]
+  Q531602 (greece/relation/16811499) -> matched: Exarcheia  [body: 7984 chars]
+  Q281748 (greece/relation/27282749) -> matched: Lake Vegoritida  [body: 773 chars]
+  Q2633779 (greece/relation/23921271) -> matched: Souda Bay  [body: 5148 chars]
+
+wrote 463 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/greece_wikidata.parquet
+wrote 463 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/greece_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/greece_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/greece_wikidata_map.png
+  rows=463 geometry_missing=0 bodies=462 jsonl=463 map_html=667620B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['greece']
+  failed:    0 -> []
+
+=== union ===
+unioned 23 countries -> 2524 rows
+[23:49:49] union
+unioned 23 countries -> 2524 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:49:55] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 96 files.
+Finished hashing 96 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 34 files]                : 100%|██████████| 8.79MB / 8.79MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 44)    :  47%|████▋     | 11.2MB / 23.7MB, 14.0MB/s  
+
+  ...s/monaco_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/monaco_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/monaco_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  15%|█▍        | 1.97MB / 13.5MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 48)    :  51%|█████▏    | 12.2MB / 23.7MB, 8.73MB/s  
+New Data Upload               :   4%|▍         |  524kB / 12.0MB,  374kB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   9%|▉         |  909kB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   4%|▍         | 6.81kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet:   4%|▍         |  107kB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png:   4%|▍         | 5.69kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  18%|█▊        | 1.72MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  13%|█▎        | 20.4kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet:  13%|█▎        |  322kB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png:  13%|█▎        | 17.1kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 48)    :  56%|█████▌    | 13.3MB / 23.7MB, 7.37MB/s  
+New Data Upload               :  13%|█▎        | 1.57MB / 12.0MB,  874kB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  38%|███▊      | 3.74MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  35%|███▍      | 54.4kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet:  35%|███▍      |  858kB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png:  35%|███▍      | 45.5kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 48)    :  67%|██████▋   | 15.9MB / 23.7MB, 7.94MB/s  
+New Data Upload               :  35%|███▍      | 4.19MB / 12.0MB, 2.10MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  88%|████████▊ | 8.60MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  87%|████████▋ |  136kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet:  87%|████████▋ | 2.14MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png:  87%|████████▋ |  114kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 48)    :  93%|█████████▎| 22.2MB / 23.7MB, 10.1MB/s  
+New Data Upload               :  87%|████████▋ | 10.5MB / 12.0MB, 4.77MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  96%|█████████▌| 9.41MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  96%|█████████▌|  150kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet:  96%|█████████▌| 2.36MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png:  96%|█████████▌|  125kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 48)    :  98%|█████████▊| 23.2MB / 23.7MB, 9.68MB/s  
+New Data Upload               :  96%|█████████▌| 11.5MB / 12.0MB, 4.81MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  96%|█████████▌| 9.41MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  96%|█████████▌|  150kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet:  96%|█████████▌| 2.36MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png:  96%|█████████▌|  125kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 9.80MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 48)    : 100%|██████████| 23.7MB / 23.7MB, 8.48MB/s  
+New Data Upload               : 100%|██████████| 12.0MB / 12.0MB, 4.30MB/s  [A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 9.80MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 9.80MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 9.80MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 9.80MB / 9.80MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (48 / 48)    : 100%|██████████| 23.7MB / 23.7MB, 6.98MB/s  
+New Data Upload               : 100%|██████████| 12.0MB / 12.0MB, 3.54MB/s  
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 9.80MB / 9.80MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            
+  ...s/greece_wikidata.parquet: 100%|██████████| 2.46MB / 2.46MB            
+  ...s/greece_wikidata_map.png: 100%|██████████|  131kB /  131kB            
+Removing 89 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/b66b030db7c504816cd17b53e6ebbb3946c8bcff
+[23:50:09] DONE greece

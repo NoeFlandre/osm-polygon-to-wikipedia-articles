@@ -1,0 +1,1272 @@
+[02:00:32] === bosnia-herzegovina ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== bosnia-herzegovina ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bosnia-herzegovina.parquet
+wrote 49715 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bosnia-herzegovina.parquet
+pre-filter (--only-wikidata): 49715 -> 108 rows
+
+108 polygons with wikidata=*
+  matched:           76
+  no en sitelink:    28
+  no sitelinks:      4
+  Q1278015 (bosnia-herzegovina/way/47394640) -> matched: Vraca Memorial Park  [body: 1393 chars]
+  Q16869789 (bosnia-herzegovina/way/55835708) -> matched: Malo Plivsko Lake  [body: 207 chars]
+  Q1272636 (bosnia-herzegovina/way/55988570) -> matched: Boračko jezero  [body: 1185 chars]
+  Q3273035 (bosnia-herzegovina/way/57569174) -> matched: Vrelo Bosne  [body: 3162 chars]
+  Q1282719 (bosnia-herzegovina/way/63341808) -> matched: Modrac Lake  [body: 617 chars]
+  Q12747654 (bosnia-herzegovina/way/65326906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4737361 (bosnia-herzegovina/way/70957970) -> matched: Aluminij  [body: 4919 chars]
+  Q12643131 (bosnia-herzegovina/way/71162416) -> matched: Svitavsko Lake  [body: 405 chars]
+  Q55886759 (bosnia-herzegovina/way/77124818) -> matched: Lake Vrutak  [body: 808 chars]
+  Q31200685 (bosnia-herzegovina/way/77179012) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8082823 (bosnia-herzegovina/way/78685420) -> matched: Škrka Lake  [body: 2599 chars]
+  Q21728846 (bosnia-herzegovina/way/78685428) -> matched: Jelim Lake  [body: 297 chars]
+  Q1567656 (bosnia-herzegovina/way/78685440) -> matched: Deransko Blato  [body: 254 chars]
+  Q16088259 (bosnia-herzegovina/way/81170290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65133425 (bosnia-herzegovina/way/90885910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q640410 (bosnia-herzegovina/way/142758560) -> matched: Željava Air Base  [body: 6840 chars]
+  Q155032 (bosnia-herzegovina/way/158989576) -> matched: Jasenovac concentration camp  [body: 87556 chars]
+  Q7919005 (bosnia-herzegovina/way/172250904) -> matched: Great Pliva Lake  [body: 904 chars]
+  Q4851099 (bosnia-herzegovina/way/172421848) -> matched: Balkana Lake  [body: 839 chars]
+  Q932846 (bosnia-herzegovina/way/174413284) -> matched: Perućac lake  [body: 10413 chars]
+  Q6436754 (bosnia-herzegovina/way/216450768) -> matched: Krenica Lake  [body: 306 chars]
+  Q7068726 (bosnia-herzegovina/way/216630494) -> matched: Nuga Lake  [body: 178 chars]
+  Q1587312 (bosnia-herzegovina/way/218768880) -> matched: University of Banja Luka  [body: 9468 chars]
+  Q1272676 (bosnia-herzegovina/way/311988958) -> matched: Uloško Lake  [body: 172 chars]
+  Q539439 (bosnia-herzegovina/way/333386330) -> matched: Perućica  [body: 1358 chars]
+  Q3435511 (bosnia-herzegovina/way/334128246) -> matched: Klinje Lake  [body: 230 chars]
+  Q21717371 (bosnia-herzegovina/way/334672328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3511608 (bosnia-herzegovina/way/334672454) -> matched: Štirinsko Lake  [body: 2599 chars]
+  Q28035386 (bosnia-herzegovina/way/344921554) -> matched: Butmir Training Centre  [body: 3417 chars]
+  Q21718378 (bosnia-herzegovina/way/348913964) -> matched: Župica Lake  [body: 668 chars]
+  Q17775734 (bosnia-herzegovina/way/369842098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25555173 (bosnia-herzegovina/way/378112000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1272974 (bosnia-herzegovina/way/380964746) -> matched: Drenova Lake  [body: 533 chars]
+  Q21723572 (bosnia-herzegovina/way/380964750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12643848 (bosnia-herzegovina/way/380964758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1283750 (bosnia-herzegovina/way/380964760) -> matched: Alagovac Lake  [body: 126 chars]
+  Q1780876 (bosnia-herzegovina/way/380979282) -> matched: Ugljevik Power Plant  [body: 2687 chars]
+  Q1780876 (bosnia-herzegovina/way/390073120) -> matched: Ugljevik Power Plant  [body: 2687 chars]
+  Q11824267 (bosnia-herzegovina/way/397461222) -> matched: Bihać Golubić Airport  [body: 1629 chars]
+  Q21730045 (bosnia-herzegovina/way/400347670) -> matched: Trebinjsko Lake  [body: 466 chars]
+  Q12627228 (bosnia-herzegovina/way/438585624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24702916 (bosnia-herzegovina/way/440450718) -> matched: University Clinical Center of the Republika Srpska  [body: 813 chars]
+  Q3503434 (bosnia-herzegovina/relation/35302817) -> matched: Hrast Lake  [body: 168 chars]
+  Q16099331 (bosnia-herzegovina/way/501171622) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5688370 (bosnia-herzegovina/way/586811936) -> matched: Hazna Lake  [body: 591 chars]
+  Q19407124 (bosnia-herzegovina/way/593320274) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q186901 (bosnia-herzegovina/way/599260354) -> matched: Drina  [body: 22146 chars]
+  Q3395450 (bosnia-herzegovina/relation/8211077) -> matched: Grabovica Lake  [body: 293 chars]
+  Q43951417 (bosnia-herzegovina/way/746358916) -> matched: Daorson  [body: 5342 chars]
+  Q24702947 (bosnia-herzegovina/way/751725582) -> matched: Clinical Center of the University of Sarajevo  [body: 6573 chars]
+  Q1276499 (bosnia-herzegovina/way/760102216) -> matched: Brod Fortress  [body: 7502 chars]
+  Q231499 (bosnia-herzegovina/relation/2641465) -> matched: Zvornik Lake  [body: 1393 chars]
+  Q740392 (bosnia-herzegovina/way/944173404) -> matched: Sarajevo International Airport  [body: 13339 chars]
+  Q6470633 (bosnia-herzegovina/relation/14147847) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6557053 (bosnia-herzegovina/relation/15485399) -> matched: Lipsko Lake  [body: 1269 chars]
+  Q884054 (bosnia-herzegovina/relation/15681251) -> matched: Blidinje Lake  [body: 1677 chars]
+  Q12630221 (bosnia-herzegovina/relation/15681249) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1276330 (bosnia-herzegovina/way/1245636280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12640323 (bosnia-herzegovina/relation/18503255) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98097548 (bosnia-herzegovina/way/1361205834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64066244 (bosnia-herzegovina/way/1385491214) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1786135 (bosnia-herzegovina/relation/19741213) -> matched: Kakanj Power Station  [body: 1257 chars]
+  Q11824821 (bosnia-herzegovina/way/1419371766) -> matched: Visoko Sport Airfield  [body: 305 chars]
+  Q18392784 (bosnia-herzegovina/way/1494150898) -> matched: Stanari Thermal Power Plant  [body: 2576 chars]
+  Q26224110 (bosnia-herzegovina/way/1520140426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1433133 (bosnia-herzegovina/way/1544017900) -> matched: Tuzla International Airport  [body: 7983 chars]
+  Q3443302 (bosnia-herzegovina/way/1586209914) -> matched: International University of Sarajevo  [body: 11533 chars]
+  Q139819113 (bosnia-herzegovina/way/1643917222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25555268 (bosnia-herzegovina/relation/23319849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1275608 (bosnia-herzegovina/relation/23331111) -> matched: Bočac Lake  [body: 279 chars]
+  Q13081339 (bosnia-herzegovina/relation/23338485) -> matched: Bare Cemetery  [body: 2037 chars]
+  Q1432098 (bosnia-herzegovina/relation/23434545) -> matched: Mostar International Airport  [body: 2887 chars]
+  Q7840428 (bosnia-herzegovina/relation/20173383) -> matched: Tribistovo Lake  [body: 186 chars]
+  Q7857286 (bosnia-herzegovina/relation/24568939) -> matched: Tuzla Thermal Power Plant  [body: 5974 chars]
+  Q61943405 (bosnia-herzegovina/relation/24524869) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q603430 (bosnia-herzegovina/way/1819375946) -> matched: Livno Airfield  [body: 461 chars]
+  Q3390892 (bosnia-herzegovina/relation/4493293) -> matched: Ramsko lake (Bosnia and Herzegovina)  [body: 534 chars]
+  Q1541439 (bosnia-herzegovina/relation/9487003) -> matched: Jablaničko lake  [body: 1676 chars]
+  Q21729484 (bosnia-herzegovina/relation/8370977) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q843093 (bosnia-herzegovina/way/1929973154) -> matched: Dretelj camp  [body: 8013 chars]
+  Q108146940 (bosnia-herzegovina/way/1930193326) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q932846 (bosnia-herzegovina/way/1940384632) -> matched: Perućac lake  [body: 10413 chars]
+  Q2418337 (bosnia-herzegovina/relation/27987345) -> matched: Kozara National Park  [body: 5260 chars]
+  Q11824684 (bosnia-herzegovina/way/2098813526) -> matched: Prijedor Urije Airfield  [body: 296 chars]
+  Q1430945 (bosnia-herzegovina/relation/25649289) -> matched: Banja Luka International Airport  [body: 4467 chars]
+  Q776520 (bosnia-herzegovina/relation/14249991) -> matched: Buško Lake  [body: 3114 chars]
+  Q207801 (bosnia-herzegovina/relation/29017173) -> matched: Bijeljina  [body: 11845 chars]
+  Q194482 (bosnia-herzegovina/relation/27887329) -> matched: Brod, Bosnia and Herzegovina  [body: 3792 chars]
+  Q110213064 (bosnia-herzegovina/relation/29218479) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q322828 (bosnia-herzegovina/relation/29292343) -> matched: Brčko  [body: 6388 chars]
+  Q16333723 (bosnia-herzegovina/relation/31729045) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q118414930 (bosnia-herzegovina/way/2347108670) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q93347 (bosnia-herzegovina/relation/16961847) -> matched: Mostar  [body: 40409 chars]
+  Q118414930 (bosnia-herzegovina/relation/31729285) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q43958640 (bosnia-herzegovina/relation/23483375) -> matched: Walled city of Vratnik  [body: 5923 chars]
+  Q108146920 (bosnia-herzegovina/relation/38369519) -> matched: Vrelo Bosne  [body: 3162 chars]
+  Q12634581 (bosnia-herzegovina/way/2454432948) -> matched: Čude Canyon  [body: 2147 chars]
+  Q123574465 (bosnia-herzegovina/relation/33531717) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q54958692 (bosnia-herzegovina/way/2460426332) -> matched: Dolovi–Poljice stećak necropolis  [body: 4043 chars]
+  Q108146921 (bosnia-herzegovina/way/2572169356) -> matched: Bardača  [body: 602 chars]
+  Q20526911 (bosnia-herzegovina/way/2572878424) -> matched: Mostarsko Blato  [body: 4283 chars]
+  Q7403502 (bosnia-herzegovina/way/2573213942) -> matched: Salakovac Lake  [body: 292 chars]
+  Q1277723 (bosnia-herzegovina/relation/32284965) -> matched: Blagaj, Mostar  [body: 5112 chars]
+  Q123631414 (bosnia-herzegovina/relation/29272763) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12640322 (bosnia-herzegovina/relation/18503257) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2656960 (bosnia-herzegovina/relation/2596177) -> matched: Bilećko Lake  [body: 1248 chars]
+  Q43947978 (bosnia-herzegovina/relation/32963155) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q3007989 (bosnia-herzegovina/relation/41399183) -> matched: Cvilin  [body: 739 chars]
+
+wrote 76 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bosnia-herzegovina_wikidata.parquet
+wrote 76 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bosnia-herzegovina_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bosnia-herzegovina_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/bosnia-herzegovina_wikidata_map.png
+  rows=76 geometry_missing=0 bodies=76 jsonl=76 map_html=114049B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['bosnia-herzegovina']
+  failed:    0 -> []
+
+=== union ===
+unioned 31 countries -> 4193 rows
+[02:02:21] union
+unioned 31 countries -> 4193 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[02:02:28] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 128 files.
+Finished hashing 128 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 : 100%|██████████| 1.60MB / 1.60MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (13 / 13)    :  14%|█▍        | 5.38MB / 37.6MB, 6.73MB/s  
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A
+
+
+
+  .../belgium_wikidata.parquet: 100%|██████████|  673kB /  673kB            [A[A[A[A
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A
+
+
+
+
+
+  .../denmark_wikidata.parquet: 100%|██████████| 1.25MB / 1.25MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../croatia_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../denmark_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 47 files]                : 100%|██████████| 16.4MB / 16.4MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 60)    :  55%|█████▌    | 20.8MB / 37.6MB, 20.8MB/s  
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...bulgaria_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  12%|█▏        | 2.15MB / 17.8MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 64)    :  58%|█████▊    | 22.0MB / 37.6MB, 15.7MB/s  
+New Data Upload               :   3%|▎         |  524kB / 16.2MB,  375kB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:   7%|▋         | 1.19MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   3%|▎         | 5.08kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet:   3%|▎         | 14.0kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png:   3%|▎         | 4.54kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  10%|█         | 1.69MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   6%|▋         | 10.2kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet:   6%|▋         | 28.1kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png:   6%|▋         | 9.08kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 64)    :  60%|█████▉    | 22.5MB / 37.6MB, 12.5MB/s  
+New Data Upload               :   6%|▋         | 1.05MB / 16.2MB,  583kB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  29%|██▉       | 4.69MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  26%|██▌       | 40.6kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet:  26%|██▌       |  112kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png:  26%|██▌       | 36.3kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 64)    :  68%|██████▊   | 25.7MB / 37.6MB, 12.8MB/s  
+New Data Upload               :  26%|██▌       | 4.20MB / 16.2MB, 2.10MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  60%|██████    | 9.70MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  58%|█████▊    | 91.4kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet:  58%|█████▊    |  253kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png:  58%|█████▊    | 81.7kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 64)    :  82%|████████▏ | 30.9MB / 37.6MB, 14.1MB/s  
+New Data Upload               :  58%|█████▊    | 9.44MB / 16.2MB, 4.29MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  97%|█████████▋| 15.7MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  97%|█████████▋|  152kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet:  97%|█████████▋|  421kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png:  97%|█████████▋|  136kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (60 / 64)    :  99%|█████████▉| 37.2MB / 37.6MB, 15.5MB/s  
+New Data Upload               :  97%|█████████▋| 15.7MB / 16.2MB, 6.56MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  97%|█████████▋| 15.7MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  97%|█████████▋|  152kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet:  97%|█████████▋|  421kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png:  97%|█████████▋|  136kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  97%|█████████▋| 15.7MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  97%|█████████▋|  152kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet:  97%|█████████▋|  421kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png:  97%|█████████▋|  136kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 16.1MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 64)    : 100%|██████████| 37.6MB / 37.6MB, 12.5MB/s  
+New Data Upload               : 100%|██████████| 16.2MB / 16.2MB, 5.39MB/s  [A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 16.1MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 16.1MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 16.1MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 16.1MB / 16.1MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (64 / 64)    : 100%|██████████| 37.6MB / 37.6MB, 10.5MB/s  
+New Data Upload               : 100%|██████████| 16.2MB / 16.2MB, 4.49MB/s  
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 16.1MB / 16.1MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+  ...zegovina_wikidata.parquet: 100%|██████████|  433kB /  433kB            
+  ...zegovina_wikidata_map.png: 100%|██████████|  140kB /  140kB            
+Removing 121 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/119fc04a290b07bd74673961d702d5297269d1f8
+[02:02:42] DONE bosnia-herzegovina

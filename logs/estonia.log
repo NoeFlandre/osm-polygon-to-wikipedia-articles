@@ -1,0 +1,2351 @@
+[23:13:25] === estonia ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== estonia ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/estonia.parquet
+pre-filter (--only-wikidata): 47160 -> 1125 rows
+
+1125 polygons with wikidata=*
+  matched:           316
+  no en sitelink:    765
+  no sitelinks:      44
+  Q61398496 (estonia/way/9203408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7124677 (estonia/way/9203422) -> matched: Paide Reservoir  [body: 509 chars]
+  Q61398015 (estonia/way/9502556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12379078 (estonia/way/9502568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42888387 (estonia/way/9878416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13459388 (estonia/way/9878712) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398611 (estonia/way/9880446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398625 (estonia/way/9880520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398687 (estonia/way/9880526) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3738841 (estonia/way/9941430) -> matched: Lake Lohja (Estonia)  [body: 568 chars]
+  Q12377933 (estonia/way/10241516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1808999 (estonia/way/16075446) -> matched: Lake Maardu  [body: 902 chars]
+  Q14955080 (estonia/relation/24658259) -> matched: Liiva Cemetery  [body: 522 chars]
+  Q18626470 (estonia/way/16202798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31273430 (estonia/way/18407806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5251189 (estonia/way/20627700) -> matched: Defence Forces Cemetery of Tallinn  [body: 3615 chars]
+  Q12375118 (estonia/way/20627758) -> matched: Siselinna Cemetery  [body: 285 chars]
+  Q2541547 (estonia/way/20627986) -> matched: Metsakalmistu  [body: 2049 chars]
+  Q12373655 (estonia/way/33912258) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21708149 (estonia/way/39562456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q73511178 (estonia/way/45630160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12369276 (estonia/way/45752270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3449235 (estonia/way/47197154) -> matched: Lake Auksi  [body: 355 chars]
+  Q23888925 (estonia/way/47408082) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409366 (estonia/way/47415074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272748 (estonia/relation/22552625) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23886958 (estonia/way/47852604) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18625598 (estonia/way/47852652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623427 (estonia/way/48021740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15197388 (estonia/way/48052618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23890580 (estonia/way/49606740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12370549 (estonia/way/49676344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272678 (estonia/way/49677246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15429221 (estonia/way/51327368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23890583 (estonia/way/51644490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23890594 (estonia/way/51644586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272677 (estonia/way/52940914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1515717 (estonia/relation/60055) -> matched: Pühajärv  [body: 628 chars]
+  Q13581229 (estonia/way/53692158) -> matched: Rocca al Mare Shopping Centre  [body: 1764 chars]
+  Q12367585 (estonia/way/53732606) -> matched: Kristiine Centre  [body: 1509 chars]
+  Q13641807 (estonia/way/53816736) -> matched: Järve Centre  [body: 953 chars]
+  Q12366125 (estonia/way/54591822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889196 (estonia/way/55154502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623682 (estonia/way/55155794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31277104 (estonia/way/56927622) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18908016 (estonia/way/58144910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410505 (estonia/way/58468356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412897 (estonia/way/59093878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12372022 (estonia/way/59206270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q946301 (estonia/way/59955204) -> matched: University of Tartu Botanical Garden  [body: 632 chars]
+  Q12374052 (estonia/way/60027118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530020 (estonia/way/60050844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65255014 (estonia/way/60050858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399135 (estonia/way/60050864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367761 (estonia/way/60050866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399306 (estonia/way/60050870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399257 (estonia/way/60050894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2604569 (estonia/way/60051164) -> matched: Lake Arbi  [body: 447 chars]
+  Q12378410 (estonia/way/60051166) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399332 (estonia/way/60051168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12359801 (estonia/way/60051170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q177915 (estonia/way/60051176) -> matched: Soitsjärv  [body: 533 chars]
+  Q23889945 (estonia/way/60051416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399093 (estonia/way/60051420) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374844 (estonia/way/60051426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25405638 (estonia/way/60051430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398438 (estonia/way/60051432) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23887150 (estonia/way/60051434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23886952 (estonia/way/60051438) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14954798 (estonia/way/60287548) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1807497 (estonia/way/60382974) -> matched: Tamme Stadium  [body: 2858 chars]
+  Q12374678 (estonia/way/60382982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14955995 (estonia/way/60383016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195761 (estonia/way/60546010) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6477470 (estonia/way/61467236) -> matched: Lake Raadi  [body: 796 chars]
+  Q16410364 (estonia/way/61467346) -> matched: Anne Canal  [body: 306 chars]
+  Q16410364 (estonia/way/61467506) -> matched: Anne Canal  [body: 306 chars]
+  Q61402146 (estonia/way/61688770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25509078 (estonia/way/61689236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2095029 (estonia/way/62182480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6477161 (estonia/way/62213948) -> matched: Lake Nüpli  [body: 512 chars]
+  Q18623161 (estonia/way/62558558) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624980 (estonia/way/62811404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624983 (estonia/way/62811530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888963 (estonia/way/67993156) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12364012 (estonia/way/68098300) -> matched: Hirvepark  [body: 287 chars]
+  Q61399283 (estonia/relation/252203) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530795 (estonia/way/68490948) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12364345 (estonia/way/68699460) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3737153 (estonia/way/69364120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6406076 (estonia/way/69764872) -> matched: Kiidjärv  [body: 440 chars]
+  Q24031315 (estonia/way/73677742) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24025167 (estonia/way/73677744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32199454 (estonia/way/73677752) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6788077 (estonia/way/73677766) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11230230 (estonia/way/73677770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17435866 (estonia/way/73677778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q177609 (estonia/way/73677790) -> matched: Lake Kirikumäe  [body: 525 chars]
+  Q32197537 (estonia/way/73677792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13459581 (estonia/way/73747226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623741 (estonia/way/73747232) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24025217 (estonia/way/73747266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24025208 (estonia/way/73747270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24034731 (estonia/way/73747278) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32197917 (estonia/relation/325763) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32197491 (estonia/way/73747288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21092555 (estonia/way/73763152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25519344 (estonia/relation/331447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13668081 (estonia/way/74079612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529808 (estonia/way/75108672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113376100 (estonia/way/75364212) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q14915535 (estonia/way/76214242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371117 (estonia/way/76214244) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24031251 (estonia/way/76894120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12362669 (estonia/way/76894128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195072 (estonia/way/78435770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398064 (estonia/relation/447939) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626663 (estonia/relation/2885557) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272236 (estonia/way/81234820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3743829 (estonia/way/81602808) -> matched: Sutlepa Sea  [body: 742 chars]
+  Q20529616 (estonia/relation/7990739) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398075 (estonia/way/83324612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398479 (estonia/way/83324614) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12378952 (estonia/way/83577698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888969 (estonia/way/84055224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888628 (estonia/way/84055230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12365632 (estonia/way/84423036) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16408905 (estonia/way/84423044) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626515 (estonia/way/84425052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373249 (estonia/way/84594934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399841 (estonia/way/84594936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399839 (estonia/way/84594940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623530 (estonia/way/86016262) -> matched: Türi Central Cemetery  [body: 930 chars]
+  Q31276249 (estonia/way/86016268) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31273853 (estonia/way/86016272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412019 (estonia/relation/604383) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398660 (estonia/way/87437818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7124077 (estonia/way/90897240) -> matched: Paelaid  [body: 161 chars]
+  Q1472222 (estonia/way/90904506) -> matched: Nootamaa  [body: 658 chars]
+  Q1500065 (estonia/way/90907198) -> matched: Viirelaid  [body: 923 chars]
+  Q55183235 (estonia/way/90907746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7382679 (estonia/way/90908210) -> matched: Rusulaid  [body: 198 chars]
+  Q55134092 (estonia/way/90912500) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11966588 (estonia/way/90912730) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14405639 (estonia/way/90912828) -> matched: Naistekivi maa  [body: 127 chars]
+  Q279167 (estonia/way/90913462) -> matched: Tartu Airport  [body: 2277 chars]
+  Q7383432 (estonia/way/90913508) -> matched: Rutja Airfield  [body: 356 chars]
+  Q56295386 (estonia/way/90913538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412655 (estonia/way/90913616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q525908 (estonia/way/90913982) -> matched: Kesselaid  [body: 1654 chars]
+  Q23888904 (estonia/way/90915772) -> matched: Kriimi laid  [body: 192 chars]
+  Q7877303 (estonia/way/90918036) -> matched: Udrikulaid  [body: 700 chars]
+  Q6950313 (estonia/way/90918042) -> matched: Mõndelaid  [body: 255 chars]
+  Q4777774 (estonia/way/90918674) -> matched: Anulaid  [body: 495 chars]
+  Q55228793 (estonia/way/90918822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889613 (estonia/way/90919406) -> matched: Ooslamaa  [body: 704 chars]
+  Q7264858 (estonia/way/90919736) -> matched: Pühadekare  [body: 123 chars]
+  Q11245858 (estonia/way/90928906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11236722 (estonia/way/90928964) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889931 (estonia/way/90937226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7675348 (estonia/way/90937398) -> matched: Taguküla laid  [body: 126 chars]
+  Q692172 (estonia/way/90937538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4242094 (estonia/way/90937778) -> matched: Eerikulaid  [body: 122 chars]
+  Q692226 (estonia/way/90937834) -> matched: Hõralaid  [body: 624 chars]
+  Q3072513 (estonia/way/90937894) -> matched: Kõverlaid  [body: 1070 chars]
+  Q7038203 (estonia/way/90938014) -> matched: Ninalaid  [body: 462 chars]
+  Q3126780 (estonia/way/90938058) -> matched: Hanikatsi laid  [body: 1086 chars]
+  Q3074259 (estonia/way/90938704) -> matched: Kõrgelaid  [body: 863 chars]
+  Q3554711 (estonia/way/90938830) -> matched: Vareslaid (Väinameri)  [body: 530 chars]
+  Q2827416 (estonia/way/90939390) -> matched: Ahelaid  [body: 1425 chars]
+  Q786932 (estonia/way/90940150) -> matched: Kaevatsi  [body: 1093 chars]
+  Q6454099 (estonia/way/90940168) -> matched: Külalaid  [body: 465 chars]
+  Q7903523 (estonia/way/90940224) -> matched: Uuemaarahu  [body: 882 chars]
+  Q493253 (estonia/way/90940510) -> matched: Saarnaki laid  [body: 1070 chars]
+  Q5366894 (estonia/way/90940772) -> matched: Elmrahu  [body: 230 chars]
+  Q493241 (estonia/way/90942452) -> matched: Mohni  [body: 241 chars]
+  Q3358886 (estonia/way/90944208) -> matched: Pedassaar  [body: 132 chars]
+  Q1584359 (estonia/way/90944282) -> matched: Hara Island  [body: 704 chars]
+  Q12371617 (estonia/relation/36482325) -> matched: Osmussaar Landscape Conservation Area  [body: 1527 chars]
+  Q648860 (estonia/way/90945064) -> matched: Osmussaar  [body: 8648 chars]
+  Q12368020 (estonia/way/90945696) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4695080 (estonia/way/90950898) -> matched: Ahessäär  [body: 166 chars]
+  Q23888138 (estonia/way/90952140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q692215 (estonia/way/90953916) -> matched: Hobulaid  [body: 885 chars]
+  Q19951085 (estonia/way/90956430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14743781 (estonia/relation/6008427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14743729 (estonia/relation/6008329) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2096124 (estonia/way/90960606) -> matched: Vaindloo  [body: 3284 chars]
+  Q23888074 (estonia/way/90960656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q493248 (estonia/way/90961896) -> matched: Kräsuli  [body: 128 chars]
+  Q421586 (estonia/way/90962396) -> matched: Aksi  [body: 891 chars]
+  Q23890598 (estonia/way/90962778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1739249 (estonia/way/90962814) -> matched: Keri (island)  [body: 1385 chars]
+  Q31273225 (estonia/way/90965176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412323 (estonia/way/90973202) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3472504 (estonia/relation/704769) -> matched: Mikitamäe  [body: 223 chars]
+  Q819395 (estonia/relation/705345) -> matched: Mõisaküla  [body: 1335 chars]
+  Q1741199 (estonia/relation/508067) -> matched: Kihnu  [body: 3907 chars]
+  Q12368965 (estonia/way/91054764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3449224 (estonia/way/91054828) -> matched: Arojärv  [body: 459 chars]
+  Q12368643 (estonia/way/91055774) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12370328 (estonia/way/91057544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12370655 (estonia/way/91061540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624901 (estonia/way/91064058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q120762458 (estonia/way/91076286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411561 (estonia/way/91088976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409918 (estonia/way/91092180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18625154 (estonia/way/91111704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374749 (estonia/way/91115762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410931 (estonia/way/91129430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374749 (estonia/way/91148954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32198381 (estonia/way/91152738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371105 (estonia/way/91152754) -> matched: Ubajärv  [body: 715 chars]
+  Q14915527 (estonia/way/91152756) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2641061 (estonia/way/91152762) -> matched: Lake Aheru  [body: 577 chars]
+  Q6834149 (estonia/way/91152766) -> matched: Big Pehmejärv  [body: 1289 chars]
+  Q13463009 (estonia/way/91152776) -> matched: Pikkjärv (Pikkjärve)  [body: 478 chars]
+  Q12367441 (estonia/way/91152780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6374038 (estonia/way/91152782) -> matched: Verijärv  [body: 646 chars]
+  Q12378342 (estonia/way/91152792) -> matched: Lake Vahtsõkivi  [body: 642 chars]
+  Q32196356 (estonia/way/91152798) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4232170 (estonia/way/91152804) -> matched: Valgjärv (Jeti)  [body: 2202 chars]
+  Q12378780 (estonia/way/91152812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12377621 (estonia/way/91152838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12377715 (estonia/way/91152842) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888638 (estonia/way/91152850) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410485 (estonia/way/91152856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409881 (estonia/way/91152972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412192 (estonia/way/91152986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371301 (estonia/way/91152990) -> matched: Lake Nõuni  [body: 531 chars]
+  Q3738822 (estonia/way/91152992) -> matched: Lake Mõrtsuka  [body: 489 chars]
+  Q18626878 (estonia/way/91153002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23799009 (estonia/way/91153006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22320255 (estonia/way/91153014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371128 (estonia/way/91153022) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12372979 (estonia/way/91153024) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4110936 (estonia/relation/31320017) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373147 (estonia/way/91153032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22341304 (estonia/way/91153038) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28057591 (estonia/way/91153076) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q37946796 (estonia/way/91153092) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13572126 (estonia/way/91153094) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13424391 (estonia/way/91153096) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q385528 (estonia/way/91153100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13572600 (estonia/way/91153102) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374719 (estonia/way/91153104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373079 (estonia/way/91153114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12365694 (estonia/way/91153136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409827 (estonia/way/91153140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368196 (estonia/way/91153146) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16408910 (estonia/way/91153160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7250930 (estonia/way/91153168) -> matched: Lake Prossa  [body: 528 chars]
+  Q29054029 (estonia/way/91153174) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368261 (estonia/way/91153184) -> matched: Kivijärv (Kivijärve)  [body: 537 chars]
+  Q7371153 (estonia/way/91153204) -> matched: Väinjärv  [body: 627 chars]
+  Q18626992 (estonia/way/91153206) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24031272 (estonia/way/91153208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24031266 (estonia/way/91153216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6371237 (estonia/way/91153220) -> matched: Karjatse Sea  [body: 1021 chars]
+  Q7371205 (estonia/way/91153266) -> matched: Vööla Sea  [body: 960 chars]
+  Q4538633 (estonia/way/91153302) -> matched: Lake Järlepa  [body: 546 chars]
+  Q3740572 (estonia/way/91153314) -> matched: Lake Imatu  [body: 517 chars]
+  Q4399884 (estonia/way/91153322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23887146 (estonia/way/91153346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888088 (estonia/way/91153372) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888695 (estonia/way/91153484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398707 (estonia/way/91153490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12358165 (estonia/way/91153500) -> matched: Aavoja Reservoir  [body: 914 chars]
+  Q16408925 (estonia/way/91153508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530346 (estonia/way/91153562) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411657 (estonia/way/91153704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3742729 (estonia/way/91153806) -> matched: Lake Käsmu  [body: 712 chars]
+  Q22667645 (estonia/way/91153810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12358293 (estonia/way/91153838) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29015271 (estonia/way/91153910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371159 (estonia/relation/716701) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412863 (estonia/relation/738309) -> matched: Kivijärv (Pillapalu)  [body: 495 chars]
+  Q61398282 (estonia/way/93796898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889216 (estonia/way/93796906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398280 (estonia/way/93796910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23926242 (estonia/way/93796924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12365589 (estonia/way/93796928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23925691 (estonia/way/93796944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410947 (estonia/way/93796952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12359904 (estonia/way/93796954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47513749 (estonia/way/94594380) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q621853 (estonia/relation/764779) -> matched: Lake Harku  [body: 523 chars]
+  Q20529326 (estonia/relation/780321) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18523881 (estonia/way/97931098) -> matched: Rotermanni Quarter  [body: 787 chars]
+  Q12377695 (estonia/way/98462144) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20531206 (estonia/way/98601058) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1330853 (estonia/relation/381265) -> matched: Vilsandi  [body: 6294 chars]
+  Q492989 (estonia/relation/801863) -> matched: Vohilaid  [body: 295 chars]
+  Q1469797 (estonia/relation/801939) -> matched: Rammu  [body: 151 chars]
+  Q12358283 (estonia/relation/36482313) -> matched: Aegna Landscape Conservation Area  [body: 390 chars]
+  Q380699 (estonia/relation/801967) -> matched: Aegna  [body: 2592 chars]
+  Q1795597 (estonia/relation/804879) -> matched: Kõinastu  [body: 282 chars]
+  Q48105819 (estonia/way/101176870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25513654 (estonia/way/101186186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367813 (estonia/way/101613594) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889817 (estonia/way/103678900) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371223 (estonia/relation/3576255) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4279160 (estonia/way/104860466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529971 (estonia/way/106078162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21814423 (estonia/way/107611892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12370937 (estonia/way/112450490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113481219 (estonia/way/117522000) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12372937 (estonia/way/118572112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412747 (estonia/way/120047970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410152 (estonia/way/121152938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12369952 (estonia/way/121478526) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371026 (estonia/way/121478528) -> matched: Rääkjärv  [body: 490 chars]
+  Q3738835 (estonia/way/121478530) -> matched: Lake Jaala  [body: 528 chars]
+  Q7371030 (estonia/way/121478542) -> matched: Lake Räätsma  [body: 560 chars]
+  Q23829733 (estonia/way/121478548) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23833093 (estonia/relation/1889359) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6476486 (estonia/way/121478566) -> matched: Lake Konsu  [body: 737 chars]
+  Q16412781 (estonia/way/121478570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7034460 (estonia/way/121478572) -> matched: Lake Niinsaare  [body: 1066 chars]
+  Q6807155 (estonia/way/121478576) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368790 (estonia/way/121478580) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412167 (estonia/way/121478584) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367854 (estonia/way/121478586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7049951 (estonia/way/121478588) -> matched: Nootjärv  [body: 415 chars]
+  Q12358378 (estonia/way/121478590) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412156 (estonia/way/121478596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4701466 (estonia/way/121478598) -> matched: Aknajärv  [body: 512 chars]
+  Q12371795 (estonia/way/122018108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398765 (estonia/way/122443228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q51777894 (estonia/way/123118520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31273414 (estonia/way/124251584) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31273414 (estonia/way/124251588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q334761 (estonia/relation/1935189) -> matched: Lake Ülemiste  [body: 2050 chars]
+  Q12375207 (estonia/way/129885232) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49314716 (estonia/way/137413336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12369114 (estonia/way/137985126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529333 (estonia/way/141123230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367644 (estonia/way/142558924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373020 (estonia/way/143029242) -> matched: Pärnu Alevi Cemetery  [body: 290 chars]
+  Q18626445 (estonia/way/143567760) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30337442 (estonia/way/146679132) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626980 (estonia/relation/2277029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65259358 (estonia/way/147976740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530797 (estonia/way/149756696) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399796 (estonia/way/154106778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411337 (estonia/way/154371580) -> matched: Elva Cemetery  [body: 456 chars]
+  Q31277105 (estonia/way/162382910) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48107094 (estonia/way/163054792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12358079 (estonia/way/166803892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888630 (estonia/way/168078758) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371063 (estonia/way/168078820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q630524 (estonia/way/171493984) -> matched: Tallinn Airport  [body: 31579 chars]
+  Q14955540 (estonia/way/171631358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368085 (estonia/way/171767084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626028 (estonia/relation/2260975) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529477 (estonia/way/173401886) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47513760 (estonia/way/173463126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6373614 (estonia/relation/2682511) -> matched: Karujärv  [body: 641 chars]
+  Q12365669 (estonia/relation/2683497) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368217 (estonia/way/183112702) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367423 (estonia/relation/2683555) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7370715 (estonia/relation/2704985) -> matched: Undu Bay  [body: 304 chars]
+  Q12367221 (estonia/relation/2705049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889593 (estonia/way/186048456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368869 (estonia/relation/2706581) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398624 (estonia/way/186513280) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6352616 (estonia/way/187823340) -> matched: Kalijärv  [body: 509 chars]
+  Q20529365 (estonia/relation/2739035) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3742798 (estonia/relation/2760327) -> matched: Paunküla Reservoir  [body: 1130 chars]
+  Q18175773 (estonia/way/192408536) -> matched: Ülemiste City  [body: 3026 chars]
+  Q12367432 (estonia/way/195117928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195304 (estonia/way/196869288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3743604 (estonia/relation/2882189) -> matched: Lake Klooga  [body: 647 chars]
+  Q6421345 (estonia/relation/2882187) -> matched: Klooga training area  [body: 807 chars]
+  Q3448600 (estonia/relation/2987137) -> matched: Lake Aalupi  [body: 713 chars]
+  Q12358114 (estonia/way/210589804) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3502949 (estonia/relation/2987145) -> matched: Aastejärv  [body: 473 chars]
+  Q12368318 (estonia/way/210589938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47530633 (estonia/way/210589958) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371188 (estonia/relation/264619) -> matched: Pikkjärv (Viitna)  [body: 692 chars]
+  Q56537268 (estonia/way/212754124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624540 (estonia/way/215464752) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6478164 (estonia/way/222838234) -> matched: Lake Tudu  [body: 595 chars]
+  Q23889951 (estonia/relation/3177287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398293 (estonia/way/227176320) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7148881 (estonia/relation/3215189) -> matched: Paukjärv  [body: 497 chars]
+  Q21707989 (estonia/way/230207692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65263072 (estonia/way/231516760) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889936 (estonia/way/232500242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12375528 (estonia/way/234981786) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12366533 (estonia/way/237455568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48106180 (estonia/way/238351654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25517553 (estonia/way/238361478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12379418 (estonia/way/239778064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25513584 (estonia/way/243165764) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23887539 (estonia/way/246207516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113533217 (estonia/way/247242694) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q91891475 (estonia/way/247242702) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14955550 (estonia/way/247625478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373357 (estonia/way/247741060) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529699 (estonia/way/248808996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1240598 (estonia/relation/379763) -> matched: Ruhnu  [body: 7605 chars]
+  Q18626600 (estonia/relation/3402427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371021 (estonia/relation/3402533) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4321678 (estonia/way/250276746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6989721 (estonia/way/255003604) -> matched: Neitsijärv  [body: 592 chars]
+  Q16412745 (estonia/way/256583314) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272780 (estonia/way/263450306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29421744 (estonia/way/264108944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29418619 (estonia/way/264110074) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398311 (estonia/way/265320784) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q207275 (estonia/relation/4266459) -> matched: Keila  [body: 5598 chars]
+  Q61398004 (estonia/way/266080170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13570755 (estonia/relation/2752647) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6478040 (estonia/way/270603428) -> matched: Lake Tihu  [body: 562 chars]
+  Q61398225 (estonia/relation/3203919) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219615 (estonia/way/284875016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15219614 (estonia/way/284875178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529470 (estonia/way/287743426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23887567 (estonia/relation/4001647) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272269 (estonia/way/299859914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4451403 (estonia/way/300452278) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12359020 (estonia/way/301663720) -> matched: Ambla Cemetery  [body: 1201 chars]
+  Q18624683 (estonia/relation/4099523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7264840 (estonia/relation/35628051) -> matched: Lake Tsopa  [body: 460 chars]
+  Q12367898 (estonia/relation/4266361) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1229384 (estonia/relation/4278885) -> matched: Lake Viljandi  [body: 638 chars]
+  Q31272222 (estonia/relation/4292195) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12366272 (estonia/way/321515396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272863 (estonia/way/322110052) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7944342 (estonia/way/322432098) -> matched: Väo Power Plant  [body: 1419 chars]
+  Q31272905 (estonia/way/325377270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411636 (estonia/relation/4359889) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1014364 (estonia/way/328332334) -> matched: Varbola Stronghold  [body: 2812 chars]
+  Q6809497 (estonia/way/330538968) -> matched: Umbjärv (Meeksi)  [body: 877 chars]
+  Q32195644 (estonia/way/332787810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367414 (estonia/way/334592244) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21595685 (estonia/way/343039290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13570671 (estonia/way/343194234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529718 (estonia/way/345527832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18113134 (estonia/way/347033404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272776 (estonia/way/352266920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272705 (estonia/way/352267124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272510 (estonia/way/354547660) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1970601 (estonia/way/356613894) -> matched: Tallinn Botanic Garden  [body: 2381 chars]
+  Q7133100 (estonia/way/360864976) -> matched: Pappjärv  [body: 480 chars]
+  Q6433035 (estonia/way/360864980) -> matched: Valgjärv (Kose)  [body: 1301 chars]
+  Q7371137 (estonia/way/364468240) -> matched: Alajärv (Väimela)  [body: 483 chars]
+  Q7371146 (estonia/way/364468244) -> matched: Mäejärv (Väimela)  [body: 622 chars]
+  Q12374047 (estonia/relation/4868933) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272724 (estonia/way/366404124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31280107 (estonia/way/370528524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272914 (estonia/way/370534496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272295 (estonia/way/373174890) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12369104 (estonia/relation/5132865) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195151 (estonia/way/381949978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272918 (estonia/way/397287844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32198142 (estonia/way/398208510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398452 (estonia/way/399454720) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q938047 (estonia/way/406521870) -> matched: Ämari Air Base  [body: 3253 chars]
+  Q12367747 (estonia/relation/5472289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61393185 (estonia/way/407875160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18175171 (estonia/way/408109956) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368805 (estonia/relation/5492087) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373624 (estonia/way/414181862) -> matched: Raudoja Reservoir  [body: 1031 chars]
+  Q31272867 (estonia/way/415841468) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272671 (estonia/way/415841486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13407421 (estonia/way/416105238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7686870 (estonia/way/416853728) -> matched: Tartu University Clinic  [body: 974 chars]
+  Q61398636 (estonia/way/423180508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272439 (estonia/way/423711466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399864 (estonia/way/434363678) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398599 (estonia/way/434367178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272564 (estonia/way/435458636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272515 (estonia/way/435870120) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32196752 (estonia/way/436678868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11043005 (estonia/relation/5781651) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13469650 (estonia/relation/5781653) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371650 (estonia/relation/5781657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529804 (estonia/way/436811954) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272516 (estonia/relation/36678591) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23943768 (estonia/way/438846480) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17435859 (estonia/way/443003556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623735 (estonia/way/443920332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889378 (estonia/way/444078006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889861 (estonia/way/444417322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18121778 (estonia/way/444712892) -> matched: Lake Paidra  [body: 555 chars]
+  Q12370743 (estonia/way/445885110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12366277 (estonia/way/446599508) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47482989 (estonia/relation/5965715) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32191246 (estonia/way/449986408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29018464 (estonia/way/451534256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13573373 (estonia/way/454372982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399094 (estonia/way/457393560) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371501 (estonia/way/460877836) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272535 (estonia/way/461406038) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q278923 (estonia/way/461503598) -> matched: Lilleküla Stadium  [body: 3607 chars]
+  Q18122629 (estonia/way/461911430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13430807 (estonia/way/461915554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624942 (estonia/way/464773610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48105588 (estonia/way/464859942) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371507 (estonia/way/465023188) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31273434 (estonia/way/465135888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409133 (estonia/way/465138828) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61400818 (estonia/way/465188238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272911 (estonia/way/465797064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623740 (estonia/way/467648602) -> matched: Lake Pille  [body: 442 chars]
+  Q3744853 (estonia/way/467654444) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24031242 (estonia/relation/6418643) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11213952 (estonia/way/468135736) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195203 (estonia/way/468900704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195623 (estonia/way/469909098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12377441 (estonia/way/470692616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399698 (estonia/way/472316394) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367068 (estonia/way/473959744) -> matched: Kivijärv (Palumäe)  [body: 1902 chars]
+  Q15219781 (estonia/way/474389498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272577 (estonia/way/477549776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23887181 (estonia/way/482371302) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13459642 (estonia/way/482371304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16413225 (estonia/way/483026514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411450 (estonia/way/483026516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32194679 (estonia/way/483028788) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889632 (estonia/way/483028800) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373146 (estonia/way/483576832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399748 (estonia/way/487895778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25513555 (estonia/way/489657316) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272901 (estonia/way/489722580) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272696 (estonia/relation/6631355) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272955 (estonia/way/491699248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272669 (estonia/way/492058806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272936 (estonia/way/492940272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272937 (estonia/way/492940286) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272519 (estonia/way/493047014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399500 (estonia/way/493354022) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272946 (estonia/way/496058746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889868 (estonia/way/496217518) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6476427 (estonia/way/502270434) -> matched: Lake Kauru  [body: 427 chars]
+  Q3744820 (estonia/relation/6743527) -> matched: Lake Meelva  [body: 616 chars]
+  Q18113142 (estonia/relation/6746725) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623026 (estonia/way/509389056) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889636 (estonia/way/509517330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31273031 (estonia/way/509687944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1118518 (estonia/way/511845310) -> matched: Lake Erastvere  [body: 458 chars]
+  Q61399440 (estonia/way/511849088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398005 (estonia/way/512535654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2119283 (estonia/relation/6962523) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626996 (estonia/way/521225558) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18113129 (estonia/way/521235326) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399464 (estonia/way/521258824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6476526 (estonia/way/522835944) -> matched: Lake Küti  [body: 359 chars]
+  Q23889775 (estonia/way/523416570) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374387 (estonia/way/523416626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12377018 (estonia/way/525237920) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3744861 (estonia/way/525509664) -> matched: Lake Loosu  [body: 460 chars]
+  Q6319964 (estonia/way/525620422) -> matched: Janokjärv  [body: 548 chars]
+  Q12374754 (estonia/way/527041662) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398442 (estonia/relation/7080487) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18121677 (estonia/way/528511276) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11150976 (estonia/way/528511284) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3744915 (estonia/relation/7100639) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123334129 (estonia/way/528582740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6406098 (estonia/way/531582168) -> matched: Kiisa Power Plant  [body: 1502 chars]
+  Q3440702 (estonia/way/532611148) -> matched: Iru Power Plant  [body: 1992 chars]
+  Q16409926 (estonia/relation/7165247) -> matched: Kaunissaare Reservoir  [body: 1070 chars]
+  Q20530823 (estonia/way/533937282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398413 (estonia/relation/7173437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398425 (estonia/way/534809044) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367957 (estonia/relation/7177143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32196031 (estonia/way/536793506) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3738630 (estonia/way/548534226) -> matched: Lake Kubija  [body: 521 chars]
+  Q31272364 (estonia/relation/7323857) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412734 (estonia/way/551447078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7672819 (estonia/way/553118618) -> matched: Taara Army Base  [body: 1013 chars]
+  Q16408843 (estonia/relation/7430163) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12378932 (estonia/relation/7430165) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32194902 (estonia/way/564263050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889946 (estonia/relation/7495401) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410468 (estonia/relation/7511229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7672819 (estonia/way/553118618) -> matched: Taara Army Base  [body: 1013 chars]
+  Q16408843 (estonia/relation/7430163) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12378932 (estonia/relation/7430165) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32194902 (estonia/way/564263050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889946 (estonia/relation/7495401) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410468 (estonia/relation/7511229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12376300 (estonia/way/566238820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31273418 (estonia/relation/7582983) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32196619 (estonia/way/576313578) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371200 (estonia/relation/7655479) -> matched: Võngjärv  [body: 432 chars]
+  Q16410815 (estonia/relation/7655437) -> matched: Ahijärv (Ahunapalu)  [body: 544 chars]
+  Q16412159 (estonia/relation/7655445) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7200196 (estonia/relation/7665667) -> matched: Küläjärv  [body: 677 chars]
+  Q16411215 (estonia/relation/7695947) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1717706 (estonia/relation/7701925) -> matched: Veisjärv  [body: 664 chars]
+  Q16412852 (estonia/relation/4099525) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399944 (estonia/way/583479004) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18627108 (estonia/way/590067874) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399809 (estonia/way/591417932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373073 (estonia/way/591417980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32197186 (estonia/relation/7883929) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14915537 (estonia/relation/7883945) -> matched: Valgjärv (Valgjärve)  [body: 1365 chars]
+  Q61399398 (estonia/relation/7883943) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6383296 (estonia/relation/7883939) -> matched: Lake Keeri  [body: 603 chars]
+  Q7370703 (estonia/relation/741333) -> matched: Soodla Reservoir  [body: 1168 chars]
+  Q25513570 (estonia/relation/7371521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6478689 (estonia/relation/7961757) -> matched: Lake Õisu  [body: 630 chars]
+  Q21694977 (estonia/relation/7985705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3740869 (estonia/relation/7986815) -> matched: Lake Kuremaa  [body: 758 chars]
+  Q23889967 (estonia/way/600926208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3738829 (estonia/relation/8021025) -> matched: Lake Nigula  [body: 622 chars]
+  Q32198696 (estonia/way/603943234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371951 (estonia/relation/8032803) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399642 (estonia/way/604676426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31277102 (estonia/way/604799816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399254 (estonia/relation/8043521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272827 (estonia/way/605551914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31271975 (estonia/way/605778112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31271984 (estonia/relation/8060709) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32197116 (estonia/way/610309714) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195232 (estonia/relation/8154085) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11045036 (estonia/relation/8154083) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412875 (estonia/way/611694178) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4250843 (estonia/way/611920574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1132553 (estonia/relation/801985) -> matched: Naissaar  [body: 7983 chars]
+  Q16412044 (estonia/relation/36476875) -> matched: Naissaar Landscape Conservation Area  [body: 417 chars]
+  Q16408850 (estonia/way/614921544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3449243 (estonia/way/616459774) -> matched: Lake Akste  [body: 445 chars]
+  Q61399865 (estonia/way/617766034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399877 (estonia/way/617766042) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6477480 (estonia/relation/3845111) -> matched: Lake Raku  [body: 666 chars]
+  Q61399327 (estonia/relation/8279875) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399320 (estonia/way/619734012) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6477491 (estonia/relation/8331543) -> matched: Lake Ratva  [body: 736 chars]
+  Q29015287 (estonia/way/625941030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8079449 (estonia/relation/6493599) -> matched: Ülemiste Centre  [body: 705 chars]
+  Q6476494 (estonia/relation/8416255) -> matched: Lake Koosa  [body: 540 chars]
+  Q16409167 (estonia/relation/8429539) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12366077 (estonia/way/627603488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21814414 (estonia/relation/8429717) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399722 (estonia/relation/8445907) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398567 (estonia/relation/8454505) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399692 (estonia/relation/8487607) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399913 (estonia/way/630870302) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23886947 (estonia/way/630870310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3742655 (estonia/relation/3665279) -> matched: Lake Tõhela  [body: 668 chars]
+  Q13557011 (estonia/relation/2704959) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12375105 (estonia/way/631554532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3742629 (estonia/relation/8512355) -> matched: Lake Lavassaare  [body: 607 chars]
+  Q3738598 (estonia/relation/8559387) -> matched: Lake Kavadi  [body: 673 chars]
+  Q18623110 (estonia/way/635575084) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2569911 (estonia/relation/8571021) -> matched: Lake Verevi  [body: 984 chars]
+  Q12366720 (estonia/way/635779588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889126 (estonia/way/638820670) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48929909 (estonia/relation/5932049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47569 (estonia/relation/8903665) -> matched: Suurjärv  [body: 629 chars]
+  Q6809413 (estonia/relation/8926763) -> matched: Lake Pabra  [body: 1673 chars]
+  Q13459372 (estonia/relation/8926757) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6406304 (estonia/relation/8926755) -> matched: Kikkajärv  [body: 679 chars]
+  Q11046848 (estonia/relation/8930307) -> matched: Little Lake Palkna  [body: 721 chars]
+  Q12368402 (estonia/relation/8971937) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412597 (estonia/way/646792760) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6478195 (estonia/relation/9017637) -> matched: Lake Uljaste  [body: 595 chars]
+  Q1431834 (estonia/way/651480002) -> matched: Kärdla Airport  [body: 1379 chars]
+  Q892425 (estonia/way/651547030) -> matched: Kuressaare Airport  [body: 1106 chars]
+  Q1432537 (estonia/way/651565558) -> matched: Pärnu Airport  [body: 2404 chars]
+  Q3738620 (estonia/relation/9104629) -> matched: Uhtjärv  [body: 506 chars]
+  Q24060196 (estonia/way/652662030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22344511 (estonia/relation/9114657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374513 (estonia/way/653783588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367417 (estonia/relation/5805633) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23933916 (estonia/relation/31320009) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367415 (estonia/way/654062564) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12364796 (estonia/relation/9140539) -> matched: Jaamamõisa  [body: 188 chars]
+  Q7386050 (estonia/relation/9140839) -> matched: Ränilinn  [body: 256 chars]
+  Q7915901 (estonia/relation/9142633) -> matched: Variku, Tartu  [body: 153 chars]
+  Q10993580 (estonia/relation/9142539) -> matched: Maarjamõisa  [body: 770 chars]
+  Q3744454 (estonia/relation/9141107) -> matched: Supilinn  [body: 554 chars]
+  Q14956368 (estonia/relation/9143081) -> matched: Veeriku  [body: 240 chars]
+  Q7681541 (estonia/relation/9142709) -> matched: Tammelinn  [body: 243 chars]
+  Q7366761 (estonia/relation/9144343) -> matched: Ropka  [body: 152 chars]
+  Q112617881 (estonia/relation/9149391) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18625251 (estonia/relation/9149397) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113452273 (estonia/relation/9149403) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113452292 (estonia/relation/9149395) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113452260 (estonia/relation/9149393) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23886935 (estonia/relation/9209231) -> matched: Veskijärv  [body: 700 chars]
+  Q16413151 (estonia/relation/9218783) -> matched: Ruhijärv  [body: 580 chars]
+  Q12365688 (estonia/way/662952168) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367701 (estonia/relation/9362157) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399256 (estonia/way/667792234) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23887166 (estonia/way/673899300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61400035 (estonia/way/677470006) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371233 (estonia/way/682295332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398401 (estonia/way/687464134) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412626 (estonia/relation/8032799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12366106 (estonia/relation/8032801) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374746 (estonia/way/709872496) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232754 (estonia/way/711509164) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409502 (estonia/way/717751182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529814 (estonia/way/728444404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18625418 (estonia/way/731050198) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113432362 (estonia/way/731050320) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q18335875 (estonia/relation/10901181) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16408938 (estonia/way/733314358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12364072 (estonia/way/735971628) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399361 (estonia/way/737887700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31271851 (estonia/way/737967812) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12359315 (estonia/way/740886870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626981 (estonia/way/753485418) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889866 (estonia/way/779765654) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399549 (estonia/way/808735692) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6711585 (estonia/way/808810534) -> matched: Lüübnitsa Umbjärv  [body: 1105 chars]
+  Q32197264 (estonia/relation/12305241) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24265604 (estonia/way/827409702) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q604487 (estonia/relation/2410349) -> matched: Tallinn University of Technology  [body: 8763 chars]
+  Q32196440 (estonia/way/835363242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32196404 (estonia/way/835363250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398587 (estonia/way/840657518) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12376166 (estonia/way/855078264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12372297 (estonia/relation/12891175) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398506 (estonia/way/876057618) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398510 (estonia/way/876057620) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367320 (estonia/way/880043696) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25513538 (estonia/way/881422684) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31276195 (estonia/way/883955194) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398255 (estonia/relation/13325597) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367818 (estonia/way/899329518) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399207 (estonia/relation/7491069) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25516751 (estonia/way/962084914) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398807 (estonia/relation/15351633) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q10932366 (estonia/way/968356506) -> matched: Estonian Academy of Security Sciences  [body: 2880 chars]
+  Q12375009 (estonia/way/973289430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13668076 (estonia/way/982657040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25513541 (estonia/way/986366474) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14956315 (estonia/way/986536860) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23887163 (estonia/way/1006762844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13473800 (estonia/way/1014773834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13424348 (estonia/way/1015244250) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367282 (estonia/relation/7872509) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22341407 (estonia/way/1026995262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1815754 (estonia/relation/10770537) -> matched: Manilaid  [body: 859 chars]
+  Q61398243 (estonia/way/1031030652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15296257 (estonia/relation/706077) -> matched: Tagaküla, Harju County  [body: 214 chars]
+  Q15264251 (estonia/relation/14994819) -> matched: Lõunaküla  [body: 303 chars]
+  Q15296268 (estonia/relation/14994821) -> matched: Väikeheinamaa  [body: 266 chars]
+  Q255290 (estonia/relation/702499) -> matched: Äntu  [body: 455 chars]
+  Q3470023 (estonia/relation/707757) -> matched: Ebavere  [body: 107 chars]
+  Q14743856 (estonia/relation/14995129) -> matched: Sandimetsa  [body: 96 chars]
+  Q769910 (estonia/relation/706427) -> matched: Huuksi  [body: 113 chars]
+  Q2800935 (estonia/relation/709215) -> matched: Lähevere  [body: 99 chars]
+  Q18625243 (estonia/relation/14996723) -> matched: Pätsavere  [body: 499 chars]
+  Q3463603 (estonia/relation/707439) -> matched: Tamsi, Järva County  [body: 96 chars]
+  Q3467345 (estonia/relation/708843) -> matched: Käsukonna  [body: 190 chars]
+  Q23072451 (estonia/relation/14998185) -> matched: Hermani  [body: 208 chars]
+  Q42019826 (estonia/relation/15307187) -> matched: Sootaguse, Kadrina Parish  [body: 90 chars]
+  Q6949973 (estonia/relation/36678595) -> matched: Männiku training area  [body: 698 chars]
+  Q23888954 (estonia/way/1083927850) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399419 (estonia/way/1087107718) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12364485 (estonia/way/1096468806) -> matched: Inahamne  [body: 584 chars]
+  Q12368682 (estonia/way/1096468816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12370540 (estonia/relation/2706577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12375984 (estonia/relation/15788399) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272828 (estonia/way/1108201588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272833 (estonia/way/1108201596) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14915528 (estonia/way/1111824738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23955263 (estonia/way/1111824740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2029115 (estonia/way/1118034960) -> matched: Tarvastu Castle  [body: 192 chars]
+  Q32196239 (estonia/way/1129486014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32196308 (estonia/way/1129486016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272513 (estonia/way/1140041940) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373286 (estonia/way/1154001856) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12362543 (estonia/way/1177315016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55718152 (estonia/way/1213537322) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q693998 (estonia/way/1225301958) -> matched: Klooga concentration camp  [body: 6082 chars]
+  Q123322283 (estonia/way/1237911820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123322197 (estonia/way/1237954926) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17435844 (estonia/way/1267898202) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12365996 (estonia/relation/18519279) -> matched: Kadriorg Park  [body: 432 chars]
+  Q13570710 (estonia/relation/17760735) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q29343842 (estonia/relation/9204297) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21694719 (estonia/way/1291376552) -> matched: Pärnu Beach  [body: 495 chars]
+  Q12372975 (estonia/way/1292164092) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24192311 (estonia/way/1292164098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24197406 (estonia/way/1292164100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24203762 (estonia/way/1292164108) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16412428 (estonia/way/1292164110) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409799 (estonia/way/1292164112) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6475753 (estonia/relation/3576229) -> matched: Lake Endla  [body: 646 chars]
+  Q1408916 (estonia/relation/2487271) -> matched: Ivangorod Fortress  [body: 5497 chars]
+  Q6476398 (estonia/relation/8971933) -> matched: Lake Kalli  [body: 555 chars]
+  Q16410334 (estonia/way/1327043624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17435850 (estonia/way/1331233386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18113137 (estonia/way/1331233388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17435695 (estonia/way/1331233400) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12366531 (estonia/relation/18502627) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4062126 (estonia/relation/18503631) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272908 (estonia/relation/18510739) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q91068780 (estonia/way/1333307994) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q13648308 (estonia/way/1339152500) -> matched: Venekyulya  [body: 4922 chars]
+  Q18627024 (estonia/way/1358863326) -> matched: Viljandi Landscape Conservation Area  [body: 339 chars]
+  Q113666195 (estonia/way/1358902448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3738617 (estonia/relation/8926761) -> matched: Lake Murati  [body: 1038 chars]
+  Q3742635 (estonia/way/1382894158) -> matched: Lake Hüüdre  [body: 1560 chars]
+  Q12372977 (estonia/way/1388964388) -> matched: Pähni Nature Reserve  [body: 330 chars]
+  Q6478307 (estonia/relation/19390537) -> matched: Lake Viitina  [body: 625 chars]
+  Q12369435 (estonia/way/1396187484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104417760 (estonia/relation/2283041) -> matched: Beach Park (Pärnu)  [body: 523 chars]
+  Q123334317 (estonia/way/1409773544) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48107035 (estonia/way/1409891944) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22667607 (estonia/way/1427590248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12363742 (estonia/way/1430193794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18625581 (estonia/way/1434538114) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21708002 (estonia/way/1436939502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12377698 (estonia/way/1437583858) -> matched: Lake Udsu  [body: 575 chars]
+  Q16411893 (estonia/way/1440901262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12375239 (estonia/relation/20050535) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12360829 (estonia/way/1451958606) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623710 (estonia/way/1460075208) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6476391 (estonia/relation/3251091) -> matched: Lake Kahala  [body: 525 chars]
+  Q25518271 (estonia/way/1476594014) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22695493 (estonia/way/1489376440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14948291 (estonia/relation/20617011) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410077 (estonia/way/1503790090) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18112760 (estonia/way/1519648772) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48434462 (estonia/way/1532951682) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368931 (estonia/way/1537626672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q660001 (estonia/relation/10868559) -> matched: Hermann Castle  [body: 3162 chars]
+  Q12367833 (estonia/way/1574968370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97217655 (estonia/relation/28130891) -> matched: Vatla Airfield  [body: 355 chars]
+  Q16409521 (estonia/relation/790483) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371059 (estonia/relation/22174923) -> matched: Valgjärv (Rõuge)  [body: 1603 chars]
+  Q3744938 (estonia/relation/7139331) -> matched: Ratasjärv  [body: 672 chars]
+  Q24318039 (estonia/relation/8903667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18121834 (estonia/relation/8903659) -> matched: Liinjärv  [body: 515 chars]
+  Q3738577 (estonia/relation/8903657) -> matched: Lake Kahrila  [body: 552 chars]
+  Q130318292 (estonia/way/1605377456) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32199001 (estonia/relation/22186819) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12378965 (estonia/relation/22192107) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3744847 (estonia/relation/22192103) -> matched: Kurgjärv  [body: 484 chars]
+  Q17436386 (estonia/relation/22192105) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18654087 (estonia/relation/2987125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371170 (estonia/relation/8254733) -> matched: Lake Vaskna  [body: 603 chars]
+  Q3740589 (estonia/relation/22197421) -> matched: Lake Pulli  [body: 531 chars]
+  Q2604593 (estonia/relation/16255947) -> matched: Lake Hino  [body: 833 chars]
+  Q3738602 (estonia/relation/18492519) -> matched: Kisejärv  [body: 880 chars]
+  Q12373070 (estonia/relation/22247283) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q634687 (estonia/relation/9225173) -> matched: Lake Tamula  [body: 678 chars]
+  Q3736634 (estonia/relation/6451113) -> matched: Lake Vagula  [body: 586 chars]
+  Q25517820 (estonia/way/1627242538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q646974 (estonia/way/1627242542) -> matched: Seaplane Harbour  [body: 2072 chars]
+  Q16412348 (estonia/way/1627242544) -> matched: Noblessner  [body: 10604 chars]
+  Q6702733 (estonia/relation/8559389) -> matched: Noodasjärv  [body: 526 chars]
+  Q205271 (estonia/relation/4266493) -> matched: Võru  [body: 3942 chars]
+  Q3738612 (estonia/relation/22374069) -> matched: Lake Karsna  [body: 505 chars]
+  Q3744904 (estonia/relation/22374073) -> matched: Kärnjärv  [body: 443 chars]
+  Q18121772 (estonia/relation/22374075) -> matched: Lake Lasva  [body: 506 chars]
+  Q61398264 (estonia/relation/22516467) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399811 (estonia/relation/22574233) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16408830 (estonia/relation/22589245) -> matched: Lake Obinitsa  [body: 1059 chars]
+  Q12379475 (estonia/relation/22589247) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18038388 (estonia/relation/22643069) -> matched: Miinisadam Naval Base  [body: 258 chars]
+  Q25513645 (estonia/way/1672919978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626896 (estonia/relation/9149405) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399169 (estonia/way/1697826810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398263 (estonia/relation/24415577) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24009474 (estonia/relation/23410355) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410627 (estonia/way/1717807362) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411276 (estonia/relation/23516287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47908478 (estonia/relation/23617691) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25513558 (estonia/relation/23625317) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13463067 (estonia/relation/115565) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12373349 (estonia/relation/23765109) -> matched: Kivijärv (Rahtla)  [body: 1428 chars]
+  Q32196584 (estonia/way/1761387730) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1357326 (estonia/relation/781291) -> matched: Piirissaar  [body: 2336 chars]
+  Q3738614 (estonia/relation/5781655) -> matched: Lake Jõksi  [body: 738 chars]
+  Q31272909 (estonia/way/1764103380) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371035 (estonia/relation/23989155) -> matched: Lake Räpina  [body: 710 chars]
+  Q6516556 (estonia/relation/23989151) -> matched: Leevaku Reservoir  [body: 410 chars]
+  Q5884833 (estonia/way/1765920390) -> matched: Kivijärv (Uibujärve)  [body: 408 chars]
+  Q61398096 (estonia/way/1771935556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12361892 (estonia/relation/7986813) -> matched: Lake Elistvere  [body: 575 chars]
+  Q14955500 (estonia/relation/24294605) -> matched: Pärnamäe Cemetery  [body: 885 chars]
+  Q61399293 (estonia/relation/24353801) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623213 (estonia/way/1820214446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371481 (estonia/relation/24718517) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61398017 (estonia/way/1820979272) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6349061 (estonia/way/1827795148) -> matched: Kajumeri  [body: 392 chars]
+  Q13572101 (estonia/way/1827795152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q48103415 (estonia/way/1827819236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q805683 (estonia/way/1832952926) -> matched: Tallinn Baltic Station  [body: 2208 chars]
+  Q61399850 (estonia/way/1842639452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3743981 (estonia/way/1847470000) -> matched: Bekker Port  [body: 263 chars]
+  Q12370086 (estonia/way/1847470002) -> matched: Port of Meeruse  [body: 235 chars]
+  Q16410953 (estonia/relation/25056125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7909032 (estonia/relation/9144133) -> matched: Vaksali  [body: 264 chars]
+  Q6372551 (estonia/relation/9144473) -> matched: Karlova, Tartu  [body: 4689 chars]
+  Q106356210 (estonia/relation/25048199) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6395101 (estonia/relation/9144437) -> matched: Kesklinn, Tartu  [body: 189 chars]
+  Q106356280 (estonia/relation/25065189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106356070 (estonia/relation/25065315) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626275 (estonia/relation/25065549) -> matched: Tartu Old Town  [body: 536 chars]
+  Q6477477 (estonia/relation/25334643) -> matched: Lake Raigastvere  [body: 582 chars]
+  Q6476393 (estonia/relation/25334641) -> matched: Lake Kaiavere  [body: 983 chars]
+  Q32198749 (estonia/way/1915909820) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3738608 (estonia/relation/9112625) -> matched: Ähijärv (Ähijärve)  [body: 655 chars]
+  Q12368055 (estonia/way/1927754300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24262758 (estonia/way/1934698448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12376214 (estonia/relation/7004203) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1456246 (estonia/relation/9135751) -> matched: Saadjärv  [body: 676 chars]
+  Q62789641 (estonia/relation/26128637) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12377144 (estonia/relation/327723) -> matched: Toomemägi  [body: 671 chars]
+  Q61399869 (estonia/relation/26317995) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23889226 (estonia/relation/26317991) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411512 (estonia/way/1973179524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31088229 (estonia/way/1973291802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61400014 (estonia/way/1986758196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42888973 (estonia/relation/22247281) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16413412 (estonia/way/2001506740) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12376048 (estonia/way/2020547264) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12368435 (estonia/relation/27245809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61393165 (estonia/way/2042392826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106626715 (estonia/way/2051789292) -> matched: Jägala Airfield  [body: 523 chars]
+  Q32198300 (estonia/way/2073749750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113377011 (estonia/way/2104126592) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q24265593 (estonia/way/2115278306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25517631 (estonia/relation/28516003) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25521764 (estonia/relation/28516001) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25517550 (estonia/relation/28513931) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61388741 (estonia/relation/28520287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25517690 (estonia/relation/28520721) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18625416 (estonia/relation/28523187) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25517601 (estonia/relation/28523189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25522441 (estonia/relation/28523281) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25517599 (estonia/relation/28523279) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25522439 (estonia/relation/28523379) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31271926 (estonia/relation/28523501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624951 (estonia/relation/28523499) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18627106 (estonia/relation/26226829) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529569 (estonia/way/2148482034) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24354196 (estonia/way/2150535242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3234121 (estonia/relation/3665277) -> matched: Lake Ermistu  [body: 821 chars]
+  Q7366763 (estonia/relation/9144549) -> matched: Ropka industrial district  [body: 238 chars]
+  Q31273662 (estonia/relation/28707989) -> matched: Ropka-Ihaste Nature Reserve  [body: 305 chars]
+  Q1813414 (estonia/relation/9144517) -> matched: Annelinn  [body: 939 chars]
+  Q5994651 (estonia/relation/9144547) -> matched: Ihaste  [body: 413 chars]
+  Q17436375 (estonia/way/2161259322) -> matched: Lake Palujüri  [body: 427 chars]
+  Q122668 (estonia/way/2161385444) -> matched: Ruhnu Airfield  [body: 925 chars]
+  Q113375017 (estonia/way/2165830858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3513748 (estonia/relation/9143125) -> matched: Tähtvere  [body: 263 chars]
+  Q7278379 (estonia/relation/9140601) -> matched: Raadi-Kruusamäe  [body: 1523 chars]
+  Q8079448 (estonia/relation/9142501) -> matched: Ülejõe, Tartu  [body: 586 chars]
+  Q113451838 (estonia/relation/28857375) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42888987 (estonia/relation/28860275) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61389277 (estonia/relation/28860287) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113454360 (estonia/relation/28860285) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q61389273 (estonia/relation/28860281) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42888991 (estonia/relation/28860283) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113454325 (estonia/relation/28860289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25522040 (estonia/relation/28860295) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61389262 (estonia/relation/28860291) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61389280 (estonia/relation/28860303) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113453973 (estonia/relation/28860305) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q42888988 (estonia/relation/28860309) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42888990 (estonia/relation/28860301) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113454423 (estonia/relation/28860273) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42888992 (estonia/relation/28860293) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61389269 (estonia/relation/28860299) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42888989 (estonia/relation/28860307) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113454024 (estonia/relation/28860297) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113454382 (estonia/relation/28860279) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113454395 (estonia/relation/28860277) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113457404 (estonia/relation/28863435) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113457308 (estonia/relation/28863443) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113457417 (estonia/relation/28863433) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q31272178 (estonia/relation/28863431) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16413387 (estonia/relation/28863445) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410015 (estonia/relation/28863447) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22328373 (estonia/way/2169156880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42900897 (estonia/way/2172155314) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24031244 (estonia/relation/29136069) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q171196 (estonia/relation/7004197) -> matched: Toompea  [body: 15069 chars]
+  Q794740 (estonia/relation/17689377) -> matched: Laagri, Tallinn  [body: 476 chars]
+  Q331594 (estonia/relation/379799) -> matched: Abruka  [body: 1545 chars]
+  Q23888707 (estonia/relation/29341013) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114497668 (estonia/relation/29341641) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497677 (estonia/relation/29341639) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q65263530 (estonia/relation/29341651) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114497670 (estonia/relation/29341647) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497734 (estonia/relation/29341643) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114496838 (estonia/relation/29341661) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497662 (estonia/relation/29341645) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497664 (estonia/relation/29341659) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497665 (estonia/relation/29341655) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497667 (estonia/relation/29341657) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12367429 (estonia/relation/29546477) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371905 (estonia/relation/29554065) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12363286 (estonia/way/2225418478) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22344407 (estonia/way/2232605532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530102 (estonia/way/2241534924) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q45821946 (estonia/way/2250497154) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6477054 (estonia/relation/30118797) -> matched: Lake Männiku  [body: 698 chars]
+  Q61398254 (estonia/relation/30118799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25516890 (estonia/relation/30176263) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12366273 (estonia/way/2266520676) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16413419 (estonia/relation/334845) -> matched: Lake Pangodi  [body: 613 chars]
+  Q61398044 (estonia/way/2269597196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12379394 (estonia/way/2290259852) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16411849 (estonia/relation/9149401) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12379561 (estonia/relation/9149407) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113457350 (estonia/relation/28863441) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q4314645 (estonia/relation/31320013) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23926815 (estonia/relation/31320021) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3744218 (estonia/relation/31320019) -> matched: Lake Vissi  [body: 505 chars]
+  Q23927184 (estonia/relation/31320007) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31275460 (estonia/way/2317510602) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55718157 (estonia/way/2318103218) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7371076 (estonia/way/2318389832) -> matched: Lake Sõmerpalu  [body: 476 chars]
+  Q61398050 (estonia/way/2319259672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16409005 (estonia/way/2319712170) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23888957 (estonia/way/2319776314) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530510 (estonia/way/2330805794) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530931 (estonia/way/2332470744) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530925 (estonia/way/2332470748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529190 (estonia/way/2334236700) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529709 (estonia/way/2335923542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623673 (estonia/way/2336555574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23042866 (estonia/way/2338774346) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31272512 (estonia/way/2339406330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623099 (estonia/way/2340956382) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374213 (estonia/way/2349071366) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18624622 (estonia/way/2349071368) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16408874 (estonia/way/2349071370) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371530 (estonia/way/2351479442) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3909275 (estonia/way/2351487226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15622074 (estonia/way/2351523772) -> matched: Saaremaa Harbour  [body: 1211 chars]
+  Q12371336 (estonia/way/2353689204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65260958 (estonia/relation/32005071) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21694540 (estonia/relation/32005249) -> matched: Rummu quarry  [body: 3156 chars]
+  Q13409027 (estonia/way/2369887302) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20529826 (estonia/way/2369887306) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32199044 (estonia/relation/35627833) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23890595 (estonia/relation/23808227) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399123 (estonia/way/2384331748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12365935 (estonia/way/2387134172) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6476387 (estonia/way/2402241968) -> matched: Lake Tsäpsi  [body: 547 chars]
+  Q12373200 (estonia/way/2402252100) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3449254 (estonia/relation/9118721) -> matched: Lake Alatskivi  [body: 483 chars]
+  Q31088222 (estonia/way/2417495988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6702128 (estonia/way/2425968492) -> matched: Luke Manor  [body: 954 chars]
+  Q16412120 (estonia/way/2427303440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q32195771 (estonia/way/2438619658) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12374322 (estonia/way/2440529002) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12369274 (estonia/relation/5805745) -> matched: Lake Lõõdla  [body: 604 chars]
+  Q61399985 (estonia/way/2444012102) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12372436 (estonia/way/2464494646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367757 (estonia/way/2464537652) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q47514376 (estonia/way/2466655538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19413160 (estonia/way/2489536020) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18121812 (estonia/way/2498557016) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3742663 (estonia/relation/34489691) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25518920 (estonia/way/2513416098) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12370645 (estonia/relation/38950993) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12370842 (estonia/way/2538125656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25508852 (estonia/relation/34880299) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18623104 (estonia/way/2558540582) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106301330 (estonia/relation/28673579) -> matched: Märjamaa Landscape Conservation Area  [body: 338 chars]
+  Q130554156 (estonia/relation/36678589) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q23889644 (estonia/way/2592045686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113452242 (estonia/relation/9149389) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61399909 (estonia/relation/9149399) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20530617 (estonia/way/2602138292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12378280 (estonia/way/2616776730) -> matched: Varesemäed Landscape Conservation Area  [body: 343 chars]
+  Q61399202 (estonia/relation/35991651) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1810907 (estonia/relation/21198797) -> matched: Linnahall  [body: 4914 chars]
+  Q42151060 (estonia/relation/36476873) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1418409 (estonia/relation/801969) -> matched: Prangli  [body: 1322 chars]
+  Q16410662 (estonia/relation/36482315) -> matched: Prangli Landscape Conservation Area  [body: 409 chars]
+  Q31273648 (estonia/relation/36482317) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16410467 (estonia/relation/36233661) -> matched: Pirita River Valley Landscape Conservation Area  [body: 342 chars]
+  Q3512704 (estonia/relation/779703) -> matched: Väike-Pakri  [body: 4406 chars]
+  Q3512711 (estonia/relation/809467) -> matched: Suur-Pakri  [body: 4406 chars]
+  Q3771645 (estonia/relation/782301) -> matched: Rahumäe Cemetery  [body: 3825 chars]
+  Q12371266 (estonia/relation/36489319) -> matched: Nõmme-Mustamäe Landscape Conservation Area  [body: 297 chars]
+  Q137541795 (estonia/relation/36497605) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q12379581 (estonia/relation/36497607) -> matched: Ülgase Nature Reserve  [body: 453 chars]
+  Q61397189 (estonia/relation/36497609) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12367514 (estonia/relation/36497611) -> matched: Kostivere Landscape Conservation Area  [body: 241 chars]
+  Q137541792 (estonia/relation/36507425) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q137541796 (estonia/relation/36507427) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q137541788 (estonia/relation/36511867) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q51801345 (estonia/relation/36511869) -> matched: Ubari Landscape Conservation Area  [body: 308 chars]
+  Q137541787 (estonia/relation/36511871) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q137541797 (estonia/relation/36511873) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16410967 (estonia/relation/36511957) -> matched: Kolga Bay Landscape Conservation Area  [body: 488 chars]
+  Q137541793 (estonia/relation/36511959) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q16410325 (estonia/relation/36518761) -> matched: Anija Nature Reserve  [body: 360 chars]
+  Q106382138 (estonia/relation/36518763) -> matched: Parila Nature Reserve  [body: 275 chars]
+  Q137541798 (estonia/relation/36518765) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q137541799 (estonia/relation/36525839) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q137541800 (estonia/relation/36525845) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q137541801 (estonia/relation/36536291) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q25444769 (estonia/relation/36536295) -> matched: Laulasmaa Landscape Conservation Area  [body: 235 chars]
+  Q4246535 (estonia/way/2686790762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12376855 (estonia/way/2699081938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113457728 (estonia/relation/37417371) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113457735 (estonia/relation/37417373) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113457695 (estonia/relation/37417365) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113457757 (estonia/relation/37417367) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q113457742 (estonia/relation/37417369) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q7278380 (estonia/relation/32618435) -> matched: Raadi cemetery  [body: 4178 chars]
+  Q12360265 (estonia/way/2763235182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q137541789 (estonia/relation/38183383) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q52937610 (estonia/relation/38183381) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52938183 (estonia/relation/38238357) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q137541790 (estonia/relation/38238359) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q51828210 (estonia/relation/38579301) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12371976 (estonia/relation/36525841) -> matched: Paraspõllu Nature Reserve  [body: 346 chars]
+  Q23889137 (estonia/relation/39104905) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12378316 (estonia/relation/2395301) -> matched: Vaskjala Reservoir  [body: 1013 chars]
+  Q4403385 (estonia/relation/39964373) -> matched: Saatse Boot  [body: 5866 chars]
+  Q12364670 (estonia/relation/39788521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q52937879 (estonia/relation/38579303) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18626591 (estonia/relation/36541897) -> matched: Türisalu Landscape Conservation Area  [body: 319 chars]
+  Q18626943 (estonia/relation/4236343) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114497673 (estonia/relation/29341649) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q114497681 (estonia/relation/29341653) -> no_sitelinks: (no article)  [body: 0 chars]
+
+wrote 316 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/estonia_wikidata.parquet
+wrote 316 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/estonia_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/estonia_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/estonia_wikidata_map.png
+  rows=316 geometry_missing=0 bodies=316 jsonl=316 map_html=456340B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['estonia']
+  failed:    0 -> []
+
+=== union ===
+unioned 19 countries -> 1638 rows
+[23:21:47] union
+unioned 19 countries -> 1638 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:21:52] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 80 files.
+Finished hashing 80 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...e-of-man_wikidata.parquet: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/italy_wikidata.parquet: 100%|██████████| 2.13kB / 2.13kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/kosovo_wikidata.parquet: 100%|██████████|  125kB /  125kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...tenstein_wikidata.parquet: 100%|██████████| 16.3kB / 16.3kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...e-of-man_wikidata.parquet: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/italy_wikidata.parquet: 100%|██████████| 2.13kB / 2.13kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/kosovo_wikidata.parquet: 100%|██████████|  125kB /  125kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 26 files]                : 100%|██████████| 5.55MB / 5.55MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (36 / 36)    :  52%|█████▏    | 7.50MB / 14.3MB, 9.36MB/s  
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  11%|█         |  625kB / 5.56MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (36 / 37)    :  56%|█████▌    | 7.97MB / 14.3MB, 6.64MB/s  
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :  15%|█▍        | 1.00MB / 6.83MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (36 / 40)    :  59%|█████▉    | 8.50MB / 14.3MB, 6.07MB/s  
+New Data Upload               :   8%|▊         |  524kB / 6.36MB,  375kB/s  [A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  16%|█▋        |  883kB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   8%|▊         | 13.0kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet:   8%|▊         | 93.4kB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png:   8%|▊         | 10.7kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  39%|███▉      | 2.10MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  33%|███▎      | 51.9kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet:  33%|███▎      |  374kB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png:  33%|███▎      | 42.8kB /  130kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (36 / 40)    :  70%|███████   | 10.1MB / 14.3MB, 5.60MB/s  
+New Data Upload               :  33%|███▎      | 2.10MB / 6.36MB, 1.17MB/s  [A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 5.36MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  156kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet:  99%|█████████▉| 1.12MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png:  99%|█████████▉|  128kB /  130kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (36 / 40)    : 100%|█████████▉| 14.3MB / 14.3MB, 7.13MB/s  
+New Data Upload               :  99%|█████████▉| 6.29MB / 6.36MB, 3.15MB/s  [A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 5.36MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  156kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet:  99%|█████████▉| 1.12MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png:  99%|█████████▉|  128kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (40 / 40)    : 100%|██████████| 14.3MB / 14.3MB, 5.97MB/s  
+New Data Upload               : 100%|██████████| 6.36MB / 6.36MB, 2.65MB/s  [A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A
+
+
+
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (40 / 40)    : 100%|██████████| 14.3MB / 14.3MB, 3.77MB/s  
+New Data Upload               : 100%|██████████| 6.36MB / 6.36MB, 1.67MB/s  
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            
+  ...y-jersey_wikidata.parquet: 100%|██████████|  128kB /  128kB            
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 5.41MB / 5.41MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            
+Removing 73 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/7e0f80fcfed08ae5d9f0c874773310c8404f4912
+[23:22:04] DONE estonia

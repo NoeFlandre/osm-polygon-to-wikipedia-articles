@@ -1,0 +1,1559 @@
+[23:50:09] === hungary ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== hungary ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/hungary.parquet
+wrote 77569 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/hungary.parquet
+pre-filter (--only-wikidata): 77569 -> 461 rows
+
+461 polygons with wikidata=*
+  matched:           141
+  no en sitelink:    303
+  no sitelinks:      17
+  Q115251757 (hungary/way/8859128) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q254619 (hungary/relation/24943119) -> matched: Bird Island, Slovakia  [body: 1717 chars]
+  Q1228101 (hungary/way/21146166) -> matched: Lake Palatinus  [body: 507 chars]
+  Q1462614 (hungary/way/30008580) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1215492 (hungary/way/33428272) -> matched: Lake Naplás  [body: 795 chars]
+  Q18122223 (hungary/way/46032138) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1294993 (hungary/way/49551810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1035090 (hungary/way/50278554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12781223 (hungary/way/50396894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q784258 (hungary/way/51451648) -> matched: Bozsik József Stadion  [body: 3363 chars]
+  Q111082984 (hungary/way/52870408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3146672 (hungary/way/53659076) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122462794 (hungary/way/57953586) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/65842194) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/65842204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/65842242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/65842256) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/65842266) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232576 (hungary/relation/219159) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/65842290) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28706977 (hungary/way/66471216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1036029 (hungary/way/69168380) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124802306 (hungary/way/73860818) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q112748939 (hungary/way/76481750) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1031463 (hungary/way/76954434) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65215958 (hungary/way/81231462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q722554 (hungary/way/81329188) -> matched: Aquincum Museum  [body: 361 chars]
+  Q18578808 (hungary/way/83321934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18578832 (hungary/way/83321946) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q23929461 (hungary/way/84459698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106643926 (hungary/way/92342906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q137186963 (hungary/way/107729260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20439127 (hungary/way/112295768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860281 (hungary/way/161786584) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860888 (hungary/way/161786658) -> matched: Ostrov orliaka morského (nature reserve)  [body: 996 chars]
+  Q20861330 (hungary/way/161786690) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860248 (hungary/way/161786832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860318 (hungary/way/161786902) -> matched: Číčovské mŕtve rameno  [body: 699 chars]
+  Q20860689 (hungary/way/161786908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20861100 (hungary/way/161795282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20861066 (hungary/way/161795802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860514 (hungary/relation/21631341) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860342 (hungary/way/161797228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24237141 (hungary/way/161797330) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q13537661 (hungary/way/161798484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860816 (hungary/way/162007884) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20902918 (hungary/way/162017304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20861121 (hungary/way/162017754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q81704979 (hungary/way/166074912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1225281 (hungary/relation/7782511) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1471647 (hungary/way/167868616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232874 (hungary/way/174472384) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131579592 (hungary/way/190135530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1214835 (hungary/way/199421438) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1179344 (hungary/way/199433072) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q911400 (hungary/way/201674484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31091761 (hungary/way/205431668) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q54580163 (hungary/relation/3006623) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q57978010 (hungary/way/211337516) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26258965 (hungary/way/215385746) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22343271 (hungary/way/217320616) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1301904 (hungary/way/225488708) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q794946 (hungary/relation/3218737) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30260737 (hungary/way/233443086) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q906761 (hungary/way/236707876) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64555484 (hungary/way/238038908) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65218150 (hungary/way/238743694) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q548523 (hungary/way/244413950) -> matched: Fertőszentmiklós Airfield  [body: 587 chars]
+  Q927718 (hungary/relation/3352791) -> matched: Municipality of Kobilje  [body: 431 chars]
+  Q12627551 (hungary/relation/3515817) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q903092 (hungary/way/271190064) -> matched: University of Debrecen  [body: 5659 chars]
+  Q789302 (hungary/way/272795556) -> matched: Balatonring  [body: 1622 chars]
+  Q26232311 (hungary/way/281411136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1242106 (hungary/way/293246748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26231542 (hungary/way/293958826) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1215492 (hungary/way/310880056) -> matched: Lake Naplás  [body: 795 chars]
+  Q12006462 (hungary/way/311468336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28722718 (hungary/way/314924796) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30281185 (hungary/way/324512530) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1043995 (hungary/relation/4437827) -> matched: Virt  [body: 1709 chars]
+  Q1073190 (hungary/relation/4545111) -> matched: Ipeľské Predmostie  [body: 1360 chars]
+  Q678129 (hungary/relation/4546621) -> matched: Lipovany  [body: 1057 chars]
+  Q278601 (hungary/relation/4549563) -> matched: Večelkov  [body: 1041 chars]
+  Q1043165 (hungary/relation/4549383) -> matched: Studená, Slovakia  [body: 1181 chars]
+  Q1043165 (hungary/relation/4549465) -> matched: Studená, Slovakia  [body: 1181 chars]
+  Q1111094 (hungary/relation/4540231) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233539 (hungary/way/343912796) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1050599 (hungary/relation/4769475) -> matched: Chorváty  [body: 1409 chars]
+  Q1107095 (hungary/relation/4769395) -> matched: Kechnec  [body: 3806 chars]
+  Q1078323 (hungary/relation/4772609) -> matched: Malý Kamenec  [body: 1185 chars]
+  Q30280876 (hungary/way/367973046) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q912703 (hungary/way/377510140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q168477 (hungary/way/378452300) -> matched: Mátra Power Plant  [body: 3476 chars]
+  Q60148266 (hungary/way/390668660) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15631447 (hungary/relation/5442485) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1105984 (hungary/relation/2909369) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1126452 (hungary/relation/5556529) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28771801 (hungary/way/416864376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5642896 (hungary/way/435369200) -> matched: Haller Park (Hungary)  [body: 1163 chars]
+  Q39048701 (hungary/way/440268924) -> matched: Béke téri Stadion  [body: 277 chars]
+  Q30260484 (hungary/way/440492202) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q53778211 (hungary/relation/5934667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q930606 (hungary/relation/4656595) -> matched: Győr-Pér International Airport  [body: 328 chars]
+  Q1111392 (hungary/way/447934204) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1296434 (hungary/way/452799208) -> matched: Hungarian University of Agriculture and Life Sciences  [body: 1507 chars]
+  Q1031271 (hungary/relation/6077645) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q774516 (hungary/way/456049622) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q853080 (hungary/way/456690296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q288130 (hungary/way/456690314) -> matched: Fiume Road Graveyard  [body: 6678 chars]
+  Q125459854 (hungary/way/456690380) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q26230793 (hungary/way/456690448) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q137991082 (hungary/way/456690454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108327188 (hungary/way/456693238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1470215 (hungary/way/456699770) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64219740 (hungary/way/456703524) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18711934 (hungary/way/456703582) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233566 (hungary/way/456714612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26231260 (hungary/way/456714626) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20439415 (hungary/way/456715680) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232167 (hungary/way/456715684) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1473625 (hungary/way/456715718) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12815902 (hungary/way/456761500) -> matched: Salgotarjani Street Jewish Cemetery  [body: 2754 chars]
+  Q78190058 (hungary/way/456762270) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6518755 (hungary/way/456763478) -> matched: Lehel (company)  [body: 459 chars]
+  Q55743750 (hungary/way/456769650) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q138904873 (hungary/way/456770026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q135417891 (hungary/way/456771604) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q851334 (hungary/way/456772548) -> matched: Budaörs Airport  [body: 3335 chars]
+  Q137989660 (hungary/way/456773388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65217309 (hungary/way/466441386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233522 (hungary/way/472866844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15728754 (hungary/way/476146624) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1216693 (hungary/way/479128714) -> matched: Ópusztaszer National Heritage Park  [body: 4362 chars]
+  Q67941673 (hungary/way/492206026) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11994119 (hungary/way/492335898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233717 (hungary/way/492411528) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28453674 (hungary/way/522031880) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q338509 (hungary/relation/4437765) -> matched: Patince  [body: 4337 chars]
+  Q111999667 (hungary/way/537256614) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q30282192 (hungary/way/550366928) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q875711 (hungary/way/557861186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1072930 (hungary/relation/4769369) -> matched: Milhosť  [body: 3560 chars]
+  Q25458871 (hungary/way/562929252) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20461869 (hungary/way/565770782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q544673 (hungary/way/569653532) -> matched: Nova Rock Festival  [body: 3730 chars]
+  Q996444 (hungary/relation/7767049) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q996499 (hungary/relation/2828699) -> matched: Farkasréti Cemetery  [body: 4330 chars]
+  Q1001127 (hungary/relation/4632399) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1176528 (hungary/way/590761230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57653635 (hungary/relation/7856217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q681570 (hungary/relation/6269443) -> matched: Pápa Air Base  [body: 1870 chars]
+  Q26233560 (hungary/way/592026668) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1120689 (hungary/relation/7897389) -> matched: Kozma Street Cemetery  [body: 1624 chars]
+  Q26228629 (hungary/way/594855220) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96029375 (hungary/relation/7917475) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1036942 (hungary/way/597997476) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q909187 (hungary/relation/7990483) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q909185 (hungary/relation/7990485) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q178510 (hungary/way/620482810) -> matched: Battle of Mohács  [body: 39021 chars]
+  Q255039 (hungary/way/624519224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/627487054) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/627487066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97757314 (hungary/way/633266140) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26231887 (hungary/way/634073574) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q572010 (hungary/way/645069312) -> matched: Szolnok Air Base  [body: 610 chars]
+  Q26232139 (hungary/relation/37622193) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25454945 (hungary/way/653236568) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q876300 (hungary/relation/4413401) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q969277 (hungary/relation/4437787) -> matched: Klížska Nemá  [body: 1889 chars]
+  Q1326801 (hungary/way/660787182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1290366 (hungary/way/664465378) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116817229 (hungary/way/668772820) -> matched: Veľký Lél Island  [body: 913 chars]
+  Q976053 (hungary/relation/5934681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233532 (hungary/relation/9637323) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q630125 (hungary/relation/9653433) -> matched: Gedeon Richter (company)  [body: 9347 chars]
+  Q1212803 (hungary/relation/4769313) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q847016 (hungary/relation/5069633) -> matched: Ponor  [body: 2205 chars]
+  Q30973081 (hungary/way/701867086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q782452 (hungary/way/702360038) -> matched: University of Dunaújváros  [body: 427 chars]
+  Q15054321 (hungary/relation/5556527) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21619468 (hungary/relation/3232655) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q50320039 (hungary/relation/10685863) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q51332506 (hungary/relation/6053889) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1109635 (hungary/relation/12181307) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65074339 (hungary/way/751202090) -> matched: Mátra Solar Power Plant  [body: 830 chars]
+  Q62017535 (hungary/way/759243162) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q27102747 (hungary/relation/11530429) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q139740971 (hungary/way/779260936) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1228106 (hungary/relation/11702091) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q106412014 (hungary/relation/11785713) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q1314941 (hungary/relation/11903627) -> matched: Lake Sárkány  [body: 302 chars]
+  Q781630 (hungary/relation/11951003) -> matched: Nyíregyháza Airport  [body: 1733 chars]
+  Q1473559 (hungary/way/818275274) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q922178 (hungary/relation/12443295) -> matched: Budapest Zoo and Botanical Garden  [body: 6479 chars]
+  Q1105314 (hungary/way/838632834) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q637344 (hungary/relation/12498237) -> matched: Széktói Stadion  [body: 922 chars]
+  Q911360 (hungary/relation/12588855) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20439946 (hungary/relation/13187409) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1214901 (hungary/way/886428304) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14906896 (hungary/relation/13612343) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q991839 (hungary/way/926036296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q909489 (hungary/way/950704698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21971251 (hungary/relation/13993757) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q138848423 (hungary/relation/13993969) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232165 (hungary/way/960065938) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q535617 (hungary/relation/14133441) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q84558964 (hungary/relation/14330941) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q137299627 (hungary/relation/10685875) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28722669 (hungary/way/981206564) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28722669 (hungary/way/981210282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1186781 (hungary/relation/14418765) -> matched: Tápiószentmárton  [body: 335 chars]
+  Q631317 (hungary/way/986093414) -> matched: Széchenyi István University  [body: 4594 chars]
+  Q28722669 (hungary/way/988470986) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q130501485 (hungary/way/992925370) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q60715833 (hungary/relation/14626351) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q263482 (hungary/way/1007939310) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1315072 (hungary/relation/14726673) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1467475 (hungary/relation/4524465) -> matched: Zirc Arboretum  [body: 362 chars]
+  Q5926649 (hungary/relation/12847097) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1212282 (hungary/relation/15212705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1240990 (hungary/relation/15335457) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56045985 (hungary/relation/8892705) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56045985 (hungary/relation/14461489) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232158 (hungary/relation/15499867) -> matched: Lupa Island (Hungary)  [body: 434 chars]
+  Q64886351 (hungary/relation/15563393) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20440045 (hungary/relation/15569125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q571326 (hungary/relation/444675) -> matched: Szigetbecse  [body: 68 chars]
+  Q1160330 (hungary/relation/5951927) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1106224 (hungary/relation/9255307) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1097711 (hungary/relation/3372065) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64549128 (hungary/relation/16019057) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232930 (hungary/relation/16213217) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1673481 (hungary/way/1141382414) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q832075 (hungary/relation/12861505) -> matched: Pick Szeged  [body: 2611 chars]
+  Q251379 (hungary/relation/16636779) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1125052 (hungary/relation/16680623) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65074237 (hungary/way/1204071284) -> matched: Dunai Solar Park  [body: 946 chars]
+  Q64829547 (hungary/way/1211321262) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q221647 (hungary/way/1240029206) -> matched: Piszkéstető Station  [body: 2277 chars]
+  Q16255799 (hungary/way/1257787132) -> matched: Bükkábrány coal mine  [body: 326 chars]
+  Q262381 (hungary/way/1283173784) -> matched: Magyar Suzuki  [body: 2287 chars]
+  Q65074225 (hungary/way/1296516316) -> matched: Felsőzsolca Solar Park  [body: 919 chars]
+  Q1108706 (hungary/relation/5934669) -> matched: Kincsem Park  [body: 1552 chars]
+  Q1126767 (hungary/relation/10245881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q717792 (hungary/way/1316488334) -> matched: Pentele Bridge (Hungary)  [body: 1761 chars]
+  Q26231571 (hungary/relation/15495769) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q126972879 (hungary/relation/18380961) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55712509 (hungary/way/1322187484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q854271 (hungary/relation/5069643) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1318544 (hungary/relation/18852825) -> matched: Counter Terrorism Centre  [body: 5034 chars]
+  Q1176092 (hungary/way/1388837604) -> matched: Merzse-marsh  [body: 1639 chars]
+  Q1030533 (hungary/way/1393266916) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108325004 (hungary/relation/5934665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1030351 (hungary/relation/19883521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12639655 (hungary/relation/14320713) -> matched: Lake Pécs  [body: 509 chars]
+  Q848416 (hungary/relation/23523125) -> matched: Vácrátót Botanical Garden  [body: 491 chars]
+  Q1216541 (hungary/relation/5910611) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1031937 (hungary/way/1487656986) -> matched: Heineken Hungária  [body: 1356 chars]
+  Q39069592 (hungary/way/1491919014) -> matched: Puskás Aréna  [body: 5769 chars]
+  Q1469589 (hungary/relation/20681267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97380340 (hungary/way/1521549530) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q659615 (hungary/way/1539556396) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q850744 (hungary/way/1564927040) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q104767052 (hungary/relation/40746695) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18667360 (hungary/way/1590455268) -> matched: Fortress of Komárno  [body: 5039 chars]
+  Q18816 (hungary/relation/22346845) -> matched: Margaret Island  [body: 5778 chars]
+  Q13521910 (hungary/relation/11100709) -> matched: Fényi Gyula Jesuit High School  [body: 2877 chars]
+  Q95160613 (hungary/way/1627422374) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q904268 (hungary/relation/5852605) -> matched: Lake Deseda  [body: 74 chars]
+  Q1315401 (hungary/relation/10947455) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2665499 (hungary/relation/16625591) -> matched: Lake Vadkert  [body: 589 chars]
+  Q714986 (hungary/relation/3405743) -> matched: Balf, Hungary  [body: 733 chars]
+  Q25457480 (hungary/relation/7856213) -> matched: United Incandescent Lamp and Electricity Company  [body: 11104 chars]
+  Q1334380 (hungary/relation/6350377) -> matched: Szeged Airport  [body: 328 chars]
+  Q1027968 (hungary/relation/23571891) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1326238 (hungary/relation/23686125) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1216649 (hungary/relation/2919197) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q118330141 (hungary/way/1778521932) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q659615 (hungary/way/1782725296) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1326946 (hungary/relation/815985) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q714466 (hungary/way/1810820666) -> matched: Solovka  [body: 1099 chars]
+  Q26233158 (hungary/relation/6877267) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q546133 (hungary/relation/24679005) -> matched: Vary, Zakarpattia Oblast  [body: 718 chars]
+  Q128562743 (hungary/way/1818653212) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q831404 (hungary/way/1818690484) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18107922 (hungary/way/1827744578) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1326238 (hungary/relation/23592483) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1212615 (hungary/way/1855589376) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7264652 (hungary/relation/25108739) -> matched: Pécs Power Station  [body: 355 chars]
+  Q98118767 (hungary/way/1870885666) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q855460 (hungary/relation/25462963) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1241928 (hungary/way/1905143816) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q831616 (hungary/relation/12066529) -> matched: Lake Öreg  [body: 518 chars]
+  Q28704643 (hungary/way/1915044850) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26230273 (hungary/relation/6651153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56247081 (hungary/way/1943873596) -> matched: Ozora Festival  [body: 2102 chars]
+  Q911360 (hungary/way/1977716996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q994042 (hungary/way/1977802542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q994042 (hungary/way/1977805088) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q994042 (hungary/way/1979687916) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q994042 (hungary/way/1979696446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q994042 (hungary/way/1979711210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12694239 (hungary/relation/26656501) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28706752 (hungary/relation/27117667) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28705003 (hungary/relation/27117665) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q634688 (hungary/relation/7808569) -> matched: Siófok-Kiliti Airfield  [body: 193 chars]
+  Q790175 (hungary/relation/27201945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q593219 (hungary/relation/11365467) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1105984 (hungary/way/2077819510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1326801 (hungary/way/2101139230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q676589 (hungary/way/2102638542) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q851122 (hungary/way/2108185660) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26232014 (hungary/relation/21605891) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q96194923 (hungary/way/2147761548) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108737398 (hungary/way/2147773744) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q854127 (hungary/relation/6575627) -> matched: Békés Airport  [body: 2598 chars]
+  Q20860294 (hungary/way/2158038410) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16114567 (hungary/relation/15779135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20860415 (hungary/way/2160014300) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q9337582 (hungary/relation/21623603) -> matched: Šomoška stone waterfall  [body: 1897 chars]
+  Q20860218 (hungary/way/2160480896) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1070052 (hungary/relation/4549603) -> matched: Janice, Rimavská Sobota District  [body: 1955 chars]
+  Q13365904 (hungary/relation/3352783) -> matched: Municipality of Hodoš  [body: 1181 chars]
+  Q171356 (hungary/relation/7876737) -> matched: Hungaroring  [body: 10526 chars]
+  Q774505 (hungary/relation/16019635) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/2180382486) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/2180382494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60715833 (hungary/way/2180382536) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1299885 (hungary/relation/9636713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q777301 (hungary/relation/29301943) -> matched: Megyeri Bridge  [body: 4663 chars]
+  Q22009190 (hungary/relation/15230697) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28704644 (hungary/way/2202085224) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1118890 (hungary/relation/13652835) -> matched: Korda Studios  [body: 975 chars]
+  Q14955010 (hungary/way/2218264970) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14955010 (hungary/way/2218264990) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14955010 (hungary/way/2218264992) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26231527 (hungary/relation/29811809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q102109017 (hungary/relation/29975033) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q11332875 (hungary/relation/6496933) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q848414 (hungary/relation/15892897) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q897033 (hungary/relation/18964955) -> matched: University of Sopron  [body: 608 chars]
+  Q1320968 (hungary/relation/18298135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1471157 (hungary/relation/18380965) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q994042 (hungary/relation/31152597) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q871818 (hungary/relation/20659681) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1102875 (hungary/relation/31500849) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1032670 (hungary/relation/6579433) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q617067 (hungary/relation/31804309) -> matched: Hungarian Open-air Museum  [body: 1507 chars]
+  Q12815746 (hungary/relation/31915503) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q138652962 (hungary/relation/10685879) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q22343259 (hungary/relation/15230917) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12816564 (hungary/way/2377991398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q112094603 (hungary/relation/32346847) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q834350 (hungary/relation/23995415) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1301520 (hungary/relation/22014565) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q116760752 (hungary/relation/32728925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1110820 (hungary/way/2457690562) -> matched: Kisgyalán  [body: 157 chars]
+  Q1470559 (hungary/relation/33673559) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q123004664 (hungary/relation/33673565) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128562330 (hungary/way/2464922068) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1304146 (hungary/relation/33797647) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q68974614 (hungary/relation/2984295) -> matched: Szent Gellért Fórum  [body: 970 chars]
+  Q1183666 (hungary/relation/25474455) -> matched: Rába (company)  [body: 2533 chars]
+  Q30282217 (hungary/relation/7770851) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q781027 (hungary/relation/9714047) -> matched: Audi Hungaria  [body: 1998 chars]
+  Q903138 (hungary/relation/34502883) -> matched: Debrecen International Airport  [body: 4466 chars]
+  Q1161068 (hungary/relation/5612005) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q848413 (hungary/relation/34755799) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21989092 (hungary/way/2535836408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q613220 (hungary/relation/431237) -> matched: Csepel  [body: 3716 chars]
+  Q851040 (hungary/relation/3104929) -> matched: 16th district of Budapest  [body: 813 chars]
+  Q20439802 (hungary/relation/20054655) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15630764 (hungary/relation/35426883) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q901162 (hungary/relation/6434285) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q851146 (hungary/relation/7897399) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1103636 (hungary/relation/35740213) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q64830557 (hungary/relation/5934275) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q81705285 (hungary/relation/35859099) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26229218 (hungary/relation/6039239) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1316414 (hungary/way/2643312824) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q543703 (hungary/way/2658663540) -> matched: Danube-Ipoly National Park  [body: 726 chars]
+  Q897366 (hungary/relation/36464985) -> matched: Hajógyári Island  [body: 4523 chars]
+  Q1188635 (hungary/relation/15342935) -> matched: Paks Nuclear Power Plant  [body: 11763 chars]
+  Q1295413 (hungary/relation/2978057) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q114304545 (hungary/relation/36690865) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q59860747 (hungary/way/2689959782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128664059 (hungary/way/2691274426) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128666341 (hungary/way/2691276336) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128666889 (hungary/way/2691294464) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128666395 (hungary/way/2691294466) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128664122 (hungary/way/2691294468) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128664101 (hungary/way/2691294470) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128666694 (hungary/way/2691300888) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128666738 (hungary/way/2692106540) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q330195 (hungary/relation/735927) -> matched: Újpest  [body: 2714 chars]
+  Q427016 (hungary/relation/27189781) -> matched: City Park (Budapest)  [body: 2764 chars]
+  Q858351 (hungary/relation/3212019) -> matched: 15th district of Budapest  [body: 353 chars]
+  Q128663950 (hungary/way/2695064846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q119149757 (hungary/relation/36990827) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q857943 (hungary/relation/3102581) -> matched: Kispest  [body: 2218 chars]
+  Q851057 (hungary/relation/3102583) -> matched: Pesterzsébet  [body: 1092 chars]
+  Q851062 (hungary/relation/3101195) -> matched: Soroksár  [body: 404 chars]
+  Q249498 (hungary/relation/3104927) -> matched: Kőbánya  [body: 6670 chars]
+  Q277681 (hungary/relation/18402801) -> matched: Semmelweis University  [body: 14115 chars]
+  Q7270289 (hungary/relation/37190105) -> matched: Queen Elisabeth Park, Gödöllő  [body: 1061 chars]
+  Q942033 (hungary/relation/16193819) -> matched: Lake Fehér (Szeged)  [body: 1161 chars]
+  Q1186843 (hungary/relation/9255301) -> matched: Budapest University of Technology and Economics  [body: 21010 chars]
+  Q1463326 (hungary/way/2716857832) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q855170 (hungary/relation/11036481) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1412435 (hungary/relation/26330529) -> matched: Óbuda University  [body: 2246 chars]
+  Q26233527 (hungary/relation/6237843) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q630001 (hungary/relation/6647303) -> matched: Perín-Chym  [body: 1788 chars]
+  Q1221287 (hungary/relation/9255101) -> matched: People's Park (Budapest)  [body: 1157 chars]
+  Q1326238 (hungary/relation/14148143) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1058033 (hungary/relation/11584967) -> matched: Hűvösvölgy  [body: 362 chars]
+  Q12815487 (hungary/relation/38004805) -> matched: National University of Public Service  [body: 32060 chars]
+  Q26228560 (hungary/relation/11613149) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1212666 (hungary/relation/31971651) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31093036 (hungary/relation/7957265) -> matched: Pécs Solar Park  [body: 898 chars]
+  Q1228589 (hungary/relation/15230747) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1042732 (hungary/relation/3212207) -> matched: Belváros-Lipótváros  [body: 2960 chars]
+  Q114262724 (hungary/relation/11974321) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q56391199 (hungary/relation/37510923) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q725707 (hungary/relation/4246919) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26233557 (hungary/relation/7856521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q330013 (hungary/relation/7897395) -> matched: New Public Cemetery, Budapest  [body: 2168 chars]
+  Q909817 (hungary/relation/10848691) -> matched: Dreher Breweries  [body: 3586 chars]
+  Q19392588 (hungary/relation/19506539) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1106307 (hungary/relation/6579437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q60036044 (hungary/relation/15796989) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q338232 (hungary/relation/38537881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1471595 (hungary/relation/37020395) -> matched: Óbudai cemetery  [body: 481 chars]
+  Q30280195 (hungary/relation/15766571) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q580770 (hungary/relation/443953) -> matched: Óbuda-Békásmegyer  [body: 1349 chars]
+  Q67200143 (hungary/way/2885405980) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q126008383 (hungary/relation/7917521) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1051426 (hungary/relation/4567691) -> matched: Lake Szelid  [body: 621 chars]
+  Q370152 (hungary/relation/431243) -> matched: Budafok-Tétény  [body: 441 chars]
+  Q1180336 (hungary/way/2912088360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q903080 (hungary/relation/6620749) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q850815 (hungary/relation/6253475) -> matched: Buda Hills  [body: 2800 chars]
+  Q847072 (hungary/relation/6241067) -> matched: Lake Velence  [body: 1073 chars]
+  Q851122 (hungary/relation/28134945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q500945 (hungary/relation/5596489) -> matched: Budapest Ferenc Liszt International Airport  [body: 22868 chars]
+  Q228445 (hungary/relation/3212087) -> matched: Zugló  [body: 3206 chars]
+  Q851023 (hungary/relation/3211833) -> matched: 13th district of Budapest  [body: 530 chars]
+  Q30963899 (hungary/relation/29377619) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q597182 (hungary/relation/3212201) -> matched: Józsefváros  [body: 5200 chars]
+  Q301411 (hungary/relation/3104925) -> matched: Ferencváros  [body: 15429 chars]
+  Q11384977 (hungary/relation/3101197) -> matched: Pestszentlőrinc-Pestszentimre  [body: 4444 chars]
+  Q21876888 (hungary/relation/40724809) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21876893 (hungary/relation/40728145) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1287034 (hungary/relation/40793951) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q974038 (hungary/relation/443991) -> matched: Hegyvidék  [body: 1571 chars]
+  Q330026 (hungary/relation/443997) -> matched: Újbuda  [body: 3490 chars]
+  Q463332 (hungary/relation/5572201) -> matched: Castle Quarter (Budapest)  [body: 2436 chars]
+  Q1094308 (hungary/relation/443969) -> matched: Várkerület  [body: 1266 chars]
+  Q1068701 (hungary/relation/443961) -> matched: 2nd district of Budapest  [body: 1081 chars]
+  Q284541 (hungary/relation/3212205) -> matched: Erzsébetváros  [body: 1736 chars]
+  Q697679 (hungary/relation/3212203) -> matched: Terézváros  [body: 1771 chars]
+  Q841167 (hungary/relation/34868905) -> matched: Budapest Keleti station  [body: 3632 chars]
+
+wrote 141 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/hungary_wikidata.parquet
+wrote 141 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/hungary_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/hungary_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/hungary_wikidata_map.png
+  rows=141 geometry_missing=0 bodies=141 jsonl=141 map_html=207987B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['hungary']
+  failed:    0 -> []
+
+=== union ===
+unioned 24 countries -> 2665 rows
+[23:54:59] union
+unioned 24 countries -> 2665 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:55:04] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 100 files.
+Finished hashing 100 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 36 files]                : 100%|██████████| 11.4MB / 11.4MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 46)    :  56%|█████▌    | 13.8MB / 24.8MB, 17.2MB/s  
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  16%|█▋        | 1.84MB / 11.2MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 47)    :  59%|█████▉    | 14.7MB / 24.8MB, 10.5MB/s  
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :  13%|█▎        | 1.43MB / 11.0MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 50)    :  61%|██████▏   | 15.2MB / 24.8MB, 9.51MB/s  
+New Data Upload               :   5%|▌         |  524kB / 10.1MB,  328kB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  14%|█▎        | 1.39MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   5%|▌         | 8.14kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet:   5%|▌         | 24.8kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png:   5%|▌         | 7.25kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  32%|███▏      | 3.33MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  26%|██▌       | 40.7kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet:  26%|██▌       |  124kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png:  26%|██▌       | 36.2kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 50)    :  70%|██████▉   | 17.3MB / 24.8MB, 8.66MB/s  
+New Data Upload               :  26%|██▌       | 2.62MB / 10.1MB, 1.31MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  80%|███████▉  | 8.17MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  78%|███████▊  |  122kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet:  78%|███████▊  |  373kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png:  78%|███████▊  |  109kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 50)    :  91%|█████████ | 22.6MB / 24.8MB, 10.3MB/s  
+New Data Upload               :  78%|███████▊  | 7.87MB / 10.1MB, 3.58MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  98%|█████████▊| 10.1MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  98%|█████████▊|  155kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet:  98%|█████████▊|  472kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png:  98%|█████████▊|  138kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (46 / 50)    :  99%|█████████▉| 24.7MB / 24.8MB, 10.3MB/s  
+New Data Upload               :  98%|█████████▊| 9.96MB / 10.1MB, 4.15MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 10.3MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet: 100%|██████████|  480kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 50)    : 100%|██████████| 24.8MB / 24.8MB, 9.55MB/s  
+New Data Upload               : 100%|██████████| 10.1MB / 10.1MB, 3.90MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 10.3MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet: 100%|██████████|  480kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 10.3MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet: 100%|██████████|  480kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 10.3MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet: 100%|██████████|  480kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 10.3MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet: 100%|██████████|  480kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 10.3MB / 10.3MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata.parquet: 100%|██████████|  480kB /  480kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (50 / 50)    : 100%|██████████| 24.8MB / 24.8MB, 7.30MB/s  
+New Data Upload               : 100%|██████████| 10.1MB / 10.1MB, 2.98MB/s  
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 10.3MB / 10.3MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  157kB /  157kB            
+  .../hungary_wikidata.parquet: 100%|██████████|  480kB /  480kB            
+  .../hungary_wikidata_map.png: 100%|██████████|  140kB /  140kB            
+Removing 93 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/d93039c42d97c85768201179e4ab60f36c5aef48
+[23:55:17] DONE hungary

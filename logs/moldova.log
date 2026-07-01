@@ -1,0 +1,2271 @@
+[22:53:51] === moldova ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== moldova ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/moldova.parquet
+pre-filter (--only-wikidata): 35690 -> 816 rows
+
+816 polygons with wikidata=*
+  matched:           722
+  no en sitelink:    94
+  no sitelinks:      0
+  Q12731888 (moldova/way/49400186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19708311 (moldova/way/50390050) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31192851 (moldova/way/50932972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q108784932 (moldova/way/50932994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1097810 (moldova/way/52853038) -> matched: Moldova State University  [body: 2685 chars]
+  Q2022944 (moldova/way/56400538) -> matched: Cuciurgan power station  [body: 2769 chars]
+  Q22691793 (moldova/way/58751242) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18543955 (moldova/relation/38032013) -> matched: Cobasna ammunition depot  [body: 6113 chars]
+  Q20431309 (moldova/way/67291490) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20433234 (moldova/way/72483454) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1509390 (moldova/way/77266206) -> matched: Sheriff Arena  [body: 1061 chars]
+  Q57548806 (moldova/way/83588632) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q571052 (moldova/way/97921822) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12740257 (moldova/way/146058996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1968281 (moldova/way/166104328) -> matched: Tighina Fortress  [body: 4445 chars]
+  Q1031458 (moldova/way/171969502) -> matched: Mărculești Air Force Base  [body: 423 chars]
+  Q4163276 (moldova/way/180326626) -> matched: Dniester Hydroelectric Station 2  [body: 2722 chars]
+  Q20431545 (moldova/way/185671640) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q125958997 (moldova/way/191822548) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12737550 (moldova/way/215363672) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20429288 (moldova/way/223716896) -> matched: 3rd Motorized Infantry Brigade "Dacia"  [body: 1012 chars]
+  Q20431043 (moldova/way/228843386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2387803 (moldova/relation/3626639) -> matched: Condrița  [body: 642 chars]
+  Q4458107 (moldova/way/251731164) -> matched: Tirotex  [body: 1247 chars]
+  Q12730384 (moldova/way/299699996) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12721567 (moldova/way/299752248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20431286 (moldova/way/342764240) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20858713 (moldova/relation/18572575) -> matched: Ișcălău  [body: 133 chars]
+  Q3182285 (moldova/way/348680628) -> matched: KVINT  [body: 1939 chars]
+  Q1465488 (moldova/way/363445058) -> matched: Hâncu Monastery  [body: 1612 chars]
+  Q2652121 (moldova/way/386866486) -> matched: Lymanske, Rozdilna Raion, Odesa Oblast  [body: 4030 chars]
+  Q2456007 (moldova/way/394469206) -> matched: Caragaș  [body: 533 chars]
+  Q672969 (moldova/way/394478196) -> matched: Cioburciu, Transnistria  [body: 869 chars]
+  Q3182285 (moldova/way/447442920) -> matched: KVINT  [body: 1939 chars]
+  Q4530888 (moldova/way/448982228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21643625 (moldova/way/449018506) -> matched: Operational Group of Russian Forces  [body: 12667 chars]
+  Q16671632 (moldova/way/449662988) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q953060 (moldova/relation/6216705) -> matched: Blijnii Hutor  [body: 634 chars]
+  Q219547 (moldova/relation/6216739) -> matched: Dnestrovsc  [body: 958 chars]
+  Q219547 (moldova/relation/16581681) -> matched: Dnestrovsc  [body: 958 chars]
+  Q19706988 (moldova/way/471923696) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4098563 (moldova/way/478439748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1994278 (moldova/way/481555630) -> matched: Corotna  [body: 705 chars]
+  Q853785 (moldova/way/486641132) -> matched: Soroca  [body: 4386 chars]
+  Q7502287 (moldova/way/573284838) -> matched: Alexeevca, Gagauzia  [body: 6098 chars]
+  Q2714541 (moldova/way/574032032) -> matched: Beșghioz  [body: 632 chars]
+  Q27558091 (moldova/way/577669298) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q35719861 (moldova/way/586868260) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28938143 (moldova/way/610353228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4209070 (moldova/way/619461416) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4440477 (moldova/way/655559792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4536209 (moldova/way/703372752) -> matched: Iagorlîc Reserve  [body: 2136 chars]
+  Q1901003 (moldova/way/756242016) -> matched: Dondușeni  [body: 2576 chars]
+  Q733631 (moldova/way/771342326) -> matched: Serpneve, Odesa Oblast  [body: 1350 chars]
+  Q7200863 (moldova/way/972776080) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20858555 (moldova/relation/14862477) -> matched: Bîcioc  [body: 574 chars]
+  Q2638010 (moldova/relation/6216707) -> matched: Sucleia  [body: 727 chars]
+  Q20858883 (moldova/relation/14855339) -> matched: Vladimirovca  [body: 642 chars]
+  Q1961669 (moldova/way/1055606912) -> matched: Pocrovca  [body: 72 chars]
+  Q2456007 (moldova/relation/16579189) -> matched: Caragaș  [body: 533 chars]
+  Q1994278 (moldova/relation/16582115) -> matched: Corotna  [body: 705 chars]
+  Q2443742 (moldova/relation/6497371) -> matched: Hlinaia, Slobozia, Transnistria  [body: 892 chars]
+  Q2708419 (moldova/relation/6497373) -> matched: Crasnoe  [body: 588 chars]
+  Q2708419 (moldova/relation/19358765) -> matched: Crasnoe  [body: 588 chars]
+  Q266957 (moldova/relation/16585757) -> matched: Tîrnauca  [body: 584 chars]
+  Q1995639 (moldova/relation/14865323) -> matched: Crasnogorca  [body: 751 chars]
+  Q766502 (moldova/relation/14865401) -> matched: Vinogradnoe  [body: 528 chars]
+  Q1716140 (moldova/relation/16821909) -> matched: Jewish cemetery, Chișinău  [body: 1479 chars]
+  Q4248462 (moldova/relation/17086307) -> matched: Curchi Monastery  [body: 1597 chars]
+  Q28937502 (moldova/way/1250592982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28916541 (moldova/way/1275187748) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2566659 (moldova/way/1289944500) -> matched: Cahul International Airport  [body: 313 chars]
+  Q16653023 (moldova/relation/18238259) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20429282 (moldova/way/1312972884) -> matched: Ștefan cel Mare 2nd Motorized Infantry Brigade  [body: 1282 chars]
+  Q4037942 (moldova/way/1317805440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2442964 (moldova/way/1325177866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4247522 (moldova/way/1325177868) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20429472 (moldova/way/1334535360) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7629892 (moldova/way/1348295040) -> matched: Stânca–Costești Dam  [body: 1206 chars]
+  Q787568 (moldova/relation/40811613) -> matched: Ialpug  [body: 3415 chars]
+  Q787568 (moldova/relation/40811611) -> matched: Ialpug  [body: 3415 chars]
+  Q2440333 (moldova/relation/18383463) -> matched: Bocani  [body: 68 chars]
+  Q2378710 (moldova/relation/19583163) -> matched: Ghidighici Reservoir  [body: 788 chars]
+  Q2375221 (moldova/relation/19731239) -> matched: Republican Stadium (Chișinău)  [body: 334 chars]
+  Q2392598 (moldova/way/1420548080) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4322173 (moldova/way/1421091870) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20429984 (moldova/way/1443061282) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1973598 (moldova/way/1445922298) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12165091 (moldova/way/1445959916) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1984779 (moldova/way/1449428926) -> matched: Cașunca  [body: 70 chars]
+  Q2442336 (moldova/way/1449435124) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4440955 (moldova/way/1449435128) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4440955 (moldova/way/1511018554) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2628898 (moldova/way/1511020538) -> matched: Ghindești  [body: 1600 chars]
+  Q353592 (moldova/relation/21249217) -> matched: Cornești  [body: 1247 chars]
+  Q2292609 (moldova/relation/11472761) -> matched: Glodeni  [body: 2134 chars]
+  Q4103149 (moldova/relation/21217289) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q21555072 (moldova/way/1627038474) -> matched: Hîrbovăț Monastery  [body: 1954 chars]
+  Q28916534 (moldova/way/1681994684) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1987011 (moldova/relation/24149869) -> matched: Dubăsari Dam  [body: 599 chars]
+  Q2438065 (moldova/relation/2433413) -> matched: Cremenciug, Căușeni  [body: 726 chars]
+  Q27558079 (moldova/relation/24626525) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1970380 (moldova/relation/24678499) -> matched: Chișinău Botanical Garden of the Academy of Sciences  [body: 6554 chars]
+  Q2651567 (moldova/relation/23300483) -> matched: Cuciurgan Reservoir  [body: 1558 chars]
+  Q1116161 (moldova/relation/2433411) -> matched: Copanca  [body: 105 chars]
+  Q1990712 (moldova/relation/2606283) -> matched: Brezoaia  [body: 74 chars]
+  Q4345327 (moldova/relation/12513925) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1995768 (moldova/relation/16697293) -> matched: Speia, Transnistria  [body: 468 chars]
+  Q20858855 (moldova/relation/14865325) -> matched: Teiu, Transnistria  [body: 656 chars]
+  Q5243549 (moldova/relation/19147467) -> matched: Lower Prut  [body: 1065 chars]
+  Q8273147 (moldova/way/1889715384) -> matched: Japca Monastery  [body: 1609 chars]
+  Q30015891 (moldova/relation/25726585) -> matched: Timofei Moșneaga Republican Clinical Hospital  [body: 5558 chars]
+  Q239295 (moldova/relation/13351911) -> matched: Zimbru Stadium  [body: 3180 chars]
+  Q27558090 (moldova/way/2005451844) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4270170 (moldova/way/2046777790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4396405 (moldova/way/2046860912) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28938168 (moldova/way/2052441160) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2440052 (moldova/relation/21257275) -> matched: Răuțel  [body: 68 chars]
+  Q4458055 (moldova/relation/28079693) -> matched: Tiraspol Airfield  [body: 2633 chars]
+  Q844951 (moldova/relation/24643729) -> matched: Chișinău International Airport  [body: 5894 chars]
+  Q4467049 (moldova/way/2161076078) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4147196 (moldova/way/2164622176) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7231147 (moldova/relation/24655669) -> matched: Port of Giurgiulești  [body: 2173 chars]
+  Q25459177 (moldova/relation/19784479) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4290695 (moldova/way/2204747364) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4516450 (moldova/way/2205922032) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20432211 (moldova/relation/28600055) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q970632 (moldova/way/2209467952) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4512297 (moldova/way/2209568846) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4422585 (moldova/way/2209578878) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4087856 (moldova/way/2209578898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4361070 (moldova/way/2209597398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q18169571 (moldova/relation/30073707) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2655738 (moldova/relation/16404777) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q522432 (moldova/relation/31276257) -> matched: Bălți International Airport  [body: 28087 chars]
+  Q12724061 (moldova/relation/15907787) -> matched: Saint Lazarus cemetery  [body: 1565 chars]
+  Q18405702 (moldova/relation/3246311) -> matched: Chișinău Central Cemetery  [body: 7949 chars]
+  Q12722955 (moldova/relation/34023329) -> matched: 1st Motorized Infantry Brigade "Moldova"  [body: 2247 chars]
+  Q20431235 (moldova/relation/34023335) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20430787 (moldova/relation/25650029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8082598 (moldova/relation/3237581) -> matched: Stephen the Great Central Park  [body: 3529 chars]
+  Q1098106 (moldova/relation/16514453) -> matched: Technical University of Moldova  [body: 1699 chars]
+  Q4222652 (moldova/relation/24582825) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11824812 (moldova/way/2558138018) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4222650 (moldova/relation/27614081) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7367970 (moldova/relation/27442295) -> matched: Rose Valley, Chișinău  [body: 1064 chars]
+  Q4098346 (moldova/way/2632614344) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2453608 (moldova/way/2644994610) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4128364 (moldova/way/2644994612) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2453726 (moldova/way/2649245934) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1994412 (moldova/way/2649900686) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q858713 (moldova/relation/14893349) -> matched: Ungheni  [body: 3627 chars]
+  Q2453680 (moldova/relation/24475921) -> matched: Chirileni  [body: 247 chars]
+  Q4168724 (moldova/way/2663757328) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4198467 (moldova/way/2663757340) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4079869 (moldova/way/2663782460) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2437523 (moldova/way/2663782462) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4104784 (moldova/way/2665190402) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q4442517 (moldova/way/2665190440) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6271450 (moldova/way/2665375064) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2386827 (moldova/way/2665375066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q423258 (moldova/way/2666431660) -> matched: Orhei  [body: 4355 chars]
+  Q4290823 (moldova/relation/17114039) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2379822 (moldova/relation/24431335) -> matched: Gîsca  [body: 2112 chars]
+  Q192176 (moldova/relation/24926759) -> matched: Bender, Moldova  [body: 12049 chars]
+  Q3924179 (moldova/relation/24926757) -> matched: Proteagailovca  [body: 852 chars]
+  Q18088065 (moldova/relation/19162709) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15212003 (moldova/relation/16539597) -> matched: Cricova (winery)  [body: 3161 chars]
+  Q2443406 (moldova/relation/37643625) -> matched: Pojăreni  [body: 111 chars]
+  Q2442086 (moldova/relation/37643623) -> matched: Bardar  [body: 1001 chars]
+  Q2442443 (moldova/relation/37643627) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2442455 (moldova/relation/37644269) -> matched: Malcoci  [body: 70 chars]
+  Q2709840 (moldova/relation/37644273) -> matched: Suruceni  [body: 734 chars]
+  Q2628263 (moldova/relation/37644271) -> matched: Nimoreni  [body: 106 chars]
+  Q2442708 (moldova/relation/37644275) -> matched: Dănceni  [body: 15206 chars]
+  Q2442467 (moldova/relation/37645075) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2708449 (moldova/relation/37883779) -> matched: Tiraspolul Nou  [body: 389 chars]
+  Q132572 (moldova/relation/37883781) -> matched: Tiraspol  [body: 14559 chars]
+  Q132572 (moldova/relation/6063365) -> matched: Tiraspol  [body: 14559 chars]
+  Q1994867 (moldova/relation/18576317) -> matched: Dzerjinscoe  [body: 477 chars]
+  Q2457224 (moldova/relation/38003239) -> matched: Lunga, Transnistria  [body: 466 chars]
+  Q20858650 (moldova/relation/16698005) -> matched: Dubău  [body: 1123 chars]
+  Q20858673 (moldova/relation/38026657) -> matched: Goian, Transnistria  [body: 504 chars]
+  Q2708425 (moldova/relation/17078515) -> matched: Maiac  [body: 1475 chars]
+  Q1994814 (moldova/relation/16697819) -> matched: Mihailovca, Transnistria  [body: 1193 chars]
+  Q2457180 (moldova/relation/16698187) -> matched: Butuceni  [body: 1227 chars]
+  Q20858764 (moldova/relation/19320099) -> matched: Ofatinți  [body: 1475 chars]
+  Q20858721 (moldova/relation/16698119) -> matched: Lenin, Transnistria  [body: 544 chars]
+  Q20858520 (moldova/relation/38032331) -> matched: Andreevca  [body: 569 chars]
+  Q20858873 (moldova/relation/38032333) -> matched: Ulmu, Transnistria  [body: 536 chars]
+  Q20858693 (moldova/relation/16585797) -> matched: Hrușca  [body: 543 chars]
+  Q20858837 (moldova/relation/38030575) -> matched: Sovetscoe  [body: 524 chars]
+  Q1994785 (moldova/relation/19312827) -> matched: Molochișul Mare  [body: 1362 chars]
+  Q768639 (moldova/relation/19312649) -> matched: Haraba  [body: 1132 chars]
+  Q2457247 (moldova/relation/17421449) -> matched: Slobozia-Rașcov  [body: 801 chars]
+  Q1995314 (moldova/relation/38030571) -> matched: Beloci  [body: 1191 chars]
+  Q2457204 (moldova/relation/38030217) -> matched: Severinovca  [body: 1197 chars]
+  Q2457147 (moldova/relation/16585819) -> matched: Ocnița, Transnistria  [body: 1084 chars]
+  Q20858628 (moldova/relation/38030213) -> matched: Cuzmin  [body: 1166 chars]
+  Q2457195 (moldova/relation/38030215) -> matched: Hristovaia  [body: 1427 chars]
+  Q2021260 (moldova/relation/38030221) -> matched: Camenca  [body: 2148 chars]
+  Q20858876 (moldova/relation/38030227) -> matched: Valea Adîncă  [body: 949 chars]
+  Q20858874 (moldova/relation/38030569) -> matched: Vadul Turcului  [body: 1401 chars]
+  Q385012 (moldova/relation/38030609) -> matched: Stroiești, Transnistria  [body: 1220 chars]
+  Q2457237 (moldova/relation/17377009) -> matched: Broșteni, Transnistria  [body: 464 chars]
+  Q2457170 (moldova/relation/16698189) -> matched: Jura, Transnistria  [body: 1143 chars]
+  Q2437487 (moldova/relation/38068153) -> matched: Balasinești  [body: 116 chars]
+  Q20858731 (moldova/relation/38068155) -> matched: Medveja, Briceni  [body: 131 chars]
+  Q20858560 (moldova/relation/38068163) -> matched: Bălcăuți, Briceni  [body: 126 chars]
+  Q2436781 (moldova/relation/38068165) -> matched: Bulboaca, Briceni  [body: 70 chars]
+  Q2437556 (moldova/relation/38068167) -> matched: Hlina  [body: 67 chars]
+  Q2626003 (moldova/relation/38068171) -> matched: Tabani, Briceni  [body: 154 chars]
+  Q2437181 (moldova/relation/38068177) -> matched: Slobozia-Șirăuți  [body: 78 chars]
+  Q20858529 (moldova/relation/38068185) -> matched: Berlinți (commune)  [body: 549 chars]
+  Q20858529 (moldova/relation/38068197) -> matched: Berlinți (commune)  [body: 549 chars]
+  Q2436813 (moldova/relation/38068195) -> matched: Beleavinți  [body: 72 chars]
+  Q2711656 (moldova/relation/38068181) -> matched: Criva, Briceni  [body: 199 chars]
+  Q748856 (moldova/relation/38068179) -> matched: Șirăuți  [body: 110 chars]
+  Q2436834 (moldova/relation/38068169) -> matched: Coteala  [body: 69 chars]
+  Q2437696 (moldova/relation/38068175) -> matched: Grimăncăuți  [body: 73 chars]
+  Q2437130 (moldova/relation/38068159) -> matched: Trebisăuți  [body: 72 chars]
+  Q20858537 (moldova/relation/38068173) -> matched: Bogdănești, Moldova  [body: 139 chars]
+  Q253311 (moldova/relation/38068203) -> matched: Tețcani  [body: 69 chars]
+  Q781575 (moldova/relation/38068205) -> matched: Pererîta  [body: 179 chars]
+  Q1827367 (moldova/relation/38068157) -> matched: Lipcani  [body: 9891 chars]
+  Q2437696 (moldova/relation/38068209) -> matched: Grimăncăuți  [body: 73 chars]
+  Q2019727 (moldova/relation/38068193) -> matched: Briceni  [body: 1903 chars]
+  Q20858604 (moldova/relation/38076885) -> matched: Corestăuți  [body: 195 chars]
+  Q20858737 (moldova/relation/38076855) -> matched: Mihălășeni, Ocnița  [body: 128 chars]
+  Q1976447 (moldova/relation/38076857) -> matched: Bîrnova  [body: 109 chars]
+  Q2385322 (moldova/relation/38076863) -> matched: Clocușna  [body: 123 chars]
+  Q1973590 (moldova/relation/38076865) -> matched: Naslavcea  [body: 1171 chars]
+  Q993697 (moldova/relation/38076867) -> matched: Ocnița  [body: 390 chars]
+  Q20858886 (moldova/relation/38076871) -> matched: Vălcineț, Ocnița  [body: 217 chars]
+  Q20858566 (moldova/relation/38076873) -> matched: Călărășeuca  [body: 490 chars]
+  Q2385336 (moldova/relation/38076875) -> matched: Unguri  [body: 1754 chars]
+  Q2377728 (moldova/relation/38076877) -> matched: Frunză, Ocnița  [body: 135 chars]
+  Q20858720 (moldova/relation/38076883) -> matched: Lencăuți  [body: 124 chars]
+  Q20858653 (moldova/relation/38076879) -> matched: Dîngeni  [body: 122 chars]
+  Q2709331 (moldova/relation/38076893) -> matched: Hădărăuți  [body: 276 chars]
+  Q20858754 (moldova/relation/38068191) -> matched: Marcăuți, Briceni  [body: 130 chars]
+  Q20858736 (moldova/relation/38068211) -> matched: Mihăileni, Briceni  [body: 127 chars]
+  Q20858686 (moldova/relation/38068207) -> matched: Halahora de Sus  [body: 160 chars]
+  Q20858596 (moldova/relation/38068199) -> matched: Colicăuți  [body: 128 chars]
+  Q20858602 (moldova/relation/38077943) -> matched: Constantinovca  [body: 137 chars]
+  Q1983950 (moldova/relation/38077903) -> matched: Hancăuți  [body: 69 chars]
+  Q20858812 (moldova/relation/38077907) -> matched: Ruseni, Edineț  [body: 158 chars]
+  Q1984026 (moldova/relation/38077911) -> matched: Fetești, Edineț  [body: 68 chars]
+  Q1984353 (moldova/relation/38077915) -> matched: Trinca, Edineț  [body: 67 chars]
+  Q20858809 (moldova/relation/38077919) -> matched: Rotunda, Edineț  [body: 126 chars]
+  Q2440142 (moldova/relation/38077921) -> matched: Hlinaia, Edineț  [body: 1104 chars]
+  Q20858535 (moldova/relation/38077923) -> matched: Bleșteni  [body: 221 chars]
+  Q1984336 (moldova/relation/38077929) -> matched: Gașpar  [body: 1808 chars]
+  Q2440094 (moldova/relation/38077933) -> matched: Lopatnic  [body: 69 chars]
+  Q20858689 (moldova/relation/38077937) -> matched: Hincăuți  [body: 135 chars]
+  Q20858572 (moldova/relation/38077947) -> matched: Cepeleuți  [body: 217 chars]
+  Q2439648 (moldova/relation/38077949) -> matched: Tîrnova, Edineț  [body: 106 chars]
+  Q1984329 (moldova/relation/38077951) -> matched: Gordinești, Edineț  [body: 71 chars]
+  Q20858552 (moldova/relation/38077953) -> matched: Burlănești  [body: 129 chars]
+  Q1983964 (moldova/relation/38077955) -> matched: Brînzeni  [body: 69 chars]
+  Q2439862 (moldova/relation/38077959) -> matched: Bădragii Vechi  [body: 112 chars]
+  Q20858769 (moldova/relation/38077961) -> matched: Parcova  [body: 126 chars]
+  Q1983956 (moldova/relation/38077963) -> matched: Alexeevca, Edineț  [body: 70 chars]
+  Q1984006 (moldova/relation/38077965) -> matched: Corpaci  [body: 68 chars]
+  Q1983983 (moldova/relation/38077941) -> matched: Bădragii Noi  [body: 73 chars]
+  Q2440083 (moldova/relation/38077935) -> matched: Viișoara, Edineț  [body: 69 chars]
+  Q2440115 (moldova/relation/38077905) -> matched: Șofrîncani  [body: 71 chars]
+  Q1984014 (moldova/relation/38077917) -> matched: Terebna  [body: 68 chars]
+  Q2447701 (moldova/relation/38090467) -> matched: Aluniș, Rîșcani  [body: 68 chars]
+  Q20858685 (moldova/relation/38090469) -> matched: Gălășeni, Rîșcani  [body: 126 chars]
+  Q20858729 (moldova/relation/38090471) -> matched: Malinovscoe  [body: 130 chars]
+  Q2447838 (moldova/relation/38090473) -> matched: Nihoreni  [body: 70 chars]
+  Q2448384 (moldova/relation/38090475) -> matched: Petrușeni  [body: 1915 chars]
+  Q20858784 (moldova/relation/38090477) -> matched: Pociumbeni  [body: 711 chars]
+  Q2448592 (moldova/relation/38090481) -> matched: Văratic, Rîșcani  [body: 106 chars]
+  Q2448555 (moldova/relation/38090483) -> matched: Borosenii Noi  [body: 75 chars]
+  Q2448565 (moldova/relation/38090487) -> matched: Pociumbăuți  [body: 358 chars]
+  Q20858519 (moldova/relation/38090489) -> matched: Alexăndrești  [body: 181 chars]
+  Q2448328 (moldova/relation/38090495) -> matched: Sturzeni  [body: 70 chars]
+  Q20858542 (moldova/relation/38090497) -> matched: Braniște, Rîșcani  [body: 385 chars]
+  Q20858816 (moldova/relation/38090499) -> matched: Răcăria, Rîșcani  [body: 1492 chars]
+  Q2449154 (moldova/relation/38090503) -> matched: Șaptebani  [body: 997 chars]
+  Q2448298 (moldova/relation/38090507) -> matched: Horodiște, Rîșcani  [body: 71 chars]
+  Q1989064 (moldova/relation/38090511) -> matched: Hiliuți, Rîșcani  [body: 279 chars]
+  Q2448373 (moldova/relation/38090513) -> matched: Singureni, Rîșcani  [body: 159 chars]
+  Q20858678 (moldova/relation/38090515) -> matched: Grinăuți, Rîșcani  [body: 183 chars]
+  Q2447761 (moldova/relation/38090517) -> matched: Pîrjota  [body: 69 chars]
+  Q20858652 (moldova/relation/38090519) -> matched: Duruitoarea Nouă  [body: 155 chars]
+  Q2448592 (moldova/relation/38090509) -> matched: Văratic, Rîșcani  [body: 106 chars]
+  Q1983994 (moldova/relation/38077909) -> matched: Stolniceni, Edineț  [body: 154 chars]
+  Q20858652 (moldova/relation/38090525) -> matched: Duruitoarea Nouă  [body: 155 chars]
+  Q20858623 (moldova/relation/38077939) -> matched: Cuconeștii Noi  [body: 266 chars]
+  Q1975122 (moldova/relation/38076869) -> matched: Mereșeuca  [body: 138 chars]
+  Q2379811 (moldova/relation/38076887) -> matched: Sauca, Ocnița  [body: 66 chars]
+  Q2446101 (moldova/relation/38076859) -> matched: Gîrbova  [body: 68 chars]
+  Q20858724 (moldova/relation/38076891) -> matched: Lipnic  [body: 447 chars]
+  Q20858679 (moldova/relation/38076853) -> matched: Grinăuți-Moldova  [body: 222 chars]
+  Q2439140 (moldova/relation/38077957) -> matched: Goleni  [body: 135 chars]
+  Q1984037 (moldova/relation/38077925) -> matched: Chetroșica Nouă  [body: 76 chars]
+  Q1983176 (moldova/relation/38111599) -> matched: Pivniceni  [body: 73 chars]
+  Q20858661 (moldova/relation/38111615) -> matched: Frasin, Dondușeni  [body: 157 chars]
+  Q2439877 (moldova/relation/38111619) -> matched: Scăieni  [body: 71 chars]
+  Q1983166 (moldova/relation/38111607) -> matched: Cernoleuca  [body: 74 chars]
+  Q2439628 (moldova/relation/38111595) -> matched: Rediul Mare  [body: 112 chars]
+  Q1983261 (moldova/relation/38111629) -> matched: Dondușeni, Dondușeni  [body: 240 chars]
+  Q1983254 (moldova/relation/38111605) -> matched: Crișcăuți  [body: 73 chars]
+  Q1983261 (moldova/relation/38111601) -> matched: Dondușeni, Dondușeni  [body: 240 chars]
+  Q1901003 (moldova/relation/38111603) -> matched: Dondușeni  [body: 2576 chars]
+  Q2439088 (moldova/relation/38111631) -> matched: Horodiște, Dondușeni  [body: 542 chars]
+  Q1983138 (moldova/relation/38111611) -> matched: Corbu, Dondușeni  [body: 69 chars]
+  Q20858657 (moldova/relation/38111609) -> matched: Elizavetovca  [body: 1990 chars]
+  Q1983241 (moldova/relation/38111635) -> matched: Plop, Dondușeni  [body: 68 chars]
+  Q1983268 (moldova/relation/38111627) -> matched: Climăuți  [body: 72 chars]
+  Q20858747 (moldova/relation/38111637) -> matched: Moșana  [body: 127 chars]
+  Q2438836 (moldova/relation/38111625) -> matched: Briceni, Dondușeni  [body: 124 chars]
+  Q2391935 (moldova/relation/38111617) -> matched: Arionești  [body: 163 chars]
+  Q1961669 (moldova/relation/38111639) -> matched: Pocrovca  [body: 72 chars]
+  Q20858841 (moldova/relation/38111623) -> matched: Sudarca  [body: 124 chars]
+  Q20858904 (moldova/relation/38090501) -> matched: Șumna  [body: 128 chars]
+  Q20858899 (moldova/relation/38136495) -> matched: Șalvirii Vechi  [body: 258 chars]
+  Q2439621 (moldova/relation/38136467) -> matched: Ochiul Alb  [body: 127 chars]
+  Q2439494 (moldova/relation/38136475) -> matched: Miciurin  [body: 234 chars]
+  Q2439350 (moldova/relation/38136477) -> matched: Țarigrad  [body: 160 chars]
+  Q2006112 (moldova/relation/38136511) -> matched: Drochia  [body: 2155 chars]
+  Q20858767 (moldova/relation/38136485) -> matched: Palanca, Drochia  [body: 198 chars]
+  Q2439308 (moldova/relation/38136509) -> matched: Antoneuca  [body: 124 chars]
+  Q20858702 (moldova/relation/38136499) -> matched: Hăsnășenii Noi  [body: 209 chars]
+  Q20858527 (moldova/relation/38136493) -> matched: Baroncea  [body: 185 chars]
+  Q20858776 (moldova/relation/38136483) -> matched: Petreni, Drochia  [body: 301 chars]
+  Q2439834 (moldova/relation/38136481) -> matched: Dominteni  [body: 126 chars]
+  Q20858905 (moldova/relation/38136505) -> matched: Șuri  [body: 173 chars]
+  Q20858775 (moldova/relation/38136503) -> matched: Pervomaiscoe, Drochia  [body: 231 chars]
+  Q20858664 (moldova/relation/38136515) -> matched: Fîntînița  [body: 311 chars]
+  Q2440155 (moldova/relation/38136521) -> matched: Drochia, Drochia  [body: 243 chars]
+  Q20858856 (moldova/relation/38111621) -> matched: Teleșeuca  [body: 189 chars]
+  Q2439578 (moldova/relation/38136513) -> matched: Zgurița  [body: 2988 chars]
+  Q2439824 (moldova/relation/38136487) -> matched: Popeștii de Sus  [body: 132 chars]
+  Q772155 (moldova/relation/38136497) -> matched: Popeștii de Jos  [body: 132 chars]
+  Q2446147 (moldova/relation/38136705) -> matched: Șeptelici  [body: 70 chars]
+  Q20858690 (moldova/relation/38136731) -> matched: Holoșnița  [body: 194 chars]
+  Q20858805 (moldova/relation/38136725) -> matched: Regina Maria, Soroca  [body: 131 chars]
+  Q20858551 (moldova/relation/38136753) -> matched: Bulboci  [body: 126 chars]
+  Q20858654 (moldova/relation/38136713) -> matched: Dărcăuți  [body: 166 chars]
+  Q2446110 (moldova/relation/38136757) -> matched: Visoca  [body: 67 chars]
+  Q1962859 (moldova/relation/38136759) -> matched: Rudi, Soroca  [body: 156 chars]
+  Q20858768 (moldova/relation/38136743) -> matched: Parcani, Soroca  [body: 121 chars]
+  Q1989670 (moldova/relation/38136751) -> matched: Redi-Cereșnovăț  [body: 524 chars]
+  Q20858884 (moldova/relation/38136727) -> matched: Volovița  [body: 133 chars]
+  Q20858902 (moldova/relation/38136709) -> matched: Șolcani  [body: 128 chars]
+  Q20858825 (moldova/relation/38136707) -> matched: Schineni, Soroca  [body: 129 chars]
+  Q2446073 (moldova/relation/38136769) -> matched: Băxani  [body: 179 chars]
+  Q20858811 (moldova/relation/38136721) -> matched: Rublenița  [body: 132 chars]
+  Q2445621 (moldova/relation/38136729) -> matched: Zastînca  [body: 69 chars]
+  Q20858763 (moldova/relation/38136747) -> matched: Ocolina  [body: 122 chars]
+  Q2446139 (moldova/relation/38136771) -> matched: Hristici  [body: 109 chars]
+  Q20858799 (moldova/relation/38136749) -> matched: Pîrlița, Soroca  [body: 137 chars]
+  Q20858759 (moldova/relation/38136755) -> matched: Nimereuca  [body: 8804 chars]
+  Q786580 (moldova/relation/38136745) -> matched: Racovăț  [body: 68 chars]
+  Q2445515 (moldova/relation/38136719) -> matched: Trifăuți  [body: 107 chars]
+  Q20858879 (moldova/relation/38136763) -> matched: Vasilcău  [body: 138 chars]
+  Q853785 (moldova/relation/38136741) -> matched: Soroca  [body: 4386 chars]
+  Q1989272 (moldova/relation/38136765) -> matched: Egoreni  [body: 68 chars]
+  Q20858619 (moldova/relation/38136715) -> matched: Cremenciug, Soroca  [body: 142 chars]
+  Q1989653 (moldova/relation/38136773) -> matched: Oclanda  [body: 68 chars]
+  Q20858705 (moldova/relation/38136767) -> matched: Iarova  [body: 224 chars]
+  Q20858869 (moldova/relation/38136717) -> matched: Tătărăuca Veche  [body: 449 chars]
+  Q2439871 (moldova/relation/38136517) -> matched: Hăsnășenii Mari  [body: 132 chars]
+  Q20858599 (moldova/relation/38136739) -> matched: Vădeni, Soroca  [body: 122 chars]
+  Q1989253 (moldova/relation/38136761) -> matched: Dubna, Soroca  [body: 66 chars]
+  Q20858839 (moldova/relation/38136735) -> matched: Stoicani  [body: 123 chars]
+  Q2628898 (moldova/relation/38144477) -> matched: Ghindești  [body: 1600 chars]
+  Q1984403 (moldova/relation/38144491) -> matched: Ciripcău  [body: 71 chars]
+  Q20858810 (moldova/relation/38144513) -> matched: Roșietici  [body: 183 chars]
+  Q1984779 (moldova/relation/38144485) -> matched: Cașunca  [body: 70 chars]
+  Q20858682 (moldova/relation/38144495) -> matched: Gura Camencii  [body: 149 chars]
+  Q1984511 (moldova/relation/38144503) -> matched: Cernița  [body: 70 chars]
+  Q2440743 (moldova/relation/38144537) -> matched: Coșernița, Florești  [body: 111 chars]
+  Q20858892 (moldova/relation/38144519) -> matched: Văscăuți  [body: 142 chars]
+  Q1984394 (moldova/relation/38144533) -> matched: Temeleuți, Florești  [body: 72 chars]
+  Q20858626 (moldova/relation/38144535) -> matched: Cuhureștii de Jos  [body: 213 chars]
+  Q2440660 (moldova/relation/38144545) -> matched: Vertiujeni  [body: 219 chars]
+  Q2072887 (moldova/relation/38144505) -> matched: Florești, Moldova  [body: 1030 chars]
+  Q20858887 (moldova/relation/38144501) -> matched: Vărvăreuca  [body: 130 chars]
+  Q2440772 (moldova/relation/38144483) -> matched: Băhrinești  [body: 73 chars]
+  Q2608314 (moldova/relation/38144509) -> matched: Mărculești  [body: 1621 chars]
+  Q20858711 (moldova/relation/38144473) -> matched: Izvoare, Florești  [body: 180 chars]
+  Q20858662 (moldova/relation/38144549) -> matched: Frumușica, Florești  [body: 159 chars]
+  Q20858707 (moldova/relation/38144539) -> matched: Iliciovca  [body: 127 chars]
+  Q1984705 (moldova/relation/38144499) -> matched: Lunga, Florești  [body: 119 chars]
+  Q20858683 (moldova/relation/38144541) -> matched: Gura Căinarului  [body: 112 chars]
+  Q20858863 (moldova/relation/38144497) -> matched: Trifănești  [body: 134 chars]
+  Q1984312 (moldova/relation/38144493) -> matched: Rădulenii Vechi  [body: 78 chars]
+  Q2440758 (moldova/relation/38144547) -> matched: Mărculești, Florești  [body: 130 chars]
+  Q20858832 (moldova/relation/38144551) -> matched: Sevirova  [body: 165 chars]
+  Q1984695 (moldova/relation/38144529) -> matched: Sănătăuca  [body: 154 chars]
+  Q1984050 (moldova/relation/38144517) -> matched: Năpadova  [body: 71 chars]
+  Q2627742 (moldova/relation/38144507) -> matched: Zăluceni  [body: 1299 chars]
+  Q20858617 (moldova/relation/38030219) -> matched: Crasnîi Octeabri  [body: 608 chars]
+  Q2441241 (moldova/relation/38144511) -> matched: Tîrgul Vertiujeni  [body: 80 chars]
+  Q20858758 (moldova/relation/38144487) -> matched: Nicolaevca  [body: 136 chars]
+  Q2439599 (moldova/relation/38136471) -> matched: Moara de Piatră  [body: 132 chars]
+  Q1984321 (moldova/relation/38144489) -> matched: Putinești  [body: 92 chars]
+  Q20858906 (moldova/relation/38153741) -> matched: Țambula  [body: 139 chars]
+  Q20858677 (moldova/relation/38153759) -> matched: Grigorăuca  [body: 146 chars]
+  Q20858587 (moldova/relation/38153739) -> matched: Ciuciuieni  [body: 129 chars]
+  Q20858553 (moldova/relation/38153733) -> matched: Bursuceni  [body: 171 chars]
+  Q20858706 (moldova/relation/38153749) -> matched: Iezărenii Vechi  [body: 145 chars]
+  Q2626898 (moldova/relation/38153767) -> matched: Biruința  [body: 210 chars]
+  Q20858640 (moldova/relation/38153751) -> matched: Dobrogea Veche  [body: 154 chars]
+  Q20858622 (moldova/relation/38153771) -> matched: Cubolta  [body: 186 chars]
+  Q20858533 (moldova/relation/38153729) -> matched: Bilicenii Noi  [body: 155 chars]
+  Q20858844 (moldova/relation/38153773) -> matched: Sîngereii Noi  [body: 137 chars]
+  Q20858534 (moldova/relation/38153761) -> matched: Bilicenii Vechi  [body: 145 chars]
+  Q2449753 (moldova/relation/38153735) -> matched: Rădoaia  [body: 108 chars]
+  Q20858712 (moldova/relation/38153753) -> matched: Izvoare, Sîngerei  [body: 131 chars]
+  Q20858647 (moldova/relation/38153777) -> matched: Drăgănești, Sîngerei  [body: 199 chars]
+  Q20858609 (moldova/relation/38153775) -> matched: Cotiujenii Mici  [body: 154 chars]
+  Q20858715 (moldova/relation/38144479) -> matched: Japca  [body: 1855 chars]
+  Q20858794 (moldova/relation/38144527) -> matched: Prodănești, Florești  [body: 130 chars]
+  Q20858627 (moldova/relation/38144531) -> matched: Cuhureștii de Sus  [body: 179 chars]
+  Q20858672 (moldova/relation/38144515) -> matched: Ghindești, Florești  [body: 147 chars]
+  Q1984752 (moldova/relation/38144475) -> matched: Domulgeni  [body: 138 chars]
+  Q2271123 (moldova/relation/38161295) -> matched: Șoldănești  [body: 916 chars]
+  Q20858807 (moldova/relation/38161325) -> matched: Rogojeni, Șoldănești  [body: 136 chars]
+  Q1990771 (moldova/relation/38161313) -> matched: Pohoarna  [body: 73 chars]
+  Q1991085 (moldova/relation/38161311) -> matched: Cușmirca  [body: 73 chars]
+  Q20858824 (moldova/relation/38161319) -> matched: Salcia, Șoldănești  [body: 122 chars]
+  Q2447207 (moldova/relation/38161309) -> matched: Șipca, Șoldănești  [body: 70 chars]
+  Q1991175 (moldova/relation/38161323) -> matched: Șestac  [body: 72 chars]
+  Q1991193 (moldova/relation/38161299) -> matched: Poiana, Șoldănești  [body: 71 chars]
+  Q1990754 (moldova/relation/38161307) -> matched: Mihuleni  [body: 73 chars]
+  Q1990787 (moldova/relation/38161333) -> matched: Găuzeni  [body: 72 chars]
+  Q20858641 (moldova/relation/38161303) -> matched: Dobrușa, Șoldănești  [body: 136 chars]
+  Q1991015 (moldova/relation/38161335) -> matched: Chipeșca  [body: 73 chars]
+  Q1991127 (moldova/relation/38161331) -> matched: Sămășcani  [body: 74 chars]
+  Q20858803 (moldova/relation/38030229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20858590 (moldova/relation/38161321) -> matched: Climăuții de Jos  [body: 139 chars]
+  Q20858875 (moldova/relation/38161327) -> matched: Vadul-Rașcov  [body: 1720 chars]
+  Q20858569 (moldova/relation/38030231) -> matched: Caterinovca  [body: 549 chars]
+  Q20858515 (moldova/relation/38161329) -> matched: Alcedar  [body: 172 chars]
+  Q1991202 (moldova/relation/38161291) -> matched: Glinjeni, Șoldănești  [body: 73 chars]
+  Q1991158 (moldova/relation/38161293) -> matched: Parcani, Șoldănești  [body: 72 chars]
+  Q1991166 (moldova/relation/38161305) -> matched: Fuzăuca  [body: 2069 chars]
+  Q20858846 (moldova/relation/38161705) -> matched: Sîrcova  [body: 161 chars]
+  Q20858907 (moldova/relation/38161693) -> matched: Țareuca  [body: 161 chars]
+  Q2446066 (moldova/relation/38161715) -> matched: Echimăuți  [body: 152 chars]
+  Q20858692 (moldova/relation/38161717) -> matched: Horodiște, Rezina  [body: 136 chars]
+  Q1988254 (moldova/relation/38161731) -> matched: Lipceni  [body: 68 chars]
+  Q20858836 (moldova/relation/38161711) -> matched: Solonceni  [body: 233 chars]
+  Q1987773 (moldova/relation/38161735) -> matched: Mateuți  [body: 68 chars]
+  Q1988247 (moldova/relation/38161719) -> matched: Păpăuți, Rezina  [body: 106 chars]
+  Q1988241 (moldova/relation/38161709) -> matched: Gordinești, Rezina  [body: 139 chars]
+  Q2447593 (moldova/relation/38161697) -> matched: Ignăței  [body: 118 chars]
+  Q20858793 (moldova/relation/38161739) -> matched: Pripiceni-Răzeși  [body: 148 chars]
+  Q1987818 (moldova/relation/38161723) -> matched: Peciște  [body: 68 chars]
+  Q2447544 (moldova/relation/38161729) -> matched: Cinișeuți  [body: 70 chars]
+  Q20858739 (moldova/relation/38161733) -> matched: Mincenii de Jos  [body: 145 chars]
+  Q2447087 (moldova/relation/38161725) -> matched: Cuizăuca  [body: 156 chars]
+  Q20858773 (moldova/relation/38161707) -> matched: Pereni  [body: 119 chars]
+  Q1988189 (moldova/relation/38161741) -> matched: Cogîlniceni  [body: 72 chars]
+  Q1975098 (moldova/relation/38161721) -> matched: Trifești, Rezina  [body: 161 chars]
+  Q2425949 (moldova/relation/18588245) -> matched: Ghidirim  [body: 1188 chars]
+  Q2281181 (moldova/relation/38161699) -> matched: Rezina  [body: 3452 chars]
+  Q20858718 (moldova/relation/38161727) -> matched: Lalova  [body: 146 chars]
+  Q1988272 (moldova/relation/38161695) -> matched: Otac  [body: 65 chars]
+  Q1975093 (moldova/relation/38161703) -> matched: Bușăuca  [body: 68 chars]
+  Q20858838 (moldova/relation/38164995) -> matched: Step-Soci  [body: 122 chars]
+  Q20858624 (moldova/relation/38165019) -> matched: Cucuruzeni  [body: 132 chars]
+  Q20858896 (moldova/relation/38165025) -> matched: Zorile, Orhei  [body: 186 chars]
+  Q20858645 (moldova/relation/38164993) -> matched: Donici  [body: 131 chars]
+  Q1988197 (moldova/relation/38165033) -> matched: Sămănanca  [body: 69 chars]
+  Q2447073 (moldova/relation/38165013) -> matched: Bulăiești  [body: 81 chars]
+  Q20858749 (moldova/relation/38164997) -> matched: Mîrzești  [body: 122 chars]
+  Q20858620 (moldova/relation/38164999) -> matched: Crihana  [body: 141 chars]
+  Q1975117 (moldova/relation/38165005) -> matched: Podgoreni  [body: 69 chars]
+  Q2382669 (moldova/relation/38165041) -> matched: Zahoreni  [body: 68 chars]
+  Q1988177 (moldova/relation/38165021) -> matched: Pohorniceni  [body: 71 chars]
+  Q423258 (moldova/relation/38165027) -> matched: Orhei  [body: 4355 chars]
+  Q2446326 (moldova/relation/38164977) -> matched: Bolohan  [body: 251 chars]
+  Q20858528 (moldova/relation/38164989) -> matched: Berezlogi  [body: 181 chars]
+  Q20858779 (moldova/relation/38165043) -> matched: Piatra, Orhei  [body: 118 chars]
+  Q20858751 (moldova/relation/38164985) -> matched: Mălăiești, Orhei  [body: 125 chars]
+  Q20858797 (moldova/relation/38164979) -> matched: Puțintei  [body: 135 chars]
+  Q20858669 (moldova/relation/38165029) -> matched: Ghetlova  [body: 135 chars]
+  Q1987780 (moldova/relation/38164991) -> matched: Brăviceni  [body: 69 chars]
+  Q20858771 (moldova/relation/38164987) -> matched: Pelivan  [body: 173 chars]
+  Q1987362 (moldova/relation/38165007) -> matched: Mitoc, Orhei  [body: 1264 chars]
+  Q1987802 (moldova/relation/38165017) -> matched: Neculăieuca  [body: 71 chars]
+  Q20858746 (moldova/relation/38165023) -> matched: Morozeni  [body: 123 chars]
+  Q2447110 (moldova/relation/38165047) -> matched: Isacova  [body: 614 chars]
+  Q1994761 (moldova/relation/16697841) -> matched: Harmațca  [body: 1281 chars]
+  Q1987789 (moldova/relation/38165045) -> matched: Clișova  [body: 67 chars]
+  Q20858581 (moldova/relation/38165015) -> matched: Ciocîlteni  [body: 144 chars]
+  Q20858670 (moldova/relation/38161701) -> matched: Ghiduleni  [body: 152 chars]
+  Q2446743 (moldova/relation/38161737) -> matched: Meșeni  [body: 67 chars]
+  Q1991107 (moldova/relation/38161297) -> matched: Răspopeni  [body: 74 chars]
+  Q20858903 (moldova/relation/38144543) -> matched: Ștefănești, Florești  [body: 139 chars]
+  Q20858563 (moldova/relation/38153755) -> matched: Bălășești, Sîngerei  [body: 129 chars]
+  Q20858651 (moldova/relation/38153745) -> matched: Dumbrăvița, Sîngerei  [body: 209 chars]
+  Q20858895 (moldova/relation/38165681) -> matched: Zgărdești  [body: 178 chars]
+  Q2450726 (moldova/relation/38165691) -> matched: Coropceni  [body: 73 chars]
+  Q20858842 (moldova/relation/38165687) -> matched: Suhuluceni  [body: 134 chars]
+  Q2449947 (moldova/relation/38165703) -> matched: Ordășei  [body: 71 chars]
+  Q20858636 (moldova/relation/38165685) -> matched: Căzănești, Telenești  [body: 149 chars]
+  Q20858781 (moldova/relation/38165695) -> matched: Pistruieni  [body: 148 chars]
+  Q20858543 (moldova/relation/38165707) -> matched: Brînzenii Noi  [body: 194 chars]
+  Q2450438 (moldova/relation/38165663) -> matched: Cîșla, Telenești  [body: 69 chars]
+  Q2450535 (moldova/relation/38165669) -> matched: Ciulucani  [body: 108 chars]
+  Q20858867 (moldova/relation/38165675) -> matched: Tîrșiței  [body: 126 chars]
+  Q2450465 (moldova/relation/38165709) -> matched: Inești  [body: 70 chars]
+  Q20858565 (moldova/relation/38165699) -> matched: Bănești, Telenești  [body: 156 chars]
+  Q2449915 (moldova/relation/38165715) -> matched: Verejeni  [body: 3856 chars]
+  Q2450749 (moldova/relation/38165671) -> matched: Leușeni, Telenești  [body: 71 chars]
+  Q1991577 (moldova/relation/38165679) -> matched: Văsieni, Telenești  [body: 71 chars]
+  Q20858802 (moldova/relation/38165705) -> matched: Ratuș  [body: 217 chars]
+  Q20858579 (moldova/relation/38165689) -> matched: Chițcanii Vechi  [body: 182 chars]
+  Q20858756 (moldova/relation/38165677) -> matched: Negureni  [body: 137 chars]
+  Q2450501 (moldova/relation/38165673) -> matched: Nucăreni  [body: 158 chars]
+  Q2450737 (moldova/relation/38165713) -> matched: Scorțeni, Telenești  [body: 164 chars]
+  Q2452806 (moldova/relation/38165661) -> matched: Chiștelnița  [body: 75 chars]
+  Q2449966 (moldova/relation/38165717) -> matched: Codrul Nou  [body: 1043 chars]
+  Q2449754 (moldova/relation/38165721) -> matched: Țînțăreni, Telenești  [body: 73 chars]
+  Q20858850 (moldova/relation/38165693) -> matched: Sărătenii Vechi  [body: 225 chars]
+  Q20858862 (moldova/relation/38164983) -> matched: Trebujeni  [body: 2001 chars]
+  Q1988204 (moldova/relation/38165003) -> matched: Vîșcăuți  [body: 68 chars]
+  Q2436897 (moldova/relation/38181857) -> matched: Delacău, Anenii Noi  [body: 131 chars]
+  Q12725317 (moldova/relation/38181865) -> matched: Țînțăreni, Anenii Noi  [body: 193 chars]
+  Q12724648 (moldova/relation/38181869) -> matched: Cobusca Veche  [body: 144 chars]
+  Q2436823 (moldova/relation/38181871) -> matched: Cobusca Nouă  [body: 83 chars]
+  Q1983286 (moldova/relation/38181867) -> matched: Cimișeni  [body: 71 chars]
+  Q19704120 (moldova/relation/38181873) -> matched: Botnărești  [body: 152 chars]
+  Q12724637 (moldova/relation/38181875) -> matched: Chirca  [body: 153 chars]
+  Q2331075 (moldova/relation/38181877) -> matched: Merenii Noi  [body: 331 chars]
+  Q2439116 (moldova/relation/38181883) -> matched: Oxentea  [body: 70 chars]
+  Q20858734 (moldova/relation/38181889) -> matched: Miclești, Criuleni  [body: 126 chars]
+  Q1983219 (moldova/relation/38181891) -> matched: Rîșcova  [body: 70 chars]
+  Q2439132 (moldova/relation/38181895) -> matched: Ișnovăț  [body: 118 chars]
+  Q2438650 (moldova/relation/38181897) -> matched: Zăicana  [body: 70 chars]
+  Q732065 (moldova/relation/38181901) -> matched: Cruglic  [body: 70 chars]
+  Q20858815 (moldova/relation/38181821) -> matched: Răculești  [body: 129 chars]
+  Q2439177 (moldova/relation/38181903) -> matched: Jevreni  [body: 70 chars]
+  Q2439139 (moldova/relation/38181899) -> matched: Izbiște  [body: 70 chars]
+  Q922098 (moldova/relation/38181905) -> matched: Mașcăuți  [body: 100 chars]
+  Q2439566 (moldova/relation/38181885) -> matched: Molovata  [body: 142 chars]
+  Q1994846 (moldova/relation/38024211) -> matched: Țîbuleuca  [body: 1393 chars]
+  Q2439539 (moldova/relation/38181887) -> matched: Marcăuți, Dubăsari  [body: 141 chars]
+  Q20858744 (moldova/relation/38016575) -> matched: Molovata Nouă  [body: 952 chars]
+  Q2439609 (moldova/relation/38181823) -> matched: Holercani  [body: 2942 chars]
+  Q997029 (moldova/relation/38181827) -> matched: Criuleni  [body: 1828 chars]
+  Q2534322 (moldova/relation/38181829) -> matched: Slobozia-Dușca  [body: 172 chars]
+  Q20858614 (moldova/relation/38027031) -> matched: Coșnița  [body: 1345 chars]
+  Q585994 (moldova/relation/38027029) -> matched: Pîrîta  [body: 207 chars]
+  Q2436864 (moldova/relation/38181859) -> matched: Puhăceni  [body: 2326 chars]
+  Q20858881 (moldova/relation/38164975) -> matched: Vatici  [body: 184 chars]
+  Q2450759 (moldova/relation/38165665) -> matched: Bogzești  [body: 128 chars]
+  Q2450511 (moldova/relation/38165719) -> matched: Crăsnășeni  [body: 74 chars]
+  Q2450547 (moldova/relation/38165683) -> matched: Budăi, Telenești  [body: 134 chars]
+  Q2451032 (moldova/relation/38165711) -> matched: Hirișeni  [body: 131 chars]
+  Q2452920 (moldova/relation/21249215) -> matched: Cornești (village), Ungheni  [body: 139 chars]
+  Q2453794 (moldova/relation/38190763) -> matched: Păulești, Călărași  [body: 71 chars]
+  Q2453816 (moldova/relation/38190775) -> matched: Frumoasa, Călărași  [body: 71 chars]
+  Q965055 (moldova/relation/38190767) -> matched: Meleșeni  [body: 71 chars]
+  Q20858852 (moldova/relation/38190783) -> matched: Săseni  [body: 118 chars]
+  Q2455003 (moldova/relation/38190797) -> matched: Rădeni, Călărași  [body: 136 chars]
+  Q20858639 (moldova/relation/38190785) -> matched: Dereneu  [body: 131 chars]
+  Q20858548 (moldova/relation/38190787) -> matched: Buda, Călărași  [body: 116 chars]
+  Q607169 (moldova/relation/38190781) -> matched: Nișcani  [body: 1729 chars]
+  Q2455062 (moldova/relation/38190761) -> matched: Horodiște, Călărași  [body: 127 chars]
+  Q30014667 (moldova/relation/38190759) -> matched: Țibirica  [body: 127 chars]
+  Q20858814 (moldova/relation/38190773) -> matched: Răciula  [body: 123 chars]
+  Q20858766 (moldova/relation/38190777) -> matched: Onișcani  [body: 273 chars]
+  Q2454382 (moldova/relation/38190801) -> matched: Hirova  [body: 69 chars]
+  Q2453860 (moldova/relation/38190809) -> matched: Hoginești  [body: 72 chars]
+  Q2455020 (moldova/relation/38190803) -> matched: Peticeni  [body: 71 chars]
+  Q2454309 (moldova/relation/38190793) -> matched: Vălcineț, Călărași  [body: 71 chars]
+  Q1014367 (moldova/relation/38190789) -> matched: Călărași, Moldova  [body: 2160 chars]
+  Q20858865 (moldova/relation/38190807) -> matched: Tuzara  [body: 137 chars]
+  Q2447064 (moldova/relation/38165035) -> matched: Teleșeu  [body: 1821 chars]
+  Q20858648 (moldova/relation/38181845) -> matched: Drăsliceni  [body: 270 chars]
+  Q773754 (moldova/relation/38190765) -> matched: Pitușca  [body: 113 chars]
+  Q2454345 (moldova/relation/38190805) -> matched: Sadova, Călărași  [body: 115 chars]
+  Q2455560 (moldova/relation/38190795) -> matched: Pîrjolteni  [body: 73 chars]
+  Q383584 (moldova/relation/38200331) -> matched: Recea, Strășeni  [body: 644 chars]
+  Q383584 (moldova/relation/38200339) -> matched: Recea, Strășeni  [body: 644 chars]
+  Q2450672 (moldova/relation/38200347) -> matched: Romănești  [body: 72 chars]
+  Q20858735 (moldova/relation/38200345) -> matched: Micăuți  [body: 122 chars]
+  Q2450635 (moldova/relation/38200343) -> matched: Sireți  [body: 238 chars]
+  Q2452290 (moldova/relation/38200335) -> matched: Țigănești, Strășeni  [body: 72 chars]
+  Q2453850 (moldova/relation/38190769) -> matched: Vărzăreștii Noi  [body: 78 chars]
+  Q2450660 (moldova/relation/38200341) -> matched: Roșcani, Strășeni  [body: 70 chars]
+  Q20858801 (moldova/relation/38200357) -> matched: Pănășești  [body: 670 chars]
+  Q2449721 (moldova/relation/38200321) -> matched: Negrești, Strășeni  [body: 71 chars]
+  Q2620881 (moldova/relation/38200361) -> matched: Vorniceni, Strășeni  [body: 248 chars]
+  Q9042414 (moldova/relation/38200355) -> matched: Bucovăț  [body: 156 chars]
+  Q20858817 (moldova/relation/38200349) -> matched: Rădeni, Strășeni  [body: 135 chars]
+  Q20858668 (moldova/relation/38200329) -> matched: Ghelăuza  [body: 122 chars]
+  Q20858676 (moldova/relation/38200319) -> matched: Greblești  [body: 130 chars]
+  Q2619105 (moldova/relation/38200363) -> matched: Voinova  [body: 1651 chars]
+  Q2450494 (moldova/relation/38200327) -> matched: Chirianca  [body: 72 chars]
+  Q2450096 (moldova/relation/38200351) -> matched: Onești, Strășeni  [body: 69 chars]
+  Q383584 (moldova/relation/38200365) -> matched: Recea, Strășeni  [body: 644 chars]
+  Q2450480 (moldova/relation/38200353) -> matched: Tătărești, Strășeni  [body: 72 chars]
+  Q20858684 (moldova/relation/38200317) -> matched: Gălești, Strășeni  [body: 128 chars]
+  Q768989 (moldova/relation/38200367) -> matched: Zubrești  [body: 1939 chars]
+  Q20858733 (moldova/relation/38200369) -> matched: Micleușeni  [body: 165 chars]
+  Q2442070 (moldova/relation/37643631) -> matched: Hansca  [body: 194 chars]
+  Q2375639 (moldova/relation/38200325) -> matched: Dolna, Strășeni  [body: 589 chars]
+  Q2453839 (moldova/relation/38190799) -> matched: Căbăiești  [body: 72 chars]
+  Q2454370 (moldova/relation/38190779) -> matched: Temeleuți, Călărași  [body: 72 chars]
+  Q674335 (moldova/relation/38210235) -> matched: Soltănești  [body: 74 chars]
+  Q2444600 (moldova/relation/38210217) -> matched: Bărboieni  [body: 111 chars]
+  Q20858708 (moldova/relation/38210215) -> matched: Iurceni  [body: 141 chars]
+  Q2392626 (moldova/relation/38210229) -> matched: Bursuc  [body: 103 chars]
+  Q2444706 (moldova/relation/38210243) -> matched: Cristești, Nisporeni  [body: 73 chars]
+  Q2445227 (moldova/relation/38210219) -> matched: Călimănești, Nisporeni  [body: 75 chars]
+  Q2445189 (moldova/relation/38210223) -> matched: Zberoaia  [body: 72 chars]
+  Q20858730 (moldova/relation/38210225) -> matched: Marinici, Nisporeni  [body: 128 chars]
+  Q20858584 (moldova/relation/38210247) -> matched: Ciorești  [body: 175 chars]
+  Q2445255 (moldova/relation/38210241) -> matched: Milești, Nisporeni  [body: 71 chars]
+  Q20858562 (moldova/relation/38210249) -> matched: Bălănești, Nisporeni  [body: 271 chars]
+  Q20858878 (moldova/relation/38210237) -> matched: Valea-Trestieni  [body: 173 chars]
+  Q20858544 (moldova/relation/38210211) -> matched: Brătuleni  [body: 129 chars]
+  Q2445204 (moldova/relation/38210239) -> matched: Vînători, Nisporeni  [body: 72 chars]
+  Q20858588 (moldova/relation/38210231) -> matched: Ciutești  [body: 161 chars]
+  Q20858830 (moldova/relation/38210213) -> matched: Seliște, Nisporeni  [body: 163 chars]
+  Q2445177 (moldova/relation/38210221) -> matched: Grozești, Nisporeni  [body: 381 chars]
+  Q2442836 (moldova/relation/37644265) -> matched: Ulmu, Ialoveni  [body: 2312 chars]
+  Q20858901 (moldova/relation/38210233) -> matched: Șișcani, Nisporeni  [body: 135 chars]
+  Q2444588 (moldova/relation/38210245) -> matched: Bălăurești  [body: 74 chars]
+  Q2443353 (moldova/relation/37644267) -> matched: Văsieni, Ialoveni  [body: 70 chars]
+  Q20858786 (moldova/relation/38220459) -> matched: Pogănești, Hîncești  [body: 174 chars]
+  Q1091723 (moldova/relation/38220467) -> matched: Negrea  [body: 69 chars]
+  Q2442387 (moldova/relation/37643633) -> matched: Fundul Galbenei  [body: 2436 chars]
+  Q20858732 (moldova/relation/38220493) -> matched: Mereșeni  [body: 133 chars]
+  Q1986341 (moldova/relation/38220471) -> matched: Dancu  [body: 68 chars]
+  Q768278 (moldova/relation/37644263) -> matched: Horodca  [body: 70 chars]
+  Q20858646 (moldova/relation/38220511) -> matched: Drăgușenii Noi  [body: 137 chars]
+  Q20858742 (moldova/relation/38220499) -> matched: Mirești  [body: 126 chars]
+  Q1985529 (moldova/relation/38220519) -> matched: Bujor, Hîncești  [body: 68 chars]
+  Q1985833 (moldova/relation/38220503) -> matched: Fîrlădeni, Hîncești  [body: 72 chars]
+  Q2442893 (moldova/relation/38220515) -> matched: Pervomaiscoe, Hîncești  [body: 75 chars]
+  Q2442400 (moldova/relation/38220509) -> matched: Boghiceni  [body: 6231 chars]
+  Q20432364 (moldova/relation/38220463) -> matched: Pașcani, Hîncești  [body: 122 chars]
+  Q2443254 (moldova/relation/38220513) -> matched: Șipoteni  [body: 71 chars]
+  Q1986324 (moldova/relation/38220477) -> matched: Stolniceni, Hîncești  [body: 73 chars]
+  Q2441831 (moldova/relation/38220479) -> matched: Logănești  [body: 157 chars]
+  Q1985883 (moldova/relation/38220485) -> matched: Bălceana  [body: 71 chars]
+  Q1985430 (moldova/relation/38220481) -> matched: Sofia, Hîncești  [body: 68 chars]
+  Q20858765 (moldova/relation/38220489) -> matched: Onești, Hîncești  [body: 123 chars]
+  Q20858710 (moldova/relation/38220505) -> matched: Ivanovca, Hîncești  [body: 136 chars]
+  Q1985849 (moldova/relation/38220517) -> matched: Obileni  [body: 70 chars]
+  Q1985855 (moldova/relation/38220473) -> matched: Cățeleni  [body: 71 chars]
+  Q2442316 (moldova/relation/38220527) -> matched: Nemțeni  [body: 166 chars]
+  Q20858611 (moldova/relation/38220487) -> matched: Cotul Morii  [body: 132 chars]
+  Q20858722 (moldova/relation/38220495) -> matched: Leușeni, Hîncești  [body: 188 chars]
+  Q1985915 (moldova/relation/38220507) -> matched: Călmățui, Hîncești  [body: 71 chars]
+  Q1986314 (moldova/relation/38220475) -> matched: Cioara, Hîncești  [body: 69 chars]
+  Q1985863 (moldova/relation/38220483) -> matched: Voinescu  [body: 71 chars]
+  Q20858540 (moldova/relation/38220521) -> matched: Bozieni, Hîncești  [body: 123 chars]
+  Q1982778 (moldova/relation/38224695) -> matched: Valea Perjei, Cimișlia  [body: 75 chars]
+  Q20858704 (moldova/relation/38224699) -> matched: Ialpujeni  [body: 185 chars]
+  Q1982796 (moldova/relation/38224717) -> matched: Troițcoe  [body: 71 chars]
+  Q1982151 (moldova/relation/38224723) -> matched: Batîr  [body: 665 chars]
+  Q1982925 (moldova/relation/38224691) -> matched: Topala  [body: 69 chars]
+  Q20858511 (moldova/relation/38224687) -> matched: Albina, Cimișlia  [body: 130 chars]
+  Q20858675 (moldova/relation/38224701) -> matched: Gradiște  [body: 156 chars]
+  Q20858790 (moldova/relation/38224689) -> matched: Porumbrei  [body: 53 chars]
+  Q20858698 (moldova/relation/38224709) -> matched: Hîrtop, Cimișlia  [body: 131 chars]
+  Q20858655 (moldova/relation/38224705) -> matched: Ecaterinovca  [body: 455 chars]
+  Q1982788 (moldova/relation/38224719) -> matched: Suric  [body: 68 chars]
+  Q1982766 (moldova/relation/38224711) -> matched: Sagaidac  [body: 71 chars]
+  Q1982920 (moldova/relation/38224729) -> matched: Satul Nou  [body: 157 chars]
+  Q20858595 (moldova/relation/38224715) -> matched: Codreni, Cimișlia  [body: 334 chars]
+  Q2437657 (moldova/relation/38224697) -> matched: Ivanovca Nouă  [body: 76 chars]
+  Q20858725 (moldova/relation/38224707) -> matched: Lipoveni, Cimișlia  [body: 141 chars]
+  Q2443275 (moldova/relation/37644945) -> matched: Molești  [body: 70 chars]
+  Q12725196 (moldova/relation/38227297) -> matched: Sărăteni, Leova  [body: 123 chars]
+  Q2442767 (moldova/relation/38227287) -> matched: Orac, Leova  [body: 66 chars]
+  Q2629183 (moldova/relation/38227315) -> matched: Colibabovca  [body: 71 chars]
+  Q2442739 (moldova/relation/38227317) -> matched: Ceadîr  [body: 66 chars]
+  Q20858591 (moldova/relation/38227281) -> matched: Cneazevca  [body: 123 chars]
+  Q20858861 (moldova/relation/38227295) -> matched: Tomaiul Nou  [body: 135 chars]
+  Q20858851 (moldova/relation/38227321) -> matched: Sărățica Nouă  [body: 137 chars]
+  Q2443220 (moldova/relation/38227319) -> matched: Romanovca  [body: 69 chars]
+  Q2710200 (moldova/relation/38227301) -> matched: Iargara  [body: 225 chars]
+  Q2443266 (moldova/relation/38227285) -> matched: Cupcui  [body: 66 chars]
+  Q30016108 (moldova/relation/38227323) -> matched: Sărata Nouă  [body: 130 chars]
+  Q2442854 (moldova/relation/38227291) -> matched: Covurlui, Leova  [body: 68 chars]
+  Q20858885 (moldova/relation/38227289) -> matched: Vozneseni  [body: 133 chars]
+  Q20858531 (moldova/relation/38227299) -> matched: Beștemac  [body: 122 chars]
+  Q20858570 (moldova/relation/38227325) -> matched: Cazangic  [body: 184 chars]
+  Q20858559 (moldova/relation/38227313) -> matched: Băiuș  [body: 132 chars]
+  Q20858701 (moldova/relation/38227329) -> matched: Hănăsenii Noi  [body: 135 chars]
+  Q1982805 (moldova/relation/38224693) -> matched: Mihailovca, Cimișlia  [body: 73 chars]
+  Q20347941 (moldova/relation/38227485) -> matched: Iserlia  [body: 154 chars]
+  Q2626826 (moldova/relation/38227479) -> matched: Carabetovca  [body: 78 chars]
+  Q2626556 (moldova/relation/38227475) -> matched: Iordanovca  [body: 1824 chars]
+  Q809787 (moldova/relation/38227473) -> matched: Basarabeasca  [body: 4273 chars]
+  Q2442783 (moldova/relation/38227293) -> matched: Filipeni, Leova  [body: 68 chars]
+  Q20858857 (moldova/relation/38227305) -> matched: Tigheci  [body: 121 chars]
+  Q4237162 (moldova/relation/38228029) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1775951 (moldova/relation/38228043) -> matched: Lărguța  [body: 70 chars]
+  Q1775900 (moldova/relation/38228041) -> matched: Haragîș  [body: 1865 chars]
+  Q1778880 (moldova/relation/38228019) -> matched: Capaclia  [body: 71 chars]
+  Q2438669 (moldova/relation/38228013) -> matched: Vișniovca  [body: 88 chars]
+  Q2437507 (moldova/relation/38228055) -> matched: Șamalia  [body: 70 chars]
+  Q20858658 (moldova/relation/38228021) -> matched: Enichioi  [body: 146 chars]
+  Q20858631 (moldova/relation/38228039) -> matched: Cîșla, Cantemir  [body: 122 chars]
+  Q12724622 (moldova/relation/38228051) -> matched: Cania  [body: 120 chars]
+  Q2250055 (moldova/relation/38228045) -> matched: Cantemir, Moldova  [body: 2177 chars]
+  Q20858858 (moldova/relation/38228049) -> matched: Toceni  [body: 160 chars]
+  Q2002075 (moldova/relation/38228031) -> matched: Porumbești, Cantemir  [body: 168 chars]
+  Q20858580 (moldova/relation/38228057) -> matched: Ciobalaccia  [body: 199 chars]
+  Q20858783 (moldova/relation/38228037) -> matched: Plopi, Cantemir  [body: 434 chars]
+  Q20858723 (moldova/relation/38228061) -> matched: Lingura  [body: 134 chars]
+  Q1776404 (moldova/relation/38228053) -> matched: Cîrpești  [body: 71 chars]
+  Q1981954 (moldova/relation/38228063) -> matched: Tartaul  [body: 110 chars]
+  Q20858524 (moldova/relation/38228025) -> matched: Baimaclia, Cantemir  [body: 239 chars]
+  Q20858521 (moldova/relation/38228059) -> matched: Antonești, Cantemir  [body: 124 chars]
+  Q2439298 (moldova/relation/38228047) -> matched: Stoianovca  [body: 553 chars]
+  Q20858908 (moldova/relation/38228011) -> matched: Țiganca  [body: 501 chars]
+  Q20858574 (moldova/relation/38228015) -> matched: Chioselia  [body: 129 chars]
+  Q2437980 (moldova/relation/38231413) -> matched: Iujnoe  [body: 66 chars]
+  Q19704183 (moldova/relation/38231419) -> matched: Chioselia Mare  [body: 176 chars]
+  Q568801 (moldova/relation/38231427) -> matched: Taraclia de Salcie  [body: 1010 chars]
+  Q1528087 (moldova/relation/38231383) -> matched: Giurgiulești  [body: 2717 chars]
+  Q2438100 (moldova/relation/38231437) -> matched: Cîșlița-Prut  [body: 268 chars]
+  Q12724685 (moldova/relation/38231397) -> matched: Cucoara  [body: 121 chars]
+  Q12724895 (moldova/relation/38231411) -> matched: Larga Nouă  [body: 130 chars]
+  Q1775385 (moldova/relation/38231433) -> matched: Brînza  [body: 106 chars]
+  Q2437102 (moldova/relation/38231431) -> matched: Vadul lui Isac  [body: 208 chars]
+  Q12725024 (moldova/relation/38231435) -> matched: Pelinei  [body: 118 chars]
+  Q2438200 (moldova/relation/38231393) -> matched: Bucuria  [body: 67 chars]
+  Q503469 (moldova/relation/38231415) -> matched: Cahul  [body: 6039 chars]
+  Q2439047 (moldova/relation/38231405) -> matched: Huluboaia  [body: 2747 chars]
+  Q12724600 (moldova/relation/38231401) -> matched: Burlacu  [body: 121 chars]
+  Q31227 (moldova/relation/38231425) -> matched: Tătărești, Cahul  [body: 93 chars]
+  Q19704208 (moldova/relation/38231445) -> matched: Doina, Cahul  [body: 137 chars]
+  Q2437950 (moldova/relation/38231439) -> matched: Baurci-Moldoveni  [body: 169 chars]
+  Q2437538 (moldova/relation/38231417) -> matched: Andrușul de Sus  [body: 75 chars]
+  Q1775376 (moldova/relation/38231403) -> matched: Lucești  [body: 67 chars]
+  Q2437962 (moldova/relation/38231447) -> matched: Andrușul de Jos  [body: 218 chars]
+  Q12725285 (moldova/relation/38231429) -> matched: Zîrnești  [body: 132 chars]
+  Q2437459 (moldova/relation/38231423) -> matched: Badicul Moldovenesc  [body: 122 chars]
+  Q1774938 (moldova/relation/38231379) -> matched: Lopățica  [body: 68 chars]
+  Q2638587 (moldova/relation/38234685) -> matched: Carbalia  [body: 879 chars]
+  Q2451576 (moldova/relation/38236067) -> matched: Cairaclia  [body: 467 chars]
+  Q19704157 (moldova/relation/38231395) -> matched: Burlăceni  [body: 152 chars]
+  Q20858571 (moldova/relation/38236081) -> matched: Cealîc  [body: 1869 chars]
+  Q2452361 (moldova/relation/38236085) -> matched: Aluatu  [body: 592 chars]
+  Q20433233 (moldova/relation/38236071) -> matched: Vinogradovca  [body: 2577 chars]
+  Q2453788 (moldova/relation/38236087) -> matched: Musaitu  [body: 1224 chars]
+  Q20858550 (moldova/relation/38236089) -> matched: Budăi, Taraclia  [body: 1219 chars]
+  Q2451621 (moldova/relation/38236069) -> matched: Novosiolovca  [body: 841 chars]
+  Q20858823 (moldova/relation/38236073) -> matched: Salcia, Taraclia  [body: 1020 chars]
+  Q931268 (moldova/relation/38236095) -> matched: Balabanu  [body: 1188 chars]
+  Q20858513 (moldova/relation/38236079) -> matched: Albota de Jos  [body: 1851 chars]
+  Q20858629 (moldova/relation/38228035) -> matched: Cîietu  [body: 123 chars]
+  Q20858821 (moldova/relation/38228017) -> matched: Sadîc  [body: 120 chars]
+  Q2438168 (moldova/relation/38224713) -> matched: Ciucur-Mingir  [body: 130 chars]
+  Q1774926 (moldova/relation/38231387) -> matched: Borceag  [body: 67 chars]
+  Q1993490 (moldova/relation/38237205) -> matched: Chioselia Rusă  [body: 564 chars]
+  Q2639038 (moldova/relation/38237207) -> matched: Cotovscoe  [body: 606 chars]
+  Q20858843 (moldova/relation/38237193) -> matched: Svetlîi  [body: 6098 chars]
+  Q20858601 (moldova/relation/38237197) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2639058 (moldova/relation/38237213) -> matched: Bugeac, Gagauzia  [body: 539 chars]
+  Q2638556 (moldova/relation/38237221) -> matched: Ferapontievca  [body: 1099 chars]
+  Q2638975 (moldova/relation/38237233) -> matched: Joltai  [body: 719 chars]
+  Q216363 (moldova/relation/19319959) -> matched: Rîbnița  [body: 4504 chars]
+  Q2631216 (moldova/relation/3536683) -> matched: Ghidighici  [body: 594 chars]
+  Q2392547 (moldova/relation/38200313) -> matched: Cojușna  [body: 93 chars]
+  Q1117303 (moldova/relation/3536681) -> matched: Vatra, Moldova  [body: 1176 chars]
+  Q20858864 (moldova/relation/3518373) -> matched: Trușeni  [body: 3607 chars]
+  Q2708692 (moldova/relation/3518371) -> matched: Durlești  [body: 1854 chars]
+  Q2443332 (moldova/relation/37643629) -> matched: Sociteni  [body: 71 chars]
+  Q2439097 (moldova/relation/38181825) -> matched: Ustia, Dubăsari  [body: 139 chars]
+  Q20858605 (moldova/relation/38003241) -> matched: Corjova, Dubăsari  [body: 1830 chars]
+  Q20858593 (moldova/relation/38016573) -> matched: Cocieri  [body: 2065 chars]
+  Q20858523 (moldova/relation/38190757) -> matched: Bahmut  [body: 191 chars]
+  Q20858696 (moldova/relation/38190771) -> matched: Hîrjauca  [body: 182 chars]
+  Q2443211 (moldova/relation/26028057) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2442817 (moldova/relation/37644943) -> matched: Horești, Ialoveni  [body: 70 chars]
+  Q2443232 (moldova/relation/37644955) -> matched: Văratic, Ialoveni  [body: 70 chars]
+  Q2443369 (moldova/relation/37645073) -> matched: Puhoi, Ialoveni  [body: 259 chars]
+  Q28916412 (moldova/way/2908846738) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12736326 (moldova/way/2918497066) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2436788 (moldova/relation/38181881) -> matched: Floreni  [body: 91 chars]
+  Q20858546 (moldova/relation/3502573) -> matched: Bubuieci  [body: 865 chars]
+  Q597086 (moldova/relation/11472755) -> matched: Ialoveni  [body: 2052 chars]
+  Q20858829 (moldova/relation/38220497) -> matched: Secăreni  [body: 143 chars]
+  Q2445219 (moldova/relation/38210209) -> matched: Bolțun  [body: 70 chars]
+  Q2167130 (moldova/relation/26028053) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q642008 (moldova/relation/3502595) -> matched: Codru, Moldova  [body: 1583 chars]
+  Q2608576 (moldova/relation/38076889) -> matched: Otaci  [body: 1721 chars]
+  Q20858621 (moldova/relation/3518309) -> matched: Cruzești  [body: 131 chars]
+  Q2618988 (moldova/relation/3505039) -> matched: Colonița  [body: 157 chars]
+  Q20858694 (moldova/relation/38181837) -> matched: Hrușova  [body: 137 chars]
+  Q20858860 (moldova/relation/3505041) -> matched: Tohatin  [body: 358 chars]
+  Q787568 (moldova/relation/19151213) -> matched: Ialpug  [body: 3415 chars]
+  Q20858564 (moldova/relation/38181851) -> matched: Bălțata, Criuleni  [body: 176 chars]
+  Q2388079 (moldova/relation/3518307) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2436840 (moldova/relation/38181849) -> matched: Maximovca  [body: 80 chars]
+  Q20858643 (moldova/relation/38181847) -> matched: Dolinnoe  [body: 150 chars]
+  Q1983201 (moldova/relation/38181855) -> matched: Corjova, Criuleni  [body: 70 chars]
+  Q902720 (moldova/relation/38181863) -> matched: Șerpeni  [body: 78 chars]
+  Q20858561 (moldova/relation/38181853) -> matched: Bălăbănești, Criuleni  [body: 151 chars]
+  Q2279918 (moldova/relation/38181831) -> matched: Onițcani  [body: 736 chars]
+  Q1147711 (moldova/relation/38181833) -> matched: Coșernița, Criuleni  [body: 72 chars]
+  Q20858541 (moldova/relation/38181835) -> matched: Boșcana  [body: 126 chars]
+  Q2621050 (moldova/relation/3505623) -> matched: Vadul lui Vodă  [body: 1264 chars]
+  Q428572 (moldova/relation/3564081) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2387813 (moldova/relation/3564023) -> matched: Stăuceni, Chișinău  [body: 2304 chars]
+  Q20858770 (moldova/relation/38181839) -> matched: Pașcani, Criuleni  [body: 160 chars]
+  Q1983294 (moldova/relation/38181843) -> matched: Măgdăcești  [body: 73 chars]
+  Q20858681 (moldova/relation/3564077) -> matched: Grătiești  [body: 351 chars]
+  Q1139983 (moldova/relation/3564079) -> matched: Cricova  [body: 2225 chars]
+
+wrote 722 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/moldova_wikidata.parquet
+wrote 722 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/moldova_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/moldova_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/moldova_wikidata_map.png
+  rows=722 geometry_missing=0 bodies=722 jsonl=722 map_html=1039517B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['moldova']
+  failed:    0 -> []
+
+=== union ===
+unioned 18 countries -> 1322 rows
+[23:06:15] union
+unioned 18 countries -> 1322 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:06:20] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 76 files.
+Finished hashing 76 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tenstein_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...tenstein_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 15 files]                : 100%|██████████| 2.54MB / 2.54MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (25 / 25)    :  38%|███▊      | 4.57MB / 12.0MB, 4.57MB/s  
+
+  ...s/kosovo_wikidata.parquet: 100%|██████████|  125kB /  125kB            [A[A
+
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A[A
+
+
+
+  ...tenstein_wikidata.parquet: 100%|██████████| 16.3kB / 16.3kB            [A[A[A[A
+
+
+
+
+  ...s/kosovo_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/monaco_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...xembourg_wikidata_map.png: 100%|██████████|  147kB /  147kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/malta_wikidata.parquet: 100%|██████████| 83.6kB / 83.6kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/malta_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/monaco_wikidata.parquet: 100%|██████████| 13.0kB / 13.0kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...s/kosovo_wikidata.parquet: 100%|██████████|  125kB /  125kB            [A[A
+
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A[A
+
+
+
+  ...tenstein_wikidata.parquet: 100%|██████████| 16.3kB / 16.3kB            [A[A[A[A
+
+
+
+
+  ...s/kosovo_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/monaco_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...xembourg_wikidata_map.png: 100%|██████████|  147kB /  147kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/malta_wikidata.parquet: 100%|██████████| 83.6kB / 83.6kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/malta_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 1 files]                 :  11%|█         |  475kB / 4.31MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (25 / 26)    :  42%|████▏     | 5.04MB / 12.0MB, 3.60MB/s  
+
+  ...e-of-man_wikidata_map.png: 100%|██████████|  145kB /  145kB            [A[A
+
+
+  ...tenstein_wikidata.parquet: 100%|██████████| 16.3kB / 16.3kB            [A[A[A
+
+
+
+  ...s/kosovo_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A
+
+
+
+
+  ...s/monaco_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  ...xembourg_wikidata_map.png: 100%|██████████|  147kB /  147kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/malta_wikidata.parquet: 100%|██████████| 83.6kB / 83.6kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/malta_wikidata_map.png: 100%|██████████|  131kB /  131kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...xembourg_wikidata.parquet: 100%|██████████|  580kB /  580kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/monaco_wikidata.parquet: 100%|██████████| 13.0kB / 13.0kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 12 files]                :  13%|█▎        |  988kB / 7.38MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (25 / 38)    :  47%|████▋     | 5.56MB / 12.0MB, 3.48MB/s  
+New Data Upload               :   8%|▊         |  525kB / 6.91MB,  328kB/s  [A
+
+  ...ples/all_wikidata.parquet:  18%|█▊        |  754kB / 4.30MB            [A[A
+
+
+  ...ples/all_wikidata_map.png:   8%|▊         | 11.9kB /  156kB            [A[A[A
+
+
+
+  ...es/italy_wikidata.parquet:   8%|▊         |   162B / 2.13kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet:   8%|▊         |  111kB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata_map.png:   8%|▊         | 10.3kB /  136kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ntenegro_wikidata.parquet:   8%|▊         | 15.1kB /  199kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ntenegro_wikidata_map.png:   8%|▊         | 10.5kB /  138kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet:   8%|▊         | 1.29kB / 17.0kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png:   8%|▊         | 10.4kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :   8%|▊         | 63.4kB /  834kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...ples/all_wikidata.parquet:  31%|███       | 1.34MB / 4.30MB            [A[A
+
+
+  ...ples/all_wikidata_map.png:  23%|██▎       | 35.6kB /  156kB            [A[A[A
+
+
+
+  ...es/italy_wikidata.parquet:  23%|██▎       |   486B / 2.13kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet:  23%|██▎       |  332kB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata_map.png:  23%|██▎       | 31.0kB /  136kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ntenegro_wikidata.parquet:  23%|██▎       | 45.4kB /  199kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ntenegro_wikidata_map.png:  23%|██▎       | 31.4kB /  138kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet:  23%|██▎       | 3.88kB / 17.0kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png:  23%|██▎       | 31.2kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :  23%|██▎       |  190kB /  834kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (25 / 38)    :  55%|█████▌    | 6.61MB / 12.0MB, 3.31MB/s  
+New Data Upload               :  23%|██▎       | 1.58MB / 6.91MB,  788kB/s  [A
+
+  ...ples/all_wikidata.parquet:  79%|███████▊  | 3.38MB / 4.30MB            [A[A
+
+
+  ...ples/all_wikidata_map.png:  76%|███████▌  |  119kB /  156kB            [A[A[A
+
+
+
+  ...es/italy_wikidata.parquet:  76%|███████▌  | 1.62kB / 2.13kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet:  76%|███████▌  | 1.11MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata_map.png:  76%|███████▌  |  103kB /  136kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ntenegro_wikidata.parquet:  76%|███████▌  |  151kB /  199kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ntenegro_wikidata_map.png:  76%|███████▌  |  105kB /  138kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet:  76%|███████▌  | 12.9kB / 17.0kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png:  76%|███████▌  |  104kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :  76%|███████▌  |  634kB /  834kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (25 / 38)    :  86%|████████▌ | 10.3MB / 12.0MB, 4.68MB/s  
+New Data Upload               :  76%|███████▌  | 5.25MB / 6.91MB, 2.39MB/s  [A
+
+  ...ples/all_wikidata.parquet:  99%|█████████▉| 4.25MB / 4.30MB            [A[A
+
+
+  ...ples/all_wikidata_map.png:  99%|█████████▉|  154kB /  156kB            [A[A[A
+
+
+
+  ...es/italy_wikidata.parquet:  99%|█████████▉| 2.11kB / 2.13kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet:  99%|█████████▉| 1.44MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata_map.png:  99%|█████████▉|  134kB /  136kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ntenegro_wikidata.parquet:  99%|█████████▉|  197kB /  199kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ntenegro_wikidata_map.png:  99%|█████████▉|  136kB /  138kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet:  99%|█████████▉| 16.8kB / 17.0kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png:  99%|█████████▉|  135kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 :  99%|█████████▉|  824kB /  834kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (25 / 38)    :  99%|█████████▉| 11.9MB / 12.0MB, 4.95MB/s  
+New Data Upload               :  99%|█████████▉| 6.83MB / 6.91MB, 2.85MB/s  [A
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 4.30MB / 4.30MB            [A[A
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A
+
+
+
+  ...es/italy_wikidata.parquet: 100%|██████████| 2.13kB / 2.13kB            [A[A[A[A
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A
+
+
+
+
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 3 files]                 : 100%|██████████|  834kB /  834kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 38)    : 100%|██████████| 12.0MB / 12.0MB, 4.60MB/s  
+New Data Upload               : 100%|██████████| 6.91MB / 6.91MB, 2.66MB/s  [A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A[A
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 38)    : 100%|██████████| 12.0MB / 12.0MB, 3.73MB/s  
+New Data Upload               : 100%|██████████| 6.91MB / 6.91MB, 2.16MB/s  
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+Removing 51 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/ebab974c2103db466de3c0f5bfd58bf372016887
+[23:06:31] DONE moldova
+[23:12:44] === moldova ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== moldova ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/moldova.parquet
+pre-filter (--only-wikidata): 35690 -> 816 rows
+[23:13:02] union
+unioned 18 countries -> 1322 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:13:08] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 76 files.
+Finished hashing 76 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A
+
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...tenstein_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata.parquet: 100%|██████████|  168kB /  168kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A
+
+
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A[A[A
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  156kB /  156kB            [A[A[A[A[A
+
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...tenstein_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 28 files]                : 100%|██████████| 9.93MB / 9.93MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 38)    : 100%|██████████| 12.0MB / 12.0MB, 14.9MB/s  
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 4.30MB / 4.30MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 4.30MB / 4.30MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 4.30MB / 4.30MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 4.30MB / 4.30MB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            [A[A
+
+
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            [A[A[A
+
+
+
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A
+
+
+
+
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            [A[A[A[A[A
+
+
+
+
+
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 4.30MB / 4.30MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (38 / 38)    : 100%|██████████| 12.0MB / 12.0MB, 7.47MB/s  
+New Data Upload               : |          |  0.00B /  0.00B,  0.00B/s  
+  .../moldova_wikidata_map.png: 100%|██████████|  136kB /  136kB            
+  ...s/poland_wikidata.parquet: 100%|██████████| 17.0kB / 17.0kB            
+  ...s/poland_wikidata_map.png: 100%|██████████|  137kB /  137kB            
+  ...ntenegro_wikidata_map.png: 100%|██████████|  138kB /  138kB            
+  ...ntenegro_wikidata.parquet: 100%|██████████|  199kB /  199kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 4.30MB / 4.30MB            
+Removing 75 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/2654099e8c8881a844f26043c71e4b34e58119cc
+[23:13:17] DONE moldova

@@ -91,6 +91,7 @@ def match_country(in_path: Path, parquet_out: Path, jsonl_out: Path, map_html_ou
         "--lang", LANG,
         "--only-wikidata",
         "--sleep", str(SLEEP_S),
+        "--max-workers", "8",
     ]
     # Start the child as the leader of a new process group so we can killpg on timeout.
     proc = subprocess.Popen(cmd, start_new_session=True)

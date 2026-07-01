@@ -1,0 +1,1433 @@
+[23:27:30] === serbia ===
+OSM_DATA_ROOT = /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles
+SAMPLES_ROOT  = /Users/noeflandre/osm-polygon-to-wikipedia-articles/data/samples
+countries     = 1
+per-step timeout: 3600s
+
+=== serbia ===
+  source: /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/serbia.parquet
+wrote 47189 polygons from 1 countries -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/serbia.parquet
+pre-filter (--only-wikidata): 47189 -> 400 rows
+
+400 polygons with wikidata=*
+  matched:           187
+  no en sitelink:    210
+  no sitelinks:      3
+  Q29976844 (serbia/way/31590984) -> matched: Veliko Blato (Serbia)  [body: 5963 chars]
+  Q31183979 (serbia/way/32205248) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q34795553 (serbia/way/33105592) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2062450 (serbia/way/46157380) -> matched: Tašmajdan Park  [body: 35739 chars]
+  Q31182978 (serbia/way/47156446) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906879 (serbia/way/47156452) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3365428 (serbia/way/47307988) -> matched: Park Republika Srpska  [body: 3360 chars]
+  Q2539582 (serbia/way/47852184) -> matched: Aeronautical Museum (Belgrade)  [body: 2404 chars]
+  Q2972576 (serbia/way/50358834) -> matched: Zemun Cemetery  [body: 7931 chars]
+  Q2744326 (serbia/way/53400872) -> matched: Ludaš Lake  [body: 3792 chars]
+  Q478000 (serbia/way/53526566) -> matched: Red Star Stadium  [body: 14599 chars]
+  Q569556 (serbia/way/53552384) -> matched: Belgrade New Cemetery  [body: 20290 chars]
+  Q1289417 (serbia/way/56541072) -> matched: Iron Gate I Hydroelectric Power Station  [body: 2321 chars]
+  Q5953580 (serbia/way/63600444) -> matched: Hyde Park, Belgrade  [body: 680 chars]
+  Q31184655 (serbia/way/69734814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12749214 (serbia/way/71432496) -> matched: Bor Lake  [body: 1222 chars]
+  Q31184998 (serbia/way/76920902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16897613 (serbia/way/77183602) -> matched: Lake Vrutci  [body: 1035 chars]
+  Q1938900 (serbia/way/77516650) -> matched: Silver Lake (Serbia)  [body: 4897 chars]
+  Q2906873 (serbia/way/77935494) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906874 (serbia/way/78690644) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q124399303 (serbia/way/86217780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q5133750 (serbia/way/86640164) -> matched: University Clinical Centre of Vojvodina  [body: 2101 chars]
+  Q31182370 (serbia/way/87293246) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3345499 (serbia/way/87675332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q57699696 (serbia/way/88065994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3500924 (serbia/way/88208136) -> matched: Studentski Grad, Belgrade  [body: 4732 chars]
+  Q853607 (serbia/way/96454978) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110045741 (serbia/way/107667404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16507211 (serbia/way/111885776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3543824 (serbia/way/135427704) -> matched: Lisičji Jarak Airfield  [body: 394 chars]
+  Q110046218 (serbia/way/136642210) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16086697 (serbia/way/136642254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6958043 (serbia/way/136655598) -> matched: Pančevo Airport  [body: 1349 chars]
+  Q2719217 (serbia/way/149023800) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q599868 (serbia/way/150239880) -> matched: Kalemegdan Park  [body: 27117 chars]
+  Q97232301 (serbia/way/154086430) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97289833 (serbia/way/154819226) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16086083 (serbia/way/166150664) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3215456 (serbia/way/172598592) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q932846 (serbia/way/174413284) -> matched: Perućac lake  [body: 10413 chars]
+  Q6896173 (serbia/way/176180130) -> matched: Molin Forest  [body: 281 chars]
+  Q8083867 (serbia/way/176687164) -> matched: Șimian (island)  [body: 748 chars]
+  Q28726172 (serbia/way/176687222) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61364363 (serbia/way/176943848) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16761043 (serbia/way/176944558) -> matched: Forest of Bojcin  [body: 7770 chars]
+  Q16081218 (serbia/way/176945408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12752818 (serbia/way/185426602) -> matched: University Clinical Centre of Kragujevac  [body: 925 chars]
+  Q980429 (serbia/way/189034318) -> matched: Bor Airport  [body: 4017 chars]
+  Q97197855 (serbia/way/192482288) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16087937 (serbia/way/209759646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12754983 (serbia/way/209759650) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q20437951 (serbia/way/214084532) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28726167 (serbia/way/223115638) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65200340 (serbia/way/240418638) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12754588 (serbia/way/262713864) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q895342 (serbia/way/270856732) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q42793858 (serbia/way/271408274) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2940431 (serbia/way/282824282) -> matched: Carska Bara  [body: 15273 chars]
+  Q3345540 (serbia/way/286071484) -> matched: Novi Sad Fair  [body: 2073 chars]
+  Q12760174 (serbia/way/288145862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3445520 (serbia/way/292585894) -> matched: Štrand  [body: 10983 chars]
+  Q19602345 (serbia/way/294742408) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q65202909 (serbia/relation/19139873) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11878022 (serbia/way/301361086) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2586088 (serbia/way/305590720) -> matched: Petrovaradin Fortress  [body: 7801 chars]
+  Q3280859 (serbia/way/312555054) -> matched: Makiš  [body: 13136 chars]
+  Q910205 (serbia/way/326764294) -> matched: Sremska Mitrovica Prison  [body: 3537 chars]
+  Q61128783 (serbia/way/333012488) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31182619 (serbia/way/335038934) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q31182638 (serbia/way/335039714) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2371121 (serbia/way/337415918) -> matched: Šumarice Memorial Park  [body: 2575 chars]
+  Q34796203 (serbia/way/348641608) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97195651 (serbia/way/348805762) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11981887 (serbia/way/349817946) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3594318 (serbia/way/356326178) -> matched: Šumice, Belgrade  [body: 5052 chars]
+  Q3074840 (serbia/way/360345746) -> matched: Belgrade Fair  [body: 14130 chars]
+  Q18394121 (serbia/way/361206228) -> matched: Thermal power plant Kolubara  [body: 950 chars]
+  Q11991325 (serbia/way/361206230) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q11991316 (serbia/way/361206236) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906877 (serbia/way/364998174) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25455296 (serbia/way/364998180) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q26982003 (serbia/way/364998182) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12749045 (serbia/way/364998194) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25312354 (serbia/way/365868132) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12758764 (serbia/way/373798980) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q618044 (serbia/way/374321180) -> matched: Apatin Brewery  [body: 3903 chars]
+  Q962949 (serbia/way/384312778) -> matched: Vračar plateau  [body: 25877 chars]
+  Q65200338 (serbia/way/386825136) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q19903651 (serbia/way/388675412) -> matched: Sloboda (defense company)  [body: 2311 chars]
+  Q2906876 (serbia/way/392565774) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906878 (serbia/way/392565780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98098427 (serbia/way/392565786) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q89385963 (serbia/way/392565792) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31183301 (serbia/way/392565800) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31183157 (serbia/way/392565802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31183110 (serbia/way/392565806) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906882 (serbia/way/392565810) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98098429 (serbia/way/392565814) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q30037696 (serbia/way/396949194) -> matched: Park of Friendship, New Belgrade  [body: 6020 chars]
+  Q97330063 (serbia/way/396949196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16682260 (serbia/way/403284276) -> matched: Valjaonica bakra Sevojno  [body: 2156 chars]
+  Q12752817 (serbia/way/403757872) -> matched: University Clinical Centre of Serbia  [body: 1434 chars]
+  Q98098423 (serbia/way/408526776) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98098424 (serbia/way/408526778) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98098425 (serbia/way/408526780) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98098426 (serbia/way/408526782) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31183172 (serbia/way/408526784) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3081391 (serbia/way/408526798) -> matched: Retenzija  [body: 1542 chars]
+  Q128597089 (serbia/way/410695104) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12746888 (serbia/way/414758898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q373577 (serbia/way/420864240) -> matched: Smederevska Palanka Airfield  [body: 506 chars]
+  Q7361170 (serbia/way/434306518) -> matched: Rusanda  [body: 3015 chars]
+  Q166971 (serbia/way/442920416) -> matched: Zavoj Lake  [body: 3163 chars]
+  Q4882636 (serbia/way/468777020) -> matched: Belgrade Bus Station  [body: 479 chars]
+  Q127955 (serbia/way/476327948) -> matched: Belgrade Nikola Tesla Airport  [body: 14201 chars]
+  Q16084324 (serbia/way/476520972) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15990616 (serbia/way/487930728) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16085231 (serbia/way/503368392) -> matched: Philip Morris Operations  [body: 1274 chars]
+  Q904677 (serbia/way/503559502) -> matched: Subotica Airfield  [body: 935 chars]
+  Q2990524 (serbia/way/510991350) -> matched: Dedinje Royal Compound  [body: 2859 chars]
+  Q134425901 (serbia/relation/6882215) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16083580 (serbia/way/513961080) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906880 (serbia/way/513961704) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2742417 (serbia/way/513991122) -> matched: Bežanija  [body: 19889 chars]
+  Q16083611 (serbia/way/514805502) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7127675 (serbia/relation/22290535) -> matched: Lake Palić  [body: 22145 chars]
+  Q1386505 (serbia/way/543844496) -> matched: Fabrika automobila Priboj  [body: 7571 chars]
+  Q3544603 (serbia/way/543989130) -> matched: Sremska Mitrovica Airport  [body: 901 chars]
+  Q1262128 (serbia/way/548920236) -> matched: Niš Constantine the Great Airport  [body: 8664 chars]
+  Q31182637 (serbia/way/549276808) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2886640 (serbia/way/561932518) -> matched: Military Base "South"  [body: 1194 chars]
+  Q105964305 (serbia/way/566365170) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q647240 (serbia/way/573194490) -> matched: Orlovača  [body: 3224 chars]
+  Q3502849 (serbia/way/575720734) -> matched: Sugar Refinery, Čukarica  [body: 11472 chars]
+  Q948600 (serbia/way/576363960) -> matched: Batajnica Air Base  [body: 1964 chars]
+  Q1433155 (serbia/way/584752392) -> matched: Valjevo Airfield  [body: 848 chars]
+  Q7544337 (serbia/way/584884232) -> matched: Smederevo Airfield  [body: 517 chars]
+  Q960839 (serbia/way/592368456) -> matched: Mediana  [body: 7536 chars]
+  Q2944932 (serbia/way/603675902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97329813 (serbia/way/603764994) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q956421 (serbia/way/605096946) -> matched: City Park, Zemun  [body: 13795 chars]
+  Q61131960 (serbia/way/686711442) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12758983 (serbia/way/688338296) -> matched: Slobodište  [body: 2426 chars]
+  Q25461855 (serbia/way/721848358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1664939 (serbia/way/740453508) -> matched: Vinča Nuclear Institute  [body: 5141 chars]
+  Q17496778 (serbia/way/760294216) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6435989 (serbia/way/775326430) -> matched: Brege Airfield  [body: 332 chars]
+  Q110046746 (serbia/way/784348552) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31181809 (serbia/way/787809898) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906884 (serbia/way/787809908) -> matched: Block 45  [body: 23266 chars]
+  Q25469380 (serbia/way/793783126) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2788431 (serbia/way/798107184) -> matched: Banjički Vis Military Base  [body: 398 chars]
+  Q3543822 (serbia/way/800587604) -> matched: Sjenica Airport  [body: 2368 chars]
+  Q2906883 (serbia/way/806989196) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906886 (serbia/way/806990116) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110049896 (serbia/way/815144292) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2184917 (serbia/way/825964504) -> matched: FK Teleoptik  [body: 2061 chars]
+  Q47537748 (serbia/relation/37638781) -> matched: Dijamant  [body: 3783 chars]
+  Q3177898 (serbia/way/830348344) -> matched: Leskova  [body: 1505 chars]
+  Q61124588 (serbia/way/835703036) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q231499 (serbia/relation/2641465) -> matched: Zvornik Lake  [body: 1393 chars]
+  Q61358878 (serbia/way/838542356) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17076202 (serbia/relation/9193439) -> matched: Forkontumac  [body: 2291 chars]
+  Q20436960 (serbia/way/887582768) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1409017 (serbia/way/901648252) -> matched: Belgrade Fortress  [body: 60711 chars]
+  Q23198806 (serbia/way/907588126) -> matched: Rovni Lake  [body: 3439 chars]
+  Q1154314 (serbia/relation/23214699) -> matched: Grbavica, Novi Sad  [body: 1292 chars]
+  Q20436933 (serbia/way/964924638) -> matched: Memorial Park Jajinci  [body: 5136 chars]
+  Q2906888 (serbia/way/989718332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q14766989 (serbia/way/992217170) -> matched: Hesteel Serbia  [body: 4700 chars]
+  Q48806817 (serbia/way/1012577154) -> matched: Milan Blagojević - Namenska  [body: 3599 chars]
+  Q753941 (serbia/relation/23214681) -> matched: Telep  [body: 3506 chars]
+  Q4682697 (serbia/relation/23214683) -> matched: Adice  [body: 1231 chars]
+  Q6356887 (serbia/way/1024538376) -> matched: Kamenjar  [body: 220 chars]
+  Q7601903 (serbia/relation/23214703) -> matched: Stari Grad, Novi Sad  [body: 6868 chars]
+  Q7206629 (serbia/relation/23214705) -> matched: Podbara  [body: 1243 chars]
+  Q6591637 (serbia/relation/23214707) -> matched: Salajka  [body: 1173 chars]
+  Q6593788 (serbia/relation/23214685) -> matched: Satelit  [body: 1940 chars]
+  Q6421133 (serbia/relation/23214713) -> matched: Klisa, Serbia  [body: 1606 chars]
+  Q3497747 (serbia/way/1025099650) -> matched: Morava Airport  [body: 8989 chars]
+  Q4680199 (serbia/relation/23214701) -> matched: Adamovićevo Naselje  [body: 3289 chars]
+  Q7928137 (serbia/relation/23214717) -> matched: Vidovdansko Naselje  [body: 1371 chars]
+  Q7538619 (serbia/relation/23214715) -> matched: Slana Bara  [body: 2383 chars]
+  Q12749046 (serbia/way/1033368670) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12759414 (serbia/way/1057797030) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q97202699 (serbia/way/1065204728) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110048372 (serbia/way/1084682858) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q560385 (serbia/way/1174939640) -> matched: Island of Vukovar  [body: 2358 chars]
+  Q31183134 (serbia/way/1186938398) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2906867 (serbia/way/1186938400) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31181839 (serbia/way/1188742892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16083681 (serbia/way/1188742894) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122070021 (serbia/way/1200919388) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12751617 (serbia/way/1210100146) -> matched: Ljubičevo stable  [body: 2746 chars]
+  Q12754839 (serbia/way/1233034464) -> matched: Kaona Monastery  [body: 2607 chars]
+  Q14932139 (serbia/way/1292117404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q17098299 (serbia/way/1306973944) -> matched: Military Technical Institute  [body: 9322 chars]
+  Q2733526 (serbia/way/1339154130) -> matched: Pecka (Osečina)  [body: 175 chars]
+  Q25312362 (serbia/relation/18691325) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q54860499 (serbia/way/1348571866) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3415728 (serbia/way/1350814360) -> matched: Serbia Zijin Bor Copper  [body: 8265 chars]
+  Q8082868 (serbia/way/1351665124) -> matched: Štark  [body: 2686 chars]
+  Q16086603 (serbia/way/1361912042) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12747964 (serbia/relation/18903955) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q901676 (serbia/way/1362563596) -> matched: Galenika a.d.  [body: 2745 chars]
+  Q25464235 (serbia/way/1362995656) -> matched: Belgrade Hippodrome  [body: 5963 chars]
+  Q3109399 (serbia/relation/18921033) -> matched: Zaovine Lake  [body: 6043 chars]
+  Q854655 (serbia/way/1387479020) -> matched: Beška Bridge  [body: 1789 chars]
+  Q3444519 (serbia/relation/19354623) -> matched: Zasavica (bog)  [body: 14084 chars]
+  Q12641914 (serbia/relation/19400169) -> matched: Selevenj heath  [body: 962 chars]
+  Q49318975 (serbia/relation/19749025) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12757022 (serbia/relation/19753619) -> matched: Ponjavica Nature Park  [body: 5059 chars]
+  Q25459370 (serbia/way/1421007894) -> matched: Rogot  [body: 7572 chars]
+  Q19384062 (serbia/way/1444452498) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q797698 (serbia/relation/41920743) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3486526 (serbia/relation/20484599) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134099 (serbia/relation/20864771) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134178 (serbia/relation/20864773) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134179 (serbia/relation/20864747) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61129670 (serbia/relation/20864733) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134197 (serbia/relation/20864761) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134223 (serbia/relation/20864731) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134272 (serbia/relation/20864785) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134188 (serbia/relation/20864781) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134144 (serbia/relation/20864763) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134123 (serbia/relation/20864765) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134122 (serbia/relation/20864769) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134267 (serbia/relation/20864727) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134222 (serbia/relation/20864729) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134255 (serbia/relation/20864741) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134233 (serbia/relation/20864767) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134149 (serbia/relation/20864749) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134156 (serbia/relation/20862189) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134204 (serbia/relation/20862191) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134241 (serbia/relation/20864745) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134187 (serbia/relation/20864759) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134153 (serbia/relation/20864757) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134244 (serbia/relation/20864755) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134244 (serbia/relation/20864753) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61134237 (serbia/relation/20864777) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3453326 (serbia/way/1486599016) -> matched: Rupčine  [body: 1985 chars]
+  Q1548278 (serbia/relation/1067359) -> matched: Great War Island  [body: 24625 chars]
+  Q3139427 (serbia/way/1517615538) -> matched: Plavi Horizonti  [body: 2093 chars]
+  Q16481495 (serbia/way/1517615540) -> matched: Altina, Belgrade  [body: 2733 chars]
+  Q31184034 (serbia/way/1518030556) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2823875 (serbia/way/1518030566) -> matched: Ada Međica  [body: 5923 chars]
+  Q29918228 (serbia/relation/40902627) -> matched: Vinatovača  [body: 1884 chars]
+  Q1075724 (serbia/relation/21577023) -> matched: Šajkaš  [body: 892 chars]
+  Q2588696 (serbia/way/1581043678) -> matched: Smederevo Fortress  [body: 18456 chars]
+  Q7942641 (serbia/way/1593128672) -> matched: Vratna Gates  [body: 5323 chars]
+  Q12796307 (serbia/way/1620667380) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12760059 (serbia/way/1630862534) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q24952905 (serbia/way/1632927150) -> matched: Ostružnica Bridge  [body: 2333 chars]
+  Q12752625 (serbia/way/1641699588) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12751968 (serbia/way/1644566506) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31184669 (serbia/way/1644566510) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61360243 (serbia/relation/25514383) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q790075 (serbia/relation/36870493) -> matched: Avala  [body: 24954 chars]
+  Q1288526 (serbia/relation/36440305) -> matched: Kosmaj  [body: 15655 chars]
+  Q12754512 (serbia/relation/23390153) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16426006 (serbia/relation/22638441) -> matched: Coronini  [body: 15307 chars]
+  Q12749044 (serbia/relation/22987339) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2065016 (serbia/way/1677662072) -> matched: Topčider  [body: 21424 chars]
+  Q38250773 (serbia/way/1679832384) -> matched: Belgrade marshalling yard  [body: 1050 chars]
+  Q12758116 (serbia/relation/23092221) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q207138 (serbia/relation/377975) -> matched: Zlatar Lake  [body: 602 chars]
+  Q20434821 (serbia/relation/39988043) -> matched: Villa Zlatni Breg  [body: 17922 chars]
+  Q391205 (serbia/relation/23183765) -> matched: Island of Šarengrad  [body: 2469 chars]
+  Q31184312 (serbia/way/1690389636) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3281096 (serbia/way/1691580668) -> matched: Mala Ciganlija  [body: 1062 chars]
+  Q20436810 (serbia/way/1724156698) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16088014 (serbia/relation/23560415) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12747659 (serbia/relation/27455725) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61132065 (serbia/way/1724868332) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31182351 (serbia/way/1724868802) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1264703 (serbia/way/1731276822) -> matched: Manasija  [body: 5943 chars]
+  Q16999853 (serbia/relation/23657997) -> matched: Majdanpek mine  [body: 402 chars]
+  Q15244014 (serbia/way/1751187906) -> matched: Makiš Stadium  [body: 484 chars]
+  Q1200027 (serbia/relation/16063515) -> matched: Sevojno  [body: 1094 chars]
+  Q25426045 (serbia/relation/24334679) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12757660 (serbia/relation/24665617) -> matched: Potpeć Lake  [body: 708 chars]
+  Q135273274 (serbia/relation/39829077) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3139398 (serbia/way/1826154722) -> matched: Galenika, Zemun  [body: 2231 chars]
+  Q12759843 (serbia/relation/4042591) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2940431 (serbia/relation/25261157) -> matched: Carska Bara  [body: 15273 chars]
+  Q110045208 (serbia/way/1875082538) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3432380 (serbia/relation/21251617) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1479905 (serbia/relation/5031953) -> matched: Gazivoda Lake  [body: 2622 chars]
+  Q1551157 (serbia/relation/2719439) -> matched: Gruža Lake  [body: 2920 chars]
+  Q8082700 (serbia/relation/23319901) -> matched: Šalinac Grove  [body: 1167 chars]
+  Q2875789 (serbia/relation/25428475) -> matched: Ponikve Airport  [body: 3594 chars]
+  Q1274968 (serbia/relation/25771301) -> matched: Ei Niš  [body: 5183 chars]
+  Q25459283 (serbia/relation/26087929) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q15233658 (serbia/way/1940187892) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q932846 (serbia/way/1940384632) -> matched: Perućac lake  [body: 10413 chars]
+  Q3417956 (serbia/relation/32696041) -> matched: Mount Rajac  [body: 1620 chars]
+  Q3110974 (serbia/relation/23670689) -> matched: Ovčar-Kablar Gorge  [body: 10749 chars]
+  Q31182505 (serbia/relation/26401411) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q118214608 (serbia/relation/26401437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31182653 (serbia/way/1965522518) -> matched: Lazar's Canyon  [body: 3674 chars]
+  Q16083416 (serbia/way/1968450386) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3544012 (serbia/way/1996339806) -> matched: Trstenik Airfield  [body: 1372 chars]
+  Q31182373 (serbia/relation/27146427) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12752533 (serbia/way/2028131656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6594060 (serbia/relation/23214697) -> matched: Rotkvarija (Žitni Trg)  [body: 1847 chars]
+  Q4853975 (serbia/relation/23214695) -> matched: Banatić  [body: 1160 chars]
+  Q6548871 (serbia/relation/28827659) -> matched: Liman, Novi Sad  [body: 18159 chars]
+  Q608992 (serbia/way/2098218806) -> matched: Novi Sad Airfield  [body: 7573 chars]
+  Q3497562 (serbia/way/2098850644) -> matched: Zrenjanin Airfield  [body: 4145 chars]
+  Q61133882 (serbia/relation/28053265) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110045759 (serbia/way/2148309982) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31184665 (serbia/way/2148383254) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31184655 (serbia/way/2148430194) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12751926 (serbia/way/2148430196) -> matched: Zvezdara Forest  [body: 10178 chars]
+  Q11109385 (serbia/relation/28667231) -> matched: University Clinical Centre of Niš  [body: 2021 chars]
+  Q16114567 (serbia/relation/15779135) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12751926 (serbia/relation/5078929) -> matched: Zvezdara Forest  [body: 10178 chars]
+  Q20434968 (serbia/way/2165486722) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q113463478 (serbia/relation/28869969) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12761254 (serbia/relation/29350937) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6406292 (serbia/way/2213074856) -> matched: Kikinda Airfield  [body: 419 chars]
+  Q2823871 (serbia/way/2226099976) -> matched: Ada Huja  [body: 16253 chars]
+  Q12754319 (serbia/way/2229822906) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2075436 (serbia/relation/29966373) -> matched: Military Academy (Serbia)  [body: 11250 chars]
+  Q4855839 (serbia/relation/277417) -> matched: Banjica forest  [body: 6992 chars]
+  Q1545890 (serbia/way/2255958790) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12757017 (serbia/way/2264991354) -> matched: Jegrička Nature Park  [body: 1458 chars]
+  Q119496424 (serbia/relation/30840657) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q118206696 (serbia/way/2274165976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31182484 (serbia/way/2274169228) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12752674 (serbia/way/2274171862) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q122146576 (serbia/way/2274172514) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q8082700 (serbia/relation/25347863) -> matched: Šalinac Grove  [body: 1167 chars]
+  Q25459026 (serbia/relation/30845235) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q55021637 (serbia/way/2275335766) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12760797 (serbia/way/2275343964) -> matched: Hadži-Prodan's Cave  [body: 4821 chars]
+  Q122069783 (serbia/way/2275345902) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q7884852 (serbia/way/2275358118) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q6589753 (serbia/relation/39265135) -> matched: Stopića Cave  [body: 4984 chars]
+  Q31182906 (serbia/relation/30857647) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q49307602 (serbia/way/2283122358) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25459162 (serbia/relation/31585309) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q25460845 (serbia/relation/32305063) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12044790 (serbia/way/2388128964) -> matched: Petnica Cave  [body: 352 chars]
+  Q16085559 (serbia/relation/36127713) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31182551 (serbia/way/2393721656) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q129259 (serbia/relation/23076643) -> matched: Niš  [body: 32472 chars]
+  Q12757663 (serbia/relation/39265993) -> matched: Drežnička Gradina  [body: 2869 chars]
+  Q31184794 (serbia/way/2448416754) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q31181916 (serbia/relation/39818747) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q98078408 (serbia/way/2448416780) -> matched: Osredak Special Nature Reserve  [body: 4608 chars]
+  Q31182762 (serbia/relation/33408081) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q61364323 (serbia/relation/33408069) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3078896 (serbia/relation/12633423) -> matched: Lipovička šuma  [body: 2883 chars]
+  Q1263535 (serbia/way/2450822568) -> matched: University of Novi Sad  [body: 6884 chars]
+  Q60776290 (serbia/way/2491295600) -> matched: Stara Planina ski resort  [body: 1389 chars]
+  Q16081433 (serbia/way/2515546976) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12295759 (serbia/way/2541727692) -> matched: Sukovo Monastery  [body: 3878 chars]
+  Q1548278 (serbia/relation/35017089) -> matched: Great War Island  [body: 24625 chars]
+  Q73330139 (serbia/relation/38957635) -> matched: Verdis  [body: 16479 chars]
+  Q3474459 (serbia/way/2570198608) -> matched: Savamala  [body: 70741 chars]
+  Q61128655 (serbia/way/2572913646) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q110046679 (serbia/way/2577274186) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q126937075 (serbia/relation/35562847) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28726148 (serbia/relation/32480229) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2140169 (serbia/relation/15479881) -> matched: Vlasina Lake  [body: 12190 chars]
+  Q3560923 (serbia/way/2602348136) -> matched: Fetislam  [body: 1572 chars]
+  Q122068122 (serbia/relation/35671833) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q1655887 (serbia/way/2602896818) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q118131171 (serbia/relation/35700395) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q118130512 (serbia/relation/32303213) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q3107151 (serbia/relation/13388921) -> matched: Košutnjak  [body: 26364 chars]
+  Q122068819 (serbia/relation/36862945) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128213431 (serbia/relation/36933437) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q28726165 (serbia/relation/38436881) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q131768961 (serbia/way/2703969368) -> no_sitelinks: (no article)  [body: 0 chars]
+  Q25459284 (serbia/relation/21190301) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2290818 (serbia/relation/37925981) -> matched: Port of Belgrade  [body: 1725 chars]
+  Q125886420 (serbia/way/2775232520) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q16109090 (serbia/way/2781835238) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q686538 (serbia/way/2824573738) -> matched: Zlatance  [body: 186 chars]
+  Q686538 (serbia/way/2824573740) -> matched: Zlatance  [body: 186 chars]
+  Q102285156 (serbia/relation/32763455) -> matched: Gornja Siga  [body: 11296 chars]
+  Q6304935 (serbia/relation/23214797) -> matched: Jugovićevo  [body: 10404 chars]
+  Q4828840 (serbia/relation/23214693) -> matched: Avijatičarsko Naselje  [body: 1198 chars]
+  Q5265660 (serbia/relation/23214691) -> matched: Detelinara  [body: 2348 chars]
+  Q7402706 (serbia/relation/23214689) -> matched: Sajmište, Novi Sad  [body: 1195 chars]
+  Q16839982 (serbia/relation/40898867) -> matched: Belgrade Waterfront  [body: 21055 chars]
+  Q1449384 (serbia/way/2856743896) -> matched: Kosančićev Venac  [body: 37464 chars]
+  Q971700 (serbia/relation/21251621) -> matched: Stari Grad, Belgrade  [body: 13566 chars]
+  Q3594450 (serbia/relation/40169213) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q12754194 (serbia/way/2978572404) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2367077 (serbia/relation/13056539) -> matched: Stepin Lug  [body: 4445 chars]
+  Q65086779 (serbia/relation/40902823) -> matched: Port of Novi Sad  [body: 6234 chars]
+  Q12758519 (serbia/relation/29350931) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q2321302 (serbia/relation/29350933) -> matched: Ada Ciganlija  [body: 56562 chars]
+  Q6434895 (serbia/way/3020751868) -> matched: Kovin Airport  [body: 752 chars]
+  Q122068220 (serbia/relation/41345497) -> no_lang_sitelink: (no article)  [body: 0 chars]
+  Q128213527 (serbia/way/3029441152) -> no_lang_sitelink: (no article)  [body: 0 chars]
+
+wrote 187 matched polygons -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/serbia_wikidata.parquet
+wrote 187 matched records -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/serbia_wikidata.jsonl
+wrote map -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/serbia_wikidata_map.html
+wrote png -> /Volumes/Seagate M3/osm-polygon-to-wikipedia-articles/serbia_wikidata_map.png
+  rows=187 geometry_missing=0 bodies=187 jsonl=187 map_html=272376B
+  OK
+
+=== summary ===
+  succeeded: 1 -> ['serbia']
+  failed:    0 -> []
+
+=== union ===
+unioned 21 countries -> 1895 rows
+[23:32:50] union
+unioned 21 countries -> 1895 rows -> data/samples/all_wikidata.parquet
+wrote map -> data/samples/all_wikidata_map.html
+wrote png -> data/samples/all_wikidata_map.png
+[23:32:55] push to HF
+It seems you are trying to upload a large folder at once. This might take some time and then fail if the folder is too large. For such cases, it is recommended to upload in smaller batches or to use `HfApi().upload_large_folder(...)`/`hf upload-large-folder` instead. For more details, check out https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#upload-a-large-folder.
+Start hashing 88 files.
+Finished hashing 88 files.
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...es/italy_wikidata.parquet: 100%|██████████| 2.13kB / 2.13kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../andorra_wikidata.parquet: 100%|██████████| 30.4kB / 30.4kB            [A[A
+
+
+  ...s/azores_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A
+
+
+
+  ...-islands_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A
+
+
+
+
+  .../andorra_wikidata_map.png: 100%|██████████|  144kB /  144kB            [A[A[A[A[A
+
+
+
+
+
+  .../albania_wikidata_map.png: 100%|██████████|  137kB /  137kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...y-jersey_wikidata_map.png: 100%|██████████|  150kB /  150kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  .../andorra_polygons_map.png: 100%|██████████|  603kB /  603kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...s/latvia_wikidata.parquet: 100%|██████████|  510kB /  510kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../albania_wikidata.parquet: 100%|██████████|  514kB /  514kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 30 files]                : 100%|██████████| 7.01MB / 7.01MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (40 / 40)    :  54%|█████▍    | 9.40MB / 17.5MB, 9.41MB/s  
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  .../moldova_wikidata.parquet: 100%|██████████| 1.46MB / 1.46MB            [A[A
+
+
+  ...s/cyprus_wikidata_map.png: 100%|██████████|  132kB /  132kB            [A[A[A
+
+
+
+  ...s/cyprus_wikidata.parquet: 100%|██████████|  280kB /  280kB            [A[A[A[A
+
+
+
+
+  .../estonia_wikidata_map.png: 100%|██████████|  130kB /  130kB            [A[A[A[A[A
+
+
+
+
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  [+ 4 files]                 :  14%|█▍        | 1.16MB / 8.24MB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (40 / 44)    :  59%|█████▉    | 10.4MB / 17.5MB, 7.41MB/s  
+New Data Upload               :   7%|▋         |  525kB / 7.60MB,  375kB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  13%|█▎        |  891kB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:   7%|▋         | 10.9kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet:   7%|▋         | 64.6kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png:   7%|▋         | 9.61kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  26%|██▌       | 1.77MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  21%|██        | 32.8kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet:  21%|██        |  194kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png:  21%|██        | 28.8kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (40 / 44)    :  65%|██████▌   | 11.4MB / 17.5MB, 6.36MB/s  
+New Data Upload               :  21%|██        | 1.57MB / 7.60MB,  875kB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  65%|██████▍   | 4.41MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  62%|██████▏   | 98.3kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet:  62%|██████▏   |  581kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png:  62%|██████▏   | 86.5kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (40 / 44)    :  83%|████████▎ | 14.6MB / 17.5MB, 7.29MB/s  
+New Data Upload               :  62%|██████▏   | 4.72MB / 7.60MB, 2.36MB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  97%|█████████▋| 6.60MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  97%|█████████▋|  153kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet:  97%|█████████▋|  904kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png:  97%|█████████▋|  135kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (40 / 44)    :  98%|█████████▊| 17.2MB / 17.5MB, 7.82MB/s  
+New Data Upload               :  97%|█████████▋| 7.34MB / 7.60MB, 3.34MB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet:  97%|█████████▋| 6.60MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png:  97%|█████████▋|  153kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet:  97%|█████████▋|  904kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png:  97%|█████████▋|  135kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 6.82MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 44)    : 100%|██████████| 17.5MB / 17.5MB, 6.71MB/s  
+New Data Upload               : 100%|██████████| 7.60MB / 7.60MB, 2.93MB/s  [A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 6.82MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 6.82MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 6.82MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 6.82MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[A
+
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            [A[A
+
+
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            [A[A[A
+
+
+
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            [A[A[A[A
+
+
+
+
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            [A[A[A[A[A
+
+
+
+
+
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            [A[A[A[A[A[A
+
+
+
+
+
+
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+  ...ples/all_wikidata.parquet: 100%|██████████| 6.82MB / 6.82MB            [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            [A[A[A[A[A[A[A[A[A[A[AProcessing Files (44 / 44)    : 100%|██████████| 17.5MB / 17.5MB, 5.13MB/s  
+New Data Upload               : 100%|██████████| 7.60MB / 7.60MB, 2.24MB/s  
+  ...-kingdom_wikidata_map.png: 100%|██████████|  146kB /  146kB            
+  ...es/spain_wikidata.parquet: 100%|██████████|  403kB /  403kB            
+  ...-kingdom_wikidata.parquet: 100%|██████████|  142kB /  142kB            
+  ...es/spain_wikidata_map.png: 100%|██████████|  143kB /  143kB            
+  .../estonia_wikidata.parquet: 100%|██████████| 1.13MB / 1.13MB            
+  ...-islands_wikidata.parquet: 100%|██████████|  182kB /  182kB            
+  ...ples/all_wikidata.parquet: 100%|██████████| 6.82MB / 6.82MB            
+  ...ples/all_wikidata_map.png: 100%|██████████|  158kB /  158kB            
+  ...s/serbia_wikidata.parquet: 100%|██████████|  937kB /  937kB            
+  ...s/serbia_wikidata_map.png: 100%|██████████|  139kB /  139kB            
+Removing 81 file(s) from commit that have not changed.
+https://huggingface.co/datasets/NoeFlandre/osm-polygon-to-wikipedia-articles/commit/c26d0f7ffab93cbda88b3b442d29b9e1f659efd2
+[23:33:09] DONE serbia
