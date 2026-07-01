@@ -18,8 +18,8 @@ from pathlib import Path
 
 import polars as pl
 
-from osm_polygon_to_wikipedia_articles.wikipedia.geomap import build_polygon_map
-from osm_polygon_to_wikipedia_articles.wikipedia.render import render_map_png
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.geomap import build_polygon_map
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.render import render_map_png
 
 
 def main() -> None:

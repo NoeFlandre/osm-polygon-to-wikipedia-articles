@@ -2,7 +2,7 @@
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.wikidata import (
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.wikidata import (
     extract_wikidata_qid,
     filter_polygons_with_wikidata,
     resolve_wikidata_to_article,

@@ -21,12 +21,12 @@ from pathlib import Path
 
 import polars as pl
 
-from osm_polygon_to_wikipedia_articles.wikipedia.match import match_polygons
-from osm_polygon_to_wikipedia_articles.wikipedia.wikidata import filter_polygons_with_wikidata
-from osm_polygon_to_wikipedia_articles.wikipedia.http_client import fetch_wikidata_sitelinks
-from osm_polygon_to_wikipedia_articles.wikipedia.summary import fetch_summary
-from osm_polygon_to_wikipedia_articles.wikipedia.extracts import fetch_extract
-from osm_polygon_to_wikipedia_articles.wikipedia.map import build_map
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.match import match_polygons
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.wikidata import filter_polygons_with_wikidata
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.http_client import fetch_wikidata_sitelinks
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.summary import fetch_summary
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.extracts import fetch_extract
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.map import build_map
 
 
 def main() -> None:
@@ -112,7 +112,7 @@ def main() -> None:
     if args.map_path is not None:
         if matched:
             from dataclasses import asdict
-            from osm_polygon_to_wikipedia_articles.wikipedia.render import render_map_png
+            from osm_polygon_to_wikipedia_articles.wikipedia.visualization.render import render_map_png
             map_df = pl.DataFrame([asdict(r) for r in matched])
             build_map(map_df, out_path=args.map_path)
             print(f"wrote map -> {args.map_path}")

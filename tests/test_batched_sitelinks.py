@@ -10,10 +10,7 @@ from __future__ import annotations
 import json
 from unittest.mock import MagicMock, patch
 
-import pytest
-
-from osm_polygon_to_wikipedia_articles.wikipedia import batched_sitelinks as bs
-from osm_polygon_to_wikipedia_articles.wikipedia.batched_sitelinks import (
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.batched_sitelinks import (
     fetch_sitelinks_batched,
 )
 

@@ -3,11 +3,11 @@ from __future__ import annotations
 
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.summary import (
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.summary import (
     ArticleSummary,
     fetch_summary,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.extracts import (
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.extracts import (
     fetch_extract,
 )
 

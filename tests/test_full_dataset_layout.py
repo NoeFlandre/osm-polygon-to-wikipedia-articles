@@ -28,7 +28,7 @@ from pathlib import Path
 
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.full_layout import (
+from osm_polygon_to_wikipedia_articles.wikipedia.layout._paths import (
     COMBINED_DIR,
     PER_COUNTRY_DIR,
     PREVIEW_DIR,
@@ -38,16 +38,20 @@ from osm_polygon_to_wikipedia_articles.wikipedia.full_layout import (
     PreviewPaths,
     RootPaths,
     SamplePaths,
-    build_all_europe,
-    build_metadata_json,
-    build_sample_map,
     combined_paths_for,
     country_paths_for,
     preview_paths_for,
     root_paths_for,
     sample_paths_for,
+)
+from osm_polygon_to_wikipedia_articles.wikipedia.layout._manifest import (
+    build_metadata_json,
     write_manifest_json,
     write_top_readme,
+)
+from osm_polygon_to_wikipedia_articles.wikipedia.layout.full_layout import (
+    build_all_europe,
+    build_sample_map,
 )
 
 
@@ -193,5 +197,5 @@ def test_constants() -> None:
         ("SAMPLE_DIR", "sample"),
         ("PREVIEW_DIR", "preview"),
     ]:
-        import osm_polygon_to_wikipedia_articles.wikipedia.full_layout as m
+        import osm_polygon_to_wikipedia_articles.wikipedia.layout._paths as m
         assert getattr(m, name) == expected

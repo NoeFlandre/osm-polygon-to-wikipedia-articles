@@ -7,7 +7,7 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.union import (
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.union import (
     SAMPLES_DIR,
     discover_per_country_jsonls,
     union_jsonls,

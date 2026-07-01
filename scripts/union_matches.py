@@ -1,6 +1,6 @@
 """Union all per-country match JSONLs into one parquet + map + PNG.
 
-Library function lives at :func:`osm_polygon_to_wikipedia_articles.wikipedia.union`.
+Library function lives at :func:`osm_polygon_to_wikipedia_articles.wikipedia.pipeline.union`.
 
 Usage:
     uv run python scripts/union_matches.py \\
@@ -13,13 +13,13 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from osm_polygon_to_wikipedia_articles.wikipedia.union import (
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.union import (
     SAMPLES_DIR,
     discover_per_country_jsonls,
     union_jsonls,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.map import build_map
-from osm_polygon_to_wikipedia_articles.wikipedia.render import render_map_png
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.map import build_map
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.render import render_map_png
 
 
 def main() -> None:

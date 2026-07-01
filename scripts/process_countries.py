@@ -28,17 +28,17 @@ from pathlib import Path
 
 import polars as pl
 
-from osm_polygon_to_wikipedia_articles.wikipedia.process_countries import (
+from osm_polygon_to_wikipedia_articles.wikipedia.orchestration.process_countries import (
     plan_country_run,
     validate_country_outputs,
     ValidationReport,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.union import (
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.union import (
     discover_per_country_jsonls,
     union_jsonls,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.map import build_map
-from osm_polygon_to_wikipedia_articles.wikipedia.render import render_map_png
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.map import build_map
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.render import render_map_png
 
 HF_REPO = "NoeFlandre/osm-polygon-to-wikipedia-articles"
 SOURCE_REPO = "NoeFlandre/osm-polygon-selection"

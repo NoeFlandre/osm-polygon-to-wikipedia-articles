@@ -18,9 +18,11 @@ from typing import Iterable
 
 import polars as pl
 
+from ._slug_suffix import parse_legacy_stem
 from .full_layout import PER_COUNTRY_DIR
 
 _SURVEY_EXTENSIONS = ("parquet", "jsonl", "html", "png")
+_FLAT_GLOBS = ("*_wikidata.{ext}", "*_wikidata_map.{ext}", "*_polygons_map.{ext}")
 
 
 def sha12(p: Path) -> str:
@@ -41,30 +43,31 @@ def safe_delete(paths: Iterable[Path]) -> list[Path]:
     return removed
 
 
-def _slug_from_stem(stem: str) -> tuple[str | None, str | None]:
-    """Map a flat-file stem to ``(slug, source_suffix)`` (or ``None``s)."""
-    for suffix in ("_wikidata_map", "_polygons_map", "_wikidata"):
-        if stem.endswith(suffix):
-            return stem[: -len(suffix)], suffix
-    return None, None
+def _canonic_for(samples_root: Path, slug: str, source_suffix: str, ext: str) -> Path | None:
+    """Return the canonic counterpart of a legacy flat file (or None)."""
+    if slug == "all":
+        return None
+    folder = samples_root / PER_COUNTRY_DIR / slug
+    if source_suffix == "_wikidata" and ext == "parquet":
+        return folder / f"{slug}.parquet"
+    return folder / f"{slug}{source_suffix}.{ext}"
 
 
-# --- Survey rules: which (legacy_path, canonic_path) pairs are safe? ------
+def _rowset_equals(a: Path, b: Path) -> bool:
+    """Two parquets are equal if their ``(osm_id, country)`` row sets match."""
+    try:
+        x = pl.read_parquet(a).select(["osm_id", "country"]).sort(["country", "osm_id"])
+        y = pl.read_parquet(b).select(["osm_id", "country"]).sort(["country", "osm_id"])
+        return bool(x.equals(y))
+    except Exception:
+        return False
 
 
 def _survey_country(samples_root: Path, slug: str, source_suffix: str, ext: str) -> tuple[Path, Path] | None:
     """Return ``(legacy, canonic)`` if their content matches, else ``None``."""
     legacy = samples_root / f"{slug}{source_suffix}.{ext}"
-    if not legacy.exists() or slug == "all":
-        return None
-    if source_suffix == "_wikidata":
-        if ext == "parquet":
-            canonic = samples_root / PER_COUNTRY_DIR / slug / f"{slug}.parquet"
-        else:
-            canonic = samples_root / PER_COUNTRY_DIR / slug / f"{slug}{source_suffix}.{ext}"
-    else:
-        canonic = samples_root / PER_COUNTRY_DIR / slug / f"{slug}{source_suffix}.{ext}"
-    if not canonic.exists():
+    canonic = _canonic_for(samples_root, slug, source_suffix, ext)
+    if not legacy.exists() or not canonic or not canonic.exists():
         return None
     return legacy, canonic
 
@@ -72,24 +75,15 @@ def _survey_country(samples_root: Path, slug: str, source_suffix: str, ext: str)
 def _survey_aggregates(samples_root: Path) -> list[tuple[Path, Path]]:
     """Survey the union parquet + union map png / html against their counterparts."""
     pairs: list[tuple[Path, Path]] = []
-    # Union map png/html → preview/map_preview.{png,html}
     for ext in ("png", "html"):
         legacy = samples_root / f"all_wikidata_map.{ext}"
         canonic = samples_root / "preview" / f"map_preview.{ext}"
         if legacy.exists() and canonic.exists() and sha12(legacy) == sha12(canonic):
             pairs.append((legacy, canonic))
-    # Union parquet → combined/all_europe.parquet (row-equivalent, not byte)
     legacy = samples_root / "all_wikidata.parquet"
     canonic = samples_root / "combined" / "all_europe.parquet"
-    if legacy.exists() and canonic.exists():
-        try:
-            a = pl.read_parquet(legacy).select(["osm_id", "country"]).sort(["country", "osm_id"])
-            b = pl.read_parquet(canonic).select(["osm_id", "country"]).sort(["country", "osm_id"])
-            if a.equals(b):
-                pairs.append((legacy, canonic))
-        except Exception:
-            pass
-    # Orphan andorra.parquet at root → per_country/andorra/andorra.parquet
+    if legacy.exists() and canonic.exists() and _rowset_equals(legacy, canonic):
+        pairs.append((legacy, canonic))
     legacy = samples_root / "andorra.parquet"
     canonic = samples_root / PER_COUNTRY_DIR / "andorra" / "andorra.parquet"
     if legacy.exists() and canonic.exists() and sha12(legacy) == sha12(canonic):
@@ -99,39 +93,17 @@ def _survey_aggregates(samples_root: Path) -> list[tuple[Path, Path]]:
 
 def _survey_sample_match(samples_root: Path) -> list[tuple[Path, Path]]:
     """For every per-country ``<slug>_wikidata.{parquet,jsonl,html,png}`` file,
-    find a sibling in ``per_country/<slug>/`` with the same content (when one
-    exists)."""
+    find a sibling in ``per_country/<slug>/`` with the same content."""
     out: list[tuple[Path, Path]] = []
     for ext in _SURVEY_EXTENSIONS:
-        for legacy in samples_root.glob(f"*_wikidata.{ext}"):
-            stem = legacy.stem
-            slug, source_suffix = _slug_from_stem(stem)
-            if slug is None or source_suffix is None:
-                continue
-            pair = _survey_country(samples_root, slug, source_suffix, ext)
-            if pair is None:
-                continue
-            if sha12(pair[0]) == sha12(pair[1]):
-                out.append(pair)
-        for legacy in samples_root.glob(f"*_wikidata_map.{ext}"):
-            stem = legacy.stem
-            slug, source_suffix = _slug_from_stem(stem)
-            if slug is None or source_suffix is None:
-                continue
-            pair = _survey_country(samples_root, slug, source_suffix, ext)
-            if pair is None:
-                continue
-            if sha12(pair[0]) == sha12(pair[1]):
-                out.append(pair)
-        for legacy in samples_root.glob(f"*_polygons_map.{ext}"):
-            stem = legacy.stem
-            slug, source_suffix = _slug_from_stem(stem)
-            if slug is None or source_suffix is None:
-                continue
-            pair = _survey_country(samples_root, slug, source_suffix, ext)
-            if pair is None:
-                continue
-            if sha12(pair[0]) == sha12(pair[1]):
+        for glob in _FLAT_GLOBS:
+            for legacy in samples_root.glob(glob.format(ext=ext)):
+                slug, source_suffix = parse_legacy_stem(legacy.stem)
+                if slug is None or source_suffix is None:
+                    continue
+                pair = _survey_country(samples_root, slug, source_suffix, ext)
+                if pair is None or sha12(pair[0]) != sha12(pair[1]):
+                    continue
                 out.append(pair)
     return out
 
@@ -149,3 +121,11 @@ def safe_delete_audited(samples_root: Path, *, dry_run: bool = False) -> list[Pa
     if dry_run:
         return list(legacy_paths)
     return safe_delete(legacy_paths)
+
+
+__all__ = [
+    "safe_delete",
+    "safe_delete_audited",
+    "sha12",
+]
+

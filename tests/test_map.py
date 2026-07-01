@@ -6,7 +6,7 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.map import build_map
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.map import build_map
 
 
 def _matches_df() -> pl.DataFrame:

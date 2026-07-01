@@ -10,8 +10,8 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.match import match_polygons
-from osm_polygon_to_wikipedia_articles.wikipedia.types import ArticleSummary
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.match import match_polygons
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.types import ArticleSummary
 
 
 def _sample_df() -> pl.DataFrame:

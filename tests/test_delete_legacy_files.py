@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.delete_legacy import (
+from osm_polygon_to_wikipedia_articles.wikipedia.layout.delete_legacy import (
     safe_delete,
     safe_delete_audited,
 )

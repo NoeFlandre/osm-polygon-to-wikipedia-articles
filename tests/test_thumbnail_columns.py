@@ -4,7 +4,7 @@ from __future__ import annotations
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.thumbnail import (
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.thumbnail import (
     add_thumbnail_columns,
     is_svg_url,
 )

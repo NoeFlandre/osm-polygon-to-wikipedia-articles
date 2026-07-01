@@ -7,7 +7,7 @@ from unittest.mock import MagicMock, patch
 import pytest
 import urllib.error
 
-from osm_polygon_to_wikipedia_articles.wikipedia._retry import (
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch._retry import (
     get_json_with_retry,
     RetriesExhausted,
 )

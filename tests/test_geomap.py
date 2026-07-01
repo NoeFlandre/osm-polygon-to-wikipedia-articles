@@ -10,7 +10,7 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.geomap import (
+from osm_polygon_to_wikipedia_articles.wikipedia.visualization.geomap import (
     build_polygon_map,
     parse_geometry_wkt,
 )

@@ -19,11 +19,11 @@ from pathlib import Path
 
 import polars as pl
 
-from osm_polygon_to_wikipedia_articles.wikipedia.thumbnail import (
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.thumbnail import (
     THUMBNAIL_IS_SVG,
     add_thumbnail_columns,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.union import (
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.union import (
     discover_per_country_jsonls,
     union_jsonls,
 )

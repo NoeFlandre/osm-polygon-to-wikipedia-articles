@@ -6,7 +6,7 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.process_countries import (
+from osm_polygon_to_wikipedia_articles.wikipedia.orchestration.process_countries import (
     discover_countries_with_wikidata,
     plan_country_run,
     validate_country_outputs,

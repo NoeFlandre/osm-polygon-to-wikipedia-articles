@@ -12,13 +12,9 @@ import folium
 import polars as pl
 from shapely import wkt as shapely_wkt
 from shapely.geometry.base import BaseGeometry
+from shapely.ops import unary_union
 
-# Distinct fill colors for polygon outlines; reused from the marker map.
-_PALETTE = [
-    "#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00",
-    "#ffff33", "#a65628", "#f781bf", "#1b9e77", "#d95f02",
-    "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d",
-]
+from ._palette import color_by_country
 
 
 def parse_geometry_wkt(wkt: str) -> BaseGeometry:
@@ -66,6 +62,33 @@ def _popup_html(row: dict) -> str:
     return "".join(p for p in parts if p)
 
 
+def _add_country_layer(m: folium.Map, country: str, rows: list[dict], color: str) -> None:
+    """Add a single-coloured GeoJson layer for one country."""
+    features = [
+        {
+            "type": "Feature",
+            "properties": {
+                "title": r.get("article_title") or "",
+                "popup": _popup_html(r),
+                "tooltip": r.get("article_title") or "",
+            },
+            "geometry": r["_geometry"].__geo_interface__,
+        }
+        for r in rows
+    ]
+    gj = folium.GeoJson(
+        {"type": "FeatureCollection", "features": features},
+        name=country,
+        style_function=lambda _feat, c=color: {
+            "fillColor": c, "color": c, "weight": 2, "fillOpacity": 0.45,
+        },
+        highlight_function=lambda _feat: {"weight": 4, "fillOpacity": 0.7},
+    )
+    folium.GeoJsonPopup(fields=["popup"], labels=False, localize=True, parse_html=False).add_to(gj)
+    folium.GeoJsonTooltip(fields=["title"], aliases=["article"], localize=True).add_to(gj)
+    gj.add_to(m)
+
+
 def build_polygon_map(
     df: pl.DataFrame,
     out_path: Path,
@@ -78,76 +101,44 @@ def build_polygon_map(
 
     rows = list(_iter_valid_rows(df))
     if not rows:
-        # empty skeleton centered on Europe
         m = folium.Map(location=[42.5, 1.5], zoom_start=4, tiles=tiles)
         m.save(str(out_path))
         return out_path
 
-    # Color by country
     countries = sorted({r["country"] for r in rows if r.get("country")})
-    color_by_country = {c: _PALETTE[i % len(_PALETTE)] for i, c in enumerate(countries)}
+    colour_map = color_by_country(countries)
 
     # Center map on the union of all geometries' bounds
-    from shapely.ops import unary_union
     union = unary_union([r["_geometry"] for r in rows])
     minx, miny, maxx, maxy = union.bounds
-    center_lat = (miny + maxy) / 2
-    center_lon = (minx + maxx) / 2
+    m = folium.Map(
+        location=[(miny + maxy) / 2, (minx + maxx) / 2],
+        zoom_start=11,
+        tiles=tiles,
+    )
 
-    m = folium.Map(location=[center_lat, center_lon], zoom_start=11, tiles=tiles)
-
-    # One GeoJson layer per country so each gets a single color and legend entry
     for country in countries:
         country_rows = [r for r in rows if r.get("country") == country]
-        color = color_by_country[country]
-        features = [
-            {
-                "type": "Feature",
-                "properties": {
-                    "title": r.get("article_title") or "",
-                    "popup": _popup_html(r),
-                    "tooltip": r.get("article_title") or "",
-                },
-                "geometry": r["_geometry"].__geo_interface__,
-            }
-            for r in country_rows
-        ]
-        gj = folium.GeoJson(
-            {"type": "FeatureCollection", "features": features},
-            name=country,
-            style_function=lambda _feat, c=color: {
-                "fillColor": c, "color": c, "weight": 2, "fillOpacity": 0.45,
-            },
-            highlight_function=lambda _feat: {"weight": 4, "fillOpacity": 0.7},
-        )
-        # Per-feature popup: read the HTML we stashed in feature.properties.popup
-        folium.GeoJsonPopup(
-            fields=["popup"],
-            labels=False,
-            localize=True,
-            parse_html=False,
-        ).add_to(gj)
-        folium.GeoJsonTooltip(
-            fields=["title"],
-            aliases=["article"],
-            localize=True,
-        ).add_to(gj)
-        gj.add_to(m)
+        _add_country_layer(m, country, country_rows, colour_map[country])
 
     folium.LayerControl(collapsed=False).add_to(m)
 
-    # Legend
+    # Simple single-column legend for the polygon-outline map.
     legend_items = "".join(
         f"<li><span style='display:inline-block;width:14px;height:14px;background:{c};"
         f"opacity:0.6;border:1px solid {c};margin-right:6px'></span>{name}</li>"
-        for name, c in color_by_country.items()
+        for name, c in colour_map.items()
     )
     legend_html = (
-        f"<div style='position:fixed;bottom:20px;left:20px;z-index:9999;background:white;"
-        f"padding:10px;border:2px solid #444;border-radius:4px;font-family:sans-serif;font-size:12px'>"
-        f"<b>Countries</b><ul style='list-style:none;padding:0;margin:6px 0 0'>{legend_items}</ul></div>"
+        "<div style='position:fixed;bottom:20px;left:20px;z-index:9999;background:white;"
+        "padding:10px;border:2px solid #444;border-radius:4px;font-family:sans-serif;font-size:12px'>"
+        f"<b>Countries ({len(countries)})</b>"
+        f"<ul style='list-style:none;padding:0;margin:6px 0 0'>{legend_items}</ul></div>"
     )
     m.get_root().html.add_child(folium.Element(legend_html))
 
     m.save(str(out_path))
     return out_path
+
+
+__all__ = ["build_polygon_map", "parse_geometry_wkt"]

@@ -21,18 +21,18 @@ from pathlib import Path
 
 import polars as pl
 
-from osm_polygon_to_wikipedia_articles.wikipedia.batched_sitelinks import (
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.batched_sitelinks import (
     fetch_sitelinks_batched,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.extracts import fetch_extract
-from osm_polygon_to_wikipedia_articles.wikipedia.http_client import (
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.extracts import fetch_extract
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.http_client import (
     fetch_wikipedia_summary,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.summary import fetch_summary
-from osm_polygon_to_wikipedia_articles.wikipedia.thumbnail import (
+from osm_polygon_to_wikipedia_articles.wikipedia.fetch.summary import fetch_summary
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.thumbnail import (
     add_thumbnail_columns,
 )
-from osm_polygon_to_wikipedia_articles.wikipedia.types import MatchResult
+from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.types import MatchResult
 
 
 def _detect_polygon_centroid(row: dict) -> tuple[float | None, float | None]:

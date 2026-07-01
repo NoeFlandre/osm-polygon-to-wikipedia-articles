@@ -20,7 +20,7 @@ that scripts and tests historically imported directly from
         match_polygons,
     )
 
-…but the legacy ``from osm_polygon_to_wikipedia_articles.wikipedia.match
+…but the legacy ``from osm_polygon_to_wikipedia_articles.wikipedia.pipeline.match
 import match_polygons`` continues to work.
 """
 from __future__ import annotations

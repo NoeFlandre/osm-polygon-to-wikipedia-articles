@@ -10,24 +10,16 @@ from __future__ import annotations
 import urllib.parse
 from typing import Callable
 
-from ._retry import get_json_with_retry
+from ._helpers import default_get_json
 
 GetJSON = Callable[[str, int], dict]
-
-
-def _default_get(url: str, timeout: int = 20) -> dict | None:
-    return get_json_with_retry(
-        url,
-        headers={"Accept": "application/json"},
-        timeout=timeout,
-    )
 
 
 def fetch_extract(
     lang: str,
     title: str,
     *,
-    _get: GetJSON = _default_get,
+    _get: GetJSON | None = None,
 ) -> str | None:
     """Fetch the plain-text body of a Wikipedia article. Returns None on failure (after retries)."""
     params = {
@@ -40,7 +32,10 @@ def fetch_extract(
     }
     url = f"https://{lang}.wikipedia.org/w/api.php?{urllib.parse.urlencode(params)}"
     try:
-        payload = _get(url, 20)
+        if _get is None:
+            payload = default_get_json(url, timeout=20)
+        else:
+            payload = _get(url, 20)
     except Exception:
         return None
     if payload is None:
@@ -55,3 +50,7 @@ def fetch_extract(
         return None
     extract = page["extract"]
     return extract if extract else None
+
+
+__all__ = ["fetch_extract"]
+

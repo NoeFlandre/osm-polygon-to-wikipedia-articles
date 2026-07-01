@@ -85,8 +85,8 @@ def enrich_union() -> None:
     print(f"  wrote -> {union_path}")
 
     # Rebuild the map with the enriched rows (geometry_wkt still drives it)
-    from osm_polygon_to_wikipedia_articles.wikipedia.map import build_map
-    from osm_polygon_to_wikipedia_articles.wikipedia.render import render_map_png
+    from osm_polygon_to_wikipedia_articles.wikipedia.visualization.map import build_map
+    from osm_polygon_to_wikipedia_articles.wikipedia.visualization.render import render_map_png
     out_html = SAMPLES / "all_wikidata_map.html"
     out_png = SAMPLES / "all_wikidata_map.png"
     build_map(enriched, out_path=out_html)

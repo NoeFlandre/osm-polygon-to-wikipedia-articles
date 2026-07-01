@@ -11,25 +11,17 @@ from __future__ import annotations
 import urllib.parse
 from typing import Callable
 
-from ._retry import get_json_with_retry
 from ..pipeline.types import ArticleSummary
+from ._helpers import default_get_json
 
 GetJSON = Callable[[str, int], dict]
-
-
-def _default_get(url: str, timeout: int = 20) -> dict | None:
-    return get_json_with_retry(
-        url,
-        headers={"Accept": "application/json"},
-        timeout=timeout,
-    )
 
 
 def fetch_summary(
     lang: str,
     title: str,
     *,
-    _get: GetJSON = _default_get,
+    _get: GetJSON | None = None,
 ) -> ArticleSummary | None:
     """Fetch and parse a Wikipedia article summary.
 
@@ -39,7 +31,10 @@ def fetch_summary(
     """
     url = f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(title)}"
     try:
-        payload = _get(url, 20)
+        if _get is None:
+            payload = default_get_json(url, timeout=20)
+        else:
+            payload = _get(url, 20)
     except Exception:
         return None
     if payload is None:
@@ -59,3 +54,7 @@ def fetch_summary(
         lon=coords.get("lon"),
         url=urls.get("page"),
     )
+
+
+__all__ = ["fetch_summary"]
+

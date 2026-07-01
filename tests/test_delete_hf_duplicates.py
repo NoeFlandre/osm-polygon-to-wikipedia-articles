@@ -18,7 +18,7 @@ from pathlib import Path
 import polars as pl
 import pytest
 
-from osm_polygon_to_wikipedia_articles.wikipedia.delete_hf_duplicates import (
+from osm_polygon_to_wikipedia_articles.wikipedia.layout.delete_hf_duplicates import (
     classify_hf_file,
     is_safe_to_delete_hf_root_file,
 )
