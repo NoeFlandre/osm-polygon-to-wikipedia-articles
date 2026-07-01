@@ -40,15 +40,13 @@ MODULE_PATH = Path(_pc.__file__)
 # File-level invariants
 # ---------------------------------------------------------------------------
 
-def test_module_lte_235_lines() -> None:
-    """The module should shrink after dead-code removal.
-
-    Before: 311 LOC (with 3 dead helpers, the NotImplementedError
-    function, and unused HF upload).
-    After:  ≤ 235 LOC.
+def test_module_lte_260_lines() -> None:
+    """The module should stay compact after the dead-code removal +
+    copy-helper extraction.  Was 311 LOC; the new helper adds ~25 LOC
+    back so the cap is set generously at 260.
     """
     lines = sum(1 for _ in MODULE_PATH.read_text().splitlines())
-    assert lines <= 235, f"{MODULE_PATH} is {lines} lines (cap=235)"
+    assert lines <= 260, f"{MODULE_PATH} is {lines} lines (cap=260)"
 
 
 def test_module_does_not_define_dead_helpers() -> None:
@@ -101,6 +99,7 @@ def test_public_api_is_exactly_the_implemented_names() -> None:
     expected = {
         "CountryPlan",
         "ValidationReport",
+        "copy_country_outputs_to_samples",
         "discover_countries_with_wikidata",
         "plan_country_run",
         "process_all",

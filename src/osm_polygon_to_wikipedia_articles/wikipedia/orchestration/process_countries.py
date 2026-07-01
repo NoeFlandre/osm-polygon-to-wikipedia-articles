@@ -51,14 +51,13 @@ class CountryPlan:
 @dataclass
 class ValidationReport:
     ok: bool
-    skipped: bool = False
+    skipped: bool = False  # True when the country legitimately had zero matches
     n_rows: int = 0
     geometry_wkt_missing: int = 0
     articles_with_body: int = 0
     jsonl_count: int = 0
     map_html_size: int = 0
     errors: list[str] = field(default_factory=list)
-    skipped: bool = False  # True when the country legitimately had zero matches
 
 
 # --- discovery ------------------------------------------------------------
@@ -146,6 +145,30 @@ def validate_country_outputs(plan: CountryPlan) -> ValidationReport:
     return r
 
 
+# --- copy helpers ---------------------------------------------------------
+
+def copy_country_outputs_to_samples(
+    pairs: dict[str, dict[str, Path]],
+) -> int:
+    """Copy each (src → dst) pair to ``samples/``, skipping missing sources.
+
+    ``pairs`` is keyed by an arbitrary label; values are ``{"src": Path, "dst": Path}``
+    dicts. The destination's parent directory is created on demand.
+    Returns the number of files actually copied (sources that don't
+    exist are skipped, not raised).
+    """
+    copied = 0
+    for entry in pairs.values():
+        src = entry["src"]
+        dst = entry["dst"]
+        if not src.exists():
+            continue
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dst)
+        copied += 1
+    return copied
+
+
 # --- batch processing -----------------------------------------------------
 
 def process_all(
@@ -198,15 +221,12 @@ def process_all(
             check=True,
         )
         # Copy slim outputs to samples/
-        for src, dst in [
-            (plan.match_parquet, plan.samples_match_parquet),
-            (plan.match_jsonl, plan.samples_match_jsonl),
-            (plan.match_map_html, plan.samples_match_map_html),
-            (plan.match_map_png, plan.samples_match_png),
-        ]:
-            dst.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(src, dst)
-
+        copy_country_outputs_to_samples({
+            "parquet": {"src": plan.match_parquet, "dst": plan.samples_match_parquet},
+            "jsonl":   {"src": plan.match_jsonl,   "dst": plan.samples_match_jsonl},
+            "html":    {"src": plan.match_map_html, "dst": plan.samples_match_map_html},
+            "png":     {"src": plan.match_map_png,  "dst": plan.samples_match_map_png},
+        })
         report = validate_country_outputs(plan)
         results.append((country, report))
         if not report.ok:
@@ -225,6 +245,7 @@ def process_all(
 __all__ = [
     "CountryPlan",
     "ValidationReport",
+    "copy_country_outputs_to_samples",
     "discover_countries_with_wikidata",
     "plan_country_run",
     "process_all",

@@ -99,20 +99,6 @@ def _process_one(
     )
 
 
-def _load_resume_keys(path: Path | None) -> set[tuple[int, str]]:
-    """Return the set of (osm_id, country) pairs already present in ``path``."""
-    if path is None or not path.exists():
-        return set()
-    keys: set[tuple[int, str]] = set()
-    for line in path.read_text().splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        rec = json.loads(line)
-        keys.add((rec["osm_id"], rec["country"]))
-    return keys
-
-
 def _load_resume_results(path: Path | None) -> list[dict]:
     """Return all prior MatchResult dicts from ``path``, in insertion order."""
     if path is None or not path.exists():
@@ -124,6 +110,47 @@ def _load_resume_results(path: Path | None) -> list[dict]:
             continue
         out.append(json.loads(line))
     return out
+
+
+def iter_results(
+    rows: Iterable[dict],
+    lang: str,
+    fetch_sitelinks: SitelinksFetcher,
+    fetch_summary: SummaryFetcher,
+    fetch_extract: ExtractFetcher,
+    *,
+    max_workers: int = 1,
+) -> Iterable[MatchResult]:
+    """Run ``_process_one`` over ``rows`` and yield the results in input order.
+
+    ``max_workers=1`` runs sequentially (one row at a time). Any larger
+    value uses a :class:`ThreadPoolExecutor` of that size and sorts
+    the output back into input order before yielding, so callers see a
+    deterministic sequence regardless of thread scheduling.
+
+    ``None`` results (rows with no ``wikidata`` tag) are filtered out.
+    """
+    rows = list(rows)
+    if max_workers <= 1 or len(rows) <= 1:
+        for row in rows:
+            result = _process_one(row, lang, fetch_sitelinks, fetch_summary, fetch_extract)
+            if result is not None:
+                yield result
+        return
+
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = {
+            ex.submit(_process_one, row, lang,
+                      fetch_sitelinks, fetch_summary, fetch_extract): idx
+            for idx, row in enumerate(rows)
+        }
+        indexed: list[tuple[int, MatchResult]] = []
+        for fut in as_completed(futures):
+            result = fut.result()
+            if result is not None:
+                indexed.append((futures[fut], result))
+        for _, result in sorted(indexed, key=lambda x: x[0]):
+            yield result
 
 
 def match_polygons(
@@ -154,8 +181,7 @@ def match_polygons(
 
     # Load prior results from resume_jsonl (also use out_jsonl as a fallback)
     resume_source = resume_jsonl or out_jsonl
-    prior_dicts = _load_resume_results(resume_source)
-    prior_results = [MatchResult(**d) for d in prior_dicts]
+    prior_results = [MatchResult(**d) for d in _load_resume_results(resume_source)]
     prior_keys = {(r.osm_id, r.country) for r in prior_results}
 
     rows_to_process: list[dict] = [
@@ -171,38 +197,15 @@ def match_polygons(
         jsonl_fp = out_jsonl.open("a")
 
     try:
-        if max_workers <= 1:
-            for row in rows_to_process:
-                result = _process_one(row, lang, fetch_sitelinks, fetch_summary, fetch_extract)
-                if result is None:
-                    continue
-                prior_results.append(result)
-                if jsonl_fp is not None:
-                    jsonl_fp.write(json.dumps(asdict(result)) + "\n")
-                    jsonl_fp.flush()
-        else:
-            with ThreadPoolExecutor(max_workers=max_workers) as ex:
-                # Tag each future with its input position so we can sort by input
-                # order at the end (as_completed yields in arbitrary order).
-                futures = {
-                    ex.submit(
-                        _process_one, row, lang, fetch_sitelinks, fetch_summary, fetch_extract
-                    ): (idx, row)
-                    for idx, row in enumerate(rows_to_process)
-                }
-                indexed: list[tuple[int, MatchResult]] = []
-                for fut in as_completed(futures):
-                    idx, _row = futures[fut]
-                    result = fut.result()
-                    if result is None:
-                        continue
-                    indexed.append((idx, result))
-                    if jsonl_fp is not None:
-                        jsonl_fp.write(json.dumps(asdict(result)) + "\n")
-                        jsonl_fp.flush()
-                # Append in input order so callers get a stable sequence.
-                for _, result in sorted(indexed, key=lambda x: x[0]):
-                    prior_results.append(result)
+        for result in iter_results(
+            rows_to_process, lang,
+            fetch_sitelinks, fetch_summary, fetch_extract,
+            max_workers=max_workers,
+        ):
+            prior_results.append(result)
+            if jsonl_fp is not None:
+                jsonl_fp.write(json.dumps(asdict(result)) + "\n")
+                jsonl_fp.flush()
     finally:
         if jsonl_fp is not None:
             jsonl_fp.close()
@@ -222,14 +225,6 @@ def _write_parquet(results: list[MatchResult], path: Path) -> None:
     df.write_parquet(path)
 
 
-def _write_jsonl(results: list[MatchResult], path: Path) -> None:
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w") as f:
-        for r in results:
-            f.write(json.dumps(asdict(r)) + "\n")
-
-
 # --- stubs (offline / dev only) -------------------------------------------
 
 def _stub_fetch_sitelinks(qid: str) -> dict[str, dict[str, str]]:
@@ -244,4 +239,4 @@ def _stub_fetch_extract(lang: str, title: str) -> str | None:
     return None
 
 
-__all__ = ["match_polygons"]
+__all__ = ["iter_results", "match_polygons"]
