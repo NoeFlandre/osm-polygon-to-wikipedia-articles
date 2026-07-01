@@ -1,3 +1,23 @@
+---
+license: mit
+task_categories:
+  - text-retrieval
+  - question-answering
+  - image-captioning
+language:
+  - en
+tags:
+  - openstreetmap
+  - wikidata
+  - wikipedia
+  - geospatial
+  - entity-linking
+  - polygon
+  - osm
+size_categories:
+  - 10K<n<100K
+---
+
 # OSM-Polygon → Wikipedia Articles
 
 OpenStreetMap polygons that resolved to their English Wikipedia article,
