@@ -15,14 +15,14 @@ cd /Users/noeflandre/osm-polygon-to-wikipedia-articles
 echo "[$(date +%H:%M:%S)] === $COUNTRY ===" | tee -a "$LOG"
 
 # 1. Process (sample + match + copy to samples/)
-uv run python scripts/process_countries.py "$COUNTRY" \
+uv run python scripts/per_country/process_countries.py "$COUNTRY" \
     --per-step-timeout 14400 \
     --skip-hf \
     2>&1 | tee -a "$LOG"
 
 # 2. Re-run union across all per-country JSONLs
 echo "[$(date +%H:%M:%S)] union" | tee -a "$LOG"
-uv run python scripts/union_matches.py 2>&1 | tee -a "$LOG"
+uv run python scripts/dataset/union_matches.py 2>&1 | tee -a "$LOG"
 
 # 3. Push to HF
 echo "[$(date +%H:%M:%S)] push to HF" | tee -a "$LOG"

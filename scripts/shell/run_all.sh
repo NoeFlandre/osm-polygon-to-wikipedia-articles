@@ -21,7 +21,7 @@ SKIPPED=()
 
 for c in "${COUNTRIES[@]}"; do
   echo "[$(date +%H:%M:%S)] >>> $c" >> "$LOG"
-  bash scripts/run_one.sh "$c" >> "$LOG" 2>&1
+  bash scripts/shell/run_one.sh "$c" >> "$LOG" 2>&1
   rc=$?
   echo "[$(date +%H:%M:%S)] <<< $c rc=$rc" >> "$LOG"
   if [ $rc -eq 0 ]; then

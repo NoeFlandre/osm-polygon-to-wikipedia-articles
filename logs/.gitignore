@@ -1,0 +1,7 @@
+# Logs are large and ephemeral. Don't track individual log files
+# dropped at the logs/ root; only the three organised subfolders.
+*
+!per_country/
+!pushes/
+!runs/
+!.gitignore

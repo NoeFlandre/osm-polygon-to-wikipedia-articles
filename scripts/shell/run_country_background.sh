@@ -29,7 +29,7 @@ echo "Launching ${COUNTRY} -> ${LOG}"
 
 # Run match_wikidata directly with safe settings; then process_countries.py
 # for copy_to_samples / union / HF push at the end.
-uv run python scripts/match_wikidata.py \
+uv run python scripts/per_country/match_wikidata.py \
   --in "$OSM_DATA_ROOT/${COUNTRY}.parquet" \
   --parquet "$OSM_DATA_ROOT/${COUNTRY}_wikidata.parquet" \
   --jsonl "$OSM_DATA_ROOT/${COUNTRY}_wikidata.jsonl" \

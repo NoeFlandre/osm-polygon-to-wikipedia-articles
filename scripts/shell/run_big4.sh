@@ -23,7 +23,7 @@ for c in "${COUNTRIES[@]}"; do
 done
 
 echo "[$(date +%H:%M:%S)] re-enriching union" >> "$LOG"
-uv run python scripts/enrich_with_input_columns.py >> "$LOG" 2>&1
+uv run python scripts/dataset/enrich_with_input_columns.py >> "$LOG" 2>&1
 
 echo "[$(date +%H:%M:%S)] pushing to HF" >> "$LOG"
 export PATH="$HOME/.local/bin:$PATH"
