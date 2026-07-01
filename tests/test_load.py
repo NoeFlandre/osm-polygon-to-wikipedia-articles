@@ -12,10 +12,16 @@ from osm_polygon_to_wikipedia_articles.polygons import (
 )
 
 
-def _make_fixture(tmp_path: Path, slug: str = "liechtenstein") -> Path:
-    """Download a small slice of the real dataset for offline use."""
+def _make_fixture(tmp_path: Path, slug: str = "albania") -> Path:
+    """Download a small slice of the real dataset for offline use.
+
+    The source dataset migrated to the canonical 4-subfolder layout, so the
+    parquet for a country lives at ``per_country/<slug>/<slug>.parquet``.
+    """
     path = tmp_path / f"{slug}.parquet"
-    df = pl.read_parquet(f"hf://datasets/NoeFlandre/osm-polygon-selection/{slug}.parquet").head(20)
+    df = pl.read_parquet(
+        f"hf://datasets/NoeFlandre/osm-polygon-selection/per_country/{slug}/{slug}.parquet"
+    ).head(20)
     df.write_parquet(path)
     return path
 
@@ -35,7 +41,7 @@ def test_list_countries_includes_liechtenstein() -> None:
 
 def test_load_country_returns_expected_schema(tmp_path: Path) -> None:
     fixture = _make_fixture(tmp_path)
-    df = load_country(slug="liechtenstein", repo_id="NoeFlandre/osm-polygon-selection", local_path=fixture)
+    df = load_country(slug="albania", repo_id="NoeFlandre/osm-polygon-selection", local_path=fixture)
     expected_cols = {
         "osm_id", "osm_type", "centroid_lon", "centroid_lat",
         "area_km2", "tags", "continent", "size_bin", "country",
@@ -46,13 +52,13 @@ def test_load_country_returns_expected_schema(tmp_path: Path) -> None:
 
 def test_load_country_country_column_matches_slug(tmp_path: Path) -> None:
     fixture = _make_fixture(tmp_path)
-    df = load_country(slug="liechtenstein", repo_id="NoeFlandre/osm-polygon-selection", local_path=fixture)
-    assert df["country"].unique().to_list() == ["liechtenstein"]
+    df = load_country(slug="albania", repo_id="NoeFlandre/osm-polygon-selection", local_path=fixture)
+    assert df["country"].unique().to_list() == ["albania"]
 
 
 def test_load_country_raises_on_missing_local_path(tmp_path: Path) -> None:
     with pytest.raises(FileNotFoundError):
-        load_country(slug="liechtenstein", repo_id="NoeFlandre/osm-polygon-selection", local_path=tmp_path / "nope.parquet")
+        load_country(slug="albania", repo_id="NoeFlandre/osm-polygon-selection", local_path=tmp_path / "nope.parquet")
 
 
 def test_load_country_raises_on_missing_slug() -> None:

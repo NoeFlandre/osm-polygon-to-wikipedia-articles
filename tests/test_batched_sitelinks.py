@@ -129,7 +129,10 @@ def test_returns_none_on_429_handled_by_retry_layer():
             }
         }
 
-    with patch.object(bs, "get_json_with_retry", side_effect=fake_get_json_with_retry):
+    with patch(
+        "osm_polygon_to_wikipedia_articles.wikipedia.fetch.batched_sitelinks.get_json_with_retry",
+        side_effect=fake_get_json_with_retry,
+    ):
         out = fetch_sitelinks_batched(qids, batch_size=5, sleep=lambda _s: None)
 
     # 2 batches total, 1 succeeded (5 qids) and 1 returned None (5 qids missed)
