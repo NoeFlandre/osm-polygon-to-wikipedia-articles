@@ -75,29 +75,38 @@ def test_default_get_json_passes_accept_header() -> None:
     from osm_polygon_to_wikipedia_articles.wikipedia.fetch import _helpers
     captured = {}
 
-    def fake_retry(url, **kwargs):
+    def fake_client_get(url, *, headers):
         captured["url"] = url
-        captured["headers"] = kwargs.get("headers")
-        captured["timeout"] = kwargs.get("timeout")
+        captured["headers"] = headers
         return {"ok": True}
 
-    _helpers.get_json_with_retry = fake_retry
+    class _Stub:
+        def get_json(self, url, *, headers):
+            return fake_client_get(url, headers=headers)
+
+        def close(self):
+            pass
+
+    _helpers._client = _Stub()
     out = _helpers.default_get_json("https://example.com/x", timeout=10)
     assert out == {"ok": True}
     assert captured["url"] == "https://example.com/x"
-    assert captured["headers"] == {"Accept": "application/json"}
-    assert captured["timeout"] == 10
+    assert captured["headers"]["Accept"] == "application/json"
 
 
 def test_default_get_json_merges_extra_headers() -> None:
     from osm_polygon_to_wikipedia_articles.wikipedia.fetch import _helpers
     captured = {}
 
-    def fake_retry(url, **kwargs):
-        captured["headers"] = kwargs.get("headers")
-        return {}
+    class _Stub:
+        def get_json(self, url, *, headers):
+            captured["headers"] = headers
+            return {}
 
-    _helpers.get_json_with_retry = fake_retry
+        def close(self):
+            pass
+
+    _helpers._client = _Stub()
     _helpers.default_get_json(
         "https://example.com/y",
         headers={"X-Custom": "1"},

@@ -103,22 +103,38 @@ def test_missing_entities_are_omitted():
     assert set(out.keys()) == {"Q1"}
 
 
-def test_returns_none_on_429_handled_by_retry_layer():
-    """If ``get_json_with_retry`` returns None (after all retries), the
-    QIDs in that batch are silently skipped — we return whatever we got
-    from the other batches.
+def test_429_handled_by_retry_layer_does_not_silently_drop_qids():
+    """If the underlying fetcher returns None (after all retries), the
+    resilient layer must NOT silently skip the QIDs — it records them
+    as ``{"_missing": "transient_failure"}`` so the caller can see
+    every QID was attempted.  This is the regression guard for the
+    "no silent drops" contract.
     """
+    from osm_polygon_to_wikipedia_articles.wikipedia.fetch._resilient_sitelinks import (
+        fetch_sitelinks_resilient,
+        _TransientFailure,
+    )
+    from osm_polygon_to_wikipedia_articles.wikipedia.fetch._rate_limiter import (
+        RateLimiter,
+    )
+    from osm_polygon_to_wikipedia_articles.wikipedia.fetch._sitelinks_checkpoint import (
+        SitelinksCheckpoint,
+    )
+
     qids = [f"Q{i}" for i in range(10)]
+    failing_qids = {"Q5", "Q6", "Q7", "Q8", "Q9"}
     call_count = {"n": 0}
 
-    def fake_get_json_with_retry(url, *args, **kwargs):
+    def fake_fetcher(url: str) -> dict:
         call_count["n"] += 1
-        if call_count["n"] == 2:
-            return None  # Second batch failed entirely
+        # The second batch (Q5..Q9) keeps failing — surface as transient
+        # so the resilient loop records _missing instead of dropping.
         import urllib.parse
         parsed = urllib.parse.urlparse(url)
         qparams = urllib.parse.parse_qs(parsed.query)
         batch_qids = qparams.get("ids", [""])[0].split("|")
+        if any(q in failing_qids for q in batch_qids):
+            raise _TransientFailure("simulated permanent failure")
         return {
             "entities": {
                 q: {"sitelinks": {"enwiki": {"title": q}}}
@@ -126,17 +142,28 @@ def test_returns_none_on_429_handled_by_retry_layer():
             }
         }
 
-    with patch(
-        "osm_polygon_to_wikipedia_articles.wikipedia.fetch.batched_sitelinks.get_json_with_retry",
-        side_effect=fake_get_json_with_retry,
-    ):
-        out = fetch_sitelinks_batched(qids, batch_size=5, sleep=lambda _s: None)
-
-    # 2 batches total, 1 succeeded (5 qids) and 1 returned None (5 qids missed)
-    assert len(out) == 5
-    assert call_count["n"] == 2
-    # All returned QIDs are from the first batch (Q0..Q4)
-    assert all(qid.startswith("Q") and int(qid[1:]) < 5 for qid in out.keys())
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        cp = SitelinksCheckpoint(tmp + "/sl.jsonl")
+        rl = RateLimiter(max_per_second=1000, burst=1000)
+        out = fetch_sitelinks_resilient(
+            qids,
+            url_fetcher=fake_fetcher,
+            rate_limiter=rl,
+            checkpoint=cp,
+            progress=lambda d, t: None,
+            batch_size=5,
+            max_consecutive_failures=2,
+        )
+        cp.close()
+    # Every QID must be in the result — the failing batch's QIDs are
+    # marked _missing, not dropped.
+    assert len(out) == 10
+    assert all(qid in out for qid in qids)
+    # 5 from the successful batch + 5 _missing from the failed one
+    missing = [qid for qid, sl in out.items() if "_missing" in sl]
+    assert len(missing) == 5
+    assert all(qid in failing_qids for qid in missing)
 
 
 def test_sleep_is_called_between_batches():

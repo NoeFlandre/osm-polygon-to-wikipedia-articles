@@ -33,12 +33,34 @@ Public API (from each sub-module's own ``__all__``)
 """
 from __future__ import annotations
 
-from . import _retry, batched_sitelinks, extracts, http_client, summary
+from . import (
+    _adaptive_fetcher,
+    _pooled_http_client,
+    _rate_limiter,
+    _resilient_sitelinks,
+    _retry,
+    _sitelinks_checkpoint,
+    _title_cache,
+    batched_sitelinks,
+    extracts,
+    http_client,
+    summary,
+)
 from .._init_helpers import union_all
+from ._adaptive_fetcher import *  # noqa: F401, F403
+from ._pooled_http_client import *  # noqa: F401, F403
+from ._rate_limiter import *  # noqa: F401, F403
+from ._resilient_sitelinks import *  # noqa: F401, F403
 from ._retry import *  # noqa: F401, F403
+from ._sitelinks_checkpoint import *  # noqa: F401, F403
+from ._title_cache import *  # noqa: F401, F403
 from .batched_sitelinks import *  # noqa: F401, F403
 from .extracts import *  # noqa: F401, F403
 from .http_client import *  # noqa: F401, F403
 from .summary import *  # noqa: F401, F403
 
-__all__ = union_all(_retry, batched_sitelinks, extracts, http_client, summary)
+__all__ = union_all(
+    _adaptive_fetcher, _pooled_http_client, _rate_limiter,
+    _resilient_sitelinks, _retry, _sitelinks_checkpoint, _title_cache,
+    batched_sitelinks, extracts, http_client, summary,
+)
