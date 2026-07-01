@@ -17,12 +17,21 @@ SAMPLES_DIR = Path("data/samples")
 
 
 def union_jsonls(jsonl_paths: list[Path], out_parquet: Path) -> pl.DataFrame:
+    """Concatenate every per-country ``*_wikidata.jsonl`` into one parquet.
+
+    Filters to ``match_status == "matched"`` so the union only contains polygons
+    that resolved to a real ``enwiki`` article. Skips the no_sitelinks /
+    no_lang_sitelink fallback rows that the JSONL also carries.
+    """
     out_parquet.parent.mkdir(parents=True, exist_ok=True)
     rows: list[dict] = []
     for p in jsonl_paths:
         for line in p.read_text().splitlines():
-            if line.strip():
-                rows.append(json.loads(line))
+            if not line.strip():
+                continue
+            r = json.loads(line)
+            if r.get("match_status") == "matched":
+                rows.append(r)
     df = pl.DataFrame(rows)
     df.write_parquet(out_parquet)
     return df

@@ -73,7 +73,7 @@ def main() -> None:
         fetch_summary=_summary,
         fetch_extract=_extract,
         out_parquet=None,  # we write the filtered parquet ourselves below
-        out_jsonl=None,
+        out_jsonl=args.jsonl,  # incremental JSONL writes for resumability
         max_workers=args.max_workers,
     )
 
@@ -106,13 +106,8 @@ def main() -> None:
     matched_df.write_parquet(args.parquet)
     print(f"\nwrote {len(matched)} matched polygons -> {args.parquet}")
 
-    if args.jsonl is not None:
-        import json as _json
-        args.jsonl.parent.mkdir(parents=True, exist_ok=True)
-        with args.jsonl.open("w") as f:
-            for r in matched:
-                f.write(_json.dumps(asdict(r)) + "\n")
-        print(f"wrote {len(matched)} matched records -> {args.jsonl}")
+    # JSONL is written incrementally by match_polygons(..., out_jsonl=args.jsonl)
+    # above, so no second pass is needed here.
 
     if args.map_path is not None:
         if matched:

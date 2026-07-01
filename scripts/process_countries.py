@@ -79,7 +79,7 @@ def sample_country(country: str, out_path: Path, timeout_s: int = 600) -> None:
         raise
 
 
-def match_country(in_path: Path, parquet_out: Path, jsonl_out: Path, map_html_out: Path, timeout_s: int = 1500) -> None:
+def match_country(in_path: Path, parquet_out: Path, jsonl_out: Path, map_html_out: Path, timeout_s: int = 1500, max_workers: int = 3) -> None:
     """Run the Wikidata match pipeline, killing the entire process group on timeout."""
     parquet_out.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
@@ -91,7 +91,7 @@ def match_country(in_path: Path, parquet_out: Path, jsonl_out: Path, map_html_ou
         "--lang", LANG,
         "--only-wikidata",
         "--sleep", str(SLEEP_S),
-        "--max-workers", "8",
+        "--max-workers", str(max_workers),
     ]
     # Start the child as the leader of a new process group so we can killpg on timeout.
     proc = subprocess.Popen(cmd, start_new_session=True)
@@ -154,13 +154,13 @@ def push_to_hf() -> None:
     )
 
 
-def process_one(country: str, *, timeout_s: int = 300) -> tuple[str, "ValidationReport"]:
+def process_one(country: str, *, timeout_s: int = 300, max_workers: int = 3) -> tuple[str, "ValidationReport"]:
     plan = plan_country_run(country, DATA_ROOT, SAMPLES_ROOT)
     print(f"\n=== {country} ===")
     print(f"  source: {plan.source}")
     sample_country(country, plan.source, timeout_s=timeout_s)
     try:
-        match_country(plan.source, plan.match_parquet, plan.match_jsonl, plan.match_map_html, timeout_s=timeout_s)
+        match_country(plan.source, plan.match_parquet, plan.match_jsonl, plan.match_map_html, timeout_s=timeout_s, max_workers=max_workers)
     except subprocess.TimeoutExpired:
         print(f"  !! match timed out after {timeout_s}s, skipping {country}")
         return country, ValidationReport(ok=False, skipped=True, errors=[f"match timed out after {timeout_s}s"])
@@ -189,6 +189,12 @@ def main() -> None:
         default=600,
         help="Seconds to allow for sample or match step before bailing out (default: 600)",
     )
+    parser.add_argument(
+        "--max-workers",
+        type=int,
+        default=3,
+        help="Concurrent polygons per country (default: 3; Wikidata throttles >~50 req/s)",
+    )
     args = parser.parse_args()
 
     # When no countries given, get the list from the source dataset on HF
@@ -214,7 +220,7 @@ def main() -> None:
     failed = []
     for country in countries:
         try:
-            c, report = process_one(country, timeout_s=args.per_step_timeout)
+            c, report = process_one(country, timeout_s=args.per_step_timeout, max_workers=args.max_workers)
             if report.ok and not report.skipped:
                 succeeded.append(c)
             elif report.skipped:
@@ -224,7 +230,7 @@ def main() -> None:
                 # continue to next country (don't abort on a single failure)
         except Exception as exc:
             print(f"\nEXCEPTION for {country}: {exc}")
-            failed.append(c)
+            failed.append(country)
 
     print(f"\n=== summary ===")
     print(f"  succeeded: {len(succeeded)} -> {succeeded}")
